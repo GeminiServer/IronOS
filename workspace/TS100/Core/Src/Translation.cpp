@@ -30,48 +30,48 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x16 -> p
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x17 -> d
 0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x18 -> u
-0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x19 -> m
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1A -> S
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x19 -> S
+0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x1A -> m
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x1B -> g
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1C -> c
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x1D -> C
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1E -> T
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x1F -> w
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1D -> T
+0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x1E -> w
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x1F -> C
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x20 -> h
 0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x21 -> f
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x22 -> .
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x23 -> b
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x24 -> v
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x25 -> P
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x26 -> D
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x27 -> M
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x28 -> A
-0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x29 -> y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2A -> O
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x2B -> H
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2C -> B
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x2D -> !
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x22 -> b
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x23 -> v
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x24 -> P
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x25 -> D
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x26 -> =
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x27 -> .
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x28 -> M
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x29 -> B
+0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x2A -> y
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> O
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x2C -> A
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x2D -> H
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2E -> >
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2F -> <
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x30 -> W
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x31 -> V
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x32 -> R
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x33 -> I
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x34 -> :
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x35 -> U
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x36 -> L
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x37 -> F
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x38 -> k
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x39 -> E
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x3A -> =
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x30 -> !
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x31 -> F
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x32 -> W
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x33 -> R
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x34 -> L
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x35 -> I
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x36 -> :
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x37 -> V
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x38 -> U
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x39 -> k
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x3A -> E
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3B -> ?
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x3C -> ,
+0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3C -> "
 0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3D -> z
 0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x3E -> x
 0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x3F -> N
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x40 -> -
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x41 -> G
-0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x42 -> "
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x42 -> ,
 0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x43 -> j
 0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x44 -> Z
 0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x45 -> Y
@@ -103,48 +103,48 @@ const uint8_t USER_FONT_6x8[] = {
 0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x16 -> p
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x17 -> d
 0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x18 -> u
-0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x19 -> m
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1A -> S
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x19 -> S
+0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x1A -> m
 0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x1B -> g
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1C -> c
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x1D -> C
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1E -> T
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x1F -> w
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1D -> T
+0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x1E -> w
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x1F -> C
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x20 -> h
 0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x21 -> f
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x22 -> .
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x23 -> b
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x24 -> v
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x25 -> P
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x26 -> D
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x27 -> M
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x28 -> A
-0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x29 -> y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2A -> O
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x2B -> H
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2C -> B
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x2D -> !
+0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x22 -> b
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x23 -> v
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x24 -> P
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x25 -> D
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x26 -> =
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x27 -> .
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x28 -> M
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x29 -> B
+0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x2A -> y
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2B -> O
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x2C -> A
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x2D -> H
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2E -> >
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2F -> <
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x30 -> W
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x31 -> V
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x32 -> R
-0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x33 -> I
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x34 -> :
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x35 -> U
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x36 -> L
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x37 -> F
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x38 -> k
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x39 -> E
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x3A -> =
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x30 -> !
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x31 -> F
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x32 -> W
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x33 -> R
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x34 -> L
+0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x35 -> I
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x36 -> :
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x37 -> V
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x38 -> U
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x39 -> k
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x3A -> E
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3B -> ?
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x3C -> ,
+0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x3C -> "
 0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3D -> z
 0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x3E -> x
 0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x3F -> N
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x40 -> -
 0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x41 -> G
-0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x42 -> "
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x42 -> ,
 0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x43 -> j
 0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x44 -> Z
 0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x45 -> Y
@@ -155,147 +155,148 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- English ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x25\x10\x1F\x0C\x14\x0D\x12\x10\x18\x14\x1C\x0C\x22\x0D\x1A\x0C\x0E\x12\x0D\x1C\x18\x0E\x10\x21\x21\x0D\x24\x10\x15\x0E\x13\x1B\x0C\x22\x0D\x2F\x26\x1D\x0D\x03\x02\x31\x2E\x0D\x2F\x1A\x0D\x05\x22\x05\x31\x0D\x16\x0C\x14\x0D\x1C\x0C\x15\x15\x3C\x0D\x17\x0F\x12\x13\x23\x15\x0C\x0D\x16\x10\x1F\x0C\x14\x0D\x15\x0F\x19\x0F\x0E\x2E",//Power source. Sets cutoff voltage. <DC 10V> <S 3.3V per cell, disable power limit> 
-  /* SleepTemperature          */ "\x1A\x15\x0C\x0C\x16\x0D\x1E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x2F\x1D\x2E",//Sleep Temperature <C> 
-  /* SleepTimeout              */ "\x1A\x15\x0C\x0C\x16\x0D\x1E\x0F\x19\x0C\x10\x18\x0E\x0D\x2F\x27\x0F\x11\x18\x0E\x0C\x12\x47\x1A\x0C\x1C\x10\x11\x17\x12\x2E",//Sleep Timeout <Minutes/Seconds> 
-  /* ShutdownTimeout           */ "\x1A\x20\x18\x0E\x17\x10\x1F\x11\x0D\x1E\x0F\x19\x0C\x10\x18\x0E\x0D\x2F\x27\x0F\x11\x18\x0E\x0C\x12\x2E",//Shutdown Timeout <Minutes> 
-  /* MotionSensitivity         */ "\x27\x10\x0E\x0F\x10\x11\x0D\x1A\x0C\x11\x12\x0F\x0E\x0F\x24\x0F\x0E\x29\x0D\x2F\x02\x22\x2A\x21\x21\x0D\x03\x22\x15\x0C\x13\x12\x0E\x0D\x12\x0C\x11\x12\x0F\x0E\x0F\x24\x0C\x0D\x0B\x22\x19\x10\x12\x0E\x0D\x12\x0C\x11\x12\x0F\x0E\x0F\x24\x0C\x2E",//Motion Sensitivity <0.Off 1.least sensitive 9.most sensitive> 
-  /* TemperatureUnit           */ "\x1E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x35\x11\x0F\x0E\x0D\x2F\x1D\x3A\x1D\x0C\x15\x12\x0F\x18\x12\x0D\x37\x3A\x37\x13\x20\x14\x0C\x11\x20\x0C\x0F\x0E\x2E",//Temperature Unit <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x26\x0F\x12\x16\x15\x13\x29\x0D\x17\x0C\x0E\x13\x0F\x15\x0C\x17\x0D\x0F\x11\x21\x10\x14\x19\x13\x0E\x0F\x10\x11\x0D\x0F\x11\x0D\x13\x0D\x12\x19\x13\x15\x15\x0C\x14\x0D\x21\x10\x11\x0E\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x0F\x17\x15\x0C\x0D\x12\x1C\x14\x0C\x0C\x11\x22",//Display detailed information in a smaller font on the idle screen. 
-  /* DisplayRotation           */ "\x26\x0F\x12\x16\x15\x13\x29\x0D\x2A\x14\x0F\x0C\x11\x0E\x13\x0E\x0F\x10\x11\x0D\x2F\x28\x22\x0D\x28\x18\x0E\x10\x19\x13\x0E\x0F\x1C\x0D\x36\x22\x0D\x36\x0C\x21\x0E\x0D\x2B\x13\x11\x17\x0C\x17\x0D\x32\x22\x0D\x32\x0F\x1B\x20\x0E\x0D\x2B\x13\x11\x17\x0C\x17\x2E",//Display Orientation <A. Automatic L. Left Handed R. Right Handed> 
-  /* BoostEnabled              */ "\x39\x11\x13\x23\x15\x0C\x0D\x21\x14\x10\x11\x0E\x0D\x38\x0C\x29\x0D\x0C\x11\x0E\x0C\x14\x12\x0D\x23\x10\x10\x12\x0E\x0D\x19\x10\x17\x0C\x0D\x06\x07\x02\x1D\x0D\x19\x10\x17\x0C\x0D\x1F\x20\x0C\x11\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B",//Enable front key enters boost mode 450C mode when soldering 
-  /* BoostTemperature          */ "\x1E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x1F\x20\x0C\x11\x0D\x0F\x11\x0D\x42\x23\x10\x10\x12\x0E\x42\x0D\x19\x10\x17\x0C",//Temperature when in "boost" mode 
-  /* AutoStart                 */ "\x28\x18\x0E\x10\x19\x13\x0E\x0F\x1C\x13\x15\x15\x29\x0D\x12\x0E\x13\x14\x0E\x12\x0D\x0E\x20\x0C\x0D\x0F\x14\x10\x11\x0D\x0F\x11\x0E\x10\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B\x0D\x10\x11\x0D\x16\x10\x1F\x0C\x14\x0D\x18\x16\x22\x0D\x28\x3A\x1A\x10\x15\x17\x0C\x14\x0F\x11\x1B\x3C\x0D\x1A\x3A\x0D\x1A\x15\x0C\x0C\x16\x0D\x19\x10\x17\x0C\x3C\x0D\x27\x3A\x2A\x21\x21",//Automatically starts the iron into soldering on power up. A=Soldering, S= Sleep mode, M=Off 
-  /* CooldownBlink             */ "\x2C\x15\x0F\x11\x38\x0D\x0E\x20\x0C\x0D\x0E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x1C\x10\x10\x15\x0F\x11\x1B\x0D\x12\x1C\x14\x0C\x0C\x11\x0D\x1F\x20\x0F\x15\x0C\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16\x0D\x0F\x12\x0D\x12\x0E\x0F\x15\x15\x0D\x20\x10\x0E\x22",//Blink the temperature on the cooling screen while the tip is still hot. 
-  /* TemperatureCalibration    */ "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0C\x0D\x0E\x0F\x16\x0D\x10\x21\x21\x12\x0C\x0E\x22",//Calibrate tip offset. 
-  /* SettingsReset             */ "\x32\x0C\x12\x0C\x0E\x0D\x13\x15\x15\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Reset all settings 
-  /* VoltageCalibration        */ "\x31\x33\x3F\x0D\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11\x22\x0D\x2C\x18\x0E\x0E\x10\x11\x12\x0D\x13\x17\x43\x18\x12\x0E\x3C\x0D\x15\x10\x11\x1B\x0D\x16\x14\x0C\x12\x12\x0D\x0E\x10\x0D\x0C\x3E\x0F\x0E",//VIN Calibration. Buttons adjust, long press to exit 
-  /* AdvancedSoldering         */ "\x26\x0F\x12\x16\x15\x13\x29\x0D\x17\x0C\x0E\x13\x0F\x15\x0C\x17\x0D\x0F\x11\x21\x10\x14\x19\x13\x0E\x0F\x10\x11\x0D\x1F\x20\x0F\x15\x0C\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B",//Display detailed information while soldering 
-  /* ScrollingSpeed            */ "\x1A\x16\x0C\x0C\x17\x0D\x0E\x20\x0F\x12\x0D\x0E\x0C\x3E\x0E\x0D\x12\x1C\x14\x10\x15\x15\x12\x0D\x16\x13\x12\x0E\x0D\x13\x0E",//Speed this text scrolls past at 
-  /* TipModel                  */ "\x1E\x0F\x16\x0D\x27\x10\x17\x0C\x15\x0D\x12\x0C\x15\x0C\x1C\x0E\x0F\x10\x11",//Tip Model selection 
-  /* SimpleCalibrationMode     */ "\x1A\x0F\x19\x16\x15\x0C\x0D\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11\x0D\x18\x12\x0F\x11\x1B\x0D\x2B\x10\x0E\x0D\x1F\x13\x0E\x0C\x14",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x28\x17\x24\x13\x11\x1C\x0C\x17\x0D\x1C\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11\x0D\x18\x12\x0F\x11\x1B\x0D\x0E\x20\x0C\x14\x19\x10\x1C\x10\x18\x16\x15\x0C\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x25\x10\x1F\x0C\x14\x0D\x30\x13\x0E\x0E\x13\x1B\x0C\x0D\x10\x21\x0D\x0E\x20\x0C\x0D\x16\x10\x1F\x0C\x14\x0D\x13\x17\x13\x16\x0E\x0C\x14\x0D\x18\x12\x0C\x17",//Power Wattage of the power adapter used 
-  /* PowerLimitEnable          */ "\x39\x11\x13\x23\x15\x0C\x0D\x16\x10\x1F\x0C\x14\x0D\x15\x0F\x19\x0F\x0E",//Enable power limit 
-  /* PowerLimit                */ "\x27\x13\x3E\x0F\x19\x18\x19\x0D\x16\x10\x1F\x0C\x14\x0D\x0E\x20\x0C\x0D\x0F\x14\x10\x11\x0D\x1C\x13\x11\x0D\x18\x12\x0C\x0D\x2F\x30\x13\x0E\x0E\x12\x2E",//Maximum power the iron can use <Watts> 
+  /* PowerSource               */ "\x24\x10\x1E\x0C\x14\x0D\x12\x10\x18\x14\x1C\x0C\x27\x0D\x19\x0C\x0E\x12\x0D\x1C\x18\x0E\x10\x21\x21\x0D\x23\x10\x15\x0E\x13\x1B\x0C\x27\x0D\x2F\x25\x1F\x0D\x03\x02\x37\x2E\x0D\x2F\x19\x0D\x05\x27\x05\x37\x0D\x16\x0C\x14\x0D\x1C\x0C\x15\x15\x42\x0D\x17\x0F\x12\x13\x22\x15\x0C\x0D\x16\x10\x1E\x0C\x14\x0D\x15\x0F\x1A\x0F\x0E\x2E",//Power source. Sets cutoff voltage. <DC 10V> <S 3.3V per cell, disable power limit> 
+  /* SleepTemperature          */ "\x19\x15\x0C\x0C\x16\x0D\x1D\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C",//Sleep Temperature 
+  /* SleepTimeout              */ "\x19\x15\x0C\x0C\x16\x0D\x1D\x0F\x1A\x0C\x10\x18\x0E\x0D\x2F\x28\x0F\x11\x18\x0E\x0C\x12\x47\x19\x0C\x1C\x10\x11\x17\x12\x2E",//Sleep Timeout <Minutes/Seconds> 
+  /* ShutdownTimeout           */ "\x19\x20\x18\x0E\x17\x10\x1E\x11\x0D\x1D\x0F\x1A\x0C\x10\x18\x0E\x0D\x2F\x28\x0F\x11\x18\x0E\x0C\x12\x2E",//Shutdown Timeout <Minutes> 
+  /* MotionSensitivity         */ "\x28\x10\x0E\x0F\x10\x11\x0D\x19\x0C\x11\x12\x0F\x0E\x0F\x23\x0F\x0E\x2A\x0D\x2F\x02\x26\x2B\x21\x21\x0D\x03\x26\x34\x0C\x13\x12\x0E\x0D\x19\x0C\x11\x12\x0F\x0E\x0F\x23\x0C\x0D\x0B\x26\x28\x10\x12\x0E\x0D\x19\x0C\x11\x12\x0F\x0E\x0F\x23\x0C\x2E",//Motion Sensitivity <0=Off 1=Least Sensitive 9=Most Sensitive> 
+  /* TemperatureUnit           */ "\x1D\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x38\x11\x0F\x0E\x0D\x2F\x1F\x26\x1F\x0C\x15\x12\x0F\x18\x12\x0D\x31\x26\x31\x13\x20\x14\x0C\x11\x20\x0C\x0F\x0E\x2E",//Temperature Unit <C=Celsius F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x25\x0F\x12\x16\x15\x13\x2A\x0D\x17\x0C\x0E\x13\x0F\x15\x0C\x17\x0D\x0F\x11\x21\x10\x14\x1A\x13\x0E\x0F\x10\x11\x0D\x0F\x11\x0D\x13\x0D\x12\x1A\x13\x15\x15\x0C\x14\x0D\x21\x10\x11\x0E\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x0F\x17\x15\x0C\x0D\x12\x1C\x14\x0C\x0C\x11\x27",//Display detailed information in a smaller font on the idle screen. 
+  /* DisplayRotation           */ "\x25\x0F\x12\x16\x15\x13\x2A\x0D\x2B\x14\x0F\x0C\x11\x0E\x13\x0E\x0F\x10\x11\x0D\x2F\x2C\x26\x2C\x18\x0E\x10\x1A\x13\x0E\x0F\x1C\x0D\x34\x26\x34\x0C\x21\x0E\x0D\x2D\x13\x11\x17\x0C\x17\x0D\x33\x26\x33\x0F\x1B\x20\x0E\x0D\x2D\x13\x11\x17\x0C\x17\x2E",//Display Orientation <A=Automatic L=Left Handed R=Right Handed> 
+  /* BoostEnabled              */ "\x3A\x11\x13\x22\x15\x0C\x0D\x21\x14\x10\x11\x0E\x0D\x39\x0C\x2A\x0D\x15\x10\x11\x1B\x0D\x16\x14\x0C\x12\x12\x0D\x3C\x29\x10\x10\x12\x0E\x3C\x0D\x1A\x10\x17\x0C\x0D\x1E\x20\x0C\x11\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B",//Enable front key long press "Boost" mode when soldering 
+  /* BoostTemperature          */ "\x1D\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x1E\x20\x0C\x11\x0D\x0F\x11\x0D\x3C\x29\x10\x10\x12\x0E\x3C\x0D\x1A\x10\x17\x0C",//Temperature when in "Boost" mode 
+  /* AutoStart                 */ "\x2C\x18\x0E\x10\x1A\x13\x0E\x0F\x1C\x13\x15\x15\x2A\x0D\x12\x0E\x13\x14\x0E\x12\x0D\x0E\x20\x0C\x0D\x0F\x14\x10\x11\x0D\x0F\x11\x0E\x10\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B\x0D\x10\x11\x0D\x16\x10\x1E\x0C\x14\x0D\x18\x16\x0D\x2F\x1D\x26\x19\x10\x15\x17\x0C\x14\x0F\x11\x1B\x0D\x19\x26\x19\x15\x0C\x0C\x16\x0D\x31\x26\x2B\x21\x21\x2E",//Automatically starts the iron into soldering on power up <T=Soldering S=Sleep F=Off> 
+  /* CooldownBlink             */ "\x29\x15\x0F\x11\x39\x0D\x0E\x20\x0C\x0D\x0E\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x1C\x10\x10\x15\x0F\x11\x1B\x0D\x12\x1C\x14\x0C\x0C\x11\x0D\x1E\x20\x0F\x15\x0C\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16\x0D\x0F\x12\x0D\x12\x0E\x0F\x15\x15\x0D\x20\x10\x0E\x27",//Blink the temperature on the cooling screen while the tip is still hot. 
+  /* TemperatureCalibration    */ "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0C\x0D\x0E\x0F\x16\x0D\x10\x21\x21\x12\x0C\x0E\x27",//Calibrate tip offset. 
+  /* SettingsReset             */ "\x33\x0C\x12\x0C\x0E\x0D\x13\x15\x15\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Reset all settings 
+  /* VoltageCalibration        */ "\x37\x35\x3F\x0D\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11\x27\x0D\x29\x18\x0E\x0E\x10\x11\x12\x0D\x13\x17\x43\x18\x12\x0E\x42\x0D\x15\x10\x11\x1B\x0D\x16\x14\x0C\x12\x12\x0D\x0E\x10\x0D\x0C\x3E\x0F\x0E",//VIN Calibration. Buttons adjust, long press to exit 
+  /* AdvancedSoldering         */ "\x25\x0F\x12\x16\x15\x13\x2A\x0D\x17\x0C\x0E\x13\x0F\x15\x0C\x17\x0D\x0F\x11\x21\x10\x14\x1A\x13\x0E\x0F\x10\x11\x0D\x1E\x20\x0F\x15\x0C\x0D\x12\x10\x15\x17\x0C\x14\x0F\x11\x1B",//Display detailed information while soldering 
+  /* ScrollingSpeed            */ "\x19\x16\x0C\x0C\x17\x0D\x0E\x20\x0F\x12\x0D\x0E\x0C\x3E\x0E\x0D\x12\x1C\x14\x10\x15\x15\x12\x0D\x16\x13\x12\x0E\x0D\x13\x0E\x0D\x2F\x19\x26\x19\x15\x10\x1E\x0D\x31\x26\x31\x13\x12\x0E\x2E",//Speed this text scrolls past at <S=Slow F=Fast> 
+  /* TipModel                  */ "\x1D\x0F\x16\x0D\x28\x10\x17\x0C\x15\x0D\x12\x0C\x15\x0C\x1C\x0E\x0F\x10\x11",//Tip Model selection 
+  /* SimpleCalibrationMode     */ "\x19\x0F\x1A\x16\x15\x0C\x0D\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11\x0D\x18\x12\x0F\x11\x1B\x0D\x2D\x10\x0E\x0D\x1E\x13\x0E\x0C\x14",//Simple Calibration using Hot water 
+  /* AdvancedCalibrationMode   */ "\x2C\x17\x23\x13\x11\x1C\x0C\x17\x0D\x1C\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11\x0D\x18\x12\x0F\x11\x1B\x0D\x0E\x20\x0C\x14\x1A\x10\x1C\x10\x18\x16\x15\x0C\x0D\x10\x11\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16",//Advanced calibration using thermocouple on the tip 
+  /* PowerInput                */ "\x24\x10\x1E\x0C\x14\x0D\x32\x13\x0E\x0E\x13\x1B\x0C\x0D\x10\x21\x0D\x0E\x20\x0C\x0D\x16\x10\x1E\x0C\x14\x0D\x13\x17\x13\x16\x0E\x0C\x14\x0D\x18\x12\x0C\x17",//Power Wattage of the power adapter used 
+  /* PowerLimitEnable          */ "\x3A\x11\x13\x22\x15\x0C\x0D\x16\x10\x1E\x0C\x14\x0D\x15\x0F\x1A\x0F\x0E",//Enable power limit 
+  /* PowerLimit                */ "\x28\x13\x3E\x0F\x1A\x18\x1A\x0D\x16\x10\x1E\x0C\x14\x0D\x0E\x20\x0C\x0D\x0F\x14\x10\x11\x0D\x1C\x13\x11\x0D\x18\x12\x0C\x0D\x2F\x32\x13\x0E\x0E\x12\x2E",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11\x0D\x17\x10\x11\x0C\x2D";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x25\x15\x0C\x13\x12\x0C\x0D\x0C\x11\x12\x18\x14\x0C\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16\x0D\x0F\x12\x0D\x13\x0E\x0D\x14\x10\x10\x19\x0D\x0E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x23\x0C\x21\x10\x14\x0C\x0D\x1C\x10\x11\x0E\x0F\x11\x18\x0F\x11\x1B\x2D";//Please ensure the tip is at room temperature before continuing! 
-const char* SettingsResetWarning = "\x28\x14\x0C\x0D\x29\x10\x18\x0D\x12\x18\x14\x0C\x0D\x29\x10\x18\x0D\x1F\x13\x11\x0E\x0D\x0E\x10\x0D\x14\x0C\x12\x0C\x0E\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12\x0D\x0E\x10\x0D\x17\x0C\x21\x13\x18\x15\x0E\x0D\x24\x13\x15\x18\x0C\x12\x3B";//Are you sure you want to reset settings to default values? 
-const char* UVLOWarningString = "\x26\x1D\x0D\x36\x2A\x30";//DC LOW 
-const char* UndervoltageString = "\x35\x11\x17\x0C\x14\x24\x10\x15\x0E\x13\x1B\x0C";//Undervoltage 
-const char* InputVoltageString = "\x33\x11\x16\x18\x0E\x0D\x31\x34\x0D";//Input V:  
-const char* WarningTipTempString = "\x1E\x0F\x16\x0D\x1E\x0C\x19\x16\x34\x0D";//Tip Temp:  
-const char* BadTipString = "\x2C\x28\x26\x0D\x1E\x33\x25";//BAD TIP 
+const char* SettingsCalibrationDone = "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11\x0D\x17\x10\x11\x0C\x30";//Calibration done! 
+const char* SettingsCalibrationWarning = "\x24\x15\x0C\x13\x12\x0C\x0D\x0C\x11\x12\x18\x14\x0C\x0D\x0E\x20\x0C\x0D\x0E\x0F\x16\x0D\x0F\x12\x0D\x13\x0E\x0D\x14\x10\x10\x1A\x0D\x0E\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C\x0D\x22\x0C\x21\x10\x14\x0C\x0D\x1C\x10\x11\x0E\x0F\x11\x18\x0F\x11\x1B\x30";//Please ensure the tip is at room temperature before continuing! 
+const char* SettingsResetWarning = "\x2C\x14\x0C\x0D\x2A\x10\x18\x0D\x12\x18\x14\x0C\x0D\x2A\x10\x18\x0D\x1E\x13\x11\x0E\x0D\x0E\x10\x0D\x14\x0C\x12\x0C\x0E\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12\x0D\x0E\x10\x0D\x17\x0C\x21\x13\x18\x15\x0E\x0D\x23\x13\x15\x18\x0C\x12\x3B";//Are you sure you want to reset settings to default values? 
+const char* UVLOWarningString = "\x25\x1F\x0D\x34\x2B\x32";//DC LOW 
+const char* UndervoltageString = "\x38\x11\x17\x0C\x14\x23\x10\x15\x0E\x13\x1B\x0C";//Undervoltage 
+const char* InputVoltageString = "\x35\x11\x16\x18\x0E\x0D\x37\x36\x0D";//Input V:  
+const char* WarningTipTempString = "\x1D\x0F\x16\x0D\x1D\x0C\x1A\x16\x36\x0D";//Tip Temp:  
+const char* BadTipString = "\x29\x2C\x25\x0D\x1D\x35\x24";//BAD TIP 
 const char* SleepingSimpleString = "\x44\x3D\x3D\x3D";//Zzzz 
-const char* SleepingAdvancedString = "\x1A\x15\x0C\x0C\x16\x0F\x11\x1B\x22\x22\x22";//Sleeping... 
-const char* WarningSimpleString = "\x2B\x2A\x1E\x2D";//HOT! 
-const char* WarningAdvancedString = "\x2D\x2D\x2D\x0D\x1E\x33\x25\x0D\x2B\x2A\x1E\x0D\x2D\x2D\x2D";//!!! TIP HOT !!! 
-const char* SleepingTipAdvancedString = "\x1E\x0F\x16\x34";//Tip: 
-const char* IdleTipString = "\x1E\x0F\x16\x34";//Tip: 
-const char* IdleSetString = "\x0D\x1A\x0C\x0E\x34";// Set: 
-const char* TipDisconnectedString = "\x1E\x33\x25\x0D\x26\x33\x1A\x1D\x2A\x3F\x3F\x39\x1D\x1E\x39\x26";//TIP DISCONNECTED 
-const char* SolderingAdvancedPowerPrompt = "\x25\x10\x1F\x0C\x14\x34\x0D";//Power:  
-const char* OffString = "\x2A\x21\x21";//Off 
-const char* ResetOKMessage = "\x32\x0C\x12\x0C\x0E\x0D\x2A\x46";//Reset OK 
-const char* YourGainMessage = "\x45\x10\x18\x14\x0D\x41\x13\x0F\x11\x34";//Your Gain: 
-const char* SettingsResetMessage = "\x1A\x0C\x0E\x0E\x0F\x11\x1B\x12\x0D\x1F\x0C\x14\x0C\x01\x14\x0C\x12\x0C\x0E\x2D";//Settings were_reset! 
+const char* SleepingAdvancedString = "\x19\x15\x0C\x0C\x16\x0F\x11\x1B\x27\x27\x27";//Sleeping... 
+const char* WarningSimpleString = "\x2D\x2B\x1D\x30";//HOT! 
+const char* WarningAdvancedString = "\x30\x30\x30\x0D\x1D\x35\x24\x0D\x2D\x2B\x1D\x0D\x30\x30\x30";//!!! TIP HOT !!! 
+const char* SleepingTipAdvancedString = "\x1D\x0F\x16\x36";//Tip: 
+const char* IdleTipString = "\x1D\x0F\x16\x36";//Tip: 
+const char* IdleSetString = "\x0D\x19\x0C\x0E\x36";// Set: 
+const char* TipDisconnectedString = "\x1D\x35\x24\x0D\x25\x35\x19\x1F\x2B\x3F\x3F\x3A\x1F\x1D\x3A\x25";//TIP DISCONNECTED 
+const char* SolderingAdvancedPowerPrompt = "\x24\x10\x1E\x0C\x14\x36\x0D";//Power:  
+const char* OffString = "\x2B\x21\x21";//Off 
+const char* ResetOKMessage = "\x33\x0C\x12\x0C\x0E\x0D\x2B\x46";//Reset OK 
+const char* YourGainMessage = "\x45\x10\x18\x14\x0D\x41\x13\x0F\x11\x36";//Your Gain: 
+const char* SettingsResetMessage = "\x19\x0C\x0E\x0E\x0F\x11\x1B\x12\x0D\x1E\x0C\x14\x0C\x01\x14\x0C\x12\x0C\x0E\x30";//Settings were_reset! 
 
-const char* SettingRightChar = "\x32";//R 
-const char* SettingLeftChar = "\x36";//L 
-const char* SettingAutoChar = "\x28";//A 
-const char* SettingFastChar = "\x37";//F 
-const char* SettingSlowChar = "\x1A";//S 
-const char* SettingStartSolderingChar = "\x1E";//T 
-const char* SettingStartSleepChar = "\x1A";//S 
-const char* SettingStartNoneChar = "\x37";//F 
+const char* SettingRightChar = "\x33";//R 
+const char* SettingLeftChar = "\x34";//L 
+const char* SettingAutoChar = "\x2C";//A 
+const char* SettingFastChar = "\x31";//F 
+const char* SettingSlowChar = "\x19";//S 
+const char* SettingStartSolderingChar = "\x1D";//T 
+const char* SettingStartSleepChar = "\x19";//S 
+const char* SettingStartSleepOffChar = "\x2B";//O 
+const char* SettingStartNoneChar = "\x31";//F 
 
 const char* SymbolPlus = "\x48";//+ 
 const char* SymbolMinus = "\x40";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x22";//. 
-const char* SymbolDegC = "\x1D";//C 
-const char* SymbolDegF = "\x37";//F 
-const char* SymbolMinutes = "\x27";//M 
-const char* SymbolSeconds = "\x1A";//S 
-const char* SymbolWatts = "\x30";//W 
-const char* SymbolVolts = "\x31";//V 
-const char* SymbolDC = "\x26\x1D";//DC 
-const char* SymbolCellCount = "\x1A";//S 
-const char* SymbolVersionNumber = "\x31\x04\x22\x02\x0A";//V2.08 
+const char* SymbolDot = "\x27";//. 
+const char* SymbolDegC = "\x1F";//C 
+const char* SymbolDegF = "\x31";//F 
+const char* SymbolMinutes = "\x28";//M 
+const char* SymbolSeconds = "\x19";//S 
+const char* SymbolWatts = "\x32";//W 
+const char* SymbolVolts = "\x37";//V 
+const char* SymbolDC = "\x25\x1F";//DC 
+const char* SymbolCellCount = "\x19";//S 
+const char* SymbolVersionNumber = "\x23\x04\x27\x02\x0A\x27\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x2C\x02\x04",//B02 
-	 "\x26\x04\x06",//D24 
-	 "\x2C\x1D\x04",//BC2 
-	 "\x0D\x1D\x03",// C1 
-	 "\x1E\x1A\x03\x02\x02",//TS100 
-	 "\x2C\x1D\x04",//BC2 
-	 "\x2B\x13\x38\x38\x10",//Hakko 
-	 "\x35\x12\x0C\x14",//User 
+	 "\x29\x02\x04",//B02 
+	 "\x25\x04\x06",//D24 
+	 "\x29\x1F\x04",//BC2 
+	 "\x0D\x1F\x03",// C1 
+	 "\x1D\x19\x03\x02\x02",//TS100 
+	 "\x29\x1F\x04",//BC2 
+	 "\x2D\x13\x39\x39\x10",//Hakko 
+	 "\x38\x12\x0C\x14",//User 
 #else
-	 "\x2C\x02\x04",//B02 
-	 "\x26\x04\x07",//D25 
-	 "\x1E\x1A\x0A\x02",//TS80 
-	 "\x35\x12\x0C\x14",//User 
+	 "\x29\x02\x04",//B02 
+	 "\x25\x04\x07",//D25 
+	 "\x1D\x19\x0A\x02",//TS80 
+	 "\x38\x12\x0C\x14",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x40\x02\x03\x40\x04\x02",//18-01-20 
-	 "\x2B\x30\x0D\x41\x0D",//HW G  
-	 "\x2B\x30\x0D\x27\x0D",//HW M  
-	 "\x2B\x30\x0D\x25\x0D",//HW P  
-	 "\x1E\x0F\x19\x0C\x0D",//Time  
-	 "\x27\x10\x24\x0C\x0D",//Move  
-	 "\x32\x1E\x0F\x16\x0D",//RTip  
-	 "\x1D\x1E\x0F\x16\x0D",//CTip  
-	 "\x1D\x2B\x13\x11\x0D",//CHan  
-	 "\x31\x0F\x11\x0D\x0D",//Vin   
-	 "\x25\x1D\x2C\x0D\x0D",//PCB   
+	 "\x03\x06\x40\x02\x05\x40\x04\x02",//14-03-20 
+	 "\x2D\x32\x0D\x41\x0D",//HW G  
+	 "\x2D\x32\x0D\x28\x0D",//HW M  
+	 "\x2D\x32\x0D\x24\x0D",//HW P  
+	 "\x1D\x0F\x1A\x0C\x0D",//Time  
+	 "\x28\x10\x23\x0C\x0D",//Move  
+	 "\x33\x1D\x0F\x16\x0D",//RTip  
+	 "\x1F\x1D\x0F\x16\x0D",//CTip  
+	 "\x1F\x2D\x13\x11\x0D",//CHan  
+	 "\x37\x0F\x11\x0D\x0D",//Vin   
+	 "\x24\x1F\x29\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x25\x10\x1F\x0C\x14", "\x12\x10\x18\x14\x1C\x0C" },//['Power', 'source'] 
-  /* SleepTemperature          */ { "\x1A\x15\x0C\x0C\x16", "\x0E\x0C\x19\x16" },//['Sleep', 'temp'] 
-  /* SleepTimeout              */ { "\x1A\x15\x0C\x0C\x16", "\x0E\x0F\x19\x0C\x10\x18\x0E" },//['Sleep', 'timeout'] 
-  /* ShutdownTimeout           */ { "\x1A\x20\x18\x0E\x17\x10\x1F\x11", "\x0E\x0F\x19\x0C\x10\x18\x0E" },//['Shutdown', 'timeout'] 
-  /* MotionSensitivity         */ { "\x27\x10\x0E\x0F\x10\x11", "\x12\x0C\x11\x12\x0F\x0E\x0F\x24\x0F\x0E\x29" },//['Motion', 'sensitivity'] 
-  /* TemperatureUnit           */ { "\x1E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C", "\x18\x11\x0F\x0E\x12" },//['Temperature', 'units'] 
-  /* AdvancedIdle              */ { "\x26\x0C\x0E\x13\x0F\x15\x0C\x17", "\x0F\x17\x15\x0C\x0D\x12\x1C\x14\x0C\x0C\x11" },//['Detailed', 'idle screen'] 
-  /* DisplayRotation           */ { "\x26\x0F\x12\x16\x15\x13\x29", "\x10\x14\x0F\x0C\x11\x0E\x13\x0E\x0F\x10\x11" },//['Display', 'orientation'] 
-  /* BoostEnabled              */ { "\x2C\x10\x10\x12\x0E\x0D\x19\x10\x17\x0C", "\x0C\x11\x13\x23\x15\x0C\x17" },//['Boost mode', 'enabled'] 
-  /* BoostTemperature          */ { "\x2C\x10\x10\x12\x0E", "\x0E\x0C\x19\x16" },//['Boost', 'temp'] 
-  /* AutoStart                 */ { "\x28\x18\x0E\x10", "\x12\x0E\x13\x14\x0E" },//['Auto', 'start'] 
-  /* CooldownBlink             */ { "\x1D\x10\x10\x15\x17\x10\x1F\x11", "\x23\x15\x0F\x11\x38" },//['Cooldown', 'blink'] 
-  /* TemperatureCalibration    */ { "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0C", "\x0E\x0C\x19\x16\x0C\x14\x13\x0E\x18\x14\x0C\x3B" },//['Calibrate', 'temperature?'] 
-  /* SettingsReset             */ { "\x37\x13\x1C\x0E\x10\x14\x29", "\x32\x0C\x12\x0C\x0E\x3B" },//['Factory', 'Reset?'] 
-  /* VoltageCalibration        */ { "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0C", "\x0F\x11\x16\x18\x0E\x0D\x24\x10\x15\x0E\x13\x1B\x0C\x3B" },//['Calibrate', 'input voltage?'] 
-  /* AdvancedSoldering         */ { "\x26\x0C\x0E\x13\x0F\x15\x0C\x17", "\x12\x10\x15\x17\x0C\x14\x0D\x12\x1C\x14\x0C\x0C\x11" },//['Detailed', 'solder screen'] 
-  /* ScrollingSpeed            */ { "\x1A\x1C\x14\x10\x15\x15\x0F\x11\x1B", "\x1A\x16\x0C\x0C\x17" },//['Scrolling', 'Speed'] 
-  /* TipModel                  */ { "\x1E\x0F\x16", "\x27\x10\x17\x0C\x15" },//['Tip', 'Model'] 
-  /* SimpleCalibrationMode     */ { "\x1A\x0F\x19\x16\x15\x0C", "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11" },//['Simple', 'Calibration'] 
-  /* AdvancedCalibrationMode   */ { "\x28\x17\x24\x13\x11\x1C\x0C\x17", "\x1D\x13\x15\x0F\x23\x14\x13\x0E\x0F\x10\x11" },//['Advanced', 'Calibration'] 
-  /* PowerInput                */ { "\x25\x10\x1F\x0C\x14", "\x30\x13\x0E\x0E\x13\x1B\x0C" },//['Power', 'Wattage'] 
-  /* PowerLimitEnable          */ { "\x25\x0D\x36\x0F\x19\x0F\x0E", "\x39\x11\x13\x23\x15\x0C" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x25\x10\x1F\x0C\x14", "\x36\x0F\x19\x0F\x0E" },//['Power', 'Limit'] 
+  /* PowerSource               */ { "\x24\x10\x1E\x0C\x14", "\x12\x10\x18\x14\x1C\x0C" },//['Power', 'source'] 
+  /* SleepTemperature          */ { "\x19\x15\x0C\x0C\x16", "\x0E\x0C\x1A\x16" },//['Sleep', 'temp'] 
+  /* SleepTimeout              */ { "\x19\x15\x0C\x0C\x16", "\x0E\x0F\x1A\x0C\x10\x18\x0E" },//['Sleep', 'timeout'] 
+  /* ShutdownTimeout           */ { "\x19\x20\x18\x0E\x17\x10\x1E\x11", "\x0E\x0F\x1A\x0C\x10\x18\x0E" },//['Shutdown', 'timeout'] 
+  /* MotionSensitivity         */ { "\x28\x10\x0E\x0F\x10\x11", "\x12\x0C\x11\x12\x0F\x0E\x0F\x23\x0F\x0E\x2A" },//['Motion', 'sensitivity'] 
+  /* TemperatureUnit           */ { "\x1D\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C", "\x18\x11\x0F\x0E\x12" },//['Temperature', 'units'] 
+  /* AdvancedIdle              */ { "\x25\x0C\x0E\x13\x0F\x15\x0C\x17", "\x0F\x17\x15\x0C\x0D\x12\x1C\x14\x0C\x0C\x11" },//['Detailed', 'idle screen'] 
+  /* DisplayRotation           */ { "\x25\x0F\x12\x16\x15\x13\x2A", "\x10\x14\x0F\x0C\x11\x0E\x13\x0E\x0F\x10\x11" },//['Display', 'orientation'] 
+  /* BoostEnabled              */ { "\x29\x10\x10\x12\x0E\x0D\x1A\x10\x17\x0C", "\x0C\x11\x13\x22\x15\x0C\x17" },//['Boost mode', 'enabled'] 
+  /* BoostTemperature          */ { "\x29\x10\x10\x12\x0E", "\x0E\x0C\x1A\x16" },//['Boost', 'temp'] 
+  /* AutoStart                 */ { "\x2C\x18\x0E\x10", "\x12\x0E\x13\x14\x0E" },//['Auto', 'start'] 
+  /* CooldownBlink             */ { "\x1F\x10\x10\x15\x17\x10\x1E\x11", "\x22\x15\x0F\x11\x39" },//['Cooldown', 'blink'] 
+  /* TemperatureCalibration    */ { "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0C", "\x0E\x0C\x1A\x16\x0C\x14\x13\x0E\x18\x14\x0C\x3B" },//['Calibrate', 'temperature?'] 
+  /* SettingsReset             */ { "\x31\x13\x1C\x0E\x10\x14\x2A", "\x33\x0C\x12\x0C\x0E\x3B" },//['Factory', 'Reset?'] 
+  /* VoltageCalibration        */ { "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0C", "\x0F\x11\x16\x18\x0E\x0D\x23\x10\x15\x0E\x13\x1B\x0C\x3B" },//['Calibrate', 'input voltage?'] 
+  /* AdvancedSoldering         */ { "\x25\x0C\x0E\x13\x0F\x15\x0C\x17", "\x12\x10\x15\x17\x0C\x14\x0D\x12\x1C\x14\x0C\x0C\x11" },//['Detailed', 'solder screen'] 
+  /* ScrollingSpeed            */ { "\x19\x1C\x14\x10\x15\x15\x0F\x11\x1B", "\x19\x16\x0C\x0C\x17" },//['Scrolling', 'Speed'] 
+  /* TipModel                  */ { "\x1D\x0F\x16", "\x28\x10\x17\x0C\x15" },//['Tip', 'Model'] 
+  /* SimpleCalibrationMode     */ { "\x19\x0F\x1A\x16\x15\x0C", "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11" },//['Simple', 'Calibration'] 
+  /* AdvancedCalibrationMode   */ { "\x2C\x17\x23\x13\x11\x1C\x0C\x17", "\x1F\x13\x15\x0F\x22\x14\x13\x0E\x0F\x10\x11" },//['Advanced', 'Calibration'] 
+  /* PowerInput                */ { "\x24\x10\x1E\x0C\x14", "\x32\x13\x0E\x0E\x13\x1B\x0C" },//['Power', 'Wattage'] 
+  /* PowerLimitEnable          */ { "\x24\x0D\x34\x0F\x1A\x0F\x0E", "\x3A\x11\x13\x22\x15\x0C" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x24\x10\x1E\x0C\x14", "\x34\x0F\x1A\x0F\x0E" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x1A\x10\x15\x17\x0C\x14\x0F\x11\x1B\x01\x1A\x0C\x0E\x0E\x0F\x11\x1B\x12",//['Soldering', 'Settings'] 
-  /* PowerSavingMenu           */ "\x1A\x15\x0C\x0C\x16\x01\x27\x10\x17\x0C\x12",//['Sleep', 'Modes'] 
-  /* UIMenu                    */ "\x35\x12\x0C\x14\x01\x33\x11\x0E\x0C\x14\x21\x13\x1C\x0C",//['User', 'Interface'] 
-  /* AdvancedMenu              */ "\x28\x17\x24\x13\x11\x1C\x0C\x17\x01\x2A\x16\x0E\x0F\x10\x11\x12",//['Advanced', 'Options'] 
+  /* SolderingMenu             */ "\x19\x10\x15\x17\x0C\x14\x0F\x11\x1B\x01\x19\x0C\x0E\x0E\x0F\x11\x1B\x12",//['Soldering', 'Settings'] 
+  /* PowerSavingMenu           */ "\x19\x15\x0C\x0C\x16\x01\x28\x10\x17\x0C\x12",//['Sleep', 'Modes'] 
+  /* UIMenu                    */ "\x38\x12\x0C\x14\x01\x35\x11\x0E\x0C\x14\x21\x13\x1C\x0C",//['User', 'Interface'] 
+  /* AdvancedMenu              */ "\x2C\x17\x23\x13\x11\x1C\x0C\x17\x01\x2B\x16\x0E\x0F\x10\x11\x12",//['Advanced', 'Options'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x1A\x10\x15\x17\x0C\x14\x0F\x11\x1B\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Soldering settings 
-  /* PowerSavingMenu           */ "\x25\x10\x1F\x0C\x14\x0D\x12\x13\x24\x0F\x11\x1B\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Power saving settings 
-  /* UIMenu                    */ "\x35\x12\x0C\x14\x0D\x0F\x11\x0E\x0C\x14\x21\x13\x1C\x0C\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//User interface settings 
-  /* AdvancedMenu              */ "\x28\x17\x24\x13\x11\x1C\x0C\x17\x0D\x10\x16\x0E\x0F\x10\x11\x12",//Advanced options 
+  /* SolderingMenu             */ "\x19\x10\x15\x17\x0C\x14\x0F\x11\x1B\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Soldering settings 
+  /* PowerSavingMenu           */ "\x24\x10\x1E\x0C\x14\x0D\x12\x13\x23\x0F\x11\x1B\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//Power saving settings 
+  /* UIMenu                    */ "\x38\x12\x0C\x14\x0D\x0F\x11\x0E\x0C\x14\x21\x13\x1C\x0C\x0D\x12\x0C\x0E\x0E\x0F\x11\x1B\x12",//User interface settings 
+  /* AdvancedMenu              */ "\x2C\x17\x23\x13\x11\x1C\x0C\x17\x0D\x10\x16\x0E\x0F\x10\x11\x12",//Advanced options 
 };
 
 #endif
@@ -334,9 +335,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x00,0x60,0x7F,0x3F,0x30,0x30,0x30,0x30,0x3F,0x7F,0x60,0x00,//\x1F -> д
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x20 -> o
 0x00,0xF0,0xF0,0x00,0x04,0x08,0x88,0xC4,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x21 -> й
-0x30,0x30,0xF0,0xF0,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x22 -> ъ
-0x00,0x30,0xF0,0xC0,0x00,0xF0,0xF0,0x00,0xC0,0xF0,0x30,0x00,0x00,0x30,0x3C,0x0F,0x03,0x3F,0x3F,0x03,0x0F,0x3C,0x30,0x00,//\x23 -> ж
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x24 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x22 -> .
+0x30,0x30,0xF0,0xF0,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x23 -> ъ
+0x00,0x30,0xF0,0xC0,0x00,0xF0,0xF0,0x00,0xC0,0xF0,0x30,0x00,0x00,0x30,0x3C,0x0F,0x03,0x3F,0x3F,0x03,0x0F,0x3C,0x30,0x00,//\x24 -> ж
 0x00,0x30,0xF0,0xC0,0x00,0x00,0x00,0x00,0xC0,0xF0,0x30,0x00,0x00,0x60,0xE0,0xC3,0xE7,0x7C,0x3C,0x0F,0x03,0x00,0x00,0x00,//\x25 -> у
 0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x26 -> r
 0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x27 -> n
@@ -360,14 +361,14 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x39 -> <
 0x00,0xFF,0xFF,0x00,0x00,0xC0,0xF0,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x3A -> И
 0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x3B -> w
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x3C -> V
-0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3D -> "
-0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x3E -> ф
-0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3F -> Т
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x40 -> О
-0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x41 -> u
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x42 -> b
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x43 -> W
+0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3C -> "
+0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x3D -> ф
+0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3E -> Т
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3F -> О
+0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x40 -> u
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x41 -> b
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x42 -> W
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x43 -> V
 0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x44 -> :
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x45 -> !
 0x00,0xF0,0xF0,0x00,0xE0,0xF0,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x3F,0x3F,0x03,0x1F,0x3F,0x30,0x30,0x30,0x3F,0x1F,0x00,//\x46 -> ю
@@ -390,25 +391,25 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x57 -> г
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x58 -> П
 0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x59 -> Л
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x5A -> h
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x5B -> R
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x5C -> L
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x5D -> D
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x5E -> A
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x5F -> ?
-0x03,0x03,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x60 -> Ъ
-0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x61 -> У
-0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x62 -> З
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x63 -> Е
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x64 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x5A -> v
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x5B -> h
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x5C -> R
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x5D -> L
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x5E -> D
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x5F -> A
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x60 -> ?
+0x03,0x03,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x61 -> Ъ
+0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x62 -> У
+0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x63 -> З
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x64 -> Е
 0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x65 -> f
-0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x66 -> -
-0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x67 -> ш
-0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x68 -> Ш
-0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x69 -> Ф
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x6A -> k
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x6B -> U
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x6C -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x66 -> O
+0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x67 -> -
+0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x68 -> ш
+0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x69 -> Ш
+0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x6A -> Ф
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x6B -> k
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x6C -> U
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x6D -> G
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x6E -> E
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x00,0x1F,0x1F,0x18,0x18,0x18,0x18,0x18,0x1F,0x7F,0x78,0x00,//\x6F -> Ц
@@ -455,9 +456,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x40, 0x3c, 0x24, 0x3c, 0x60, 0x00,//\x1F -> д
 0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x20 -> o
 0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x21 -> й
-0x04, 0x7c, 0x50, 0x20, 0x00, 0x00,//\x22 -> ъ
-0x6c, 0x10, 0x7c, 0x10, 0x6c, 0x00,//\x23 -> ж
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x24 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x22 -> .
+0x04, 0x7c, 0x50, 0x20, 0x00, 0x00,//\x23 -> ъ
+0x6c, 0x10, 0x7c, 0x10, 0x6c, 0x00,//\x24 -> ж
 0x4c, 0x50, 0x20, 0x10, 0x0c, 0x00,//\x25 -> у
 0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x26 -> r
 0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x27 -> n
@@ -481,14 +482,14 @@ const uint8_t USER_FONT_6x8[] = {
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x39 -> <
 0x7f, 0x10, 0x08, 0x04, 0x7f, 0x00,//\x3A -> И
 0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x3B -> w
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x3C -> V
-0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x3D -> "
-0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x3E -> ф
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x3F -> Т
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x40 -> О
-0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x41 -> u
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x42 -> b
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x43 -> W
+0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x3C -> "
+0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x3D -> ф
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x3E -> Т
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3F -> О
+0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x40 -> u
+0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x41 -> b
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x42 -> W
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x43 -> V
 0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x44 -> :
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x45 -> !
 0x7c, 0x10, 0x38, 0x44, 0x38, 0x00,//\x46 -> ю
@@ -511,25 +512,25 @@ const uint8_t USER_FONT_6x8[] = {
 0x7c, 0x04, 0x04, 0x04, 0x04, 0x00,//\x57 -> г
 0x7f, 0x01, 0x01, 0x01, 0x7f, 0x00,//\x58 -> П
 0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x59 -> Л
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x5A -> h
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x5B -> R
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x5C -> L
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x5D -> D
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x5E -> A
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x5F -> ?
-0x01, 0x7f, 0x48, 0x48, 0x30, 0x00,//\x60 -> Ъ
-0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x61 -> У
-0x00, 0x41, 0x49, 0x49, 0x36, 0x00,//\x62 -> З
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x63 -> Е
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x64 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x5A -> v
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x5B -> h
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x5C -> R
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x5D -> L
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x5E -> D
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x5F -> A
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x60 -> ?
+0x01, 0x7f, 0x48, 0x48, 0x30, 0x00,//\x61 -> Ъ
+0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x62 -> У
+0x00, 0x41, 0x49, 0x49, 0x36, 0x00,//\x63 -> З
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x64 -> Е
 0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x65 -> f
-0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x66 -> -
-0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x67 -> ш
-0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x68 -> Ш
-0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x69 -> Ф
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x6A -> k
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x6B -> U
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x6C -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x66 -> O
+0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x67 -> -
+0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x68 -> ш
+0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x69 -> Ш
+0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x6A -> Ф
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x6B -> k
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x6C -> U
 0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x6D -> G
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x6E -> E
 0x3f, 0x20, 0x20, 0x3f, 0x60, 0x00,//\x6F -> Ц
@@ -546,147 +547,148 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Български ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3A\x1E\x12\x13\x2A\x0F\x10\x14\x0C\x0F\x0D\x0C\x1E\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x24\x0C\x4D\x10\x0F\x10\x1A\x0D\x18\x0F\x13\x0C\x0F\x0D\x16\x11\x0E\x23\x0E\x0F\x10\x0E\x24\x0C\x39\x5D\x2B\x0C\x03\x02\x3C\x38\x0C\x39\x2F\x0C\x05\x24\x05\x3C\x0C\x1E\x0D\x0C\x14\x18\x0E\x12\x14\x0D\x38",//Източник на захранване. Минимално напрежение. <DC 10V> <S 3.3V за клетка> 
-  /* SleepTemperature          */ "\x3F\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x16\x11\x10\x0C\x11\x0E\x23\x10\x1A\x0C\x3D\x15\x22\x0F\x3D\x0C\x39\x2B\x38",//Температура при режим "сън" <C> 
-  /* SleepTimeout              */ "\x30\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x1B\x0C\x11\x0E\x23\x10\x1A\x0C\x3D\x15\x22\x0F\x3D\x0C\x15\x18\x0E\x1F\x44\x0C\x39\x4D\x10\x0F\x25\x12\x10\x75\x33\x0E\x14\x25\x0F\x1F\x10\x38",//Включване в режим "сън" след: <Минути/Секунди> 
+  /* PowerSource               */ "\x3A\x1E\x12\x13\x2A\x0F\x10\x14\x0C\x0F\x0D\x0C\x1E\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x22\x0C\x4D\x10\x0F\x10\x1A\x0D\x18\x0F\x13\x0C\x0F\x0D\x16\x11\x0E\x24\x0E\x0F\x10\x0E\x22\x0C\x39\x5E\x2B\x0C\x03\x02\x43\x38\x0C\x39\x2F\x0C\x05\x22\x05\x43\x0C\x1E\x0D\x0C\x14\x18\x0E\x12\x14\x0D\x38",//Източник на захранване. Минимално напрежение. <DC 10V> <S 3.3V за клетка> 
+  /* SleepTemperature          */ "\x3E\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x16\x11\x10\x0C\x11\x0E\x24\x10\x1A\x0C\x3C\x15\x23\x0F\x3C\x0C\x39\x2B\x38",//Температура при режим "сън" <C> 
+  /* SleepTimeout              */ "\x30\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x1B\x0C\x11\x0E\x24\x10\x1A\x0C\x3C\x15\x23\x0F\x3C\x0C\x15\x18\x0E\x1F\x44\x0C\x39\x4D\x10\x0F\x25\x12\x10\x75\x33\x0E\x14\x25\x0F\x1F\x10\x38",//Включване в режим "сън" след: <Минути/Секунди> 
   /* ShutdownTimeout           */ "\x3A\x1E\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x15\x18\x0E\x1F\x0C\x39\x4D\x10\x0F\x25\x12\x10\x38",//Изключване след <Минути> 
-  /* MotionSensitivity         */ "\x61\x15\x0E\x56\x0D\x0F\x0E\x0C\x1E\x0D\x0C\x1F\x1B\x10\x23\x0E\x0F\x10\x0E\x0C\x39\x02\x24\x3A\x1E\x14\x18\x46\x2A\x0E\x0F\x13\x0C\x03\x24\x33\x18\x0D\x28\x13\x0C\x0B\x24\x33\x10\x18\x0F\x13\x38",//Усещане за движение <0.Изключено 1.Слабо 9.Силно> 
-  /* TemperatureUnit           */ "\x63\x1F\x10\x0F\x10\x47\x10\x0C\x1E\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x39\x2B\x54\x6F\x0E\x18\x1E\x10\x10\x0C\x52\x54\x69\x0D\x11\x0E\x0F\x32\x0D\x21\x12\x38",//Единици за температура <C=Целзии F=Фаренхайт> 
-  /* AdvancedIdle              */ "\x58\x13\x14\x0D\x23\x10\x0C\x1F\x0E\x12\x0D\x21\x18\x0F\x0D\x0C\x10\x0F\x3E\x13\x11\x1A\x0D\x47\x10\x29\x0C\x15\x22\x15\x0C\x15\x10\x12\x0E\x0F\x0C\x67\x11\x10\x3E\x12\x0C\x0F\x0D\x0C\x0E\x14\x11\x0D\x0F\x0D\x0C\x1B\x0C\x11\x0E\x23\x10\x1A\x0C\x0F\x0D\x0C\x16\x13\x14\x13\x21\x24",//Покажи детайлна информация със ситен шрифт на екрана в режим на покой. 
-  /* DisplayRotation           */ "\x40\x11\x10\x0E\x0F\x12\x0D\x47\x10\x29\x0C\x0F\x0D\x0C\x1F\x10\x15\x16\x18\x0E\x29\x0C\x39\x5E\x24\x0C\x50\x1B\x12\x13\x1A\x0D\x12\x10\x2A\x0F\x13\x0C\x5C\x24\x0C\x59\x29\x1B\x0D\x0C\x34\x22\x14\x0D\x0C\x5B\x24\x0C\x4F\x29\x15\x0F\x0D\x0C\x34\x22\x14\x0D\x38",//Ориентация на дисплея <A. Автоматично L. Лява Ръка R. Дясна Ръка> 
-  /* BoostEnabled              */ "\x58\x13\x18\x1E\x1B\x0D\x21\x0C\x16\x11\x0E\x1F\x0F\x10\x29\x0C\x28\x25\x12\x13\x0F\x0C\x1E\x0D\x0C\x3D\x12\x25\x11\x28\x13\x3D\x0C\x11\x0E\x23\x10\x1A\x0C\x15\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1F\x13\x0C\x06\x07\x02\x2B\x0C\x16\x11\x10\x0C\x1E\x0D\x16\x13\x29\x1B\x0D\x0F\x0E",//Ползвай предния бутон за "турбо" режим с температура до 450C при запояване 
-  /* BoostTemperature          */ "\x3F\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1E\x0D\x0C\x3D\x12\x25\x11\x28\x13\x3D\x0C\x11\x0E\x23\x10\x1A",//Температура за "турбо" режим 
-  /* AutoStart                 */ "\x34\x0E\x23\x10\x1A\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x16\x11\x10\x0C\x1B\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x1E\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x12\x13\x24\x0C\x37\x54\x34\x0D\x28\x13\x12\x0E\x0F\x55\x0C\x2F\x54\x33\x22\x0F\x55\x0C\x52\x54\x3A\x1E\x14\x18\x46\x2A\x0E\x0F",//Режим на поялника при включване на захранването. T=Работен, S=Сън, F=Изключен 
-  /* CooldownBlink             */ "\x33\x18\x0E\x1F\x0C\x10\x1E\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x13\x12\x0C\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x23\x10\x1A\x55\x0C\x10\x0F\x1F\x10\x14\x0D\x12\x13\x11\x0D\x0C\x1E\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1F\x0D\x0C\x1A\x10\x57\x0D\x0C\x1F\x13\x14\x0D\x12\x13\x0C\x2A\x13\x1B\x14\x0D\x12\x0D\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x1B\x15\x0E\x0C\x13\x56\x0E\x0C\x0E\x0C\x12\x13\x16\x18\x0D",//След изключване от работен режим, индикатора за температура да мига докато човката на поялника все още е топла 
+  /* MotionSensitivity         */ "\x62\x15\x0E\x56\x0D\x0F\x0E\x0C\x1E\x0D\x0C\x1F\x1B\x10\x24\x0E\x0F\x10\x0E\x0C\x39\x02\x22\x3A\x1E\x14\x18\x46\x2A\x0E\x0F\x13\x0C\x03\x22\x33\x18\x0D\x28\x13\x0C\x0B\x22\x33\x10\x18\x0F\x13\x38",//Усещане за движение <0.Изключено 1.Слабо 9.Силно> 
+  /* TemperatureUnit           */ "\x64\x1F\x10\x0F\x10\x47\x10\x0C\x1E\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x39\x2B\x54\x6F\x0E\x18\x1E\x10\x10\x0C\x52\x54\x6A\x0D\x11\x0E\x0F\x32\x0D\x21\x12\x38",//Единици за температура <C=Целзии F=Фаренхайт> 
+  /* AdvancedIdle              */ "\x58\x13\x14\x0D\x24\x10\x0C\x1F\x0E\x12\x0D\x21\x18\x0F\x0D\x0C\x10\x0F\x3D\x13\x11\x1A\x0D\x47\x10\x29\x0C\x15\x23\x15\x0C\x15\x10\x12\x0E\x0F\x0C\x68\x11\x10\x3D\x12\x0C\x0F\x0D\x0C\x0E\x14\x11\x0D\x0F\x0D\x0C\x1B\x0C\x11\x0E\x24\x10\x1A\x0C\x0F\x0D\x0C\x16\x13\x14\x13\x21\x22",//Покажи детайлна информация със ситен шрифт на екрана в режим на покой. 
+  /* DisplayRotation           */ "\x3F\x11\x10\x0E\x0F\x12\x0D\x47\x10\x29\x0C\x0F\x0D\x0C\x1F\x10\x15\x16\x18\x0E\x29\x0C\x39\x5F\x22\x0C\x50\x1B\x12\x13\x1A\x0D\x12\x10\x2A\x0F\x13\x0C\x5D\x22\x0C\x59\x29\x1B\x0D\x0C\x34\x23\x14\x0D\x0C\x5C\x22\x0C\x4F\x29\x15\x0F\x0D\x0C\x34\x23\x14\x0D\x38",//Ориентация на дисплея <A. Автоматично L. Лява Ръка R. Дясна Ръка> 
+  /* BoostEnabled              */ "\x58\x13\x18\x1E\x1B\x0D\x21\x0C\x16\x11\x0E\x1F\x0F\x10\x29\x0C\x28\x25\x12\x13\x0F\x0C\x1E\x0D\x0C\x3C\x12\x25\x11\x28\x13\x3C\x0C\x11\x0E\x24\x10\x1A\x0C\x15\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1F\x13\x0C\x06\x07\x02\x2B\x0C\x16\x11\x10\x0C\x1E\x0D\x16\x13\x29\x1B\x0D\x0F\x0E",//Ползвай предния бутон за "турбо" режим с температура до 450C при запояване 
+  /* BoostTemperature          */ "\x3E\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1E\x0D\x0C\x3C\x12\x25\x11\x28\x13\x3C\x0C\x11\x0E\x24\x10\x1A",//Температура за "турбо" режим 
+  /* AutoStart                 */ "\x34\x0E\x24\x10\x1A\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x16\x11\x10\x0C\x1B\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x1E\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x12\x13\x22\x0C\x37\x54\x34\x0D\x28\x13\x12\x0E\x0F\x55\x0C\x2F\x54\x33\x23\x0F\x55\x0C\x52\x54\x3A\x1E\x14\x18\x46\x2A\x0E\x0F",//Режим на поялника при включване на захранването. T=Работен, S=Сън, F=Изключен 
+  /* CooldownBlink             */ "\x33\x18\x0E\x1F\x0C\x10\x1E\x14\x18\x46\x2A\x1B\x0D\x0F\x0E\x0C\x13\x12\x0C\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x24\x10\x1A\x55\x0C\x10\x0F\x1F\x10\x14\x0D\x12\x13\x11\x0D\x0C\x1E\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x1F\x0D\x0C\x1A\x10\x57\x0D\x0C\x1F\x13\x14\x0D\x12\x13\x0C\x2A\x13\x1B\x14\x0D\x12\x0D\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x1B\x15\x0E\x0C\x13\x56\x0E\x0C\x0E\x0C\x12\x13\x16\x18\x0D",//След изключване от работен режим, индикатора за температура да мига докато човката на поялника все още е топла 
   /* TemperatureCalibration    */ "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x12\x0D",//Калибриране на температурата 
-  /* SettingsReset             */ "\x30\x11\x22\x56\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x3E\x0D\x28\x11\x10\x2A\x0F\x10\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10",//Връщане на фабрични настройки 
-  /* VoltageCalibration        */ "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x1B\x32\x13\x1F\x0F\x13\x12\x13\x0C\x0F\x0D\x16\x11\x0E\x23\x0E\x0F\x10\x0E\x0C\x78\x3C\x74\x72\x77\x24\x0C\x62\x0D\x1F\x11\x22\x23\x12\x0E\x0C\x28\x25\x12\x13\x0F\x1D\x0C\x1E\x0D\x0C\x10\x1E\x32\x13\x1F",//Калибриране на входното напрежение (VIN). Задръжте бутонa за изход 
-  /* AdvancedSoldering         */ "\x4F\x0E\x12\x0D\x21\x18\x0F\x0D\x0C\x10\x0F\x3E\x13\x11\x1A\x0D\x47\x10\x29\x0C\x1B\x0C\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x23\x10\x1A\x0C\x16\x11\x10\x0C\x1E\x0D\x16\x13\x29\x1B\x0D\x0F\x0E",//Детайлна информация в работен режим при запояване 
-  /* ScrollingSpeed            */ "\x33\x14\x13\x11\x13\x15\x12\x0C\x0F\x0D\x0C\x1F\x1B\x10\x23\x0E\x0F\x10\x0E\x0C\x0F\x0D\x0C\x12\x13\x1E\x10\x0C\x12\x0E\x14\x15\x12",//Скорост на движение на този текст 
+  /* SettingsReset             */ "\x30\x11\x23\x56\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x3D\x0D\x28\x11\x10\x2A\x0F\x10\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10",//Връщане на фабрични настройки 
+  /* VoltageCalibration        */ "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E\x0C\x0F\x0D\x0C\x1B\x32\x13\x1F\x0F\x13\x12\x13\x0C\x0F\x0D\x16\x11\x0E\x24\x0E\x0F\x10\x0E\x0C\x78\x43\x74\x72\x77\x22\x0C\x63\x0D\x1F\x11\x23\x24\x12\x0E\x0C\x28\x25\x12\x13\x0F\x1D\x0C\x1E\x0D\x0C\x10\x1E\x32\x13\x1F",//Калибриране на входното напрежение (VIN). Задръжте бутонa за изход 
+  /* AdvancedSoldering         */ "\x4F\x0E\x12\x0D\x21\x18\x0F\x0D\x0C\x10\x0F\x3D\x13\x11\x1A\x0D\x47\x10\x29\x0C\x1B\x0C\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x24\x10\x1A\x0C\x16\x11\x10\x0C\x1E\x0D\x16\x13\x29\x1B\x0D\x0F\x0E",//Детайлна информация в работен режим при запояване 
+  /* ScrollingSpeed            */ "\x33\x14\x13\x11\x13\x15\x12\x0C\x0F\x0D\x0C\x1F\x1B\x10\x24\x0E\x0F\x10\x0E\x0C\x0F\x0D\x0C\x12\x13\x1E\x10\x0C\x12\x0E\x14\x15\x12",//Скорост на движение на този текст 
   /* TipModel                  */ "\x37\x19\x2E\x0C\x4B\x20\x36\x17\x2C\x0C\x31\x17\x2C\x17\x49\x1C\x19\x20\x27",//Tip Model selection 
-  /* SimpleCalibrationMode     */ "\x2F\x19\x35\x2E\x2C\x17\x0C\x2B\x1D\x2C\x19\x42\x26\x1D\x1C\x19\x20\x27\x0C\x41\x31\x19\x27\x51\x0C\x4C\x20\x1C\x0C\x3B\x1D\x1C\x17\x26",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x5E\x36\x64\x1D\x27\x49\x17\x36\x0C\x49\x1D\x2C\x19\x42\x26\x1D\x1C\x19\x20\x27\x0C\x41\x31\x19\x27\x51\x0C\x1C\x5A\x17\x26\x35\x20\x49\x20\x41\x2E\x2C\x17\x0C\x20\x27\x0C\x1C\x5A\x17\x0C\x1C\x19\x2E",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x4A\x20\x3B\x17\x26\x0C\x43\x1D\x1C\x1C\x1D\x51\x17\x0C\x20\x65\x0C\x1C\x5A\x17\x0C\x2E\x20\x3B\x17\x26\x0C\x1D\x36\x1D\x2E\x1C\x17\x26\x0C\x41\x31\x17\x36",//Power Wattage of the power adapter used 
-  /* PowerLimitEnable          */ "\x6E\x27\x1D\x42\x2C\x17\x0C\x2E\x20\x3B\x17\x26\x0C\x2C\x19\x35\x19\x1C",//Enable power limit 
-  /* PowerLimit                */ "\x4B\x1D\x70\x19\x35\x41\x35\x0C\x2E\x20\x3B\x17\x26\x0C\x1C\x5A\x17\x0C\x19\x26\x20\x27\x0C\x49\x1D\x27\x0C\x41\x31\x17\x0C\x39\x43\x1D\x1C\x1C\x31\x38",//Maximum power the iron can use <Watts> 
+  /* SimpleCalibrationMode     */ "\x2F\x19\x35\x2E\x2C\x17\x0C\x2B\x1D\x2C\x19\x41\x26\x1D\x1C\x19\x20\x27\x0C\x40\x31\x19\x27\x51\x0C\x4C\x20\x1C\x0C\x3B\x1D\x1C\x17\x26",//Simple Calibration using Hot water 
+  /* AdvancedCalibrationMode   */ "\x5F\x36\x5A\x1D\x27\x49\x17\x36\x0C\x49\x1D\x2C\x19\x41\x26\x1D\x1C\x19\x20\x27\x0C\x40\x31\x19\x27\x51\x0C\x1C\x5B\x17\x26\x35\x20\x49\x20\x40\x2E\x2C\x17\x0C\x20\x27\x0C\x1C\x5B\x17\x0C\x1C\x19\x2E",//Advanced calibration using thermocouple on the tip 
+  /* PowerInput                */ "\x4A\x20\x3B\x17\x26\x0C\x42\x1D\x1C\x1C\x1D\x51\x17\x0C\x20\x65\x0C\x1C\x5B\x17\x0C\x2E\x20\x3B\x17\x26\x0C\x1D\x36\x1D\x2E\x1C\x17\x26\x0C\x40\x31\x17\x36",//Power Wattage of the power adapter used 
+  /* PowerLimitEnable          */ "\x6E\x27\x1D\x41\x2C\x17\x0C\x2E\x20\x3B\x17\x26\x0C\x2C\x19\x35\x19\x1C",//Enable power limit 
+  /* PowerLimit                */ "\x4B\x1D\x70\x19\x35\x40\x35\x0C\x2E\x20\x3B\x17\x26\x0C\x1C\x5B\x17\x0C\x19\x26\x20\x27\x0C\x49\x1D\x27\x0C\x40\x31\x17\x0C\x39\x42\x1D\x1C\x1C\x31\x38",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x2B\x1D\x2C\x19\x42\x26\x1D\x1C\x19\x20\x27\x0C\x36\x20\x27\x17\x45";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x61\x1B\x0E\x11\x0E\x12\x0E\x0C\x15\x0E\x55\x0C\x2A\x0E\x0C\x2A\x13\x1B\x14\x0D\x12\x0D\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x0E\x0C\x15\x22\x15\x0C\x15\x12\x0D\x21\x0F\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x16\x11\x0E\x1F\x10\x0C\x1F\x0D\x0C\x16\x11\x13\x1F\x22\x18\x23\x10\x12\x0E\x45";//Уверете се, че човката на поялника е със стайна температура преди да продължите! 
-const char* SettingsResetWarning = "\x33\x10\x57\x25\x11\x0F\x10\x0C\x18\x10\x0C\x15\x12\x0E\x55\x0C\x2A\x0E\x0C\x10\x15\x14\x0D\x12\x0E\x0C\x1F\x0D\x0C\x1B\x22\x11\x0F\x0E\x12\x0E\x0C\x3E\x0D\x28\x11\x10\x2A\x0F\x10\x12\x0E\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10\x5F";//Сигурни ли сте, че искате да върнете фабричните настройки? 
-const char* UVLOWarningString = "\x2D\x10\x15\x14\x13\x0C\x3C\x45";//Ниско V! 
-const char* UndervoltageString = "\x2D\x10\x15\x14\x13\x0C\x2D\x0D\x16\x11\x0E\x23\x0E\x0F\x10\x0E";//Ниско Напрежение 
-const char* InputVoltageString = "\x30\x32\x13\x1F\x0F\x13\x0C\x3C\x44\x0C";//Входно V:  
-const char* WarningTipTempString = "\x3F\x0E\x1A\x16\x24\x44\x0C";//Темп.:  
-const char* BadTipString = "\x59\x40\x68\x0C\x30\x34\x60\x48";//ЛОШ ВРЪХ 
-const char* SleepingSimpleString = "\x33\x22\x0F";//Сън 
-const char* SleepingAdvancedString = "\x48\x22\x11\x0C\x48\x22\x11\x0C\x48\x22\x11\x24\x24\x24";//Хър Хър Хър... 
-const char* WarningSimpleString = "\x40\x48\x45";//ОХ! 
-const char* WarningAdvancedString = "\x30\x2D\x3A\x4D\x50\x2D\x3A\x63\x45\x0C\x3F\x40\x58\x59\x40\x45";//ВНИМАНИЕ! ТОПЛО! 
-const char* SleepingTipAdvancedString = "\x30\x11\x22\x32\x44";//Връх: 
-const char* IdleTipString = "\x30\x11\x22\x32\x44";//Връх: 
+const char* SettingsCalibrationDone = "\x2B\x1D\x2C\x19\x41\x26\x1D\x1C\x19\x20\x27\x0C\x36\x20\x27\x17\x45";//Calibration done! 
+const char* SettingsCalibrationWarning = "\x62\x1B\x0E\x11\x0E\x12\x0E\x0C\x15\x0E\x55\x0C\x2A\x0E\x0C\x2A\x13\x1B\x14\x0D\x12\x0D\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D\x0C\x0E\x0C\x15\x23\x15\x0C\x15\x12\x0D\x21\x0F\x0D\x0C\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x0C\x16\x11\x0E\x1F\x10\x0C\x1F\x0D\x0C\x16\x11\x13\x1F\x23\x18\x24\x10\x12\x0E\x45";//Уверете се, че човката на поялника е със стайна температура преди да продължите! 
+const char* SettingsResetWarning = "\x33\x10\x57\x25\x11\x0F\x10\x0C\x18\x10\x0C\x15\x12\x0E\x55\x0C\x2A\x0E\x0C\x10\x15\x14\x0D\x12\x0E\x0C\x1F\x0D\x0C\x1B\x23\x11\x0F\x0E\x12\x0E\x0C\x3D\x0D\x28\x11\x10\x2A\x0F\x10\x12\x0E\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10\x60";//Сигурни ли сте, че искате да върнете фабричните настройки? 
+const char* UVLOWarningString = "\x2D\x10\x15\x14\x13\x0C\x43\x45";//Ниско V! 
+const char* UndervoltageString = "\x2D\x10\x15\x14\x13\x0C\x2D\x0D\x16\x11\x0E\x24\x0E\x0F\x10\x0E";//Ниско Напрежение 
+const char* InputVoltageString = "\x30\x32\x13\x1F\x0F\x13\x0C\x43\x44\x0C";//Входно V:  
+const char* WarningTipTempString = "\x3E\x0E\x1A\x16\x22\x44\x0C";//Темп.:  
+const char* BadTipString = "\x59\x3F\x69\x0C\x30\x34\x61\x48";//ЛОШ ВРЪХ 
+const char* SleepingSimpleString = "\x33\x23\x0F";//Сън 
+const char* SleepingAdvancedString = "\x48\x23\x11\x0C\x48\x23\x11\x0C\x48\x23\x11\x22\x22\x22";//Хър Хър Хър... 
+const char* WarningSimpleString = "\x3F\x48\x45";//ОХ! 
+const char* WarningAdvancedString = "\x30\x2D\x3A\x4D\x50\x2D\x3A\x64\x45\x0C\x3E\x3F\x58\x59\x3F\x45";//ВНИМАНИЕ! ТОПЛО! 
+const char* SleepingTipAdvancedString = "\x30\x11\x23\x32\x44";//Връх: 
+const char* IdleTipString = "\x30\x11\x23\x32\x44";//Връх: 
 const char* IdleSetString = "\x0C\x2F\x17\x1C\x44";// Set: 
-const char* TipDisconnectedString = "\x30\x34\x60\x48\x0C\x59\x40\x68\x50\x0C\x30\x34\x60\x62\x4E\x50";//ВРЪХ ЛОША ВРЪЗКА 
-const char* SolderingAdvancedPowerPrompt = "\x62\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x44\x0C";//Захранване:  
-const char* OffString = "\x6C\x65\x65";//Off 
-const char* ResetOKMessage = "\x5B\x17\x31\x17\x1C\x0C\x6C\x73";//Reset OK 
-const char* YourGainMessage = "\x71\x20\x41\x26\x0C\x6D\x1D\x19\x27";//Your Gain 
+const char* TipDisconnectedString = "\x30\x34\x61\x48\x0C\x59\x3F\x69\x50\x0C\x30\x34\x61\x63\x4E\x50";//ВРЪХ ЛОША ВРЪЗКА 
+const char* SolderingAdvancedPowerPrompt = "\x63\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E\x44\x0C";//Захранване:  
+const char* OffString = "\x66\x65\x65";//Off 
+const char* ResetOKMessage = "\x5C\x17\x31\x17\x1C\x0C\x66\x73";//Reset OK 
+const char* YourGainMessage = "\x71\x20\x40\x26\x0C\x6D\x1D\x19\x27";//Your Gain 
 const char* SettingsResetMessage = "\x2F\x17\x1C\x1C\x19\x27\x51\x31\x0C\x3B\x17\x26\x17\x01\x26\x17\x31\x17\x1C\x45";//Settings were_reset! 
 
-const char* SettingRightChar = "\x5B";//R 
-const char* SettingLeftChar = "\x5C";//L 
-const char* SettingAutoChar = "\x5E";//A 
+const char* SettingRightChar = "\x5C";//R 
+const char* SettingLeftChar = "\x5D";//L 
+const char* SettingAutoChar = "\x5F";//A 
 const char* SettingFastChar = "\x52";//F 
 const char* SettingSlowChar = "\x2F";//S 
 const char* SettingStartSolderingChar = "\x37";//T 
 const char* SettingStartSleepChar = "\x2F";//S 
+const char* SettingStartSleepOffChar = "\x66";//O 
 const char* SettingStartNoneChar = "\x52";//F 
 
 const char* SymbolPlus = "\x76";//+ 
-const char* SymbolMinus = "\x66";//- 
+const char* SymbolMinus = "\x67";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x24";//. 
+const char* SymbolDot = "\x22";//. 
 const char* SymbolDegC = "\x2B";//C 
 const char* SymbolDegF = "\x52";//F 
 const char* SymbolMinutes = "\x4B";//M 
 const char* SymbolSeconds = "\x2F";//S 
-const char* SymbolWatts = "\x43";//W 
-const char* SymbolVolts = "\x3C";//V 
-const char* SymbolDC = "\x5D\x2B";//DC 
+const char* SymbolWatts = "\x42";//W 
+const char* SymbolVolts = "\x43";//V 
+const char* SymbolDC = "\x5E\x2B";//DC 
 const char* SymbolCellCount = "\x2F";//S 
-const char* SymbolVersionNumber = "\x3C\x04\x24\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x5A\x04\x22\x02\x0A\x22\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x53\x02\x04",//B02 
-	 "\x5D\x04\x06",//D24 
+	 "\x5E\x04\x06",//D24 
 	 "\x53\x2B\x04",//BC2 
 	 "\x0C\x2B\x03",// C1 
 	 "\x37\x2F\x03\x02\x02",//TS100 
 	 "\x53\x2B\x04",//BC2 
-	 "\x4C\x1D\x6A\x6A\x20",//Hakko 
-	 "\x6B\x31\x17\x26",//User 
+	 "\x4C\x1D\x6B\x6B\x20",//Hakko 
+	 "\x6C\x31\x17\x26",//User 
 #else
 	 "\x53\x02\x04",//B02 
-	 "\x5D\x04\x07",//D25 
+	 "\x5E\x04\x07",//D25 
 	 "\x37\x2F\x0A\x02",//TS80 
-	 "\x6B\x31\x17\x26",//User 
+	 "\x6C\x31\x17\x26",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x66\x02\x03\x66\x04\x02",//18-01-20 
-	 "\x4C\x43\x0C\x6D\x0C",//HW G  
-	 "\x4C\x43\x0C\x4B\x0C",//HW M  
-	 "\x4C\x43\x0C\x4A\x0C",//HW P  
+	 "\x03\x06\x67\x02\x05\x67\x04\x02",//14-03-20 
+	 "\x4C\x42\x0C\x6D\x0C",//HW G  
+	 "\x4C\x42\x0C\x4B\x0C",//HW M  
+	 "\x4C\x42\x0C\x4A\x0C",//HW P  
 	 "\x37\x19\x35\x17\x0C",//Time  
-	 "\x4B\x20\x64\x17\x0C",//Move  
-	 "\x5B\x37\x19\x2E\x0C",//RTip  
+	 "\x4B\x20\x5A\x17\x0C",//Move  
+	 "\x5C\x37\x19\x2E\x0C",//RTip  
 	 "\x2B\x37\x19\x2E\x0C",//CTip  
 	 "\x2B\x4C\x1D\x27\x0C",//CHan  
-	 "\x3C\x19\x27\x0C\x0C",//Vin   
+	 "\x43\x19\x27\x0C\x0C",//Vin   
 	 "\x4A\x2B\x53\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x3A\x1E\x12\x13\x2A\x0F\x10\x14", "\x1E\x0D\x32\x11\x0D\x0F\x1B\x0D\x0F\x0E" },//['Източник', 'захранване'] 
-  /* SleepTemperature          */ { "\x3F\x0E\x1A\x16\x24", "\x15\x22\x0F" },//['Темп.', 'сън'] 
-  /* SleepTimeout              */ { "\x30\x11\x0E\x1A\x0E", "\x15\x22\x0F" },//['Време', 'сън'] 
-  /* ShutdownTimeout           */ { "\x30\x11\x0E\x1A\x0E", "\x10\x1E\x14\x18\x24" },//['Време', 'изкл.'] 
-  /* MotionSensitivity         */ { "\x61\x15\x0E\x56\x0D\x0F\x0E", "\x1E\x0D\x0C\x1F\x1B\x10\x23\x0E\x0F\x10\x0E" },//['Усещане', 'за движение'] 
-  /* TemperatureUnit           */ { "\x63\x1F\x10\x0F\x10\x47\x10\x0C\x1E\x0D", "\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D" },//['Единици за', 'температура'] 
+  /* SleepTemperature          */ { "\x3E\x0E\x1A\x16\x22", "\x15\x23\x0F" },//['Темп.', 'сън'] 
+  /* SleepTimeout              */ { "\x30\x11\x0E\x1A\x0E", "\x15\x23\x0F" },//['Време', 'сън'] 
+  /* ShutdownTimeout           */ { "\x30\x11\x0E\x1A\x0E", "\x10\x1E\x14\x18\x22" },//['Време', 'изкл.'] 
+  /* MotionSensitivity         */ { "\x62\x15\x0E\x56\x0D\x0F\x0E", "\x1E\x0D\x0C\x1F\x1B\x10\x24\x0E\x0F\x10\x0E" },//['Усещане', 'за движение'] 
+  /* TemperatureUnit           */ { "\x64\x1F\x10\x0F\x10\x47\x10\x0C\x1E\x0D", "\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D" },//['Единици за', 'температура'] 
   /* AdvancedIdle              */ { "\x4F\x0E\x12\x0D\x21\x18\x0E\x0F", "\x0E\x14\x11\x0D\x0F\x0C\x1B\x0C\x16\x13\x14\x13\x21" },//['Детайлен', 'екран в покой'] 
-  /* DisplayRotation           */ { "\x40\x11\x10\x0E\x0F\x12\x0D\x47\x10\x29", "\x0F\x0D\x0C\x1F\x10\x15\x16\x18\x0E\x29" },//['Ориентация', 'на дисплея'] 
-  /* BoostEnabled              */ { "\x3F\x25\x11\x28\x13\x0C\x11\x0E\x23\x10\x1A", "\x16\x25\x15\x0F\x0D\x12" },//['Турбо режим', 'пуснат'] 
-  /* BoostTemperature          */ { "\x3F\x25\x11\x28\x13", "\x12\x0E\x1A\x16\x24" },//['Турбо', 'темп.'] 
-  /* AutoStart                 */ { "\x50\x1B\x12\x13\x1A\x0D\x12\x10\x2A\x0E\x0F", "\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x23\x10\x1A" },//['Автоматичен', 'работен режим'] 
-  /* CooldownBlink             */ { "\x4D\x10\x57\x0D\x21\x0C\x16\x11\x10", "\x12\x13\x16\x22\x18\x0C\x16\x13\x29\x18\x0F\x10\x14" },//['Мигай при', 'топъл поялник'] 
-  /* TemperatureCalibration    */ { "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E", "\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x5F" },//['Калибриране', 'температура?'] 
-  /* SettingsReset             */ { "\x69\x0D\x28\x11\x10\x2A\x0F\x10", "\x0F\x0D\x15\x12\x11\x13\x21\x14\x10\x5F" },//['Фабрични', 'настройки?'] 
-  /* VoltageCalibration        */ { "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E", "\x0F\x0D\x16\x11\x0E\x23\x0E\x0F\x10\x0E\x5F" },//['Калибриране', 'напрежение?'] 
+  /* DisplayRotation           */ { "\x3F\x11\x10\x0E\x0F\x12\x0D\x47\x10\x29", "\x0F\x0D\x0C\x1F\x10\x15\x16\x18\x0E\x29" },//['Ориентация', 'на дисплея'] 
+  /* BoostEnabled              */ { "\x3E\x25\x11\x28\x13\x0C\x11\x0E\x24\x10\x1A", "\x16\x25\x15\x0F\x0D\x12" },//['Турбо режим', 'пуснат'] 
+  /* BoostTemperature          */ { "\x3E\x25\x11\x28\x13", "\x12\x0E\x1A\x16\x22" },//['Турбо', 'темп.'] 
+  /* AutoStart                 */ { "\x50\x1B\x12\x13\x1A\x0D\x12\x10\x2A\x0E\x0F", "\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x11\x0E\x24\x10\x1A" },//['Автоматичен', 'работен режим'] 
+  /* CooldownBlink             */ { "\x4D\x10\x57\x0D\x21\x0C\x16\x11\x10", "\x12\x13\x16\x23\x18\x0C\x16\x13\x29\x18\x0F\x10\x14" },//['Мигай при', 'топъл поялник'] 
+  /* TemperatureCalibration    */ { "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E", "\x12\x0E\x1A\x16\x0E\x11\x0D\x12\x25\x11\x0D\x60" },//['Калибриране', 'температура?'] 
+  /* SettingsReset             */ { "\x6A\x0D\x28\x11\x10\x2A\x0F\x10", "\x0F\x0D\x15\x12\x11\x13\x21\x14\x10\x60" },//['Фабрични', 'настройки?'] 
+  /* VoltageCalibration        */ { "\x4E\x0D\x18\x10\x28\x11\x10\x11\x0D\x0F\x0E", "\x0F\x0D\x16\x11\x0E\x24\x0E\x0F\x10\x0E\x60" },//['Калибриране', 'напрежение?'] 
   /* AdvancedSoldering         */ { "\x4F\x0E\x12\x0D\x21\x18\x0E\x0F", "\x11\x0D\x28\x13\x12\x0E\x0F\x0C\x0E\x14\x11\x0D\x0F" },//['Детайлен', 'работен екран'] 
   /* ScrollingSpeed            */ { "\x33\x14\x13\x11\x13\x15\x12", "\x0F\x0D\x0C\x12\x0E\x14\x15\x12\x0D" },//['Скорост', 'на текста'] 
   /* TipModel                  */ { "\x37\x19\x2E", "\x4B\x20\x36\x17\x2C" },//['Tip', 'Model'] 
-  /* SimpleCalibrationMode     */ { "\x2F\x19\x35\x2E\x2C\x17", "\x2B\x1D\x2C\x19\x42\x26\x1D\x1C\x19\x20\x27" },//['Simple', 'Calibration'] 
-  /* AdvancedCalibrationMode   */ { "\x5E\x36\x64\x1D\x27\x49\x17\x36", "\x2B\x1D\x2C\x19\x42\x26\x1D\x1C\x19\x20\x27" },//['Advanced', 'Calibration'] 
-  /* PowerInput                */ { "\x4A\x20\x3B\x17\x26", "\x43\x1D\x1C\x1C\x1D\x51\x17" },//['Power', 'Wattage'] 
-  /* PowerLimitEnable          */ { "\x4A\x0C\x5C\x19\x35\x19\x1C", "\x6E\x27\x1D\x42\x2C\x17" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x4A\x20\x3B\x17\x26", "\x5C\x19\x35\x19\x1C" },//['Power', 'Limit'] 
+  /* SimpleCalibrationMode     */ { "\x2F\x19\x35\x2E\x2C\x17", "\x2B\x1D\x2C\x19\x41\x26\x1D\x1C\x19\x20\x27" },//['Simple', 'Calibration'] 
+  /* AdvancedCalibrationMode   */ { "\x5F\x36\x5A\x1D\x27\x49\x17\x36", "\x2B\x1D\x2C\x19\x41\x26\x1D\x1C\x19\x20\x27" },//['Advanced', 'Calibration'] 
+  /* PowerInput                */ { "\x4A\x20\x3B\x17\x26", "\x42\x1D\x1C\x1C\x1D\x51\x17" },//['Power', 'Wattage'] 
+  /* PowerLimitEnable          */ { "\x4A\x0C\x5D\x19\x35\x19\x1C", "\x6E\x27\x1D\x41\x2C\x17" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x4A\x20\x3B\x17\x26", "\x5D\x19\x35\x19\x1C" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x58\x13\x29\x18\x0F\x10\x14\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Поялник', 'Настройки'] 
-  /* PowerSavingMenu           */ "\x34\x0E\x23\x10\x1A\x10\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Режими', 'Настройки'] 
-  /* UIMenu                    */ "\x3A\x0F\x12\x0E\x11\x3E\x0E\x21\x15\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Интерфейс', 'Настройки'] 
-  /* AdvancedMenu              */ "\x34\x0D\x1E\x67\x10\x11\x0E\x0F\x10\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Разширени', 'Настройки'] 
+  /* PowerSavingMenu           */ "\x34\x0E\x24\x10\x1A\x10\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Режими', 'Настройки'] 
+  /* UIMenu                    */ "\x3A\x0F\x12\x0E\x11\x3D\x0E\x21\x15\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Интерфейс', 'Настройки'] 
+  /* AdvancedMenu              */ "\x34\x0D\x1E\x68\x10\x11\x0E\x0F\x10\x01\x2D\x0D\x15\x12\x11\x13\x21\x14\x10",//['Разширени', 'Настройки'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x2D\x0D\x15\x12\x11\x13\x21\x14\x10\x0C\x0F\x0D\x0C\x16\x13\x29\x18\x0F\x10\x14\x0D",//Настройки на поялника 
   /* PowerSavingMenu           */ "\x2D\x0D\x15\x12\x11\x13\x21\x14\x10\x0C\x0E\x0F\x0E\x11\x57\x13\x15\x16\x0E\x15\x12\x29\x1B\x0D\x0F\x0E",//Настройки енергоспестяване 
-  /* UIMenu                    */ "\x2D\x0D\x15\x12\x11\x13\x21\x14\x10\x0C\x0F\x0D\x0C\x10\x0F\x12\x0E\x11\x3E\x0E\x21\x15\x0D",//Настройки на интерфейса 
-  /* AdvancedMenu              */ "\x4F\x13\x16\x22\x18\x0F\x10\x12\x0E\x18\x0F\x10\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10",//Допълнителни настройки 
+  /* UIMenu                    */ "\x2D\x0D\x15\x12\x11\x13\x21\x14\x10\x0C\x0F\x0D\x0C\x10\x0F\x12\x0E\x11\x3D\x0E\x21\x15\x0D",//Настройки на интерфейса 
+  /* AdvancedMenu              */ "\x4F\x13\x16\x23\x18\x0F\x10\x12\x0E\x18\x0F\x10\x0C\x0F\x0D\x15\x12\x11\x13\x21\x14\x10",//Допълнителни настройки 
 };
 
 #endif
@@ -715,8 +717,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x68,0xEC,0xE6,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x15 -> í
 0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x16 -> s
 0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x17 -> u
-0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x18 -> l
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x19 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x18 -> v
+0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x19 -> l
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1A -> k
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1B -> .
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x1C -> h
@@ -735,14 +737,14 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xE0,0xE0,0xC4,0x6C,0x68,0x6C,0x64,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x29 -> ř
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2A -> R
 0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x2B -> j
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x2C -> =
-0x00,0x80,0xC0,0xE0,0x60,0x68,0x6C,0x66,0x62,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x2D -> é
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2E -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2C -> O
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x2D -> =
+0x00,0x80,0xC0,0xE0,0x60,0x68,0x6C,0x66,0x62,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x2E -> é
 0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x2F -> H
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x30 -> ?
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x31 -> V
-0x00,0x80,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x32 -> ě
-0x00,0x80,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x33 -> č
+0x00,0x80,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x31 -> ě
+0x00,0x80,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x32 -> č
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x33 -> V
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x34 -> M
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x35 -> !
 0x00,0x00,0x60,0xE0,0x80,0x10,0x18,0x8C,0xE4,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x36 -> ý
@@ -805,8 +807,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x44, 0x7e, 0x41, 0x00, 0x00,//\x15 -> í
 0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x16 -> s
 0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x17 -> u
-0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x18 -> l
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x19 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x18 -> v
+0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x19 -> l
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1A -> k
 0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1B -> .
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x1C -> h
@@ -825,14 +827,14 @@ const uint8_t USER_FONT_6x8[] = {
 0x7c, 0x09, 0x06, 0x05, 0x08, 0x00,//\x29 -> ř
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2A -> R
 0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x2B -> j
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x2C -> =
-0x38, 0x54, 0x56, 0x55, 0x08, 0x00,//\x2D -> é
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2E -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2C -> O
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x2D -> =
+0x38, 0x54, 0x56, 0x55, 0x08, 0x00,//\x2E -> é
 0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x2F -> H
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x30 -> ?
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x31 -> V
-0x38, 0x55, 0x56, 0x55, 0x08, 0x00,//\x32 -> ě
-0x38, 0x45, 0x46, 0x45, 0x20, 0x00,//\x33 -> č
+0x38, 0x55, 0x56, 0x55, 0x08, 0x00,//\x31 -> ě
+0x38, 0x45, 0x46, 0x45, 0x20, 0x00,//\x32 -> č
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x33 -> V
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x34 -> M
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x35 -> !
 0x44, 0x48, 0x32, 0x11, 0x0c, 0x00,//\x36 -> ý
@@ -875,50 +877,50 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Český ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x22\x29\x13\x0C\x11\x13\x28\x4F\x15\x21\x0C\x11\x10\x14\x32\x0E\x15\x0C\x17\x1A\x0D\x11\x33\x15\x0C\x14\x20\x2B\x0F\x11\x15\x0C\x3B\x43\x26\x2C\x03\x02\x31\x27\x0C\x30\x37\x2C\x30\x49\x05\x1B\x05\x31\x0C\x14\x12\x0D\x0C\x39\x13\x22\x0D\x27\x0C\x39\x13\x4C\x0D\x11\x1B\x1B\x1B\x3A\x1B",//Při nižším napětí ukončí pájení <DC=10V, ?S=?x3.3V pro LiPo, LiIon...>. 
-  /* SleepTemperature          */ "\x24\x0F\x14\x18\x0D\x0E\x10\x0C\x19\x0C\x12\x0F\x28\x13\x21\x17\x0C\x16\x14\x20\x11\x1A\x17\x1B",//Teplota v režimu spánku. 
+  /* PowerSource               */ "\x22\x29\x13\x0C\x11\x13\x28\x4F\x15\x21\x0C\x11\x10\x14\x31\x0E\x15\x0C\x17\x1A\x0D\x11\x32\x15\x0C\x14\x20\x2B\x0F\x11\x15\x0C\x3B\x43\x26\x2D\x03\x02\x33\x27\x0C\x30\x37\x2D\x30\x49\x05\x1B\x05\x33\x0C\x14\x12\x0D\x0C\x39\x13\x22\x0D\x27\x0C\x39\x13\x4C\x0D\x11\x1B\x1B\x1B\x3A\x1B",//Při nižším napětí ukončí pájení <DC=10V, ?S=?x3.3V pro LiPo, LiIon...>. 
+  /* SleepTemperature          */ "\x24\x0F\x14\x19\x0D\x0E\x10\x0C\x18\x0C\x12\x0F\x28\x13\x21\x17\x0C\x16\x14\x20\x11\x1A\x17\x1B",//Teplota v režimu spánku. 
   /* SleepTimeout              */ "\x44\x10\x16\x0C\x1D\x0D\x0C\x12\x0F\x28\x13\x21\x17\x0C\x16\x14\x20\x11\x1A\x17\x0C\x3B\x34\x13\x11\x17\x0E\x58\x37\x0F\x1A\x17\x11\x1D\x3A\x1B",//Čas do režimu spánku <Minut/Sekund>. 
-  /* ShutdownTimeout           */ "\x44\x10\x16\x0C\x1D\x0D\x0C\x10\x17\x0E\x0D\x21\x10\x0E\x13\x1F\x1A\x2D\x1C\x0D\x0C\x19\x23\x14\x11\x17\x0E\x15\x0C\x3B\x34\x13\x11\x17\x0E\x3A\x1B",//Čas do automatického vypnutí <Minut>. 
-  /* MotionSensitivity         */ "\x26\x13\x0E\x18\x13\x19\x0D\x16\x0E\x0C\x1D\x0F\x0E\x0F\x1A\x1F\x0F\x0C\x14\x0D\x1C\x23\x1E\x17\x0C\x3B\x02\x2C\x31\x23\x14\x27\x0C\x03\x2C\x34\x13\x11\x27\x0C\x1B\x1B\x1B\x0C\x0B\x2C\x34\x10\x49\x3A\x1B",//Citlivost detekce pohybu <0=Vyp, 1=Min, ... 9=Max>. 
-  /* TemperatureUnit           */ "\x42\x0F\x1D\x11\x0D\x0E\x1A\x23\x0C\x21\x32\x29\x0F\x11\x15\x0C\x0E\x0F\x14\x18\x0D\x0E\x23\x0C\x3B\x26\x2C\x26\x0F\x18\x16\x13\x17\x16\x27\x0C\x46\x2C\x46\x10\x1C\x12\x0F\x11\x1C\x0F\x13\x0E\x3A\x1B",//Jednotky měření teploty <C=Celsius, F=Fahrenheit>. 
-  /* AdvancedIdle              */ "\x40\x0D\x1E\x12\x10\x25\x13\x0E\x0C\x14\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13\x0C\x11\x10\x0C\x19\x36\x1F\x1C\x0D\x25\x15\x0C\x0D\x1E\x12\x10\x25\x0D\x19\x1F\x0F\x30",//Zobrazit podrobnosti na výchozí obrazovce? 
-  /* DisplayRotation           */ "\x2E\x12\x13\x0F\x11\x0E\x10\x1F\x0F\x0C\x0D\x1E\x12\x10\x25\x0D\x19\x1A\x23\x0C\x3B\x48\x2C\x48\x17\x0E\x0D\x27\x0C\x39\x2C\x39\x0F\x19\x20\x1A\x27\x0C\x22\x2C\x22\x12\x10\x19\x20\x1A\x3A\x1B",//Orientace obrazovky <A=Auto, L=Levák, P=Pravák>. 
-  /* BoostEnabled              */ "\x22\x0D\x19\x0D\x18\x13\x0E\x0C\x1E\x0D\x0D\x16\x0E\x0C\x14\x0D\x1D\x12\x28\x0F\x11\x15\x21\x0C\x14\x29\x0F\x1D\x11\x15\x1C\x0D\x0C\x0E\x18\x10\x33\x15\x0E\x1A\x10\x0C\x14\x29\x13\x0C\x14\x20\x2B\x0F\x11\x15\x30",//Povolit boost podržením předního tlačítka při pájení? 
-  /* BoostTemperature          */ "\x24\x0F\x14\x18\x0D\x0E\x10\x0C\x19\x0C\x12\x0F\x28\x13\x21\x17\x0C\x1E\x0D\x0D\x16\x0E\x1B",//Teplota v režimu boost. 
+  /* ShutdownTimeout           */ "\x44\x10\x16\x0C\x1D\x0D\x0C\x10\x17\x0E\x0D\x21\x10\x0E\x13\x1F\x1A\x2E\x1C\x0D\x0C\x18\x23\x14\x11\x17\x0E\x15\x0C\x3B\x34\x13\x11\x17\x0E\x3A\x1B",//Čas do automatického vypnutí <Minut>. 
+  /* MotionSensitivity         */ "\x26\x13\x0E\x19\x13\x18\x0D\x16\x0E\x0C\x1D\x0F\x0E\x0F\x1A\x1F\x0F\x0C\x14\x0D\x1C\x23\x1E\x17\x0C\x3B\x02\x2D\x33\x23\x14\x27\x0C\x03\x2D\x34\x13\x11\x27\x0C\x1B\x1B\x1B\x0C\x0B\x2D\x34\x10\x49\x3A\x1B",//Citlivost detekce pohybu <0=Vyp, 1=Min, ... 9=Max>. 
+  /* TemperatureUnit           */ "\x42\x0F\x1D\x11\x0D\x0E\x1A\x23\x0C\x21\x31\x29\x0F\x11\x15\x0C\x0E\x0F\x14\x19\x0D\x0E\x23\x0C\x3B\x26\x2D\x26\x0F\x19\x16\x13\x17\x16\x27\x0C\x46\x2D\x46\x10\x1C\x12\x0F\x11\x1C\x0F\x13\x0E\x3A\x1B",//Jednotky měření teploty <C=Celsius, F=Fahrenheit>. 
+  /* AdvancedIdle              */ "\x40\x0D\x1E\x12\x10\x25\x13\x0E\x0C\x14\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13\x0C\x11\x10\x0C\x18\x36\x1F\x1C\x0D\x25\x15\x0C\x0D\x1E\x12\x10\x25\x0D\x18\x1F\x0F\x30",//Zobrazit podrobnosti na výchozí obrazovce? 
+  /* DisplayRotation           */ "\x2C\x12\x13\x0F\x11\x0E\x10\x1F\x0F\x0C\x0D\x1E\x12\x10\x25\x0D\x18\x1A\x23\x0C\x3B\x48\x2D\x48\x17\x0E\x0D\x27\x0C\x39\x2D\x39\x0F\x18\x20\x1A\x27\x0C\x22\x2D\x22\x12\x10\x18\x20\x1A\x3A\x1B",//Orientace obrazovky <A=Auto, L=Levák, P=Pravák>. 
+  /* BoostEnabled              */ "\x22\x0D\x18\x0D\x19\x13\x0E\x0C\x1E\x0D\x0D\x16\x0E\x0C\x14\x0D\x1D\x12\x28\x0F\x11\x15\x21\x0C\x14\x29\x0F\x1D\x11\x15\x1C\x0D\x0C\x0E\x19\x10\x32\x15\x0E\x1A\x10\x0C\x14\x29\x13\x0C\x14\x20\x2B\x0F\x11\x15\x30",//Povolit boost podržením předního tlačítka při pájení? 
+  /* BoostTemperature          */ "\x24\x0F\x14\x19\x0D\x0E\x10\x0C\x18\x0C\x12\x0F\x28\x13\x21\x17\x0C\x1E\x0D\x0D\x16\x0E\x1B",//Teplota v režimu boost. 
   /* AutoStart                 */ "\x22\x29\x13\x0C\x16\x0E\x10\x12\x0E\x17\x0C\x13\x1C\x11\x0F\x1D\x0C\x11\x10\x1C\x29\x20\x0E\x0C\x1C\x12\x0D\x0E\x30",//Při startu ihned nahřát hrot? 
-  /* CooldownBlink             */ "\x3D\x18\x13\x1A\x20\x11\x15\x0C\x0E\x0F\x14\x18\x0D\x0E\x23\x0C\x14\x29\x13\x0C\x1F\x1C\x18\x10\x1D\x11\x17\x0E\x15\x27\x0C\x1D\x0D\x1A\x17\x1D\x0C\x2B\x0F\x0C\x1C\x12\x0D\x0E\x0C\x1C\x0D\x12\x1A\x36\x30",//Blikání teploty při chladnutí, dokud je hrot horký? 
-  /* TemperatureCalibration    */ "\x3C\x10\x18\x13\x1E\x12\x10\x1F\x0F\x0C\x21\x32\x29\x0F\x11\x15\x0C\x0E\x0F\x14\x18\x0D\x0E\x23\x1B",//Kalibrace měření teploty. 
-  /* SettingsReset             */ "\x2E\x1E\x11\x0D\x19\x0F\x11\x15\x0C\x0E\x0D\x19\x20\x12\x11\x15\x1C\x0D\x0C\x11\x10\x16\x0E\x10\x19\x0F\x11\x15\x1B",//Obnovení továrního nastavení. 
-  /* VoltageCalibration        */ "\x3C\x10\x18\x13\x1E\x12\x10\x1F\x0F\x0C\x19\x16\x0E\x17\x14\x11\x15\x1C\x0D\x0C\x11\x10\x14\x32\x0E\x15\x1B\x0C\x24\x18\x10\x33\x15\x0E\x1A\x23\x0C\x17\x14\x12\x10\x19\x27\x0C\x14\x0D\x1D\x12\x28\x0F\x11\x15\x21\x0C\x14\x0D\x0E\x19\x12\x52\x1B",//Kalibrace vstupního napětí. Tlačítky uprav, podržením potvrď. 
+  /* CooldownBlink             */ "\x3D\x19\x13\x1A\x20\x11\x15\x0C\x0E\x0F\x14\x19\x0D\x0E\x23\x0C\x14\x29\x13\x0C\x1F\x1C\x19\x10\x1D\x11\x17\x0E\x15\x27\x0C\x1D\x0D\x1A\x17\x1D\x0C\x2B\x0F\x0C\x1C\x12\x0D\x0E\x0C\x1C\x0D\x12\x1A\x36\x30",//Blikání teploty při chladnutí, dokud je hrot horký? 
+  /* TemperatureCalibration    */ "\x3C\x10\x19\x13\x1E\x12\x10\x1F\x0F\x0C\x21\x31\x29\x0F\x11\x15\x0C\x0E\x0F\x14\x19\x0D\x0E\x23\x1B",//Kalibrace měření teploty. 
+  /* SettingsReset             */ "\x2C\x1E\x11\x0D\x18\x0F\x11\x15\x0C\x0E\x0D\x18\x20\x12\x11\x15\x1C\x0D\x0C\x11\x10\x16\x0E\x10\x18\x0F\x11\x15\x1B",//Obnovení továrního nastavení. 
+  /* VoltageCalibration        */ "\x3C\x10\x19\x13\x1E\x12\x10\x1F\x0F\x0C\x18\x16\x0E\x17\x14\x11\x15\x1C\x0D\x0C\x11\x10\x14\x31\x0E\x15\x1B\x0C\x24\x19\x10\x32\x15\x0E\x1A\x23\x0C\x17\x14\x12\x10\x18\x27\x0C\x14\x0D\x1D\x12\x28\x0F\x11\x15\x21\x0C\x14\x0D\x0E\x18\x12\x52\x1B",//Kalibrace vstupního napětí. Tlačítky uprav, podržením potvrď. 
   /* AdvancedSoldering         */ "\x40\x0D\x1E\x12\x10\x25\x13\x0E\x0C\x14\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13\x0C\x14\x29\x13\x0C\x14\x20\x2B\x0F\x11\x15\x30",//Zobrazit podrobnosti při pájení? 
-  /* ScrollingSpeed            */ "\x2A\x23\x1F\x1C\x18\x0D\x16\x0E\x0C\x14\x0D\x16\x17\x19\x17\x0C\x14\x0D\x14\x13\x16\x1A\x4B\x0C\x14\x0D\x1D\x0D\x1E\x11\x36\x1F\x1C\x0C\x0E\x0D\x21\x17\x0E\x0D\x0C\x3B\x22\x2C\x22\x0D\x21\x10\x18\x17\x27\x0C\x2A\x2C\x2A\x23\x1F\x1C\x18\x0F\x3A",//Rychlost posuvu popisků podobných tomuto <P=Pomalu, R=Rychle> 
-  /* TipModel                  */ "\x31\x36\x1E\x32\x12\x0C\x21\x0D\x1D\x0F\x18\x17\x0C\x1C\x12\x0D\x0E\x17\x1B",//Výběr modelu hrotu. 
-  /* SimpleCalibrationMode     */ "\x42\x0F\x1D\x11\x0D\x1D\x17\x1F\x1C\x20\x0C\x1A\x10\x18\x13\x1E\x12\x10\x1F\x0F\x0C\x14\x0D\x21\x0D\x1F\x15\x0C\x1C\x0D\x12\x1A\x2D\x0C\x19\x0D\x1D\x23\x1B",//Jednoduchá kalibrace pomocí horké vody. 
-  /* AdvancedCalibrationMode   */ "\x22\x0D\x1A\x12\x0D\x33\x13\x18\x20\x0C\x1A\x10\x18\x13\x1E\x12\x10\x1F\x0F\x0C\x14\x0D\x21\x0D\x1F\x15\x0C\x0E\x0F\x12\x21\x0D\x33\x18\x20\x11\x1A\x17\x0C\x11\x10\x0C\x1C\x12\x0D\x0E\x17\x1B",//Pokročilá kalibrace pomocí termočlánku na hrotu. 
-  /* PowerInput                */ "\x31\x36\x1A\x0D\x11\x0C\x14\x0D\x17\x28\x15\x0E\x2D\x1C\x0D\x0C\x11\x10\x14\x20\x2B\x0F\x1F\x15\x1C\x0D\x0C\x10\x1D\x10\x14\x0E\x2D\x12\x17\x0C\x19\x0F\x0C\x3F\x10\x0E\x0E\x0F\x1F\x1C\x1B",//Výkon použítého napájecího adaptéru ve wattech. 
-  /* PowerLimitEnable          */ "\x47\x11\x10\x1E\x18\x0F\x0C\x14\x0D\x3F\x0F\x12\x0C\x18\x13\x21\x13\x0E",//Enable power limit 
+  /* ScrollingSpeed            */ "\x2A\x23\x1F\x1C\x19\x0D\x16\x0E\x0C\x14\x0D\x16\x17\x18\x17\x0C\x14\x0D\x14\x13\x16\x1A\x4B\x0C\x14\x0D\x1D\x0D\x1E\x11\x36\x1F\x1C\x0C\x0E\x0D\x21\x17\x0E\x0D\x0C\x3B\x22\x2D\x22\x0D\x21\x10\x19\x17\x27\x0C\x2A\x2D\x2A\x23\x1F\x1C\x19\x0F\x3A",//Rychlost posuvu popisků podobných tomuto <P=Pomalu, R=Rychle> 
+  /* TipModel                  */ "\x33\x36\x1E\x31\x12\x0C\x21\x0D\x1D\x0F\x19\x17\x0C\x1C\x12\x0D\x0E\x17\x1B",//Výběr modelu hrotu. 
+  /* SimpleCalibrationMode     */ "\x42\x0F\x1D\x11\x0D\x1D\x17\x1F\x1C\x20\x0C\x1A\x10\x19\x13\x1E\x12\x10\x1F\x0F\x0C\x14\x0D\x21\x0D\x1F\x15\x0C\x1C\x0D\x12\x1A\x2E\x0C\x18\x0D\x1D\x23\x1B",//Jednoduchá kalibrace pomocí horké vody. 
+  /* AdvancedCalibrationMode   */ "\x22\x0D\x1A\x12\x0D\x32\x13\x19\x20\x0C\x1A\x10\x19\x13\x1E\x12\x10\x1F\x0F\x0C\x14\x0D\x21\x0D\x1F\x15\x0C\x0E\x0F\x12\x21\x0D\x32\x19\x20\x11\x1A\x17\x0C\x11\x10\x0C\x1C\x12\x0D\x0E\x17\x1B",//Pokročilá kalibrace pomocí termočlánku na hrotu. 
+  /* PowerInput                */ "\x33\x36\x1A\x0D\x11\x0C\x14\x0D\x17\x28\x15\x0E\x2E\x1C\x0D\x0C\x11\x10\x14\x20\x2B\x0F\x1F\x15\x1C\x0D\x0C\x10\x1D\x10\x14\x0E\x2E\x12\x17\x0C\x18\x0F\x0C\x3F\x10\x0E\x0E\x0F\x1F\x1C\x1B",//Výkon použítého napájecího adaptéru ve wattech. 
+  /* PowerLimitEnable          */ "\x47\x11\x10\x1E\x19\x0F\x0C\x14\x0D\x3F\x0F\x12\x0C\x19\x13\x21\x13\x0E",//Enable power limit 
   /* PowerLimit                */ "\x34\x10\x49\x13\x21\x17\x21\x0C\x14\x0D\x3F\x0F\x12\x0C\x0E\x1C\x0F\x0C\x13\x12\x0D\x11\x0C\x1F\x10\x11\x0C\x17\x16\x0F\x0C\x3B\x41\x10\x0E\x0E\x16\x3A",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x3C\x10\x18\x13\x1E\x12\x10\x1F\x0F\x0C\x1D\x0D\x1A\x0D\x11\x33\x0F\x11\x10\x35";//Kalibrace dokončena! 
-const char* SettingsCalibrationWarning = "\x45\x2B\x13\x16\x0E\x32\x0E\x0F\x0C\x16\x0F\x27\x0C\x28\x0F\x0C\x1C\x12\x0D\x0E\x0C\x21\x20\x0C\x14\x0D\x1A\x0D\x2B\x0D\x19\x0D\x17\x0C\x0E\x0F\x14\x18\x0D\x0E\x17\x35";//Ujistěte se, že hrot má pokojovou teplotu! 
-const char* SettingsResetWarning = "\x2E\x14\x12\x10\x19\x1D\x17\x0C\x1F\x1C\x1F\x0F\x0E\x0F\x0C\x12\x0F\x16\x0F\x0E\x0D\x19\x10\x0E\x0C\x25\x10\x29\x15\x25\x0F\x11\x15\x0C\x1D\x0D\x0C\x0E\x0D\x19\x20\x12\x11\x15\x1C\x0D\x0C\x11\x10\x16\x0E\x10\x19\x0F\x11\x15\x30";//Opravdu chcete resetovat zařízení do továrního nastavení? 
-const char* UVLOWarningString = "\x38\x15\x25\x1A\x2D\x0C\x43\x26";//Nízké DC 
-const char* UndervoltageString = "\x35\x0C\x38\x15\x25\x1A\x2D\x0C\x11\x10\x14\x32\x0E\x15\x0C\x35";//! Nízké napětí ! 
-const char* InputVoltageString = "\x38\x10\x14\x32\x0E\x15\x3E\x0C";//Napětí:  
-const char* WarningTipTempString = "\x24\x0F\x14\x18\x0D\x0E\x10\x3E\x0C";//Teplota:  
-const char* BadTipString = "\x50\x22\x1B\x0C\x2F\x2A\x2E\x24";//ŠP. HROT 
+const char* SettingsCalibrationDone = "\x3C\x10\x19\x13\x1E\x12\x10\x1F\x0F\x0C\x1D\x0D\x1A\x0D\x11\x32\x0F\x11\x10\x35";//Kalibrace dokončena! 
+const char* SettingsCalibrationWarning = "\x45\x2B\x13\x16\x0E\x31\x0E\x0F\x0C\x16\x0F\x27\x0C\x28\x0F\x0C\x1C\x12\x0D\x0E\x0C\x21\x20\x0C\x14\x0D\x1A\x0D\x2B\x0D\x18\x0D\x17\x0C\x0E\x0F\x14\x19\x0D\x0E\x17\x35";//Ujistěte se, že hrot má pokojovou teplotu! 
+const char* SettingsResetWarning = "\x2C\x14\x12\x10\x18\x1D\x17\x0C\x1F\x1C\x1F\x0F\x0E\x0F\x0C\x12\x0F\x16\x0F\x0E\x0D\x18\x10\x0E\x0C\x25\x10\x29\x15\x25\x0F\x11\x15\x0C\x1D\x0D\x0C\x0E\x0D\x18\x20\x12\x11\x15\x1C\x0D\x0C\x11\x10\x16\x0E\x10\x18\x0F\x11\x15\x30";//Opravdu chcete resetovat zařízení do továrního nastavení? 
+const char* UVLOWarningString = "\x38\x15\x25\x1A\x2E\x0C\x43\x26";//Nízké DC 
+const char* UndervoltageString = "\x35\x0C\x38\x15\x25\x1A\x2E\x0C\x11\x10\x14\x31\x0E\x15\x0C\x35";//! Nízké napětí ! 
+const char* InputVoltageString = "\x38\x10\x14\x31\x0E\x15\x3E\x0C";//Napětí:  
+const char* WarningTipTempString = "\x24\x0F\x14\x19\x0D\x0E\x10\x3E\x0C";//Teplota:  
+const char* BadTipString = "\x50\x22\x1B\x0C\x2F\x2A\x2C\x24";//ŠP. HROT 
 const char* SleepingSimpleString = "\x40\x25\x25\x0C";//Zzz  
 const char* SleepingAdvancedString = "\x2A\x0F\x28\x13\x21\x0C\x16\x14\x20\x11\x1A\x17\x1B\x1B\x1B";//Režim spánku... 
 const char* WarningSimpleString = "\x22\x55\x39\x54";//PÁLÍ 
-const char* WarningAdvancedString = "\x35\x35\x0C\x2F\x2E\x2A\x3C\x53\x0C\x2F\x2A\x2E\x24\x0C\x35\x35";//!! HORKÝ HROT !! 
+const char* WarningAdvancedString = "\x35\x35\x0C\x2F\x2C\x2A\x3C\x53\x0C\x2F\x2A\x2C\x24\x0C\x35\x35";//!! HORKÝ HROT !! 
 const char* SleepingTipAdvancedString = "\x2F\x12\x0D\x0E\x3E";//Hrot: 
 const char* IdleTipString = "\x2F\x12\x0D\x0E\x3E";//Hrot: 
-const char* IdleSetString = "\x0C\x26\x15\x18\x3E";// Cíl: 
-const char* TipDisconnectedString = "\x2F\x2A\x2E\x24\x0C\x38\x47\x22\x51\x4C\x22\x2E\x42\x47\x38";//HROT NEPŘIPOJEN 
-const char* SolderingAdvancedPowerPrompt = "\x2E\x1C\x29\x0F\x19\x3E\x0C";//Ohřev:  
-const char* OffString = "\x31\x23\x14";//Vyp 
-const char* ResetOKMessage = "\x2A\x0F\x16\x0F\x0E\x0C\x2E\x3C";//Reset OK 
+const char* IdleSetString = "\x0C\x26\x15\x19\x3E";// Cíl: 
+const char* TipDisconnectedString = "\x2F\x2A\x2C\x24\x0C\x38\x47\x22\x51\x4C\x22\x2C\x42\x47\x38";//HROT NEPŘIPOJEN 
+const char* SolderingAdvancedPowerPrompt = "\x2C\x1C\x29\x0F\x18\x3E\x0C";//Ohřev:  
+const char* OffString = "\x33\x23\x14";//Vyp 
+const char* ResetOKMessage = "\x2A\x0F\x16\x0F\x0E\x0C\x2C\x3C";//Reset OK 
 const char* YourGainMessage = "\x40\x13\x16\x1A\x3E";//Zisk: 
 const char* SettingsResetMessage = "\x37\x0F\x0E\x0E\x13\x11\x56\x16\x0C\x3F\x0F\x12\x0F\x01\x12\x0F\x16\x0F\x0E\x35";//Settings were_reset! 
 
@@ -929,6 +931,7 @@ const char* SettingFastChar = "\x2A";//R
 const char* SettingSlowChar = "\x22";//P 
 const char* SettingStartSolderingChar = "\x24";//T 
 const char* SettingStartSleepChar = "\x37";//S 
+const char* SettingStartSleepOffChar = "\x2C";//O 
 const char* SettingStartNoneChar = "\x46";//F 
 
 const char* SymbolPlus = "\x59";//+ 
@@ -940,10 +943,10 @@ const char* SymbolDegF = "\x46";//F
 const char* SymbolMinutes = "\x34";//M 
 const char* SymbolSeconds = "\x37";//S 
 const char* SymbolWatts = "\x41";//W 
-const char* SymbolVolts = "\x31";//V 
+const char* SymbolVolts = "\x33";//V 
 const char* SymbolDC = "\x43\x26";//DC 
 const char* SymbolCellCount = "\x37";//S 
-const char* SymbolVersionNumber = "\x31\x04\x1B\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x18\x04\x1B\x02\x0A\x1B\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -964,58 +967,58 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x4A\x02\x03\x4A\x04\x02",//18-01-20 
+	 "\x03\x06\x4A\x02\x05\x4A\x04\x02",//14-03-20 
 	 "\x2F\x41\x0C\x57\x0C",//HW G  
 	 "\x2F\x41\x0C\x34\x0C",//HW M  
 	 "\x2F\x41\x0C\x22\x0C",//HW P  
 	 "\x24\x13\x21\x0F\x0C",//Time  
-	 "\x34\x0D\x19\x0F\x0C",//Move  
+	 "\x34\x0D\x18\x0F\x0C",//Move  
 	 "\x2A\x24\x13\x14\x0C",//RTip  
 	 "\x26\x24\x13\x14\x0C",//CTip  
 	 "\x26\x2F\x10\x11\x0C",//CHan  
-	 "\x31\x13\x11\x0C\x0C",//Vin   
+	 "\x33\x13\x11\x0C\x0C",//Vin   
 	 "\x22\x26\x3D\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x40\x1D\x12\x0D\x2B", "\x11\x10\x14\x20\x2B\x0F\x11\x15" },//['Zdroj', 'napájení'] 
-  /* SleepTemperature          */ { "\x24\x0F\x14\x18\x0D\x0E\x10\x0C\x19", "\x12\x1B\x0C\x16\x14\x20\x11\x1A\x17" },//['Teplota v', 'r. spánku'] 
+  /* SleepTemperature          */ { "\x24\x0F\x14\x19\x0D\x0E\x10\x0C\x18", "\x12\x1B\x0C\x16\x14\x20\x11\x1A\x17" },//['Teplota v', 'r. spánku'] 
   /* SleepTimeout              */ { "\x44\x10\x16\x0C\x1D\x0D", "\x12\x1B\x0C\x16\x14\x20\x11\x1A\x17" },//['Čas do', 'r. spánku'] 
-  /* ShutdownTimeout           */ { "\x44\x10\x16\x0C\x1D\x0D", "\x19\x23\x14\x11\x17\x0E\x15" },//['Čas do', 'vypnutí'] 
-  /* MotionSensitivity         */ { "\x26\x13\x0E\x18\x13\x19\x0D\x16\x0E", "\x1D\x0F\x0E\x1B\x0C\x14\x0D\x1C\x23\x1E\x17" },//['Citlivost', 'det. pohybu'] 
-  /* TemperatureUnit           */ { "\x42\x0F\x1D\x11\x0D\x0E\x1A\x23", "\x0E\x0F\x14\x18\x0D\x0E\x23" },//['Jednotky', 'teploty'] 
-  /* AdvancedIdle              */ { "\x22\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13", "\x11\x10\x0C\x19\x36\x1F\x1C\x1B\x0C\x0D\x1E\x12\x1B" },//['Podrobnosti', 'na vých. obr.'] 
-  /* DisplayRotation           */ { "\x2E\x12\x13\x0F\x11\x0E\x10\x1F\x0F", "\x0D\x1E\x12\x10\x25\x0D\x19\x1A\x23" },//['Orientace', 'obrazovky'] 
-  /* BoostEnabled              */ { "\x22\x0D\x19\x0D\x18\x13\x0E", "\x1E\x0D\x0D\x16\x0E" },//['Povolit', 'boost'] 
-  /* BoostTemperature          */ { "\x24\x0F\x14\x18\x0D\x0E\x10\x0C\x19", "\x12\x1B\x0C\x1E\x0D\x0D\x16\x0E" },//['Teplota v', 'r. boost'] 
+  /* ShutdownTimeout           */ { "\x44\x10\x16\x0C\x1D\x0D", "\x18\x23\x14\x11\x17\x0E\x15" },//['Čas do', 'vypnutí'] 
+  /* MotionSensitivity         */ { "\x26\x13\x0E\x19\x13\x18\x0D\x16\x0E", "\x1D\x0F\x0E\x1B\x0C\x14\x0D\x1C\x23\x1E\x17" },//['Citlivost', 'det. pohybu'] 
+  /* TemperatureUnit           */ { "\x42\x0F\x1D\x11\x0D\x0E\x1A\x23", "\x0E\x0F\x14\x19\x0D\x0E\x23" },//['Jednotky', 'teploty'] 
+  /* AdvancedIdle              */ { "\x22\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13", "\x11\x10\x0C\x18\x36\x1F\x1C\x1B\x0C\x0D\x1E\x12\x1B" },//['Podrobnosti', 'na vých. obr.'] 
+  /* DisplayRotation           */ { "\x2C\x12\x13\x0F\x11\x0E\x10\x1F\x0F", "\x0D\x1E\x12\x10\x25\x0D\x18\x1A\x23" },//['Orientace', 'obrazovky'] 
+  /* BoostEnabled              */ { "\x22\x0D\x18\x0D\x19\x13\x0E", "\x1E\x0D\x0D\x16\x0E" },//['Povolit', 'boost'] 
+  /* BoostTemperature          */ { "\x24\x0F\x14\x19\x0D\x0E\x10\x0C\x18", "\x12\x1B\x0C\x1E\x0D\x0D\x16\x0E" },//['Teplota v', 'r. boost'] 
   /* AutoStart                 */ { "\x48\x17\x0E\x0D\x21\x10\x0E\x13\x1F\x1A\x36", "\x16\x0E\x10\x12\x0E" },//['Automatický', 'start'] 
-  /* CooldownBlink             */ { "\x3D\x18\x13\x1A\x20\x11\x13\x0C\x14\x29\x13", "\x1F\x1C\x18\x10\x1D\x11\x17\x0E\x15" },//['Blikáni při', 'chladnutí'] 
-  /* TemperatureCalibration    */ { "\x3C\x10\x18\x13\x1E\x12\x0D\x19\x10\x0E", "\x0E\x0F\x14\x18\x0D\x0E\x17\x30" },//['Kalibrovat', 'teplotu?'] 
-  /* SettingsReset             */ { "\x24\x0D\x19\x20\x12\x11\x15", "\x11\x10\x16\x0E\x10\x19\x0F\x11\x15\x30" },//['Tovární', 'nastavení?'] 
-  /* VoltageCalibration        */ { "\x3C\x10\x18\x13\x1E\x12\x0D\x19\x10\x0E", "\x19\x16\x0E\x17\x14\x11\x15\x0C\x11\x10\x14\x32\x0E\x15\x30" },//['Kalibrovat', 'vstupní napětí?'] 
+  /* CooldownBlink             */ { "\x3D\x19\x13\x1A\x20\x11\x13\x0C\x14\x29\x13", "\x1F\x1C\x19\x10\x1D\x11\x17\x0E\x15" },//['Blikáni při', 'chladnutí'] 
+  /* TemperatureCalibration    */ { "\x3C\x10\x19\x13\x1E\x12\x0D\x18\x10\x0E", "\x0E\x0F\x14\x19\x0D\x0E\x17\x30" },//['Kalibrovat', 'teplotu?'] 
+  /* SettingsReset             */ { "\x24\x0D\x18\x20\x12\x11\x15", "\x11\x10\x16\x0E\x10\x18\x0F\x11\x15\x30" },//['Tovární', 'nastavení?'] 
+  /* VoltageCalibration        */ { "\x3C\x10\x19\x13\x1E\x12\x0D\x18\x10\x0E", "\x18\x16\x0E\x17\x14\x11\x15\x0C\x11\x10\x14\x31\x0E\x15\x30" },//['Kalibrovat', 'vstupní napětí?'] 
   /* AdvancedSoldering         */ { "\x22\x0D\x1D\x12\x0D\x1E\x11\x0D\x16\x0E\x13", "\x14\x29\x13\x0C\x14\x20\x2B\x0F\x11\x15" },//['Podrobnosti', 'při pájení'] 
-  /* ScrollingSpeed            */ { "\x2A\x23\x1F\x1C\x18\x0D\x16\x0E", "\x14\x0D\x14\x13\x16\x1A\x4B" },//['Rychlost', 'popisků'] 
-  /* TipModel                  */ { "\x34\x0D\x1D\x0F\x18", "\x1C\x12\x0D\x0E\x17" },//['Model', 'hrotu'] 
-  /* SimpleCalibrationMode     */ { "\x42\x0F\x1D\x11\x0D\x1D\x17\x1F\x1C\x20", "\x1A\x10\x18\x13\x1E\x12\x10\x1F\x0F" },//['Jednoduchá', 'kalibrace'] 
-  /* AdvancedCalibrationMode   */ { "\x22\x0D\x1A\x12\x0D\x33\x13\x18\x20", "\x1A\x10\x18\x13\x1E\x12\x10\x1F\x0F" },//['Pokročilá', 'kalibrace'] 
-  /* PowerInput                */ { "\x31\x36\x1A\x0D\x11", "\x19\x0F\x0C\x3F\x10\x0E\x0E\x0F\x1F\x1C" },//['Výkon', 've wattech'] 
-  /* PowerLimitEnable          */ { "\x22\x0C\x39\x13\x21\x13\x0E", "\x47\x11\x10\x1E\x18\x0F" },//['P Limit', 'Enable'] 
+  /* ScrollingSpeed            */ { "\x2A\x23\x1F\x1C\x19\x0D\x16\x0E", "\x14\x0D\x14\x13\x16\x1A\x4B" },//['Rychlost', 'popisků'] 
+  /* TipModel                  */ { "\x34\x0D\x1D\x0F\x19", "\x1C\x12\x0D\x0E\x17" },//['Model', 'hrotu'] 
+  /* SimpleCalibrationMode     */ { "\x42\x0F\x1D\x11\x0D\x1D\x17\x1F\x1C\x20", "\x1A\x10\x19\x13\x1E\x12\x10\x1F\x0F" },//['Jednoduchá', 'kalibrace'] 
+  /* AdvancedCalibrationMode   */ { "\x22\x0D\x1A\x12\x0D\x32\x13\x19\x20", "\x1A\x10\x19\x13\x1E\x12\x10\x1F\x0F" },//['Pokročilá', 'kalibrace'] 
+  /* PowerInput                */ { "\x33\x36\x1A\x0D\x11", "\x18\x0F\x0C\x3F\x10\x0E\x0E\x0F\x1F\x1C" },//['Výkon', 've wattech'] 
+  /* PowerLimitEnable          */ { "\x22\x0C\x39\x13\x21\x13\x0E", "\x47\x11\x10\x1E\x19\x0F" },//['P Limit', 'Enable'] 
   /* PowerLimit                */ { "\x22\x0D\x3F\x0F\x12", "\x39\x13\x21\x13\x0E" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x22\x20\x2B\x0F\x1F\x15\x01\x11\x10\x16\x0E\x10\x19\x0F\x11\x15",//['Pájecí', 'nastavení'] 
+  /* SolderingMenu             */ "\x22\x20\x2B\x0F\x1F\x15\x01\x11\x10\x16\x0E\x10\x18\x0F\x11\x15",//['Pájecí', 'nastavení'] 
   /* PowerSavingMenu           */ "\x2A\x0F\x28\x13\x21\x01\x16\x14\x20\x11\x1A\x17",//['Režim', 'spánku'] 
-  /* UIMenu                    */ "\x45\x28\x13\x19\x10\x0E\x0F\x18\x16\x1A\x2D\x01\x12\x0D\x25\x1C\x12\x10\x11\x15",//['Uživatelské', 'rozhraní'] 
-  /* AdvancedMenu              */ "\x22\x0D\x1A\x12\x0D\x33\x13\x18\x2D\x01\x19\x0D\x18\x1E\x23",//['Pokročilé', 'volby'] 
+  /* UIMenu                    */ "\x45\x28\x13\x18\x10\x0E\x0F\x19\x16\x1A\x2E\x01\x12\x0D\x25\x1C\x12\x10\x11\x15",//['Uživatelské', 'rozhraní'] 
+  /* AdvancedMenu              */ "\x22\x0D\x1A\x12\x0D\x32\x13\x19\x2E\x01\x18\x0D\x19\x1E\x23",//['Pokročilé', 'volby'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x38\x10\x16\x0E\x10\x19\x0F\x11\x15\x0C\x14\x20\x2B\x0F\x11\x15\x0C\x4E\x1E\x0D\x0D\x16\x0E\x27\x0C\x10\x17\x0E\x0D\x0C\x16\x0E\x10\x12\x0E\x1B\x1B\x1B\x4D\x1B",//Nastavení pájení (boost, auto start...). 
-  /* PowerSavingMenu           */ "\x38\x10\x16\x0E\x10\x19\x0F\x11\x15\x0C\x12\x0F\x28\x13\x21\x17\x0C\x16\x14\x20\x11\x1A\x17\x27\x0C\x10\x17\x0E\x0D\x21\x10\x0E\x13\x1F\x1A\x2D\x1C\x0D\x0C\x19\x23\x14\x11\x17\x0E\x15\x1B\x1B\x1B",//Nastavení režimu spánku, automatického vypnutí... 
-  /* UIMenu                    */ "\x38\x10\x16\x0E\x10\x19\x0F\x11\x15\x0C\x17\x28\x13\x19\x10\x0E\x0F\x18\x16\x1A\x2D\x1C\x0D\x0C\x12\x0D\x25\x1C\x12\x10\x11\x15\x1B",//Nastavení uživatelského rozhraní. 
-  /* AdvancedMenu              */ "\x22\x0D\x1A\x12\x0D\x33\x13\x18\x2D\x0C\x19\x0D\x18\x1E\x23\x0C\x4E\x1D\x0F\x0E\x10\x13\x18\x11\x15\x0C\x0D\x1E\x12\x10\x25\x0D\x19\x1A\x23\x27\x0C\x1A\x10\x18\x13\x1E\x12\x10\x1F\x0F\x27\x0C\x0E\x0D\x19\x20\x12\x11\x15\x0C\x11\x10\x16\x0E\x10\x19\x0F\x11\x15\x1B\x1B\x1B\x4D\x1B",//Pokročilé volby (detailní obrazovky, kalibrace, tovární nastavení...). 
+  /* SolderingMenu             */ "\x38\x10\x16\x0E\x10\x18\x0F\x11\x15\x0C\x14\x20\x2B\x0F\x11\x15\x0C\x4E\x1E\x0D\x0D\x16\x0E\x27\x0C\x10\x17\x0E\x0D\x0C\x16\x0E\x10\x12\x0E\x1B\x1B\x1B\x4D\x1B",//Nastavení pájení (boost, auto start...). 
+  /* PowerSavingMenu           */ "\x38\x10\x16\x0E\x10\x18\x0F\x11\x15\x0C\x12\x0F\x28\x13\x21\x17\x0C\x16\x14\x20\x11\x1A\x17\x27\x0C\x10\x17\x0E\x0D\x21\x10\x0E\x13\x1F\x1A\x2E\x1C\x0D\x0C\x18\x23\x14\x11\x17\x0E\x15\x1B\x1B\x1B",//Nastavení režimu spánku, automatického vypnutí... 
+  /* UIMenu                    */ "\x38\x10\x16\x0E\x10\x18\x0F\x11\x15\x0C\x17\x28\x13\x18\x10\x0E\x0F\x19\x16\x1A\x2E\x1C\x0D\x0C\x12\x0D\x25\x1C\x12\x10\x11\x15\x1B",//Nastavení uživatelského rozhraní. 
+  /* AdvancedMenu              */ "\x22\x0D\x1A\x12\x0D\x32\x13\x19\x2E\x0C\x18\x0D\x19\x1E\x23\x0C\x4E\x1D\x0F\x0E\x10\x13\x19\x11\x15\x0C\x0D\x1E\x12\x10\x25\x0D\x18\x1A\x23\x27\x0C\x1A\x10\x19\x13\x1E\x12\x10\x1F\x0F\x27\x0C\x0E\x0D\x18\x20\x12\x11\x15\x0C\x11\x10\x16\x0E\x10\x18\x0F\x11\x15\x1B\x1B\x1B\x4D\x1B",//Pokročilé volby (detailní obrazovky, kalibrace, tovární nastavení...). 
 };
 
 #endif
@@ -1054,18 +1057,18 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1F -> k
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x20 -> M
 0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x21 -> f
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x22 -> V
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x23 -> P
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x24 -> A
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x25 -> .
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x22 -> P
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x23 -> .
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x24 -> V
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x25 -> A
 0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x26 -> v
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x27 -> L
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x28 -> I
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x29 -> E
 0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x2A -> H
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x2B -> c
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2C -> B
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2D -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2C -> O
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2D -> B
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x2E -> h
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x2F -> b
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x30 -> W
@@ -1130,18 +1133,18 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1F -> k
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x20 -> M
 0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x21 -> f
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x22 -> V
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x23 -> P
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x24 -> A
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x25 -> .
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x22 -> P
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x23 -> .
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x24 -> V
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x25 -> A
 0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x26 -> v
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x27 -> L
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x28 -> I
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x29 -> E
 0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x2A -> H
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x2B -> c
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2C -> B
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2D -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2C -> O
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2D -> B
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x2E -> h
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x2F -> b
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x30 -> W
@@ -1176,88 +1179,89 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Dansk ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x17\x0E\x0F\x32\x1A\x21\x14\x0F\x12\x3B\x10\x11\x10\x1C\x25\x0C\x28\x10\x15\x12\x0E\x11\x16\x0C\x1D\x19\x0E\x14\x21\x21\x0C\x17\x18\x37\x10\x15\x11\x10\x1C\x0D\x10\x25\x0C\x31\x1E\x1D\x0C\x03\x02\x22\x0C\x31\x17\x0C\x05\x25\x05\x22\x0C\x18\x0D\x0F\x0C\x2B\x0D\x16\x16",//Strømforsyning. Indstil Cutoff Spændingen. <DC 10V <S 3.3V per cell 
+  /* PowerSource               */ "\x17\x0E\x0F\x32\x1A\x21\x14\x0F\x12\x3B\x10\x11\x10\x1C\x23\x0C\x28\x10\x15\x12\x0E\x11\x16\x0C\x1D\x19\x0E\x14\x21\x21\x0C\x17\x18\x37\x10\x15\x11\x10\x1C\x0D\x10\x23\x0C\x31\x1E\x1D\x0C\x03\x02\x24\x0C\x31\x17\x0C\x05\x23\x05\x24\x0C\x18\x0D\x0F\x0C\x2B\x0D\x16\x16",//Strømforsyning. Indstil Cutoff Spændingen. <DC 10V <S 3.3V per cell 
   /* SleepTemperature          */ "\x1E\x26\x13\x16\x0D\x0C\x1B\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x0C\x31\x1D",//Dvale Temperatur <C 
   /* SleepTimeout              */ "\x1E\x26\x13\x16\x0D\x0C\x1B\x11\x1A\x0D\x14\x19\x0E\x0C\x31\x20\x11\x10\x19\x0E\x0E\x0D\x0F\x4A\x17\x0D\x1F\x19\x10\x15\x0D\x0F",//Dvale Timeout <Minutter/Sekunder 
   /* ShutdownTimeout           */ "\x12\x16\x19\x1F\x10\x11\x10\x1C\x12\x0C\x1B\x11\x1A\x0D\x14\x19\x0E\x0C\x31\x20\x11\x10\x19\x0E\x0E\x0D\x0F",//sluknings Timeout <Minutter 
-  /* MotionSensitivity         */ "\x2C\x0D\x26\x37\x1C\x0D\x16\x12\x0D\x12\x21\x32\x16\x12\x14\x1A\x2E\x0D\x15\x0C\x31\x02\x25\x17\x16\x19\x1F\x1F\x0D\x0E\x0C\x03\x25\x20\x11\x10\x15\x12\x0E\x0C\x21\x32\x16\x12\x14\x1A\x0C\x0B\x25\x20\x0D\x12\x0E\x0C\x21\x32\x16\x12\x14\x1A",//Bevægelsesfølsomhed <0.Slukket 1.Mindst følsom 9.Mest følsom 
+  /* MotionSensitivity         */ "\x2D\x0D\x26\x37\x1C\x0D\x16\x12\x0D\x12\x21\x32\x16\x12\x14\x1A\x2E\x0D\x15\x0C\x31\x02\x23\x17\x16\x19\x1F\x1F\x0D\x0E\x0C\x03\x23\x20\x11\x10\x15\x12\x0E\x0C\x21\x32\x16\x12\x14\x1A\x0C\x0B\x23\x20\x0D\x12\x0E\x0C\x21\x32\x16\x12\x14\x1A",//Bevægelsesfølsomhed <0.Slukket 1.Mindst følsom 9.Mest følsom 
   /* TemperatureUnit           */ "\x1B\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x0C\x29\x10\x2E\x0D\x15\x0C\x31\x1D\x3C\x1D\x0D\x16\x12\x11\x19\x12\x0C\x3D\x3C\x3D\x13\x2E\x0F\x0D\x10\x2E\x0D\x11\x0E",//Temperatur Enhed <C=Celsius F=Fahrenheit 
-  /* AdvancedIdle              */ "\x22\x11\x12\x0C\x15\x0D\x0E\x11\x13\x16\x11\x0D\x0F\x0D\x0E\x0C\x11\x10\x21\x14\x0F\x1A\x13\x0E\x11\x14\x10\x0C\x1A\x0D\x15\x0C\x0D\x10\x0C\x1A\x11\x10\x15\x0F\x0D\x0C\x12\x1F\x0F\x11\x21\x0E\x12\x0E\x32\x0F\x0F\x0D\x16\x12\x0D\x0C\x18\x33\x0C\x12\x0E\x13\x10\x15\x2F\x3B\x0C\x12\x1F\x37\x0F\x1A\x0D\x10\x25",//Vis detialieret information med en mindre skriftstørrelse på standby skærmen. 
-  /* DisplayRotation           */ "\x17\x1F\x37\x0F\x1A\x0C\x2D\x0F\x11\x0D\x10\x0E\x0D\x0F\x11\x10\x1C\x0C\x31\x24\x25\x0C\x24\x19\x0E\x14\x1A\x13\x0E\x11\x12\x1F\x0C\x22\x25\x0C\x22\x0D\x10\x12\x0E\x0F\x0D\x0C\x2A\x33\x10\x15\x0D\x0E\x0C\x2A\x25\x0C\x2A\x32\x45\x0F\x0D\x0C\x2A\x33\x10\x15\x0D\x0E",//Skærm Orientering <A. Automatisk V. Venstre Håndet H. Højre Håndet 
-  /* BoostEnabled              */ "\x22\x0D\x15\x0C\x0E\x0F\x3B\x1F\x0C\x18\x33\x0C\x21\x0F\x14\x10\x0E\x0C\x1F\x10\x13\x18\x0C\x24\x1F\x0E\x11\x26\x0D\x0F\x0D\x12\x0C\x2F\x14\x14\x12\x0E\x3F\x21\x19\x10\x1F\x0E\x11\x14\x10\x0D\x10\x3A\x0C\x06\x07\x02\x1D\x0C\x0E\x11\x16\x12\x0E\x13\x10\x15\x0C\x10\x33\x0F\x0C\x15\x0D\x0F\x0C\x16\x14\x15\x15\x0D\x12",//Ved tryk på front knap Aktiveres boost-funktionen, 450C tilstand når der loddes 
+  /* AdvancedIdle              */ "\x24\x11\x12\x0C\x15\x0D\x0E\x11\x13\x16\x11\x0D\x0F\x0D\x0E\x0C\x11\x10\x21\x14\x0F\x1A\x13\x0E\x11\x14\x10\x0C\x1A\x0D\x15\x0C\x0D\x10\x0C\x1A\x11\x10\x15\x0F\x0D\x0C\x12\x1F\x0F\x11\x21\x0E\x12\x0E\x32\x0F\x0F\x0D\x16\x12\x0D\x0C\x18\x33\x0C\x12\x0E\x13\x10\x15\x2F\x3B\x0C\x12\x1F\x37\x0F\x1A\x0D\x10\x23",//Vis detialieret information med en mindre skriftstørrelse på standby skærmen. 
+  /* DisplayRotation           */ "\x17\x1F\x37\x0F\x1A\x0C\x2C\x0F\x11\x0D\x10\x0E\x0D\x0F\x11\x10\x1C\x0C\x31\x25\x23\x0C\x25\x19\x0E\x14\x1A\x13\x0E\x11\x12\x1F\x0C\x24\x23\x0C\x24\x0D\x10\x12\x0E\x0F\x0D\x0C\x2A\x33\x10\x15\x0D\x0E\x0C\x2A\x23\x0C\x2A\x32\x45\x0F\x0D\x0C\x2A\x33\x10\x15\x0D\x0E",//Skærm Orientering <A. Automatisk V. Venstre Håndet H. Højre Håndet 
+  /* BoostEnabled              */ "\x24\x0D\x15\x0C\x0E\x0F\x3B\x1F\x0C\x18\x33\x0C\x21\x0F\x14\x10\x0E\x0C\x1F\x10\x13\x18\x0C\x25\x1F\x0E\x11\x26\x0D\x0F\x0D\x12\x0C\x2F\x14\x14\x12\x0E\x3F\x21\x19\x10\x1F\x0E\x11\x14\x10\x0D\x10\x3A\x0C\x06\x07\x02\x1D\x0C\x0E\x11\x16\x12\x0E\x13\x10\x15\x0C\x10\x33\x0F\x0C\x15\x0D\x0F\x0C\x16\x14\x15\x15\x0D\x12",//Ved tryk på front knap Aktiveres boost-funktionen, 450C tilstand når der loddes 
   /* BoostTemperature          */ "\x1B\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x0C\x11\x0C\x46\x2F\x14\x14\x12\x0E\x46\x0C\x1A\x14\x15\x0D",//Temperatur i "boost" mode 
-  /* AutoStart                 */ "\x17\x0E\x13\x0F\x0E\x0C\x13\x19\x0E\x14\x1A\x13\x0E\x11\x12\x1F\x0C\x1A\x0D\x15\x0C\x16\x14\x15\x10\x11\x10\x1C\x0C\x10\x33\x0F\x0C\x12\x0E\x0F\x32\x1A\x0C\x12\x37\x0E\x0E\x0D\x12\x0C\x0E\x11\x16\x25\x0C\x27\x3C\x27\x14\x15\x10\x11\x10\x1C\x3A\x0C\x1E\x3C\x0C\x1E\x26\x13\x16\x0D\x0C\x0E\x11\x16\x12\x0E\x13\x10\x15\x3A\x17\x3C\x17\x16\x19\x1F\x1F\x0D\x0E",//Start automatisk med lodning når strøm sættes til. L=Lodning, D= Dvale tilstand,S=Slukket 
-  /* CooldownBlink             */ "\x2C\x16\x11\x10\x1F\x0C\x0E\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x0D\x10\x0C\x18\x33\x0C\x12\x1F\x37\x0F\x1A\x0D\x10\x3A\x0C\x1A\x0D\x10\x12\x0C\x12\x18\x11\x15\x12\x0D\x10\x0C\x12\x0E\x13\x15\x11\x1C\x0C\x0D\x0F\x0C\x26\x13\x0F\x1A\x25",//Blink temperaturen på skærmen, mens spidsen stadig er varm. 
-  /* TemperatureCalibration    */ "\x1F\x13\x16\x11\x2F\x0F\x0D\x0F\x0D\x0C\x12\x18\x11\x15\x12\x0C\x0E\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x25",//kalibrere spids temperatur. 
+  /* AutoStart                 */ "\x17\x0E\x13\x0F\x0E\x0C\x13\x19\x0E\x14\x1A\x13\x0E\x11\x12\x1F\x0C\x1A\x0D\x15\x0C\x16\x14\x15\x10\x11\x10\x1C\x0C\x10\x33\x0F\x0C\x12\x0E\x0F\x32\x1A\x0C\x12\x37\x0E\x0E\x0D\x12\x0C\x0E\x11\x16\x23\x0C\x27\x3C\x27\x14\x15\x10\x11\x10\x1C\x3A\x0C\x1E\x3C\x0C\x1E\x26\x13\x16\x0D\x0C\x0E\x11\x16\x12\x0E\x13\x10\x15\x3A\x17\x3C\x17\x16\x19\x1F\x1F\x0D\x0E",//Start automatisk med lodning når strøm sættes til. L=Lodning, D= Dvale tilstand,S=Slukket 
+  /* CooldownBlink             */ "\x2D\x16\x11\x10\x1F\x0C\x0E\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x0D\x10\x0C\x18\x33\x0C\x12\x1F\x37\x0F\x1A\x0D\x10\x3A\x0C\x1A\x0D\x10\x12\x0C\x12\x18\x11\x15\x12\x0D\x10\x0C\x12\x0E\x13\x15\x11\x1C\x0C\x0D\x0F\x0C\x26\x13\x0F\x1A\x23",//Blink temperaturen på skærmen, mens spidsen stadig er varm. 
+  /* TemperatureCalibration    */ "\x1F\x13\x16\x11\x2F\x0F\x0D\x0F\x0D\x0C\x12\x18\x11\x15\x12\x0C\x0E\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x23",//kalibrere spids temperatur. 
   /* SettingsReset             */ "\x43\x0D\x10\x15\x13\x10\x0C\x13\x16\x16\x0D\x0C\x11\x10\x15\x12\x0E\x11\x16\x16\x11\x10\x1C\x0D\x0F",//Gendan alle indstillinger 
-  /* VoltageCalibration        */ "\x22\x28\x36\x0C\x1F\x13\x16\x11\x2F\x0F\x0D\x0F\x11\x10\x1C\x25\x0C\x42\x10\x13\x18\x18\x0D\x0F\x10\x0D\x0C\x45\x19\x12\x0E\x0D\x0F\x0D\x3A\x0C\x27\x13\x10\x1C\x0C\x0E\x0F\x3B\x1F\x0C\x21\x14\x0F\x0C\x13\x0E\x0C\x1C\x33\x0C\x19\x15",//VIN kalibrering. Knapperne justere, Lang tryk for at gå ud 
-  /* AdvancedSoldering         */ "\x22\x11\x12\x0C\x15\x0D\x0E\x11\x13\x16\x11\x0D\x0F\x0D\x0E\x0C\x11\x10\x21\x14\x0F\x1A\x13\x0E\x11\x14\x10\x0C\x1A\x0D\x10\x12\x0C\x15\x0D\x0F\x0C\x16\x14\x15\x15\x0D\x12",//Vis detialieret information mens der loddes 
+  /* VoltageCalibration        */ "\x24\x28\x36\x0C\x1F\x13\x16\x11\x2F\x0F\x0D\x0F\x11\x10\x1C\x23\x0C\x42\x10\x13\x18\x18\x0D\x0F\x10\x0D\x0C\x45\x19\x12\x0E\x0D\x0F\x0D\x3A\x0C\x27\x13\x10\x1C\x0C\x0E\x0F\x3B\x1F\x0C\x21\x14\x0F\x0C\x13\x0E\x0C\x1C\x33\x0C\x19\x15",//VIN kalibrering. Knapperne justere, Lang tryk for at gå ud 
+  /* AdvancedSoldering         */ "\x24\x11\x12\x0C\x15\x0D\x0E\x11\x13\x16\x11\x0D\x0F\x0D\x0E\x0C\x11\x10\x21\x14\x0F\x1A\x13\x0E\x11\x14\x10\x0C\x1A\x0D\x10\x12\x0C\x15\x0D\x0F\x0C\x16\x14\x15\x15\x0D\x12",//Vis detialieret information mens der loddes 
   /* ScrollingSpeed            */ "\x17\x18\x0D\x0D\x15\x0C\x0E\x2E\x11\x12\x0C\x0E\x0D\x44\x0E\x0C\x12\x2B\x0F\x14\x16\x16\x12\x0C\x18\x13\x12\x0E\x0C\x13\x0E",//Speed this text scrolls past at 
   /* TipModel                  */ "\x1B\x11\x18\x0C\x20\x14\x15\x0D\x16\x0C\x12\x0D\x16\x0D\x2B\x0E\x11\x14\x10",//Tip Model selection 
   /* SimpleCalibrationMode     */ "\x17\x11\x1A\x18\x16\x0D\x0C\x1D\x13\x16\x11\x2F\x0F\x13\x0E\x11\x14\x10\x0C\x19\x12\x11\x10\x1C\x0C\x2A\x14\x0E\x0C\x34\x13\x0E\x0D\x0F",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x24\x15\x26\x13\x10\x2B\x0D\x15\x0C\x2B\x13\x16\x11\x2F\x0F\x13\x0E\x11\x14\x10\x0C\x19\x12\x11\x10\x1C\x0C\x0E\x2E\x0D\x0F\x1A\x14\x2B\x14\x19\x18\x16\x0D\x0C\x14\x10\x0C\x0E\x2E\x0D\x0C\x0E\x11\x18",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x23\x14\x34\x0D\x0F\x0C\x30\x13\x0E\x0E\x13\x1C\x0D\x0C\x14\x21\x0C\x0E\x2E\x0D\x0C\x18\x14\x34\x0D\x0F\x0C\x13\x15\x13\x18\x0E\x0D\x0F\x0C\x19\x12\x0D\x15",//Power Wattage of the power adapter used 
+  /* AdvancedCalibrationMode   */ "\x25\x15\x26\x13\x10\x2B\x0D\x15\x0C\x2B\x13\x16\x11\x2F\x0F\x13\x0E\x11\x14\x10\x0C\x19\x12\x11\x10\x1C\x0C\x0E\x2E\x0D\x0F\x1A\x14\x2B\x14\x19\x18\x16\x0D\x0C\x14\x10\x0C\x0E\x2E\x0D\x0C\x0E\x11\x18",//Advanced calibration using thermocouple on the tip 
+  /* PowerInput                */ "\x22\x14\x34\x0D\x0F\x0C\x30\x13\x0E\x0E\x13\x1C\x0D\x0C\x14\x21\x0C\x0E\x2E\x0D\x0C\x18\x14\x34\x0D\x0F\x0C\x13\x15\x13\x18\x0E\x0D\x0F\x0C\x19\x12\x0D\x15",//Power Wattage of the power adapter used 
   /* PowerLimitEnable          */ "\x29\x10\x13\x2F\x16\x0D\x0C\x18\x14\x34\x0D\x0F\x0C\x16\x11\x1A\x11\x0E",//Enable power limit 
   /* PowerLimit                */ "\x20\x13\x44\x11\x1A\x19\x1A\x0C\x18\x14\x34\x0D\x0F\x0C\x0E\x2E\x0D\x0C\x11\x0F\x14\x10\x0C\x2B\x13\x10\x0C\x19\x12\x0D\x0C\x31\x30\x13\x0E\x0E\x12\x49",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x1D\x13\x16\x11\x2F\x0F\x13\x0E\x11\x14\x10\x0C\x15\x14\x10\x0D\x40";//Calibration done! 
 const char* SettingsCalibrationWarning = "\x17\x32\x0F\x1C\x0C\x21\x14\x0F\x0C\x13\x0E\x0C\x16\x14\x15\x15\x0D\x12\x18\x11\x15\x12\x0D\x10\x0C\x0D\x0F\x0C\x26\x0D\x15\x0C\x12\x0E\x19\x0D\x0E\x0D\x1A\x18\x0D\x0F\x13\x0E\x19\x0F\x3A\x0C\x11\x10\x15\x0D\x10\x0C\x15\x19\x0C\x21\x14\x0F\x0E\x12\x37\x0E\x0E\x0D\x0F\x40";//Sørg for at loddespidsen er ved stuetemperatur, inden du fortsætter! 
-const char* SettingsResetWarning = "\x24\x0F\x0D\x0C\x3B\x14\x19\x0C\x12\x19\x0F\x0D\x0C\x0E\x14\x0C\x0F\x0D\x12\x0D\x0E\x0C\x12\x0D\x0E\x0E\x11\x10\x1C\x12\x0C\x0E\x14\x0C\x15\x0D\x21\x13\x19\x16\x0E\x0C\x26\x13\x16\x19\x0D\x12\x3E";//Are you sure to reset settings to default values? 
-const char* UVLOWarningString = "\x27\x13\x26\x0C\x22\x14\x16\x0E";//Lav Volt 
+const char* SettingsResetWarning = "\x25\x0F\x0D\x0C\x3B\x14\x19\x0C\x12\x19\x0F\x0D\x0C\x0E\x14\x0C\x0F\x0D\x12\x0D\x0E\x0C\x12\x0D\x0E\x0E\x11\x10\x1C\x12\x0C\x0E\x14\x0C\x15\x0D\x21\x13\x19\x16\x0E\x0C\x26\x13\x16\x19\x0D\x12\x3E";//Are you sure to reset settings to default values? 
+const char* UVLOWarningString = "\x27\x13\x26\x0C\x24\x14\x16\x0E";//Lav Volt 
 const char* UndervoltageString = "\x38\x10\x15\x0D\x0F\x26\x14\x16\x0E\x13\x1C\x0D";//Undervoltage 
-const char* InputVoltageString = "\x28\x10\x18\x19\x0E\x0C\x22\x39\x0C";//Input V:  
+const char* InputVoltageString = "\x28\x10\x18\x19\x0E\x0C\x24\x39\x0C";//Input V:  
 const char* WarningTipTempString = "\x1B\x11\x18\x0C\x1B\x0D\x1A\x18\x39\x0C";//Tip Temp:  
-const char* BadTipString = "\x2C\x24\x1E\x0C\x1B\x28\x23";//BAD TIP 
+const char* BadTipString = "\x2D\x25\x1E\x0C\x1B\x28\x22";//BAD TIP 
 const char* SleepingSimpleString = "\x47\x41\x41\x41";//Zzzz 
-const char* SleepingAdvancedString = "\x1E\x26\x13\x16\x0D\x25\x25\x25";//Dvale... 
-const char* WarningSimpleString = "\x22\x13\x0F\x1A";//Varm 
-const char* WarningAdvancedString = "\x22\x24\x35\x20\x0C\x27\x2D\x1E\x1E\x29\x17\x23\x28\x1E\x17\x40";//VARM LODDESPIDS! 
+const char* SleepingAdvancedString = "\x1E\x26\x13\x16\x0D\x23\x23\x23";//Dvale... 
+const char* WarningSimpleString = "\x24\x13\x0F\x1A";//Varm 
+const char* WarningAdvancedString = "\x24\x25\x35\x20\x0C\x27\x2C\x1E\x1E\x29\x17\x22\x28\x1E\x17\x40";//VARM LODDESPIDS! 
 const char* SleepingTipAdvancedString = "\x1B\x11\x18\x39";//Tip: 
 const char* IdleTipString = "\x1B\x11\x18\x39";//Tip: 
 const char* IdleSetString = "\x0C\x17\x0D\x0E\x39";// Set: 
-const char* TipDisconnectedString = "\x1B\x28\x23\x0C\x1E\x28\x17\x1D\x2D\x36\x36\x29\x1D\x1B\x29\x1E";//TIP DISCONNECTED 
-const char* SolderingAdvancedPowerPrompt = "\x23\x14\x34\x0D\x0F\x39\x0C";//Power:  
-const char* OffString = "\x2D\x21\x21";//Off 
-const char* ResetOKMessage = "\x35\x0D\x12\x0D\x0E\x0C\x2D\x42";//Reset OK 
+const char* TipDisconnectedString = "\x1B\x28\x22\x0C\x1E\x28\x17\x1D\x2C\x36\x36\x29\x1D\x1B\x29\x1E";//TIP DISCONNECTED 
+const char* SolderingAdvancedPowerPrompt = "\x22\x14\x34\x0D\x0F\x39\x0C";//Power:  
+const char* OffString = "\x2C\x21\x21";//Off 
+const char* ResetOKMessage = "\x35\x0D\x12\x0D\x0E\x0C\x2C\x42";//Reset OK 
 const char* YourGainMessage = "\x48\x14\x19\x0F\x0C\x43\x13\x11\x10";//Your Gain 
 const char* SettingsResetMessage = "\x17\x0D\x0E\x0E\x11\x10\x1C\x12\x0C\x34\x0D\x0F\x0D\x01\x0F\x0D\x12\x0D\x0E\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x2A";//H 
-const char* SettingLeftChar = "\x22";//V 
-const char* SettingAutoChar = "\x24";//A 
+const char* SettingLeftChar = "\x24";//V 
+const char* SettingAutoChar = "\x25";//A 
 const char* SettingFastChar = "\x3D";//F 
 const char* SettingSlowChar = "\x17";//S 
 const char* SettingStartSolderingChar = "\x27";//L 
 const char* SettingStartSleepChar = "\x1E";//D 
+const char* SettingStartSleepOffChar = "\x2C";//O 
 const char* SettingStartNoneChar = "\x17";//S 
 
 const char* SymbolPlus = "\x4B";//+ 
 const char* SymbolMinus = "\x3F";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x25";//. 
+const char* SymbolDot = "\x23";//. 
 const char* SymbolDegC = "\x1D";//C 
 const char* SymbolDegF = "\x3D";//F 
 const char* SymbolMinutes = "\x20";//M 
 const char* SymbolSeconds = "\x17";//S 
 const char* SymbolWatts = "\x30";//W 
-const char* SymbolVolts = "\x22";//V 
+const char* SymbolVolts = "\x24";//V 
 const char* SymbolDC = "\x1E\x1D";//DC 
 const char* SymbolCellCount = "\x17";//S 
-const char* SymbolVersionNumber = "\x22\x04\x25\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x26\x04\x23\x02\x0A\x23\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x2C\x02\x04",//B02 
+	 "\x2D\x02\x04",//B02 
 	 "\x1E\x04\x06",//D24 
-	 "\x2C\x1D\x04",//BC2 
+	 "\x2D\x1D\x04",//BC2 
 	 "\x0C\x1D\x03",// C1 
 	 "\x1B\x17\x03\x02\x02",//TS100 
-	 "\x2C\x1D\x04",//BC2 
+	 "\x2D\x1D\x04",//BC2 
 	 "\x2A\x13\x1F\x1F\x14",//Hakko 
 	 "\x38\x12\x0D\x0F",//User 
 #else
-	 "\x2C\x02\x04",//B02 
+	 "\x2D\x02\x04",//B02 
 	 "\x1E\x04\x07",//D25 
 	 "\x1B\x17\x0A\x02",//TS80 
 	 "\x38\x12\x0D\x0F",//User 
@@ -1265,58 +1269,58 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x3F\x02\x03\x3F\x04\x02",//18-01-20 
+	 "\x03\x06\x3F\x02\x05\x3F\x04\x02",//14-03-20 
 	 "\x2A\x30\x0C\x43\x0C",//HW G  
 	 "\x2A\x30\x0C\x20\x0C",//HW M  
-	 "\x2A\x30\x0C\x23\x0C",//HW P  
+	 "\x2A\x30\x0C\x22\x0C",//HW P  
 	 "\x1B\x11\x1A\x0D\x0C",//Time  
 	 "\x20\x14\x26\x0D\x0C",//Move  
 	 "\x35\x1B\x11\x18\x0C",//RTip  
 	 "\x1D\x1B\x11\x18\x0C",//CTip  
 	 "\x1D\x2A\x13\x10\x0C",//CHan  
-	 "\x22\x11\x10\x0C\x0C",//Vin   
-	 "\x23\x1D\x2C\x0C\x0C",//PCB   
+	 "\x24\x11\x10\x0C\x0C",//Vin   
+	 "\x22\x1D\x2D\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x23\x30\x35\x17\x1D" },//PWRSC 
-  /* SleepTemperature          */ { "\x17\x1B\x20\x23" },//STMP 
+  /* PowerSource               */ { "\x22\x30\x35\x17\x1D" },//PWRSC 
+  /* SleepTemperature          */ { "\x17\x1B\x20\x22" },//STMP 
   /* SleepTimeout              */ { "\x17\x1B\x20\x29" },//STME 
   /* ShutdownTimeout           */ { "\x17\x2A\x1B\x20\x29" },//SHTME 
   /* MotionSensitivity         */ { "\x20\x17\x29\x36\x17\x29" },//MSENSE 
-  /* TemperatureUnit           */ { "\x1B\x20\x23\x38\x36\x1B" },//TMPUNT 
-  /* AdvancedIdle              */ { "\x24\x1E\x22\x28\x1E\x27" },//ADVIDL 
-  /* DisplayRotation           */ { "\x1E\x17\x23\x35\x2D\x1B" },//DSPROT 
-  /* BoostEnabled              */ { "\x2C\x2D\x2D\x17\x1B" },//BOOST 
-  /* BoostTemperature          */ { "\x2C\x1B\x20\x23" },//BTMP 
-  /* AutoStart                 */ { "\x24\x17\x1B\x24\x35\x1B" },//ASTART 
-  /* CooldownBlink             */ { "\x1D\x27\x2C\x27\x36\x42" },//CLBLNK 
-  /* TemperatureCalibration    */ { "\x1B\x20\x23\x0C\x1D\x24\x27\x3E" },//TMP CAL? 
+  /* TemperatureUnit           */ { "\x1B\x20\x22\x38\x36\x1B" },//TMPUNT 
+  /* AdvancedIdle              */ { "\x25\x1E\x24\x28\x1E\x27" },//ADVIDL 
+  /* DisplayRotation           */ { "\x1E\x17\x22\x35\x2C\x1B" },//DSPROT 
+  /* BoostEnabled              */ { "\x2D\x2C\x2C\x17\x1B" },//BOOST 
+  /* BoostTemperature          */ { "\x2D\x1B\x20\x22" },//BTMP 
+  /* AutoStart                 */ { "\x25\x17\x1B\x25\x35\x1B" },//ASTART 
+  /* CooldownBlink             */ { "\x1D\x27\x2D\x27\x36\x42" },//CLBLNK 
+  /* TemperatureCalibration    */ { "\x1B\x20\x22\x0C\x1D\x25\x27\x3E" },//TMP CAL? 
   /* SettingsReset             */ { "\x35\x29\x17\x29\x1B\x3E" },//RESET? 
-  /* VoltageCalibration        */ { "\x1D\x24\x27\x0C\x22\x28\x36\x3E" },//CAL VIN? 
-  /* AdvancedSoldering         */ { "\x24\x1E\x22\x17\x27\x1E" },//ADVSLD 
-  /* ScrollingSpeed            */ { "\x1E\x29\x17\x1D\x17\x23" },//DESCSP 
-  /* TipModel                  */ { "\x1B\x28\x23\x20\x2D" },//TIPMO 
-  /* SimpleCalibrationMode     */ { "\x17\x20\x23\x1D\x24\x27" },//SMPCAL 
-  /* AdvancedCalibrationMode   */ { "\x24\x1E\x22\x1D\x24\x27" },//ADVCAL 
-  /* PowerInput                */ { "\x23\x30\x35\x30" },//PWRW 
-  /* PowerLimitEnable          */ { "\x23\x27\x28\x20\x29\x36" },//PLIMEN 
-  /* PowerLimit                */ { "\x23\x27\x28\x20" },//PLIM 
+  /* VoltageCalibration        */ { "\x1D\x25\x27\x0C\x24\x28\x36\x3E" },//CAL VIN? 
+  /* AdvancedSoldering         */ { "\x25\x1E\x24\x17\x27\x1E" },//ADVSLD 
+  /* ScrollingSpeed            */ { "\x1E\x29\x17\x1D\x17\x22" },//DESCSP 
+  /* TipModel                  */ { "\x1B\x28\x22\x20\x2C" },//TIPMO 
+  /* SimpleCalibrationMode     */ { "\x17\x20\x22\x1D\x25\x27" },//SMPCAL 
+  /* AdvancedCalibrationMode   */ { "\x25\x1E\x24\x1D\x25\x27" },//ADVCAL 
+  /* PowerInput                */ { "\x22\x30\x35\x30" },//PWRW 
+  /* PowerLimitEnable          */ { "\x22\x27\x28\x20\x29\x36" },//PLIMEN 
+  /* PowerLimit                */ { "\x22\x27\x28\x20" },//PLIM 
 };
 
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x17\x14\x16\x15\x0D\x0F\x11\x10\x1C\x01\x17\x0D\x0E\x0E\x11\x10\x1C\x12",//['Soldering', 'Settings'] 
   /* PowerSavingMenu           */ "\x17\x16\x0D\x0D\x18\x01\x20\x14\x15\x0D\x12",//['Sleep', 'Modes'] 
   /* UIMenu                    */ "\x38\x12\x0D\x0F\x01\x28\x10\x0E\x0D\x0F\x21\x13\x2B\x0D",//['User', 'Interface'] 
-  /* AdvancedMenu              */ "\x24\x15\x26\x13\x10\x2B\x0D\x15\x01\x2D\x18\x0E\x11\x14\x10\x12",//['Advanced', 'Options'] 
+  /* AdvancedMenu              */ "\x25\x15\x26\x13\x10\x2B\x0D\x15\x01\x2C\x18\x0E\x11\x14\x10\x12",//['Advanced', 'Options'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x17\x14\x16\x15\x0D\x0F\x11\x10\x1C\x0C\x12\x0D\x0E\x0E\x11\x10\x1C\x12",//Soldering settings 
-  /* PowerSavingMenu           */ "\x23\x14\x34\x0D\x0F\x0C\x17\x13\x26\x11\x10\x1C\x0C\x17\x0D\x0E\x0E\x11\x10\x1C\x12",//Power Saving Settings 
+  /* PowerSavingMenu           */ "\x22\x14\x34\x0D\x0F\x0C\x17\x13\x26\x11\x10\x1C\x0C\x17\x0D\x0E\x0E\x11\x10\x1C\x12",//Power Saving Settings 
   /* UIMenu                    */ "\x38\x12\x0D\x0F\x0C\x28\x10\x0E\x0D\x0F\x21\x13\x2B\x0D\x0C\x12\x0D\x0E\x0E\x11\x10\x1C\x12",//User Interface settings 
-  /* AdvancedMenu              */ "\x24\x15\x26\x13\x10\x2B\x0D\x15\x0C\x14\x18\x0E\x11\x14\x10\x12",//Advanced options 
+  /* AdvancedMenu              */ "\x25\x15\x26\x13\x10\x2B\x0D\x15\x0C\x14\x18\x0E\x11\x14\x10\x12",//Advanced options 
 };
 
 #endif
@@ -1338,68 +1342,66 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x0E ->  
 0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x0F -> i
 0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x10 -> t
-0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x11 -> r
-0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x12 -> s
+0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x11 -> s
+0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x12 -> r
 0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x13 -> u
-0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x14 -> l
-0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x15 -> a
+0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x14 -> a
+0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x15 -> l
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x16 -> g
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x17 -> h
-0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x18 -> m
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x19 -> o
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x1A -> d
+0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x17 -> m
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x18 -> h
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x19 -> d
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1A -> o
 0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x1B -> p
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1C -> c
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x1D -> A
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x1E -> z
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1F -> S
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x20 -> E
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x21 -> b
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x22 -> k
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x23 -> L
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x24 -> =
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x25 -> T
-0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x26 -> -
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x27 -> w
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x28 -> .
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x29 -> ,
-0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0xEC,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x2A -> ö
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x1D -> z
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1E -> S
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x1F -> L
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x20 -> k
+0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x21 -> -
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x22 -> A
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x23 -> b
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x24 -> T
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x25 -> E
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x26 -> .
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x27 -> =
+0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0xEC,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x28 -> ö
+0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x29 -> f
+0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x2A -> w
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2B -> R
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2C -> >
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2D -> <
-0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2E -> f
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2F -> C
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x30 -> B
-0x00,0xE0,0xE0,0x0C,0x0C,0x00,0x00,0x0C,0x0C,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x31 -> ü
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x32 -> V
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x33 -> M
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x34 -> K
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x35 -> D
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x36 -> v
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x37 -> W
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x38 -> H
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x39 -> F
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2C -> B
+0x00,0xE0,0xE0,0x0C,0x0C,0x00,0x00,0x0C,0x0C,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x2D -> ü
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2E -> C
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x2F -> M
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x30 -> v
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x31 -> V
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x32 -> K
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x33 -> D
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x34 -> >
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x35 -> <
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x36 -> F
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x37 -> ,
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x38 -> W
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x39 -> H
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3A -> ?
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x0E,0x1E,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x3B -> J
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x3C -> :
-0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x3D -> N
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x3B -> :
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3C -> !
+0x00,0x00,0xC0,0xE0,0x30,0x10,0x10,0x30,0xE0,0xC0,0x00,0x00,0x00,0x00,0xFF,0xFF,0x21,0x21,0x21,0x33,0x3F,0x1E,0x00,0x00,//\x3D -> ß
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x3E -> I
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3F -> !
-0x00,0x00,0xC0,0xE0,0x30,0x10,0x10,0x30,0xE0,0xC0,0x00,0x00,0x00,0x00,0xFF,0xFF,0x21,0x21,0x21,0x33,0x3F,0x1E,0x00,0x00,//\x40 -> ß
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x41 -> P
-0x00,0x00,0x40,0x6C,0x6C,0x60,0x60,0x6C,0x6C,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x42 -> ä
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x43 -> x
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x44 -> U
-0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x45 -> )
-0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x46 -> (
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x47 -> q
-0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x48 -> Z
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x49 -> G
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x4A -> Y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4B -> O
-0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x4C -> /
-0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x4D -> +
-0x00,0x00,0x98,0xB8,0xE0,0xF8,0xF8,0xE0,0xB8,0x98,0x00,0x00,0x00,0x00,0x0C,0x0E,0x03,0x0F,0x0F,0x03,0x0E,0x0C,0x00,0x00,//\x4E -> *
+0x00,0x00,0x40,0x6C,0x6C,0x60,0x60,0x6C,0x6C,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x3F -> ä
+0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x40 -> x
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x41 -> U
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x42 -> O
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x43 -> q
+0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x44 -> Z
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x45 -> P
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x46 -> G
+0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x47 -> )
+0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x48 -> (
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x49 -> Y
+0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x4A -> /
+0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x4B -> +
+0x00,0x00,0x98,0xB8,0xE0,0xF8,0xF8,0xE0,0xB8,0x98,0x00,0x00,0x00,0x00,0x0C,0x0E,0x03,0x0F,0x0F,0x03,0x0E,0x0C,0x00,0x00,//\x4C -> *
 };
 const uint8_t USER_FONT_6x8[] = {
 0x3e, 0x51, 0x49, 0x45, 0x3e, 0x00,//\x02 -> 0
@@ -1417,213 +1419,212 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x0E ->  
 0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x0F -> i
 0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x10 -> t
-0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x11 -> r
-0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x12 -> s
+0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x11 -> s
+0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x12 -> r
 0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x13 -> u
-0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x14 -> l
-0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x15 -> a
+0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x14 -> a
+0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x15 -> l
 0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x16 -> g
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x17 -> h
-0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x18 -> m
-0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x19 -> o
-0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x1A -> d
+0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x17 -> m
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x18 -> h
+0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x19 -> d
+0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x1A -> o
 0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x1B -> p
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1C -> c
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x1D -> A
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x1E -> z
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1F -> S
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x20 -> E
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x21 -> b
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x22 -> k
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x23 -> L
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x24 -> =
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x25 -> T
-0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x26 -> -
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x27 -> w
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x28 -> .
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x29 -> ,
-0x38, 0x45, 0x44, 0x45, 0x38, 0x00,//\x2A -> ö
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x1D -> z
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1E -> S
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x1F -> L
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x20 -> k
+0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x21 -> -
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x22 -> A
+0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x23 -> b
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x24 -> T
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x25 -> E
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x26 -> .
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x27 -> =
+0x38, 0x45, 0x44, 0x45, 0x38, 0x00,//\x28 -> ö
+0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x29 -> f
+0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x2A -> w
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2B -> R
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2C -> >
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2D -> <
-0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x2E -> f
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2F -> C
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x30 -> B
-0x3c, 0x41, 0x40, 0x21, 0x5c, 0x00,//\x31 -> ü
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x32 -> V
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x33 -> M
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x34 -> K
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x35 -> D
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x36 -> v
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x37 -> W
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x38 -> H
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x39 -> F
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2C -> B
+0x3c, 0x41, 0x40, 0x21, 0x5c, 0x00,//\x2D -> ü
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2E -> C
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x2F -> M
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x30 -> v
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x31 -> V
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x32 -> K
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x33 -> D
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x34 -> >
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x35 -> <
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x36 -> F
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x37 -> ,
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x38 -> W
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x39 -> H
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3A -> ?
-0x20, 0x40, 0x41, 0x3f, 0x01, 0x00,//\x3B -> J
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x3C -> :
-0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x3D -> N
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x3B -> :
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3C -> !
+0x7e, 0x11, 0x25, 0x25, 0x1a, 0x00,//\x3D -> ß
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x3E -> I
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3F -> !
-0x7e, 0x11, 0x25, 0x25, 0x1a, 0x00,//\x40 -> ß
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x41 -> P
-0x20, 0x55, 0x54, 0x55, 0x78, 0x00,//\x42 -> ä
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x43 -> x
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x44 -> U
-0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x45 -> )
-0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x46 -> (
-0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x47 -> q
-0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x48 -> Z
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x49 -> G
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x4A -> Y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x4B -> O
-0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x4C -> /
-0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x4D -> +
-0x14, 0x08, 0x3e, 0x08, 0x14, 0x00,//\x4E -> *
+0x20, 0x55, 0x54, 0x55, 0x78, 0x00,//\x3F -> ä
+0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x40 -> x
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x41 -> U
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x42 -> O
+0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x43 -> q
+0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x44 -> Z
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x45 -> P
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x46 -> G
+0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x47 -> )
+0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x48 -> (
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x49 -> Y
+0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x4A -> /
+0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x4B -> +
+0x14, 0x08, 0x3e, 0x08, 0x14, 0x00,//\x4C -> *
 };
 // ---- Deutsch ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1F\x1B\x15\x0D\x0D\x13\x0D\x16\x12\x47\x13\x0C\x14\x14\x0C\x0E\x46\x1D\x21\x12\x1C\x17\x15\x14\x10\x12\x1B\x15\x0D\x0D\x13\x0D\x16\x45\x0E\x2D\x35\x2F\x24\x03\x02\x32\x29\x0E\x0D\x1F\x24\x0D\x4E\x05\x28\x05\x32\x0E\x2E\x31\x11\x0E\x0D\x0E\x23\x0F\x3E\x19\x0D\x26\x48\x0C\x14\x14\x0C\x0D\x2C",//Spannungsquelle (Abschaltspannung) <DC=10V, nS=n*3.3V für n LiIon-Zellen> 
-  /* SleepTemperature          */ "\x2B\x13\x17\x0C\x10\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x0E\x46\x3E\x0D\x0E\x1A\x0C\x11\x0E\x0C\x0F\x0D\x16\x0C\x12\x10\x0C\x14\x14\x10\x0C\x0D\x0E\x20\x0F\x0D\x17\x0C\x0F\x10\x45",//Ruhetemperatur (In der eingestellten Einheit) 
-  /* SleepTimeout              */ "\x2B\x13\x17\x0C\x18\x19\x1A\x13\x12\x0E\x0D\x15\x1C\x17\x0E\x2D\x1F\x0C\x22\x13\x0D\x1A\x0C\x0D\x4C\x33\x0F\x0D\x13\x10\x0C\x0D\x2C",//Ruhemodus nach <Sekunden/Minuten> 
-  /* ShutdownTimeout           */ "\x1D\x21\x12\x1C\x17\x15\x14\x10\x0C\x0D\x0E\x0D\x15\x1C\x17\x0E\x2D\x33\x0F\x0D\x13\x10\x0C\x0D\x2C",//Abschalten nach <Minuten> 
-  /* MotionSensitivity         */ "\x30\x0C\x27\x0C\x16\x13\x0D\x16\x12\x0C\x18\x1B\x2E\x0F\x0D\x1A\x14\x0F\x1C\x17\x22\x0C\x0F\x10\x0E\x2D\x02\x24\x1D\x13\x12\x29\x0E\x03\x24\x33\x0F\x0D\x0F\x18\x15\x14\x0E\x28\x28\x28\x0E\x0B\x24\x33\x15\x43\x0F\x18\x15\x14\x2C",//Bewegungsempfindlichkeit <0=Aus, 1=Minimal ... 9=Maximal> 
-  /* TemperatureUnit           */ "\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x0C\x0F\x0D\x17\x0C\x0F\x10\x0E\x2D\x2F\x24\x2F\x0C\x14\x12\x0F\x13\x12\x29\x0E\x39\x24\x39\x15\x17\x11\x0C\x0D\x17\x0C\x0F\x10\x2C",//Temperatureinheit <C=Celsius, F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x35\x0C\x10\x15\x0F\x14\x14\x0F\x0C\x11\x10\x0C\x0E\x1D\x0D\x1E\x0C\x0F\x16\x0C\x0E\x0F\x18\x0E\x2B\x13\x17\x0C\x18\x19\x1A\x13\x12\x0E\x2D\x3B\x24\x1D\x0D\x29\x0E\x3D\x24\x1D\x13\x12\x2C",//Detaillierte Anzeige im Ruhemodus <J=An, N=Aus> 
-  /* DisplayRotation           */ "\x1D\x13\x12\x11\x0F\x1C\x17\x10\x13\x0D\x16\x0E\x1A\x0C\x11\x0E\x1D\x0D\x1E\x0C\x0F\x16\x0C\x0E\x2D\x1D\x24\x1D\x13\x10\x19\x18\x15\x10\x0F\x12\x1C\x17\x29\x0E\x23\x24\x23\x0F\x0D\x22\x12\x17\x42\x0D\x1A\x0F\x16\x29\x0E\x2B\x24\x2B\x0C\x1C\x17\x10\x12\x17\x42\x0D\x1A\x0F\x16\x2C",//Ausrichtung der Anzeige <A=Automatisch, L=Linkshändig, R=Rechtshändig> 
-  /* BoostEnabled              */ "\x32\x19\x11\x1A\x0C\x11\x0C\x0E\x25\x15\x12\x10\x0C\x0E\x2E\x31\x11\x0E\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x21\x19\x19\x12\x10\x0E\x36\x0C\x11\x27\x0C\x0D\x1A\x0C\x0D\x0E\x2D\x3B\x24\x1D\x0D\x29\x0E\x3D\x24\x1D\x13\x12\x2C",//Vordere Taste für Temperaturboost verwenden <J=An, N=Aus> 
-  /* BoostTemperature          */ "\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x0E\x0F\x18\x0E\x30\x19\x19\x12\x10\x18\x19\x1A\x13\x12\x0E\x0E\x46\x3E\x0D\x0E\x1A\x0C\x11\x0E\x0C\x0F\x0D\x16\x0C\x12\x10\x0C\x14\x14\x10\x0C\x0D\x0E\x20\x0F\x0D\x17\x0C\x0F\x10\x45",//Temperatur im Boostmodus  (In der eingestellten Einheit) 
-  /* AutoStart                 */ "\x1D\x13\x10\x19\x18\x15\x10\x0F\x12\x1C\x17\x0C\x11\x0E\x1F\x10\x15\x11\x10\x0E\x1A\x0C\x12\x0E\x23\x2A\x10\x18\x19\x1A\x13\x12\x0E\x21\x0C\x0F\x18\x0E\x20\x0F\x0D\x12\x1C\x17\x15\x14\x10\x0C\x0D\x0E\x1A\x0C\x11\x0E\x1F\x1B\x15\x0D\x0D\x13\x0D\x16\x12\x36\x0C\x11\x12\x19\x11\x16\x13\x0D\x16\x28\x0E\x2D\x3B\x24\x1D\x0D\x29\x0E\x3D\x24\x1D\x13\x12\x2C",//Automatischer Start des Lötmodus beim Einschalten der Spannungsversorgung. <J=An, N=Aus> 
-  /* CooldownBlink             */ "\x30\x14\x0F\x0D\x22\x0C\x0D\x1A\x0C\x0E\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x15\x0D\x1E\x0C\x0F\x16\x0C\x0E\x21\x0C\x0F\x18\x0E\x1D\x21\x22\x31\x17\x14\x0C\x0D\x29\x0E\x12\x19\x14\x15\x0D\x16\x0C\x0E\x17\x0C\x0F\x40\x28\x0E\x2D\x3B\x24\x1D\x0D\x29\x0E\x3D\x24\x1D\x13\x12\x2C",//Blinkende Temperaturanzeige beim Abkühlen, solange heiß. <J=An, N=Aus> 
-  /* TemperatureCalibration    */ "\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16\x0E\x1A\x0C\x11\x0E\x23\x2A\x10\x12\x1B\x0F\x10\x1E\x0C\x0D\x10\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11",//Kalibrierung der Lötspitzentemperatur 
-  /* SettingsReset             */ "\x1D\x14\x14\x0C\x0E\x20\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D\x0E\x1E\x13\x11\x31\x1C\x22\x12\x0C\x10\x1E\x0C\x0D",//Alle Einstellungen zurücksetzen 
-  /* VoltageCalibration        */ "\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16\x0E\x1A\x0C\x11\x0E\x20\x0F\x0D\x16\x15\x0D\x16\x12\x12\x1B\x15\x0D\x0D\x13\x0D\x16\x28\x0E\x34\x13\x11\x1E\x0C\x11\x0E\x25\x15\x12\x10\x0C\x0D\x1A\x11\x13\x1C\x22\x0E\x1E\x13\x18\x0E\x20\x0F\x0D\x12\x10\x0C\x14\x14\x0C\x0D\x29\x0E\x14\x15\x0D\x16\x0C\x11\x0E\x25\x15\x12\x10\x0C\x0D\x1A\x11\x13\x1C\x22\x0E\x1E\x13\x18\x0E\x32\x0C\x11\x14\x15\x12\x12\x0C\x0D\x28",//Kalibrierung der Eingangsspannung. Kurzer Tastendruck zum Einstellen, langer Tastendruck zum Verlassen. 
-  /* AdvancedSoldering         */ "\x35\x0C\x10\x15\x0F\x14\x14\x0F\x0C\x11\x10\x0C\x0E\x1D\x0D\x1E\x0C\x0F\x16\x0C\x0E\x0F\x18\x0E\x23\x2A\x10\x18\x19\x1A\x13\x12\x0E\x2D\x3B\x24\x1D\x0D\x29\x0E\x3D\x24\x1D\x13\x12\x2C",//Detaillierte Anzeige im Lötmodus <J=An, N=Aus> 
-  /* ScrollingSpeed            */ "\x1F\x1C\x11\x19\x14\x14\x16\x0C\x12\x1C\x17\x27\x0F\x0D\x1A\x0F\x16\x22\x0C\x0F\x10\x0E\x1A\x0C\x11\x0E\x25\x0C\x43\x10\x0C",//Scrollgeschwindigkeit der Texte 
-  /* TipModel                  */ "\x1D\x13\x12\x27\x15\x17\x14\x0E\x1A\x0C\x11\x0E\x23\x2A\x10\x12\x1B\x0F\x10\x1E\x0C",//Auswahl der Lötspitze 
-  /* SimpleCalibrationMode     */ "\x20\x0F\x0D\x2E\x15\x1C\x17\x0C\x0E\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16\x0E\x18\x0F\x10\x10\x0C\x14\x12\x0E\x17\x0C\x0F\x40\x0C\x18\x0E\x37\x15\x12\x12\x0C\x11",//Einfache Kalibrierung mittels heißem Wasser 
-  /* AdvancedCalibrationMode   */ "\x20\x11\x27\x0C\x0F\x10\x0C\x11\x10\x0C\x0E\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16\x0E\x18\x0F\x10\x10\x0C\x14\x12\x0E\x0C\x0F\x0D\x0C\x12\x0E\x25\x17\x0C\x11\x18\x19\x0C\x14\x0C\x18\x0C\x0D\x10\x12\x0E\x15\x0D\x0E\x1A\x0C\x11\x0E\x23\x2A\x10\x12\x1B\x0F\x10\x1E\x0C",//Erweiterte Kalibrierung mittels eines Thermoelements an der Lötspitze 
-  /* PowerInput                */ "\x23\x0C\x0F\x12\x10\x13\x0D\x16\x12\x15\x13\x2E\x0D\x15\x17\x18\x0C\x0E\x1A\x0C\x11\x0E\x36\x0C\x11\x27\x0C\x0D\x1A\x0C\x10\x0C\x0D\x0E\x1F\x1B\x15\x0D\x0D\x13\x0D\x16\x12\x36\x0C\x11\x12\x19\x11\x16\x13\x0D\x16",//Leistungsaufnahme der verwendeten Spannungsversorgung 
-  /* PowerLimitEnable          */ "\x20\x0D\x15\x21\x14\x0C\x0E\x1B\x19\x27\x0C\x11\x0E\x14\x0F\x18\x0F\x10",//Enable power limit 
-  /* PowerLimit                */ "\x33\x15\x43\x0F\x18\x13\x18\x0E\x1B\x19\x27\x0C\x11\x0E\x10\x17\x0C\x0E\x0F\x11\x19\x0D\x0E\x1C\x15\x0D\x0E\x13\x12\x0C\x0E\x2D\x37\x15\x10\x10\x12\x2C",//Maximum power the iron can use <Watts> 
+  /* PowerSource               */ "\x1E\x1B\x14\x0D\x0D\x13\x0D\x16\x11\x43\x13\x0C\x15\x15\x0C\x0E\x48\x22\x23\x11\x1C\x18\x14\x15\x10\x11\x1B\x14\x0D\x0D\x13\x0D\x16\x47\x0E\x35\x33\x2E\x27\x03\x02\x31\x37\x0E\x0D\x1E\x27\x0D\x4C\x05\x26\x05\x31\x0E\x29\x2D\x12\x0E\x0D\x0E\x1F\x0F\x3E\x1A\x0D\x21\x44\x0C\x15\x15\x0C\x0D\x34",//Spannungsquelle (Abschaltspannung) <DC=10V, nS=n*3.3V für n LiIon-Zellen> 
+  /* SleepTemperature          */ "\x2B\x13\x18\x0C\x10\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12",//Ruhetemperatur 
+  /* SleepTimeout              */ "\x2B\x13\x18\x0C\x17\x1A\x19\x13\x11\x0E\x0D\x14\x1C\x18\x0E\x35\x1E\x0C\x20\x13\x0D\x19\x0C\x0D\x4A\x2F\x0F\x0D\x13\x10\x0C\x0D\x34",//Ruhemodus nach <Sekunden/Minuten> 
+  /* ShutdownTimeout           */ "\x22\x23\x11\x1C\x18\x14\x15\x10\x0C\x0D\x0E\x0D\x14\x1C\x18\x0E\x35\x2F\x0F\x0D\x13\x10\x0C\x0D\x34",//Abschalten nach <Minuten> 
+  /* MotionSensitivity         */ "\x2C\x0C\x2A\x0C\x16\x13\x0D\x16\x11\x0C\x17\x1B\x29\x0F\x0D\x19\x15\x0F\x1C\x18\x20\x0C\x0F\x10\x0E\x35\x02\x27\x22\x13\x11\x37\x0E\x03\x27\x2F\x0F\x0D\x0F\x17\x14\x15\x0E\x26\x26\x26\x0E\x0B\x27\x2F\x14\x40\x0F\x17\x14\x15\x34",//Bewegungsempfindlichkeit <0=Aus, 1=Minimal ... 9=Maximal> 
+  /* TemperatureUnit           */ "\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x0C\x0F\x0D\x18\x0C\x0F\x10\x0E\x35\x2E\x27\x2E\x0C\x15\x11\x0F\x13\x11\x37\x0E\x36\x27\x36\x14\x18\x12\x0C\x0D\x18\x0C\x0F\x10\x34",//Temperatureinheit <C=Celsius, F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x33\x0C\x10\x14\x0F\x15\x15\x0F\x0C\x12\x10\x0C\x0E\x22\x0D\x1D\x0C\x0F\x16\x0C\x0E\x0F\x17\x0E\x2B\x13\x18\x0C\x17\x1A\x19\x13\x11",//Detaillierte Anzeige im Ruhemodus 
+  /* DisplayRotation           */ "\x22\x13\x11\x12\x0F\x1C\x18\x10\x13\x0D\x16\x0E\x19\x0C\x12\x0E\x22\x0D\x1D\x0C\x0F\x16\x0C\x0E\x35\x22\x27\x22\x13\x10\x1A\x17\x14\x10\x0F\x11\x1C\x18\x37\x0E\x1F\x27\x1F\x0F\x0D\x20\x11\x18\x3F\x0D\x19\x0F\x16\x37\x0E\x2B\x27\x2B\x0C\x1C\x18\x10\x11\x18\x3F\x0D\x19\x0F\x16\x34",//Ausrichtung der Anzeige <A=Automatisch, L=Linkshändig, R=Rechtshändig> 
+  /* BoostEnabled              */ "\x31\x1A\x12\x19\x0C\x12\x0C\x0E\x24\x14\x11\x10\x0C\x0E\x15\x14\x0D\x16\x0C\x0E\x19\x12\x2D\x1C\x20\x0C\x0D\x0E\x29\x2D\x12\x0E\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x21\x2C\x1A\x1A\x11\x10\x17\x1A\x19\x13\x11\x0E\x23\x0C\x0F\x17\x0E\x1F\x28\x10\x0C\x0D",//Vordere Taste lange drücken für Temperatur-Boostmodus beim Löten 
+  /* BoostTemperature          */ "\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x0E\x0F\x17\x0E\x2C\x1A\x1A\x11\x10\x17\x1A\x19\x13\x11\x0E\x48\x3E\x0D\x0E\x19\x0C\x12\x0E\x0C\x0F\x0D\x16\x0C\x11\x10\x0C\x15\x15\x10\x0C\x0D\x0E\x25\x0F\x0D\x18\x0C\x0F\x10\x47",//Temperatur im Boostmodus (In der eingestellten Einheit) 
+  /* AutoStart                 */ "\x22\x13\x10\x1A\x17\x14\x10\x0F\x11\x1C\x18\x0C\x12\x0E\x1E\x10\x14\x12\x10\x21\x2F\x1A\x19\x13\x11\x0E\x23\x0C\x0F\x17\x0E\x25\x0F\x0D\x11\x1C\x18\x14\x15\x10\x0C\x0D\x0E\x19\x0C\x12\x0E\x1E\x1B\x14\x0D\x0D\x13\x0D\x16\x11\x30\x0C\x12\x11\x1A\x12\x16\x13\x0D\x16\x26\x0E\x35\x24\x27\x1F\x28\x10\x17\x1A\x19\x13\x11\x0E\x1E\x27\x2B\x13\x18\x0C\x1D\x13\x11\x10\x14\x0D\x19\x0E\x36\x27\x22\x13\x11\x34",//Automatischer Start-Modus beim Einschalten der Spannungsversorgung. <T=Lötmodus S=Ruhezustand F=Aus> 
+  /* CooldownBlink             */ "\x2C\x15\x0F\x0D\x20\x0C\x0D\x19\x0C\x0E\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x14\x0D\x1D\x0C\x0F\x16\x0C\x0E\x23\x0C\x0F\x17\x0E\x22\x23\x20\x2D\x18\x15\x0C\x0D\x37\x0E\x11\x1A\x15\x14\x0D\x16\x0C\x0E\x18\x0C\x0F\x3D\x0E\x0F\x11\x10\x26",//Blinkende Temperaturanzeige beim Abkühlen, solange heiß ist. 
+  /* TemperatureCalibration    */ "\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16\x0E\x19\x0C\x12\x0E\x1F\x28\x10\x11\x1B\x0F\x10\x1D\x0C\x0D\x10\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12",//Kalibrierung der Lötspitzentemperatur 
+  /* SettingsReset             */ "\x25\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D\x0E\x14\x13\x29\x0E\x2A\x0C\x12\x20\x11\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D\x0E\x1D\x13\x12\x2D\x1C\x20\x0E\x11\x0C\x10\x1D\x0C\x0D",//Einstellungen auf werkseinstellungen zurück setzen 
+  /* VoltageCalibration        */ "\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16\x0E\x19\x0C\x12\x0E\x25\x0F\x0D\x16\x14\x0D\x16\x11\x11\x1B\x14\x0D\x0D\x13\x0D\x16\x26\x0E\x32\x13\x12\x1D\x0C\x12\x0E\x24\x14\x11\x10\x0C\x0D\x19\x12\x13\x1C\x20\x0E\x1D\x13\x17\x0E\x25\x0F\x0D\x11\x10\x0C\x15\x15\x0C\x0D\x37\x0E\x15\x14\x0D\x16\x0C\x12\x0E\x24\x14\x11\x10\x0C\x0D\x19\x12\x13\x1C\x20\x0E\x1D\x13\x17\x0E\x31\x0C\x12\x15\x14\x11\x11\x0C\x0D\x26",//Kalibrierung der Eingangsspannung. Kurzer Tastendruck zum Einstellen, langer Tastendruck zum Verlassen. 
+  /* AdvancedSoldering         */ "\x33\x0C\x10\x14\x0F\x15\x15\x0F\x0C\x12\x10\x0C\x0E\x22\x0D\x1D\x0C\x0F\x16\x0C\x0E\x0F\x17\x0E\x1F\x28\x10\x17\x1A\x19\x13\x11",//Detaillierte Anzeige im Lötmodus 
+  /* ScrollingSpeed            */ "\x1E\x1C\x12\x1A\x15\x15\x16\x0C\x11\x1C\x18\x2A\x0F\x0D\x19\x0F\x16\x20\x0C\x0F\x10\x0E\x19\x0C\x12\x0E\x24\x0C\x40\x10\x0C\x0E\x35\x1E\x27\x1F\x14\x0D\x16\x11\x14\x17\x0E\x36\x27\x1E\x1C\x18\x0D\x0C\x15\x15\x34",//Scrollgeschwindigkeit der Texte <S=Langsam F=Schnell> 
+  /* TipModel                  */ "\x22\x13\x11\x2A\x14\x18\x15\x0E\x19\x0C\x12\x0E\x1F\x28\x10\x11\x1B\x0F\x10\x1D\x0C",//Auswahl der Lötspitze 
+  /* SimpleCalibrationMode     */ "\x25\x0F\x0D\x29\x14\x1C\x18\x0C\x0E\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16\x0E\x17\x0F\x10\x10\x0C\x15\x11\x0E\x18\x0C\x0F\x3D\x0C\x17\x0E\x38\x14\x11\x11\x0C\x12",//Einfache Kalibrierung mittels heißem Wasser 
+  /* AdvancedCalibrationMode   */ "\x25\x12\x2A\x0C\x0F\x10\x0C\x12\x10\x0C\x0E\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16\x0E\x17\x0F\x10\x10\x0C\x15\x11\x0E\x0C\x0F\x0D\x0C\x11\x0E\x24\x18\x0C\x12\x17\x1A\x0C\x15\x0C\x17\x0C\x0D\x10\x11\x0E\x14\x0D\x0E\x19\x0C\x12\x0E\x1F\x28\x10\x11\x1B\x0F\x10\x1D\x0C",//Erweiterte Kalibrierung mittels eines Thermoelements an der Lötspitze 
+  /* PowerInput                */ "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x11\x14\x13\x29\x0D\x14\x18\x17\x0C\x0E\x19\x0C\x12\x0E\x30\x0C\x12\x2A\x0C\x0D\x19\x0C\x10\x0C\x0D\x0E\x1E\x1B\x14\x0D\x0D\x13\x0D\x16\x11\x30\x0C\x12\x11\x1A\x12\x16\x13\x0D\x16",//Leistungsaufnahme der verwendeten Spannungsversorgung 
+  /* PowerLimitEnable          */ "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x11\x15\x0F\x17\x0F\x10\x0E\x14\x20\x10\x0F\x30\x0F\x0C\x12\x0C\x0D",//Leistungslimit aktivieren 
+  /* PowerLimit                */ "\x2F\x14\x40\x0F\x17\x14\x15\x0C\x0E\x13\x29\x0D\x14\x18\x17\x0C\x0E\x19\x0C\x12\x0E\x1F\x28\x10\x11\x1B\x0F\x10\x1D\x0C\x0E\x35\x38\x14\x10\x10\x34",//Maximale ufnahme der Lötspitze <Watt> 
 };
 
-const char* SettingsCalibrationDone = "\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16\x0E\x15\x21\x16\x0C\x12\x1C\x17\x14\x19\x12\x12\x0C\x0D\x3F";//Kalibrierung abgeschlossen! 
-const char* SettingsCalibrationWarning = "\x32\x19\x11\x0E\x1A\x0C\x18\x0E\x39\x19\x11\x10\x2E\x15\x17\x11\x0C\x0D\x0E\x18\x13\x12\x12\x0E\x1A\x0F\x0C\x0E\x23\x2A\x10\x12\x1B\x0F\x10\x1E\x0C\x0E\x36\x19\x14\x14\x12\x10\x42\x0D\x1A\x0F\x16\x0E\x15\x21\x16\x0C\x22\x31\x17\x14\x10\x0E\x12\x0C\x0F\x0D\x3F";//Vor dem Fortfahren muss die Lötspitze vollständig abgekühlt sein! 
-const char* SettingsResetWarning = "\x1F\x0F\x0D\x1A\x0E\x1F\x0F\x0C\x0E\x12\x0F\x1C\x17\x0C\x11\x29\x0E\x1A\x15\x12\x12\x0E\x1F\x0F\x0C\x0E\x15\x14\x14\x0C\x0E\x37\x0C\x11\x10\x0C\x0E\x1E\x13\x11\x31\x1C\x22\x12\x0C\x10\x1E\x0C\x0D\x0E\x27\x19\x14\x14\x0C\x0D\x3A";//Sind Sie sicher, dass Sie alle Werte zurücksetzen wollen? 
-const char* UVLOWarningString = "\x32\x0E\x0D\x0F\x0C\x1A\x11\x28";//V niedr. 
-const char* UndervoltageString = "\x44\x0D\x10\x0C\x11\x12\x1B\x15\x0D\x0D\x13\x0D\x16";//Unterspannung 
-const char* InputVoltageString = "\x32\x0E\x20\x0F\x0D\x16\x15\x0D\x16\x3C\x0E";//V Eingang:  
-const char* WarningTipTempString = "\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x3C\x0E";//Temperatur:  
-const char* BadTipString = "\x35\x20\x39\x20\x34\x25";//DEFEKT 
-const char* SleepingSimpleString = "\x48\x1E\x1E\x0E";//Zzz  
-const char* SleepingAdvancedString = "\x2B\x13\x17\x0C\x18\x19\x1A\x13\x12\x28\x28\x28";//Ruhemodus... 
-const char* WarningSimpleString = "\x38\x20\x3E\x40";//HEIß 
-const char* WarningAdvancedString = "\x3F\x0E\x1D\x1C\x17\x10\x13\x0D\x16\x0E\x38\x0C\x0F\x40\x0E\x3F";//! Achtung Heiß ! 
-const char* SleepingTipAdvancedString = "\x25\x0C\x18\x1B\x3C";//Temp: 
-const char* IdleTipString = "\x3E\x12\x10\x3C";//Ist: 
-const char* IdleSetString = "\x0E\x1F\x19\x14\x14\x3C";// Soll: 
-const char* TipDisconnectedString = "\x1F\x1B\x0F\x10\x1E\x0C\x0E\x2E\x0C\x17\x14\x10";//Spitze fehlt 
-const char* SolderingAdvancedPowerPrompt = "\x23\x0C\x0F\x12\x10\x13\x0D\x16\x3C\x0E";//Leistung:  
-const char* OffString = "\x1D\x13\x12";//Aus 
-const char* ResetOKMessage = "\x2B\x0C\x12\x0C\x10\x0E\x4B\x34";//Reset OK 
-const char* YourGainMessage = "\x4A\x19\x13\x11\x0E\x49\x15\x0F\x0D";//Your Gain 
-const char* SettingsResetMessage = "\x1F\x0C\x10\x10\x0F\x0D\x16\x12\x0E\x27\x0C\x11\x0C\x01\x11\x0C\x12\x0C\x10\x3F";//Settings were_reset! 
+const char* SettingsCalibrationDone = "\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16\x0E\x14\x23\x16\x0C\x11\x1C\x18\x15\x1A\x11\x11\x0C\x0D\x3C";//Kalibrierung abgeschlossen! 
+const char* SettingsCalibrationWarning = "\x31\x1A\x12\x0E\x19\x0C\x17\x0E\x36\x1A\x12\x10\x29\x14\x18\x12\x0C\x0D\x0E\x17\x13\x11\x11\x0E\x19\x0F\x0C\x0E\x1F\x28\x10\x11\x1B\x0F\x10\x1D\x0C\x0E\x30\x1A\x15\x15\x11\x10\x3F\x0D\x19\x0F\x16\x0E\x14\x23\x16\x0C\x20\x2D\x18\x15\x10\x0E\x11\x0C\x0F\x0D\x3C";//Vor dem Fortfahren muss die Lötspitze vollständig abgekühlt sein! 
+const char* SettingsResetWarning = "\x1E\x0F\x0D\x19\x0E\x1E\x0F\x0C\x0E\x11\x0F\x1C\x18\x0C\x12\x37\x0E\x19\x14\x11\x11\x0E\x1E\x0F\x0C\x0E\x14\x15\x15\x0C\x0E\x38\x0C\x12\x10\x0C\x0E\x1D\x13\x12\x2D\x1C\x20\x11\x0C\x10\x1D\x0C\x0D\x0E\x2A\x1A\x15\x15\x0C\x0D\x3A";//Sind Sie sicher, dass Sie alle Werte zurücksetzen wollen? 
+const char* UVLOWarningString = "\x31\x0E\x0D\x0F\x0C\x19\x12\x26";//V niedr. 
+const char* UndervoltageString = "\x41\x0D\x10\x0C\x12\x11\x1B\x14\x0D\x0D\x13\x0D\x16";//Unterspannung 
+const char* InputVoltageString = "\x31\x0E\x25\x0F\x0D\x16\x14\x0D\x16\x3B\x0E";//V Eingang:  
+const char* WarningTipTempString = "\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x3B\x0E";//Temperatur:  
+const char* BadTipString = "\x1E\x1B\x0F\x10\x1D\x0C\x0E\x33\x0C\x29\x0C\x20\x10";//Spitze Defekt 
+const char* SleepingSimpleString = "\x44\x1D\x1D\x0E";//Zzz  
+const char* SleepingAdvancedString = "\x2B\x13\x18\x0C\x17\x1A\x19\x13\x11\x26\x26\x26";//Ruhemodus... 
+const char* WarningSimpleString = "\x39\x25\x3E\x3D";//HEIß 
+const char* WarningAdvancedString = "\x3C\x0E\x22\x1C\x18\x10\x13\x0D\x16\x0E\x39\x0C\x0F\x3D\x0E\x3C";//! Achtung Heiß ! 
+const char* SleepingTipAdvancedString = "\x24\x0C\x17\x1B\x3B";//Temp: 
+const char* IdleTipString = "\x3E\x11\x10\x3B";//Ist: 
+const char* IdleSetString = "\x0E\x1E\x1A\x15\x15\x3B";// Soll: 
+const char* TipDisconnectedString = "\x1E\x1B\x0F\x10\x1D\x0C\x0E\x29\x0C\x18\x15\x10";//Spitze fehlt 
+const char* SolderingAdvancedPowerPrompt = "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x3B\x0E";//Leistung:  
+const char* OffString = "\x22\x13\x11";//Aus 
+const char* ResetOKMessage = "\x2B\x0C\x11\x0C\x10\x0E\x42\x32";//Reset OK 
+const char* YourGainMessage = "\x49\x1A\x13\x12\x0E\x46\x14\x0F\x0D\x3B";//Your Gain: 
+const char* SettingsResetMessage = "\x25\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D\x0E\x2A\x13\x12\x19\x0C\x0D\x0E\x1D\x13\x12\x2D\x1C\x20\x0E\x16\x0C\x11\x0C\x10\x1D\x10\x3C";//Einstellungen wurden zurück gesetzt! 
 
 const char* SettingRightChar = "\x2B";//R 
-const char* SettingLeftChar = "\x23";//L 
-const char* SettingAutoChar = "\x1D";//A 
-const char* SettingFastChar = "\x39";//F 
-const char* SettingSlowChar = "\x1F";//S 
-const char* SettingStartSolderingChar = "\x3B";//J 
-const char* SettingStartSleepChar = "\x1F";//S 
-const char* SettingStartNoneChar = "\x39";//F 
+const char* SettingLeftChar = "\x1F";//L 
+const char* SettingAutoChar = "\x22";//A 
+const char* SettingFastChar = "\x36";//F 
+const char* SettingSlowChar = "\x1E";//S 
+const char* SettingStartSolderingChar = "\x24";//T 
+const char* SettingStartSleepChar = "\x1E";//S 
+const char* SettingStartSleepOffChar = "\x42";//O 
+const char* SettingStartNoneChar = "\x36";//F 
 
-const char* SymbolPlus = "\x4D";//+ 
-const char* SymbolMinus = "\x26";//- 
+const char* SymbolPlus = "\x4B";//+ 
+const char* SymbolMinus = "\x21";//- 
 const char* SymbolSpace = "\x0E";//  
-const char* SymbolDot = "\x28";//. 
-const char* SymbolDegC = "\x2F";//C 
-const char* SymbolDegF = "\x39";//F 
-const char* SymbolMinutes = "\x33";//M 
-const char* SymbolSeconds = "\x1F";//S 
-const char* SymbolWatts = "\x37";//W 
-const char* SymbolVolts = "\x32";//V 
-const char* SymbolDC = "\x35\x2F";//DC 
-const char* SymbolCellCount = "\x1F";//S 
-const char* SymbolVersionNumber = "\x32\x04\x28\x02\x0A";//V2.08 
+const char* SymbolDot = "\x26";//. 
+const char* SymbolDegC = "\x2E";//C 
+const char* SymbolDegF = "\x36";//F 
+const char* SymbolMinutes = "\x2F";//M 
+const char* SymbolSeconds = "\x1E";//S 
+const char* SymbolWatts = "\x38";//W 
+const char* SymbolVolts = "\x31";//V 
+const char* SymbolDC = "\x33\x2E";//DC 
+const char* SymbolCellCount = "\x1E";//S 
+const char* SymbolVersionNumber = "\x30\x04\x26\x02\x0A\x26\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x30\x02\x04",//B02 
-	 "\x35\x04\x06",//D24 
-	 "\x30\x2F\x04",//BC2 
-	 "\x0E\x2F\x03",// C1 
-	 "\x25\x1F\x03\x02\x02",//TS100 
-	 "\x30\x2F\x04",//BC2 
-	 "\x38\x15\x22\x22\x19",//Hakko 
-	 "\x44\x12\x0C\x11",//User 
+	 "\x2C\x02\x04",//B02 
+	 "\x33\x04\x06",//D24 
+	 "\x2C\x2E\x04",//BC2 
+	 "\x0E\x2E\x03",// C1 
+	 "\x24\x1E\x03\x02\x02",//TS100 
+	 "\x2C\x2E\x04",//BC2 
+	 "\x39\x14\x20\x20\x1A",//Hakko 
+	 "\x41\x11\x0C\x12",//User 
 #else
-	 "\x30\x02\x04",//B02 
-	 "\x35\x04\x07",//D25 
-	 "\x25\x1F\x0A\x02",//TS80 
-	 "\x44\x12\x0C\x11",//User 
+	 "\x2C\x02\x04",//B02 
+	 "\x33\x04\x07",//D25 
+	 "\x24\x1E\x0A\x02",//TS80 
+	 "\x41\x11\x0C\x12",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x26\x02\x03\x26\x04\x02",//18-01-20 
-	 "\x38\x37\x0E\x49\x0E",//HW G  
-	 "\x38\x37\x0E\x33\x0E",//HW M  
-	 "\x38\x37\x0E\x41\x0E",//HW P  
-	 "\x25\x0F\x18\x0C\x0E",//Time  
-	 "\x33\x19\x36\x0C\x0E",//Move  
-	 "\x2B\x25\x0F\x1B\x0E",//RTip  
-	 "\x2F\x25\x0F\x1B\x0E",//CTip  
-	 "\x2F\x38\x15\x0D\x0E",//CHan  
-	 "\x32\x0F\x0D\x0E\x0E",//Vin   
-	 "\x41\x2F\x30\x0E\x0E",//PCB   
+	 "\x03\x06\x21\x02\x05\x21\x04\x02",//14-03-20 
+	 "\x39\x38\x0E\x46\x0E",//HW G  
+	 "\x39\x38\x0E\x2F\x0E",//HW M  
+	 "\x39\x38\x0E\x45\x0E",//HW P  
+	 "\x24\x0F\x17\x0C\x0E",//Time  
+	 "\x2F\x1A\x30\x0C\x0E",//Move  
+	 "\x2B\x24\x0F\x1B\x0E",//RTip  
+	 "\x2E\x24\x0F\x1B\x0E",//CTip  
+	 "\x2E\x39\x14\x0D\x0E",//CHan  
+	 "\x31\x0F\x0D\x0E\x0E",//Vin   
+	 "\x45\x2E\x2C\x0E\x0E",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x1F\x1B\x15\x0D\x0D\x13\x0D\x16\x12\x26", "\x47\x13\x0C\x14\x14\x0C" },//['Spannungs-', 'quelle'] 
-  /* SleepTemperature          */ { "\x2B\x13\x17\x0C\x10\x0C\x18\x1B\x26", "\x0C\x11\x15\x10\x13\x11" },//['Ruhetemp-', 'eratur'] 
-  /* SleepTimeout              */ { "\x2B\x13\x17\x0C\x36\x0C\x11\x26", "\x1E\x2A\x16\x0C\x11\x13\x0D\x16" },//['Ruhever-', 'zögerung'] 
-  /* ShutdownTimeout           */ { "\x1D\x21\x12\x1C\x17\x15\x14\x10\x26", "\x1E\x0C\x0F\x10" },//['Abschalt-', 'zeit'] 
-  /* MotionSensitivity         */ { "\x30\x0C\x27\x0C\x16\x13\x0D\x16\x12\x26", "\x0C\x18\x1B\x2E\x0F\x0D\x1A\x14\x0F\x1C\x17\x22\x28" },//['Bewegungs-', 'empfindlichk.'] 
-  /* TemperatureUnit           */ { "\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11\x26", "\x0C\x0F\x0D\x17\x0C\x0F\x10" },//['Temperatur-', 'einheit'] 
-  /* AdvancedIdle              */ { "\x35\x0C\x10\x15\x0F\x14\x14\x0F\x0C\x11\x10\x0C", "\x2B\x13\x17\x0C\x15\x0D\x12\x0F\x1C\x17\x10" },//['Detaillierte', 'Ruheansicht'] 
-  /* DisplayRotation           */ { "\x1D\x0D\x1E\x0C\x0F\x16\x0C\x26", "\x15\x13\x12\x11\x0F\x1C\x17\x10\x13\x0D\x16" },//['Anzeige-', 'ausrichtung'] 
-  /* BoostEnabled              */ { "\x30\x19\x19\x12\x10\x10\x15\x12\x10\x0C", "\x15\x22\x10\x0F\x36\x3A" },//['Boosttaste', 'aktiv?'] 
-  /* BoostTemperature          */ { "\x30\x19\x19\x12\x10\x10\x0C\x18\x1B\x26", "\x0C\x11\x15\x10\x13\x11" },//['Boosttemp-', 'eratur'] 
-  /* AutoStart                 */ { "\x1F\x10\x15\x11\x10\x0E\x0F\x18", "\x23\x2A\x10\x18\x19\x1A\x13\x12\x3A" },//['Start im', 'Lötmodus?'] 
-  /* CooldownBlink             */ { "\x1D\x21\x22\x31\x17\x14\x26", "\x21\x14\x0F\x0D\x22\x0C\x0D\x3A" },//['Abkühl-', 'blinken?'] 
-  /* TemperatureCalibration    */ { "\x25\x0C\x18\x1B\x0C\x11\x15\x10\x13\x11", "\x22\x15\x14\x0F\x21\x11\x0F\x0C\x11\x0C\x0D\x3A" },//['Temperatur', 'kalibrieren?'] 
-  /* SettingsReset             */ { "\x20\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D", "\x1E\x13\x11\x31\x1C\x22\x12\x0C\x10\x1E\x0C\x0D\x3A" },//['Einstellungen', 'zurücksetzen?'] 
-  /* VoltageCalibration        */ { "\x20\x0F\x0D\x16\x15\x0D\x16\x12\x12\x1B\x15\x0D\x0D\x13\x0D\x16", "\x22\x15\x14\x0F\x21\x11\x0F\x0C\x11\x0C\x0D\x3A" },//['Eingangsspannung', 'kalibrieren?'] 
-  /* AdvancedSoldering         */ { "\x35\x0C\x10\x15\x0F\x14\x14\x0F\x0C\x11\x10\x0C", "\x23\x2A\x10\x15\x0D\x12\x0F\x1C\x17\x10" },//['Detaillierte', 'Lötansicht'] 
-  /* ScrollingSpeed            */ { "\x1F\x1C\x11\x19\x14\x14\x26", "\x16\x0C\x12\x1C\x17\x27\x28" },//['Scroll-', 'geschw.'] 
-  /* TipModel                  */ { "\x23\x2A\x10\x26", "\x12\x1B\x0F\x10\x1E\x0C" },//['Löt-', 'spitze'] 
-  /* SimpleCalibrationMode     */ { "\x20\x0F\x0D\x2E\x15\x1C\x17\x0C", "\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16" },//['Einfache', 'Kalibrierung'] 
-  /* AdvancedCalibrationMode   */ { "\x20\x11\x27\x0C\x0F\x10\x0C\x11\x10\x0C", "\x34\x15\x14\x0F\x21\x11\x0F\x0C\x11\x13\x0D\x16" },//['Erweiterte', 'Kalibrierung'] 
-  /* PowerInput                */ { "\x23\x0C\x0F\x12\x10\x13\x0D\x16\x12\x26", "\x15\x13\x2E\x0D\x15\x17\x18\x0C" },//['Leistungs-', 'aufnahme'] 
-  /* PowerLimitEnable          */ { "\x41\x0E\x23\x0F\x18\x0F\x10", "\x20\x0D\x15\x21\x14\x0C" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x41\x19\x27\x0C\x11", "\x23\x0F\x18\x0F\x10" },//['Power', 'Limit'] 
+  /* PowerSource               */ { "\x1E\x1B\x14\x0D\x0D\x13\x0D\x16\x11\x21", "\x43\x13\x0C\x15\x15\x0C" },//['Spannungs-', 'quelle'] 
+  /* SleepTemperature          */ { "\x2B\x13\x18\x0C\x10\x0C\x17\x1B\x21", "\x0C\x12\x14\x10\x13\x12" },//['Ruhetemp-', 'eratur'] 
+  /* SleepTimeout              */ { "\x2B\x13\x18\x0C\x30\x0C\x12\x21", "\x1D\x28\x16\x0C\x12\x13\x0D\x16" },//['Ruhever-', 'zögerung'] 
+  /* ShutdownTimeout           */ { "\x22\x23\x11\x1C\x18\x14\x15\x10\x21", "\x1D\x0C\x0F\x10" },//['Abschalt-', 'zeit'] 
+  /* MotionSensitivity         */ { "\x2C\x0C\x2A\x0C\x16\x13\x0D\x16\x11\x21", "\x0C\x17\x1B\x29\x0F\x0D\x19\x15\x0F\x1C\x18\x20\x26" },//['Bewegungs-', 'empfindlichk.'] 
+  /* TemperatureUnit           */ { "\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12\x21", "\x0C\x0F\x0D\x18\x0C\x0F\x10" },//['Temperatur-', 'einheit'] 
+  /* AdvancedIdle              */ { "\x33\x0C\x10\x14\x0F\x15\x15\x0F\x0C\x12\x10\x0C", "\x2B\x13\x18\x0C\x14\x0D\x11\x0F\x1C\x18\x10" },//['Detaillierte', 'Ruheansicht'] 
+  /* DisplayRotation           */ { "\x22\x0D\x1D\x0C\x0F\x16\x0C\x21", "\x14\x13\x11\x12\x0F\x1C\x18\x10\x13\x0D\x16" },//['Anzeige-', 'ausrichtung'] 
+  /* BoostEnabled              */ { "\x2C\x1A\x1A\x11\x10\x10\x14\x11\x10\x0C", "\x14\x20\x10\x0F\x30\x3A" },//['Boosttaste', 'aktiv?'] 
+  /* BoostTemperature          */ { "\x2C\x1A\x1A\x11\x10\x10\x0C\x17\x1B\x21", "\x0C\x12\x14\x10\x13\x12" },//['Boosttemp-', 'eratur'] 
+  /* AutoStart                 */ { "\x1E\x10\x14\x12\x10\x0E\x0F\x17", "\x1F\x28\x10\x17\x1A\x19\x13\x11\x3A" },//['Start im', 'Lötmodus?'] 
+  /* CooldownBlink             */ { "\x22\x23\x20\x2D\x18\x15\x21", "\x23\x15\x0F\x0D\x20\x0C\x0D\x3A" },//['Abkühl-', 'blinken?'] 
+  /* TemperatureCalibration    */ { "\x24\x0C\x17\x1B\x0C\x12\x14\x10\x13\x12", "\x20\x14\x15\x0F\x23\x12\x0F\x0C\x12\x0C\x0D\x3A" },//['Temperatur', 'kalibrieren?'] 
+  /* SettingsReset             */ { "\x25\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D", "\x1D\x13\x12\x2D\x1C\x20\x11\x0C\x10\x1D\x0C\x0D\x3A" },//['Einstellungen', 'zurücksetzen?'] 
+  /* VoltageCalibration        */ { "\x25\x0F\x0D\x16\x14\x0D\x16\x11\x11\x1B\x14\x0D\x0D\x13\x0D\x16", "\x20\x14\x15\x0F\x23\x12\x0F\x0C\x12\x0C\x0D\x3A" },//['Eingangsspannung', 'kalibrieren?'] 
+  /* AdvancedSoldering         */ { "\x33\x0C\x10\x14\x0F\x15\x15\x0F\x0C\x12\x10\x0C", "\x1F\x28\x10\x14\x0D\x11\x0F\x1C\x18\x10" },//['Detaillierte', 'Lötansicht'] 
+  /* ScrollingSpeed            */ { "\x1E\x1C\x12\x1A\x15\x15\x21", "\x16\x0C\x11\x1C\x18\x2A\x26" },//['Scroll-', 'geschw.'] 
+  /* TipModel                  */ { "\x1F\x28\x10\x21", "\x11\x1B\x0F\x10\x1D\x0C" },//['Löt-', 'spitze'] 
+  /* SimpleCalibrationMode     */ { "\x25\x0F\x0D\x29\x14\x1C\x18\x0C", "\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16" },//['Einfache', 'Kalibrierung'] 
+  /* AdvancedCalibrationMode   */ { "\x25\x12\x2A\x0C\x0F\x10\x0C\x12\x10\x0C", "\x32\x14\x15\x0F\x23\x12\x0F\x0C\x12\x13\x0D\x16" },//['Erweiterte', 'Kalibrierung'] 
+  /* PowerInput                */ { "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x11\x21", "\x22\x13\x29\x0D\x14\x18\x17\x0C" },//['Leistungs-', 'Aufnahme'] 
+  /* PowerLimitEnable          */ { "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x11\x21", "\x1F\x0F\x17\x0F\x10\x0E\x22\x0D" },//['Leistungs-', 'Limit An'] 
+  /* PowerLimit                */ { "\x1F\x0C\x0F\x11\x10\x13\x0D\x16\x11\x21", "\x1F\x0F\x17\x0F\x10" },//['Leistungs-', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x23\x2A\x10\x26\x01\x0C\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//['Löt-', 'einstellungen'] 
-  /* PowerSavingMenu           */ "\x1F\x1C\x17\x14\x15\x2E\x26\x01\x18\x19\x1A\x13\x12",//['Schlaf-', 'modus'] 
-  /* UIMenu                    */ "\x33\x0C\x0D\x31\x26\x01\x0C\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//['Menü-', 'einstellungen'] 
-  /* AdvancedMenu              */ "\x20\x11\x27\x0C\x0F\x10\x0C\x11\x10\x0C\x01\x20\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//['Erweiterte', 'Einstellungen'] 
+  /* SolderingMenu             */ "\x1F\x28\x10\x21\x01\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//['Löt-', 'einstellungen'] 
+  /* PowerSavingMenu           */ "\x1E\x1C\x18\x15\x14\x29\x21\x01\x17\x1A\x19\x13\x11",//['Schlaf-', 'modus'] 
+  /* UIMenu                    */ "\x22\x0D\x1D\x0C\x0F\x16\x0C\x21\x01\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//['Anzeige-', 'einstellungen'] 
+  /* AdvancedMenu              */ "\x25\x12\x2A\x0C\x0F\x10\x0C\x12\x10\x0C\x01\x42\x1B\x10\x0F\x1A\x0D\x0C\x0D",//['Erweiterte', 'Optionen'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x23\x2A\x10\x0C\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//Löteinstellungen 
-  /* PowerSavingMenu           */ "\x20\x0D\x0C\x11\x16\x0F\x0C\x12\x1B\x15\x11\x0C\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//Energiespareinstellungen 
-  /* UIMenu                    */ "\x33\x0C\x0D\x31\x0C\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//Menüeinstellungen 
-  /* AdvancedMenu              */ "\x20\x11\x27\x0C\x0F\x10\x0C\x11\x10\x0C\x0E\x20\x0F\x0D\x12\x10\x0C\x14\x14\x13\x0D\x16\x0C\x0D",//Erweiterte Einstellungen 
+  /* SolderingMenu             */ "\x1F\x28\x10\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//Löteinstellungen 
+  /* PowerSavingMenu           */ "\x25\x0D\x0C\x12\x16\x0F\x0C\x11\x1B\x14\x12\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//Energiespareinstellungen 
+  /* UIMenu                    */ "\x2F\x0C\x0D\x2D\x0C\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//Menüeinstellungen 
+  /* AdvancedMenu              */ "\x25\x12\x2A\x0C\x0F\x10\x0C\x12\x10\x0C\x0E\x25\x0F\x0D\x11\x10\x0C\x15\x15\x13\x0D\x16\x0C\x0D",//Erweiterte Einstellungen 
 };
 
 #endif
@@ -1641,75 +1642,77 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xBC,0xFE,0xE7,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x0F,0x1F,0x39,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,//\x0A -> 8
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xFC,0x00,0x00,0x00,0x30,0x30,0x30,0x38,0x1C,0x0E,0x07,0x03,0x00,//\x0B -> 9
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x0C ->  
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x0D -> e
-0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x0E -> a
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x0F -> o
-0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x10 -> i
-0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x11 -> n
-0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x12 -> t
-0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x13 -> r
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x14 -> d
+0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x0D -> a
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x0E -> e
+0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x0F -> t
+0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x10 -> r
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x11 -> o
+0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x12 -> n
+0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x13 -> l
+0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x14 -> i
 0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x15 -> s
-0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x16 -> l
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x16 -> d
 0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x17 -> p
-0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x18 -> u
-0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x19 -> m
+0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x18 -> m
+0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x19 -> u
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1A -> c
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1B -> .
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1C -> b
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1D -> T
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x1E -> C
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1F -> S
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x20 -> A
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x1C -> A
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x1D -> C
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1E -> b
+0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x1F -> j
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x20 -> T
 0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x21 -> v
-0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x22 -> f
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x23 -> P
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x24 -> M
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x25 -> g
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x26 -> V
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x27 -> O
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x28 -> E
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x29 -> h
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x2A -> =
-0x00,0x80,0xC0,0xE0,0x68,0x6C,0x66,0x62,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x2B -> ó
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2C -> B
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x2D -> z
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x2E -> I
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2F -> >
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x30 -> <
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x31 -> w
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x32 -> U
-0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x33 -> N
-0x00,0x00,0x40,0x60,0x68,0x6C,0x66,0x62,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x34 -> á
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x35 -> W
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x36 -> D
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x37 -> H
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x38 -> :
-0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x39 -> j
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x3A -> R
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3B -> F
-0x00,0x00,0x00,0x00,0x68,0xEC,0xE6,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x3C -> í
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x3D -> L
-0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3E -> "
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3F -> !
-0x00,0x80,0xC0,0xE0,0x60,0x68,0x6C,0x66,0x62,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x40 -> é
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x41 -> x
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x42 -> q
-0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x43 -> -
-0x00,0x00,0x00,0x00,0x80,0xF3,0xF3,0x80,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0x3F,0x3F,0x0F,0x00,0x00,0x00,0x00,//\x44 -> ¡
+0x00,0x00,0x40,0x60,0x68,0x6C,0x66,0x62,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x22 -> á
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x23 -> g
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x24 -> =
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x25 -> z
+0x00,0x80,0xC0,0xE0,0x68,0x6C,0x66,0x62,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x26 -> ó
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x27 -> P
+0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x28 -> x
+0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x29 -> f
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x2A -> V
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2B -> >
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2C -> <
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x2D -> M
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x2E -> U
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2F -> S
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x30 -> R
+0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x31 -> N
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x32 -> H
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x33 -> E
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x34 -> D
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x35 -> :
+0x00,0x00,0x00,0x00,0x68,0xEC,0xE6,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x36 -> í
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x37 -> I
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x38 -> F
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x39 -> B
+0x00,0x80,0xC0,0xE0,0x60,0x68,0x6C,0x66,0x62,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x3A -> é
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x3B -> h
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x3C -> L
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x3D -> W
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3E -> O
+0x00,0x00,0x00,0x00,0x80,0xF3,0xF3,0x80,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x0F,0x3F,0x3F,0x0F,0x00,0x00,0x00,0x00,//\x3F -> ¡
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x40 -> q
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x36,0x3E,0x1C,0x3F,0x33,0x00,//\x41 -> Q
+0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x42 -> -
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x43 -> !
+0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x44 -> y
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x45 -> k
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x46 -> G
-0x00,0xE0,0xE0,0x00,0x08,0x0C,0x06,0x02,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x47 -> ú
-0x00,0x00,0x00,0x80,0xC0,0xFB,0x7B,0x00,0x00,0x00,0x00,0x00,0x00,0x0E,0x1F,0x3B,0x31,0x30,0x30,0x30,0x38,0x1E,0x0E,0x00,//\x48 -> ¿
-0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x49 -> Z
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x4A -> Y
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x4B -> K
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x0E,0x1E,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x4C -> J
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x4D -> ?
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x4E -> ,
-0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x4F -> +
-0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x50 -> )
-0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x51 -> (
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x47 -> ,
+0x00,0xE0,0xE0,0x00,0x08,0x0C,0x06,0x02,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x48 -> ú
+0x00,0x00,0xE0,0xE8,0x6C,0x64,0x6C,0x68,0xEC,0xC4,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x49 -> ñ
+0x00,0x00,0x00,0x80,0xC0,0xFB,0x7B,0x00,0x00,0x00,0x00,0x00,0x00,0x0E,0x1F,0x3B,0x31,0x30,0x30,0x30,0x38,0x1E,0x0E,0x00,//\x4A -> ¿
+0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x4B -> Z
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x4C -> Y
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x0E,0x1E,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x4D -> J
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x4E -> ?
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x9C,0xFC,0x7C,0x00,0x00,0x00,0x00,0x00,//\x4F -> ;
+0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x50 -> /
+0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x51 -> +
+0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x52 -> )
+0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x53 -> (
 };
 const uint8_t USER_FONT_6x8[] = {
 0x3e, 0x51, 0x49, 0x45, 0x3e, 0x00,//\x02 -> 0
@@ -1723,220 +1726,223 @@ const uint8_t USER_FONT_6x8[] = {
 0x36, 0x49, 0x49, 0x49, 0x36, 0x00,//\x0A -> 8
 0x06, 0x49, 0x49, 0x29, 0x1e, 0x00,//\x0B -> 9
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x0C ->  
-0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x0D -> e
-0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x0E -> a
-0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x0F -> o
-0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x10 -> i
-0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x11 -> n
-0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x12 -> t
-0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x13 -> r
-0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x14 -> d
+0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x0D -> a
+0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x0E -> e
+0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x0F -> t
+0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x10 -> r
+0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x11 -> o
+0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x12 -> n
+0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x13 -> l
+0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x14 -> i
 0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x15 -> s
-0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x16 -> l
+0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x16 -> d
 0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x17 -> p
-0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x18 -> u
-0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x19 -> m
+0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x18 -> m
+0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x19 -> u
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1A -> c
 0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1B -> .
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x1C -> b
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1D -> T
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x1E -> C
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1F -> S
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x20 -> A
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x1C -> A
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x1D -> C
+0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x1E -> b
+0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x1F -> j
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x20 -> T
 0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x21 -> v
-0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x22 -> f
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x23 -> P
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x24 -> M
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x25 -> g
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x26 -> V
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x27 -> O
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x28 -> E
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x29 -> h
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x2A -> =
-0x38, 0x44, 0x46, 0x45, 0x38, 0x00,//\x2B -> ó
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2C -> B
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x2D -> z
-0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x2E -> I
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2F -> >
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x30 -> <
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x31 -> w
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x32 -> U
-0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x33 -> N
-0x20, 0x54, 0x56, 0x55, 0x78, 0x00,//\x34 -> á
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x35 -> W
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x36 -> D
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x37 -> H
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x38 -> :
-0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x39 -> j
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x3A -> R
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x3B -> F
-0x00, 0x44, 0x7e, 0x41, 0x00, 0x00,//\x3C -> í
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x3D -> L
-0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x3E -> "
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3F -> !
-0x38, 0x54, 0x56, 0x55, 0x08, 0x00,//\x40 -> é
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x41 -> x
-0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x42 -> q
-0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x43 -> -
-0x00, 0x00, 0x79, 0x00, 0x00, 0x00,//\x44 -> ¡
+0x20, 0x54, 0x56, 0x55, 0x78, 0x00,//\x22 -> á
+0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x23 -> g
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x24 -> =
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x25 -> z
+0x38, 0x44, 0x46, 0x45, 0x38, 0x00,//\x26 -> ó
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x27 -> P
+0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x28 -> x
+0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x29 -> f
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x2A -> V
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2B -> >
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2C -> <
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x2D -> M
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x2E -> U
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x2F -> S
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x30 -> R
+0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x31 -> N
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x32 -> H
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x33 -> E
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x34 -> D
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x35 -> :
+0x00, 0x44, 0x7e, 0x41, 0x00, 0x00,//\x36 -> í
+0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x37 -> I
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x38 -> F
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x39 -> B
+0x38, 0x54, 0x56, 0x55, 0x08, 0x00,//\x3A -> é
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x3B -> h
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x3C -> L
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x3D -> W
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3E -> O
+0x00, 0x00, 0x79, 0x00, 0x00, 0x00,//\x3F -> ¡
+0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x40 -> q
+0x3e, 0x41, 0x51, 0x21, 0x5e, 0x00,//\x41 -> Q
+0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x42 -> -
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x43 -> !
+0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x44 -> y
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x45 -> k
 0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x46 -> G
-0x3c, 0x40, 0x42, 0x21, 0x7c, 0x00,//\x47 -> ú
-0x30, 0x48, 0x45, 0x40, 0x20, 0x00,//\x48 -> ¿
-0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x49 -> Z
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x4A -> Y
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x4B -> K
-0x20, 0x40, 0x41, 0x3f, 0x01, 0x00,//\x4C -> J
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x4D -> ?
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x4E -> ,
-0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x4F -> +
-0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x50 -> )
-0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x51 -> (
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x47 -> ,
+0x3c, 0x40, 0x42, 0x21, 0x7c, 0x00,//\x48 -> ú
+0x78, 0x12, 0x09, 0x0a, 0x71, 0x00,//\x49 -> ñ
+0x30, 0x48, 0x45, 0x40, 0x20, 0x00,//\x4A -> ¿
+0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x4B -> Z
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x4C -> Y
+0x20, 0x40, 0x41, 0x3f, 0x01, 0x00,//\x4D -> J
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x4E -> ?
+0x00, 0x56, 0x36, 0x00, 0x00, 0x00,//\x4F -> ;
+0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x50 -> /
+0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x51 -> +
+0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x52 -> )
+0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x53 -> (
 };
-// ---- Español ----
+// ---- Castellano ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3B\x18\x0D\x11\x12\x0D\x0C\x14\x0D\x0C\x0D\x11\x0D\x13\x25\x3C\x0E\x1B\x0C\x20\x39\x18\x15\x12\x0E\x0C\x0D\x16\x0C\x16\x3C\x19\x10\x12\x0D\x0C\x10\x11\x22\x0D\x13\x10\x0F\x13\x0C\x14\x0D\x0C\x21\x0F\x16\x12\x0E\x39\x0D\x1B\x0C\x30\x36\x1E\x2A\x03\x02\x26\x0C\x1F\x2A\x05\x1B\x05\x26\x0C\x17\x0F\x13\x0C\x1A\x0D\x16\x14\x0E\x2F",//Fuente de energía. Ajusta el límite inferior de voltaje. <DC=10V S=3.3V por celda> 
-  /* SleepTemperature          */ "\x1D\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E\x0C\x0D\x11\x0C\x13\x0D\x17\x0F\x15\x0F\x1B\x0C\x30\x1E\x2F",//Temperatura en reposo. <C> 
-  /* SleepTimeout              */ "\x1D\x10\x0D\x19\x17\x0F\x0C\x29\x0E\x15\x12\x0E\x0C\x0E\x1A\x12\x10\x21\x0E\x13\x0C\x13\x0D\x17\x0F\x15\x0F\x1B\x0C\x30\x24\x10\x11\x18\x12\x0F\x15\x2F",//Tiempo hasta activar reposo. <Minutos> 
-  /* ShutdownTimeout           */ "\x1D\x10\x0D\x19\x17\x0F\x0C\x29\x0E\x15\x12\x0E\x0C\x0E\x17\x0E\x25\x0E\x14\x0F\x1B\x0C\x30\x24\x10\x11\x18\x12\x0F\x15\x2F",//Tiempo hasta apagado. <Minutos> 
-  /* MotionSensitivity         */ "\x1F\x0D\x11\x15\x10\x1C\x10\x16\x10\x14\x0E\x14\x0C\x14\x0D\x16\x0C\x19\x0F\x21\x10\x19\x10\x0D\x11\x12\x0F\x1B\x0C\x30\x02\x2A\x20\x17\x0E\x25\x0E\x14\x0F\x0C\x03\x2A\x28\x16\x0C\x19\x0D\x11\x0F\x15\x0C\x15\x0D\x11\x15\x10\x1C\x16\x0D\x0C\x0B\x2A\x28\x16\x0C\x19\x34\x15\x0C\x15\x0D\x11\x15\x10\x1C\x16\x0D\x2F",//Sensibilidad del movimiento. <0=Apagado 1=El menos sensible 9=El más sensible> 
-  /* TemperatureUnit           */ "\x32\x11\x10\x14\x0E\x14\x0C\x14\x0D\x0C\x12\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E\x1B",//Unidad de temperatura. 
-  /* AdvancedIdle              */ "\x24\x18\x0D\x15\x12\x13\x0E\x0C\x10\x11\x22\x0F\x13\x19\x0E\x1A\x10\x2B\x11\x0C\x14\x0D\x12\x0E\x16\x16\x0E\x14\x0E\x0C\x17\x0D\x42\x18\x0D\x11\x0E\x0C\x0D\x11\x0C\x16\x0E\x0C\x17\x0E\x11\x12\x0E\x16\x16\x0E\x0C\x10\x11\x0E\x1A\x12\x10\x21\x0E\x1B",//Muestra información detallada pequena en la pantalla inactiva. 
-  /* DisplayRotation           */ "\x27\x13\x10\x0D\x11\x12\x0E\x1A\x10\x2B\x11\x0C\x14\x0D\x0C\x16\x0E\x0C\x17\x0E\x11\x12\x0E\x16\x16\x0E\x0C\x30\x20\x2A\x20\x18\x12\x0F\x19\x34\x12\x10\x1A\x0F\x0C\x2E\x2A\x24\x0E\x11\x0F\x0C\x10\x2D\x42\x18\x10\x0D\x13\x14\x0E\x0C\x36\x2A\x24\x0E\x11\x0F\x0C\x14\x0D\x13\x0D\x1A\x29\x0E\x2F",//Orientación de la pantalla <A=Automático I=Mano izquierda D=Mano derecha> 
-  /* BoostEnabled              */ "\x20\x1A\x12\x10\x21\x0E\x13\x0C\x0D\x16\x0C\x1C\x0F\x12\x2B\x11\x0C\x3E\x2C\x0F\x0F\x15\x12\x3E\x0C\x0D\x11\x0C\x19\x0F\x14\x0F\x0C\x15\x0F\x16\x14\x0E\x14\x18\x13\x0E\x1B",//Activar el botón "Boost" en modo soldadura. 
-  /* BoostTemperature          */ "\x1D\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E\x0C\x0D\x11\x0C\x19\x0F\x14\x0F\x0C\x3E\x2C\x0F\x0F\x15\x12\x3E\x1B\x0C\x30\x1E\x2F",//Temperatura en modo "Boost". <C> 
-  /* AutoStart                 */ "\x2E\x11\x10\x1A\x10\x0E\x13\x0C\x19\x0F\x14\x0F\x0C\x15\x0F\x16\x14\x0E\x14\x18\x13\x0E\x0C\x0D\x11\x0C\x0D\x16\x0C\x0D\x11\x1A\x0D\x11\x14\x10\x14\x0F\x1B\x0C\x30\x26\x2A\x1F\x3C\x0C\x1F\x2A\x24\x0F\x14\x0F\x0C\x13\x0D\x17\x0F\x15\x0F\x0C\x3B\x2A\x33\x0F\x2F",//Iniciar modo soldadura en el encendido. <V=Sí S=Modo reposo F=No> 
-  /* CooldownBlink             */ "\x23\x0E\x13\x17\x0E\x14\x0D\x0E\x0C\x16\x0E\x0C\x12\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E\x0C\x0D\x11\x0C\x0D\x16\x0C\x0D\x11\x22\x13\x10\x0E\x19\x10\x0D\x11\x12\x0F\x0C\x15\x10\x0C\x16\x0E\x0C\x17\x18\x11\x12\x0E\x0C\x15\x10\x25\x18\x0D\x0C\x1A\x0E\x16\x10\x0D\x11\x12\x0D\x1B",//Parpadea la temperatura en el enfriamiento si la punta sigue caliente. 
-  /* TemperatureCalibration    */ "\x1E\x0E\x16\x10\x1C\x13\x0E\x13\x0C\x14\x0D\x15\x21\x10\x0E\x1A\x10\x2B\x11\x0C\x12\x40\x13\x19\x10\x1A\x0E\x0C\x14\x0D\x0C\x16\x0E\x0C\x17\x18\x11\x12\x0E\x1B",//Calibrar desviación térmica de la punta. 
-  /* SettingsReset             */ "\x26\x0F\x16\x21\x0D\x13\x0C\x0E\x0C\x0D\x15\x12\x0E\x14\x0F\x0C\x14\x0D\x0C\x22\x34\x1C\x13\x10\x1A\x0E\x1B",//Volver a estado de fábrica. 
-  /* VoltageCalibration        */ "\x1E\x0E\x16\x10\x1C\x13\x0E\x1A\x10\x2B\x11\x0C\x26\x2E\x33\x0C\x51\x26\x0F\x16\x12\x0E\x39\x0D\x0C\x14\x0D\x0C\x0D\x11\x12\x13\x0E\x14\x0E\x50\x1B\x0C\x20\x39\x18\x15\x12\x0D\x0C\x1A\x0F\x11\x0C\x0E\x19\x1C\x0F\x15\x0C\x1C\x0F\x12\x0F\x11\x0D\x15\x4E\x0C\x17\x18\x16\x15\x0E\x1A\x10\x2B\x11\x0C\x16\x0E\x13\x25\x0E\x0C\x17\x0E\x13\x0E\x0C\x15\x0E\x16\x10\x13\x1B",//Calibración VIN (Voltaje de entrada). Ajuste con ambos botones, pulsación larga para salir. 
-  /* AdvancedSoldering         */ "\x24\x0F\x15\x12\x13\x0E\x13\x0C\x10\x11\x22\x0F\x13\x19\x0E\x1A\x10\x2B\x11\x0C\x14\x0D\x12\x0E\x16\x16\x0E\x14\x0E\x0C\x19\x10\x0D\x11\x12\x13\x0E\x15\x0C\x15\x18\x0D\x16\x14\x0E\x1B",//Mostrar información detallada mientras suelda. 
-  /* ScrollingSpeed            */ "\x26\x0D\x16\x0F\x1A\x10\x14\x0E\x14\x0C\x14\x0D\x0C\x14\x0D\x15\x17\x16\x0E\x2D\x0E\x19\x10\x0D\x11\x12\x0F\x0C\x14\x0D\x16\x0C\x12\x0D\x41\x12\x0F\x1B",//Velocidad de desplazamiento del texto. 
-  /* TipModel                  */ "\x1D\x10\x17\x0C\x24\x0F\x14\x0D\x16\x0C\x15\x0D\x16\x0D\x1A\x12\x10\x0F\x11",//Tip Model selection 
-  /* SimpleCalibrationMode     */ "\x1F\x10\x19\x17\x16\x0D\x0C\x1E\x0E\x16\x10\x1C\x13\x0E\x12\x10\x0F\x11\x0C\x18\x15\x10\x11\x25\x0C\x37\x0F\x12\x0C\x31\x0E\x12\x0D\x13",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x20\x14\x21\x0E\x11\x1A\x0D\x14\x0C\x1A\x0E\x16\x10\x1C\x13\x0E\x12\x10\x0F\x11\x0C\x18\x15\x10\x11\x25\x0C\x12\x29\x0D\x13\x19\x0F\x1A\x0F\x18\x17\x16\x0D\x0C\x0F\x11\x0C\x12\x29\x0D\x0C\x12\x10\x17",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x23\x0F\x31\x0D\x13\x0C\x35\x0E\x12\x12\x0E\x25\x0D\x0C\x0F\x22\x0C\x12\x29\x0D\x0C\x17\x0F\x31\x0D\x13\x0C\x0E\x14\x0E\x17\x12\x0D\x13\x0C\x18\x15\x0D\x14",//Power Wattage of the power adapter used 
-  /* PowerLimitEnable          */ "\x28\x11\x0E\x1C\x16\x0D\x0C\x17\x0F\x31\x0D\x13\x0C\x16\x10\x19\x10\x12",//Enable power limit 
-  /* PowerLimit                */ "\x24\x0E\x41\x10\x19\x18\x19\x0C\x17\x0F\x31\x0D\x13\x0C\x12\x29\x0D\x0C\x10\x13\x0F\x11\x0C\x1A\x0E\x11\x0C\x18\x15\x0D\x0C\x30\x35\x0E\x12\x12\x15\x2F",//Maximum power the iron can use <Watts> 
+  /* PowerSource               */ "\x33\x13\x14\x23\x0E\x0C\x0E\x13\x0C\x0F\x14\x17\x11\x0C\x16\x0E\x0C\x29\x19\x0E\x12\x0F\x0E\x0C\x17\x0D\x10\x0D\x0C\x13\x14\x18\x14\x0F\x0D\x10\x0C\x0E\x13\x0C\x21\x11\x13\x0F\x0D\x1F\x0E\x0C\x2C\x34\x1D\x0C\x03\x02\x2A\x2B\x0C\x2C\x2F\x0C\x05\x47\x05\x2A\x0C\x17\x11\x10\x0C\x17\x14\x13\x0D\x47\x0C\x14\x13\x14\x18\x14\x0F\x0D\x16\x11\x2B",//Elige el tipo de fuente para limitar el voltaje <DC 10V> <S 3,3V por pila, ilimitado> 
+  /* SleepTemperature          */ "\x20\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D\x0C\x16\x0E\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x0C\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11\x1B",//Temperatura de la punta en reposo. 
+  /* SleepTimeout              */ "\x20\x14\x0E\x18\x17\x11\x0C\x16\x0E\x0C\x14\x12\x0D\x1A\x0F\x14\x21\x14\x16\x0D\x16\x0C\x17\x0D\x10\x0D\x0C\x0E\x12\x0F\x10\x0D\x10\x0C\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11\x0C\x2C\x18\x14\x12\x50\x15\x0E\x23\x2B",//Tiempo de inactividad para entrar en reposo <min/seg> 
+  /* ShutdownTimeout           */ "\x20\x14\x0E\x18\x17\x11\x0C\x16\x0E\x0C\x14\x12\x0D\x1A\x0F\x14\x21\x14\x16\x0D\x16\x0C\x17\x0D\x10\x0D\x0C\x0D\x17\x0D\x23\x0D\x10\x15\x0E\x0C\x2C\x0E\x12\x0C\x18\x14\x12\x19\x0F\x11\x15\x2B",//Tiempo de inactividad para apagarse <en minutos> 
+  /* MotionSensitivity         */ "\x20\x14\x0E\x18\x17\x11\x0C\x16\x0E\x0C\x10\x0E\x0D\x1A\x1A\x14\x26\x12\x0C\x0D\x13\x0C\x0D\x23\x0D\x10\x10\x0D\x10\x0C\x2C\x02\x24\x12\x11\x0C\x03\x24\x18\x0E\x12\x11\x15\x0C\x15\x0E\x12\x15\x14\x1E\x13\x0E\x0C\x0B\x24\x18\x22\x15\x0C\x15\x0E\x12\x15\x14\x1E\x13\x0E\x2B",//Tiempo de reacción al agarrar <0=no 1=menos sensible 9=más sensible> 
+  /* TemperatureUnit           */ "\x2E\x12\x14\x16\x0D\x16\x0C\x16\x0E\x0C\x0F\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D\x0C\x2C\x1D\x24\x1A\x0E\x12\x0F\x36\x23\x10\x0D\x16\x11\x15\x0C\x38\x24\x38\x0D\x3B\x10\x0E\x12\x3B\x0E\x14\x0F\x2B",//Unidad de temperatura <C=centígrados F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x2D\x19\x0E\x15\x0F\x10\x0D\x0C\x14\x12\x29\x11\x10\x18\x0D\x1A\x14\x26\x12\x0C\x16\x0E\x0F\x0D\x13\x13\x0D\x16\x0D\x0C\x0E\x12\x0C\x13\x0E\x0F\x10\x0D\x0C\x17\x0E\x40\x19\x0E\x49\x0D\x0C\x0D\x13\x0C\x10\x0E\x17\x11\x15\x0D\x10\x1B",//Muestra información detallada en letra pequeña al reposar. 
+  /* DisplayRotation           */ "\x3E\x10\x14\x0E\x12\x0F\x0D\x1A\x14\x26\x12\x0C\x16\x0E\x0C\x13\x0D\x0C\x17\x0D\x12\x0F\x0D\x13\x13\x0D\x0C\x2C\x1C\x24\x0D\x19\x0F\x11\x18\x22\x0F\x14\x1A\x11\x0C\x37\x24\x25\x19\x10\x16\x11\x0C\x34\x24\x16\x14\x0E\x15\x0F\x10\x11\x2B",//Orientación de la pantalla <A=automático I=zurdo D=diestro> 
+  /* BoostEnabled              */ "\x27\x0E\x10\x18\x14\x0F\x0E\x0C\x18\x0D\x12\x0F\x0E\x12\x0E\x10\x0C\x17\x19\x13\x15\x0D\x16\x11\x0C\x0E\x13\x0C\x17\x10\x14\x18\x0E\x10\x0C\x1E\x11\x0F\x26\x12\x0C\x53\x1C\x52\x0C\x0D\x13\x0C\x15\x11\x13\x16\x0D\x10\x0C\x44\x0C\x1A\x0D\x13\x0E\x12\x0F\x0D\x10\x0C\x18\x11\x18\x0E\x12\x0F\x22\x12\x0E\x0D\x18\x0E\x12\x0F\x0E\x0C\x19\x12\x0C\x17\x11\x1A\x11\x0C\x18\x22\x15\x1B",//Permite mantener pulsado el primer botón (A) al soldar y calentar momentáneamente un poco más. 
+  /* BoostTemperature          */ "\x20\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D\x0C\x18\x11\x18\x0E\x12\x0F\x22\x12\x0E\x0D\x0C\x40\x19\x0E\x0C\x15\x0E\x0C\x0D\x13\x1A\x0D\x12\x25\x0D\x0C\x0D\x13\x0C\x0D\x17\x10\x0E\x0F\x0D\x10\x0C\x0E\x13\x0C\x1E\x11\x0F\x26\x12\x0C\x16\x0E\x13\x0C\x18\x11\x16\x11\x0C\x0E\x28\x0F\x10\x0D\x1B",//Temperatura momentánea que se alcanza al apretar el botón del modo extra. 
+  /* AutoStart                 */ "\x2F\x0E\x0C\x1A\x0D\x13\x14\x0E\x12\x0F\x0D\x0C\x3A\x13\x0C\x15\x11\x13\x11\x0C\x0D\x13\x0C\x0D\x10\x10\x0D\x12\x1A\x0D\x10\x0C\x2C\x2F\x24\x0E\x12\x0F\x10\x0D\x10\x0C\x0E\x12\x0C\x18\x11\x16\x11\x0C\x15\x11\x13\x16\x0D\x10\x0C\x30\x24\x15\x11\x13\x11\x0C\x0E\x12\x0F\x10\x0D\x10\x0C\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11\x0C\x38\x24\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11\x0C\x17\x0E\x10\x11\x0C\x18\x0D\x12\x0F\x14\x0E\x12\x0E\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x0C\x29\x10\x36\x0D\x0C\x31\x24\x12\x11\x2B",//Se calienta él solo al arrancar <S=entrar en modo soldar R=solo entrar en reposo F=en reposo pero mantiene la punta fría N=no> 
+  /* CooldownBlink             */ "\x3C\x0D\x0C\x0F\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D\x0C\x0E\x12\x0C\x17\x0D\x12\x0F\x0D\x13\x13\x0D\x0C\x17\x0D\x10\x17\x0D\x16\x0E\x0D\x0C\x18\x14\x0E\x12\x0F\x10\x0D\x15\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x0C\x15\x14\x23\x0D\x0C\x1A\x0D\x13\x14\x0E\x12\x0F\x0E\x1B",//La temperatura en pantalla parpadea mientras la punta siga caliente. 
+  /* TemperatureCalibration    */ "\x1D\x0D\x13\x14\x1E\x10\x0D\x0C\x13\x0D\x0C\x16\x0E\x15\x21\x14\x0D\x1A\x14\x26\x12\x0C\x0F\x3A\x10\x18\x14\x1A\x0D\x0C\x16\x0E\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x1B",//Calibra la desviación térmica de la punta. 
+  /* SettingsReset             */ "\x30\x0E\x15\x0F\x0D\x1E\x13\x0E\x1A\x0E\x0C\x0F\x11\x16\x11\x15\x0C\x13\x11\x15\x0C\x0D\x1F\x19\x15\x0F\x0E\x15\x0C\x0D\x0C\x13\x11\x15\x0C\x21\x0D\x13\x11\x10\x0E\x15\x0C\x11\x10\x14\x23\x14\x12\x0D\x13\x0E\x15\x1B",//Restablece todos los ajustes a los valores originales. 
+  /* VoltageCalibration        */ "\x1D\x0D\x13\x14\x1E\x10\x0D\x0C\x2A\x37\x31\x1B\x0C\x1C\x1F\x19\x15\x0F\x0D\x0C\x1A\x11\x12\x0C\x0D\x18\x1E\x11\x15\x0C\x1E\x11\x0F\x11\x12\x0E\x15\x0C\x44\x0C\x18\x0D\x12\x0F\x3A\x12\x0C\x17\x19\x13\x15\x0D\x16\x11\x0C\x17\x0D\x10\x0D\x0C\x15\x0D\x13\x14\x10\x1B",//Calibra VIN. Ajusta con ambos botones y mantén pulsado para salir. 
+  /* AdvancedSoldering         */ "\x2D\x19\x0E\x15\x0F\x10\x0D\x0C\x18\x22\x15\x0C\x16\x0D\x0F\x11\x15\x0C\x17\x11\x10\x0C\x17\x0D\x12\x0F\x0D\x13\x13\x0D\x0C\x1A\x19\x0D\x12\x16\x11\x0C\x15\x0E\x0C\x0E\x15\x0F\x22\x0C\x15\x11\x13\x16\x0D\x12\x16\x11\x1B",//Muestra más datos por pantalla cuando se está soldando. 
+  /* ScrollingSpeed            */ "\x2A\x0E\x13\x11\x1A\x14\x16\x0D\x16\x0C\x16\x0E\x0C\x16\x0E\x15\x17\x13\x0D\x25\x0D\x18\x14\x0E\x12\x0F\x11\x0C\x16\x0E\x13\x0C\x0F\x0E\x28\x0F\x11\x0C\x2C\x30\x24\x10\x22\x17\x14\x16\x0D\x0C\x3C\x24\x13\x0E\x12\x0F\x0D\x2B",//Velocidad de desplazamiento del texto <R=rápida L=lenta> 
+  /* TipModel                  */ "\x33\x13\x0E\x23\x14\x10\x0C\x0E\x13\x0C\x18\x11\x16\x0E\x13\x11\x0C\x16\x0E\x0C\x17\x19\x12\x0F\x0D\x0C\x0D\x1A\x0F\x19\x0D\x13\x1B",//Elegir el modelo de punta actual. 
+  /* SimpleCalibrationMode     */ "\x1D\x0D\x13\x14\x1E\x10\x0D\x1A\x14\x26\x12\x0C\x15\x14\x18\x17\x13\x0E\x0C\x1A\x11\x12\x0C\x0D\x23\x19\x0D\x0C\x1A\x0D\x13\x14\x0E\x12\x0F\x0E\x1B",//Calibración simple con agua caliente. 
+  /* AdvancedCalibrationMode   */ "\x1D\x0D\x13\x14\x1E\x10\x0D\x10\x0C\x1A\x11\x12\x0C\x19\x12\x0C\x0F\x0E\x10\x18\x11\x17\x0D\x10\x0C\x0E\x12\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x4F\x0C\x18\x22\x15\x0C\x16\x14\x29\x36\x1A\x14\x13\x1B",//Calibrar con un termopar en la punta; más difícil. 
+  /* PowerInput                */ "\x27\x11\x0F\x0E\x12\x1A\x14\x0D\x0C\x0E\x12\x0C\x21\x0D\x0F\x14\x11\x15\x0C\x16\x0E\x13\x0C\x0D\x16\x0D\x17\x0F\x0D\x16\x11\x10\x0C\x16\x0E\x0C\x1A\x11\x10\x10\x14\x0E\x12\x0F\x0E\x0C\x19\x0F\x14\x13\x14\x25\x0D\x16\x11\x1B",//Potencia en vatios del adaptador de corriente utilizado. 
+  /* PowerLimitEnable          */ "\x1C\x1A\x0F\x14\x21\x0D\x0C\x0E\x13\x0C\x13\x36\x18\x14\x0F\x0E\x0C\x16\x0E\x0C\x17\x11\x0F\x0E\x12\x1A\x14\x0D\x0C\x18\x22\x28\x14\x18\x0D\x1B",//Activa el límite de potencia máxima. 
+  /* PowerLimit                */ "\x33\x13\x14\x23\x0E\x0C\x0E\x13\x0C\x13\x36\x18\x14\x0F\x0E\x0C\x16\x0E\x0C\x17\x11\x0F\x0E\x12\x1A\x14\x0D\x0C\x18\x22\x28\x14\x18\x0D\x0C\x16\x0E\x13\x0C\x15\x11\x13\x16\x0D\x16\x11\x10\x0C\x2C\x0E\x12\x0C\x21\x0D\x0F\x14\x11\x15\x2B",//Elige el límite de potencia máxima del soldador <en vatios> 
 };
 
-const char* SettingsCalibrationDone = "\x1E\x0E\x16\x10\x1C\x13\x0E\x12\x10\x0F\x11\x0C\x14\x0F\x11\x0D\x3F";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x44\x20\x15\x0D\x25\x47\x13\x0D\x15\x0D\x0C\x42\x18\x0D\x0C\x16\x0E\x0C\x17\x18\x11\x12\x0E\x0C\x0D\x15\x12\x40\x0C\x0E\x0C\x12\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E\x0C\x0E\x19\x1C\x10\x0D\x11\x12\x0D\x0C\x0E\x11\x12\x0D\x15\x0C\x14\x0D\x0C\x17\x13\x0F\x1A\x0D\x14\x0D\x13\x3F";//¡Asegúrese que la punta esté a temperatura ambiente antes de proceder! 
-const char* SettingsResetWarning = "\x48\x28\x15\x12\x34\x0C\x15\x0D\x25\x18\x13\x0F\x0C\x14\x0D\x0C\x21\x0F\x16\x21\x0D\x13\x0C\x0E\x0C\x0D\x15\x12\x0E\x14\x0F\x0C\x14\x0D\x0C\x22\x34\x1C\x13\x10\x1A\x0E\x4D";//¿Está seguro de volver a estado de fábrica? 
-const char* UVLOWarningString = "\x36\x1E\x0C\x2C\x20\x4C\x27";//DC BAJO 
-const char* UndervoltageString = "\x1F\x18\x1C\x12\x0D\x11\x15\x10\x2B\x11";//Subtensión 
-const char* InputVoltageString = "\x26\x0C\x0D\x11\x12\x13\x0E\x14\x0E\x38\x0C";//V entrada:  
-const char* WarningTipTempString = "\x1D\x0D\x19\x17\x0C\x23\x18\x11\x12\x0E\x38\x0C";//Temp Punta:  
-const char* BadTipString = "\x28\x3A\x0C\x23\x32\x33\x1D\x20";//ER PUNTA 
-const char* SleepingSimpleString = "\x49\x2D\x2D\x2D";//Zzzz 
-const char* SleepingAdvancedString = "\x28\x11\x0C\x13\x0D\x17\x0F\x15\x0F\x1B\x1B\x1B";//En reposo... 
-const char* WarningSimpleString = "\x1D\x28\x24\x23";//TEMP 
-const char* WarningAdvancedString = "\x44\x23\x32\x33\x1D\x20\x0C\x1E\x20\x3D\x2E\x28\x33\x1D\x28\x3F";//¡PUNTA CALIENTE! 
-const char* SleepingTipAdvancedString = "\x23\x18\x11\x12\x0E\x38";//Punta: 
-const char* IdleTipString = "\x23\x18\x11\x12\x0E\x38";//Punta: 
-const char* IdleSetString = "\x0C\x20\x39\x38";// Aj: 
-const char* TipDisconnectedString = "\x1F\x2E\x33\x0C\x23\x32\x33\x1D\x20";//SIN PUNTA 
-const char* SolderingAdvancedPowerPrompt = "\x23\x27\x1D\x28\x33\x1E\x2E\x20\x38\x0C";//POTENCIA:  
-const char* OffString = "\x27\x22\x22";//Off 
-const char* ResetOKMessage = "\x3A\x0D\x15\x0D\x12\x0C\x27\x4B";//Reset OK 
-const char* YourGainMessage = "\x4A\x0F\x18\x13\x0C\x46\x0E\x10\x11";//Your Gain 
-const char* SettingsResetMessage = "\x1F\x0D\x12\x12\x10\x11\x25\x15\x0C\x31\x0D\x13\x0D\x01\x13\x0D\x15\x0D\x12\x3F";//Settings were_reset! 
+const char* SettingsCalibrationDone = "\x3F\x1D\x0D\x13\x14\x1E\x10\x0D\x16\x0D\x43";//¡Calibrada! 
+const char* SettingsCalibrationWarning = "\x3F\x1C\x15\x0E\x23\x48\x10\x0D\x0F\x0E\x0C\x40\x19\x0E\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D\x0C\x0E\x15\x0F\x3A\x0C\x0D\x0C\x0F\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D\x0C\x0D\x18\x1E\x14\x0E\x12\x0F\x0E\x0C\x0D\x12\x0F\x0E\x15\x0C\x16\x0E\x0C\x0E\x18\x17\x0E\x25\x0D\x10\x43";//¡Asegúrate que la punta esté a temperatura ambiente antes de empezar! 
+const char* SettingsResetWarning = "\x4A\x41\x19\x14\x0E\x10\x0E\x15\x0C\x10\x0E\x15\x0F\x0D\x1E\x13\x0E\x1A\x0E\x10\x0C\x13\x11\x15\x0C\x0D\x1F\x19\x15\x0F\x0E\x15\x4E";//¿Quieres restablecer los ajustes? 
+const char* UVLOWarningString = "\x1D\x1D\x0C\x39\x1C\x4D\x1C";//CC BAJA 
+const char* UndervoltageString = "\x2A\x11\x13\x0F\x0D\x1F\x0E\x0C\x1E\x0D\x1F\x11";//Voltaje bajo 
+const char* InputVoltageString = "\x2A\x11\x13\x0F\x0D\x1F\x0E\x35\x0C";//Voltaje:  
+const char* WarningTipTempString = "\x20\x0E\x18\x17\x0C\x17\x19\x12\x0F\x0D\x35\x0C";//Temp punta:  
+const char* BadTipString = "\x27\x20\x1B\x0C\x30\x3E\x20\x1C";//PT. ROTA 
+const char* SleepingSimpleString = "\x4B\x25\x25\x25";//Zzzz 
+const char* SleepingAdvancedString = "\x33\x12\x0C\x10\x0E\x17\x11\x15\x11\x1B\x1B\x1B";//En reposo... 
+const char* WarningSimpleString = "\x41\x2E\x33\x2D\x1C";//QUEMA 
+const char* WarningAdvancedString = "\x3F\x3C\x1C\x0C\x27\x2E\x31\x20\x1C\x0C\x41\x2E\x33\x2D\x1C\x43";//¡LA PUNTA QUEMA! 
+const char* SleepingTipAdvancedString = "\x27\x19\x12\x0F\x0D\x35";//Punta: 
+const char* IdleTipString = "\x27\x19\x12\x0F\x0D\x35";//Punta: 
+const char* IdleSetString = "\x0C\x1C\x1F\x35";// Aj: 
+const char* TipDisconnectedString = "\x31\x3E\x0C\x32\x1C\x4C\x0C\x27\x2E\x31\x20\x1C";//NO HAY PUNTA 
+const char* SolderingAdvancedPowerPrompt = "\x27\x11\x0F\x0E\x12\x1A\x14\x0D\x35\x0C";//Potencia:  
+const char* OffString = "\x0C\x31\x11";// No 
+const char* ResetOKMessage = "\x32\x0E\x1A\x3B\x11\x1B\x0C\x0C\x0C\x0C\x0C\x0C\x0C";//Hecho.        
+const char* YourGainMessage = "\x46\x0D\x12\x0D\x12\x1A\x1B\x35";//Gananc.: 
+const char* SettingsResetMessage = "\x30\x0E\x15\x0F\x0D\x1E\x13\x0E\x1A\x14\x16\x11\x15\x1B";//Restablecidos. 
 
-const char* SettingRightChar = "\x36";//D 
-const char* SettingLeftChar = "\x2E";//I 
-const char* SettingAutoChar = "\x20";//A 
-const char* SettingFastChar = "\x3A";//R 
-const char* SettingSlowChar = "\x3D";//L 
-const char* SettingStartSolderingChar = "\x26";//V 
-const char* SettingStartSleepChar = "\x1F";//S 
-const char* SettingStartNoneChar = "\x3B";//F 
+const char* SettingRightChar = "\x34";//D 
+const char* SettingLeftChar = "\x37";//I 
+const char* SettingAutoChar = "\x1C";//A 
+const char* SettingFastChar = "\x30";//R 
+const char* SettingSlowChar = "\x3C";//L 
+const char* SettingStartSolderingChar = "\x2F";//S 
+const char* SettingStartSleepChar = "\x30";//R 
+const char* SettingStartSleepOffChar = "\x38";//F 
+const char* SettingStartNoneChar = "\x31";//N 
 
-const char* SymbolPlus = "\x4F";//+ 
-const char* SymbolMinus = "\x43";//- 
+const char* SymbolPlus = "\x51";//+ 
+const char* SymbolMinus = "\x42";//- 
 const char* SymbolSpace = "\x0C";//  
 const char* SymbolDot = "\x1B";//. 
-const char* SymbolDegC = "\x1E";//C 
-const char* SymbolDegF = "\x3B";//F 
-const char* SymbolMinutes = "\x24";//M 
-const char* SymbolSeconds = "\x1F";//S 
-const char* SymbolWatts = "\x35";//W 
-const char* SymbolVolts = "\x26";//V 
-const char* SymbolDC = "\x36\x1E";//DC 
-const char* SymbolCellCount = "\x1F";//S 
-const char* SymbolVersionNumber = "\x26\x04\x1B\x02\x0A";//V2.08 
+const char* SymbolDegC = "\x1D";//C 
+const char* SymbolDegF = "\x38";//F 
+const char* SymbolMinutes = "\x2D";//M 
+const char* SymbolSeconds = "\x2F";//S 
+const char* SymbolWatts = "\x3D";//W 
+const char* SymbolVolts = "\x2A";//V 
+const char* SymbolDC = "\x34\x1D";//DC 
+const char* SymbolCellCount = "\x2F";//S 
+const char* SymbolVersionNumber = "\x21\x04\x1B\x02\x0A\x1B\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x2C\x02\x04",//B02 
-	 "\x36\x04\x06",//D24 
-	 "\x2C\x1E\x04",//BC2 
-	 "\x0C\x1E\x03",// C1 
-	 "\x1D\x1F\x03\x02\x02",//TS100 
-	 "\x2C\x1E\x04",//BC2 
-	 "\x37\x0E\x45\x45\x0F",//Hakko 
-	 "\x32\x15\x0D\x13",//User 
+	 "\x39\x02\x04",//B02 
+	 "\x34\x04\x06",//D24 
+	 "\x39\x1D\x04",//BC2 
+	 "\x0C\x1D\x03",// C1 
+	 "\x20\x2F\x03\x02\x02",//TS100 
+	 "\x39\x1D\x04",//BC2 
+	 "\x32\x0D\x45\x45\x11",//Hakko 
+	 "\x2E\x15\x0E\x10",//User 
 #else
-	 "\x2C\x02\x04",//B02 
-	 "\x36\x04\x07",//D25 
-	 "\x1D\x1F\x0A\x02",//TS80 
-	 "\x32\x15\x0D\x13",//User 
+	 "\x39\x02\x04",//B02 
+	 "\x34\x04\x07",//D25 
+	 "\x20\x2F\x0A\x02",//TS80 
+	 "\x2E\x15\x0E\x10",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x43\x02\x03\x43\x04\x02",//18-01-20 
-	 "\x37\x35\x0C\x46\x0C",//HW G  
-	 "\x37\x35\x0C\x24\x0C",//HW M  
-	 "\x37\x35\x0C\x23\x0C",//HW P  
-	 "\x1D\x10\x19\x0D\x0C",//Time  
-	 "\x24\x0F\x21\x0D\x0C",//Move  
-	 "\x3A\x1D\x10\x17\x0C",//RTip  
-	 "\x1E\x1D\x10\x17\x0C",//CTip  
-	 "\x1E\x37\x0E\x11\x0C",//CHan  
-	 "\x26\x10\x11\x0C\x0C",//Vin   
-	 "\x23\x1E\x2C\x0C\x0C",//PCB   
+	 "\x03\x06\x42\x02\x05\x42\x04\x02",//14-03-20 
+	 "\x32\x3D\x0C\x46\x0C",//HW G  
+	 "\x32\x3D\x0C\x2D\x0C",//HW M  
+	 "\x32\x3D\x0C\x27\x0C",//HW P  
+	 "\x20\x14\x18\x0E\x0C",//Time  
+	 "\x2D\x11\x21\x0E\x0C",//Move  
+	 "\x30\x20\x14\x17\x0C",//RTip  
+	 "\x1D\x20\x14\x17\x0C",//CTip  
+	 "\x1D\x32\x0D\x12\x0C",//CHan  
+	 "\x2A\x14\x12\x0C\x0C",//Vin   
+	 "\x27\x1D\x39\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x3B\x18\x0D\x11\x12\x0D", "\x14\x0D\x0C\x0D\x11\x0D\x13\x25\x3C\x0E" },//['Fuente', 'de energía'] 
-  /* SleepTemperature          */ { "\x1D\x0D\x19\x17\x0C\x0D\x11", "\x13\x0D\x17\x0F\x15\x0F" },//['Temp en', 'reposo'] 
-  /* SleepTimeout              */ { "\x1D\x10\x0D\x19\x17\x0F\x0C\x29\x1B", "\x13\x0D\x17\x0F\x15\x0F" },//['Tiempo h.', 'reposo'] 
-  /* ShutdownTimeout           */ { "\x1D\x10\x0D\x19\x17\x0F\x0C\x29\x1B", "\x0E\x17\x0E\x25\x0E\x14\x0F" },//['Tiempo h.', 'apagado'] 
-  /* MotionSensitivity         */ { "\x1F\x0D\x11\x15\x10\x1C\x10\x16\x10\x14\x0E\x14", "\x0E\x16\x0C\x19\x0F\x21\x10\x19\x10\x0D\x11\x12\x0F" },//['Sensibilidad', 'al movimiento'] 
-  /* TemperatureUnit           */ { "\x32\x11\x10\x14\x0E\x14\x0C\x14\x0D", "\x12\x0D\x19\x17\x0D\x13\x0E\x12\x18\x13\x0E" },//['Unidad de', 'temperatura'] 
-  /* AdvancedIdle              */ { "\x24\x34\x15\x0C\x10\x11\x22\x0F\x0C\x0D\x11", "\x19\x0F\x14\x0F\x0C\x10\x11\x0E\x1A\x12\x10\x21\x0F" },//['Más info en', 'modo inactivo'] 
-  /* DisplayRotation           */ { "\x27\x13\x10\x0D\x11\x12\x0E\x1A\x10\x2B\x11", "\x14\x0D\x0C\x17\x0E\x11\x12\x0E\x16\x16\x0E" },//['Orientación', 'de pantalla'] 
-  /* BoostEnabled              */ { "\x2C\x0F\x0F\x15\x12\x0C\x1C\x0F\x12\x2B\x11", "\x0E\x1A\x12\x10\x21\x0E\x14\x0F" },//['Boost botón', 'activado'] 
-  /* BoostTemperature          */ { "\x1D\x0D\x19\x17\x0C\x0D\x11", "\x2C\x0F\x0F\x15\x12" },//['Temp en', 'Boost'] 
-  /* AutoStart                 */ { "\x1F\x0F\x16\x14\x0E\x14\x18\x13\x0E", "\x0E\x16\x0C\x0D\x11\x1A\x29\x18\x22\x0E\x13" },//['Soldadura', 'al enchufar'] 
-  /* CooldownBlink             */ { "\x23\x0E\x13\x17\x0E\x14\x0D\x0E\x0C\x19\x1B", "\x0D\x11\x22\x13\x10\x0E\x19\x10\x0D\x11\x12\x0F" },//['Parpadea m.', 'enfriamiento'] 
-  /* TemperatureCalibration    */ { "\x1E\x0E\x16\x10\x1C\x13\x0E\x13\x0C\x12\x0D\x19\x17", "\x14\x0D\x0C\x16\x0E\x0C\x17\x18\x11\x12\x0E" },//['Calibrar temp', 'de la punta'] 
-  /* SettingsReset             */ { "\x28\x15\x12\x0E\x14\x0F\x0C\x14\x0D", "\x22\x34\x1C\x13\x10\x1A\x0E" },//['Estado de', 'fábrica'] 
-  /* VoltageCalibration        */ { "\x1E\x0E\x16\x10\x1C\x13\x0E\x13", "\x26\x0C\x0D\x11\x12\x13\x0E\x14\x0E" },//['Calibrar', 'V entrada'] 
-  /* AdvancedSoldering         */ { "\x2E\x11\x22\x0C\x14\x0D\x12\x0E\x16\x16\x0E\x14\x0E", "\x14\x0D\x16\x0C\x15\x0F\x16\x14\x0E\x14\x18\x13\x0E" },//['Inf detallada', 'del soldadura'] 
-  /* ScrollingSpeed            */ { "\x26\x0D\x16\x0F\x1A\x10\x14\x0E\x14", "\x14\x0D\x16\x0C\x12\x0D\x41\x12\x0F" },//['Velocidad', 'del texto'] 
-  /* TipModel                  */ { "\x1D\x10\x17", "\x24\x0F\x14\x0D\x16" },//['Tip', 'Model'] 
-  /* SimpleCalibrationMode     */ { "\x1F\x10\x19\x17\x16\x0D", "\x1E\x0E\x16\x10\x1C\x13\x0E\x12\x10\x0F\x11" },//['Simple', 'Calibration'] 
-  /* AdvancedCalibrationMode   */ { "\x20\x14\x21\x0E\x11\x1A\x0D\x14", "\x1E\x0E\x16\x10\x1C\x13\x0E\x12\x10\x0F\x11" },//['Advanced', 'Calibration'] 
-  /* PowerInput                */ { "\x23\x0F\x31\x0D\x13", "\x35\x0E\x12\x12\x0E\x25\x0D" },//['Power', 'Wattage'] 
-  /* PowerLimitEnable          */ { "\x23\x0C\x3D\x10\x19\x10\x12", "\x28\x11\x0E\x1C\x16\x0D" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x23\x0F\x31\x0D\x13", "\x3D\x10\x19\x10\x12" },//['Power', 'Limit'] 
+  /* PowerSource               */ { "\x38\x19\x0E\x12\x0F\x0E", "\x16\x0E\x0C\x0E\x12\x0E\x10\x23\x36\x0D" },//['Fuente', 'de energía'] 
+  /* SleepTemperature          */ { "\x20\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D", "\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11" },//['Temperatura', 'en reposo'] 
+  /* SleepTimeout              */ { "\x33\x12\x0F\x10\x0D\x10", "\x0E\x12\x0C\x10\x0E\x17\x11\x15\x11" },//['Entrar', 'en reposo'] 
+  /* ShutdownTimeout           */ { "\x20\x14\x0E\x18\x17\x11\x0C\x16\x0E", "\x0D\x17\x0D\x23\x0D\x16\x11" },//['Tiempo de', 'apagado'] 
+  /* MotionSensitivity         */ { "\x34\x0E\x0F\x0E\x1A\x1A\x14\x26\x12\x0C\x16\x0E", "\x18\x11\x21\x14\x18\x14\x0E\x12\x0F\x11" },//['Detección de', 'movimiento'] 
+  /* TemperatureUnit           */ { "\x2E\x12\x14\x16\x0D\x16\x0C\x16\x0E", "\x0F\x0E\x18\x17\x0E\x10\x0D\x0F\x19\x10\x0D" },//['Unidad de', 'temperatura'] 
+  /* AdvancedIdle              */ { "\x37\x12\x29\x11\x0C\x0E\x28\x0F\x10\x0D\x0C\x0E\x12", "\x18\x11\x16\x11\x0C\x10\x0E\x17\x11\x15\x11" },//['Info extra en', 'modo reposo'] 
+  /* DisplayRotation           */ { "\x3E\x10\x14\x0E\x12\x0F\x0D\x1A\x14\x26\x12", "\x16\x0E\x0C\x17\x0D\x12\x0F\x0D\x13\x13\x0D" },//['Orientación', 'de pantalla'] 
+  /* BoostEnabled              */ { "\x1D\x11\x12\x0C\x1E\x11\x0F\x26\x12\x0C\x16\x0E", "\x0F\x0E\x18\x17\x1B\x0C\x0E\x28\x0F\x10\x0D" },//['Con botón de', 'temp. extra'] 
+  /* BoostTemperature          */ { "\x1C\x1F\x19\x15\x0F\x0D\x10\x0C\x13\x0D", "\x0F\x0E\x18\x17\x1B\x0C\x0E\x28\x0F\x10\x0D" },//['Ajustar la', 'temp. extra'] 
+  /* AutoStart                 */ { "\x1D\x0D\x13\x0E\x12\x0F\x0D\x10", "\x0D\x13\x0C\x0E\x12\x1A\x3B\x19\x29\x0D\x10" },//['Calentar', 'al enchufar'] 
+  /* CooldownBlink             */ { "\x27\x0D\x10\x17\x0D\x16\x0E\x0D\x10", "\x0D\x13\x0C\x0E\x12\x29\x10\x14\x0D\x10" },//['Parpadear', 'al enfriar'] 
+  /* TemperatureCalibration    */ { "\x1D\x0D\x13\x14\x1E\x10\x0D\x10\x0C\x0F\x0E\x18\x17\x1B", "\x16\x0E\x0C\x13\x0D\x0C\x17\x19\x12\x0F\x0D" },//['Calibrar temp.', 'de la punta'] 
+  /* SettingsReset             */ { "\x2A\x11\x13\x21\x0E\x10\x0C\x0D\x0C\x0D\x1F\x19\x15\x0F\x0E\x15", "\x16\x0E\x0C\x29\x22\x1E\x10\x14\x1A\x0D" },//['Volver a ajustes', 'de fábrica'] 
+  /* VoltageCalibration        */ { "\x1D\x0D\x13\x14\x1E\x10\x0D\x10\x0C\x21\x11\x13\x0F\x0D\x1F\x0E", "\x16\x0E\x0C\x0E\x12\x0F\x10\x0D\x16\x0D" },//['Calibrar voltaje', 'de entrada'] 
+  /* AdvancedSoldering         */ { "\x37\x12\x29\x11\x0C\x0E\x28\x0F\x10\x0D", "\x0D\x13\x0C\x15\x11\x13\x16\x0D\x10" },//['Info extra', 'al soldar'] 
+  /* ScrollingSpeed            */ { "\x2A\x0E\x13\x11\x1A\x14\x16\x0D\x16", "\x16\x0E\x13\x0C\x0F\x0E\x28\x0F\x11" },//['Velocidad', 'del texto'] 
+  /* TipModel                  */ { "\x2D\x11\x16\x0E\x13\x11\x0C\x16\x0E", "\x17\x19\x12\x0F\x0D" },//['Modelo de', 'punta'] 
+  /* SimpleCalibrationMode     */ { "\x1D\x0D\x13\x14\x1E\x10\x0D\x1A\x14\x26\x12", "\x15\x14\x18\x17\x13\x0E" },//['Calibración', 'simple'] 
+  /* AdvancedCalibrationMode   */ { "\x1D\x0D\x13\x14\x1E\x10\x0D\x1A\x14\x26\x12", "\x0D\x21\x0D\x12\x25\x0D\x16\x0D" },//['Calibración', 'avanzada'] 
+  /* PowerInput                */ { "\x27\x11\x0F\x0E\x12\x1A\x14\x0D\x0C\x16\x0E", "\x0E\x12\x0F\x10\x0D\x16\x0D" },//['Potencia de', 'entrada'] 
+  /* PowerLimitEnable          */ { "\x3C\x14\x18\x14\x0F\x0D\x10\x0C\x13\x0D", "\x17\x11\x0F\x0E\x12\x1A\x1B\x0C\x18\x22\x28\x1B" },//['Limitar la', 'potenc. máx.'] 
+  /* PowerLimit                */ { "\x1C\x1F\x19\x15\x0F\x0D\x10\x0C\x13\x0D", "\x17\x11\x0F\x0E\x12\x1A\x1B\x0C\x18\x22\x28\x1B" },//['Ajustar la', 'potenc. máx.'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x0C\x14\x0D\x01\x1F\x0F\x16\x14\x0E\x14\x18\x13\x0E",//['Opciones de', 'Soldadura'] 
-  /* PowerSavingMenu           */ "\x24\x0F\x14\x0F\x15\x0C\x14\x0D\x01\x3A\x0D\x17\x0F\x15\x0F",//['Modos de', 'Reposo'] 
-  /* UIMenu                    */ "\x2E\x11\x12\x0D\x13\x22\x0E\x2D\x01\x14\x0D\x0C\x32\x15\x18\x0E\x13\x10\x0F",//['Interfaz', 'de Usuario'] 
-  /* AdvancedMenu              */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x01\x20\x21\x0E\x11\x2D\x0E\x14\x0E\x15",//['Opciones', 'Avanzadas'] 
+  /* SolderingMenu             */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x0C\x16\x0E\x01\x15\x11\x13\x16\x0D\x16\x19\x10\x0D",//['Ajustes de', 'soldadura'] 
+  /* PowerSavingMenu           */ "\x2D\x11\x16\x11\x15\x0C\x16\x0E\x01\x10\x0E\x17\x11\x15\x11",//['Modos de', 'reposo'] 
+  /* UIMenu                    */ "\x37\x12\x0F\x0E\x10\x29\x0D\x25\x01\x16\x0E\x0C\x19\x15\x19\x0D\x10\x14\x11",//['Interfaz', 'de usuario'] 
+  /* AdvancedMenu              */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x01\x0D\x21\x0D\x12\x25\x0D\x16\x11\x15",//['Ajustes', 'avanzados'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x0C\x14\x0D\x0C\x1F\x0F\x16\x14\x0E\x14\x18\x13\x0E",//Opciones de Soldadura 
-  /* PowerSavingMenu           */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x0C\x14\x0D\x0C\x0E\x29\x0F\x13\x13\x0F\x0C\x0D\x11\x0D\x13\x25\x40\x12\x10\x1A\x0F",//Opciones de ahorro energético 
-  /* UIMenu                    */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x0C\x14\x0D\x0C\x10\x11\x12\x0D\x13\x22\x0E\x2D\x0C\x14\x0D\x0C\x18\x15\x18\x0E\x13\x10\x0F",//Opciones de interfaz de usuario 
-  /* AdvancedMenu              */ "\x27\x17\x1A\x10\x0F\x11\x0D\x15\x0C\x0E\x21\x0E\x11\x2D\x0E\x14\x0E\x15",//Opciones avanzadas 
+  /* SolderingMenu             */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x0C\x17\x0D\x10\x0D\x0C\x15\x11\x13\x16\x0D\x10\x1B",//Ajustes para soldar. 
+  /* PowerSavingMenu           */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x0C\x16\x0E\x0C\x0D\x3B\x11\x10\x10\x11\x0C\x0E\x12\x0E\x10\x23\x3A\x0F\x14\x1A\x11\x1B",//Ajustes de ahorro energético. 
+  /* UIMenu                    */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x0C\x16\x0E\x0C\x14\x12\x0F\x0E\x10\x29\x0D\x25\x0C\x16\x0E\x0C\x19\x15\x19\x0D\x10\x14\x11\x1B",//Ajustes de interfaz de usuario. 
+  /* AdvancedMenu              */ "\x1C\x1F\x19\x15\x0F\x0E\x15\x0C\x0D\x21\x0D\x12\x25\x0D\x16\x11\x15\x1B",//Ajustes avanzados. 
 };
 
 #endif
@@ -1971,15 +1977,15 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x1B -> y
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1C -> .
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x1D -> h
-0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0xEC,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1E -> ö
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1F -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1E -> v
+0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0xEC,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1F -> ö
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x20 -> T
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x21 -> d
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x22 -> L
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x23 -> C
 0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x24 -> j
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x25 -> V
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x26 -> K
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x25 -> K
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x26 -> V
 0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x27 -> =
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x28 -> S
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x29 -> A
@@ -1989,11 +1995,11 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2D -> ,
 0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x2E -> w
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x2F -> W
-0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x30 -> N
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x31 -> >
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x32 -> <
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x33 -> c
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x34 -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x30 -> O
+0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x31 -> N
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x32 -> >
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x33 -> <
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x34 -> c
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x35 -> M
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x36 -> I
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x37 -> -
@@ -2049,15 +2055,15 @@ const uint8_t USER_FONT_6x8[] = {
 0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x1B -> y
 0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1C -> .
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x1D -> h
-0x38, 0x45, 0x44, 0x45, 0x38, 0x00,//\x1E -> ö
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1F -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1E -> v
+0x38, 0x45, 0x44, 0x45, 0x38, 0x00,//\x1F -> ö
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x20 -> T
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x21 -> d
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x22 -> L
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x23 -> C
 0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x24 -> j
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x25 -> V
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x26 -> K
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x25 -> K
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x26 -> V
 0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x27 -> =
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x28 -> S
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x29 -> A
@@ -2067,11 +2073,11 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2D -> ,
 0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x2E -> w
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x2F -> W
-0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x30 -> N
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x31 -> >
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x32 -> <
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x33 -> c
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x34 -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x30 -> O
+0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x31 -> N
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x32 -> >
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x33 -> <
+0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x34 -> c
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x35 -> M
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x36 -> I
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x37 -> -
@@ -2101,60 +2107,61 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Suomi ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x26\x15\x1B\x0C\x0E\x0C\x0C\x15\x1F\x15\x10\x1F\x0D\x18\x0C\x0F\x14\x15\x1D\x21\x0E\x1C\x10\x29\x11\x0E\x0C\x0C\x0F\x0F\x10\x16\x0F\x0C\x16\x0F\x0D\x11\x17\x24\x15\x12\x12\x0D\x0C\x0E\x0E\x12\x1C\x10\x32\x39\x23\x10\x03\x02\x25\x2D\x10\x05\x28\x27\x0B\x1C\x0B\x25\x2D\x10\x06\x28\x27\x03\x05\x1C\x04\x25\x2D\x10\x07\x28\x27\x03\x08\x1C\x07\x25\x2D\x10\x08\x28\x27\x03\x0B\x1C\x0A\x25\x31",//Käytettävä virtalähde. Asettaa katkaisujänniteen. <DC 10V, 3S=9.9V, 4S=13.2V, 5S=16.5V, 6S=19.8V> 
-  /* SleepTemperature          */ "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12\x10\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x1C\x10\x32\x23\x31",//Lepotilan lämpötila. <C> 
-  /* SleepTimeout              */ "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12\x10\x1F\x0D\x0D\x1F\x0E\x1C\x10\x32\x1A\x0D\x12\x17\x17\x0C\x0C\x0D\x0F\x4A\x11\x0E\x16\x17\x12\x0C\x0D\x0F\x31",//Lepotilan viive. <minuuttia/sekuntia> 
-  /* ShutdownTimeout           */ "\x29\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x11\x0E\x12\x10\x11\x0F\x1A\x1A\x17\x0C\x17\x16\x11\x0E\x12\x10\x0F\x0D\x16\x0F\x1F\x0D\x0D\x1F\x0E\x1C\x10\x32\x1A\x0D\x12\x17\x17\x0C\x0C\x0D\x0F\x31",//Automaattisen sammutuksen aikaviive. <minuuttia> 
-  /* MotionSensitivity         */ "\x22\x0D\x0D\x16\x16\x0E\x0E\x12\x0C\x17\x12\x12\x0D\x11\x0C\x17\x16\x11\x0E\x12\x10\x1D\x0E\x18\x16\x16\x1B\x1B\x11\x1C\x10\x32\x02\x27\x19\x13\x0D\x11\x2D\x10\x03\x27\x0E\x19\x15\x1D\x0E\x18\x16\x0D\x12\x2D\x10\x0B\x27\x1D\x0E\x18\x16\x0D\x12\x31",//Liikkeentunnistuksen herkkyys. <0=pois, 1=epäherkin, 9=herkin> 
-  /* TemperatureUnit           */ "\x22\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x12\x10\x1B\x16\x11\x0D\x16\x16\x1E\x1C\x10\x32\x23\x27\x33\x0E\x14\x11\x0D\x17\x11\x2D\x10\x38\x27\x45\x0F\x1D\x18\x0E\x12\x1D\x0E\x0D\x0C\x31",//Lämpötilan yksikkö. <C=celsius, F=fahrenheit> 
-  /* AdvancedIdle              */ "\x30\x15\x1B\x0C\x0C\x15\x15\x10\x1B\x16\x11\x0D\x0C\x1B\x0D\x11\x16\x13\x1D\x0C\x0F\x0D\x11\x0E\x1A\x1A\x0F\x0C\x10\x0C\x0D\x0E\x21\x13\x0C\x10\x14\x0E\x19\x13\x0C\x0D\x14\x0F\x11\x11\x0F\x1C",//Näyttää yksityiskohtaisemmat tiedot lepotilassa. 
-  /* DisplayRotation           */ "\x30\x15\x1B\x0C\x1E\x12\x10\x16\x0D\x0E\x18\x0C\x13\x1C\x10\x32\x29\x27\x0F\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x12\x0E\x12\x10\x34\x27\x13\x0D\x16\x0E\x0F\x16\x15\x0C\x0D\x12\x0E\x12\x10\x25\x27\x1F\x0F\x11\x0E\x12\x16\x15\x0C\x0D\x12\x0E\x12\x31",//Näytön kierto. <A=automaattinen O=oikeakätinen V=vasenkätinen> 
+  /* PowerSource               */ "\x25\x15\x1B\x0C\x0E\x0C\x0C\x15\x1E\x15\x10\x1E\x0D\x18\x0C\x0F\x14\x15\x1D\x21\x0E\x1C\x10\x29\x11\x0E\x0C\x0C\x0F\x0F\x10\x16\x0F\x0C\x16\x0F\x0D\x11\x17\x24\x15\x12\x12\x0D\x0C\x0E\x0E\x12\x1C\x10\x33\x39\x23\x10\x03\x02\x26\x2D\x10\x05\x28\x27\x0B\x1C\x0B\x26\x2D\x10\x06\x28\x27\x03\x05\x1C\x04\x26\x2D\x10\x07\x28\x27\x03\x08\x1C\x07\x26\x2D\x10\x08\x28\x27\x03\x0B\x1C\x0A\x26\x32",//Käytettävä virtalähde. Asettaa katkaisujänniteen. <DC 10V, 3S=9.9V, 4S=13.2V, 5S=16.5V, 6S=19.8V> 
+  /* SleepTemperature          */ "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12\x10\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x1C\x10\x33\x23\x32",//Lepotilan lämpötila. <C> 
+  /* SleepTimeout              */ "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12\x10\x1E\x0D\x0D\x1E\x0E\x1C\x10\x33\x1A\x0D\x12\x17\x17\x0C\x0C\x0D\x0F\x4A\x11\x0E\x16\x17\x12\x0C\x0D\x0F\x32",//Lepotilan viive. <minuuttia/sekuntia> 
+  /* ShutdownTimeout           */ "\x29\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x11\x0E\x12\x10\x11\x0F\x1A\x1A\x17\x0C\x17\x16\x11\x0E\x12\x10\x0F\x0D\x16\x0F\x1E\x0D\x0D\x1E\x0E\x1C\x10\x33\x1A\x0D\x12\x17\x17\x0C\x0C\x0D\x0F\x32",//Automaattisen sammutuksen aikaviive. <minuuttia> 
+  /* MotionSensitivity         */ "\x22\x0D\x0D\x16\x16\x0E\x0E\x12\x0C\x17\x12\x12\x0D\x11\x0C\x17\x16\x11\x0E\x12\x10\x1D\x0E\x18\x16\x16\x1B\x1B\x11\x1C\x10\x33\x02\x27\x19\x13\x0D\x11\x2D\x10\x03\x27\x0E\x19\x15\x1D\x0E\x18\x16\x0D\x12\x2D\x10\x0B\x27\x1D\x0E\x18\x16\x0D\x12\x32",//Liikkeentunnistuksen herkkyys. <0=pois, 1=epäherkin, 9=herkin> 
+  /* TemperatureUnit           */ "\x22\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x12\x10\x1B\x16\x11\x0D\x16\x16\x1F\x1C\x10\x33\x23\x27\x34\x0E\x14\x11\x0D\x17\x11\x2D\x10\x38\x27\x45\x0F\x1D\x18\x0E\x12\x1D\x0E\x0D\x0C\x32",//Lämpötilan yksikkö. <C=celsius, F=fahrenheit> 
+  /* AdvancedIdle              */ "\x31\x15\x1B\x0C\x0C\x15\x15\x10\x1B\x16\x11\x0D\x0C\x1B\x0D\x11\x16\x13\x1D\x0C\x0F\x0D\x11\x0E\x1A\x1A\x0F\x0C\x10\x0C\x0D\x0E\x21\x13\x0C\x10\x14\x0E\x19\x13\x0C\x0D\x14\x0F\x11\x11\x0F\x1C",//Näyttää yksityiskohtaisemmat tiedot lepotilassa. 
+  /* DisplayRotation           */ "\x31\x15\x1B\x0C\x1F\x12\x10\x16\x0D\x0E\x18\x0C\x13\x1C\x10\x33\x29\x27\x0F\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x12\x0E\x12\x10\x30\x27\x13\x0D\x16\x0E\x0F\x16\x15\x0C\x0D\x12\x0E\x12\x10\x26\x27\x1E\x0F\x11\x0E\x12\x16\x15\x0C\x0D\x12\x0E\x12\x32",//Näytön kierto. <A=automaattinen O=oikeakätinen V=vasenkätinen> 
   /* BoostEnabled              */ "\x41\x0C\x17\x19\x0F\x0D\x12\x0D\x16\x0E\x0E\x14\x14\x0F\x10\x11\x0D\x0D\x18\x18\x1B\x0C\x15\x15\x12\x10\x24\x17\x13\x0C\x0E\x0C\x0C\x0F\x0E\x11\x11\x0F\x10\x0C\x0E\x1D\x13\x11\x0C\x17\x11\x0C\x0D\x14\x0F\x0F\x12\x1C",//Etupainikeella siirrytään juotettaessa tehostustilaan. 
-  /* BoostTemperature          */ "\x20\x0E\x1D\x13\x11\x0C\x17\x11\x0C\x0D\x14\x0F\x12\x10\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F",//Tehostustilan lämpötila 
-  /* AutoStart                 */ "\x26\x15\x1B\x12\x12\x0D\x11\x0C\x15\x15\x10\x1F\x0D\x18\x18\x0F\x0C\x10\x16\x1B\x0C\x16\x0E\x0C\x0C\x15\x0E\x11\x11\x15\x10\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x12\x10\x0F\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x11\x0E\x11\x0C\x0D\x1C\x10\x20\x27\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x2D\x10\x28\x27\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x2D\x10\x38\x27\x41\x0D\x10\x16\x15\x1B\x0C\x1E\x11\x11\x15",//Käynnistää virrat kytkettäessä juotostilan automaattisesti. T=juotostila, S=Lepotila, F=Ei käytössä 
-  /* CooldownBlink             */ "\x25\x0D\x14\x16\x17\x0C\x0C\x0F\x0F\x10\x24\x15\x15\x1D\x0C\x1B\x0E\x11\x11\x15\x10\x24\x17\x13\x0C\x13\x11\x16\x15\x18\x24\x0E\x12\x10\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x0F\x10\x11\x0E\x12\x10\x13\x14\x14\x0E\x11\x11\x0F\x10\x1F\x0D\x0E\x14\x15\x10\x1F\x0F\x0F\x18\x0F\x14\x14\x0D\x11\x0E\x12\x10\x16\x17\x17\x1A\x0F\x1C",//Vilkuttaa jäähtyessä juotoskärjen lämpötilaa sen ollessa vielä vaarallisen kuuma. 
-  /* TemperatureCalibration    */ "\x26\x0F\x14\x0D\x2A\x18\x13\x0D\x10\x16\x15\x18\x24\x0E\x12\x10\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x0E\x18\x13\x12\x1C",//Kalibroi kärjen lämpötilaeron. 
-  /* SettingsReset             */ "\x2B\x0F\x14\x0F\x17\x0C\x0F\x10\x16\x0F\x0D\x16\x16\x0D\x10\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C\x10\x13\x14\x0E\x0C\x17\x11\x0F\x18\x1F\x13\x0D\x1D\x0D\x12\x1C",//Palauta kaikki asetukset oletusarvoihin. 
-  /* VoltageCalibration        */ "\x20\x17\x14\x13\x24\x15\x12\x12\x0D\x0C\x0C\x0E\x12\x10\x16\x0F\x14\x0D\x2A\x18\x13\x0D\x12\x0C\x0D\x10\x4D\x25\x36\x30\x4C\x1C\x10\x2B\x0F\x0D\x12\x0D\x16\x16\x0E\x0D\x14\x14\x0F\x10\x11\x15\x15\x21\x0E\x0C\x15\x15\x12\x10\x24\x0F\x10\x19\x0D\x0C\x16\x15\x15\x12\x10\x19\x0F\x0D\x12\x0F\x1A\x0F\x14\x14\x0F\x10\x19\x13\x0D\x11\x0C\x17\x0C\x0F\x0F\x12\x1C",//Tulojännitten kalibrointi (VIN). Painikkeilla säädetään ja pitkään painamalla poistutaan. 
-  /* AdvancedSoldering         */ "\x30\x15\x1B\x0C\x0C\x15\x15\x10\x1B\x16\x11\x0D\x0C\x1B\x0D\x11\x16\x13\x1D\x0C\x0F\x0D\x11\x0E\x1A\x1A\x0F\x0C\x10\x0C\x0D\x0E\x21\x13\x0C\x10\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x11\x11\x0F\x1C",//Näyttää yksityiskohtaisemmat tiedot juotostilassa. 
-  /* ScrollingSpeed            */ "\x30\x15\x0D\x21\x0E\x12\x10\x11\x0E\x14\x0D\x0C\x0E\x0C\x0E\x16\x11\x0C\x0D\x0E\x12\x10\x1F\x0D\x0E\x18\x0D\x0C\x1B\x11\x12\x13\x19\x0E\x17\x11\x1C",//Näiden selitetekstien vieritysnopeus. 
-  /* TipModel                  */ "\x20\x0D\x19\x10\x35\x13\x21\x0E\x14\x10\x11\x0E\x14\x0E\x33\x0C\x0D\x13\x12",//Tip Model selection 
+  /* BoostTemperature          */ "\x20\x0E\x1D\x13\x11\x0C\x17\x11\x0C\x0D\x14\x0F\x12\x10\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F",//Tehostustilan lämpötila 
+  /* AutoStart                 */ "\x25\x15\x1B\x12\x12\x0D\x11\x0C\x15\x15\x10\x1E\x0D\x18\x18\x0F\x0C\x10\x16\x1B\x0C\x16\x0E\x0C\x0C\x15\x0E\x11\x11\x15\x10\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x12\x10\x0F\x17\x0C\x13\x1A\x0F\x0F\x0C\x0C\x0D\x11\x0E\x11\x0C\x0D\x1C\x10\x20\x27\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x2D\x10\x28\x27\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x2D\x10\x38\x27\x41\x0D\x10\x16\x15\x1B\x0C\x1F\x11\x11\x15",//Käynnistää virrat kytkettäessä juotostilan automaattisesti. T=juotostila, S=Lepotila, F=Ei käytössä 
+  /* CooldownBlink             */ "\x26\x0D\x14\x16\x17\x0C\x0C\x0F\x0F\x10\x24\x15\x15\x1D\x0C\x1B\x0E\x11\x11\x15\x10\x24\x17\x13\x0C\x13\x11\x16\x15\x18\x24\x0E\x12\x10\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x0F\x10\x11\x0E\x12\x10\x13\x14\x14\x0E\x11\x11\x0F\x10\x1E\x0D\x0E\x14\x15\x10\x1E\x0F\x0F\x18\x0F\x14\x14\x0D\x11\x0E\x12\x10\x16\x17\x17\x1A\x0F\x1C",//Vilkuttaa jäähtyessä juotoskärjen lämpötilaa sen ollessa vielä vaarallisen kuuma. 
+  /* TemperatureCalibration    */ "\x25\x0F\x14\x0D\x2A\x18\x13\x0D\x10\x16\x15\x18\x24\x0E\x12\x10\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x0E\x18\x13\x12\x1C",//Kalibroi kärjen lämpötilaeron. 
+  /* SettingsReset             */ "\x2B\x0F\x14\x0F\x17\x0C\x0F\x10\x16\x0F\x0D\x16\x16\x0D\x10\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C\x10\x13\x14\x0E\x0C\x17\x11\x0F\x18\x1E\x13\x0D\x1D\x0D\x12\x1C",//Palauta kaikki asetukset oletusarvoihin. 
+  /* VoltageCalibration        */ "\x20\x17\x14\x13\x24\x15\x12\x12\x0D\x0C\x0C\x0E\x12\x10\x16\x0F\x14\x0D\x2A\x18\x13\x0D\x12\x0C\x0D\x10\x4D\x26\x36\x31\x4C\x1C\x10\x2B\x0F\x0D\x12\x0D\x16\x16\x0E\x0D\x14\x14\x0F\x10\x11\x15\x15\x21\x0E\x0C\x15\x15\x12\x10\x24\x0F\x10\x19\x0D\x0C\x16\x15\x15\x12\x10\x19\x0F\x0D\x12\x0F\x1A\x0F\x14\x14\x0F\x10\x19\x13\x0D\x11\x0C\x17\x0C\x0F\x0F\x12\x1C",//Tulojännitten kalibrointi (VIN). Painikkeilla säädetään ja pitkään painamalla poistutaan. 
+  /* AdvancedSoldering         */ "\x31\x15\x1B\x0C\x0C\x15\x15\x10\x1B\x16\x11\x0D\x0C\x1B\x0D\x11\x16\x13\x1D\x0C\x0F\x0D\x11\x0E\x1A\x1A\x0F\x0C\x10\x0C\x0D\x0E\x21\x13\x0C\x10\x24\x17\x13\x0C\x13\x11\x0C\x0D\x14\x0F\x11\x11\x0F\x1C",//Näyttää yksityiskohtaisemmat tiedot juotostilassa. 
+  /* ScrollingSpeed            */ "\x31\x15\x0D\x21\x0E\x12\x10\x11\x0E\x14\x0D\x0C\x0E\x0C\x0E\x16\x11\x0C\x0D\x0E\x12\x10\x1E\x0D\x0E\x18\x0D\x0C\x1B\x11\x12\x13\x19\x0E\x17\x11\x1C",//Näiden selitetekstien vieritysnopeus. 
+  /* TipModel                  */ "\x20\x0D\x19\x10\x35\x13\x21\x0E\x14\x10\x11\x0E\x14\x0E\x34\x0C\x0D\x13\x12",//Tip Model selection 
   /* SimpleCalibrationMode     */ "\x28\x0D\x1A\x19\x14\x0E\x10\x23\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12\x10\x17\x11\x0D\x12\x3B\x10\x2C\x13\x0C\x10\x2E\x0F\x0C\x0E\x18",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x29\x21\x1F\x0F\x12\x33\x0E\x21\x10\x33\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12\x10\x17\x11\x0D\x12\x3B\x10\x0C\x1D\x0E\x18\x1A\x13\x33\x13\x17\x19\x14\x0E\x10\x13\x12\x10\x0C\x1D\x0E\x10\x0C\x0D\x19",//Advanced calibration using thermocouple on the tip 
+  /* AdvancedCalibrationMode   */ "\x29\x21\x1E\x0F\x12\x34\x0E\x21\x10\x34\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12\x10\x17\x11\x0D\x12\x3B\x10\x0C\x1D\x0E\x18\x1A\x13\x34\x13\x17\x19\x14\x0E\x10\x13\x12\x10\x0C\x1D\x0E\x10\x0C\x0D\x19",//Advanced calibration using thermocouple on the tip 
   /* PowerInput                */ "\x2B\x13\x2E\x0E\x18\x10\x2F\x0F\x0C\x0C\x0F\x3B\x0E\x10\x13\x45\x10\x0C\x1D\x0E\x10\x19\x13\x2E\x0E\x18\x10\x0F\x21\x0F\x19\x0C\x0E\x18\x10\x17\x11\x0E\x21",//Power Wattage of the power adapter used 
   /* PowerLimitEnable          */ "\x41\x12\x0F\x2A\x14\x0E\x10\x19\x13\x2E\x0E\x18\x10\x14\x0D\x1A\x0D\x0C",//Enable power limit 
-  /* PowerLimit                */ "\x35\x0F\x47\x0D\x1A\x17\x1A\x10\x19\x13\x2E\x0E\x18\x10\x0C\x1D\x0E\x10\x0D\x18\x13\x12\x10\x33\x0F\x12\x10\x17\x11\x0E\x10\x32\x2F\x0F\x0C\x0C\x11\x31",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x35\x0F\x47\x0D\x1A\x17\x1A\x10\x19\x13\x2E\x0E\x18\x10\x0C\x1D\x0E\x10\x0D\x18\x13\x12\x10\x34\x0F\x12\x10\x17\x11\x0E\x10\x33\x2F\x0F\x0C\x0C\x11\x32",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x23\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12\x10\x21\x13\x12\x0E\x3E";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x25\x0F\x18\x1A\x0D\x11\x0C\x0F\x10\x0E\x0C\x0C\x15\x10\x16\x15\x18\x16\x0D\x10\x13\x12\x10\x1D\x17\x13\x12\x0E\x0E\x12\x14\x15\x1A\x19\x1E\x0D\x12\x0E\x12\x10\x0E\x12\x12\x0E\x12\x10\x24\x0F\x0C\x16\x0F\x1A\x0D\x11\x0C\x0F\x3E";//Varmista että kärki on huoneenlämpöinen ennen jatkamista! 
-const char* SettingsResetWarning = "\x2C\x0F\x14\x17\x0F\x0C\x16\x13\x10\x1F\x0F\x18\x1A\x0F\x11\x0C\x0D\x10\x19\x0F\x14\x0F\x17\x0C\x0C\x0F\x0F\x10\x13\x14\x0E\x0C\x17\x11\x0F\x18\x1F\x13\x0C\x42";//Haluatko varmasti palauttaa oletusarvot? 
-const char* UVLOWarningString = "\x39\x23\x10\x22\x34\x2F";//DC LOW 
+const char* SettingsCalibrationWarning = "\x26\x0F\x18\x1A\x0D\x11\x0C\x0F\x10\x0E\x0C\x0C\x15\x10\x16\x15\x18\x16\x0D\x10\x13\x12\x10\x1D\x17\x13\x12\x0E\x0E\x12\x14\x15\x1A\x19\x1F\x0D\x12\x0E\x12\x10\x0E\x12\x12\x0E\x12\x10\x24\x0F\x0C\x16\x0F\x1A\x0D\x11\x0C\x0F\x3E";//Varmista että kärki on huoneenlämpöinen ennen jatkamista! 
+const char* SettingsResetWarning = "\x2C\x0F\x14\x17\x0F\x0C\x16\x13\x10\x1E\x0F\x18\x1A\x0F\x11\x0C\x0D\x10\x19\x0F\x14\x0F\x17\x0C\x0C\x0F\x0F\x10\x13\x14\x0E\x0C\x17\x11\x0F\x18\x1E\x13\x0C\x42";//Haluatko varmasti palauttaa oletusarvot? 
+const char* UVLOWarningString = "\x39\x23\x10\x22\x30\x2F";//DC LOW 
 const char* UndervoltageString = "\x29\x14\x0D\x24\x15\x12\x12\x0D\x0C\x0E";//Alijännite 
 const char* InputVoltageString = "\x40\x15\x12\x12\x0D\x0C\x0E\x3A\x10";//Jännite:  
-const char* WarningTipTempString = "\x22\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x3A\x10";//Lämpötila:  
-const char* BadTipString = "\x25\x36\x26\x29\x20\x36\x22\x29";//VIKATILA 
+const char* WarningTipTempString = "\x22\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x3A\x10";//Lämpötila:  
+const char* BadTipString = "\x26\x36\x25\x29\x20\x36\x22\x29";//VIKATILA 
 const char* SleepingSimpleString = "\x48\x43\x43\x43";//Zzzz 
 const char* SleepingAdvancedString = "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x1C\x1C\x1C";//Lepotila... 
-const char* WarningSimpleString = "\x2C\x34\x20";//HOT 
-const char* WarningAdvancedString = "\x3E\x10\x26\x44\x3C\x26\x36\x10\x26\x3F\x3F\x35\x29\x10\x3E";//! KÄRKI KUUMA ! 
-const char* SleepingTipAdvancedString = "\x26\x15\x18\x16\x0D\x3A";//Kärki: 
-const char* IdleTipString = "\x26\x15\x18\x16\x0D\x3A";//Kärki: 
+const char* WarningSimpleString = "\x2C\x30\x20";//HOT 
+const char* WarningAdvancedString = "\x3E\x10\x25\x44\x3C\x25\x36\x10\x25\x3F\x3F\x35\x29\x10\x3E";//! KÄRKI KUUMA ! 
+const char* SleepingTipAdvancedString = "\x25\x15\x18\x16\x0D\x3A";//Kärki: 
+const char* IdleTipString = "\x25\x15\x18\x16\x0D\x3A";//Kärki: 
 const char* IdleSetString = "\x10\x29\x11\x0E\x0C\x17\x11\x3A";// Asetus: 
-const char* TipDisconnectedString = "\x26\x44\x3C\x26\x36\x10\x34\x30\x10\x36\x3C\x20\x36";//KÄRKI ON IRTI 
+const char* TipDisconnectedString = "\x25\x44\x3C\x25\x36\x10\x30\x31\x10\x36\x3C\x20\x36";//KÄRKI ON IRTI 
 const char* SolderingAdvancedPowerPrompt = "\x20\x0E\x1D\x13\x3A\x10";//Teho:  
-const char* OffString = "\x34\x38\x38";//OFF 
-const char* ResetOKMessage = "\x3C\x0E\x11\x0E\x0C\x10\x34\x26";//Reset OK 
+const char* OffString = "\x30\x38\x38";//OFF 
+const char* ResetOKMessage = "\x3C\x0E\x11\x0E\x0C\x10\x30\x25";//Reset OK 
 const char* YourGainMessage = "\x49\x13\x17\x18\x10\x46\x0F\x0D\x12";//Your Gain 
 const char* SettingsResetMessage = "\x28\x0E\x0C\x0C\x0D\x12\x3B\x11\x10\x2E\x0E\x18\x0E\x01\x18\x0E\x11\x0E\x0C\x3E";//Settings were_reset! 
 
-const char* SettingRightChar = "\x34";//O 
-const char* SettingLeftChar = "\x25";//V 
+const char* SettingRightChar = "\x30";//O 
+const char* SettingLeftChar = "\x26";//V 
 const char* SettingAutoChar = "\x29";//A 
-const char* SettingFastChar = "\x30";//N 
+const char* SettingFastChar = "\x31";//N 
 const char* SettingSlowChar = "\x2C";//H 
 const char* SettingStartSolderingChar = "\x20";//T 
 const char* SettingStartSleepChar = "\x28";//S 
+const char* SettingStartSleepOffChar = "\x30";//O 
 const char* SettingStartNoneChar = "\x38";//F 
 
 const char* SymbolPlus = "\x4B";//+ 
@@ -2166,10 +2173,10 @@ const char* SymbolDegF = "\x38";//F
 const char* SymbolMinutes = "\x35";//M 
 const char* SymbolSeconds = "\x28";//S 
 const char* SymbolWatts = "\x2F";//W 
-const char* SymbolVolts = "\x25";//V 
+const char* SymbolVolts = "\x26";//V 
 const char* SymbolDC = "\x39\x23";//DC 
 const char* SymbolCellCount = "\x28";//S 
-const char* SymbolVersionNumber = "\x25\x04\x1C\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1E\x04\x1C\x02\x0A\x1C\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -2190,41 +2197,41 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x37\x02\x03\x37\x04\x02",//18-01-20 
+	 "\x03\x06\x37\x02\x05\x37\x04\x02",//14-03-20 
 	 "\x2C\x2F\x10\x46\x10",//HW G  
 	 "\x2C\x2F\x10\x35\x10",//HW M  
 	 "\x2C\x2F\x10\x2B\x10",//HW P  
 	 "\x20\x0D\x1A\x0E\x10",//Time  
-	 "\x35\x13\x1F\x0E\x10",//Move  
+	 "\x35\x13\x1E\x0E\x10",//Move  
 	 "\x3C\x20\x0D\x19\x10",//RTip  
 	 "\x23\x20\x0D\x19\x10",//CTip  
 	 "\x23\x2C\x0F\x12\x10",//CHan  
-	 "\x25\x0D\x12\x10\x10",//Vin   
+	 "\x26\x0D\x12\x10\x10",//Vin   
 	 "\x2B\x23\x3D\x10\x10",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x25\x0D\x18\x0C\x0F\x14\x15\x1D\x21\x0E", "\x39\x23" },//['Virtalähde', 'DC'] 
-  /* SleepTemperature          */ { "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12", "\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F" },//['Lepotilan', 'lämpötila'] 
-  /* SleepTimeout              */ { "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12", "\x1F\x0D\x0D\x1F\x0E" },//['Lepotilan', 'viive'] 
-  /* ShutdownTimeout           */ { "\x28\x0F\x1A\x1A\x17\x0C\x17\x11", "\x1F\x0D\x0D\x1F\x0E" },//['Sammutus', 'viive'] 
+  /* PowerSource               */ { "\x26\x0D\x18\x0C\x0F\x14\x15\x1D\x21\x0E", "\x39\x23" },//['Virtalähde', 'DC'] 
+  /* SleepTemperature          */ { "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12", "\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F" },//['Lepotilan', 'lämpötila'] 
+  /* SleepTimeout              */ { "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12", "\x1E\x0D\x0D\x1E\x0E" },//['Lepotilan', 'viive'] 
+  /* ShutdownTimeout           */ { "\x28\x0F\x1A\x1A\x17\x0C\x17\x11", "\x1E\x0D\x0D\x1E\x0E" },//['Sammutus', 'viive'] 
   /* MotionSensitivity         */ { "\x22\x0D\x0D\x16\x16\x0E\x0E\x12", "\x1D\x0E\x18\x16\x16\x1B\x1B\x11" },//['Liikkeen', 'herkkyys'] 
-  /* TemperatureUnit           */ { "\x22\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x12", "\x1B\x16\x11\x0D\x16\x16\x1E" },//['Lämpötilan', 'yksikkö'] 
+  /* TemperatureUnit           */ { "\x22\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x12", "\x1B\x16\x11\x0D\x16\x16\x1F" },//['Lämpötilan', 'yksikkö'] 
   /* AdvancedIdle              */ { "\x20\x0D\x0E\x21\x13\x0C", "\x14\x0E\x19\x13\x0C\x0D\x14\x0F\x11\x11\x0F" },//['Tiedot', 'lepotilassa'] 
-  /* DisplayRotation           */ { "\x30\x15\x1B\x0C\x1E\x12", "\x16\x0D\x0E\x18\x0C\x13" },//['Näytön', 'kierto'] 
-  /* BoostEnabled              */ { "\x20\x0E\x1D\x13\x11\x0C\x17\x11", "\x16\x15\x1B\x0C\x1E\x11\x11\x15" },//['Tehostus', 'käytössä'] 
-  /* BoostTemperature          */ { "\x20\x0E\x1D\x13\x11\x0C\x17\x11\x37", "\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F" },//['Tehostus-', 'lämpötila'] 
+  /* DisplayRotation           */ { "\x31\x15\x1B\x0C\x1F\x12", "\x16\x0D\x0E\x18\x0C\x13" },//['Näytön', 'kierto'] 
+  /* BoostEnabled              */ { "\x20\x0E\x1D\x13\x11\x0C\x17\x11", "\x16\x15\x1B\x0C\x1F\x11\x11\x15" },//['Tehostus', 'käytössä'] 
+  /* BoostTemperature          */ { "\x20\x0E\x1D\x13\x11\x0C\x17\x11\x37", "\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F" },//['Tehostus-', 'lämpötila'] 
   /* AutoStart                 */ { "\x29\x17\x0C\x13\x1A\x1C", "\x16\x15\x1B\x12\x12\x0D\x11\x0C\x1B\x11" },//['Autom.', 'käynnistys'] 
-  /* CooldownBlink             */ { "\x40\x15\x15\x1D\x21\x1B\x0C\x1B\x16\x11\x0E\x12", "\x1F\x0D\x14\x16\x17\x0C\x17\x11" },//['Jäähdytyksen', 'vilkutus'] 
-  /* TemperatureCalibration    */ { "\x26\x0F\x14\x0D\x2A\x18\x13\x0D", "\x14\x15\x1A\x19\x1E\x0C\x0D\x14\x0F\x42" },//['Kalibroi', 'lämpötila?'] 
+  /* CooldownBlink             */ { "\x40\x15\x15\x1D\x21\x1B\x0C\x1B\x16\x11\x0E\x12", "\x1E\x0D\x14\x16\x17\x0C\x17\x11" },//['Jäähdytyksen', 'vilkutus'] 
+  /* TemperatureCalibration    */ { "\x25\x0F\x14\x0D\x2A\x18\x13\x0D", "\x14\x15\x1A\x19\x1F\x0C\x0D\x14\x0F\x42" },//['Kalibroi', 'lämpötila?'] 
   /* SettingsReset             */ { "\x2B\x0F\x14\x0F\x17\x0C\x0F", "\x0C\x0E\x1D\x21\x0F\x11\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C\x42" },//['Palauta', 'tehdasasetukset?'] 
-  /* VoltageCalibration        */ { "\x26\x0F\x14\x0D\x2A\x18\x13\x0D", "\x0C\x17\x14\x13\x24\x15\x12\x12\x0D\x0C\x0E\x42" },//['Kalibroi', 'tulojännite?'] 
-  /* AdvancedSoldering         */ { "\x20\x0F\x18\x16\x0E\x1A\x19\x0D", "\x24\x17\x13\x0C\x13\x11\x12\x15\x1B\x0C\x0C\x1E" },//['Tarkempi', 'juotosnäyttö'] 
-  /* ScrollingSpeed            */ { "\x20\x0D\x0E\x0C\x13\x24\x0E\x12", "\x12\x15\x1B\x0C\x0C\x1E\x12\x13\x19\x0E\x17\x11" },//['Tietojen', 'näyttönopeus'] 
+  /* VoltageCalibration        */ { "\x25\x0F\x14\x0D\x2A\x18\x13\x0D", "\x0C\x17\x14\x13\x24\x15\x12\x12\x0D\x0C\x0E\x42" },//['Kalibroi', 'tulojännite?'] 
+  /* AdvancedSoldering         */ { "\x20\x0F\x18\x16\x0E\x1A\x19\x0D", "\x24\x17\x13\x0C\x13\x11\x12\x15\x1B\x0C\x0C\x1F" },//['Tarkempi', 'juotosnäyttö'] 
+  /* ScrollingSpeed            */ { "\x20\x0D\x0E\x0C\x13\x24\x0E\x12", "\x12\x15\x1B\x0C\x0C\x1F\x12\x13\x19\x0E\x17\x11" },//['Tietojen', 'näyttönopeus'] 
   /* TipModel                  */ { "\x20\x0D\x19", "\x35\x13\x21\x0E\x14" },//['Tip', 'Model'] 
   /* SimpleCalibrationMode     */ { "\x28\x0D\x1A\x19\x14\x0E", "\x23\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12" },//['Simple', 'Calibration'] 
-  /* AdvancedCalibrationMode   */ { "\x29\x21\x1F\x0F\x12\x33\x0E\x21", "\x23\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12" },//['Advanced', 'Calibration'] 
+  /* AdvancedCalibrationMode   */ { "\x29\x21\x1E\x0F\x12\x34\x0E\x21", "\x23\x0F\x14\x0D\x2A\x18\x0F\x0C\x0D\x13\x12" },//['Advanced', 'Calibration'] 
   /* PowerInput                */ { "\x2B\x13\x2E\x0E\x18", "\x2F\x0F\x0C\x0C\x0F\x3B\x0E" },//['Power', 'Wattage'] 
   /* PowerLimitEnable          */ { "\x2B\x10\x22\x0D\x1A\x0D\x0C", "\x41\x12\x0F\x2A\x14\x0E" },//['P Limit', 'Enable'] 
   /* PowerLimit                */ { "\x2B\x13\x2E\x0E\x18", "\x22\x0D\x1A\x0D\x0C" },//['Power', 'Limit'] 
@@ -2233,14 +2240,14 @@ const char* SettingsShortNames[][2] = {
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x40\x17\x13\x0C\x13\x11\x37\x01\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//['Juotos-', 'asetukset'] 
   /* PowerSavingMenu           */ "\x22\x0E\x19\x13\x0C\x0D\x14\x0F\x12\x01\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//['Lepotilan', 'asetukset'] 
-  /* UIMenu                    */ "\x26\x15\x1B\x0C\x0C\x1E\x37\x01\x14\x0D\x0D\x0C\x0C\x1B\x1A\x15",//['Käyttö-', 'liittymä'] 
+  /* UIMenu                    */ "\x25\x15\x1B\x0C\x0C\x1F\x37\x01\x14\x0D\x0D\x0C\x0C\x1B\x1A\x15",//['Käyttö-', 'liittymä'] 
   /* AdvancedMenu              */ "\x22\x0D\x11\x15\x37\x01\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//['Lisä-', 'asetukset'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x40\x17\x13\x0C\x13\x11\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Juotosasetukset 
-  /* PowerSavingMenu           */ "\x25\x0D\x18\x18\x0F\x12\x11\x15\x15\x11\x0C\x1E\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Virransäästöasetukset 
-  /* UIMenu                    */ "\x26\x15\x1B\x0C\x0C\x1E\x14\x0D\x0D\x0C\x0C\x1B\x1A\x15\x12\x10\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Käyttöliittymän asetukset 
+  /* PowerSavingMenu           */ "\x26\x0D\x18\x18\x0F\x12\x11\x15\x15\x11\x0C\x1F\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Virransäästöasetukset 
+  /* UIMenu                    */ "\x25\x15\x1B\x0C\x0C\x1F\x14\x0D\x0D\x0C\x0C\x1B\x1A\x15\x12\x10\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Käyttöliittymän asetukset 
   /* AdvancedMenu              */ "\x22\x0D\x11\x15\x0F\x11\x0E\x0C\x17\x16\x11\x0E\x0C",//Lisäasetukset 
 };
 
@@ -2283,21 +2290,21 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x22 -> A
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x23 -> T
 0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x24 -> =
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x25 -> S
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x26 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x25 -> .
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x26 -> S
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x27 -> b
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x28 -> V
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x29 -> B
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x2A -> g
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x28 -> B
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x29 -> g
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x2A -> V
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x2B -> h
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2C -> R
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2D -> >
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2E -> <
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x2F -> M
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x30 -> H
-0x00,0x80,0xC0,0xE0,0x62,0x66,0x6C,0x68,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x33,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x31 -> è
-0x00,0xF8,0xF8,0x98,0x98,0x9C,0x9E,0x9B,0x99,0x18,0x18,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x31,0x30,0x30,0x00,//\x32 -> É
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x33 -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2F -> O
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x30 -> M
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x31 -> H
+0x00,0x80,0xC0,0xE0,0x62,0x66,0x6C,0x68,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x33,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x32 -> è
+0x00,0xF8,0xF8,0x98,0x98,0x9C,0x9E,0x9B,0x99,0x18,0x18,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x31,0x30,0x30,0x00,//\x33 -> É
 0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x34 -> N
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x35 -> E
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x36 -> q
@@ -2360,21 +2367,21 @@ const uint8_t USER_FONT_6x8[] = {
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x22 -> A
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x23 -> T
 0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x24 -> =
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x25 -> S
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x26 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x25 -> .
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x26 -> S
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x27 -> b
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x28 -> V
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x29 -> B
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x2A -> g
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x28 -> B
+0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x29 -> g
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x2A -> V
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x2B -> h
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2C -> R
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2D -> >
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2E -> <
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x2F -> M
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x30 -> H
-0x38, 0x55, 0x56, 0x54, 0x08, 0x00,//\x31 -> è
-0x7c, 0x54, 0x56, 0x45, 0x44, 0x00,//\x32 -> É
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x33 -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2F -> O
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x30 -> M
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x31 -> H
+0x38, 0x55, 0x56, 0x54, 0x08, 0x00,//\x32 -> è
+0x7c, 0x54, 0x56, 0x45, 0x44, 0x00,//\x33 -> É
 0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x34 -> N
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x35 -> E
 0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x36 -> q
@@ -2404,52 +2411,52 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Français ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x25\x15\x16\x12\x1A\x0C\x0D\x17\x20\x0E\x13\x0F\x18\x0C\x11\x10\x0E\x10\x0F\x15\x11\x26\x0D\x2C\x31\x2A\x13\x0C\x0D\x13\x0E\x0D\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x0C\x0D\x1A\x15\x16\x1B\x16\x12\x0C\x0D\x2E\x1F\x1D\x24\x03\x02\x28\x0D\x25\x24\x05\x26\x05\x28\x0D\x1B\x0E\x12\x0D\x1A\x0C\x13\x13\x16\x13\x0C\x14\x2D",//Source d'alimentation. Règle la tension de coupure <DC=10V S=3.3V par cellules> 
+  /* PowerSource               */ "\x26\x15\x16\x12\x1A\x0C\x0D\x17\x20\x0E\x13\x0F\x18\x0C\x11\x10\x0E\x10\x0F\x15\x11\x25\x0D\x2C\x32\x29\x13\x0C\x0D\x13\x0E\x0D\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x0C\x0D\x1A\x15\x16\x1B\x16\x12\x0C\x0D\x2E\x1F\x1D\x24\x03\x02\x2A\x0D\x26\x24\x05\x25\x05\x2A\x0D\x1B\x0E\x12\x0D\x1A\x0C\x13\x13\x16\x13\x0C\x14\x2D",//Source d'alimentation. Règle la tension de coupure <DC=10V S=3.3V par cellules> 
   /* SleepTemperature          */ "\x23\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x0C\x11\x0D\x1C\x0C\x0F\x13\x13\x0C\x0D\x2E\x1D\x2D",//Température en veille <C> 
-  /* SleepTimeout              */ "\x1F\x19\x13\x0E\x0F\x0D\x0E\x1C\x0E\x11\x10\x0D\x18\x0F\x14\x0C\x0D\x0C\x11\x0D\x1C\x0C\x0F\x13\x13\x0C\x0D\x2E\x2F\x0F\x11\x16\x10\x0C\x14\x2D",//Délai avant mise en veille <Minutes> 
-  /* ShutdownTimeout           */ "\x1F\x19\x13\x0E\x0F\x0D\x0E\x1C\x0E\x11\x10\x0D\x0C\x3B\x10\x0F\x11\x1A\x10\x0F\x15\x11\x0D\x2E\x2F\x0F\x11\x16\x10\x0C\x14\x2D",//Délai avant extinction <Minutes> 
-  /* MotionSensitivity         */ "\x25\x0C\x11\x14\x0F\x27\x0F\x13\x0F\x10\x19\x0D\x17\x16\x0D\x1A\x0E\x1B\x10\x0C\x16\x12\x0D\x17\x0C\x0D\x18\x15\x16\x1C\x0C\x18\x0C\x11\x10\x0D\x2E\x02\x24\x42\x11\x0E\x1A\x10\x0F\x1E\x0D\x03\x24\x21\x0C\x16\x0D\x14\x0C\x11\x14\x0F\x27\x13\x0C\x0D\x0B\x24\x23\x12\x0C\x14\x0D\x14\x0C\x11\x14\x0F\x27\x13\x0C\x2D",//Sensibilité du capteur de mouvement <0=Inactif 1=Peu sensible 9=Tres sensible> 
+  /* SleepTimeout              */ "\x1F\x19\x13\x0E\x0F\x0D\x0E\x1C\x0E\x11\x10\x0D\x18\x0F\x14\x0C\x0D\x0C\x11\x0D\x1C\x0C\x0F\x13\x13\x0C\x0D\x2E\x30\x0F\x11\x16\x10\x0C\x14\x2D",//Délai avant mise en veille <Minutes> 
+  /* ShutdownTimeout           */ "\x1F\x19\x13\x0E\x0F\x0D\x0E\x1C\x0E\x11\x10\x0D\x0C\x3B\x10\x0F\x11\x1A\x10\x0F\x15\x11\x0D\x2E\x30\x0F\x11\x16\x10\x0C\x14\x2D",//Délai avant extinction <Minutes> 
+  /* MotionSensitivity         */ "\x26\x0C\x11\x14\x0F\x27\x0F\x13\x0F\x10\x19\x0D\x17\x16\x0D\x1A\x0E\x1B\x10\x0C\x16\x12\x0D\x17\x0C\x0D\x18\x15\x16\x1C\x0C\x18\x0C\x11\x10\x0D\x2E\x02\x24\x42\x11\x0E\x1A\x10\x0F\x1E\x0D\x03\x24\x21\x0C\x16\x0D\x14\x0C\x11\x14\x0F\x27\x13\x0C\x0D\x0B\x24\x23\x12\x0C\x14\x0D\x14\x0C\x11\x14\x0F\x27\x13\x0C\x2D",//Sensibilité du capteur de mouvement <0=Inactif 1=Peu sensible 9=Tres sensible> 
   /* TemperatureUnit           */ "\x3D\x11\x0F\x10\x19\x0D\x17\x0C\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x2E\x1D\x24\x1D\x0C\x13\x14\x0F\x16\x14\x0D\x3F\x24\x3F\x0E\x2B\x12\x0C\x11\x2B\x0C\x0F\x10\x2D",//Unité de température <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x22\x1E\x1E\x0F\x1A\x2B\x0C\x12\x0D\x17\x0C\x14\x0D\x0F\x11\x1E\x15\x12\x18\x0E\x10\x0F\x15\x11\x14\x0D\x17\x19\x10\x0E\x0F\x13\x13\x19\x0C\x14\x0D\x13\x15\x12\x14\x0D\x17\x0C\x0D\x13\x0E\x0D\x1C\x0C\x0F\x13\x13\x0C\x26",//Afficher des informations détaillées lors de la veille. 
-  /* DisplayRotation           */ "\x33\x12\x0F\x0C\x11\x10\x0E\x10\x0F\x15\x11\x0D\x17\x0C\x0D\x13\x20\x0E\x1E\x1E\x0F\x1A\x2B\x0E\x2A\x0C\x0D\x2E\x22\x24\x22\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C\x0D\x3E\x24\x3E\x0E\x16\x1A\x2B\x0C\x12\x0D\x1F\x24\x1F\x12\x15\x0F\x10\x0F\x0C\x12\x2D",//Orientation de l'affichage <A=Automatique G=Gaucher D=Droitier> 
-  /* BoostEnabled              */ "\x22\x1A\x10\x0F\x1C\x0C\x12\x0D\x13\x0C\x0D\x18\x15\x17\x0C\x0D\x43\x29\x15\x15\x14\x10\x43\x0D\x0C\x11\x0D\x18\x0E\x0F\x11\x10\x0C\x11\x0E\x11\x10\x0D\x13\x0C\x0D\x27\x15\x16\x10\x15\x11\x0D\x17\x0C\x0D\x17\x0C\x1C\x0E\x11\x10\x0D\x1B\x0C\x11\x17\x0E\x11\x10\x0D\x13\x0E\x0D\x14\x15\x16\x17\x16\x12\x0C",//Activer le mode "Boost" en maintenant le bouton de devant pendant la soudure 
-  /* BoostTemperature          */ "\x23\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x17\x16\x0D\x18\x15\x17\x0C\x0D\x43\x29\x15\x15\x14\x10\x43",//Température du mode "Boost" 
-  /* AutoStart                 */ "\x1F\x19\x18\x0E\x12\x12\x0C\x12\x0D\x0E\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C\x18\x0C\x11\x10\x0D\x13\x0E\x0D\x14\x15\x16\x17\x16\x12\x0C\x0D\x0E\x0D\x13\x20\x0E\x13\x13\x16\x18\x0E\x2A\x0C\x0D\x2E\x22\x24\x22\x1A\x10\x0F\x1C\x19\x45\x0D\x28\x24\x2F\x15\x17\x0C\x0D\x28\x0C\x0F\x13\x13\x0C\x45\x0D\x1F\x24\x1F\x19\x14\x0E\x1A\x10\x0F\x1C\x19\x2D",//Démarrer automatiquement la soudure a l'allumage <A=Activé, V=Mode Veille, D=Désactivé> 
-  /* CooldownBlink             */ "\x3F\x0E\x0F\x12\x0C\x0D\x1A\x13\x0F\x2A\x11\x15\x10\x0C\x12\x0D\x13\x0E\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x13\x15\x12\x14\x0D\x17\x16\x0D\x12\x0C\x1E\x12\x15\x0F\x17\x0F\x14\x14\x0C\x18\x0C\x11\x10\x0D\x10\x0E\x11\x10\x0D\x36\x16\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C\x0D\x0C\x14\x10\x0D\x1A\x2B\x0E\x16\x17\x0C\x26",//Faire clignoter la température lors du refroidissement tant que la panne est chaude. 
-  /* TemperatureCalibration    */ "\x32\x10\x0E\x13\x15\x11\x11\x0C\x12\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x17\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C\x26",//Étalonner température de la panne. 
-  /* SettingsReset             */ "\x2C\x19\x0F\x11\x0F\x10\x0F\x0E\x13\x0F\x14\x0C\x12\x0D\x10\x15\x16\x14\x0D\x13\x0C\x14\x0D\x12\x19\x2A\x13\x0E\x2A\x0C\x14",//Réinitialiser tous les réglages 
-  /* VoltageCalibration        */ "\x32\x10\x0E\x13\x15\x11\x11\x0C\x12\x0D\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C\x26\x0D\x29\x15\x16\x10\x15\x11\x14\x0D\x1B\x15\x16\x12\x0D\x0E\x47\x16\x14\x10\x0C\x12\x45\x0D\x0E\x1B\x1B\x16\x0F\x0D\x13\x15\x11\x2A\x0D\x1B\x15\x16\x12\x0D\x36\x16\x0F\x10\x10\x0C\x12",//Étalonner tension d'entrée. Boutons pour ajuster, appui long pour quitter 
+  /* AdvancedIdle              */ "\x22\x1E\x1E\x0F\x1A\x2B\x0C\x12\x0D\x17\x0C\x14\x0D\x0F\x11\x1E\x15\x12\x18\x0E\x10\x0F\x15\x11\x14\x0D\x17\x19\x10\x0E\x0F\x13\x13\x19\x0C\x14\x0D\x13\x15\x12\x14\x0D\x17\x0C\x0D\x13\x0E\x0D\x1C\x0C\x0F\x13\x13\x0C\x25",//Afficher des informations détaillées lors de la veille. 
+  /* DisplayRotation           */ "\x2F\x12\x0F\x0C\x11\x10\x0E\x10\x0F\x15\x11\x0D\x17\x0C\x0D\x13\x20\x0E\x1E\x1E\x0F\x1A\x2B\x0E\x29\x0C\x0D\x2E\x22\x24\x22\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C\x0D\x3E\x24\x3E\x0E\x16\x1A\x2B\x0C\x12\x0D\x1F\x24\x1F\x12\x15\x0F\x10\x0F\x0C\x12\x2D",//Orientation de l'affichage <A=Automatique G=Gaucher D=Droitier> 
+  /* BoostEnabled              */ "\x22\x1A\x10\x0F\x1C\x0C\x12\x0D\x13\x0C\x0D\x18\x15\x17\x0C\x0D\x43\x28\x15\x15\x14\x10\x43\x0D\x0C\x11\x0D\x18\x0E\x0F\x11\x10\x0C\x11\x0E\x11\x10\x0D\x13\x0C\x0D\x27\x15\x16\x10\x15\x11\x0D\x17\x0C\x0D\x17\x0C\x1C\x0E\x11\x10\x0D\x1B\x0C\x11\x17\x0E\x11\x10\x0D\x13\x0E\x0D\x14\x15\x16\x17\x16\x12\x0C",//Activer le mode "Boost" en maintenant le bouton de devant pendant la soudure 
+  /* BoostTemperature          */ "\x23\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x17\x16\x0D\x18\x15\x17\x0C\x0D\x43\x28\x15\x15\x14\x10\x43",//Température du mode "Boost" 
+  /* AutoStart                 */ "\x1F\x19\x18\x0E\x12\x12\x0C\x12\x0D\x0E\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C\x18\x0C\x11\x10\x0D\x13\x0E\x0D\x14\x15\x16\x17\x16\x12\x0C\x0D\x0E\x0D\x13\x20\x0E\x13\x13\x16\x18\x0E\x29\x0C\x0D\x2E\x22\x24\x22\x1A\x10\x0F\x1C\x19\x45\x0D\x2A\x24\x30\x15\x17\x0C\x0D\x2A\x0C\x0F\x13\x13\x0C\x45\x0D\x1F\x24\x1F\x19\x14\x0E\x1A\x10\x0F\x1C\x19\x2D",//Démarrer automatiquement la soudure a l'allumage <A=Activé, V=Mode Veille, D=Désactivé> 
+  /* CooldownBlink             */ "\x3F\x0E\x0F\x12\x0C\x0D\x1A\x13\x0F\x29\x11\x15\x10\x0C\x12\x0D\x13\x0E\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x13\x15\x12\x14\x0D\x17\x16\x0D\x12\x0C\x1E\x12\x15\x0F\x17\x0F\x14\x14\x0C\x18\x0C\x11\x10\x0D\x10\x0E\x11\x10\x0D\x36\x16\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C\x0D\x0C\x14\x10\x0D\x1A\x2B\x0E\x16\x17\x0C\x25",//Faire clignoter la température lors du refroidissement tant que la panne est chaude. 
+  /* TemperatureCalibration    */ "\x33\x10\x0E\x13\x15\x11\x11\x0C\x12\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x17\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C\x25",//Étalonner température de la panne. 
+  /* SettingsReset             */ "\x2C\x19\x0F\x11\x0F\x10\x0F\x0E\x13\x0F\x14\x0C\x12\x0D\x10\x15\x16\x14\x0D\x13\x0C\x14\x0D\x12\x19\x29\x13\x0E\x29\x0C\x14",//Réinitialiser tous les réglages 
+  /* VoltageCalibration        */ "\x33\x10\x0E\x13\x15\x11\x11\x0C\x12\x0D\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C\x25\x0D\x28\x15\x16\x10\x15\x11\x14\x0D\x1B\x15\x16\x12\x0D\x0E\x47\x16\x14\x10\x0C\x12\x45\x0D\x0E\x1B\x1B\x16\x0F\x0D\x13\x15\x11\x29\x0D\x1B\x15\x16\x12\x0D\x36\x16\x0F\x10\x10\x0C\x12",//Étalonner tension d'entrée. Boutons pour ajuster, appui long pour quitter 
   /* AdvancedSoldering         */ "\x22\x1E\x1E\x0F\x1A\x2B\x0C\x12\x0D\x17\x0C\x14\x0D\x0F\x11\x1E\x15\x12\x18\x0E\x10\x0F\x15\x11\x14\x0D\x17\x19\x10\x0E\x0F\x13\x13\x19\x0C\x14\x0D\x1B\x0C\x11\x17\x0E\x11\x10\x0D\x13\x0E\x0D\x14\x15\x16\x17\x16\x12\x0C",//Afficher des informations détaillées pendant la soudure 
-  /* ScrollingSpeed            */ "\x28\x0F\x10\x0C\x14\x14\x0C\x0D\x17\x0C\x0D\x17\x19\x1E\x0F\x13\x0C\x18\x0C\x11\x10\x0D\x17\x0C\x0D\x1A\x0C\x0D\x10\x0C\x3B\x10\x0C\x0D\x0C\x11\x0D\x2E\x2C\x24\x2C\x0E\x1B\x0F\x17\x0C\x0D\x37\x24\x37\x0C\x11\x10\x2D",//Vitesse de défilement de ce texte en <R=Rapide L=Lent> 
-  /* TipModel                  */ "\x25\x19\x13\x0C\x1A\x10\x0F\x15\x11\x0D\x17\x16\x0D\x18\x15\x17\x31\x13\x0C\x0D\x17\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C",//Sélection du modèle de la panne 
+  /* ScrollingSpeed            */ "\x2A\x0F\x10\x0C\x14\x14\x0C\x0D\x17\x0C\x0D\x17\x19\x1E\x0F\x13\x0C\x18\x0C\x11\x10\x0D\x17\x0C\x0D\x1A\x0C\x0D\x10\x0C\x3B\x10\x0C\x0D\x0C\x11\x0D\x2E\x2C\x24\x2C\x0E\x1B\x0F\x17\x0C\x0D\x37\x24\x37\x0C\x11\x10\x2D",//Vitesse de défilement de ce texte en <R=Rapide L=Lent> 
+  /* TipModel                  */ "\x26\x19\x13\x0C\x1A\x10\x0F\x15\x11\x0D\x17\x16\x0D\x18\x15\x17\x32\x13\x0C\x0D\x17\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C",//Sélection du modèle de la panne 
   /* SimpleCalibrationMode     */ "\x1D\x0E\x13\x0F\x27\x12\x0E\x10\x0F\x15\x11\x0D\x14\x0F\x18\x1B\x13\x0C\x0D\x44\x0D\x13\x20\x0E\x0F\x17\x0C\x0D\x17\x20\x0C\x0E\x16\x0D\x1A\x2B\x0E\x16\x17\x0C",//Calibration simple à l'aide d'eau chaude 
   /* AdvancedCalibrationMode   */ "\x1D\x0E\x13\x0F\x27\x12\x0E\x10\x0F\x15\x11\x0D\x0E\x1C\x0E\x11\x1A\x19\x0C\x14\x0D\x44\x0D\x13\x20\x0E\x0F\x17\x0C\x0D\x17\x20\x16\x11\x0D\x10\x2B\x0C\x12\x18\x15\x1A\x15\x16\x1B\x13\x0C\x0D\x14\x16\x12\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C",//Calibration avancées à l'aide d'un thermocouple sur la panne 
   /* PowerInput                */ "\x21\x16\x0F\x14\x14\x0E\x11\x1A\x0C\x0D\x17\x0C\x0D\x13\x20\x0E\x13\x0F\x18\x0C\x11\x10\x0E\x10\x0F\x15\x11\x0D\x16\x10\x0F\x13\x0F\x14\x19\x0C",//Puissance de l'alimentation utilisée 
   /* PowerLimitEnable          */ "\x35\x11\x0E\x27\x13\x0C\x0D\x1B\x15\x41\x0C\x12\x0D\x13\x0F\x18\x0F\x10",//Enable power limit 
-  /* PowerLimit                */ "\x2F\x0E\x3B\x0F\x18\x16\x18\x0D\x1B\x15\x41\x0C\x12\x0D\x10\x2B\x0C\x0D\x0F\x12\x15\x11\x0D\x1A\x0E\x11\x0D\x16\x14\x0C\x0D\x2E\x3C\x0E\x10\x10\x14\x2D",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x30\x0E\x3B\x0F\x18\x16\x18\x0D\x1B\x15\x41\x0C\x12\x0D\x10\x2B\x0C\x0D\x0F\x12\x15\x11\x0D\x1A\x0E\x11\x0D\x16\x14\x0C\x0D\x2E\x3C\x0E\x10\x10\x14\x2D",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x1D\x0E\x13\x0F\x27\x12\x0E\x10\x0F\x15\x11\x0D\x0C\x1E\x1E\x0C\x1A\x10\x16\x19\x0C\x40";//Calibration effectuée! 
 const char* SettingsCalibrationWarning = "\x22\x14\x14\x16\x12\x0C\x3A\x39\x1C\x15\x16\x14\x0D\x36\x16\x0C\x0D\x13\x0E\x0D\x1B\x0E\x11\x11\x0C\x0D\x14\x15\x0F\x10\x0D\x44\x0D\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C\x0D\x0E\x18\x27\x0F\x0E\x11\x10\x0C\x0D\x0E\x1C\x0E\x11\x10\x0D\x17\x0C\x0D\x1A\x15\x11\x10\x0F\x11\x16\x0C\x12\x40";//Assurez-vous que la panne soit à température ambiante avant de continuer! 
-const char* SettingsResetWarning = "\x28\x15\x16\x13\x0C\x3A\x39\x1C\x15\x16\x14\x0D\x1C\x12\x0E\x0F\x18\x0C\x11\x10\x0D\x12\x19\x0F\x11\x0F\x10\x0F\x0E\x13\x0F\x14\x0C\x12\x0D\x13\x0C\x14\x0D\x1B\x0E\x12\x0E\x18\x31\x10\x12\x0C\x14\x0D\x0E\x16\x3B\x0D\x1C\x0E\x13\x0C\x16\x12\x14\x0D\x17\x20\x16\x14\x0F\x11\x0C\x4B";//Voulez-vous vraiment réinitialiser les paramètres aux valeurs d'usine? 
-const char* UVLOWarningString = "\x1F\x1D\x0D\x3F\x22\x42\x29\x37";//DC FAIBL 
-const char* UndervoltageString = "\x25\x15\x16\x14\x39\x10\x0C\x11\x14\x0F\x15\x11";//Sous-tension 
-const char* InputVoltageString = "\x28\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C\x38";//V d'entrée: 
-const char* WarningTipTempString = "\x23\x0C\x18\x1B\x26\x0D\x21\x0E\x11\x11\x0C\x38";//Temp. Panne: 
-const char* BadTipString = "\x21\x22\x34\x34\x35\x0D\x30\x25";//PANNE HS 
+const char* SettingsResetWarning = "\x2A\x15\x16\x13\x0C\x3A\x39\x1C\x15\x16\x14\x0D\x1C\x12\x0E\x0F\x18\x0C\x11\x10\x0D\x12\x19\x0F\x11\x0F\x10\x0F\x0E\x13\x0F\x14\x0C\x12\x0D\x13\x0C\x14\x0D\x1B\x0E\x12\x0E\x18\x32\x10\x12\x0C\x14\x0D\x0E\x16\x3B\x0D\x1C\x0E\x13\x0C\x16\x12\x14\x0D\x17\x20\x16\x14\x0F\x11\x0C\x4B";//Voulez-vous vraiment réinitialiser les paramètres aux valeurs d'usine? 
+const char* UVLOWarningString = "\x1F\x1D\x0D\x3F\x22\x42\x28\x37";//DC FAIBL 
+const char* UndervoltageString = "\x26\x15\x16\x14\x39\x10\x0C\x11\x14\x0F\x15\x11";//Sous-tension 
+const char* InputVoltageString = "\x2A\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C\x38";//V d'entrée: 
+const char* WarningTipTempString = "\x23\x0C\x18\x1B\x25\x0D\x21\x0E\x11\x11\x0C\x38";//Temp. Panne: 
+const char* BadTipString = "\x21\x22\x34\x34\x35\x0D\x31\x26";//PANNE HS 
 const char* SleepingSimpleString = "\x48\x3A\x3A\x3A";//Zzzz 
-const char* SleepingAdvancedString = "\x35\x11\x0D\x1C\x0C\x0F\x13\x13\x0C\x26\x26\x26";//En veille... 
-const char* WarningSimpleString = "\x30\x33\x23\x40";//HOT! 
-const char* WarningAdvancedString = "\x22\x23\x23\x35\x34\x23\x42\x33\x34\x40\x0D\x1D\x30\x22\x3D\x1F";//ATTENTION! CHAUD 
+const char* SleepingAdvancedString = "\x35\x11\x0D\x1C\x0C\x0F\x13\x13\x0C\x25\x25\x25";//En veille... 
+const char* WarningSimpleString = "\x31\x2F\x23\x40";//HOT! 
+const char* WarningAdvancedString = "\x22\x23\x23\x35\x34\x23\x42\x2F\x34\x40\x0D\x1D\x31\x22\x3D\x1F";//ATTENTION! CHAUD 
 const char* SleepingTipAdvancedString = "\x21\x0E\x11\x11\x0C\x38";//Panne: 
 const char* IdleTipString = "\x23\x0F\x1B\x38";//Tip: 
-const char* IdleSetString = "\x0D\x25\x0C\x10\x38";// Set: 
-const char* TipDisconnectedString = "\x21\x22\x34\x34\x35\x0D\x1F\x32\x29\x2C\x22\x34\x1D\x30\x32\x35";//PANNE DÉBRANCHÉE 
+const char* IdleSetString = "\x0D\x26\x0C\x10\x38";// Set: 
+const char* TipDisconnectedString = "\x21\x22\x34\x34\x35\x0D\x1F\x33\x28\x2C\x22\x34\x1D\x31\x33\x35";//PANNE DÉBRANCHÉE 
 const char* SolderingAdvancedPowerPrompt = "\x21\x16\x0F\x14\x14\x0E\x11\x1A\x0C\x38\x0D";//Puissance:  
-const char* OffString = "\x33\x1E\x1E";//Off 
-const char* ResetOKMessage = "\x2C\x0C\x14\x0C\x10\x0D\x33\x4A";//Reset OK 
+const char* OffString = "\x2F\x1E\x1E";//Off 
+const char* ResetOKMessage = "\x2C\x0C\x14\x0C\x10\x0D\x2F\x4A";//Reset OK 
 const char* YourGainMessage = "\x49\x15\x16\x12\x0D\x3E\x0E\x0F\x11";//Your Gain 
-const char* SettingsResetMessage = "\x25\x0C\x10\x10\x0F\x11\x2A\x14\x0D\x41\x0C\x12\x0C\x01\x12\x0C\x14\x0C\x10\x40";//Settings were_reset! 
+const char* SettingsResetMessage = "\x26\x0C\x10\x10\x0F\x11\x29\x14\x0D\x41\x0C\x12\x0C\x01\x12\x0C\x14\x0C\x10\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x1F";//D 
 const char* SettingLeftChar = "\x3E";//G 
@@ -2457,75 +2464,76 @@ const char* SettingAutoChar = "\x22";//A
 const char* SettingFastChar = "\x2C";//R 
 const char* SettingSlowChar = "\x37";//L 
 const char* SettingStartSolderingChar = "\x22";//A 
-const char* SettingStartSleepChar = "\x28";//V 
+const char* SettingStartSleepChar = "\x2A";//V 
+const char* SettingStartSleepOffChar = "\x2F";//O 
 const char* SettingStartNoneChar = "\x1F";//D 
 
 const char* SymbolPlus = "\x4C";//+ 
 const char* SymbolMinus = "\x39";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x26";//. 
+const char* SymbolDot = "\x25";//. 
 const char* SymbolDegC = "\x1D";//C 
 const char* SymbolDegF = "\x3F";//F 
-const char* SymbolMinutes = "\x2F";//M 
-const char* SymbolSeconds = "\x25";//S 
+const char* SymbolMinutes = "\x30";//M 
+const char* SymbolSeconds = "\x26";//S 
 const char* SymbolWatts = "\x3C";//W 
-const char* SymbolVolts = "\x28";//V 
+const char* SymbolVolts = "\x2A";//V 
 const char* SymbolDC = "\x1F\x1D";//DC 
-const char* SymbolCellCount = "\x25";//S 
-const char* SymbolVersionNumber = "\x28\x04\x26\x02\x0A";//V2.08 
+const char* SymbolCellCount = "\x26";//S 
+const char* SymbolVersionNumber = "\x1C\x04\x25\x02\x0A\x25\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x29\x02\x04",//B02 
+	 "\x28\x02\x04",//B02 
 	 "\x1F\x04\x06",//D24 
-	 "\x29\x1D\x04",//BC2 
+	 "\x28\x1D\x04",//BC2 
 	 "\x0D\x1D\x03",// C1 
-	 "\x23\x25\x03\x02\x02",//TS100 
-	 "\x29\x1D\x04",//BC2 
-	 "\x30\x0E\x46\x46\x15",//Hakko 
+	 "\x23\x26\x03\x02\x02",//TS100 
+	 "\x28\x1D\x04",//BC2 
+	 "\x31\x0E\x46\x46\x15",//Hakko 
 	 "\x3D\x14\x0C\x12",//User 
 #else
-	 "\x29\x02\x04",//B02 
+	 "\x28\x02\x04",//B02 
 	 "\x1F\x04\x07",//D25 
-	 "\x23\x25\x0A\x02",//TS80 
+	 "\x23\x26\x0A\x02",//TS80 
 	 "\x3D\x14\x0C\x12",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x39\x02\x03\x39\x04\x02",//18-01-20 
-	 "\x30\x3C\x0D\x3E\x0D",//HW G  
-	 "\x30\x3C\x0D\x2F\x0D",//HW M  
-	 "\x30\x3C\x0D\x21\x0D",//HW P  
+	 "\x03\x06\x39\x02\x05\x39\x04\x02",//14-03-20 
+	 "\x31\x3C\x0D\x3E\x0D",//HW G  
+	 "\x31\x3C\x0D\x30\x0D",//HW M  
+	 "\x31\x3C\x0D\x21\x0D",//HW P  
 	 "\x23\x0F\x18\x0C\x0D",//Time  
-	 "\x2F\x15\x1C\x0C\x0D",//Move  
+	 "\x30\x15\x1C\x0C\x0D",//Move  
 	 "\x2C\x23\x0F\x1B\x0D",//RTip  
 	 "\x1D\x23\x0F\x1B\x0D",//CTip  
-	 "\x1D\x30\x0E\x11\x0D",//CHan  
-	 "\x28\x0F\x11\x0D\x0D",//Vin   
-	 "\x21\x1D\x29\x0D\x0D",//PCB   
+	 "\x1D\x31\x0E\x11\x0D",//CHan  
+	 "\x2A\x0F\x11\x0D\x0D",//Vin   
+	 "\x21\x1D\x28\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x25\x15\x16\x12\x1A\x0C", "\x17\x20\x0E\x13\x0F\x18" },//['Source', "d'alim"] 
-  /* SleepTemperature          */ { "\x23\x0C\x18\x1B\x26", "\x1C\x0C\x0F\x13\x13\x0C" },//['Temp.', 'veille'] 
+  /* PowerSource               */ { "\x26\x15\x16\x12\x1A\x0C", "\x17\x20\x0E\x13\x0F\x18" },//['Source', "d'alim"] 
+  /* SleepTemperature          */ { "\x23\x0C\x18\x1B\x25", "\x1C\x0C\x0F\x13\x13\x0C" },//['Temp.', 'veille'] 
   /* SleepTimeout              */ { "\x1F\x19\x13\x0E\x0F", "\x1C\x0C\x0F\x13\x13\x0C" },//['Délai', 'veille'] 
   /* ShutdownTimeout           */ { "\x1F\x19\x13\x0E\x0F", "\x0C\x3B\x10\x0F\x11\x1A\x10\x0F\x15\x11" },//['Délai', 'extinction'] 
-  /* MotionSensitivity         */ { "\x25\x0C\x11\x14\x0F\x27\x0F\x13\x0F\x10\x19", "\x0E\x16\x0D\x18\x15\x16\x1C\x0C\x18\x0C\x11\x10" },//['Sensibilité', 'au mouvement'] 
+  /* MotionSensitivity         */ { "\x26\x0C\x11\x14\x0F\x27\x0F\x13\x0F\x10\x19", "\x0E\x16\x0D\x18\x15\x16\x1C\x0C\x18\x0C\x11\x10" },//['Sensibilité', 'au mouvement'] 
   /* TemperatureUnit           */ { "\x3D\x11\x0F\x10\x19\x0D\x17\x0C", "\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C" },//['Unité de', 'température'] 
-  /* AdvancedIdle              */ { "\x32\x1A\x12\x0E\x11\x0D\x1C\x0C\x0F\x13\x13\x0C", "\x17\x19\x10\x0E\x0F\x13\x13\x19" },//['Écran veille', 'détaillé'] 
-  /* DisplayRotation           */ { "\x33\x12\x0F\x0C\x11\x10\x0E\x10\x0F\x15\x11", "\x17\x0C\x0D\x13\x20\x19\x1A\x12\x0E\x11" },//['Orientation', "de l'écran"] 
-  /* BoostEnabled              */ { "\x22\x1A\x10\x0F\x1C\x0E\x10\x0F\x15\x11\x0D\x17\x16", "\x18\x15\x17\x0C\x0D\x29\x15\x15\x14\x10" },//['Activation du', 'mode Boost'] 
-  /* BoostTemperature          */ { "\x23\x0C\x18\x1B\x26", "\x29\x15\x15\x14\x10" },//['Temp.', 'Boost'] 
-  /* AutoStart                 */ { "\x1F\x19\x18\x0E\x12\x12\x0E\x2A\x0C", "\x0E\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C" },//['Démarrage', 'automatique'] 
-  /* CooldownBlink             */ { "\x2C\x0C\x1E\x12\x15\x0F\x17\x0F\x12\x0D\x0C\x11", "\x1A\x13\x0F\x2A\x11\x15\x10\x0E\x11\x10" },//['Refroidir en', 'clignotant'] 
-  /* TemperatureCalibration    */ { "\x32\x10\x0E\x13\x15\x11\x11\x0C\x12", "\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C" },//['Étalonner', 'température'] 
+  /* AdvancedIdle              */ { "\x33\x1A\x12\x0E\x11\x0D\x1C\x0C\x0F\x13\x13\x0C", "\x17\x19\x10\x0E\x0F\x13\x13\x19" },//['Écran veille', 'détaillé'] 
+  /* DisplayRotation           */ { "\x2F\x12\x0F\x0C\x11\x10\x0E\x10\x0F\x15\x11", "\x17\x0C\x0D\x13\x20\x19\x1A\x12\x0E\x11" },//['Orientation', "de l'écran"] 
+  /* BoostEnabled              */ { "\x22\x1A\x10\x0F\x1C\x0E\x10\x0F\x15\x11\x0D\x17\x16", "\x18\x15\x17\x0C\x0D\x28\x15\x15\x14\x10" },//['Activation du', 'mode Boost'] 
+  /* BoostTemperature          */ { "\x23\x0C\x18\x1B\x25", "\x28\x15\x15\x14\x10" },//['Temp.', 'Boost'] 
+  /* AutoStart                 */ { "\x1F\x19\x18\x0E\x12\x12\x0E\x29\x0C", "\x0E\x16\x10\x15\x18\x0E\x10\x0F\x36\x16\x0C" },//['Démarrage', 'automatique'] 
+  /* CooldownBlink             */ { "\x2C\x0C\x1E\x12\x15\x0F\x17\x0F\x12\x0D\x0C\x11", "\x1A\x13\x0F\x29\x11\x15\x10\x0E\x11\x10" },//['Refroidir en', 'clignotant'] 
+  /* TemperatureCalibration    */ { "\x33\x10\x0E\x13\x15\x11\x11\x0C\x12", "\x10\x0C\x18\x1B\x19\x12\x0E\x10\x16\x12\x0C" },//['Étalonner', 'température'] 
   /* SettingsReset             */ { "\x2C\x19\x0F\x11\x0F\x10\x0F\x0E\x13\x0F\x14\x0E\x10\x0F\x15\x11", "\x17\x20\x16\x14\x0F\x11\x0C" },//['Réinitialisation', "d'usine"] 
-  /* VoltageCalibration        */ { "\x32\x10\x0E\x13\x15\x11\x11\x0C\x12", "\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C" },//['Étalonner', "tension d'entrée"] 
-  /* AdvancedSoldering         */ { "\x32\x1A\x12\x0E\x11\x0D\x14\x15\x16\x17\x16\x12\x0C", "\x17\x19\x10\x0E\x0F\x13\x13\x19" },//['Écran soudure', 'détaillé'] 
-  /* ScrollingSpeed            */ { "\x28\x0F\x10\x0C\x14\x14\x0C\x0D\x17\x0C", "\x17\x19\x1E\x0F\x13\x0C\x18\x0C\x11\x10" },//['Vitesse de', 'défilement'] 
-  /* TipModel                  */ { "\x21\x0E\x11\x11\x0C", "\x2F\x15\x17\x31\x13\x0C" },//['Panne', 'Modèle'] 
+  /* VoltageCalibration        */ { "\x33\x10\x0E\x13\x15\x11\x11\x0C\x12", "\x10\x0C\x11\x14\x0F\x15\x11\x0D\x17\x20\x0C\x11\x10\x12\x19\x0C" },//['Étalonner', "tension d'entrée"] 
+  /* AdvancedSoldering         */ { "\x33\x1A\x12\x0E\x11\x0D\x14\x15\x16\x17\x16\x12\x0C", "\x17\x19\x10\x0E\x0F\x13\x13\x19" },//['Écran soudure', 'détaillé'] 
+  /* ScrollingSpeed            */ { "\x2A\x0F\x10\x0C\x14\x14\x0C\x0D\x17\x0C", "\x17\x19\x1E\x0F\x13\x0C\x18\x0C\x11\x10" },//['Vitesse de', 'défilement'] 
+  /* TipModel                  */ { "\x21\x0E\x11\x11\x0C", "\x30\x15\x17\x32\x13\x0C" },//['Panne', 'Modèle'] 
   /* SimpleCalibrationMode     */ { "\x1D\x0E\x13\x0F\x27\x12\x0E\x10\x0F\x15\x11", "\x14\x0F\x18\x1B\x13\x0C" },//['Calibration', 'simple'] 
   /* AdvancedCalibrationMode   */ { "\x1D\x0E\x13\x0F\x27\x12\x0E\x10\x0F\x15\x11", "\x0E\x1C\x0E\x11\x1A\x19\x0C\x14" },//['Calibration', 'avancées'] 
   /* PowerInput                */ { "\x21\x16\x0F\x14\x14\x0E\x11\x1A\x0C\x0D\x17\x0C", "\x13\x20\x0E\x13\x0F\x18\x0C\x11\x10\x0E\x10\x0F\x15\x11" },//['Puissance de', "l'alimentation"] 
@@ -2534,17 +2542,17 @@ const char* SettingsShortNames[][2] = {
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x21\x0E\x12\x0E\x18\x31\x10\x12\x0C\x14\x01\x17\x0C\x0D\x14\x15\x16\x17\x16\x12\x0C",//['Paramètres', 'de soudure'] 
-  /* PowerSavingMenu           */ "\x2F\x15\x17\x0C\x01\x1C\x0C\x0F\x13\x13\x0C",//['Mode', 'veille'] 
+  /* SolderingMenu             */ "\x21\x0E\x12\x0E\x18\x32\x10\x12\x0C\x14\x01\x17\x0C\x0D\x14\x15\x16\x17\x16\x12\x0C",//['Paramètres', 'de soudure'] 
+  /* PowerSavingMenu           */ "\x30\x15\x17\x0C\x01\x1C\x0C\x0F\x13\x13\x0C",//['Mode', 'veille'] 
   /* UIMenu                    */ "\x42\x11\x10\x0C\x12\x1E\x0E\x1A\x0C\x01\x16\x10\x0F\x13\x0F\x14\x0E\x10\x0C\x16\x12",//['Interface', 'utilisateur'] 
-  /* AdvancedMenu              */ "\x33\x1B\x10\x0F\x15\x11\x14\x01\x0E\x1C\x0E\x11\x1A\x19\x0C\x14",//['Options', 'avancées'] 
+  /* AdvancedMenu              */ "\x2F\x1B\x10\x0F\x15\x11\x14\x01\x0E\x1C\x0E\x11\x1A\x19\x0C\x14",//['Options', 'avancées'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x21\x0E\x12\x0E\x18\x31\x10\x12\x0C\x14\x0D\x17\x0C\x0D\x14\x15\x16\x17\x16\x12\x0C",//Paramètres de soudure 
-  /* PowerSavingMenu           */ "\x21\x0E\x12\x0E\x18\x31\x10\x12\x0C\x14\x0D\x17\x20\x19\x1A\x15\x11\x15\x18\x0F\x0C\x0D\x17\x20\x19\x11\x0C\x12\x2A\x0F\x0C",//Paramètres d'économie d'énergie 
-  /* UIMenu                    */ "\x21\x0E\x12\x0E\x18\x31\x10\x12\x0C\x14\x0D\x17\x0C\x0D\x13\x20\x0F\x11\x10\x0C\x12\x1E\x0E\x1A\x0C\x0D\x16\x10\x0F\x13\x0F\x14\x0E\x10\x0C\x16\x12",//Paramètres de l'interface utilisateur 
-  /* AdvancedMenu              */ "\x33\x1B\x10\x0F\x15\x11\x14\x0D\x0E\x1C\x0E\x11\x1A\x19\x0C\x14",//Options avancées 
+  /* SolderingMenu             */ "\x21\x0E\x12\x0E\x18\x32\x10\x12\x0C\x14\x0D\x17\x0C\x0D\x14\x15\x16\x17\x16\x12\x0C",//Paramètres de soudure 
+  /* PowerSavingMenu           */ "\x21\x0E\x12\x0E\x18\x32\x10\x12\x0C\x14\x0D\x17\x20\x19\x1A\x15\x11\x15\x18\x0F\x0C\x0D\x17\x20\x19\x11\x0C\x12\x29\x0F\x0C",//Paramètres d'économie d'énergie 
+  /* UIMenu                    */ "\x21\x0E\x12\x0E\x18\x32\x10\x12\x0C\x14\x0D\x17\x0C\x0D\x13\x20\x0F\x11\x10\x0C\x12\x1E\x0E\x1A\x0C\x0D\x16\x10\x0F\x13\x0F\x14\x0E\x10\x0C\x16\x12",//Paramètres de l'interface utilisateur 
+  /* AdvancedMenu              */ "\x2F\x1B\x10\x0F\x15\x11\x14\x0D\x0E\x1C\x0E\x11\x1A\x19\x0C\x14",//Options avancées 
 };
 
 #endif
@@ -2575,16 +2583,16 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x17 -> m
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x18 -> k
 0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x19 -> s
-0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x1A -> u
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1B -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1A -> v
+0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x1B -> u
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x1C -> d
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1D -> .
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x1E -> g
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1F -> c
 0x00,0x80,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x20 -> č
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x21 -> V
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x22 -> P
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x23 -> h
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x21 -> P
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x22 -> h
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x23 -> V
 0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x24 -> z
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x25 -> b
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x26 -> S
@@ -2592,11 +2600,11 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x28 -> š
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x29 -> T
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2A -> C
-0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x2B -> N
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x2C -> A
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2D -> ,
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2E -> R
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2F -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> O
+0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x2C -> N
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x2D -> A
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2E -> ,
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2F -> R
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x30 -> K
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x31 -> D
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x32 -> >
@@ -2656,16 +2664,16 @@ const uint8_t USER_FONT_6x8[] = {
 0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x17 -> m
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x18 -> k
 0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x19 -> s
-0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x1A -> u
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1B -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1A -> v
+0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x1B -> u
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x1C -> d
 0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1D -> .
 0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x1E -> g
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1F -> c
 0x38, 0x45, 0x46, 0x45, 0x20, 0x00,//\x20 -> č
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x21 -> V
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x22 -> P
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x23 -> h
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x21 -> P
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x22 -> h
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x23 -> V
 0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x24 -> z
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x25 -> b
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x26 -> S
@@ -2673,11 +2681,11 @@ const uint8_t USER_FONT_6x8[] = {
 0x48, 0x55, 0x56, 0x55, 0x24, 0x00,//\x28 -> š
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x29 -> T
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2A -> C
-0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x2B -> N
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x2C -> A
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2D -> ,
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2E -> R
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2F -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2B -> O
+0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x2C -> N
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x2D -> A
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2E -> ,
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2F -> R
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x30 -> K
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x31 -> D
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x32 -> >
@@ -2715,60 +2723,61 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Hrvatski ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3D\x24\x1B\x13\x11\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C\x1D\x0D\x22\x13\x19\x14\x0C\x1B\x15\x12\x0C\x0D\x10\x0C\x16\x13\x10\x0D\x0F\x19\x18\x15\x12\x1A\x20\x0F\x1B\x0C\x10\x12\x0C\x1D\x0D\x34\x31\x2A\x0D\x03\x02\x21\x32\x0D\x34\x26\x0D\x05\x1D\x05\x21\x0D\x16\x13\x0D\x3B\x0E\x15\x0F\x12\x0F\x32",//Izvor napajanja. Postavlja napon isključivanja. <DC 10V> <S 3.3V po ćeliji> 
-  /* SleepTemperature          */ "\x29\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0C\x0D\x10\x0C\x0D\x18\x13\x12\x1A\x0D\x19\x0E\x0D\x19\x16\x1A\x28\x14\x0C\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x13\x1C\x11\x0E\x41\x0E\x10\x13\x1E\x0D\x1B\x11\x0E\x17\x0E\x10\x0C\x0D\x17\x0F\x11\x13\x1B\x0C\x10\x12\x0C\x1D\x0D\x34\x2A\x46\x3E\x32",//Temperatura na koju se spušta lemilica nakon određenog vremena mirovanja. <C/F> 
-  /* SleepTimeout              */ "\x21\x11\x0F\x12\x0E\x17\x0E\x0D\x17\x0F\x11\x13\x1B\x0C\x10\x12\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x18\x13\x12\x0E\x1E\x0C\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x19\x16\x1A\x28\x14\x0C\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x1A\x1D\x0D\x34\x38\x0F\x10\x1A\x14\x0E\x46\x26\x0E\x18\x1A\x10\x1C\x0E\x32",//Vrijeme mirovanja nakon kojega lemilica spušta temperaturu. <Minute/Sekunde> 
-  /* ShutdownTimeout           */ "\x21\x11\x0F\x12\x0E\x17\x0E\x0D\x17\x0F\x11\x13\x1B\x0C\x10\x12\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x18\x13\x12\x0E\x1E\x0C\x0D\x3B\x0E\x0D\x19\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x1A\x1E\x0C\x19\x0F\x14\x0F\x1D\x0D\x34\x38\x0F\x10\x1A\x14\x0E\x32",//Vrijeme mirovanja nakon kojega će se lemilica ugasiti. <Minute> 
-  /* MotionSensitivity         */ "\x2F\x19\x12\x0E\x14\x15\x12\x0F\x1B\x13\x19\x14\x0D\x16\x11\x0E\x16\x13\x24\x10\x0C\x1B\x0C\x10\x12\x0C\x0D\x16\x13\x18\x11\x0E\x14\x0C\x1D\x0D\x34\x02\x33\x36\x1E\x0C\x28\x0E\x10\x13\x2D\x0D\x03\x33\x2B\x0C\x12\x17\x0C\x10\x12\x0E\x0D\x13\x19\x12\x0E\x14\x15\x12\x0F\x1B\x13\x2D\x0D\x0B\x33\x2B\x0C\x12\x13\x19\x12\x0E\x14\x15\x12\x0F\x1B\x0F\x12\x0E\x32",//Osjetljivost prepoznavanja pokreta. <0=Ugašeno, 1=Najmanje osjetljivo, 9=Najosjetljivije> 
-  /* TemperatureUnit           */ "\x37\x0E\x1C\x0F\x10\x0F\x1F\x0C\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0E\x1D\x0D\x34\x2A\x33\x2A\x0E\x15\x24\x0F\x12\x2D\x0D\x3E\x33\x3E\x0C\x23\x11\x0E\x10\x23\x0E\x0F\x14\x32",//Jedinica temperature. <C=Celzij, F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x22\x11\x0F\x18\x0C\x24\x0F\x1B\x0C\x10\x12\x0E\x0D\x1C\x0E\x14\x0C\x15\x12\x10\x0F\x23\x0D\x0F\x10\x43\x13\x11\x17\x0C\x1F\x0F\x12\x0C\x0D\x14\x0F\x12\x0E\x18\x13\x17\x0D\x20\x0E\x18\x0C\x10\x12\x0C\x1D",//Prikazivanje detaljnih informacija tijekom čekanja. 
-  /* DisplayRotation           */ "\x2F\x11\x0F\x12\x0E\x10\x14\x0C\x1F\x0F\x12\x0C\x0D\x0E\x18\x11\x0C\x10\x0C\x1D\x0D\x34\x2C\x33\x2C\x1A\x14\x13\x17\x0C\x14\x19\x18\x0F\x2D\x0D\x3A\x33\x3A\x12\x0E\x1B\x13\x11\x1A\x18\x0F\x2D\x0D\x31\x33\x31\x0E\x19\x10\x13\x11\x1A\x18\x0F\x32",//Orijentacija ekrana. <A=Automatski, L=Ljevoruki, D=Desnoruki> 
-  /* BoostEnabled              */ "\x31\x11\x47\x0C\x10\x12\x0E\x17\x0D\x16\x11\x0E\x1C\x10\x12\x0E\x1E\x0D\x1E\x1A\x17\x25\x0C\x0D\x16\x11\x0F\x15\x0F\x18\x13\x17\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C\x0D\x0C\x18\x14\x0F\x1B\x0F\x11\x0C\x0D\x19\x0E\x0D\x16\x13\x12\x0C\x20\x0C\x10\x0F\x0D\x4B\x27\x13\x13\x19\x14\x4A\x0D\x10\x0C\x20\x0F\x10\x1D",//Držanjem prednjeg gumba prilikom lemljenja aktivira se pojačani (Boost) način. 
-  /* BoostTemperature          */ "\x29\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0C\x0D\x1A\x0D\x16\x13\x12\x0C\x20\x0C\x10\x13\x17\x0D\x4B\x27\x13\x13\x19\x14\x4A\x0D\x10\x0C\x20\x0F\x10\x1A\x1D",//Temperatura u pojačanom (Boost) načinu. 
-  /* AutoStart                 */ "\x2C\x18\x13\x0D\x12\x0E\x0D\x0C\x18\x14\x0F\x1B\x10\x13\x2D\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x16\x13\x0D\x1A\x18\x15\x12\x1A\x20\x0F\x1B\x0C\x10\x12\x1A\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C\x0D\x13\x1C\x17\x0C\x23\x0D\x16\x13\x20\x0F\x10\x12\x0E\x0D\x1E\x11\x0F\x12\x0C\x14\x0F\x1D",//Ako je aktivno, lemilica po uključivanju napajanja odmah počinje grijati. 
-  /* CooldownBlink             */ "\x27\x15\x12\x0E\x19\x18\x0C\x10\x12\x0E\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0E\x0D\x16\x11\x0F\x15\x0F\x18\x13\x17\x0D\x23\x15\x0C\x41\x0E\x10\x12\x0C\x2D\x0D\x0C\x18\x13\x0D\x12\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x1B\x11\x1A\x3B\x0C\x1D",//Bljeskanje temperature prilikom hlađenja, ako je lemilica vruća. 
-  /* TemperatureCalibration    */ "\x30\x0C\x15\x0F\x25\x11\x0F\x11\x0C\x10\x12\x0E\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0E\x0D\x17\x12\x0E\x11\x0F\x0D\x11\x0C\x24\x15\x0F\x18\x1A\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0C\x0D\x1B\x11\x28\x18\x0C\x0D\x0F\x0D\x1C\x11\x28\x18\x0E\x2D\x0D\x1C\x13\x18\x0D\x12\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x23\x15\x0C\x1C\x10\x0C\x1D",//Kalibriranje temperature mjeri razliku temperatura vrška i drške, dok je lemilica hladna. 
-  /* SettingsReset             */ "\x21\x11\x0C\x3B\x0C\x10\x12\x0E\x0D\x19\x1B\x0F\x23\x0D\x16\x13\x19\x14\x0C\x1B\x18\x0F\x0D\x10\x0C\x0D\x14\x1B\x13\x11\x10\x0F\x20\x18\x0E\x0D\x1B\x11\x0F\x12\x0E\x1C\x10\x13\x19\x14\x0F\x1D",//Vraćanje svih postavki na tvorničke vrijednosti. 
-  /* VoltageCalibration        */ "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x1A\x15\x0C\x24\x10\x13\x1E\x0D\x10\x0C\x16\x13\x10\x0C\x1D\x0D\x22\x13\x1C\x0E\x28\x0C\x1B\x0C\x10\x12\x0E\x0D\x1E\x1A\x17\x25\x0F\x17\x0C\x2D\x0D\x1C\x1A\x1E\x0C\x20\x18\x0F\x0D\x16\x11\x0F\x14\x0F\x19\x0C\x18\x0D\x24\x0C\x0D\x18\x11\x0C\x12\x1D",//Kalibracija ulaznog napona. Podešavanje gumbima, dugački pritisak za kraj. 
-  /* AdvancedSoldering         */ "\x22\x11\x0F\x18\x0C\x24\x0F\x1B\x0C\x10\x12\x0E\x0D\x1C\x0E\x14\x0C\x15\x12\x10\x0F\x23\x0D\x0F\x10\x43\x13\x11\x17\x0C\x1F\x0F\x12\x0C\x0D\x14\x0F\x12\x0E\x18\x13\x17\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C\x1D",//Prikazivanje detaljnih informacija tijekom lemljenja. 
-  /* ScrollingSpeed            */ "\x27\x11\x24\x0F\x10\x0C\x0D\x18\x11\x0E\x14\x0C\x10\x12\x0C\x0D\x1C\x1A\x1E\x0C\x20\x18\x0F\x23\x0D\x16\x13\x11\x1A\x18\x0C\x1D\x0D\x34\x27\x33\x25\x11\x24\x13\x2D\x0D\x26\x33\x19\x16\x13\x11\x13\x32",//Brzina kretanja dugačkih poruka. <B=brzo, S=sporo> 
-  /* TipModel                  */ "\x2F\x1C\x0C\x25\x0F\x11\x0D\x17\x13\x1C\x0E\x15\x0C\x0D\x15\x0E\x17\x10\x13\x1E\x0D\x1B\x11\x23\x0C",//Odabir modela lemnog vrha 
-  /* SimpleCalibrationMode     */ "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x18\x0F\x16\x1A\x3B\x13\x17\x0D\x1B\x13\x1C\x13\x17",//Kalibracija kipućom vodom 
+  /* PowerSource               */ "\x3D\x24\x1A\x13\x11\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C\x1D\x0D\x21\x13\x19\x14\x0C\x1A\x15\x12\x0C\x0D\x10\x0C\x16\x13\x10\x0D\x0F\x19\x18\x15\x12\x1B\x20\x0F\x1A\x0C\x10\x12\x0C\x1D\x0D\x34\x31\x2A\x0D\x03\x02\x23\x32\x0D\x34\x26\x0D\x05\x1D\x05\x23\x0D\x16\x13\x0D\x3B\x0E\x15\x0F\x12\x0F\x32",//Izvor napajanja. Postavlja napon isključivanja. <DC 10V> <S 3.3V po ćeliji> 
+  /* SleepTemperature          */ "\x29\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0C\x0D\x10\x0C\x0D\x18\x13\x12\x1B\x0D\x19\x0E\x0D\x19\x16\x1B\x28\x14\x0C\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x13\x1C\x11\x0E\x41\x0E\x10\x13\x1E\x0D\x1A\x11\x0E\x17\x0E\x10\x0C\x0D\x17\x0F\x11\x13\x1A\x0C\x10\x12\x0C\x1D\x0D\x34\x2A\x46\x3E\x32",//Temperatura na koju se spušta lemilica nakon određenog vremena mirovanja. <C/F> 
+  /* SleepTimeout              */ "\x23\x11\x0F\x12\x0E\x17\x0E\x0D\x17\x0F\x11\x13\x1A\x0C\x10\x12\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x18\x13\x12\x0E\x1E\x0C\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x19\x16\x1B\x28\x14\x0C\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x1B\x1D\x0D\x34\x38\x0F\x10\x1B\x14\x0E\x46\x26\x0E\x18\x1B\x10\x1C\x0E\x32",//Vrijeme mirovanja nakon kojega lemilica spušta temperaturu. <Minute/Sekunde> 
+  /* ShutdownTimeout           */ "\x23\x11\x0F\x12\x0E\x17\x0E\x0D\x17\x0F\x11\x13\x1A\x0C\x10\x12\x0C\x0D\x10\x0C\x18\x13\x10\x0D\x18\x13\x12\x0E\x1E\x0C\x0D\x3B\x0E\x0D\x19\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x1B\x1E\x0C\x19\x0F\x14\x0F\x1D\x0D\x34\x38\x0F\x10\x1B\x14\x0E\x32",//Vrijeme mirovanja nakon kojega će se lemilica ugasiti. <Minute> 
+  /* MotionSensitivity         */ "\x2B\x19\x12\x0E\x14\x15\x12\x0F\x1A\x13\x19\x14\x0D\x16\x11\x0E\x16\x13\x24\x10\x0C\x1A\x0C\x10\x12\x0C\x0D\x16\x13\x18\x11\x0E\x14\x0C\x1D\x0D\x34\x02\x33\x36\x1E\x0C\x28\x0E\x10\x13\x2E\x0D\x03\x33\x2C\x0C\x12\x17\x0C\x10\x12\x0E\x0D\x13\x19\x12\x0E\x14\x15\x12\x0F\x1A\x13\x2E\x0D\x0B\x33\x2C\x0C\x12\x13\x19\x12\x0E\x14\x15\x12\x0F\x1A\x0F\x12\x0E\x32",//Osjetljivost prepoznavanja pokreta. <0=Ugašeno, 1=Najmanje osjetljivo, 9=Najosjetljivije> 
+  /* TemperatureUnit           */ "\x37\x0E\x1C\x0F\x10\x0F\x1F\x0C\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0E\x1D\x0D\x34\x2A\x33\x2A\x0E\x15\x24\x0F\x12\x2E\x0D\x3E\x33\x3E\x0C\x22\x11\x0E\x10\x22\x0E\x0F\x14\x32",//Jedinica temperature. <C=Celzij, F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x21\x11\x0F\x18\x0C\x24\x0F\x1A\x0C\x10\x12\x0E\x0D\x1C\x0E\x14\x0C\x15\x12\x10\x0F\x22\x0D\x0F\x10\x43\x13\x11\x17\x0C\x1F\x0F\x12\x0C\x0D\x14\x0F\x12\x0E\x18\x13\x17\x0D\x20\x0E\x18\x0C\x10\x12\x0C\x1D",//Prikazivanje detaljnih informacija tijekom čekanja. 
+  /* DisplayRotation           */ "\x2B\x11\x0F\x12\x0E\x10\x14\x0C\x1F\x0F\x12\x0C\x0D\x0E\x18\x11\x0C\x10\x0C\x1D\x0D\x34\x2D\x33\x2D\x1B\x14\x13\x17\x0C\x14\x19\x18\x0F\x2E\x0D\x3A\x33\x3A\x12\x0E\x1A\x13\x11\x1B\x18\x0F\x2E\x0D\x31\x33\x31\x0E\x19\x10\x13\x11\x1B\x18\x0F\x32",//Orijentacija ekrana. <A=Automatski, L=Ljevoruki, D=Desnoruki> 
+  /* BoostEnabled              */ "\x31\x11\x47\x0C\x10\x12\x0E\x17\x0D\x16\x11\x0E\x1C\x10\x12\x0E\x1E\x0D\x1E\x1B\x17\x25\x0C\x0D\x16\x11\x0F\x15\x0F\x18\x13\x17\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C\x0D\x0C\x18\x14\x0F\x1A\x0F\x11\x0C\x0D\x19\x0E\x0D\x16\x13\x12\x0C\x20\x0C\x10\x0F\x0D\x4B\x27\x13\x13\x19\x14\x4A\x0D\x10\x0C\x20\x0F\x10\x1D",//Držanjem prednjeg gumba prilikom lemljenja aktivira se pojačani (Boost) način. 
+  /* BoostTemperature          */ "\x29\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0C\x0D\x1B\x0D\x16\x13\x12\x0C\x20\x0C\x10\x13\x17\x0D\x4B\x27\x13\x13\x19\x14\x4A\x0D\x10\x0C\x20\x0F\x10\x1B\x1D",//Temperatura u pojačanom (Boost) načinu. 
+  /* AutoStart                 */ "\x2D\x18\x13\x0D\x12\x0E\x0D\x0C\x18\x14\x0F\x1A\x10\x13\x2E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x16\x13\x0D\x1B\x18\x15\x12\x1B\x20\x0F\x1A\x0C\x10\x12\x1B\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C\x0D\x13\x1C\x17\x0C\x22\x0D\x16\x13\x20\x0F\x10\x12\x0E\x0D\x1E\x11\x0F\x12\x0C\x14\x0F\x1D",//Ako je aktivno, lemilica po uključivanju napajanja odmah počinje grijati. 
+  /* CooldownBlink             */ "\x27\x15\x12\x0E\x19\x18\x0C\x10\x12\x0E\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0E\x0D\x16\x11\x0F\x15\x0F\x18\x13\x17\x0D\x22\x15\x0C\x41\x0E\x10\x12\x0C\x2E\x0D\x0C\x18\x13\x0D\x12\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x1A\x11\x1B\x3B\x0C\x1D",//Bljeskanje temperature prilikom hlađenja, ako je lemilica vruća. 
+  /* TemperatureCalibration    */ "\x30\x0C\x15\x0F\x25\x11\x0F\x11\x0C\x10\x12\x0E\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0E\x0D\x17\x12\x0E\x11\x0F\x0D\x11\x0C\x24\x15\x0F\x18\x1B\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0C\x0D\x1A\x11\x28\x18\x0C\x0D\x0F\x0D\x1C\x11\x28\x18\x0E\x2E\x0D\x1C\x13\x18\x0D\x12\x0E\x0D\x15\x0E\x17\x0F\x15\x0F\x1F\x0C\x0D\x22\x15\x0C\x1C\x10\x0C\x1D",//Kalibriranje temperature mjeri razliku temperatura vrška i drške, dok je lemilica hladna. 
+  /* SettingsReset             */ "\x23\x11\x0C\x3B\x0C\x10\x12\x0E\x0D\x19\x1A\x0F\x22\x0D\x16\x13\x19\x14\x0C\x1A\x18\x0F\x0D\x10\x0C\x0D\x14\x1A\x13\x11\x10\x0F\x20\x18\x0E\x0D\x1A\x11\x0F\x12\x0E\x1C\x10\x13\x19\x14\x0F\x1D",//Vraćanje svih postavki na tvorničke vrijednosti. 
+  /* VoltageCalibration        */ "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x1B\x15\x0C\x24\x10\x13\x1E\x0D\x10\x0C\x16\x13\x10\x0C\x1D\x0D\x21\x13\x1C\x0E\x28\x0C\x1A\x0C\x10\x12\x0E\x0D\x1E\x1B\x17\x25\x0F\x17\x0C\x2E\x0D\x1C\x1B\x1E\x0C\x20\x18\x0F\x0D\x16\x11\x0F\x14\x0F\x19\x0C\x18\x0D\x24\x0C\x0D\x18\x11\x0C\x12\x1D",//Kalibracija ulaznog napona. Podešavanje gumbima, dugački pritisak za kraj. 
+  /* AdvancedSoldering         */ "\x21\x11\x0F\x18\x0C\x24\x0F\x1A\x0C\x10\x12\x0E\x0D\x1C\x0E\x14\x0C\x15\x12\x10\x0F\x22\x0D\x0F\x10\x43\x13\x11\x17\x0C\x1F\x0F\x12\x0C\x0D\x14\x0F\x12\x0E\x18\x13\x17\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C\x1D",//Prikazivanje detaljnih informacija tijekom lemljenja. 
+  /* ScrollingSpeed            */ "\x27\x11\x24\x0F\x10\x0C\x0D\x18\x11\x0E\x14\x0C\x10\x12\x0C\x0D\x1C\x1B\x1E\x0C\x20\x18\x0F\x22\x0D\x16\x13\x11\x1B\x18\x0C\x1D\x0D\x34\x27\x33\x25\x11\x24\x13\x2E\x0D\x26\x33\x19\x16\x13\x11\x13\x32",//Brzina kretanja dugačkih poruka. <B=brzo, S=sporo> 
+  /* TipModel                  */ "\x2B\x1C\x0C\x25\x0F\x11\x0D\x17\x13\x1C\x0E\x15\x0C\x0D\x15\x0E\x17\x10\x13\x1E\x0D\x1A\x11\x22\x0C",//Odabir modela lemnog vrha 
+  /* SimpleCalibrationMode     */ "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x18\x0F\x16\x1B\x3B\x13\x17\x0D\x1A\x13\x1C\x13\x17",//Kalibracija kipućom vodom 
   /* AdvancedCalibrationMode   */ "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x18\x13\x11\x0F\x28\x14\x0E\x10\x12\x0E\x17\x0D\x14\x0E\x11\x17\x13\x44\x0E\x15\x0E\x17\x0E\x10\x14\x0C",//Kalibracija korištenjem termo-elementa 
-  /* PowerInput                */ "\x26\x10\x0C\x1E\x0C\x0D\x17\x13\x1C\x1A\x15\x0C\x0D\x24\x0C\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0E",//Snaga modula za napajanje 
+  /* PowerInput                */ "\x26\x10\x0C\x1E\x0C\x0D\x17\x13\x1C\x1B\x15\x0C\x0D\x24\x0C\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0E",//Snaga modula za napajanje 
   /* PowerLimitEnable          */ "\x35\x10\x0C\x25\x15\x0E\x0D\x16\x13\x42\x0E\x11\x0D\x15\x0F\x17\x0F\x14",//Enable power limit 
-  /* PowerLimit                */ "\x38\x0C\x4D\x0F\x17\x1A\x17\x0D\x16\x13\x42\x0E\x11\x0D\x14\x23\x0E\x0D\x0F\x11\x13\x10\x0D\x1F\x0C\x10\x0D\x1A\x19\x0E\x0D\x34\x3C\x0C\x14\x14\x19\x32",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x38\x0C\x4D\x0F\x17\x1B\x17\x0D\x16\x13\x42\x0E\x11\x0D\x14\x22\x0E\x0D\x0F\x11\x13\x10\x0D\x1F\x0C\x10\x0D\x1B\x19\x0E\x0D\x34\x3C\x0C\x14\x14\x19\x32",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x1E\x13\x14\x13\x1B\x0C\x40";//Kalibracija gotova! 
-const char* SettingsCalibrationWarning = "\x22\x11\x13\x1B\x12\x0E\x11\x0F\x14\x0E\x0D\x1C\x0C\x0D\x12\x0E\x0D\x1B\x11\x28\x0C\x18\x0D\x13\x23\x15\x0C\x41\x0E\x10\x0D\x10\x0C\x0D\x19\x13\x25\x10\x1A\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x1A\x0D\x16\x11\x0F\x12\x0E\x0D\x10\x0E\x1E\x13\x0D\x28\x14\x13\x0D\x10\x0C\x19\x14\x0C\x1B\x0F\x14\x0E\x40";//Provjerite da je vršak ohlađen na sobnu temperaturu prije nego što nastavite! 
-const char* SettingsResetWarning = "\x37\x0E\x19\x14\x0E\x0D\x15\x0F\x0D\x19\x0F\x1E\x1A\x11\x10\x0F\x0D\x1C\x0C\x0D\x47\x0E\x15\x0F\x14\x0E\x0D\x19\x1B\x0E\x0D\x16\x13\x19\x14\x0C\x1B\x18\x0E\x0D\x1B\x11\x0C\x14\x0F\x14\x0F\x0D\x10\x0C\x0D\x14\x1B\x13\x11\x10\x0F\x20\x18\x0E\x0D\x1B\x11\x0F\x12\x0E\x1C\x10\x13\x19\x14\x0F\x4F";//Jeste li sigurni da želite sve postavke vratiti na tvorničke vrijednosti? 
-const char* UVLOWarningString = "\x27\x2C\x29\x35\x2E\x3D\x37\x2C";//BATERIJA 
-const char* UndervoltageString = "\x22\x2E\x35\x2B\x3D\x45\x2C\x30\x0D\x2B\x2C\x22\x2F\x2B";//PRENIZAK NAPON 
-const char* InputVoltageString = "\x2B\x0C\x16\x0C\x12\x0C\x10\x12\x0E\x3F\x0D";//Napajanje:  
-const char* WarningTipTempString = "\x29\x0E\x17\x16\x0D\x1B\x11\x23\x0C\x3F\x0D";//Temp vrha:  
-const char* BadTipString = "\x3A\x2F\x4C\x0D\x21\x2E\x39";//LOŠ VRH 
+const char* SettingsCalibrationDone = "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C\x0D\x1E\x13\x14\x13\x1A\x0C\x40";//Kalibracija gotova! 
+const char* SettingsCalibrationWarning = "\x21\x11\x13\x1A\x12\x0E\x11\x0F\x14\x0E\x0D\x1C\x0C\x0D\x12\x0E\x0D\x1A\x11\x28\x0C\x18\x0D\x13\x22\x15\x0C\x41\x0E\x10\x0D\x10\x0C\x0D\x19\x13\x25\x10\x1B\x0D\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x1B\x0D\x16\x11\x0F\x12\x0E\x0D\x10\x0E\x1E\x13\x0D\x28\x14\x13\x0D\x10\x0C\x19\x14\x0C\x1A\x0F\x14\x0E\x40";//Provjerite da je vršak ohlađen na sobnu temperaturu prije nego što nastavite! 
+const char* SettingsResetWarning = "\x37\x0E\x19\x14\x0E\x0D\x15\x0F\x0D\x19\x0F\x1E\x1B\x11\x10\x0F\x0D\x1C\x0C\x0D\x47\x0E\x15\x0F\x14\x0E\x0D\x19\x1A\x0E\x0D\x16\x13\x19\x14\x0C\x1A\x18\x0E\x0D\x1A\x11\x0C\x14\x0F\x14\x0F\x0D\x10\x0C\x0D\x14\x1A\x13\x11\x10\x0F\x20\x18\x0E\x0D\x1A\x11\x0F\x12\x0E\x1C\x10\x13\x19\x14\x0F\x4F";//Jeste li sigurni da želite sve postavke vratiti na tvorničke vrijednosti? 
+const char* UVLOWarningString = "\x27\x2D\x29\x35\x2F\x3D\x37\x2D";//BATERIJA 
+const char* UndervoltageString = "\x21\x2F\x35\x2C\x3D\x45\x2D\x30\x0D\x2C\x2D\x21\x2B\x2C";//PRENIZAK NAPON 
+const char* InputVoltageString = "\x2C\x0C\x16\x0C\x12\x0C\x10\x12\x0E\x3F\x0D";//Napajanje:  
+const char* WarningTipTempString = "\x29\x0E\x17\x16\x0D\x1A\x11\x22\x0C\x3F\x0D";//Temp vrha:  
+const char* BadTipString = "\x3A\x2B\x4C\x0D\x23\x2F\x39";//LOŠ VRH 
 const char* SleepingSimpleString = "\x45\x24\x24\x0D";//Zzz  
-const char* SleepingAdvancedString = "\x26\x22\x2C\x21\x2C\x2B\x37\x35\x1D\x1D\x1D";//SPAVANJE... 
-const char* WarningSimpleString = "\x21\x2E\x36\x48";//VRUĆ 
-const char* WarningAdvancedString = "\x2F\x22\x2E\x35\x45\x2D\x0D\x21\x2E\x36\x48\x35\x40";//OPREZ, VRUĆE! 
-const char* SleepingTipAdvancedString = "\x21\x11\x23\x3F\x0D";//Vrh:  
-const char* IdleTipString = "\x21\x11\x23\x3F\x0D";//Vrh:  
+const char* SleepingAdvancedString = "\x26\x21\x2D\x23\x2D\x2C\x37\x35\x1D\x1D\x1D";//SPAVANJE... 
+const char* WarningSimpleString = "\x23\x2F\x36\x48";//VRUĆ 
+const char* WarningAdvancedString = "\x2B\x21\x2F\x35\x45\x2E\x0D\x23\x2F\x36\x48\x35\x40";//OPREZ, VRUĆE! 
+const char* SleepingTipAdvancedString = "\x23\x11\x22\x3F\x0D";//Vrh:  
+const char* IdleTipString = "\x23\x11\x22\x3F\x0D";//Vrh:  
 const char* IdleSetString = "\x0D\x46\x0D";// /  
-const char* TipDisconnectedString = "\x21\x2E\x39\x0D\x2B\x3D\x37\x35\x0D\x26\x22\x2F\x37\x35\x2B\x40";//VRH NIJE SPOJEN! 
+const char* TipDisconnectedString = "\x23\x2F\x39\x0D\x2C\x3D\x37\x35\x0D\x26\x21\x2B\x37\x35\x2C\x40";//VRH NIJE SPOJEN! 
 const char* SolderingAdvancedPowerPrompt = "\x26\x10\x0C\x1E\x0C\x3F\x0D";//Snaga:  
-const char* OffString = "\x2F\x43\x43";//Off 
-const char* ResetOKMessage = "\x2E\x0E\x19\x0E\x14\x0D\x2F\x30";//Reset OK 
-const char* YourGainMessage = "\x4E\x13\x1A\x11\x0D\x49\x0C\x0F\x10";//Your Gain 
+const char* OffString = "\x2B\x43\x43";//Off 
+const char* ResetOKMessage = "\x2F\x0E\x19\x0E\x14\x0D\x2B\x30";//Reset OK 
+const char* YourGainMessage = "\x4E\x13\x1B\x11\x0D\x49\x0C\x0F\x10";//Your Gain 
 const char* SettingsResetMessage = "\x26\x0E\x14\x14\x0F\x10\x1E\x19\x0D\x42\x0E\x11\x0E\x01\x11\x0E\x19\x0E\x14\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x31";//D 
 const char* SettingLeftChar = "\x3A";//L 
-const char* SettingAutoChar = "\x2C";//A 
+const char* SettingAutoChar = "\x2D";//A 
 const char* SettingFastChar = "\x27";//B 
 const char* SettingSlowChar = "\x26";//S 
 const char* SettingStartSolderingChar = "\x29";//T 
 const char* SettingStartSleepChar = "\x26";//S 
+const char* SettingStartSleepOffChar = "\x2B";//O 
 const char* SettingStartNoneChar = "\x3E";//F 
 
 const char* SymbolPlus = "\x50";//+ 
@@ -2780,10 +2789,10 @@ const char* SymbolDegF = "\x3E";//F
 const char* SymbolMinutes = "\x38";//M 
 const char* SymbolSeconds = "\x26";//S 
 const char* SymbolWatts = "\x3C";//W 
-const char* SymbolVolts = "\x21";//V 
+const char* SymbolVolts = "\x23";//V 
 const char* SymbolDC = "\x31\x2A";//DC 
 const char* SymbolCellCount = "\x26";//S 
-const char* SymbolVersionNumber = "\x21\x04\x1D\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1A\x04\x1D\x02\x0A\x1D\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -2804,58 +2813,58 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x44\x02\x03\x44\x04\x02",//18-01-20 
+	 "\x03\x06\x44\x02\x05\x44\x04\x02",//14-03-20 
 	 "\x39\x3C\x0D\x49\x0D",//HW G  
 	 "\x39\x3C\x0D\x38\x0D",//HW M  
-	 "\x39\x3C\x0D\x22\x0D",//HW P  
+	 "\x39\x3C\x0D\x21\x0D",//HW P  
 	 "\x29\x0F\x17\x0E\x0D",//Time  
-	 "\x38\x13\x1B\x0E\x0D",//Move  
-	 "\x2E\x29\x0F\x16\x0D",//RTip  
+	 "\x38\x13\x1A\x0E\x0D",//Move  
+	 "\x2F\x29\x0F\x16\x0D",//RTip  
 	 "\x2A\x29\x0F\x16\x0D",//CTip  
 	 "\x2A\x39\x0C\x10\x0D",//CHan  
-	 "\x21\x0F\x10\x0D\x0D",//Vin   
-	 "\x22\x2A\x27\x0D\x0D",//PCB   
+	 "\x23\x0F\x10\x0D\x0D",//Vin   
+	 "\x21\x2A\x27\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x3D\x24\x1B\x13\x11", "\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C" },//['Izvor', 'napajanja'] 
-  /* SleepTemperature          */ { "\x29\x0E\x17\x16", "\x19\x16\x0C\x1B\x0C\x10\x12\x0C" },//['Temp', 'spavanja'] 
-  /* SleepTimeout              */ { "\x21\x11\x0F\x12\x0E\x17\x0E", "\x19\x16\x0C\x1B\x0C\x10\x12\x0C" },//['Vrijeme', 'spavanja'] 
-  /* ShutdownTimeout           */ { "\x21\x11\x0F\x12\x0E\x17\x0E", "\x1E\x0C\x28\x0E\x10\x12\x0C" },//['Vrijeme', 'gašenja'] 
-  /* MotionSensitivity         */ { "\x2F\x19\x12\x0E\x14\x15\x12\x0F\x1B\x13\x19\x14", "\x16\x13\x18\x11\x0E\x14\x0C" },//['Osjetljivost', 'pokreta'] 
-  /* TemperatureUnit           */ { "\x37\x0E\x1C\x0F\x10\x0F\x1F\x0C", "\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0E" },//['Jedinica', 'temperature'] 
-  /* AdvancedIdle              */ { "\x31\x0E\x14\x0C\x15\x12\x0F", "\x16\x11\x0F\x0D\x20\x0E\x18\x0C\x10\x12\x1A" },//['Detalji', 'pri čekanju'] 
-  /* DisplayRotation           */ { "\x2E\x13\x14\x0C\x1F\x0F\x12\x0C", "\x0E\x18\x11\x0C\x10\x0C" },//['Rotacija', 'ekrana'] 
+  /* PowerSource               */ { "\x3D\x24\x1A\x13\x11", "\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C" },//['Izvor', 'napajanja'] 
+  /* SleepTemperature          */ { "\x29\x0E\x17\x16", "\x19\x16\x0C\x1A\x0C\x10\x12\x0C" },//['Temp', 'spavanja'] 
+  /* SleepTimeout              */ { "\x23\x11\x0F\x12\x0E\x17\x0E", "\x19\x16\x0C\x1A\x0C\x10\x12\x0C" },//['Vrijeme', 'spavanja'] 
+  /* ShutdownTimeout           */ { "\x23\x11\x0F\x12\x0E\x17\x0E", "\x1E\x0C\x28\x0E\x10\x12\x0C" },//['Vrijeme', 'gašenja'] 
+  /* MotionSensitivity         */ { "\x2B\x19\x12\x0E\x14\x15\x12\x0F\x1A\x13\x19\x14", "\x16\x13\x18\x11\x0E\x14\x0C" },//['Osjetljivost', 'pokreta'] 
+  /* TemperatureUnit           */ { "\x37\x0E\x1C\x0F\x10\x0F\x1F\x0C", "\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0E" },//['Jedinica', 'temperature'] 
+  /* AdvancedIdle              */ { "\x31\x0E\x14\x0C\x15\x12\x0F", "\x16\x11\x0F\x0D\x20\x0E\x18\x0C\x10\x12\x1B" },//['Detalji', 'pri čekanju'] 
+  /* DisplayRotation           */ { "\x2F\x13\x14\x0C\x1F\x0F\x12\x0C", "\x0E\x18\x11\x0C\x10\x0C" },//['Rotacija', 'ekrana'] 
   /* BoostEnabled              */ { "\x27\x13\x13\x19\x14", "\x10\x0C\x20\x0F\x10" },//['Boost', 'način'] 
   /* BoostTemperature          */ { "\x27\x13\x13\x19\x14", "\x14\x0E\x17\x16" },//['Boost', 'temp'] 
-  /* AutoStart                 */ { "\x2C\x1A\x14\x13", "\x19\x14\x0C\x11\x14" },//['Auto', 'start'] 
-  /* CooldownBlink             */ { "\x36\x16\x13\x24\x13\x11\x0E\x10\x12\x0E", "\x16\x11\x0F\x0D\x23\x15\x0C\x41\x0E\x10\x12\x1A" },//['Upozorenje', 'pri hlađenju'] 
-  /* TemperatureCalibration    */ { "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C", "\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1A\x11\x0E" },//['Kalibracija', 'temperature'] 
-  /* SettingsReset             */ { "\x29\x1B\x13\x11\x10\x0F\x20\x18\x0E", "\x16\x13\x19\x14\x0C\x1B\x18\x0E" },//['Tvorničke', 'postavke'] 
+  /* AutoStart                 */ { "\x2D\x1B\x14\x13", "\x19\x14\x0C\x11\x14" },//['Auto', 'start'] 
+  /* CooldownBlink             */ { "\x36\x16\x13\x24\x13\x11\x0E\x10\x12\x0E", "\x16\x11\x0F\x0D\x22\x15\x0C\x41\x0E\x10\x12\x1B" },//['Upozorenje', 'pri hlađenju'] 
+  /* TemperatureCalibration    */ { "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C", "\x14\x0E\x17\x16\x0E\x11\x0C\x14\x1B\x11\x0E" },//['Kalibracija', 'temperature'] 
+  /* SettingsReset             */ { "\x29\x1A\x13\x11\x10\x0F\x20\x18\x0E", "\x16\x13\x19\x14\x0C\x1A\x18\x0E" },//['Tvorničke', 'postavke'] 
   /* VoltageCalibration        */ { "\x30\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C", "\x10\x0C\x16\x13\x10\x0C\x0D\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C" },//['Kalibracija', 'napona napajanja'] 
-  /* AdvancedSoldering         */ { "\x31\x0E\x14\x0C\x15\x12\x0F", "\x16\x11\x0F\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x1A" },//['Detalji', 'pri lemljenju'] 
-  /* ScrollingSpeed            */ { "\x27\x11\x24\x0F\x10\x0C", "\x16\x13\x11\x1A\x18\x0C" },//['Brzina', 'poruka'] 
-  /* TipModel                  */ { "\x38\x13\x1C\x0E\x15", "\x21\x11\x23\x0C" },//['Model', 'Vrha'] 
-  /* SimpleCalibrationMode     */ { "\x37\x0E\x1C\x10\x13\x19\x14\x0C\x1B\x10\x0C", "\x18\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C" },//['Jednostavna', 'kalibracija'] 
-  /* AdvancedCalibrationMode   */ { "\x2B\x0C\x16\x11\x0E\x1C\x10\x0C", "\x18\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C" },//['Napredna', 'kalibracija'] 
+  /* AdvancedSoldering         */ { "\x31\x0E\x14\x0C\x15\x12\x0F", "\x16\x11\x0F\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x1B" },//['Detalji', 'pri lemljenju'] 
+  /* ScrollingSpeed            */ { "\x27\x11\x24\x0F\x10\x0C", "\x16\x13\x11\x1B\x18\x0C" },//['Brzina', 'poruka'] 
+  /* TipModel                  */ { "\x38\x13\x1C\x0E\x15", "\x23\x11\x22\x0C" },//['Model', 'Vrha'] 
+  /* SimpleCalibrationMode     */ { "\x37\x0E\x1C\x10\x13\x19\x14\x0C\x1A\x10\x0C", "\x18\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C" },//['Jednostavna', 'kalibracija'] 
+  /* AdvancedCalibrationMode   */ { "\x2C\x0C\x16\x11\x0E\x1C\x10\x0C", "\x18\x0C\x15\x0F\x25\x11\x0C\x1F\x0F\x12\x0C" },//['Napredna', 'kalibracija'] 
   /* PowerInput                */ { "\x26\x10\x0C\x1E\x0C", "\x10\x0C\x16\x0C\x12\x0C\x10\x12\x0C" },//['Snaga', 'napajanja'] 
-  /* PowerLimitEnable          */ { "\x22\x0D\x3A\x0F\x17\x0F\x14", "\x35\x10\x0C\x25\x15\x0E" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x22\x13\x42\x0E\x11", "\x3A\x0F\x17\x0F\x14" },//['Power', 'Limit'] 
+  /* PowerLimitEnable          */ { "\x21\x0D\x3A\x0F\x17\x0F\x14", "\x35\x10\x0C\x25\x15\x0E" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x21\x13\x42\x0E\x11", "\x3A\x0F\x17\x0F\x14" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x22\x13\x19\x14\x0C\x1B\x18\x0E\x01\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C",//['Postavke', 'lemljenja'] 
+  /* SolderingMenu             */ "\x21\x13\x19\x14\x0C\x1A\x18\x0E\x01\x15\x0E\x17\x15\x12\x0E\x10\x12\x0C",//['Postavke', 'lemljenja'] 
   /* PowerSavingMenu           */ "\x36\x28\x14\x0E\x1C\x0C\x01\x0E\x10\x0E\x11\x1E\x0F\x12\x0E",//['Ušteda', 'energije'] 
-  /* UIMenu                    */ "\x30\x13\x11\x0F\x19\x10\x0F\x20\x18\x13\x01\x19\x1A\x20\x0E\x15\x12\x0E",//['Korisničko', 'sučelje'] 
-  /* AdvancedMenu              */ "\x2B\x0C\x16\x11\x0E\x1C\x10\x0E\x01\x13\x16\x1F\x0F\x12\x0E",//['Napredne', 'opcije'] 
+  /* UIMenu                    */ "\x30\x13\x11\x0F\x19\x10\x0F\x20\x18\x13\x01\x19\x1B\x20\x0E\x15\x12\x0E",//['Korisničko', 'sučelje'] 
+  /* AdvancedMenu              */ "\x2C\x0C\x16\x11\x0E\x1C\x10\x0E\x01\x13\x16\x1F\x0F\x12\x0E",//['Napredne', 'opcije'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x22\x13\x19\x14\x0C\x1B\x18\x0E\x0D\x16\x11\x0F\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x1A",//Postavke pri lemljenju 
-  /* PowerSavingMenu           */ "\x22\x13\x19\x14\x0C\x1B\x18\x0E\x0D\x19\x16\x0C\x1B\x0C\x10\x12\x0C\x0D\x0F\x0D\x28\x14\x0E\x1C\x10\x12\x0E\x0D\x0E\x10\x0E\x11\x1E\x0F\x12\x0E",//Postavke spavanja i štednje energije 
-  /* UIMenu                    */ "\x22\x13\x19\x14\x0C\x1B\x18\x0E\x0D\x18\x13\x11\x0F\x19\x10\x0F\x20\x18\x13\x1E\x0D\x19\x1A\x20\x0E\x15\x12\x0C",//Postavke korisničkog sučelja 
-  /* AdvancedMenu              */ "\x36\x16\x11\x0C\x1B\x15\x12\x0C\x10\x12\x0E\x0D\x10\x0C\x16\x11\x0E\x1C\x10\x0F\x17\x0D\x13\x16\x1F\x0F\x12\x0C\x17\x0C",//Upravljanje naprednim opcijama 
+  /* SolderingMenu             */ "\x21\x13\x19\x14\x0C\x1A\x18\x0E\x0D\x16\x11\x0F\x0D\x15\x0E\x17\x15\x12\x0E\x10\x12\x1B",//Postavke pri lemljenju 
+  /* PowerSavingMenu           */ "\x21\x13\x19\x14\x0C\x1A\x18\x0E\x0D\x19\x16\x0C\x1A\x0C\x10\x12\x0C\x0D\x0F\x0D\x28\x14\x0E\x1C\x10\x12\x0E\x0D\x0E\x10\x0E\x11\x1E\x0F\x12\x0E",//Postavke spavanja i štednje energije 
+  /* UIMenu                    */ "\x21\x13\x19\x14\x0C\x1A\x18\x0E\x0D\x18\x13\x11\x0F\x19\x10\x0F\x20\x18\x13\x1E\x0D\x19\x1B\x20\x0E\x15\x12\x0C",//Postavke korisničkog sučelja 
+  /* AdvancedMenu              */ "\x36\x16\x11\x0C\x1A\x15\x12\x0C\x10\x12\x0E\x0D\x10\x0C\x16\x11\x0E\x1C\x10\x0F\x17\x0D\x13\x16\x1F\x0F\x12\x0C\x17\x0C",//Upravljanje naprednim opcijama 
 };
 
 #endif
@@ -2892,12 +2901,12 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x1D -> H
 0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x1E -> y
 0x00,0x00,0x00,0x00,0x68,0xEC,0xE6,0x02,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x1F -> í
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x20 -> h
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x21 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x20 -> .
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x21 -> h
 0x00,0x80,0xC0,0xE0,0x68,0x6C,0x66,0x62,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x22 -> ó
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x23 -> A
-0x00,0x80,0xC0,0xE0,0x68,0x64,0x68,0x64,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x24 -> ő
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x25 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x23 -> v
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x24 -> A
+0x00,0x80,0xC0,0xE0,0x68,0x64,0x68,0x64,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x25 -> ő
 0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x26 -> p
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x27 -> S
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x28 -> E
@@ -2912,18 +2921,18 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x31 -> L
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x32 -> K
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x33 -> c
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x34 -> V
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x35 -> M
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x36 -> G
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x34 -> M
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x35 -> G
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x36 -> V
 0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x37 -> u
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x38 -> I
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x39 -> >
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x3A -> <
 0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0xEC,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x3B -> ö
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3C -> D
-0x00,0xE0,0xE0,0x0C,0x0C,0x00,0x00,0x0C,0x0C,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x3D -> ü
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3E -> Y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3F -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3C -> O
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3D -> D
+0x00,0xE0,0xE0,0x0C,0x0C,0x00,0x00,0x0C,0x0C,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x3E -> ü
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3F -> Y
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x40 -> !
 0x00,0x80,0xE0,0x70,0x3A,0x19,0x1A,0x39,0x70,0xE0,0x80,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x41 -> Ő
 0x00,0xF8,0xF8,0x98,0x98,0x9C,0x9E,0x9B,0x99,0x18,0x18,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x31,0x30,0x30,0x00,//\x42 -> É
@@ -2982,12 +2991,12 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x1D -> H
 0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x1E -> y
 0x00, 0x44, 0x7e, 0x41, 0x00, 0x00,//\x1F -> í
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x20 -> h
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x21 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x20 -> .
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x21 -> h
 0x38, 0x44, 0x46, 0x45, 0x38, 0x00,//\x22 -> ó
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x23 -> A
-0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x24 -> ő
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x25 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x23 -> v
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x24 -> A
+0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x25 -> ő
 0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x26 -> p
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x27 -> S
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x28 -> E
@@ -3002,18 +3011,18 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x31 -> L
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x32 -> K
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x33 -> c
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x34 -> V
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x35 -> M
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x36 -> G
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x34 -> M
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x35 -> G
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x36 -> V
 0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x37 -> u
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x38 -> I
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x39 -> >
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x3A -> <
 0x38, 0x45, 0x44, 0x45, 0x38, 0x00,//\x3B -> ö
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x3C -> D
-0x3c, 0x41, 0x40, 0x21, 0x5c, 0x00,//\x3D -> ü
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x3E -> Y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3F -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3C -> O
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x3D -> D
+0x3c, 0x41, 0x40, 0x21, 0x5c, 0x00,//\x3E -> ü
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x3F -> Y
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x40 -> !
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x41 -> Ő
 0x7c, 0x54, 0x56, 0x45, 0x44, 0x00,//\x42 -> É
@@ -3044,80 +3053,81 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Magyar ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x4D\x13\x11\x1B\x2B\x15\x13\x13\x12\x0E\x21\x0C\x2A\x0D\x12\x0F\x0F\x1F\x10\x30\x11\x0C\x11\x0C\x0F\x0D\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x17\x0C\x2B\x0D\x0E\x18\x3D\x0F\x10\x0E\x14\x1A\x0D\x10\x21\x0C\x3A\x3C\x2D\x0C\x03\x02\x34\x39\x0C\x3A\x27\x0C\x05\x21\x05\x34\x0C\x33\x0D\x0F\x0F\x12\x19\x16\x14\x19\x10\x39",//Áramforrás. Beállítja a lekapcsolási feszültséget. <DC 10V> <S 3.3V cellánként> 
-  /* SleepTemperature          */ "\x23\x0F\x25\x12\x0E\x17\x0C\x20\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x3A\x2D\x39",//Alvási hőmérséklet <C> 
-  /* SleepTimeout              */ "\x23\x0F\x25\x12\x0E\x0C\x17\x29\x24\x18\x1F\x10\x24\x0C\x3A\x26\x0D\x13\x33\x56\x1B\x12\x0E\x15\x29\x26\x0D\x13\x33\x39",//Alvás időzítő <perc/másodperc> 
-  /* ShutdownTimeout           */ "\x32\x17\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x17\x0C\x17\x29\x24\x18\x1F\x10\x24\x0C\x3A\x26\x0D\x13\x33\x39",//Kikapcsolási időzítő <perc> 
-  /* MotionSensitivity         */ "\x35\x15\x18\x1A\x12\x0E\x0C\x14\x13\x18\x14\x16\x0D\x19\x1E\x0E\x14\x1A\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x11\x21\x0C\x3A\x02\x21\x16\x17\x16\x11\x26\x33\x0E\x15\x0F\x25\x11\x0C\x03\x21\x0F\x0D\x1A\x16\x0D\x25\x14\x0E\x1C\x14\x0C\x14\x13\x18\x14\x16\x0D\x19\x1E\x0C\x0B\x21\x0F\x0D\x1A\x14\x13\x18\x14\x16\x0D\x19\x1E\x0D\x1C\x1C\x39",//Mozgás érzékenység beállítása. <0.kikapcsolva 1.legkevésbé érzékeny 9.legérzékenyebb> 
-  /* TemperatureUnit           */ "\x1D\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x1B\x14\x13\x10\x14\x16\x0D\x1A\x1E\x0E\x14\x1A\x0D\x0C\x3A\x2D\x47\x2D\x0D\x0F\x0E\x17\x37\x0E\x0C\x2F\x47\x2F\x11\x20\x13\x0D\x19\x20\x0D\x17\x10\x39",//Hőmérséklet mértékegysége <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x2C\x14\x0E\x18\x0F\x0D\x10\x0D\x0E\x0C\x17\x19\x2B\x15\x13\x1B\x12\x33\x17\x22\x0C\x1B\x0D\x1A\x30\x0D\x0F\x0D\x19\x1F\x10\x14\x0E\x0D\x0C\x16\x17\x0E\x0D\x1C\x1C\x0C\x1C\x0D\x10\x49\x1B\x14\x13\x0D\x10\x1C\x0D\x19\x0C\x11\x0C\x16\x14\x0E\x18\x0D\x19\x0F\x14\x10\x17\x0C\x16\x14\x26\x0D\x13\x19\x1E\x24\x19\x21",//Részletes információ megjelenítése kisebb betűméretben a készenléti képernyőn. 
-  /* DisplayRotation           */ "\x32\x17\x30\x0D\x0F\x18\x24\x0C\x10\x12\x30\x15\x0F\x12\x0E\x11\x0C\x3A\x23\x21\x0C\x11\x37\x10\x15\x1B\x11\x10\x17\x16\x37\x0E\x0C\x2A\x21\x0C\x1C\x11\x0F\x16\x0D\x18\x0D\x0E\x0C\x46\x21\x0C\x30\x15\x1C\x1C\x16\x0D\x18\x0D\x0E\x39",//Kijelző tájolása <A. automatikus B. balkezes J. jobbkezes> 
-  /* BoostEnabled              */ "\x28\x0F\x3D\x0F\x0E\x24\x0C\x1A\x15\x1B\x1C\x1C\x11\x0F\x0C\x1C\x15\x15\x0E\x10\x0C\x1B\x22\x29\x1C\x11\x0C\x59\x06\x07\x02\x2D\x58\x0C\x0F\x14\x26\x0C\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x0C\x16\x3B\x18\x1C\x0D\x19",//Elülső gombbal boost módba (450C) lép forrasztás közben 
-  /* BoostTemperature          */ "\x1D\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x51\x1C\x15\x15\x0E\x10\x51\x0C\x1B\x22\x29\x1C\x11\x19",//Hőmérséklet "boost" módban 
-  /* AutoStart                 */ "\x2A\x0D\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x0C\x37\x10\x12\x19\x0C\x11\x37\x10\x15\x1B\x11\x10\x17\x16\x37\x0E\x11\x19\x0C\x0F\x14\x26\x30\x0D\x19\x0C\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x0C\x1B\x22\x29\x1C\x11\x21\x0C\x2E\x47\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x48\x0C\x27\x47\x11\x0F\x25\x22\x0C\x1B\x22\x29\x48\x0C\x2F\x47\x16\x17",//Bekapcsolás után automatikusan lépjen forrasztás módba. T=forrasztás, S=alvó mód, F=ki 
-  /* CooldownBlink             */ "\x34\x17\x0F\x0F\x15\x1A\x30\x15\x19\x0C\x11\x0C\x20\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x20\x49\x0F\x14\x0E\x0C\x16\x3B\x18\x1C\x0D\x19\x48\x0C\x11\x1B\x1F\x1A\x0C\x11\x0C\x20\x0D\x1A\x1E\x0C\x2B\x15\x13\x13\x22\x21",//Villogjon a hőmérséklet hűlés közben, amíg a hegy forró. 
-  /* TemperatureCalibration    */ "\x1D\x0D\x1A\x1E\x0C\x20\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x4C\x16\x3D\x0F\x3B\x19\x1C\x0E\x14\x1A\x14\x19\x0D\x16\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x11\x21",//Hegy hőmérséklet-különbségének kalibrálása. 
-  /* SettingsReset             */ "\x2A\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16\x0C\x11\x0F\x11\x26\x20\x0D\x0F\x1E\x18\x0D\x10\x1C\x0D\x0C\x12\x0F\x0F\x1F\x10\x12\x0E\x11",//Beállítások alaphelyzetbe állítása 
-  /* VoltageCalibration        */ "\x2A\x0D\x1B\x0D\x19\x0D\x10\x17\x0C\x2B\x0D\x0E\x18\x3D\x0F\x10\x0E\x14\x1A\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x11\x21\x0C\x2C\x3B\x25\x17\x29\x0D\x19\x0C\x1B\x0D\x1A\x19\x1E\x15\x1B\x25\x11\x0C\x1B\x22\x29\x15\x0E\x1F\x10\x12\x0E\x48\x0C\x20\x15\x0E\x0E\x18\x11\x19\x0C\x1B\x0D\x1A\x19\x1E\x15\x1B\x25\x11\x0C\x16\x17\x0F\x14\x26\x14\x0E",//Bemeneti feszültség kalibrálása. Röviden megnyomva módosítás, hosszan megnyomva kilépés 
+  /* PowerSource               */ "\x4D\x13\x11\x1B\x2B\x15\x13\x13\x12\x0E\x20\x0C\x2A\x0D\x12\x0F\x0F\x1F\x10\x30\x11\x0C\x11\x0C\x0F\x0D\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x17\x0C\x2B\x0D\x0E\x18\x3E\x0F\x10\x0E\x14\x1A\x0D\x10\x20\x0C\x3A\x3D\x2D\x0C\x03\x02\x36\x39\x0C\x3A\x27\x0C\x05\x20\x05\x36\x0C\x33\x0D\x0F\x0F\x12\x19\x16\x14\x19\x10\x39",//Áramforrás. Beállítja a lekapcsolási feszültséget. <DC 10V> <S 3.3V cellánként> 
+  /* SleepTemperature          */ "\x24\x0F\x23\x12\x0E\x17\x0C\x21\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x3A\x2D\x39",//Alvási hőmérséklet <C> 
+  /* SleepTimeout              */ "\x24\x0F\x23\x12\x0E\x0C\x17\x29\x25\x18\x1F\x10\x25\x0C\x3A\x26\x0D\x13\x33\x56\x1B\x12\x0E\x15\x29\x26\x0D\x13\x33\x39",//Alvás időzítő <perc/másodperc> 
+  /* ShutdownTimeout           */ "\x32\x17\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x17\x0C\x17\x29\x25\x18\x1F\x10\x25\x0C\x3A\x26\x0D\x13\x33\x39",//Kikapcsolási időzítő <perc> 
+  /* MotionSensitivity         */ "\x34\x15\x18\x1A\x12\x0E\x0C\x14\x13\x18\x14\x16\x0D\x19\x1E\x0E\x14\x1A\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x11\x20\x0C\x3A\x02\x20\x16\x17\x16\x11\x26\x33\x0E\x15\x0F\x23\x11\x0C\x03\x20\x0F\x0D\x1A\x16\x0D\x23\x14\x0E\x1C\x14\x0C\x14\x13\x18\x14\x16\x0D\x19\x1E\x0C\x0B\x20\x0F\x0D\x1A\x14\x13\x18\x14\x16\x0D\x19\x1E\x0D\x1C\x1C\x39",//Mozgás érzékenység beállítása. <0.kikapcsolva 1.legkevésbé érzékeny 9.legérzékenyebb> 
+  /* TemperatureUnit           */ "\x1D\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x1B\x14\x13\x10\x14\x16\x0D\x1A\x1E\x0E\x14\x1A\x0D\x0C\x3A\x2D\x47\x2D\x0D\x0F\x0E\x17\x37\x0E\x0C\x2F\x47\x2F\x11\x21\x13\x0D\x19\x21\x0D\x17\x10\x39",//Hőmérséklet mértékegysége <C=Celsius F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x2C\x14\x0E\x18\x0F\x0D\x10\x0D\x0E\x0C\x17\x19\x2B\x15\x13\x1B\x12\x33\x17\x22\x0C\x1B\x0D\x1A\x30\x0D\x0F\x0D\x19\x1F\x10\x14\x0E\x0D\x0C\x16\x17\x0E\x0D\x1C\x1C\x0C\x1C\x0D\x10\x49\x1B\x14\x13\x0D\x10\x1C\x0D\x19\x0C\x11\x0C\x16\x14\x0E\x18\x0D\x19\x0F\x14\x10\x17\x0C\x16\x14\x26\x0D\x13\x19\x1E\x25\x19\x20",//Részletes információ megjelenítése kisebb betűméretben a készenléti képernyőn. 
+  /* DisplayRotation           */ "\x32\x17\x30\x0D\x0F\x18\x25\x0C\x10\x12\x30\x15\x0F\x12\x0E\x11\x0C\x3A\x24\x20\x0C\x11\x37\x10\x15\x1B\x11\x10\x17\x16\x37\x0E\x0C\x2A\x20\x0C\x1C\x11\x0F\x16\x0D\x18\x0D\x0E\x0C\x46\x20\x0C\x30\x15\x1C\x1C\x16\x0D\x18\x0D\x0E\x39",//Kijelző tájolása <A. automatikus B. balkezes J. jobbkezes> 
+  /* BoostEnabled              */ "\x28\x0F\x3E\x0F\x0E\x25\x0C\x1A\x15\x1B\x1C\x1C\x11\x0F\x0C\x1C\x15\x15\x0E\x10\x0C\x1B\x22\x29\x1C\x11\x0C\x59\x06\x07\x02\x2D\x58\x0C\x0F\x14\x26\x0C\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x0C\x16\x3B\x18\x1C\x0D\x19",//Elülső gombbal boost módba (450C) lép forrasztás közben 
+  /* BoostTemperature          */ "\x1D\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x51\x1C\x15\x15\x0E\x10\x51\x0C\x1B\x22\x29\x1C\x11\x19",//Hőmérséklet "boost" módban 
+  /* AutoStart                 */ "\x2A\x0D\x16\x11\x26\x33\x0E\x15\x0F\x12\x0E\x0C\x37\x10\x12\x19\x0C\x11\x37\x10\x15\x1B\x11\x10\x17\x16\x37\x0E\x11\x19\x0C\x0F\x14\x26\x30\x0D\x19\x0C\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x0C\x1B\x22\x29\x1C\x11\x20\x0C\x2E\x47\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x48\x0C\x27\x47\x11\x0F\x23\x22\x0C\x1B\x22\x29\x48\x0C\x2F\x47\x16\x17",//Bekapcsolás után automatikusan lépjen forrasztás módba. T=forrasztás, S=alvó mód, F=ki 
+  /* CooldownBlink             */ "\x36\x17\x0F\x0F\x15\x1A\x30\x15\x19\x0C\x11\x0C\x21\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x0C\x21\x49\x0F\x14\x0E\x0C\x16\x3B\x18\x1C\x0D\x19\x48\x0C\x11\x1B\x1F\x1A\x0C\x11\x0C\x21\x0D\x1A\x1E\x0C\x2B\x15\x13\x13\x22\x20",//Villogjon a hőmérséklet hűlés közben, amíg a hegy forró. 
+  /* TemperatureCalibration    */ "\x1D\x0D\x1A\x1E\x0C\x21\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x4C\x16\x3E\x0F\x3B\x19\x1C\x0E\x14\x1A\x14\x19\x0D\x16\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x11\x20",//Hegy hőmérséklet-különbségének kalibrálása. 
+  /* SettingsReset             */ "\x2A\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16\x0C\x11\x0F\x11\x26\x21\x0D\x0F\x1E\x18\x0D\x10\x1C\x0D\x0C\x12\x0F\x0F\x1F\x10\x12\x0E\x11",//Beállítások alaphelyzetbe állítása 
+  /* VoltageCalibration        */ "\x2A\x0D\x1B\x0D\x19\x0D\x10\x17\x0C\x2B\x0D\x0E\x18\x3E\x0F\x10\x0E\x14\x1A\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x11\x20\x0C\x2C\x3B\x23\x17\x29\x0D\x19\x0C\x1B\x0D\x1A\x19\x1E\x15\x1B\x23\x11\x0C\x1B\x22\x29\x15\x0E\x1F\x10\x12\x0E\x48\x0C\x21\x15\x0E\x0E\x18\x11\x19\x0C\x1B\x0D\x1A\x19\x1E\x15\x1B\x23\x11\x0C\x16\x17\x0F\x14\x26\x14\x0E",//Bemeneti feszültség kalibrálása. Röviden megnyomva módosítás, hosszan megnyomva kilépés 
   /* AdvancedSoldering         */ "\x2C\x14\x0E\x18\x0F\x0D\x10\x0D\x0E\x0C\x17\x19\x2B\x15\x13\x1B\x12\x33\x17\x22\x16\x0C\x1B\x0D\x1A\x30\x0D\x0F\x0D\x19\x1F\x10\x14\x0E\x0D\x0C\x2B\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x0C\x16\x3B\x18\x1C\x0D\x19",//Részletes információk megjelenítése forrasztás közben 
-  /* ScrollingSpeed            */ "\x27\x18\x3B\x25\x0D\x1A\x1A\x3B\x13\x1A\x0D\x10\x14\x0E\x0C\x0E\x0D\x1C\x0D\x0E\x0E\x14\x1A\x0D",//Szöveggörgetés sebessége 
-  /* TipModel                  */ "\x2F\x15\x13\x13\x11\x0E\x18\x10\x22\x20\x0D\x1A\x1E\x0C\x1B\x15\x29\x0D\x0F\x0F\x0C\x16\x17\x25\x12\x0F\x11\x0E\x18\x10\x12\x0E\x11",//Forrasztóhegy modell kiválasztása 
-  /* SimpleCalibrationMode     */ "\x28\x1A\x1E\x0E\x18\x0D\x13\x49\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x0C\x2B\x15\x13\x13\x22\x0C\x25\x1F\x18\x0C\x0E\x0D\x1A\x1F\x10\x0E\x14\x1A\x14\x25\x0D\x0F",//Egyszerű kalibrálás forró víz segítségével 
-  /* AdvancedCalibrationMode   */ "\x1D\x11\x0F\x11\x29\x22\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x0C\x20\x0D\x1A\x1E\x13\x0D\x0C\x20\x0D\x0F\x1E\x0D\x18\x0D\x10\x10\x0C\x20\x24\x0D\x0F\x0D\x1B\x0C\x0E\x0D\x1A\x1F\x10\x0E\x14\x1A\x14\x25\x0D\x0F",//Haladó kalibrálás hegyre helyezett hőelem segítségével 
-  /* PowerInput                */ "\x23\x0C\x10\x12\x26\x0D\x1A\x1E\x0E\x14\x1A\x0C\x12\x0F\x10\x11\x0F\x0C\x0F\x0D\x11\x29\x15\x10\x10\x0C\x10\x0D\x0F\x30\x0D\x0E\x1F\x10\x1B\x14\x19\x1E",//A tápegység által leadott teljesítmény 
+  /* ScrollingSpeed            */ "\x27\x18\x3B\x23\x0D\x1A\x1A\x3B\x13\x1A\x0D\x10\x14\x0E\x0C\x0E\x0D\x1C\x0D\x0E\x0E\x14\x1A\x0D",//Szöveggörgetés sebessége 
+  /* TipModel                  */ "\x2F\x15\x13\x13\x11\x0E\x18\x10\x22\x21\x0D\x1A\x1E\x0C\x1B\x15\x29\x0D\x0F\x0F\x0C\x16\x17\x23\x12\x0F\x11\x0E\x18\x10\x12\x0E\x11",//Forrasztóhegy modell kiválasztása 
+  /* SimpleCalibrationMode     */ "\x28\x1A\x1E\x0E\x18\x0D\x13\x49\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x0C\x2B\x15\x13\x13\x22\x0C\x23\x1F\x18\x0C\x0E\x0D\x1A\x1F\x10\x0E\x14\x1A\x14\x23\x0D\x0F",//Egyszerű kalibrálás forró víz segítségével 
+  /* AdvancedCalibrationMode   */ "\x1D\x11\x0F\x11\x29\x22\x0C\x16\x11\x0F\x17\x1C\x13\x12\x0F\x12\x0E\x0C\x21\x0D\x1A\x1E\x13\x0D\x0C\x21\x0D\x0F\x1E\x0D\x18\x0D\x10\x10\x0C\x21\x25\x0D\x0F\x0D\x1B\x0C\x0E\x0D\x1A\x1F\x10\x0E\x14\x1A\x14\x23\x0D\x0F",//Haladó kalibrálás hegyre helyezett hőelem segítségével 
+  /* PowerInput                */ "\x24\x0C\x10\x12\x26\x0D\x1A\x1E\x0E\x14\x1A\x0C\x12\x0F\x10\x11\x0F\x0C\x0F\x0D\x11\x29\x15\x10\x10\x0C\x10\x0D\x0F\x30\x0D\x0E\x1F\x10\x1B\x14\x19\x1E",//A tápegység által leadott teljesítmény 
   /* PowerLimitEnable          */ "\x28\x19\x11\x1C\x0F\x0D\x0C\x26\x15\x4E\x0D\x13\x0C\x0F\x17\x1B\x17\x10",//Enable power limit 
-  /* PowerLimit                */ "\x35\x11\x55\x17\x1B\x37\x1B\x0C\x26\x15\x4E\x0D\x13\x0C\x10\x20\x0D\x0C\x17\x13\x15\x19\x0C\x33\x11\x19\x0C\x37\x0E\x0D\x0C\x3A\x43\x11\x10\x10\x0E\x39",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x34\x11\x55\x17\x1B\x37\x1B\x0C\x26\x15\x4E\x0D\x13\x0C\x10\x21\x0D\x0C\x17\x13\x15\x19\x0C\x33\x11\x19\x0C\x37\x0E\x0D\x0C\x3A\x43\x11\x10\x10\x0E\x39",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x32\x11\x0F\x17\x1C\x13\x12\x33\x17\x22\x0C\x1C\x0D\x2B\x0D\x30\x0D\x18\x25\x0D\x40";//Kalibráció befejezve! 
-const char* SettingsCalibrationWarning = "\x2F\x15\x0F\x1E\x10\x11\x10\x12\x0E\x0C\x0D\x0F\x24\x10\x10\x0C\x1A\x1E\x24\x18\x24\x29\x30\x3B\x19\x0C\x1B\x0D\x1A\x0C\x13\x22\x0F\x11\x48\x0C\x20\x15\x1A\x1E\x0C\x11\x0C\x20\x0D\x1A\x1E\x0C\x0E\x18\x15\x1C\x11\x20\x24\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x49\x40";//Folytatás előtt győződjön meg róla, hogy a hegy szobahőmérsékletű! 
-const char* SettingsResetWarning = "\x2A\x17\x18\x10\x15\x0E\x11\x19\x0C\x25\x17\x0E\x0E\x18\x11\x12\x0F\x0F\x1F\x10\x30\x11\x0C\x11\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16\x11\x10\x0C\x11\x18\x0C\x11\x0F\x11\x26\x14\x13\x10\x0D\x0F\x1B\x0D\x18\x0D\x10\x10\x0C\x14\x13\x10\x14\x16\x0D\x16\x13\x0D\x4B";//Biztosan visszaállítja a beállításokat az alapértelmezett értékekre? 
-const char* UVLOWarningString = "\x3C\x2D\x0C\x32\x28\x34\x42\x27";//DC KEVÉS 
-const char* UndervoltageString = "\x23\x0F\x37\x0F\x2B\x0D\x0E\x18\x3D\x0F\x10\x0E\x14\x1A";//Alulfeszültség 
-const char* InputVoltageString = "\x2A\x0D\x1B\x0D\x19\x0D\x10\x0C\x34\x44\x0C";//Bemenet V:  
-const char* WarningTipTempString = "\x1D\x0D\x1A\x1E\x0C\x20\x24\x44\x0C";//Hegy hő:  
-const char* BadTipString = "\x1D\x28\x36\x3E\x0C\x1D\x38\x2A";//HEGY HIB 
+const char* SettingsCalibrationDone = "\x32\x11\x0F\x17\x1C\x13\x12\x33\x17\x22\x0C\x1C\x0D\x2B\x0D\x30\x0D\x18\x23\x0D\x40";//Kalibráció befejezve! 
+const char* SettingsCalibrationWarning = "\x2F\x15\x0F\x1E\x10\x11\x10\x12\x0E\x0C\x0D\x0F\x25\x10\x10\x0C\x1A\x1E\x25\x18\x25\x29\x30\x3B\x19\x0C\x1B\x0D\x1A\x0C\x13\x22\x0F\x11\x48\x0C\x21\x15\x1A\x1E\x0C\x11\x0C\x21\x0D\x1A\x1E\x0C\x0E\x18\x15\x1C\x11\x21\x25\x1B\x14\x13\x0E\x14\x16\x0F\x0D\x10\x49\x40";//Folytatás előtt győződjön meg róla, hogy a hegy szobahőmérsékletű! 
+const char* SettingsResetWarning = "\x2A\x17\x18\x10\x15\x0E\x11\x19\x0C\x23\x17\x0E\x0E\x18\x11\x12\x0F\x0F\x1F\x10\x30\x11\x0C\x11\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16\x11\x10\x0C\x11\x18\x0C\x11\x0F\x11\x26\x14\x13\x10\x0D\x0F\x1B\x0D\x18\x0D\x10\x10\x0C\x14\x13\x10\x14\x16\x0D\x16\x13\x0D\x4B";//Biztosan visszaállítja a beállításokat az alapértelmezett értékekre? 
+const char* UVLOWarningString = "\x3D\x2D\x0C\x32\x28\x36\x42\x27";//DC KEVÉS 
+const char* UndervoltageString = "\x24\x0F\x37\x0F\x2B\x0D\x0E\x18\x3E\x0F\x10\x0E\x14\x1A";//Alulfeszültség 
+const char* InputVoltageString = "\x2A\x0D\x1B\x0D\x19\x0D\x10\x0C\x36\x44\x0C";//Bemenet V:  
+const char* WarningTipTempString = "\x1D\x0D\x1A\x1E\x0C\x21\x25\x44\x0C";//Hegy hő:  
+const char* BadTipString = "\x1D\x28\x35\x3F\x0C\x1D\x38\x2A";//HEGY HIB 
 const char* SleepingSimpleString = "\x4A\x18\x18\x18";//Zzzz 
-const char* SleepingAdvancedString = "\x23\x0F\x25\x12\x0E\x21\x21\x21";//Alvás... 
-const char* WarningSimpleString = "\x2F\x3F\x2C\x2C";//FORR 
-const char* WarningAdvancedString = "\x40\x40\x0C\x2F\x3F\x2C\x2C\x54\x0C\x1D\x28\x36\x3E\x0C\x40\x40";//!! FORRÓ HEGY !! 
+const char* SleepingAdvancedString = "\x24\x0F\x23\x12\x0E\x20\x20\x20";//Alvás... 
+const char* WarningSimpleString = "\x2F\x3C\x2C\x2C";//FORR 
+const char* WarningAdvancedString = "\x40\x40\x0C\x2F\x3C\x2C\x2C\x54\x0C\x1D\x28\x35\x3F\x0C\x40\x40";//!! FORRÓ HEGY !! 
 const char* SleepingTipAdvancedString = "\x1D\x0D\x1A\x1E\x44";//Hegy: 
 const char* IdleTipString = "\x1D\x0D\x1A\x1E\x44";//Hegy: 
 const char* IdleSetString = "\x0C\x2D\x14\x0F\x44";// Cél: 
-const char* TipDisconnectedString = "\x1D\x28\x36\x3E\x0C\x31\x28\x34\x42\x34\x28";//HEGY LEVÉVE 
+const char* TipDisconnectedString = "\x1D\x28\x35\x3F\x0C\x31\x28\x36\x42\x36\x28";//HEGY LEVÉVE 
 const char* SolderingAdvancedPowerPrompt = "\x2E\x0D\x0F\x30\x44\x0C";//Telj:  
 const char* OffString = "\x32\x17";//Ki 
-const char* ResetOKMessage = "\x2C\x0D\x0E\x0D\x10\x0C\x3F\x32";//Reset OK 
-const char* YourGainMessage = "\x3E\x15\x37\x13\x0C\x36\x11\x17\x19";//Your Gain 
+const char* ResetOKMessage = "\x2C\x0D\x0E\x0D\x10\x0C\x3C\x32";//Reset OK 
+const char* YourGainMessage = "\x3F\x15\x37\x13\x0C\x35\x11\x17\x19";//Your Gain 
 const char* SettingsResetMessage = "\x27\x0D\x10\x10\x17\x19\x1A\x0E\x0C\x4E\x0D\x13\x0D\x01\x13\x0D\x0E\x0D\x10\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x46";//J 
 const char* SettingLeftChar = "\x2A";//B 
-const char* SettingAutoChar = "\x23";//A 
-const char* SettingFastChar = "\x36";//G 
+const char* SettingAutoChar = "\x24";//A 
+const char* SettingFastChar = "\x35";//G 
 const char* SettingSlowChar = "\x31";//L 
 const char* SettingStartSolderingChar = "\x2E";//T 
 const char* SettingStartSleepChar = "\x27";//S 
+const char* SettingStartSleepOffChar = "\x3C";//O 
 const char* SettingStartNoneChar = "\x2F";//F 
 
 const char* SymbolPlus = "\x57";//+ 
 const char* SymbolMinus = "\x4C";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x21";//. 
+const char* SymbolDot = "\x20";//. 
 const char* SymbolDegC = "\x2D";//C 
 const char* SymbolDegF = "\x2F";//F 
-const char* SymbolMinutes = "\x35";//M 
+const char* SymbolMinutes = "\x34";//M 
 const char* SymbolSeconds = "\x27";//S 
 const char* SymbolWatts = "\x43";//W 
-const char* SymbolVolts = "\x34";//V 
-const char* SymbolDC = "\x3C\x2D";//DC 
+const char* SymbolVolts = "\x36";//V 
+const char* SymbolDC = "\x3D\x2D";//DC 
 const char* SymbolCellCount = "\x27";//S 
-const char* SymbolVersionNumber = "\x34\x04\x21\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x23\x04\x20\x02\x0A\x20\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x2A\x02\x04",//B02 
-	 "\x3C\x04\x06",//D24 
+	 "\x3D\x04\x06",//D24 
 	 "\x2A\x2D\x04",//BC2 
 	 "\x0C\x2D\x03",// C1 
 	 "\x2E\x27\x03\x02\x02",//TS100 
@@ -3126,64 +3136,64 @@ const char* TipModelStrings[] = {
 	 "\x4F\x0E\x0D\x13",//User 
 #else
 	 "\x2A\x02\x04",//B02 
-	 "\x3C\x04\x07",//D25 
+	 "\x3D\x04\x07",//D25 
 	 "\x2E\x27\x0A\x02",//TS80 
 	 "\x4F\x0E\x0D\x13",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x4C\x02\x03\x4C\x04\x02",//18-01-20 
-	 "\x1D\x43\x0C\x36\x0C",//HW G  
-	 "\x1D\x43\x0C\x35\x0C",//HW M  
+	 "\x03\x06\x4C\x02\x05\x4C\x04\x02",//14-03-20 
+	 "\x1D\x43\x0C\x35\x0C",//HW G  
+	 "\x1D\x43\x0C\x34\x0C",//HW M  
 	 "\x1D\x43\x0C\x45\x0C",//HW P  
 	 "\x2E\x17\x1B\x0D\x0C",//Time  
-	 "\x35\x15\x25\x0D\x0C",//Move  
+	 "\x34\x15\x23\x0D\x0C",//Move  
 	 "\x2C\x2E\x17\x26\x0C",//RTip  
 	 "\x2D\x2E\x17\x26\x0C",//CTip  
 	 "\x2D\x1D\x11\x19\x0C",//CHan  
-	 "\x34\x17\x19\x0C\x0C",//Vin   
+	 "\x36\x17\x19\x0C\x0C",//Vin   
 	 "\x45\x2D\x2A\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x4D\x2C\x23\x35\x2F" },//ÁRAMF 
-  /* SleepTemperature          */ { "\x23\x1D\x41\x35" },//AHŐM 
-  /* SleepTimeout              */ { "\x23\x38\x3C\x41" },//AIDŐ 
-  /* ShutdownTimeout           */ { "\x32\x38\x38\x3C\x41" },//KIIDŐ 
-  /* MotionSensitivity         */ { "\x35\x3F\x4A\x36\x42\x2C" },//MOZGÉR 
-  /* TemperatureUnit           */ { "\x1D\x41\x28\x36\x3E\x27" },//HŐEGYS 
+  /* PowerSource               */ { "\x4D\x2C\x24\x34\x2F" },//ÁRAMF 
+  /* SleepTemperature          */ { "\x24\x1D\x41\x34" },//AHŐM 
+  /* SleepTimeout              */ { "\x24\x38\x3D\x41" },//AIDŐ 
+  /* ShutdownTimeout           */ { "\x32\x38\x38\x3D\x41" },//KIIDŐ 
+  /* MotionSensitivity         */ { "\x34\x3C\x4A\x35\x42\x2C" },//MOZGÉR 
+  /* TemperatureUnit           */ { "\x1D\x41\x28\x35\x3F\x27" },//HŐEGYS 
   /* AdvancedIdle              */ { "\x2C\x42\x27\x4A\x31\x38" },//RÉSZLI 
   /* DisplayRotation           */ { "\x32\x38\x46\x2E\x4D\x46" },//KIJTÁJ 
-  /* BoostEnabled              */ { "\x2A\x3F\x3F\x27\x2E" },//BOOST 
+  /* BoostEnabled              */ { "\x2A\x3C\x3C\x27\x2E" },//BOOST 
   /* BoostTemperature          */ { "\x2A\x1D\x41" },//BHŐ 
-  /* AutoStart                 */ { "\x23\x27\x2E\x23\x2C\x2E" },//ASTART 
-  /* CooldownBlink             */ { "\x1D\x52\x31\x42\x27\x34" },//HŰLÉSV 
-  /* TemperatureCalibration    */ { "\x1D\x41\x35\x0C\x32\x23\x31\x4B" },//HŐM KAL? 
+  /* AutoStart                 */ { "\x24\x27\x2E\x24\x2C\x2E" },//ASTART 
+  /* CooldownBlink             */ { "\x1D\x52\x31\x42\x27\x36" },//HŰLÉSV 
+  /* TemperatureCalibration    */ { "\x1D\x41\x34\x0C\x32\x24\x31\x4B" },//HŐM KAL? 
   /* SettingsReset             */ { "\x2C\x28\x27\x28\x2E\x4B" },//RESET? 
-  /* VoltageCalibration        */ { "\x34\x38\x50\x0C\x32\x23\x31\x4B" },//VIN KAL? 
-  /* AdvancedSoldering         */ { "\x1D\x23\x31\x32\x42\x45" },//HALKÉP 
-  /* ScrollingSpeed            */ { "\x36\x53\x2C\x36\x27" },//GÖRGS 
-  /* TipModel                  */ { "\x1D\x28\x36\x3E\x35\x3F\x3C" },//HEGYMOD 
-  /* SimpleCalibrationMode     */ { "\x28\x36\x3E\x27\x4A\x32\x23\x31" },//EGYSZKAL 
-  /* AdvancedCalibrationMode   */ { "\x1D\x23\x31\x32\x23\x31" },//HALKAL 
+  /* VoltageCalibration        */ { "\x36\x38\x50\x0C\x32\x24\x31\x4B" },//VIN KAL? 
+  /* AdvancedSoldering         */ { "\x1D\x24\x31\x32\x42\x45" },//HALKÉP 
+  /* ScrollingSpeed            */ { "\x35\x53\x2C\x35\x27" },//GÖRGS 
+  /* TipModel                  */ { "\x1D\x28\x35\x3F\x34\x3C\x3D" },//HEGYMOD 
+  /* SimpleCalibrationMode     */ { "\x28\x35\x3F\x27\x4A\x32\x24\x31" },//EGYSZKAL 
+  /* AdvancedCalibrationMode   */ { "\x1D\x24\x31\x32\x24\x31" },//HALKAL 
   /* PowerInput                */ { "\x2E\x28\x31\x46\x43" },//TELJW 
-  /* PowerLimitEnable          */ { "\x45\x31\x38\x35\x28\x50" },//PLIMEN 
-  /* PowerLimit                */ { "\x45\x31\x38\x35" },//PLIM 
+  /* PowerLimitEnable          */ { "\x45\x31\x38\x34\x28\x50" },//PLIMEN 
+  /* PowerLimit                */ { "\x45\x31\x38\x34" },//PLIM 
 };
 
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x2F\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x17\x01\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16",//['Forrasztási', 'beállítások'] 
-  /* PowerSavingMenu           */ "\x23\x0F\x25\x12\x0E\x17\x01\x1B\x22\x29\x15\x16",//['Alvási', 'módok'] 
-  /* UIMenu                    */ "\x2F\x0D\x0F\x20\x11\x0E\x18\x19\x12\x0F\x22\x01\x2B\x0D\x0F\x3D\x0F\x0D\x10",//['Felhasználó', 'felület'] 
+  /* PowerSavingMenu           */ "\x24\x0F\x23\x12\x0E\x17\x01\x1B\x22\x29\x15\x16",//['Alvási', 'módok'] 
+  /* UIMenu                    */ "\x2F\x0D\x0F\x21\x11\x0E\x18\x19\x12\x0F\x22\x01\x2B\x0D\x0F\x3E\x0F\x0D\x10",//['Felhasználó', 'felület'] 
   /* AdvancedMenu              */ "\x1D\x11\x0F\x11\x29\x22\x01\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16",//['Haladó', 'beállítások'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x2F\x15\x13\x13\x11\x0E\x18\x10\x12\x0E\x17\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16",//Forrasztási beállítások 
   /* PowerSavingMenu           */ "\x28\x19\x0D\x13\x1A\x17\x11\x10\x11\x16\x11\x13\x14\x16\x15\x0E\x0E\x12\x1A\x17\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16",//Energiatakarékossági beállítások 
-  /* UIMenu                    */ "\x2F\x0D\x0F\x20\x11\x0E\x18\x19\x12\x0F\x22\x17\x0C\x2B\x0D\x0F\x3D\x0F\x0D\x10\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x11\x17",//Felhasználói felület beállításai 
+  /* UIMenu                    */ "\x2F\x0D\x0F\x21\x11\x0E\x18\x19\x12\x0F\x22\x17\x0C\x2B\x0D\x0F\x3E\x0F\x0D\x10\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x11\x17",//Felhasználói felület beállításai 
   /* AdvancedMenu              */ "\x1D\x11\x0F\x11\x29\x22\x0C\x1C\x0D\x12\x0F\x0F\x1F\x10\x12\x0E\x15\x16",//Haladó beállítások 
 };
 
@@ -3236,10 +3246,10 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2C -> <
 0x00,0x00,0x00,0x00,0x27,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2D -> '
 0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x2E -> y
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x2F -> V
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x30 -> F
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x31 -> U
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x32 -> O
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2F -> F
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x30 -> V
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x31 -> O
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x32 -> U
 0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x33 -> N
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x34 -> ,
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x35 -> R
@@ -3255,12 +3265,12 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x3F -> h
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x40 -> !
 0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x41 -> /
-0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x42 -> -
-0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x43 -> °
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x44 -> q
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x45 -> k
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x46 -> G
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x47 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x42 -> .
+0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x43 -> -
+0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> °
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x07,0x0F,0x1C,0x18,0x18,0x18,0x18,0x0C,0xFF,0xFF,0x00,//\x45 -> q
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x46 -> k
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x47 -> G
 0x00,0x80,0xC0,0xE0,0x62,0x66,0x6C,0x68,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x33,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x48 -> è
 0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x49 -> x
 0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x4A -> Z
@@ -3315,10 +3325,10 @@ const uint8_t USER_FONT_6x8[] = {
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2C -> <
 0x00, 0x05, 0x03, 0x00, 0x00, 0x00,//\x2D -> '
 0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x2E -> y
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x2F -> V
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x30 -> F
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x31 -> U
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x32 -> O
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x2F -> F
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x30 -> V
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x31 -> O
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x32 -> U
 0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x33 -> N
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x34 -> ,
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x35 -> R
@@ -3334,12 +3344,12 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x3F -> h
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x40 -> !
 0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x41 -> /
-0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x42 -> -
-0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x43 -> °
-0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x44 -> q
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x45 -> k
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x46 -> G
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x47 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x42 -> .
+0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x43 -> -
+0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x44 -> °
+0x08, 0x14, 0x14, 0x14, 0x7c, 0x00,//\x45 -> q
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x46 -> k
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x47 -> G
 0x38, 0x55, 0x56, 0x54, 0x08, 0x00,//\x48 -> è
 0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x49 -> x
 0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x4A -> Z
@@ -3351,25 +3361,25 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Italiano ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1D\x1B\x0F\x20\x14\x0E\x0C\x14\x0D\x0C\x16\x12\x13\x20\x0F\x11\x10\x0F\x0C\x19\x0E\x0C\x0D\x14\x0E\x15\x0F\x11\x10\x0D\x1A\x0E\x12\x11\x0F\x29\x0C\x16\x0F\x0C\x0D\x0C\x1C\x0D\x10\x10\x0F\x13\x0E\x0D\x34\x0C\x14\x0E\x15\x0E\x10\x0D\x0C\x14\x12\x0C\x16\x1B\x0D\x13\x0E\x1B\x0D\x15\x0F\x11\x10\x12\x0C\x0D\x14\x0C\x1F\x0D\x14\x12\x13\x0F\x0C\x19\x0E\x0C\x16\x12\x20\x14\x0E\x0D\x0C\x2C\x27\x1E\x22\x0C\x03\x02\x2F\x29\x0C\x1D\x22\x0C\x05\x34\x05\x2F\x0C\x17\x0F\x13\x0C\x1B\x0F\x14\x14\x0D\x2B",//Scegli la sorgente di alimentazione; se a batteria, limita lo scaricamento al valore di soglia <DC: 10V; S: 3,3V per cella> 
-  /* SleepTemperature          */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x19\x0D\x0C\x15\x0D\x11\x10\x0F\x11\x0F\x13\x0F\x0C\x0E\x11\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x10\x0D\x11\x19\x1C\x2E\x0C\x2C\x43\x1E\x41\x43\x30\x2B",//Imposta la temperatura da mantenere in modalità Standby <°C/°F> 
+  /* PowerSource               */ "\x1D\x1B\x0F\x20\x14\x0E\x0C\x14\x0D\x0C\x16\x12\x13\x20\x0F\x11\x10\x0F\x0C\x19\x0E\x0C\x0D\x14\x0E\x15\x0F\x11\x10\x0D\x1A\x0E\x12\x11\x0F\x29\x0C\x16\x0F\x0C\x0D\x0C\x1C\x0D\x10\x10\x0F\x13\x0E\x0D\x34\x0C\x14\x0E\x15\x0E\x10\x0D\x0C\x14\x12\x0C\x16\x1B\x0D\x13\x0E\x1B\x0D\x15\x0F\x11\x10\x12\x0C\x0D\x14\x0C\x1F\x0D\x14\x12\x13\x0F\x0C\x19\x0E\x0C\x16\x12\x20\x14\x0E\x0D\x0C\x2C\x27\x1E\x22\x0C\x03\x02\x30\x29\x0C\x1D\x22\x0C\x05\x34\x05\x30\x0C\x17\x0F\x13\x0C\x1B\x0F\x14\x14\x0D\x2B",//Scegli la sorgente di alimentazione; se a batteria, limita lo scaricamento al valore di soglia <DC: 10V; S: 3,3V per cella> 
+  /* SleepTemperature          */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x19\x0D\x0C\x15\x0D\x11\x10\x0F\x11\x0F\x13\x0F\x0C\x0E\x11\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x10\x0D\x11\x19\x1C\x2E\x0C\x2C\x44\x1E\x41\x44\x2F\x2B",//Imposta la temperatura da mantenere in modalità Standby <°C/°F> 
   /* SleepTimeout              */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x0E\x14\x0C\x10\x0E\x15\x0F\x13\x0C\x17\x0F\x13\x0C\x0F\x11\x10\x13\x0D\x13\x0F\x0C\x0E\x11\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x10\x0D\x11\x19\x1C\x2E\x0C\x2C\x15\x0E\x11\x18\x10\x0E\x41\x16\x0F\x1B\x12\x11\x19\x0E\x2B",//Imposta il timer per entrare in modalità Standby <minuti/secondi> 
   /* ShutdownTimeout           */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x0E\x14\x0C\x10\x0E\x15\x0F\x13\x0C\x17\x0F\x13\x0C\x14\x12\x0C\x16\x17\x0F\x20\x11\x0E\x15\x0F\x11\x10\x12\x0C\x2C\x15\x0E\x11\x18\x10\x0E\x2B",//Imposta il timer per lo spegnimento <minuti> 
   /* MotionSensitivity         */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x16\x0F\x11\x16\x0E\x1C\x0E\x14\x0E\x10\x25\x0C\x0D\x14\x0C\x15\x12\x1F\x0E\x15\x0F\x11\x10\x12\x0C\x17\x0F\x13\x0C\x18\x16\x1B\x0E\x13\x0F\x0C\x19\x0D\x14\x14\x0D\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x10\x0D\x11\x19\x1C\x2E\x0C\x2C\x02\x22\x0C\x11\x0F\x16\x16\x18\x11\x0D\x29\x0C\x03\x22\x0C\x15\x0E\x11\x0E\x15\x0D\x29\x0C\x0B\x22\x0C\x15\x0D\x16\x16\x0E\x15\x0D\x2B",//Imposta la sensibilità al movimento per uscire dalla modalità Standby <0: nessuna; 1: minima; 9: massima> 
-  /* TemperatureUnit           */ "\x1D\x1B\x0F\x20\x14\x0E\x0C\x14\x2D\x18\x11\x0E\x10\x25\x0C\x19\x0E\x0C\x15\x0E\x16\x18\x13\x0D\x0C\x17\x0F\x13\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x2C\x1E\x22\x0C\x20\x13\x0D\x19\x12\x0C\x1E\x0F\x14\x16\x0E\x18\x16\x29\x0C\x30\x22\x0C\x20\x13\x0D\x19\x12\x0C\x30\x0D\x13\x0F\x11\x3F\x0F\x0E\x10\x2B",//Scegli l'unità di misura per la temperatura <C: grado Celsius; F: grado Farenheit> 
+  /* TemperatureUnit           */ "\x1D\x1B\x0F\x20\x14\x0E\x0C\x14\x2D\x18\x11\x0E\x10\x25\x0C\x19\x0E\x0C\x15\x0E\x16\x18\x13\x0D\x0C\x17\x0F\x13\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x2C\x1E\x22\x0C\x20\x13\x0D\x19\x12\x0C\x1E\x0F\x14\x16\x0E\x18\x16\x29\x0C\x2F\x22\x0C\x20\x13\x0D\x19\x12\x0C\x2F\x0D\x13\x0F\x11\x3F\x0F\x0E\x10\x2B",//Scegli l'unità di misura per la temperatura <C: grado Celsius; F: grado Farenheit> 
   /* AdvancedIdle              */ "\x26\x12\x16\x10\x13\x0D\x0C\x0E\x11\x28\x12\x13\x15\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0F\x10\x10\x0D\x20\x14\x0E\x0D\x10\x0F\x0C\x0D\x14\x14\x2D\x0E\x11\x10\x0F\x13\x11\x12\x0C\x19\x0F\x14\x14\x0D\x0C\x16\x1B\x3F\x0F\x13\x15\x0D\x10\x0D\x0C\x17\x13\x0E\x11\x1B\x0E\x17\x0D\x14\x0F",//Mostra informazioni dettagliate all'interno della schermata principale 
   /* DisplayRotation           */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x2D\x12\x13\x0E\x0F\x11\x10\x0D\x15\x0F\x11\x10\x12\x0C\x19\x0F\x14\x0C\x19\x0E\x16\x17\x14\x0D\x2E\x0C\x2C\x23\x22\x0C\x0D\x18\x10\x12\x15\x0D\x10\x0E\x1B\x12\x29\x0C\x1D\x22\x0C\x15\x0D\x11\x12\x0C\x16\x0E\x11\x0E\x16\x10\x13\x0D\x29\x0C\x27\x22\x0C\x15\x0D\x11\x12\x0C\x19\x0F\x16\x10\x13\x0D\x2B",//Imposta l'orientamento del display <A: automatico; S: mano sinistra; D: mano destra> 
   /* BoostEnabled              */ "\x23\x10\x10\x0E\x1F\x0D\x0C\x14\x0D\x0C\x28\x18\x11\x1A\x0E\x12\x11\x0F\x0C\x3D\x21\x18\x13\x1C\x12\x3C\x34\x0C\x19\x18\x13\x0D\x11\x10\x0F\x0C\x14\x0D\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x0D\x14\x19\x0D\x10\x18\x13\x0D\x34\x0C\x10\x0F\x11\x0F\x11\x19\x12\x0C\x17\x13\x0F\x15\x18\x10\x12\x0C\x0E\x14\x0C\x10\x0D\x16\x10\x12\x0C\x16\x18\x17\x0F\x13\x0E\x12\x13\x0F",//Attiva la funzione «Turbo», durante la modalità Saldatura, tenendo premuto il tasto superiore 
   /* BoostTemperature          */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x19\x0F\x14\x14\x0D\x0C\x28\x18\x11\x1A\x0E\x12\x11\x0F\x0C\x3D\x21\x18\x13\x1C\x12\x3C",//Imposta la temperatura della funzione «Turbo» 
-  /* AutoStart                 */ "\x23\x10\x10\x0E\x1F\x0D\x0C\x0D\x18\x10\x12\x15\x0D\x10\x0E\x1B\x0D\x15\x0F\x11\x10\x0F\x0C\x0E\x14\x0C\x16\x0D\x14\x19\x0D\x10\x12\x13\x0F\x0C\x44\x18\x0D\x11\x19\x12\x0C\x1F\x0E\x0F\x11\x0F\x0C\x0D\x14\x0E\x15\x0F\x11\x10\x0D\x10\x12\x0C\x2C\x23\x22\x0C\x16\x0D\x14\x19\x0D\x10\x18\x13\x0D\x29\x0C\x1D\x22\x0C\x16\x10\x0D\x11\x19\x1C\x2E\x29\x0C\x27\x22\x0C\x19\x0E\x16\x0D\x10\x10\x0E\x1F\x0D\x2B",//Attiva automaticamente il saldatore quando viene alimentato <A: saldatura; S: standby; D: disattiva> 
+  /* AutoStart                 */ "\x23\x10\x10\x0E\x1F\x0D\x0C\x0D\x18\x10\x12\x15\x0D\x10\x0E\x1B\x0D\x15\x0F\x11\x10\x0F\x0C\x0E\x14\x0C\x16\x0D\x14\x19\x0D\x10\x12\x13\x0F\x0C\x45\x18\x0D\x11\x19\x12\x0C\x1F\x0E\x0F\x11\x0F\x0C\x0D\x14\x0E\x15\x0F\x11\x10\x0D\x10\x12\x0C\x2C\x23\x22\x0C\x16\x0D\x14\x19\x0D\x10\x18\x13\x0D\x29\x0C\x1D\x22\x0C\x16\x10\x0D\x11\x19\x1C\x2E\x29\x0C\x27\x22\x0C\x19\x0E\x16\x0D\x10\x10\x0E\x1F\x0D\x2B",//Attiva automaticamente il saldatore quando viene alimentato <A: saldatura; S: standby; D: disattiva> 
   /* CooldownBlink             */ "\x26\x12\x16\x10\x13\x0D\x34\x0C\x14\x0D\x15\x17\x0F\x20\x20\x0E\x0D\x11\x10\x0F\x34\x0C\x14\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x19\x18\x13\x0D\x11\x10\x0F\x0C\x0E\x14\x0C\x13\x0D\x28\x28\x13\x0F\x19\x19\x0D\x15\x0F\x11\x10\x12\x0C\x16\x0F\x0C\x14\x0D\x0C\x17\x18\x11\x10\x0D\x0C\x48\x0C\x0D\x11\x1B\x12\x13\x0D\x0C\x1B\x0D\x14\x19\x0D",//Mostra, lampeggiante, la temperatura durante il raffreddamento se la punta è ancora calda 
   /* TemperatureCalibration    */ "\x1E\x0D\x14\x0E\x1C\x13\x0D\x0C\x14\x0F\x0C\x13\x0E\x14\x0F\x1F\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0E\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D",//Calibra le rilevazioni di temperatura 
   /* SettingsReset             */ "\x35\x0E\x17\x13\x0E\x16\x10\x0E\x11\x0D\x0C\x10\x18\x10\x10\x0F\x0C\x14\x0F\x0C\x0E\x15\x17\x12\x16\x10\x0D\x1A\x0E\x12\x11\x0E",//Ripristina tutte le impostazioni 
   /* VoltageCalibration        */ "\x1E\x0D\x14\x0E\x1C\x13\x0D\x0C\x14\x0D\x0C\x10\x0F\x11\x16\x0E\x12\x11\x0F\x0C\x0E\x11\x0C\x0E\x11\x20\x13\x0F\x16\x16\x12\x29\x0C\x13\x0F\x20\x12\x14\x0D\x0C\x1B\x12\x11\x0C\x0F\x11\x10\x13\x0D\x15\x1C\x0E\x0C\x0E\x0C\x10\x0D\x16\x10\x0E\x34\x0C\x10\x0E\x0F\x11\x0E\x0C\x17\x13\x0F\x15\x18\x10\x12\x0C\x0E\x14\x0C\x10\x0D\x16\x10\x12\x0C\x16\x18\x17\x0F\x13\x0E\x12\x13\x0F\x0C\x17\x0F\x13\x0C\x18\x16\x1B\x0E\x13\x0F",//Calibra la tensione in ingresso; regola con entrambi i tasti, tieni premuto il tasto superiore per uscire 
   /* AdvancedSoldering         */ "\x26\x12\x16\x10\x13\x0D\x0C\x0E\x11\x28\x12\x13\x15\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0F\x10\x10\x0D\x20\x14\x0E\x0D\x10\x0F\x0C\x19\x18\x13\x0D\x11\x10\x0F\x0C\x14\x0D\x0C\x15\x12\x19\x0D\x14\x0E\x10\x25\x0C\x1D\x0D\x14\x19\x0D\x10\x18\x13\x0D",//Mostra informazioni dettagliate durante la modalità Saldatura 
-  /* ScrollingSpeed            */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x1F\x0F\x14\x12\x1B\x0E\x10\x25\x0C\x19\x0E\x0C\x16\x1B\x12\x13\x13\x0E\x15\x0F\x11\x10\x12\x0C\x19\x0F\x14\x0C\x10\x0F\x16\x10\x12\x0C\x2C\x3A\x22\x0C\x14\x0F\x11\x10\x12\x29\x0C\x2F\x22\x0C\x1F\x0F\x14\x12\x1B\x0F\x2B",//Imposta la velocità di scorrimento del testo <L: lento; V: veloce> 
+  /* ScrollingSpeed            */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x1F\x0F\x14\x12\x1B\x0E\x10\x25\x0C\x19\x0E\x0C\x16\x1B\x12\x13\x13\x0E\x15\x0F\x11\x10\x12\x0C\x19\x0F\x14\x0C\x10\x0F\x16\x10\x12\x0C\x2C\x3A\x22\x0C\x14\x0F\x11\x10\x12\x29\x0C\x30\x22\x0C\x1F\x0F\x14\x12\x1B\x0F\x2B",//Imposta la velocità di scorrimento del testo <L: lento; V: veloce> 
   /* TipModel                  */ "\x1D\x0F\x14\x0F\x1A\x0E\x12\x11\x0D\x0C\x0E\x14\x0C\x15\x12\x19\x0F\x14\x14\x12\x0C\x19\x0F\x14\x14\x0D\x0C\x17\x18\x11\x10\x0D\x0C\x0E\x11\x0C\x18\x16\x12",//Seleziona il modello della punta in uso 
-  /* SimpleCalibrationMode     */ "\x1E\x0D\x14\x0E\x1C\x13\x0D\x0C\x14\x0F\x0C\x13\x0E\x14\x0F\x1F\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0E\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x10\x13\x0D\x15\x0E\x10\x0F\x0C\x14\x2D\x18\x10\x0E\x14\x0E\x1A\x1A\x12\x0C\x19\x0E\x0C\x0D\x1B\x44\x18\x0D\x0C\x1B\x0D\x14\x19\x0D",//Calibra le rilevazioni di temperatura tramite l'utilizzo di acqua calda 
+  /* SimpleCalibrationMode     */ "\x1E\x0D\x14\x0E\x1C\x13\x0D\x0C\x14\x0F\x0C\x13\x0E\x14\x0F\x1F\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0E\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x10\x13\x0D\x15\x0E\x10\x0F\x0C\x14\x2D\x18\x10\x0E\x14\x0E\x1A\x1A\x12\x0C\x19\x0E\x0C\x0D\x1B\x45\x18\x0D\x0C\x1B\x0D\x14\x19\x0D",//Calibra le rilevazioni di temperatura tramite l'utilizzo di acqua calda 
   /* AdvancedCalibrationMode   */ "\x1E\x0D\x14\x0E\x1C\x13\x0D\x0C\x14\x0F\x0C\x13\x0E\x14\x0F\x1F\x0D\x1A\x0E\x12\x11\x0E\x0C\x19\x0E\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x0D\x10\x10\x13\x0D\x1F\x0F\x13\x16\x12\x0C\x14\x0D\x0C\x10\x0F\x13\x15\x12\x1B\x12\x17\x17\x0E\x0D\x0C\x17\x13\x0F\x16\x0F\x11\x10\x0F\x0C\x11\x0F\x14\x14\x0D\x0C\x17\x18\x11\x10\x0D",//Calibra le rilevazioni di temperatura attraverso la termocoppia presente nella punta 
   /* PowerInput                */ "\x24\x15\x17\x12\x16\x10\x0D\x0C\x14\x0D\x0C\x17\x12\x10\x0F\x11\x1A\x0D\x0C\x15\x0D\x16\x16\x0E\x15\x0D\x0C\x0F\x13\x12\x20\x0D\x1C\x0E\x14\x0F\x0C\x19\x0D\x14\x14\x2D\x0D\x14\x0E\x15\x0F\x11\x10\x0D\x10\x12\x13\x0F\x0C\x0E\x11\x0C\x18\x16\x12",//Imposta la potenza massima erogabile dall'alimentatore in uso 
   /* PowerLimitEnable          */ "\x37\x11\x0D\x1C\x14\x0F\x0C\x17\x12\x3E\x0F\x13\x0C\x14\x0E\x15\x0E\x10",//Enable power limit 
@@ -3380,46 +3390,47 @@ const char* SettingsCalibrationDone = "\x1E\x0D\x14\x0E\x1C\x13\x0D\x1A\x0E\x12\
 const char* SettingsCalibrationWarning = "\x23\x16\x16\x0E\x1B\x18\x13\x0D\x10\x0E\x0C\x1B\x3F\x0F\x0C\x14\x0D\x0C\x17\x18\x11\x10\x0D\x0C\x16\x0E\x0C\x10\x13\x12\x1F\x0E\x0C\x0D\x0C\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D\x0C\x0D\x15\x1C\x0E\x0F\x11\x10\x0F\x0C\x17\x13\x0E\x15\x0D\x0C\x19\x0E\x0C\x1B\x12\x11\x10\x0E\x11\x18\x0D\x13\x0F\x40";//Assicurati che la punta si trovi a temperatura ambiente prima di continuare! 
 const char* SettingsResetWarning = "\x35\x0E\x17\x13\x0E\x16\x10\x0E\x11\x0D\x13\x0F\x0C\x14\x0F\x0C\x0E\x15\x17\x12\x16\x10\x0D\x1A\x0E\x12\x11\x0E\x0C\x0E\x11\x0E\x1A\x0E\x0D\x14\x0E\x4D";//Ripristinare le impostazioni iniziali? 
 const char* UVLOWarningString = "\x27\x1E\x0C\x38\x23\x1D\x1D\x23";//DC BASSA 
-const char* UndervoltageString = "\x27\x1E\x0C\x24\x33\x1D\x31\x30\x30\x24\x1E\x24\x37\x33\x21\x37";//DC INSUFFICIENTE 
-const char* InputVoltageString = "\x2F\x0C\x0E\x11\x20\x13\x0F\x16\x16\x12\x22";//V ingresso: 
+const char* UndervoltageString = "\x27\x1E\x0C\x24\x33\x1D\x32\x2F\x2F\x24\x1E\x24\x37\x33\x21\x37";//DC INSUFFICIENTE 
+const char* InputVoltageString = "\x30\x0C\x0E\x11\x20\x13\x0F\x16\x16\x12\x22";//V ingresso: 
 const char* WarningTipTempString = "\x21\x0F\x15\x17\x0C\x17\x18\x11\x10\x0D\x22";//Temp punta: 
-const char* BadTipString = "\x2A\x31\x33\x21\x23\x0C\x33\x32";//PUNTA NO 
+const char* BadTipString = "\x2A\x32\x33\x21\x23\x0C\x33\x31";//PUNTA NO 
 const char* SleepingSimpleString = "\x4A\x1A\x1A\x0C";//Zzz  
 const char* SleepingAdvancedString = "\x1D\x10\x0D\x11\x19\x1C\x2E";//Standby 
-const char* WarningSimpleString = "\x36\x32\x21\x40";//HOT! 
-const char* WarningAdvancedString = "\x2A\x31\x33\x21\x23\x0C\x1E\x23\x3A\x27\x23\x40";//PUNTA CALDA! 
+const char* WarningSimpleString = "\x36\x31\x21\x40";//HOT! 
+const char* WarningAdvancedString = "\x2A\x32\x33\x21\x23\x0C\x1E\x23\x3A\x27\x23\x40";//PUNTA CALDA! 
 const char* SleepingTipAdvancedString = "\x2A\x18\x11\x10\x0D\x22";//Punta: 
 const char* IdleTipString = "\x21\x0C\x17\x18\x11\x10\x0D\x22";//T punta: 
 const char* IdleSetString = "\x41";/// 
-const char* TipDisconnectedString = "\x2A\x31\x33\x21\x23\x0C\x23\x1D\x1D\x37\x33\x21\x37";//PUNTA ASSENTE 
+const char* TipDisconnectedString = "\x2A\x32\x33\x21\x23\x0C\x23\x1D\x1D\x37\x33\x21\x37";//PUNTA ASSENTE 
 const char* SolderingAdvancedPowerPrompt = "\x2A\x12\x10\x0F\x11\x1A\x22";//Potenz: 
-const char* OffString = "\x32\x30\x30";//OFF 
-const char* ResetOKMessage = "\x35\x0F\x16\x0F\x10\x0C\x32\x4C";//Reset OK 
-const char* YourGainMessage = "\x4B\x12\x18\x13\x0C\x46\x0D\x0E\x11";//Your Gain 
+const char* OffString = "\x31\x2F\x2F";//OFF 
+const char* ResetOKMessage = "\x35\x0F\x16\x0F\x10\x0C\x31\x4C";//Reset OK 
+const char* YourGainMessage = "\x4B\x12\x18\x13\x0C\x47\x0D\x0E\x11";//Your Gain 
 const char* SettingsResetMessage = "\x1D\x0F\x10\x10\x0E\x11\x20\x16\x0C\x3E\x0F\x13\x0F\x01\x13\x0F\x16\x0F\x10\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x27";//D 
 const char* SettingLeftChar = "\x1D";//S 
 const char* SettingAutoChar = "\x23";//A 
-const char* SettingFastChar = "\x2F";//V 
+const char* SettingFastChar = "\x30";//V 
 const char* SettingSlowChar = "\x3A";//L 
 const char* SettingStartSolderingChar = "\x23";//A 
 const char* SettingStartSleepChar = "\x1D";//S 
+const char* SettingStartSleepOffChar = "\x31";//O 
 const char* SettingStartNoneChar = "\x27";//D 
 
 const char* SymbolPlus = "\x4E";//+ 
-const char* SymbolMinus = "\x42";//- 
+const char* SymbolMinus = "\x43";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x47";//. 
+const char* SymbolDot = "\x42";//. 
 const char* SymbolDegC = "\x1E";//C 
-const char* SymbolDegF = "\x30";//F 
+const char* SymbolDegF = "\x2F";//F 
 const char* SymbolMinutes = "\x26";//M 
 const char* SymbolSeconds = "\x1D";//S 
 const char* SymbolWatts = "\x39";//W 
-const char* SymbolVolts = "\x2F";//V 
+const char* SymbolVolts = "\x30";//V 
 const char* SymbolDC = "\x27\x1E";//DC 
 const char* SymbolCellCount = "\x1D";//S 
-const char* SymbolVersionNumber = "\x2F\x04\x47\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1F\x04\x42\x02\x0A\x42\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -3429,19 +3440,19 @@ const char* TipModelStrings[] = {
 	 "\x0C\x1E\x03",// C1 
 	 "\x21\x1D\x03\x02\x02",//TS100 
 	 "\x38\x1E\x04",//BC2 
-	 "\x36\x0D\x45\x45\x12",//Hakko 
-	 "\x31\x16\x0F\x13",//User 
+	 "\x36\x0D\x46\x46\x12",//Hakko 
+	 "\x32\x16\x0F\x13",//User 
 #else
 	 "\x38\x02\x04",//B02 
 	 "\x27\x04\x07",//D25 
 	 "\x21\x1D\x0A\x02",//TS80 
-	 "\x31\x16\x0F\x13",//User 
+	 "\x32\x16\x0F\x13",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x42\x02\x03\x42\x04\x02",//18-01-20 
-	 "\x36\x39\x0C\x46\x0C",//HW G  
+	 "\x03\x06\x43\x02\x05\x43\x04\x02",//14-03-20 
+	 "\x36\x39\x0C\x47\x0C",//HW G  
 	 "\x36\x39\x0C\x26\x0C",//HW M  
 	 "\x36\x39\x0C\x2A\x0C",//HW P  
 	 "\x21\x0E\x15\x0F\x0C",//Time  
@@ -3449,7 +3460,7 @@ const char* DebugMenu[] = {
 	 "\x35\x21\x0E\x17\x0C",//RTip  
 	 "\x1E\x21\x0E\x17\x0C",//CTip  
 	 "\x1E\x36\x0D\x11\x0C",//CHan  
-	 "\x2F\x0E\x11\x0C\x0C",//Vin   
+	 "\x30\x0E\x11\x0C\x0C",//Vin   
 	 "\x2A\x1E\x38\x0C\x0C",//PCB   
 };
 
@@ -3460,10 +3471,10 @@ const char* SettingsShortNames[][2] = {
   /* SleepTimeout              */ { "\x21\x0E\x15\x0F\x13", "\x16\x10\x0D\x11\x19\x1C\x2E" },//['Timer', 'standby'] 
   /* ShutdownTimeout           */ { "\x21\x0E\x15\x0F\x13", "\x16\x17\x0F\x20\x11\x0E\x15\x0F\x11\x10\x12" },//['Timer', 'spegnimento'] 
   /* MotionSensitivity         */ { "\x1D\x0F\x11\x16\x0E\x1C\x0E\x14\x0E\x10\x25", "\x0D\x14\x0C\x15\x12\x1F\x0E\x15\x0F\x11\x10\x12" },//['Sensibilità', 'al movimento'] 
-  /* TemperatureUnit           */ { "\x31\x11\x0E\x10\x25\x0C\x19\x0E", "\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D" },//['Unità di', 'temperatura'] 
+  /* TemperatureUnit           */ { "\x32\x11\x0E\x10\x25\x0C\x19\x0E", "\x10\x0F\x15\x17\x0F\x13\x0D\x10\x18\x13\x0D" },//['Unità di', 'temperatura'] 
   /* AdvancedIdle              */ { "\x24\x11\x10\x0F\x13\x28\x0D\x1B\x1B\x0E\x0D", "\x10\x0F\x16\x10\x18\x0D\x14\x0F" },//['Interfaccia', 'testuale'] 
-  /* DisplayRotation           */ { "\x32\x13\x0E\x0F\x11\x10\x0D\x15\x0F\x11\x10\x12", "\x19\x0E\x16\x17\x14\x0D\x2E" },//['Orientamento', 'display'] 
-  /* BoostEnabled              */ { "\x30\x18\x11\x1A\x0E\x12\x11\x0F", "\x3D\x21\x18\x13\x1C\x12\x3C" },//['Funzione', '«Turbo»'] 
+  /* DisplayRotation           */ { "\x31\x13\x0E\x0F\x11\x10\x0D\x15\x0F\x11\x10\x12", "\x19\x0E\x16\x17\x14\x0D\x2E" },//['Orientamento', 'display'] 
+  /* BoostEnabled              */ { "\x2F\x18\x11\x1A\x0E\x12\x11\x0F", "\x3D\x21\x18\x13\x1C\x12\x3C" },//['Funzione', '«Turbo»'] 
   /* BoostTemperature          */ { "\x21\x0F\x15\x17", "\x3D\x21\x18\x13\x1C\x12\x3C" },//['Temp', '«Turbo»'] 
   /* AutoStart                 */ { "\x23\x1F\x1F\x0E\x12", "\x0D\x18\x10\x12\x15\x0D\x10\x0E\x1B\x12" },//['Avvio', 'automatico'] 
   /* CooldownBlink             */ { "\x23\x1F\x1F\x0E\x16\x12", "\x17\x18\x11\x10\x0D\x0C\x1B\x0D\x14\x19\x0D" },//['Avviso', 'punta calda'] 
@@ -3471,7 +3482,7 @@ const char* SettingsShortNames[][2] = {
   /* SettingsReset             */ { "\x35\x0E\x17\x13\x0E\x16\x10\x0E\x11\x12", "\x0E\x15\x17\x12\x16\x10\x0D\x1A\x0E\x12\x11\x0E" },//['Ripristino', 'impostazioni'] 
   /* VoltageCalibration        */ { "\x1E\x0D\x14\x0E\x1C\x13\x0D\x1A\x0E\x12\x11\x0F", "\x10\x0F\x11\x16\x0E\x12\x11\x0F" },//['Calibrazione', 'tensione'] 
   /* AdvancedSoldering         */ { "\x27\x0F\x10\x10\x0D\x20\x14\x0E", "\x16\x0D\x14\x19\x0D\x10\x18\x13\x0D" },//['Dettagli', 'saldatura'] 
-  /* ScrollingSpeed            */ { "\x2F\x0F\x14\x12\x1B\x0E\x10\x25", "\x10\x0F\x16\x10\x12" },//['Velocità', 'testo'] 
+  /* ScrollingSpeed            */ { "\x30\x0F\x14\x12\x1B\x0E\x10\x25", "\x10\x0F\x16\x10\x12" },//['Velocità', 'testo'] 
   /* TipModel                  */ { "\x26\x12\x19\x0F\x14\x14\x12", "\x17\x18\x11\x10\x0D" },//['Modello', 'punta'] 
   /* SimpleCalibrationMode     */ { "\x1E\x0D\x14\x0E\x1C\x13\x0D\x1A\x0E\x12\x11\x0F", "\x16\x0F\x15\x17\x14\x0E\x1B\x0F" },//['Calibrazione', 'semplice'] 
   /* AdvancedCalibrationMode   */ { "\x1E\x0D\x14\x0E\x1C\x13\x0D\x1A\x0E\x12\x11\x0F", "\x0D\x1F\x0D\x11\x1A\x0D\x10\x0D" },//['Calibrazione', 'avanzata'] 
@@ -3481,10 +3492,10 @@ const char* SettingsShortNames[][2] = {
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x32\x17\x1A\x0E\x12\x11\x0E\x01\x16\x0D\x14\x19\x0D\x10\x18\x13\x0D",//['Opzioni', 'saldatura'] 
+  /* SolderingMenu             */ "\x31\x17\x1A\x0E\x12\x11\x0E\x01\x16\x0D\x14\x19\x0D\x10\x18\x13\x0D",//['Opzioni', 'saldatura'] 
   /* PowerSavingMenu           */ "\x35\x0E\x16\x17\x0D\x13\x15\x0E\x12\x01\x0F\x11\x0F\x13\x20\x0F\x10\x0E\x1B\x12",//['Risparmio', 'energetico'] 
   /* UIMenu                    */ "\x24\x11\x10\x0F\x13\x28\x0D\x1B\x1B\x0E\x0D\x01\x18\x10\x0F\x11\x10\x0F",//['Interfaccia', 'utente'] 
-  /* AdvancedMenu              */ "\x32\x17\x1A\x0E\x12\x11\x0E\x01\x0D\x1F\x0D\x11\x1A\x0D\x10\x0F",//['Opzioni', 'avanzate'] 
+  /* AdvancedMenu              */ "\x31\x17\x1A\x0E\x12\x11\x0E\x01\x0D\x1F\x0D\x11\x1A\x0D\x10\x0F",//['Opzioni', 'avanzate'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
@@ -3528,16 +3539,16 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xC0,0xE0,0x64,0x6C,0x68,0x6C,0x64,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x1D -> š
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x1E -> d
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1F -> T
-0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x20 -> y
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x21 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x20 -> v
+0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x21 -> y
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x22 -> b
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x68,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x23 -> ė
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x24 -> M
-0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x7F,0xBF,0xB0,0x30,0x00,0x00,0x00,//\x25 -> į
-0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x73,0xBF,0xBF,0x00,//\x26 -> ą
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x27 -> c
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x28 -> C
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x29 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x25 -> .
+0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x7F,0xBF,0xB0,0x30,0x00,0x00,0x00,//\x26 -> į
+0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x73,0xBF,0xBF,0x00,//\x27 -> ą
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x28 -> c
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x29 -> C
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x2A -> -
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2B -> S
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2C -> ,
@@ -3551,8 +3562,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x34 -> >
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x35 -> <
 0x00,0x60,0x60,0x64,0x6C,0x68,0xEC,0xE4,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x36 -> ž
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x37 -> V
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x38 -> P
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x37 -> P
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x38 -> V
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x39 -> B
 0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x3A -> :
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x3B -> W
@@ -3560,13 +3571,13 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x3D -> E
 0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x3E -> w
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x3F -> R
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x40 -> F
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x41 -> ?
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x42 -> !
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x43 -> z
-0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> f
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x45 -> U
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x46 -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x40 -> O
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x41 -> F
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x42 -> ?
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x43 -> !
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x44 -> z
+0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x45 -> f
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x46 -> U
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x0E,0x1E,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x47 -> J
 0x00,0x18,0x18,0x18,0x19,0x1B,0x9A,0xDB,0xF9,0x78,0x38,0x00,0x00,0x30,0x38,0x3C,0x3E,0x37,0x33,0x31,0x30,0x30,0x30,0x00,//\x48 -> Ž
 0x00,0x60,0xF0,0xF8,0x99,0x9B,0x9A,0x9B,0x99,0x30,0x20,0x00,0x00,0x0C,0x1C,0x39,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x49 -> Š
@@ -3613,16 +3624,16 @@ const uint8_t USER_FONT_6x8[] = {
 0x48, 0x55, 0x56, 0x55, 0x24, 0x00,//\x1D -> š
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x1E -> d
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1F -> T
-0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x20 -> y
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x21 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x20 -> v
+0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x21 -> y
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x22 -> b
 0x38, 0x54, 0x55, 0x54, 0x08, 0x00,//\x23 -> ė
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x24 -> M
-0x00, 0x44, 0x7d, 0xc0, 0x00, 0x00,//\x25 -> į
-0x20, 0x54, 0x54, 0xd4, 0x78, 0x00,//\x26 -> ą
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x27 -> c
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x28 -> C
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x29 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x25 -> .
+0x00, 0x44, 0x7d, 0xc0, 0x00, 0x00,//\x26 -> į
+0x20, 0x54, 0x54, 0xd4, 0x78, 0x00,//\x27 -> ą
+0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x28 -> c
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x29 -> C
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x2A -> -
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x2B -> S
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2C -> ,
@@ -3636,8 +3647,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x34 -> >
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x35 -> <
 0x44, 0x65, 0x56, 0x4d, 0x44, 0x00,//\x36 -> ž
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x37 -> V
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x38 -> P
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x37 -> P
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x38 -> V
 0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x39 -> B
 0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x3A -> :
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x3B -> W
@@ -3645,13 +3656,13 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x3D -> E
 0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x3E -> w
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x3F -> R
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x40 -> F
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x41 -> ?
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x42 -> !
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x43 -> z
-0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x44 -> f
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x45 -> U
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x46 -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x40 -> O
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x41 -> F
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x42 -> ?
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x43 -> !
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x44 -> z
+0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x45 -> f
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x46 -> U
 0x20, 0x40, 0x41, 0x3f, 0x01, 0x00,//\x47 -> J
 0x44, 0x65, 0x56, 0x4d, 0x44, 0x00,//\x48 -> Ž
 0x08, 0x55, 0x56, 0x55, 0x20, 0x00,//\x49 -> Š
@@ -3670,52 +3681,52 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Lietuvių ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x2E\x1D\x1A\x16\x13\x1C\x0D\x14\x15\x0E\x25\x0F\x0C\x14\x19\x0C\x29\x0E\x35\x33\x28\x0E\x03\x02\x37\x0E\x0C\x12\x22\x0C\x0E\x27\x11\x17\x0D\x4F\x0E\x4E\x2B\x4D\x0E\x18\x0D\x11\x18\x0D\x10\x0E\x4E\x05\x29\x05\x37\x0E\x19\x11\x12\x0E\x27\x11\x17\x4B\x4D\x34",//Išjungimo įtampa. <DC 10V arba celių (S) kiekis (3.3V per celę)> 
-  /* SleepTemperature          */ "\x24\x0D\x11\x1C\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x0C\x0E\x35\x28\x34",//Miego temperatūra <C> 
+  /* PowerSource               */ "\x2E\x1D\x1A\x16\x13\x1C\x0D\x14\x15\x0E\x26\x0F\x0C\x14\x19\x0C\x25\x0E\x35\x33\x29\x0E\x03\x02\x38\x0E\x0C\x12\x22\x0C\x0E\x28\x11\x17\x0D\x4F\x0E\x4E\x2B\x4D\x0E\x18\x0D\x11\x18\x0D\x10\x0E\x4E\x05\x25\x05\x38\x0E\x19\x11\x12\x0E\x28\x11\x17\x4B\x4D\x34",//Išjungimo įtampa. <DC 10V arba celių (S) kiekis (3.3V per celę)> 
+  /* SleepTemperature          */ "\x24\x0D\x11\x1C\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x0C\x0E\x35\x29\x34",//Miego temperatūra <C> 
   /* SleepTimeout              */ "\x24\x0D\x11\x1C\x15\x0E\x17\x0C\x0D\x18\x0C\x10\x0E\x35\x14\x0D\x13\x16\x0F\x23\x10\x53\x10\x11\x18\x16\x13\x1E\x23\x10\x34",//Miego laikas <minutės/sekundės> 
   /* ShutdownTimeout           */ "\x2E\x1D\x1A\x16\x13\x1C\x0D\x14\x15\x0E\x17\x0C\x0D\x18\x0C\x10\x0E\x35\x14\x0D\x13\x16\x0F\x23\x10\x34",//Išjungimo laikas <minutės> 
   /* MotionSensitivity         */ "\x47\x0C\x16\x0F\x12\x16\x14\x0C\x10\x0E\x1A\x16\x1E\x11\x10\x0D\x16\x0D\x0E\x35\x02\x0E\x2A\x0E\x0D\x1D\x1A\x16\x13\x1C\x0F\x0C\x2C\x0E\x03\x0E\x2A\x0E\x14\x0C\x36\x0D\x0C\x16\x10\x0D\x0C\x10\x2C\x0E\x0B\x0E\x2A\x0E\x1E\x0D\x1E\x36\x0D\x0C\x16\x10\x0D\x0C\x10\x34",//Jautrumas judesiui <0 - išjungta, 1 - mažiausias, 9 - didžiausias> 
-  /* TemperatureUnit           */ "\x1F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x0E\x21\x0D\x11\x13\x11\x0F\x0C\x0D\x0E\x35\x28\x0E\x2A\x0E\x28\x11\x17\x10\x0D\x1A\x16\x10\x2C\x0E\x40\x0E\x2A\x0E\x40\x0C\x12\x11\x13\x4C\x11\x0D\x0F\x0C\x10\x34",//Temperatūros vienetai <C - Celsijus, F - Farenheitas> 
-  /* AdvancedIdle              */ "\x1B\x12\x0E\x12\x15\x1E\x20\x0F\x0D\x0E\x19\x0C\x19\x0D\x17\x1E\x15\x14\x26\x0E\x0D\x13\x44\x15\x12\x14\x0C\x27\x0D\x1A\x26\x0E\x14\x0C\x36\x11\x10\x13\x0D\x16\x0E\x1D\x12\x0D\x44\x0F\x16\x0E\x17\x0C\x16\x18\x0D\x14\x15\x0E\x11\x18\x12\x0C\x13\x11",//Ar rodyti papildomą informaciją mažesniu šriftu laukimo ekrane 
-  /* DisplayRotation           */ "\x3D\x18\x12\x0C\x13\x15\x0E\x15\x12\x0D\x11\x13\x0F\x0C\x27\x0D\x1A\x0C\x0E\x35\x1B\x0E\x2A\x0E\x0C\x16\x0F\x15\x14\x0C\x0F\x0D\x13\x23\x2C\x0E\x32\x0E\x2A\x0E\x18\x0C\x0D\x12\x0D\x0C\x12\x0C\x13\x18\x0D\x0C\x14\x10\x2C\x0E\x33\x0E\x2A\x0E\x1E\x11\x1D\x0D\x13\x0D\x0C\x12\x0C\x13\x18\x0D\x0C\x14\x10\x34",//Ekrano orientacija <A - automatinė, K - kairiarankiams, D - dešiniarankiams> 
-  /* BoostEnabled              */ "\x1B\x12\x0E\x17\x0D\x0F\x16\x15\x1A\x0C\x13\x0F\x0E\x21\x0D\x12\x1D\x16\x0F\x0D\x13\x0D\x10\x0E\x14\x20\x1C\x0F\x16\x18\x0C\x10\x0E\x25\x1A\x16\x13\x1C\x0D\x0C\x0E\x0F\x16\x12\x22\x15\x0E\x12\x11\x36\x0D\x14\x26",//Ar lituojant viršutinis mygtukas įjungia turbo režimą 
+  /* TemperatureUnit           */ "\x1F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x0E\x20\x0D\x11\x13\x11\x0F\x0C\x0D\x0E\x35\x29\x0E\x2A\x0E\x29\x11\x17\x10\x0D\x1A\x16\x10\x2C\x0E\x41\x0E\x2A\x0E\x41\x0C\x12\x11\x13\x4C\x11\x0D\x0F\x0C\x10\x34",//Temperatūros vienetai <C - Celsijus, F - Farenheitas> 
+  /* AdvancedIdle              */ "\x1B\x12\x0E\x12\x15\x1E\x21\x0F\x0D\x0E\x19\x0C\x19\x0D\x17\x1E\x15\x14\x27\x0E\x0D\x13\x45\x15\x12\x14\x0C\x28\x0D\x1A\x27\x0E\x14\x0C\x36\x11\x10\x13\x0D\x16\x0E\x1D\x12\x0D\x45\x0F\x16\x0E\x17\x0C\x16\x18\x0D\x14\x15\x0E\x11\x18\x12\x0C\x13\x11",//Ar rodyti papildomą informaciją mažesniu šriftu laukimo ekrane 
+  /* DisplayRotation           */ "\x3D\x18\x12\x0C\x13\x15\x0E\x15\x12\x0D\x11\x13\x0F\x0C\x28\x0D\x1A\x0C\x0E\x35\x1B\x0E\x2A\x0E\x0C\x16\x0F\x15\x14\x0C\x0F\x0D\x13\x23\x2C\x0E\x32\x0E\x2A\x0E\x18\x0C\x0D\x12\x0D\x0C\x12\x0C\x13\x18\x0D\x0C\x14\x10\x2C\x0E\x33\x0E\x2A\x0E\x1E\x11\x1D\x0D\x13\x0D\x0C\x12\x0C\x13\x18\x0D\x0C\x14\x10\x34",//Ekrano orientacija <A - automatinė, K - kairiarankiams, D - dešiniarankiams> 
+  /* BoostEnabled              */ "\x1B\x12\x0E\x17\x0D\x0F\x16\x15\x1A\x0C\x13\x0F\x0E\x20\x0D\x12\x1D\x16\x0F\x0D\x13\x0D\x10\x0E\x14\x21\x1C\x0F\x16\x18\x0C\x10\x0E\x26\x1A\x16\x13\x1C\x0D\x0C\x0E\x0F\x16\x12\x22\x15\x0E\x12\x11\x36\x0D\x14\x27",//Ar lituojant viršutinis mygtukas įjungia turbo režimą 
   /* BoostTemperature          */ "\x1F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x0C\x0E\x0F\x16\x12\x22\x15\x0E\x12\x11\x36\x0D\x14\x16",//Temperatūra turbo režimu 
-  /* AutoStart                 */ "\x1B\x12\x0E\x19\x12\x0C\x1E\x23\x0F\x0D\x0E\x18\x0C\x0D\x0F\x0D\x13\x0D\x13\x0F\x0D\x0E\x0D\x1D\x0E\x18\x0C\x12\x0F\x15\x0E\x25\x1A\x16\x13\x1C\x16\x10\x0E\x17\x0D\x0F\x16\x15\x18\x17\x25",//Ar pradėti kaitininti iš karto įjungus lituoklį 
-  /* CooldownBlink             */ "\x1B\x12\x0E\x14\x0D\x12\x18\x10\x23\x0F\x0D\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x26\x0E\x11\x18\x12\x0C\x13\x11\x0E\x18\x15\x17\x0E\x21\x23\x10\x0F\x0C\x13\x0F\x0D\x10\x0E\x0C\x13\x0F\x1C\x0C\x17\x0D\x10\x0E\x21\x0D\x10\x0E\x1E\x0C\x12\x0E\x18\x0C\x12\x1D\x0F\x0C\x10",//Ar mirksėti temperatūrą ekrane kol vėstantis antgalis vis dar karštas 
-  /* TemperatureCalibration    */ "\x1B\x13\x0F\x1C\x0C\x17\x0D\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x21\x0D\x14\x0C\x10",//Antgalio temperatūros kalibravimas 
-  /* SettingsReset             */ "\x2D\x16\x10\x0F\x0C\x0F\x20\x0F\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x16\x10\x0E\x0D\x1D\x0E\x13\x0C\x16\x1A\x15",//Nustatyti nustatymus iš naujo 
-  /* VoltageCalibration        */ "\x4A\x21\x11\x10\x0F\x0D\x11\x10\x0E\x25\x0F\x0C\x14\x19\x15\x10\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x21\x0D\x14\x0C\x10\x29\x0E\x1F\x12\x16\x14\x19\x0C\x0D\x0E\x19\x0C\x10\x19\x0C\x16\x10\x18\x0D\x0F\x11\x2C\x0E\x13\x15\x12\x23\x1E\x0C\x14\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x0F\x0D\x2C\x0E\x0D\x17\x1C\x0C\x0D\x0E\x19\x0C\x10\x19\x0C\x16\x10\x18\x0D\x0F\x11\x2C\x0E\x18\x0C\x1E\x0E\x0D\x1D\x11\x0D\x0F\x16\x14\x23\x0F\x11",//Įvesties įtampos kalibravimas. Trumpai paspauskite, norėdami nustatyti, ilgai paspauskite, kad išeitumėte 
-  /* AdvancedSoldering         */ "\x1B\x12\x0E\x12\x15\x1E\x20\x0F\x0D\x0E\x0D\x1D\x10\x0C\x14\x0D\x26\x0E\x0D\x13\x44\x15\x12\x14\x0C\x27\x0D\x1A\x26\x0E\x17\x0D\x0F\x16\x15\x1A\x0C\x13\x0F",//Ar rodyti išsamią informaciją lituojant 
+  /* AutoStart                 */ "\x1B\x12\x0E\x19\x12\x0C\x1E\x23\x0F\x0D\x0E\x18\x0C\x0D\x0F\x0D\x13\x0D\x13\x0F\x0D\x0E\x0D\x1D\x0E\x18\x0C\x12\x0F\x15\x0E\x26\x1A\x16\x13\x1C\x16\x10\x0E\x17\x0D\x0F\x16\x15\x18\x17\x26",//Ar pradėti kaitininti iš karto įjungus lituoklį 
+  /* CooldownBlink             */ "\x1B\x12\x0E\x14\x0D\x12\x18\x10\x23\x0F\x0D\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x27\x0E\x11\x18\x12\x0C\x13\x11\x0E\x18\x15\x17\x0E\x20\x23\x10\x0F\x0C\x13\x0F\x0D\x10\x0E\x0C\x13\x0F\x1C\x0C\x17\x0D\x10\x0E\x20\x0D\x10\x0E\x1E\x0C\x12\x0E\x18\x0C\x12\x1D\x0F\x0C\x10",//Ar mirksėti temperatūrą ekrane kol vėstantis antgalis vis dar karštas 
+  /* TemperatureCalibration    */ "\x1B\x13\x0F\x1C\x0C\x17\x0D\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x20\x0D\x14\x0C\x10",//Antgalio temperatūros kalibravimas 
+  /* SettingsReset             */ "\x2D\x16\x10\x0F\x0C\x0F\x21\x0F\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x16\x10\x0E\x0D\x1D\x0E\x13\x0C\x16\x1A\x15",//Nustatyti nustatymus iš naujo 
+  /* VoltageCalibration        */ "\x4A\x20\x11\x10\x0F\x0D\x11\x10\x0E\x26\x0F\x0C\x14\x19\x15\x10\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x20\x0D\x14\x0C\x10\x25\x0E\x1F\x12\x16\x14\x19\x0C\x0D\x0E\x19\x0C\x10\x19\x0C\x16\x10\x18\x0D\x0F\x11\x2C\x0E\x13\x15\x12\x23\x1E\x0C\x14\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x0F\x0D\x2C\x0E\x0D\x17\x1C\x0C\x0D\x0E\x19\x0C\x10\x19\x0C\x16\x10\x18\x0D\x0F\x11\x2C\x0E\x18\x0C\x1E\x0E\x0D\x1D\x11\x0D\x0F\x16\x14\x23\x0F\x11",//Įvesties įtampos kalibravimas. Trumpai paspauskite, norėdami nustatyti, ilgai paspauskite, kad išeitumėte 
+  /* AdvancedSoldering         */ "\x1B\x12\x0E\x12\x15\x1E\x21\x0F\x0D\x0E\x0D\x1D\x10\x0C\x14\x0D\x27\x0E\x0D\x13\x45\x15\x12\x14\x0C\x28\x0D\x1A\x27\x0E\x17\x0D\x0F\x16\x15\x1A\x0C\x13\x0F",//Ar rodyti išsamią informaciją lituojant 
   /* ScrollingSpeed            */ "\x2F\x12\x11\x0D\x0F\x0D\x10\x2C\x0E\x18\x16\x12\x0D\x16\x15\x0E\x1D\x0D\x10\x0E\x0F\x11\x18\x10\x0F\x0C\x10\x0E\x10\x17\x11\x13\x18\x0C",//Greitis, kuriuo šis tekstas slenka 
   /* TipModel                  */ "\x1B\x13\x0F\x1C\x0C\x17\x0D\x15\x0E\x14\x15\x1E\x11\x17\x0D\x15\x0E\x19\x0C\x10\x0D\x12\x0D\x13\x18\x0D\x14\x0C\x10",//Antgalio modelio pasirinkimas 
-  /* SimpleCalibrationMode     */ "\x38\x0C\x19\x12\x0C\x10\x0F\x0C\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x27\x0D\x1A\x0C\x0E\x13\x0C\x16\x1E\x15\x1A\x0C\x13\x0F\x0E\x18\x0C\x12\x1D\x0F\x26\x0E\x21\x0C\x13\x1E\x0D\x11\x13\x25",//Paprasta kalibracija naudojant karštą vandienį 
-  /* AdvancedCalibrationMode   */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x23\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x27\x0D\x1A\x0C\x0E\x13\x0C\x16\x1E\x15\x1A\x0C\x13\x0F\x0E\x0F\x11\x12\x14\x15\x11\x17\x11\x14\x11\x13\x0F\x26",//Išplėstinė kalibracija naudojant termoelementą 
-  /* PowerInput                */ "\x24\x0C\x0D\x0F\x0D\x13\x0D\x14\x15\x0E\x22\x17\x15\x18\x15\x0E\x1C\x0C\x17\x0D\x0C\x0E\x21\x0C\x0F\x0C\x0D\x10",//Maitinimo bloko galia vatais 
+  /* SimpleCalibrationMode     */ "\x37\x0C\x19\x12\x0C\x10\x0F\x0C\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x28\x0D\x1A\x0C\x0E\x13\x0C\x16\x1E\x15\x1A\x0C\x13\x0F\x0E\x18\x0C\x12\x1D\x0F\x27\x0E\x20\x0C\x13\x1E\x0D\x11\x13\x26",//Paprasta kalibracija naudojant karštą vandienį 
+  /* AdvancedCalibrationMode   */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x23\x0E\x18\x0C\x17\x0D\x22\x12\x0C\x28\x0D\x1A\x0C\x0E\x13\x0C\x16\x1E\x15\x1A\x0C\x13\x0F\x0E\x0F\x11\x12\x14\x15\x11\x17\x11\x14\x11\x13\x0F\x27",//Išplėstinė kalibracija naudojant termoelementą 
+  /* PowerInput                */ "\x24\x0C\x0D\x0F\x0D\x13\x0D\x14\x15\x0E\x22\x17\x15\x18\x15\x0E\x1C\x0C\x17\x0D\x0C\x0E\x20\x0C\x0F\x0C\x0D\x10",//Maitinimo bloko galia vatais 
   /* PowerLimitEnable          */ "\x3D\x13\x0C\x22\x17\x11\x0E\x19\x15\x3E\x11\x12\x0E\x17\x0D\x14\x0D\x0F",//Enable power limit 
-  /* PowerLimit                */ "\x24\x0C\x50\x0D\x14\x16\x14\x0E\x19\x15\x3E\x11\x12\x0E\x0F\x4C\x11\x0E\x0D\x12\x15\x13\x0E\x27\x0C\x13\x0E\x16\x10\x11\x0E\x35\x3B\x0C\x0F\x0F\x10\x34",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x24\x0C\x50\x0D\x14\x16\x14\x0E\x19\x15\x3E\x11\x12\x0E\x0F\x4C\x11\x0E\x0D\x12\x15\x13\x0E\x28\x0C\x13\x0E\x16\x10\x11\x0E\x35\x3B\x0C\x0F\x0F\x10\x34",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x32\x0C\x17\x0D\x22\x12\x0C\x27\x0D\x1A\x0C\x0E\x0C\x0F\x17\x0D\x18\x0F\x0C\x42";//Kalibracija atlikta! 
-const char* SettingsCalibrationWarning = "\x38\x12\x0D\x11\x1D\x0E\x0F\x4B\x10\x1E\x0C\x14\x0D\x0E\x25\x10\x0D\x0F\x0D\x18\x0D\x13\x18\x0D\x0F\x11\x2C\x0E\x18\x0C\x1E\x0E\x0C\x13\x0F\x1C\x0C\x17\x0D\x10\x0E\x20\x12\x0C\x0E\x18\x0C\x14\x22\x0C\x12\x0D\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x42";//Prieš tęsdami įsitikinkite, kad antgalis yra kambario temperatūros! 
-const char* SettingsResetWarning = "\x1B\x12\x0E\x13\x15\x12\x0D\x0F\x11\x0E\x0C\x0F\x10\x0F\x0C\x0F\x20\x0F\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x16\x10\x0E\x25\x0E\x13\x16\x14\x0C\x0F\x20\x0F\x0C\x10\x0E\x12\x11\x0D\x18\x1D\x14\x11\x10\x41";//Ar norite atstatyti nustatymus į numatytas reikšmes? 
-const char* UVLOWarningString = "\x24\x1B\x48\x0E\x37\x46\x31\x1F";//MAŽ VOLT 
-const char* UndervoltageString = "\x48\x11\x14\x0C\x0E\x25\x0F\x0C\x14\x19\x0C";//Žema įtampa 
-const char* InputVoltageString = "\x4A\x21\x11\x10\x0F\x0D\x10\x0E\x37\x3A\x0E";//Įvestis V:  
+const char* SettingsCalibrationDone = "\x32\x0C\x17\x0D\x22\x12\x0C\x28\x0D\x1A\x0C\x0E\x0C\x0F\x17\x0D\x18\x0F\x0C\x43";//Kalibracija atlikta! 
+const char* SettingsCalibrationWarning = "\x37\x12\x0D\x11\x1D\x0E\x0F\x4B\x10\x1E\x0C\x14\x0D\x0E\x26\x10\x0D\x0F\x0D\x18\x0D\x13\x18\x0D\x0F\x11\x2C\x0E\x18\x0C\x1E\x0E\x0C\x13\x0F\x1C\x0C\x17\x0D\x10\x0E\x21\x12\x0C\x0E\x18\x0C\x14\x22\x0C\x12\x0D\x15\x0E\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10\x43";//Prieš tęsdami įsitikinkite, kad antgalis yra kambario temperatūros! 
+const char* SettingsResetWarning = "\x1B\x12\x0E\x13\x15\x12\x0D\x0F\x11\x0E\x0C\x0F\x10\x0F\x0C\x0F\x21\x0F\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x16\x10\x0E\x26\x0E\x13\x16\x14\x0C\x0F\x21\x0F\x0C\x10\x0E\x12\x11\x0D\x18\x1D\x14\x11\x10\x42";//Ar norite atstatyti nustatymus į numatytas reikšmes? 
+const char* UVLOWarningString = "\x24\x1B\x48\x0E\x38\x40\x31\x1F";//MAŽ VOLT 
+const char* UndervoltageString = "\x48\x11\x14\x0C\x0E\x26\x0F\x0C\x14\x19\x0C";//Žema įtampa 
+const char* InputVoltageString = "\x4A\x20\x11\x10\x0F\x0D\x10\x0E\x38\x3A\x0E";//Įvestis V:  
 const char* WarningTipTempString = "\x1B\x13\x0F\x1C\x17\x0E\x1F\x11\x14\x19\x3A\x0E";//Antgl Temp:  
-const char* BadTipString = "\x39\x31\x46\x2F\x0E\x1B\x2D\x1F";//BLOG ANT 
-const char* SleepingSimpleString = "\x51\x43\x43\x43";//Zzzz 
-const char* SleepingAdvancedString = "\x24\x0D\x11\x1C\x16\x29\x29\x29";//Miegu... 
-const char* WarningSimpleString = "\x32\x3F\x49\x42";//KRŠ! 
+const char* BadTipString = "\x39\x31\x40\x2F\x0E\x1B\x2D\x1F";//BLOG ANT 
+const char* SleepingSimpleString = "\x51\x44\x44\x44";//Zzzz 
+const char* SleepingAdvancedString = "\x24\x0D\x11\x1C\x16\x25\x25\x25";//Miegu... 
+const char* WarningSimpleString = "\x32\x3F\x49\x43";//KRŠ! 
 const char* WarningAdvancedString = "\x1B\x2D\x1F\x2F\x1B\x31\x2E\x2B\x0E\x32\x1B\x3F\x49\x1F\x1B\x2B";//ANTGALIS KARŠTAS 
 const char* SleepingTipAdvancedString = "\x1B\x13\x0F\x1C\x17\x3A";//Antgl: 
 const char* IdleTipString = "\x1B\x13\x0F\x3A";//Ant: 
 const char* IdleSetString = "\x0E\x2D\x16\x10\x0F\x3A";// Nust: 
-const char* TipDisconnectedString = "\x1B\x2D\x1F\x2F\x1B\x31\x0E\x1B\x1F\x47\x45\x2D\x2F\x1F\x1B\x2B";//ANTGAL ATJUNGTAS 
+const char* TipDisconnectedString = "\x1B\x2D\x1F\x2F\x1B\x31\x0E\x1B\x1F\x47\x46\x2D\x2F\x1F\x1B\x2B";//ANTGAL ATJUNGTAS 
 const char* SolderingAdvancedPowerPrompt = "\x24\x0C\x0D\x0F\x0D\x13\x0D\x14\x0C\x10\x3A\x0E";//Maitinimas:  
 const char* OffString = "\x2E\x1D\x1A";//Išj 
-const char* ResetOKMessage = "\x3F\x11\x10\x11\x0F\x0E\x46\x32";//Reset OK 
+const char* ResetOKMessage = "\x3F\x11\x10\x11\x0F\x0E\x40\x32";//Reset OK 
 const char* YourGainMessage = "\x52\x15\x16\x12\x0E\x2F\x0C\x0D\x13";//Your Gain 
-const char* SettingsResetMessage = "\x2B\x11\x0F\x0F\x0D\x13\x1C\x10\x0E\x3E\x11\x12\x11\x01\x12\x11\x10\x11\x0F\x42";//Settings were_reset! 
+const char* SettingsResetMessage = "\x2B\x11\x0F\x0F\x0D\x13\x1C\x10\x0E\x3E\x11\x12\x11\x01\x12\x11\x10\x11\x0F\x43";//Settings were_reset! 
 
 const char* SettingRightChar = "\x33";//D 
 const char* SettingLeftChar = "\x32";//K 
@@ -3724,93 +3735,94 @@ const char* SettingFastChar = "\x1F";//T
 const char* SettingSlowChar = "\x2D";//N 
 const char* SettingStartSolderingChar = "\x1F";//T 
 const char* SettingStartSleepChar = "\x2B";//S 
-const char* SettingStartNoneChar = "\x40";//F 
+const char* SettingStartSleepOffChar = "\x40";//O 
+const char* SettingStartNoneChar = "\x41";//F 
 
 const char* SymbolPlus = "\x54";//+ 
 const char* SymbolMinus = "\x2A";//- 
 const char* SymbolSpace = "\x0E";//  
-const char* SymbolDot = "\x29";//. 
-const char* SymbolDegC = "\x28";//C 
-const char* SymbolDegF = "\x40";//F 
+const char* SymbolDot = "\x25";//. 
+const char* SymbolDegC = "\x29";//C 
+const char* SymbolDegF = "\x41";//F 
 const char* SymbolMinutes = "\x24";//M 
 const char* SymbolSeconds = "\x2B";//S 
 const char* SymbolWatts = "\x3B";//W 
-const char* SymbolVolts = "\x37";//V 
-const char* SymbolDC = "\x33\x28";//DC 
+const char* SymbolVolts = "\x38";//V 
+const char* SymbolDC = "\x33\x29";//DC 
 const char* SymbolCellCount = "\x2B";//S 
-const char* SymbolVersionNumber = "\x37\x04\x29\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x20\x04\x25\x02\x0A\x25\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x39\x02\x04",//B02 
 	 "\x33\x04\x06",//D24 
-	 "\x39\x28\x04",//BC2 
-	 "\x0E\x28\x03",// C1 
+	 "\x39\x29\x04",//BC2 
+	 "\x0E\x29\x03",// C1 
 	 "\x1F\x2B\x03\x02\x02",//TS100 
-	 "\x39\x28\x04",//BC2 
+	 "\x39\x29\x04",//BC2 
 	 "\x3C\x0C\x18\x18\x15",//Hakko 
-	 "\x45\x10\x11\x12",//User 
+	 "\x46\x10\x11\x12",//User 
 #else
 	 "\x39\x02\x04",//B02 
 	 "\x33\x04\x07",//D25 
 	 "\x1F\x2B\x0A\x02",//TS80 
-	 "\x45\x10\x11\x12",//User 
+	 "\x46\x10\x11\x12",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x2A\x02\x03\x2A\x04\x02",//18-01-20 
+	 "\x03\x06\x2A\x02\x05\x2A\x04\x02",//14-03-20 
 	 "\x3C\x3B\x0E\x2F\x0E",//HW G  
 	 "\x3C\x3B\x0E\x24\x0E",//HW M  
-	 "\x3C\x3B\x0E\x38\x0E",//HW P  
+	 "\x3C\x3B\x0E\x37\x0E",//HW P  
 	 "\x1F\x0D\x14\x11\x0E",//Time  
-	 "\x24\x15\x21\x11\x0E",//Move  
+	 "\x24\x15\x20\x11\x0E",//Move  
 	 "\x3F\x1F\x0D\x19\x0E",//RTip  
-	 "\x28\x1F\x0D\x19\x0E",//CTip  
-	 "\x28\x3C\x0C\x13\x0E",//CHan  
-	 "\x37\x0D\x13\x0E\x0E",//Vin   
-	 "\x38\x28\x39\x0E\x0E",//PCB   
+	 "\x29\x1F\x0D\x19\x0E",//CTip  
+	 "\x29\x3C\x0C\x13\x0E",//CHan  
+	 "\x38\x0D\x13\x0E\x0E",//Vin   
+	 "\x37\x29\x39\x0E\x0E",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x24\x0C\x0D\x0F\x0D\x13\x0D\x14\x15", "\x1D\x0C\x17\x0F\x0D\x13\x0D\x10" },//['Maitinimo', 'šaltinis'] 
-  /* SleepTemperature          */ { "\x24\x0D\x11\x1C\x15", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x29" },//['Miego', 'temperat.'] 
+  /* SleepTemperature          */ { "\x24\x0D\x11\x1C\x15", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x25" },//['Miego', 'temperat.'] 
   /* SleepTimeout              */ { "\x24\x0D\x11\x1C\x15", "\x17\x0C\x0D\x18\x0C\x10" },//['Miego', 'laikas'] 
   /* ShutdownTimeout           */ { "\x2E\x1D\x1A\x16\x13\x1C\x0D\x14\x15", "\x17\x0C\x0D\x18\x0C\x10" },//['Išjungimo', 'laikas'] 
   /* MotionSensitivity         */ { "\x47\x0C\x16\x0F\x12\x16\x14\x0C\x10", "\x1A\x16\x1E\x11\x10\x0D\x16\x0D" },//['Jautrumas', 'judesiui'] 
-  /* TemperatureUnit           */ { "\x1F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10", "\x21\x0D\x11\x13\x11\x0F\x0C\x0D" },//['Temperatūros', 'vienetai'] 
+  /* TemperatureUnit           */ { "\x1F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x15\x10", "\x20\x0D\x11\x13\x11\x0F\x0C\x0D" },//['Temperatūros', 'vienetai'] 
   /* AdvancedIdle              */ { "\x33\x11\x0F\x0C\x17\x16\x10\x0E\x17\x0C\x16\x18\x0D", "\x14\x15\x0E\x11\x18\x12\x0C\x13\x0C\x10" },//['Detalus lauki', 'mo ekranas'] 
-  /* DisplayRotation           */ { "\x3D\x18\x12\x0C\x13\x15", "\x15\x12\x0D\x11\x13\x0F\x0C\x27\x0D\x1A\x0C" },//['Ekrano', 'orientacija'] 
-  /* BoostEnabled              */ { "\x1F\x16\x12\x22\x15\x0E\x12\x11\x36\x0D\x14\x0C\x10", "\x25\x1A\x16\x13\x1C\x0F\x0C\x10" },//['Turbo režimas', 'įjungtas'] 
-  /* BoostTemperature          */ { "\x1F\x16\x12\x22\x15", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x29" },//['Turbo', 'temperat.'] 
+  /* DisplayRotation           */ { "\x3D\x18\x12\x0C\x13\x15", "\x15\x12\x0D\x11\x13\x0F\x0C\x28\x0D\x1A\x0C" },//['Ekrano', 'orientacija'] 
+  /* BoostEnabled              */ { "\x1F\x16\x12\x22\x15\x0E\x12\x11\x36\x0D\x14\x0C\x10", "\x26\x1A\x16\x13\x1C\x0F\x0C\x10" },//['Turbo režimas', 'įjungtas'] 
+  /* BoostTemperature          */ { "\x1F\x16\x12\x22\x15", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x25" },//['Turbo', 'temperat.'] 
   /* AutoStart                 */ { "\x1B\x16\x0F\x15", "\x19\x0C\x17\x11\x0D\x1E\x0D\x14\x0C\x10" },//['Auto', 'paleidimas'] 
-  /* CooldownBlink             */ { "\x1B\x0F\x21\x23\x10\x0D\x14\x15", "\x14\x0D\x12\x18\x10\x23\x1A\x0D\x14\x0C\x10" },//['Atvėsimo', 'mirksėjimas'] 
-  /* TemperatureCalibration    */ { "\x32\x0C\x17\x0D\x22\x12\x16\x15\x0F\x0D", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x26\x41" },//['Kalibruoti', 'temperatūrą?'] 
-  /* SettingsReset             */ { "\x1B\x0F\x10\x0F\x0C\x0F\x20\x0F\x0D", "\x13\x16\x10\x0F\x0C\x0F\x20\x14\x16\x10\x41" },//['Atstatyti', 'nustatymus?'] 
-  /* VoltageCalibration        */ { "\x32\x0C\x17\x0D\x22\x12\x16\x15\x0F\x0D", "\x25\x21\x11\x10\x0F\x0D\x11\x10\x0E\x25\x0F\x0C\x14\x19\x26\x41" },//['Kalibruoti', 'įvesties įtampą?'] 
-  /* AdvancedSoldering         */ { "\x33\x11\x0F\x0C\x17\x16\x10\x0E\x17\x0D\x0F\x0C\x2A", "\x21\x0D\x14\x15\x0E\x11\x18\x12\x0C\x13\x0C\x10" },//['Detalus lita-', 'vimo ekranas'] 
-  /* ScrollingSpeed            */ { "\x2F\x12\x11\x0D\x0F\x0C\x10\x0E\x0C\x19\x12", "\x0C\x1D\x20\x14\x29\x0E\x10\x17\x0D\x13\x18" },//['Greitas apr', 'ašym. slink'] 
+  /* CooldownBlink             */ { "\x1B\x0F\x20\x23\x10\x0D\x14\x15", "\x14\x0D\x12\x18\x10\x23\x1A\x0D\x14\x0C\x10" },//['Atvėsimo', 'mirksėjimas'] 
+  /* TemperatureCalibration    */ { "\x32\x0C\x17\x0D\x22\x12\x16\x15\x0F\x0D", "\x0F\x11\x14\x19\x11\x12\x0C\x0F\x30\x12\x27\x42" },//['Kalibruoti', 'temperatūrą?'] 
+  /* SettingsReset             */ { "\x1B\x0F\x10\x0F\x0C\x0F\x21\x0F\x0D", "\x13\x16\x10\x0F\x0C\x0F\x21\x14\x16\x10\x42" },//['Atstatyti', 'nustatymus?'] 
+  /* VoltageCalibration        */ { "\x32\x0C\x17\x0D\x22\x12\x16\x15\x0F\x0D", "\x26\x20\x11\x10\x0F\x0D\x11\x10\x0E\x26\x0F\x0C\x14\x19\x27\x42" },//['Kalibruoti', 'įvesties įtampą?'] 
+  /* AdvancedSoldering         */ { "\x33\x11\x0F\x0C\x17\x16\x10\x0E\x17\x0D\x0F\x0C\x2A", "\x20\x0D\x14\x15\x0E\x11\x18\x12\x0C\x13\x0C\x10" },//['Detalus lita-', 'vimo ekranas'] 
+  /* ScrollingSpeed            */ { "\x2F\x12\x11\x0D\x0F\x0C\x10\x0E\x0C\x19\x12", "\x0C\x1D\x21\x14\x25\x0E\x10\x17\x0D\x13\x18" },//['Greitas apr', 'ašym. slink'] 
   /* TipModel                  */ { "\x1B\x13\x0F\x1C\x0C\x17\x0D\x15", "\x14\x15\x1E\x11\x17\x0D\x10" },//['Antgalio', 'modelis'] 
-  /* SimpleCalibrationMode     */ { "\x38\x0C\x19\x12\x0C\x10\x0F\x0C", "\x18\x0C\x17\x0D\x22\x12\x0C\x27\x0D\x1A\x0C" },//['Paprasta', 'kalibracija'] 
-  /* AdvancedCalibrationMode   */ { "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x23", "\x18\x0C\x17\x0D\x22\x12\x0C\x27\x0D\x1A\x0C" },//['Išplėstinė', 'kalibracija'] 
-  /* PowerInput                */ { "\x2F\x0C\x17\x0D\x0C", "\x21\x0C\x0F\x0C\x0D\x10" },//['Galia', 'vatais'] 
-  /* PowerLimitEnable          */ { "\x38\x0E\x31\x0D\x14\x0D\x0F", "\x3D\x13\x0C\x22\x17\x11" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x38\x15\x3E\x11\x12", "\x31\x0D\x14\x0D\x0F" },//['Power', 'Limit'] 
+  /* SimpleCalibrationMode     */ { "\x37\x0C\x19\x12\x0C\x10\x0F\x0C", "\x18\x0C\x17\x0D\x22\x12\x0C\x28\x0D\x1A\x0C" },//['Paprasta', 'kalibracija'] 
+  /* AdvancedCalibrationMode   */ { "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x23", "\x18\x0C\x17\x0D\x22\x12\x0C\x28\x0D\x1A\x0C" },//['Išplėstinė', 'kalibracija'] 
+  /* PowerInput                */ { "\x2F\x0C\x17\x0D\x0C", "\x20\x0C\x0F\x0C\x0D\x10" },//['Galia', 'vatais'] 
+  /* PowerLimitEnable          */ { "\x37\x0E\x31\x0D\x14\x0D\x0F", "\x3D\x13\x0C\x22\x17\x11" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x37\x15\x3E\x11\x12", "\x31\x0D\x14\x0D\x0F" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x31\x0D\x0F\x0C\x21\x0D\x14\x15\x01\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//['Litavimo', 'nustatymai'] 
+  /* SolderingMenu             */ "\x31\x0D\x0F\x0C\x20\x0D\x14\x15\x01\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//['Litavimo', 'nustatymai'] 
   /* PowerSavingMenu           */ "\x24\x0D\x11\x1C\x15\x01\x12\x11\x36\x0D\x14\x0C\x0D",//['Miego', 'režimai'] 
-  /* UIMenu                    */ "\x2D\x0C\x16\x1E\x15\x0F\x15\x1A\x15\x01\x10\x26\x10\x0C\x1A\x0C",//['Naudotojo', 'sąsaja'] 
-  /* AdvancedMenu              */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x29\x01\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//['Išplėstin.', 'nustatymai'] 
+  /* UIMenu                    */ "\x2D\x0C\x16\x1E\x15\x0F\x15\x1A\x15\x01\x10\x27\x10\x0C\x1A\x0C",//['Naudotojo', 'sąsaja'] 
+  /* AdvancedMenu              */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x25\x01\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//['Išplėstin.', 'nustatymai'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x31\x0D\x0F\x0C\x21\x0D\x14\x15\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//Litavimo nustatymai 
-  /* PowerSavingMenu           */ "\x3D\x13\x11\x12\x1C\x0D\x1A\x15\x10\x0E\x21\x0C\x12\x0F\x15\x1A\x0D\x14\x15\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//Energijos vartojimo nustatymai 
-  /* UIMenu                    */ "\x2D\x0C\x16\x1E\x15\x0F\x15\x1A\x15\x0E\x10\x26\x10\x0C\x1A\x15\x10\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//Naudotojo sąsajos nustatymai 
-  /* AdvancedMenu              */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x0D\x0C\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x20\x14\x0C\x0D",//Išplėstiniai nustatymai 
+  /* SolderingMenu             */ "\x31\x0D\x0F\x0C\x20\x0D\x14\x15\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//Litavimo nustatymai 
+  /* PowerSavingMenu           */ "\x3D\x13\x11\x12\x1C\x0D\x1A\x15\x10\x0E\x20\x0C\x12\x0F\x15\x1A\x0D\x14\x15\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//Energijos vartojimo nustatymai 
+  /* UIMenu                    */ "\x2D\x0C\x16\x1E\x15\x0F\x15\x1A\x15\x0E\x10\x27\x10\x0C\x1A\x15\x10\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//Naudotojo sąsajos nustatymai 
+  /* AdvancedMenu              */ "\x2E\x1D\x19\x17\x23\x10\x0F\x0D\x13\x0D\x0C\x0D\x0E\x13\x16\x10\x0F\x0C\x0F\x21\x14\x0C\x0D",//Išplėstiniai nustatymai 
 };
 
 #endif
@@ -3845,8 +3857,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x1B -> h
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1C -> S
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1D -> c
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1E -> T
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1F -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1E -> .
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1F -> T
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x20 -> k
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x21 -> b
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x22 -> C
@@ -3867,14 +3879,14 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x31 -> L
 0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x32 -> H
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x33 -> W
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x34 -> V
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x35 -> F
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x36 -> D
-0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x37 -> j
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x38 -> :
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x39 -> z
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x3A -> R
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3B -> O
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x34 -> F
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x35 -> D
+0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x36 -> j
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x37 -> V
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x38 -> O
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x39 -> :
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3A -> z
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x3B -> R
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3C -> ?
 0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x3D -> =
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x3E -> U
@@ -3918,8 +3930,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x1B -> h
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1C -> S
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1D -> c
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1E -> T
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1F -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1E -> .
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1F -> T
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x20 -> k
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x21 -> b
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x22 -> C
@@ -3940,14 +3952,14 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x31 -> L
 0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x32 -> H
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x33 -> W
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x34 -> V
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x35 -> F
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x36 -> D
-0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x37 -> j
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x38 -> :
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x39 -> z
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x3A -> R
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3B -> O
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x34 -> F
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x35 -> D
+0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x36 -> j
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x37 -> V
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x38 -> O
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x39 -> :
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3A -> z
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x3B -> R
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3C -> ?
 0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x3D -> =
 0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x3E -> U
@@ -3965,24 +3977,24 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Nederlands ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1C\x17\x12\x0F\x0F\x11\x0F\x19\x15\x21\x10\x14\x0F\x1F\x0D\x1C\x0E\x0C\x13\x0E\x0D\x16\x10\x0C\x1A\x17\x0C\x13\x15\x17\x12\x0F\x0F\x11\x0F\x19\x0D\x11\x0F\x1F\x0D\x2F\x36\x22\x0D\x03\x02\x34\x2E\x0D\x2F\x1C\x0D\x05\x1F\x05\x34\x0D\x17\x0C\x10\x0D\x1D\x0C\x13\x2E",//Spanningsbron. Stelt drempelspanning in. <DC 10V> <S 3.3V per cel> 
-  /* SleepTemperature          */ "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x0F\x0D\x15\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x0D\x2F\x22\x2E",//Temperatuur in slaapstand <C> 
+  /* PowerSource               */ "\x1C\x17\x12\x0F\x0F\x11\x0F\x19\x15\x21\x10\x14\x0F\x1E\x0D\x1C\x0E\x0C\x13\x0E\x0D\x16\x10\x0C\x1A\x17\x0C\x13\x15\x17\x12\x0F\x0F\x11\x0F\x19\x0D\x11\x0F\x1E\x0D\x2F\x35\x22\x0D\x03\x02\x37\x2E\x0D\x2F\x1C\x0D\x05\x1E\x05\x37\x0D\x17\x0C\x10\x0D\x1D\x0C\x13\x2E",//Spanningsbron. Stelt drempelspanning in. <DC 10V> <S 3.3V per cel> 
+  /* SleepTemperature          */ "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x0F\x0D\x15\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x0D\x2F\x22\x2E",//Temperatuur in slaapstand <C> 
   /* SleepTimeout              */ "\x1C\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x0D\x0E\x11\x1A\x0C\x26\x14\x18\x0E\x0D\x2F\x2D\x11\x0F\x18\x0E\x0C\x0F\x47\x1C\x0C\x1D\x14\x0F\x16\x0C\x0F\x2E",//Slaapstand time-out <Minuten/Seconden> 
   /* ShutdownTimeout           */ "\x28\x18\x0E\x14\x1A\x12\x0E\x11\x15\x1D\x1B\x0D\x12\x25\x15\x13\x18\x11\x0E\x0C\x0F\x0D\x0E\x11\x1A\x0C\x26\x14\x18\x0E\x0D\x2F\x2D\x11\x0F\x18\x0E\x0C\x0F\x2E",//Automatisch afsluiten time-out <Minuten> 
-  /* MotionSensitivity         */ "\x27\x0C\x24\x0C\x19\x11\x0F\x19\x15\x19\x0C\x23\x14\x0C\x13\x11\x19\x1B\x0C\x11\x16\x0D\x2F\x02\x1F\x18\x11\x0E\x0D\x03\x1F\x1A\x11\x0F\x15\x0E\x0D\x19\x0C\x23\x14\x0C\x13\x11\x19\x0D\x0B\x1F\x1A\x0C\x0C\x15\x0E\x0D\x19\x0C\x23\x14\x0C\x13\x11\x19\x2E",//Bewegingsgevoeligheid <0.uit 1.minst gevoelig 9.meest gevoelig> 
-  /* TemperatureUnit           */ "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0C\x0C\x0F\x1B\x0C\x11\x16\x0D\x2F\x22\x3D\x22\x0C\x13\x15\x11\x18\x15\x0D\x35\x3D\x35\x12\x1B\x10\x0C\x0F\x1B\x0C\x11\x0E\x2E",//Temperatuureenheid <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16\x0C\x0D\x11\x0F\x25\x14\x10\x1A\x12\x0E\x11\x0C\x0D\x24\x0C\x0C\x10\x19\x0C\x23\x0C\x0F\x0D\x11\x0F\x0D\x0C\x0C\x0F\x0D\x20\x13\x0C\x11\x0F\x0C\x10\x0D\x13\x0C\x0E\x0E\x0C\x10\x0E\x41\x17\x0C\x0D\x14\x17\x0D\x1B\x0C\x0E\x0D\x15\x13\x12\x12\x17\x15\x1D\x1B\x0C\x10\x1A\x1F",//Gedetailleerde informatie weergeven in een kleiner lettertype op het slaapscherm. 
-  /* DisplayRotation           */ "\x1C\x1D\x1B\x0C\x10\x1A\x14\x10\x11\x40\x0F\x0E\x12\x0E\x11\x0C\x0D\x2F\x28\x1F\x0D\x28\x18\x0E\x14\x1A\x12\x0E\x11\x15\x1D\x1B\x0D\x31\x1F\x0D\x31\x11\x0F\x20\x15\x1B\x12\x0F\x16\x11\x19\x0D\x3A\x1F\x0D\x3A\x0C\x1D\x1B\x0E\x15\x1B\x12\x0F\x16\x11\x19\x2E",//Schermoriëntatie <A. Automatisch L. Linkshandig R. Rechtshandig> 
-  /* BoostEnabled              */ "\x1C\x14\x13\x16\x0C\x0C\x10\x21\x14\x18\x0E\x0D\x19\x12\x12\x0E\x0D\x0F\x12\x12\x10\x0D\x0C\x0C\x0F\x0D\x1B\x14\x19\x0C\x10\x0C\x0D\x21\x14\x14\x15\x0E\x26\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x24\x12\x0F\x0F\x0C\x0C\x10\x0D\x16\x0C\x0D\x23\x14\x14\x10\x15\x0E\x0C\x0D\x20\x0F\x14\x17\x0D\x11\x0F\x19\x0C\x16\x10\x18\x20\x0E\x0D\x11\x15\x1F",//Soldeerbout gaat naar een hogere boost-temperatuur wanneer de voorste knop ingedrukt is. 
-  /* BoostTemperature          */ "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x0F\x0D\x21\x14\x14\x15\x0E\x1A\x14\x16\x0C\x15",//Temperatuur in boostmodes 
-  /* AutoStart                 */ "\x27\x10\x0C\x0F\x19\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x21\x14\x18\x0E\x0D\x16\x11\x10\x0C\x1D\x0E\x0D\x14\x17\x0D\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x21\x11\x37\x0D\x1B\x0C\x0E\x0D\x14\x17\x15\x0E\x12\x10\x0E\x0C\x0F\x1F\x0D\x1E\x3D\x1C\x14\x13\x16\x0C\x0C\x10\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x43\x0D\x1C\x3D\x1C\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x26\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x43\x0D\x35\x3D\x3E\x11\x0E",//Breng de soldeerbout direct op temperatuur bij het opstarten. T=Soldeertemperatuur, S=Slaapstand-temperatuur, F=Uit 
-  /* CooldownBlink             */ "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x13\x12\x0E\x0C\x0F\x0D\x25\x13\x11\x20\x20\x0C\x10\x0C\x0F\x0D\x11\x0F\x0D\x1B\x0C\x0E\x0D\x1B\x14\x14\x25\x16\x1A\x0C\x0F\x18\x0D\x12\x13\x15\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x12\x12\x0F\x0D\x1B\x0C\x0E\x0D\x12\x25\x20\x14\x0C\x13\x0C\x0F\x0D\x11\x15\x1F",//Temperatuur laten flikkeren in het hoofdmenu als de soldeerpunt aan het afkoelen is. 
-  /* TemperatureCalibration    */ "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x15\x12\x25\x24\x11\x37\x20\x11\x0F\x19\x0D\x23\x12\x0F\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x1D\x12\x13\x11\x21\x10\x0C\x10\x0C\x0F\x1F",//Temperatuursafwijking van de soldeerpunt calibreren. 
-  /* SettingsReset             */ "\x28\x13\x13\x0C\x0D\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F\x0D\x0E\x0C\x10\x18\x19\x39\x0C\x0E\x0E\x0C\x0F\x1F",//Alle instellingen terugzetten. 
-  /* VoltageCalibration        */ "\x34\x2A\x46\x0D\x22\x12\x13\x11\x21\x10\x0C\x10\x0C\x0F\x1F\x0D\x3F\x0F\x14\x17\x17\x0C\x0F\x0D\x13\x12\x0F\x19\x0D\x11\x0F\x19\x0C\x16\x10\x18\x20\x0E\x0D\x1B\x14\x18\x16\x0C\x0F\x0D\x14\x1A\x0D\x0E\x0C\x0D\x21\x0C\x23\x0C\x15\x0E\x11\x19\x0C\x0F\x1F",//VIN Calibreren. Knoppen lang ingedrukt houden om te bevestigen. 
-  /* AdvancedSoldering         */ "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16\x0C\x0D\x11\x0F\x25\x14\x10\x1A\x12\x0E\x11\x0C\x0D\x24\x0C\x0C\x10\x19\x0C\x23\x0C\x0F\x0D\x11\x0F\x0D\x0C\x0C\x0F\x0D\x20\x13\x0C\x11\x0F\x0C\x10\x0D\x13\x0C\x0E\x0E\x0C\x10\x0E\x41\x17\x0C\x0D\x14\x17\x0D\x1B\x0C\x0E\x0D\x15\x14\x13\x16\x0C\x0C\x10\x15\x1D\x1B\x0C\x10\x1A\x1F",//Gedetailleerde informatie weergeven in een kleiner lettertype op het soldeerscherm. 
-  /* ScrollingSpeed            */ "\x1C\x0F\x0C\x13\x1B\x0C\x11\x16\x0D\x24\x12\x12\x10\x1A\x0C\x0C\x0D\x16\x0C\x0D\x0E\x0C\x20\x15\x0E\x0D\x15\x1D\x10\x14\x13\x0E\x1F",//Snelheid waarmee de tekst scrolt. 
-  /* TipModel                  */ "\x1E\x11\x17\x0D\x2D\x14\x16\x0C\x13\x0D\x15\x0C\x13\x0C\x1D\x0E\x11\x14\x0F",//Tip Model selection 
+  /* MotionSensitivity         */ "\x27\x0C\x24\x0C\x19\x11\x0F\x19\x15\x19\x0C\x23\x14\x0C\x13\x11\x19\x1B\x0C\x11\x16\x0D\x2F\x02\x1E\x18\x11\x0E\x0D\x03\x1E\x1A\x11\x0F\x15\x0E\x0D\x19\x0C\x23\x14\x0C\x13\x11\x19\x0D\x0B\x1E\x1A\x0C\x0C\x15\x0E\x0D\x19\x0C\x23\x14\x0C\x13\x11\x19\x2E",//Bewegingsgevoeligheid <0.uit 1.minst gevoelig 9.meest gevoelig> 
+  /* TemperatureUnit           */ "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0C\x0C\x0F\x1B\x0C\x11\x16\x0D\x2F\x22\x3D\x22\x0C\x13\x15\x11\x18\x15\x0D\x34\x3D\x34\x12\x1B\x10\x0C\x0F\x1B\x0C\x11\x0E\x2E",//Temperatuureenheid <C=Celsius F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16\x0C\x0D\x11\x0F\x25\x14\x10\x1A\x12\x0E\x11\x0C\x0D\x24\x0C\x0C\x10\x19\x0C\x23\x0C\x0F\x0D\x11\x0F\x0D\x0C\x0C\x0F\x0D\x20\x13\x0C\x11\x0F\x0C\x10\x0D\x13\x0C\x0E\x0E\x0C\x10\x0E\x41\x17\x0C\x0D\x14\x17\x0D\x1B\x0C\x0E\x0D\x15\x13\x12\x12\x17\x15\x1D\x1B\x0C\x10\x1A\x1E",//Gedetailleerde informatie weergeven in een kleiner lettertype op het slaapscherm. 
+  /* DisplayRotation           */ "\x1C\x1D\x1B\x0C\x10\x1A\x14\x10\x11\x40\x0F\x0E\x12\x0E\x11\x0C\x0D\x2F\x28\x1E\x0D\x28\x18\x0E\x14\x1A\x12\x0E\x11\x15\x1D\x1B\x0D\x31\x1E\x0D\x31\x11\x0F\x20\x15\x1B\x12\x0F\x16\x11\x19\x0D\x3B\x1E\x0D\x3B\x0C\x1D\x1B\x0E\x15\x1B\x12\x0F\x16\x11\x19\x2E",//Schermoriëntatie <A. Automatisch L. Linkshandig R. Rechtshandig> 
+  /* BoostEnabled              */ "\x1C\x14\x13\x16\x0C\x0C\x10\x21\x14\x18\x0E\x0D\x19\x12\x12\x0E\x0D\x0F\x12\x12\x10\x0D\x0C\x0C\x0F\x0D\x1B\x14\x19\x0C\x10\x0C\x0D\x21\x14\x14\x15\x0E\x26\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x24\x12\x0F\x0F\x0C\x0C\x10\x0D\x16\x0C\x0D\x23\x14\x14\x10\x15\x0E\x0C\x0D\x20\x0F\x14\x17\x0D\x11\x0F\x19\x0C\x16\x10\x18\x20\x0E\x0D\x11\x15\x1E",//Soldeerbout gaat naar een hogere boost-temperatuur wanneer de voorste knop ingedrukt is. 
+  /* BoostTemperature          */ "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x0F\x0D\x21\x14\x14\x15\x0E\x1A\x14\x16\x0C\x15",//Temperatuur in boostmodes 
+  /* AutoStart                 */ "\x27\x10\x0C\x0F\x19\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x21\x14\x18\x0E\x0D\x16\x11\x10\x0C\x1D\x0E\x0D\x14\x17\x0D\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x21\x11\x36\x0D\x1B\x0C\x0E\x0D\x14\x17\x15\x0E\x12\x10\x0E\x0C\x0F\x1E\x0D\x1F\x3D\x1C\x14\x13\x16\x0C\x0C\x10\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x43\x0D\x1C\x3D\x1C\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x26\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x43\x0D\x34\x3D\x3E\x11\x0E",//Breng de soldeerbout direct op temperatuur bij het opstarten. T=Soldeertemperatuur, S=Slaapstand-temperatuur, F=Uit 
+  /* CooldownBlink             */ "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x13\x12\x0E\x0C\x0F\x0D\x25\x13\x11\x20\x20\x0C\x10\x0C\x0F\x0D\x11\x0F\x0D\x1B\x0C\x0E\x0D\x1B\x14\x14\x25\x16\x1A\x0C\x0F\x18\x0D\x12\x13\x15\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x12\x12\x0F\x0D\x1B\x0C\x0E\x0D\x12\x25\x20\x14\x0C\x13\x0C\x0F\x0D\x11\x15\x1E",//Temperatuur laten flikkeren in het hoofdmenu als de soldeerpunt aan het afkoelen is. 
+  /* TemperatureCalibration    */ "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x15\x12\x25\x24\x11\x36\x20\x11\x0F\x19\x0D\x23\x12\x0F\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x1D\x12\x13\x11\x21\x10\x0C\x10\x0C\x0F\x1E",//Temperatuursafwijking van de soldeerpunt calibreren. 
+  /* SettingsReset             */ "\x28\x13\x13\x0C\x0D\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F\x0D\x0E\x0C\x10\x18\x19\x3A\x0C\x0E\x0E\x0C\x0F\x1E",//Alle instellingen terugzetten. 
+  /* VoltageCalibration        */ "\x37\x2A\x46\x0D\x22\x12\x13\x11\x21\x10\x0C\x10\x0C\x0F\x1E\x0D\x3F\x0F\x14\x17\x17\x0C\x0F\x0D\x13\x12\x0F\x19\x0D\x11\x0F\x19\x0C\x16\x10\x18\x20\x0E\x0D\x1B\x14\x18\x16\x0C\x0F\x0D\x14\x1A\x0D\x0E\x0C\x0D\x21\x0C\x23\x0C\x15\x0E\x11\x19\x0C\x0F\x1E",//VIN Calibreren. Knoppen lang ingedrukt houden om te bevestigen. 
+  /* AdvancedSoldering         */ "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16\x0C\x0D\x11\x0F\x25\x14\x10\x1A\x12\x0E\x11\x0C\x0D\x24\x0C\x0C\x10\x19\x0C\x23\x0C\x0F\x0D\x11\x0F\x0D\x0C\x0C\x0F\x0D\x20\x13\x0C\x11\x0F\x0C\x10\x0D\x13\x0C\x0E\x0E\x0C\x10\x0E\x41\x17\x0C\x0D\x14\x17\x0D\x1B\x0C\x0E\x0D\x15\x14\x13\x16\x0C\x0C\x10\x15\x1D\x1B\x0C\x10\x1A\x1E",//Gedetailleerde informatie weergeven in een kleiner lettertype op het soldeerscherm. 
+  /* ScrollingSpeed            */ "\x1C\x0F\x0C\x13\x1B\x0C\x11\x16\x0D\x24\x12\x12\x10\x1A\x0C\x0C\x0D\x16\x0C\x0D\x0E\x0C\x20\x15\x0E\x0D\x15\x1D\x10\x14\x13\x0E\x1E",//Snelheid waarmee de tekst scrolt. 
+  /* TipModel                  */ "\x1F\x11\x17\x0D\x2D\x14\x16\x0C\x13\x0D\x15\x0C\x13\x0C\x1D\x0E\x11\x14\x0F",//Tip Model selection 
   /* SimpleCalibrationMode     */ "\x1C\x11\x1A\x17\x13\x0C\x0D\x22\x12\x13\x11\x21\x10\x12\x0E\x11\x14\x0F\x0D\x18\x15\x11\x0F\x19\x0D\x32\x14\x0E\x0D\x24\x12\x0E\x0C\x10",//Simple Calibration using Hot water 
   /* AdvancedCalibrationMode   */ "\x28\x16\x23\x12\x0F\x1D\x0C\x16\x0D\x1D\x12\x13\x11\x21\x10\x12\x0E\x11\x14\x0F\x0D\x18\x15\x11\x0F\x19\x0D\x0E\x1B\x0C\x10\x1A\x14\x1D\x14\x18\x17\x13\x0C\x0D\x14\x0F\x0D\x0E\x1B\x0C\x0D\x0E\x11\x17",//Advanced calibration using thermocouple on the tip 
   /* PowerInput                */ "\x29\x14\x24\x0C\x10\x0D\x33\x12\x0E\x0E\x12\x19\x0C\x0D\x14\x25\x0D\x0E\x1B\x0C\x0D\x17\x14\x24\x0C\x10\x0D\x12\x16\x12\x17\x0E\x0C\x10\x0D\x18\x15\x0C\x16",//Power Wattage of the power adapter used 
@@ -3991,79 +4003,80 @@ const char* SettingsDescriptions[] = {
 };
 
 const char* SettingsCalibrationDone = "\x22\x12\x13\x11\x21\x10\x12\x0E\x11\x14\x0F\x0D\x16\x14\x0F\x0C\x30";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x42\x14\x10\x19\x0D\x0C\x10\x23\x14\x14\x10\x0D\x16\x12\x0E\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x14\x17\x0D\x20\x12\x1A\x0C\x10\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x15\x0D\x23\x14\x14\x10\x0D\x37\x0C\x0D\x23\x0C\x10\x16\x0C\x10\x19\x12\x12\x0E\x30";//Zorg ervoor dat de soldeerpunt op kamertemperatuur is voor je verdergaat! 
-const char* SettingsResetWarning = "\x27\x0C\x0F\x0D\x37\x0C\x0D\x39\x0C\x20\x0C\x10\x0D\x16\x12\x0E\x0D\x37\x0C\x0D\x12\x13\x13\x0C\x0D\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F\x0D\x0F\x12\x12\x10\x0D\x16\x0C\x0D\x15\x0E\x12\x0F\x16\x12\x12\x10\x16\x24\x12\x12\x10\x16\x0C\x15\x0D\x24\x11\x13\x0E\x0D\x0E\x0C\x10\x18\x19\x39\x0C\x0E\x0E\x0C\x0F\x3C";//Ben je zeker dat je alle instellingen naar de standaardwaardes wilt terugzetten? 
-const char* UVLOWarningString = "\x36\x22\x0D\x31\x28\x28\x2B";//DC LAAG 
-const char* UndervoltageString = "\x3B\x0F\x16\x0C\x10\x15\x17\x12\x0F\x0F\x11\x0F\x19";//Onderspanning 
-const char* InputVoltageString = "\x2A\x0F\x17\x18\x0E\x0D\x34\x38\x0D";//Input V:  
-const char* WarningTipTempString = "\x1E\x11\x17\x0D\x1E\x0C\x1A\x17\x38\x0D";//Tip Temp:  
-const char* BadTipString = "\x36\x2C\x35\x2C\x22\x1E";//DEFECT 
-const char* SleepingSimpleString = "\x42\x39\x39\x0D";//Zzz  
-const char* SleepingAdvancedString = "\x1C\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x1F\x1F\x1F";//Slaapstand... 
-const char* WarningSimpleString = "\x32\x2C\x2C\x1E";//HEET 
-const char* WarningAdvancedString = "\x30\x30\x30\x0D\x1E\x2A\x29\x0D\x32\x2C\x2C\x1E\x0D\x30\x30\x30";//!!! TIP HEET !!! 
-const char* SleepingTipAdvancedString = "\x1E\x11\x17\x38";//Tip: 
-const char* IdleTipString = "\x1E\x11\x17\x38";//Tip: 
-const char* IdleSetString = "\x0D\x1C\x0C\x0E\x38";// Set: 
-const char* TipDisconnectedString = "\x1E\x2A\x29\x0D\x31\x3B\x1C\x2B\x2C\x3F\x3B\x29\x29\x2C\x31\x36";//TIP LOSGEKOPPELD 
-const char* SolderingAdvancedPowerPrompt = "\x23\x0C\x10\x1A\x14\x19\x0C\x0F\x38\x0D";//vermogen:  
-const char* OffString = "\x3B\x25\x25";//Off 
-const char* ResetOKMessage = "\x3A\x0C\x15\x0C\x0E\x0D\x3B\x3F";//Reset OK 
+const char* SettingsCalibrationWarning = "\x42\x14\x10\x19\x0D\x0C\x10\x23\x14\x14\x10\x0D\x16\x12\x0E\x0D\x16\x0C\x0D\x15\x14\x13\x16\x0C\x0C\x10\x17\x18\x0F\x0E\x0D\x14\x17\x0D\x20\x12\x1A\x0C\x10\x0E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10\x0D\x11\x15\x0D\x23\x14\x14\x10\x0D\x36\x0C\x0D\x23\x0C\x10\x16\x0C\x10\x19\x12\x12\x0E\x30";//Zorg ervoor dat de soldeerpunt op kamertemperatuur is voor je verdergaat! 
+const char* SettingsResetWarning = "\x27\x0C\x0F\x0D\x36\x0C\x0D\x3A\x0C\x20\x0C\x10\x0D\x16\x12\x0E\x0D\x36\x0C\x0D\x12\x13\x13\x0C\x0D\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F\x0D\x0F\x12\x12\x10\x0D\x16\x0C\x0D\x15\x0E\x12\x0F\x16\x12\x12\x10\x16\x24\x12\x12\x10\x16\x0C\x15\x0D\x24\x11\x13\x0E\x0D\x0E\x0C\x10\x18\x19\x3A\x0C\x0E\x0E\x0C\x0F\x3C";//Ben je zeker dat je alle instellingen naar de standaardwaardes wilt terugzetten? 
+const char* UVLOWarningString = "\x35\x22\x0D\x31\x28\x28\x2B";//DC LAAG 
+const char* UndervoltageString = "\x38\x0F\x16\x0C\x10\x15\x17\x12\x0F\x0F\x11\x0F\x19";//Onderspanning 
+const char* InputVoltageString = "\x2A\x0F\x17\x18\x0E\x0D\x37\x39\x0D";//Input V:  
+const char* WarningTipTempString = "\x1F\x11\x17\x0D\x1F\x0C\x1A\x17\x39\x0D";//Tip Temp:  
+const char* BadTipString = "\x35\x2C\x34\x2C\x22\x1F";//DEFECT 
+const char* SleepingSimpleString = "\x42\x3A\x3A\x0D";//Zzz  
+const char* SleepingAdvancedString = "\x1C\x13\x12\x12\x17\x15\x0E\x12\x0F\x16\x1E\x1E\x1E";//Slaapstand... 
+const char* WarningSimpleString = "\x32\x2C\x2C\x1F";//HEET 
+const char* WarningAdvancedString = "\x30\x30\x30\x0D\x1F\x2A\x29\x0D\x32\x2C\x2C\x1F\x0D\x30\x30\x30";//!!! TIP HEET !!! 
+const char* SleepingTipAdvancedString = "\x1F\x11\x17\x39";//Tip: 
+const char* IdleTipString = "\x1F\x11\x17\x39";//Tip: 
+const char* IdleSetString = "\x0D\x1C\x0C\x0E\x39";// Set: 
+const char* TipDisconnectedString = "\x1F\x2A\x29\x0D\x31\x38\x1C\x2B\x2C\x3F\x38\x29\x29\x2C\x31\x35";//TIP LOSGEKOPPELD 
+const char* SolderingAdvancedPowerPrompt = "\x23\x0C\x10\x1A\x14\x19\x0C\x0F\x39\x0D";//vermogen:  
+const char* OffString = "\x38\x25\x25";//Off 
+const char* ResetOKMessage = "\x3B\x0C\x15\x0C\x0E\x0D\x38\x3F";//Reset OK 
 const char* YourGainMessage = "\x45\x14\x18\x10\x0D\x2B\x12\x11\x0F";//Your Gain 
 const char* SettingsResetMessage = "\x1C\x0C\x0E\x0E\x11\x0F\x19\x15\x0D\x24\x0C\x10\x0C\x01\x10\x0C\x15\x0C\x0E\x30";//Settings were_reset! 
 
-const char* SettingRightChar = "\x3A";//R 
+const char* SettingRightChar = "\x3B";//R 
 const char* SettingLeftChar = "\x31";//L 
 const char* SettingAutoChar = "\x28";//A 
-const char* SettingFastChar = "\x35";//F 
+const char* SettingFastChar = "\x34";//F 
 const char* SettingSlowChar = "\x1C";//S 
-const char* SettingStartSolderingChar = "\x1E";//T 
+const char* SettingStartSolderingChar = "\x1F";//T 
 const char* SettingStartSleepChar = "\x1C";//S 
-const char* SettingStartNoneChar = "\x35";//F 
+const char* SettingStartSleepOffChar = "\x38";//O 
+const char* SettingStartNoneChar = "\x34";//F 
 
 const char* SymbolPlus = "\x48";//+ 
 const char* SymbolMinus = "\x26";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x1F";//. 
+const char* SymbolDot = "\x1E";//. 
 const char* SymbolDegC = "\x22";//C 
-const char* SymbolDegF = "\x35";//F 
+const char* SymbolDegF = "\x34";//F 
 const char* SymbolMinutes = "\x2D";//M 
 const char* SymbolSeconds = "\x1C";//S 
 const char* SymbolWatts = "\x33";//W 
-const char* SymbolVolts = "\x34";//V 
-const char* SymbolDC = "\x36\x22";//DC 
+const char* SymbolVolts = "\x37";//V 
+const char* SymbolDC = "\x35\x22";//DC 
 const char* SymbolCellCount = "\x1C";//S 
-const char* SymbolVersionNumber = "\x34\x04\x1F\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x23\x04\x1E\x02\x0A\x1E\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x27\x02\x04",//B02 
-	 "\x36\x04\x06",//D24 
+	 "\x35\x04\x06",//D24 
 	 "\x27\x22\x04",//BC2 
 	 "\x0D\x22\x03",// C1 
-	 "\x1E\x1C\x03\x02\x02",//TS100 
+	 "\x1F\x1C\x03\x02\x02",//TS100 
 	 "\x27\x22\x04",//BC2 
 	 "\x32\x12\x20\x20\x14",//Hakko 
 	 "\x3E\x15\x0C\x10",//User 
 #else
 	 "\x27\x02\x04",//B02 
-	 "\x36\x04\x07",//D25 
-	 "\x1E\x1C\x0A\x02",//TS80 
+	 "\x35\x04\x07",//D25 
+	 "\x1F\x1C\x0A\x02",//TS80 
 	 "\x3E\x15\x0C\x10",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x26\x02\x03\x26\x04\x02",//18-01-20 
+	 "\x03\x06\x26\x02\x05\x26\x04\x02",//14-03-20 
 	 "\x32\x33\x0D\x2B\x0D",//HW G  
 	 "\x32\x33\x0D\x2D\x0D",//HW M  
 	 "\x32\x33\x0D\x29\x0D",//HW P  
-	 "\x1E\x11\x1A\x0C\x0D",//Time  
+	 "\x1F\x11\x1A\x0C\x0D",//Time  
 	 "\x2D\x14\x23\x0C\x0D",//Move  
-	 "\x3A\x1E\x11\x17\x0D",//RTip  
-	 "\x22\x1E\x11\x17\x0D",//CTip  
+	 "\x3B\x1F\x11\x17\x0D",//RTip  
+	 "\x22\x1F\x11\x17\x0D",//CTip  
 	 "\x22\x32\x12\x0F\x0D",//CHan  
-	 "\x34\x11\x0F\x0D\x0D",//Vin   
+	 "\x37\x11\x0F\x0D\x0D",//Vin   
 	 "\x29\x22\x27\x0D\x0D",//PCB   
 };
 
@@ -4074,7 +4087,7 @@ const char* SettingsShortNames[][2] = {
   /* SleepTimeout              */ { "\x1C\x13\x12\x12\x17", "\x0E\x11\x1A\x0C\x26\x14\x18\x0E" },//['Slaap', 'time-out'] 
   /* ShutdownTimeout           */ { "\x3E\x11\x0E\x15\x1D\x1B\x12\x20\x0C\x13", "\x0E\x11\x1A\x0C\x26\x14\x18\x0E" },//['Uitschakel', 'time-out'] 
   /* MotionSensitivity         */ { "\x27\x0C\x24\x0C\x19\x11\x0F\x19\x15\x26", "\x19\x0C\x23\x14\x0C\x13\x11\x19\x1B\x0C\x11\x16" },//['Bewegings-', 'gevoeligheid'] 
-  /* TemperatureUnit           */ { "\x1E\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10", "\x0C\x0C\x0F\x1B\x0C\x11\x16" },//['Temperatuur', 'eenheid'] 
+  /* TemperatureUnit           */ { "\x1F\x0C\x1A\x17\x0C\x10\x12\x0E\x18\x18\x10", "\x0C\x0C\x0F\x1B\x0C\x11\x16" },//['Temperatuur', 'eenheid'] 
   /* AdvancedIdle              */ { "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16", "\x15\x13\x12\x12\x17\x15\x1D\x1B\x0C\x10\x1A" },//['Gedetailleerd', 'slaapscherm'] 
   /* DisplayRotation           */ { "\x1C\x1D\x1B\x0C\x10\x1A\x26", "\x14\x10\x11\x40\x0F\x0E\x12\x0E\x11\x0C" },//['Scherm-', 'oriëntatie'] 
   /* BoostEnabled              */ { "\x27\x14\x14\x15\x0E\x1A\x14\x16\x0C\x15", "\x11\x0F\x19\x0C\x15\x1D\x1B\x12\x20\x0C\x13\x16\x3C" },//['Boostmodes', 'ingeschakeld?'] 
@@ -4086,7 +4099,7 @@ const char* SettingsShortNames[][2] = {
   /* VoltageCalibration        */ { "\x22\x12\x13\x11\x21\x10\x0C\x0C\x10", "\x11\x0F\x17\x18\x0E\x26\x23\x14\x13\x0E\x12\x19\x0C\x3C" },//['Calibreer', 'input-voltage?'] 
   /* AdvancedSoldering         */ { "\x2B\x0C\x16\x0C\x0E\x12\x11\x13\x13\x0C\x0C\x10\x16", "\x15\x14\x13\x16\x0C\x0C\x10\x15\x1D\x1B\x0C\x10\x1A" },//['Gedetailleerd', 'soldeerscherm'] 
   /* ScrollingSpeed            */ { "\x1C\x1D\x10\x14\x13\x13", "\x15\x0F\x0C\x13\x1B\x0C\x11\x16" },//['Scroll', 'snelheid'] 
-  /* TipModel                  */ { "\x1E\x11\x17", "\x2D\x14\x16\x0C\x13" },//['Tip', 'Model'] 
+  /* TipModel                  */ { "\x1F\x11\x17", "\x2D\x14\x16\x0C\x13" },//['Tip', 'Model'] 
   /* SimpleCalibrationMode     */ { "\x1C\x11\x1A\x17\x13\x0C", "\x22\x12\x13\x11\x21\x10\x12\x0E\x11\x14\x0F" },//['Simple', 'Calibration'] 
   /* AdvancedCalibrationMode   */ { "\x28\x16\x23\x12\x0F\x1D\x0C\x16", "\x22\x12\x13\x11\x21\x10\x12\x0E\x11\x14\x0F" },//['Advanced', 'Calibration'] 
   /* PowerInput                */ { "\x29\x14\x24\x0C\x10", "\x33\x12\x0E\x0E\x12\x19\x0C" },//['Power', 'Wattage'] 
@@ -4103,7 +4116,7 @@ const char* SettingsMenuEntries[4] = {
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x1C\x14\x13\x16\x0C\x0C\x10\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F",//Soldeerinstellingen 
-  /* PowerSavingMenu           */ "\x27\x12\x0E\x0E\x0C\x10\x11\x37\x21\x0C\x15\x17\x12\x10\x11\x0F\x19\x15\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F",//Batterijbesparingsinstellingen 
+  /* PowerSavingMenu           */ "\x27\x12\x0E\x0E\x0C\x10\x11\x36\x21\x0C\x15\x17\x12\x10\x11\x0F\x19\x15\x11\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F",//Batterijbesparingsinstellingen 
   /* UIMenu                    */ "\x2B\x0C\x21\x10\x18\x11\x20\x0C\x10\x15\x11\x0F\x0E\x0C\x10\x25\x12\x1D\x0C\x0D\x2A\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F",//Gebruikersinterface Instellingen 
   /* AdvancedMenu              */ "\x19\x0C\x12\x23\x12\x0F\x1D\x0C\x0C\x10\x16\x0C\x0D\x2A\x0F\x15\x0E\x0C\x13\x13\x11\x0F\x19\x0C\x0F",//geavanceerde Instellingen 
 };
@@ -4139,8 +4152,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x1A -> m
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x1B -> h
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1C -> S
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1D -> k
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1E -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1D -> .
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1E -> k
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1F -> c
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x20 -> T
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x21 -> C
@@ -4169,10 +4182,10 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x38 -> :
 0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x39 -> j
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x3A -> R
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3B -> ?
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x3C -> =
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3D -> z
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3E -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3B -> O
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3C -> ?
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x3D -> =
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3E -> z
 0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3F -> °
 0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x40 -> N
 0x00,0x80,0xC0,0xEC,0x6C,0x60,0x60,0x6C,0x6C,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x33,0x33,0x33,0x33,0x33,0x33,0x13,0x03,0x00,//\x41 -> ë
@@ -4213,8 +4226,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x1A -> m
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x1B -> h
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1C -> S
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1D -> k
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1E -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1D -> .
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1E -> k
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1F -> c
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x20 -> T
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x21 -> C
@@ -4243,10 +4256,10 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x38 -> :
 0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x39 -> j
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x3A -> R
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3B -> ?
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x3C -> =
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3D -> z
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3E -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3B -> O
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3C -> ?
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x3D -> =
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3E -> z
 0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x3F -> °
 0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x40 -> N
 0x38, 0x55, 0x54, 0x55, 0x08, 0x00,//\x41 -> ë
@@ -4262,50 +4275,50 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Vlaams ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1C\x18\x12\x0E\x0E\x11\x0E\x19\x14\x23\x10\x15\x0E\x1E\x0D\x1C\x0F\x0C\x13\x0F\x0D\x1A\x11\x0E\x11\x1A\x16\x1A\x14\x18\x12\x0E\x0E\x11\x0E\x19\x0D\x11\x0E\x1E\x0D\x2E\x37\x21\x0D\x03\x02\x25\x2D\x0D\x2E\x1C\x0D\x05\x1E\x05\x25\x0D\x18\x0C\x10\x0D\x1F\x0C\x13\x2D",//Spanningsbron. Stelt minimumspanning in. <DC 10V> <S 3.3V per cel> 
+  /* PowerSource               */ "\x1C\x18\x12\x0E\x0E\x11\x0E\x19\x14\x23\x10\x15\x0E\x1D\x0D\x1C\x0F\x0C\x13\x0F\x0D\x1A\x11\x0E\x11\x1A\x16\x1A\x14\x18\x12\x0E\x0E\x11\x0E\x19\x0D\x11\x0E\x1D\x0D\x2E\x37\x21\x0D\x03\x02\x25\x2D\x0D\x2E\x1C\x0D\x05\x1D\x05\x25\x0D\x18\x0C\x10\x0D\x1F\x0C\x13\x2D",//Spanningsbron. Stelt minimumspanning in. <DC 10V> <S 3.3V per cel> 
   /* SleepTemperature          */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x11\x0E\x0D\x14\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x0D\x2E\x3F\x21\x2D",//Temperatuur in slaapstand <°C> 
   /* SleepTimeout              */ "\x1C\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x0D\x0F\x11\x1A\x0C\x27\x15\x16\x0F\x0D\x2E\x30\x11\x0E\x16\x0F\x0C\x0E\x48\x1C\x0C\x1F\x15\x0E\x17\x0C\x0E\x2D",//Slaapstand time-out <Minuten/Seconden> 
   /* ShutdownTimeout           */ "\x2C\x16\x0F\x15\x1A\x12\x0F\x11\x14\x1F\x1B\x0D\x12\x2B\x14\x13\x16\x11\x0F\x0C\x0E\x0D\x0F\x11\x1A\x0C\x27\x15\x16\x0F\x0D\x2E\x30\x11\x0E\x16\x0F\x0C\x0E\x2D",//Automatisch afsluiten time-out <Minuten> 
-  /* MotionSensitivity         */ "\x28\x0C\x2A\x0C\x19\x11\x0E\x19\x14\x19\x0C\x22\x15\x0C\x13\x11\x19\x1B\x0C\x11\x17\x0D\x2E\x02\x1E\x16\x11\x0F\x0D\x03\x1E\x1A\x11\x0E\x14\x0F\x0D\x19\x0C\x22\x15\x0C\x13\x11\x19\x0D\x0B\x1E\x1A\x0C\x0C\x14\x0F\x0D\x19\x0C\x22\x15\x0C\x13\x11\x19\x2D",//Bewegingsgevoeligheid <0.uit 1.minst gevoelig 9.meest gevoelig> 
-  /* TemperatureUnit           */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x14\x1F\x1B\x12\x12\x13\x0D\x2E\x3F\x21\x3C\x21\x0C\x13\x14\x11\x16\x14\x0D\x3F\x36\x3C\x36\x12\x1B\x10\x0C\x0E\x1B\x0C\x11\x0F\x2D",//Temperatuurschaal <°C=Celsius °F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17\x0C\x0D\x11\x0E\x2B\x15\x10\x1A\x12\x0F\x11\x0C\x0D\x11\x0E\x0D\x0C\x0C\x0E\x0D\x1D\x13\x0C\x11\x0E\x0C\x10\x0D\x13\x0C\x0F\x0F\x0C\x10\x0F\x42\x18\x0C\x0D\x11\x0E\x0D\x1B\x0C\x0F\x0D\x14\x13\x12\x12\x18\x14\x1F\x1B\x0C\x10\x1A\x1E",//Gedetailleerde informatie in een kleiner lettertype in het slaapscherm. 
-  /* DisplayRotation           */ "\x1C\x1F\x1B\x0C\x10\x1A\x15\x10\x11\x41\x0E\x0F\x12\x0F\x11\x0C\x0D\x2E\x2C\x1E\x0D\x2C\x16\x0F\x15\x1A\x12\x0F\x11\x14\x1F\x1B\x0D\x31\x1E\x0D\x31\x11\x0E\x1D\x14\x1B\x12\x0E\x17\x11\x19\x0D\x3A\x1E\x0D\x3A\x0C\x1F\x1B\x0F\x14\x1B\x12\x0E\x17\x11\x19\x2D",//Schermoriëntatie <A. Automatisch L. Linkshandig R. Rechtshandig> 
-  /* BoostEnabled              */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x22\x0C\x10\x1B\x15\x15\x19\x0F\x0D\x12\x13\x14\x0D\x22\x15\x15\x10\x14\x0F\x0C\x0D\x1D\x0E\x15\x18\x0D\x11\x14\x0D\x11\x0E\x19\x0C\x17\x10\x16\x1D\x0F",//Temperatuur verhoogt als voorste knop is ingedrukt 
+  /* MotionSensitivity         */ "\x28\x0C\x2A\x0C\x19\x11\x0E\x19\x14\x19\x0C\x22\x15\x0C\x13\x11\x19\x1B\x0C\x11\x17\x0D\x2E\x02\x1D\x16\x11\x0F\x0D\x03\x1D\x1A\x11\x0E\x14\x0F\x0D\x19\x0C\x22\x15\x0C\x13\x11\x19\x0D\x0B\x1D\x1A\x0C\x0C\x14\x0F\x0D\x19\x0C\x22\x15\x0C\x13\x11\x19\x2D",//Bewegingsgevoeligheid <0.uit 1.minst gevoelig 9.meest gevoelig> 
+  /* TemperatureUnit           */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x14\x1F\x1B\x12\x12\x13\x0D\x2E\x3F\x21\x3D\x21\x0C\x13\x14\x11\x16\x14\x0D\x3F\x36\x3D\x36\x12\x1B\x10\x0C\x0E\x1B\x0C\x11\x0F\x2D",//Temperatuurschaal <°C=Celsius °F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17\x0C\x0D\x11\x0E\x2B\x15\x10\x1A\x12\x0F\x11\x0C\x0D\x11\x0E\x0D\x0C\x0C\x0E\x0D\x1E\x13\x0C\x11\x0E\x0C\x10\x0D\x13\x0C\x0F\x0F\x0C\x10\x0F\x42\x18\x0C\x0D\x11\x0E\x0D\x1B\x0C\x0F\x0D\x14\x13\x12\x12\x18\x14\x1F\x1B\x0C\x10\x1A\x1D",//Gedetailleerde informatie in een kleiner lettertype in het slaapscherm. 
+  /* DisplayRotation           */ "\x1C\x1F\x1B\x0C\x10\x1A\x15\x10\x11\x41\x0E\x0F\x12\x0F\x11\x0C\x0D\x2E\x2C\x1D\x0D\x2C\x16\x0F\x15\x1A\x12\x0F\x11\x14\x1F\x1B\x0D\x31\x1D\x0D\x31\x11\x0E\x1E\x14\x1B\x12\x0E\x17\x11\x19\x0D\x3A\x1D\x0D\x3A\x0C\x1F\x1B\x0F\x14\x1B\x12\x0E\x17\x11\x19\x2D",//Schermoriëntatie <A. Automatisch L. Linkshandig R. Rechtshandig> 
+  /* BoostEnabled              */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x22\x0C\x10\x1B\x15\x15\x19\x0F\x0D\x12\x13\x14\x0D\x22\x15\x15\x10\x14\x0F\x0C\x0D\x1E\x0E\x15\x18\x0D\x11\x14\x0D\x11\x0E\x19\x0C\x17\x10\x16\x1E\x0F",//Temperatuur verhoogt als voorste knop is ingedrukt 
   /* BoostTemperature          */ "\x25\x0C\x10\x1B\x15\x19\x11\x0E\x19\x14\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10",//Verhogingstemperatuur 
-  /* AutoStart                 */ "\x28\x10\x0C\x0E\x19\x0D\x17\x0C\x0D\x14\x15\x13\x17\x0C\x0C\x10\x23\x15\x16\x0F\x0D\x15\x18\x0D\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x23\x11\x39\x0D\x1B\x0C\x0F\x0D\x15\x18\x14\x0F\x12\x10\x0F\x0C\x0E\x1E\x0D\x20\x3C\x1C\x15\x13\x17\x0C\x0C\x10\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x45\x0D\x1C\x3C\x1C\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x27\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x45\x0D\x36\x3C\x35\x11\x0F",//Breng de soldeerbout op temperatuur bij het opstarten. T=Soldeertemperatuur, S=Slaapstand-temperatuur, F=Uit 
-  /* CooldownBlink             */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x1D\x0E\x11\x18\x18\x0C\x10\x0F\x0D\x11\x0E\x0D\x1B\x15\x15\x2B\x17\x1A\x0C\x0E\x16\x0D\x0F\x11\x39\x17\x0C\x0E\x14\x0D\x12\x2B\x1D\x15\x0C\x13\x11\x0E\x19\x1E",//Temperatuur knippert in hoofdmenu tijdens afkoeling. 
-  /* TemperatureCalibration    */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x22\x12\x0E\x0D\x17\x0C\x0D\x18\x16\x0E\x0F\x0D\x1F\x12\x13\x11\x23\x10\x0C\x10\x0C\x0E\x1E",//Temperatuur van de punt calibreren. 
-  /* SettingsReset             */ "\x2C\x13\x13\x0C\x0D\x11\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E\x0D\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x1E",//Alle instellingen resetten. 
-  /* VoltageCalibration        */ "\x25\x32\x40\x0D\x21\x12\x13\x11\x23\x10\x0C\x10\x0C\x0E\x1E\x0D\x28\x0C\x22\x0C\x14\x0F\x11\x19\x0C\x0E\x0D\x17\x15\x15\x10\x0D\x1D\x0E\x15\x18\x18\x0C\x0E\x0D\x13\x12\x0E\x19\x0D\x11\x0E\x0D\x0F\x0C\x0D\x17\x10\x16\x1D\x1D\x0C\x0E\x1E",//VIN Calibreren. Bevestigen door knoppen lang in te drukken. 
-  /* AdvancedSoldering         */ "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17\x0C\x0D\x11\x0E\x2B\x15\x10\x1A\x12\x0F\x11\x0C\x0D\x11\x0E\x0D\x1D\x13\x0C\x11\x0E\x0C\x10\x0D\x13\x0C\x0F\x0F\x0C\x10\x0F\x42\x18\x0C\x0D\x11\x0E\x0D\x14\x15\x13\x17\x0C\x0C\x10\x14\x1F\x1B\x0C\x10\x1A\x1E",//Gedetailleerde informatie in kleiner lettertype in soldeerscherm. 
-  /* ScrollingSpeed            */ "\x1C\x1F\x10\x15\x13\x14\x0E\x0C\x13\x1B\x0C\x11\x17\x0D\x22\x12\x0E\x0D\x17\x0C\x0D\x0F\x0C\x1D\x14\x0F\x1E",//Scrolsnelheid van de tekst. 
-  /* TipModel                  */ "\x24\x0C\x1D\x15\x3D\x0C\x0E\x0D\x18\x16\x0E\x0F",//Gekozen punt 
+  /* AutoStart                 */ "\x28\x10\x0C\x0E\x19\x0D\x17\x0C\x0D\x14\x15\x13\x17\x0C\x0C\x10\x23\x15\x16\x0F\x0D\x15\x18\x0D\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x23\x11\x39\x0D\x1B\x0C\x0F\x0D\x15\x18\x14\x0F\x12\x10\x0F\x0C\x0E\x1D\x0D\x20\x3D\x1C\x15\x13\x17\x0C\x0C\x10\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x45\x0D\x1C\x3D\x1C\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x27\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x45\x0D\x36\x3D\x35\x11\x0F",//Breng de soldeerbout op temperatuur bij het opstarten. T=Soldeertemperatuur, S=Slaapstand-temperatuur, F=Uit 
+  /* CooldownBlink             */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x1E\x0E\x11\x18\x18\x0C\x10\x0F\x0D\x11\x0E\x0D\x1B\x15\x15\x2B\x17\x1A\x0C\x0E\x16\x0D\x0F\x11\x39\x17\x0C\x0E\x14\x0D\x12\x2B\x1E\x15\x0C\x13\x11\x0E\x19\x1D",//Temperatuur knippert in hoofdmenu tijdens afkoeling. 
+  /* TemperatureCalibration    */ "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x22\x12\x0E\x0D\x17\x0C\x0D\x18\x16\x0E\x0F\x0D\x1F\x12\x13\x11\x23\x10\x0C\x10\x0C\x0E\x1D",//Temperatuur van de punt calibreren. 
+  /* SettingsReset             */ "\x2C\x13\x13\x0C\x0D\x11\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E\x0D\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x1D",//Alle instellingen resetten. 
+  /* VoltageCalibration        */ "\x25\x32\x40\x0D\x21\x12\x13\x11\x23\x10\x0C\x10\x0C\x0E\x1D\x0D\x28\x0C\x22\x0C\x14\x0F\x11\x19\x0C\x0E\x0D\x17\x15\x15\x10\x0D\x1E\x0E\x15\x18\x18\x0C\x0E\x0D\x13\x12\x0E\x19\x0D\x11\x0E\x0D\x0F\x0C\x0D\x17\x10\x16\x1E\x1E\x0C\x0E\x1D",//VIN Calibreren. Bevestigen door knoppen lang in te drukken. 
+  /* AdvancedSoldering         */ "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17\x0C\x0D\x11\x0E\x2B\x15\x10\x1A\x12\x0F\x11\x0C\x0D\x11\x0E\x0D\x1E\x13\x0C\x11\x0E\x0C\x10\x0D\x13\x0C\x0F\x0F\x0C\x10\x0F\x42\x18\x0C\x0D\x11\x0E\x0D\x14\x15\x13\x17\x0C\x0C\x10\x14\x1F\x1B\x0C\x10\x1A\x1D",//Gedetailleerde informatie in kleiner lettertype in soldeerscherm. 
+  /* ScrollingSpeed            */ "\x1C\x1F\x10\x15\x13\x14\x0E\x0C\x13\x1B\x0C\x11\x17\x0D\x22\x12\x0E\x0D\x17\x0C\x0D\x0F\x0C\x1E\x14\x0F\x1D",//Scrolsnelheid van de tekst. 
+  /* TipModel                  */ "\x24\x0C\x1E\x15\x3E\x0C\x0E\x0D\x18\x16\x0E\x0F",//Gekozen punt 
   /* SimpleCalibrationMode     */ "\x21\x12\x13\x11\x23\x10\x0C\x10\x11\x0E\x19\x0D\x1A\x0C\x0F\x0D\x1B\x0C\x0C\x0F\x0D\x2A\x12\x0F\x0C\x10",//Calibrering met heet water 
-  /* AdvancedCalibrationMode   */ "\x21\x12\x13\x11\x23\x10\x0C\x10\x11\x0E\x19\x0D\x1A\x0C\x0F\x0D\x0F\x1B\x0C\x10\x1A\x15\x1D\x15\x18\x18\x0C\x13",//Calibrering met thermokoppel 
+  /* AdvancedCalibrationMode   */ "\x21\x12\x13\x11\x23\x10\x0C\x10\x11\x0E\x19\x0D\x1A\x0C\x0F\x0D\x0F\x1B\x0C\x10\x1A\x15\x1E\x15\x18\x18\x0C\x13",//Calibrering met thermokoppel 
   /* PowerInput                */ "\x25\x0C\x10\x1A\x15\x19\x0C\x0E\x0D\x22\x12\x0E\x0D\x17\x0C\x0D\x12\x17\x12\x18\x0F\x0C\x10",//Vermogen van de adapter 
   /* PowerLimitEnable          */ "\x29\x0E\x12\x23\x13\x0C\x0D\x18\x15\x2A\x0C\x10\x0D\x13\x11\x1A\x11\x0F",//Enable power limit 
   /* PowerLimit                */ "\x30\x12\x46\x11\x1A\x16\x1A\x0D\x18\x15\x2A\x0C\x10\x0D\x0F\x1B\x0C\x0D\x11\x10\x15\x0E\x0D\x1F\x12\x0E\x0D\x16\x14\x0C\x0D\x2E\x34\x12\x0F\x0F\x14\x2D",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x24\x0C\x1F\x12\x13\x11\x23\x10\x0C\x0C\x10\x17\x2F";//Gecalibreerd! 
-const char* SettingsCalibrationWarning = "\x43\x15\x10\x19\x0D\x22\x15\x15\x10\x12\x2B\x0D\x17\x12\x0F\x0D\x17\x0C\x0D\x18\x16\x0E\x0F\x0D\x15\x18\x0D\x1D\x12\x1A\x0C\x10\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x11\x14\x2F";//Zorg vooraf dat de punt op kamertemperatuur is! 
-const char* SettingsResetWarning = "\x28\x0C\x0E\x0D\x39\x0C\x0D\x3D\x0C\x1D\x0C\x10\x0D\x17\x12\x0F\x0D\x39\x0C\x0D\x12\x13\x13\x0C\x0D\x14\x0F\x12\x0E\x17\x12\x12\x10\x17\x2A\x12\x12\x10\x17\x0C\x0E\x0D\x2A\x11\x13\x0D\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x3B";//Ben je zeker dat je alle standaardwaarden wil resetten? 
+const char* SettingsCalibrationWarning = "\x43\x15\x10\x19\x0D\x22\x15\x15\x10\x12\x2B\x0D\x17\x12\x0F\x0D\x17\x0C\x0D\x18\x16\x0E\x0F\x0D\x15\x18\x0D\x1E\x12\x1A\x0C\x10\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x0D\x11\x14\x2F";//Zorg vooraf dat de punt op kamertemperatuur is! 
+const char* SettingsResetWarning = "\x28\x0C\x0E\x0D\x39\x0C\x0D\x3E\x0C\x1E\x0C\x10\x0D\x17\x12\x0F\x0D\x39\x0C\x0D\x12\x13\x13\x0C\x0D\x14\x0F\x12\x0E\x17\x12\x12\x10\x17\x2A\x12\x12\x10\x17\x0C\x0E\x0D\x2A\x11\x13\x0D\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x3C";//Ben je zeker dat je alle standaardwaarden wil resetten? 
 const char* UVLOWarningString = "\x25\x15\x0C\x17\x11\x0E\x19\x14\x14\x18\x12\x0E\x0E\x11\x0E\x19\x0D\x31\x2C\x2C\x24";//Voedingsspanning LAAG 
-const char* UndervoltageString = "\x3E\x0E\x17\x0C\x10\x14\x18\x12\x0E\x0E\x11\x0E\x19";//Onderspanning 
+const char* UndervoltageString = "\x3B\x0E\x17\x0C\x10\x14\x18\x12\x0E\x0E\x11\x0E\x19";//Onderspanning 
 const char* InputVoltageString = "\x25\x15\x0C\x17\x11\x0E\x19\x14\x14\x18\x12\x0E\x0E\x11\x0E\x19\x38\x0D";//Voedingsspanning:  
 const char* WarningTipTempString = "\x26\x16\x0E\x0F\x0D\x20\x0C\x1A\x18\x38\x0D";//Punt Temp:  
 const char* BadTipString = "\x37\x29\x36\x29\x21\x20";//DEFECT 
-const char* SleepingSimpleString = "\x43\x3D\x3D\x0D";//Zzz  
-const char* SleepingAdvancedString = "\x1C\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x1E\x1E\x1E";//Slaapstand... 
+const char* SleepingSimpleString = "\x43\x3E\x3E\x0D";//Zzz  
+const char* SleepingAdvancedString = "\x1C\x13\x12\x12\x18\x14\x0F\x12\x0E\x17\x1D\x1D\x1D";//Slaapstand... 
 const char* WarningSimpleString = "\x33\x29\x29\x20";//HEET 
 const char* WarningAdvancedString = "\x2F\x2F\x2F\x0D\x26\x35\x40\x20\x0D\x33\x29\x29\x20\x0D\x2F\x2F\x2F";//!!! PUNT HEET !!! 
 const char* SleepingTipAdvancedString = "\x26\x16\x0E\x0F\x38";//Punt: 
 const char* IdleTipString = "\x26\x16\x0E\x0F\x38";//Punt: 
 const char* IdleSetString = "\x1C\x0F\x0C\x13\x0D\x11\x0E\x38";//Stel in: 
-const char* TipDisconnectedString = "\x26\x16\x0E\x0F\x0D\x3E\x40\x20\x44\x3E\x26\x26\x29\x31\x37";//Punt ONTKOPPELD 
+const char* TipDisconnectedString = "\x26\x16\x0E\x0F\x0D\x3B\x40\x20\x44\x3B\x26\x26\x29\x31\x37";//Punt ONTKOPPELD 
 const char* SolderingAdvancedPowerPrompt = "\x25\x0C\x10\x1A\x15\x19\x0C\x0E\x38\x0D";//Vermogen:  
 const char* OffString = "\x35\x11\x0F";//Uit 
-const char* ResetOKMessage = "\x3A\x0C\x14\x0C\x0F\x0D\x3E\x44";//Reset OK 
+const char* ResetOKMessage = "\x3A\x0C\x14\x0C\x0F\x0D\x3B\x44";//Reset OK 
 const char* YourGainMessage = "\x47\x15\x16\x10\x0D\x24\x12\x11\x0E";//Your Gain 
 const char* SettingsResetMessage = "\x1C\x0C\x0F\x0F\x11\x0E\x19\x14\x0D\x2A\x0C\x10\x0C\x01\x10\x0C\x14\x0C\x0F\x2F";//Settings were_reset! 
 
@@ -4316,12 +4329,13 @@ const char* SettingFastChar = "\x1C";//S
 const char* SettingSlowChar = "\x20";//T 
 const char* SettingStartSolderingChar = "\x20";//T 
 const char* SettingStartSleepChar = "\x1C";//S 
+const char* SettingStartSleepOffChar = "\x3B";//O 
 const char* SettingStartNoneChar = "\x36";//F 
 
 const char* SymbolPlus = "\x49";//+ 
 const char* SymbolMinus = "\x27";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x1E";//. 
+const char* SymbolDot = "\x1D";//. 
 const char* SymbolDegC = "\x21";//C 
 const char* SymbolDegF = "\x36";//F 
 const char* SymbolMinutes = "\x30";//M 
@@ -4330,7 +4344,7 @@ const char* SymbolWatts = "\x34";//W
 const char* SymbolVolts = "\x25";//V 
 const char* SymbolDC = "\x37\x21";//DC 
 const char* SymbolCellCount = "\x1C";//S 
-const char* SymbolVersionNumber = "\x25\x04\x1E\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x22\x04\x1D\x02\x0A\x1D\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -4340,7 +4354,7 @@ const char* TipModelStrings[] = {
 	 "\x0D\x21\x03",// C1 
 	 "\x20\x1C\x03\x02\x02",//TS100 
 	 "\x28\x21\x04",//BC2 
-	 "\x33\x12\x1D\x1D\x15",//Hakko 
+	 "\x33\x12\x1E\x1E\x15",//Hakko 
 	 "\x35\x14\x0C\x10",//User 
 #else
 	 "\x28\x02\x04",//B02 
@@ -4351,7 +4365,7 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x27\x02\x03\x27\x04\x02",//18-01-20 
+	 "\x03\x06\x27\x02\x05\x27\x04\x02",//14-03-20 
 	 "\x33\x34\x0D\x24\x0D",//HW G  
 	 "\x33\x34\x0D\x30\x0D",//HW M  
 	 "\x33\x34\x0D\x26\x0D",//HW P  
@@ -4369,18 +4383,18 @@ const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x1C\x18\x12\x0E\x0E\x11\x0E\x19\x14\x27", "\x23\x10\x15\x0E" },//['Spannings-', 'bron'] 
   /* SleepTemperature          */ { "\x1C\x13\x12\x12\x18", "\x0F\x0C\x1A\x18" },//['Slaap', 'temp'] 
   /* SleepTimeout              */ { "\x1C\x13\x12\x12\x18", "\x0F\x11\x1A\x0C\x27\x15\x16\x0F" },//['Slaap', 'time-out'] 
-  /* ShutdownTimeout           */ { "\x35\x11\x0F\x14\x1F\x1B\x12\x1D\x0C\x13", "\x0F\x11\x1A\x0C\x27\x15\x16\x0F" },//['Uitschakel', 'time-out'] 
+  /* ShutdownTimeout           */ { "\x35\x11\x0F\x14\x1F\x1B\x12\x1E\x0C\x13", "\x0F\x11\x1A\x0C\x27\x15\x16\x0F" },//['Uitschakel', 'time-out'] 
   /* MotionSensitivity         */ { "\x28\x0C\x2A\x0C\x19\x11\x0E\x19\x14\x27", "\x19\x0C\x22\x15\x0C\x13\x11\x19\x1B\x0C\x11\x17" },//['Bewegings-', 'gevoeligheid'] 
   /* TemperatureUnit           */ { "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10", "\x14\x1F\x1B\x12\x12\x13" },//['Temperatuur', 'schaal'] 
   /* AdvancedIdle              */ { "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17", "\x14\x13\x12\x12\x18\x14\x1F\x1B\x0C\x10\x1A" },//['Gedetailleerd', 'slaapscherm'] 
   /* DisplayRotation           */ { "\x1C\x1F\x1B\x0C\x10\x1A\x27", "\x15\x10\x11\x41\x0E\x0F\x12\x0F\x11\x0C" },//['Scherm-', 'oriëntatie'] 
-  /* BoostEnabled              */ { "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x22\x0C\x10\x1B\x15\x19\x11\x0E\x19", "\x11\x0E\x19\x0C\x14\x1F\x1B\x12\x1D\x0C\x13\x17\x3B" },//['Temperatuurverhoging', 'ingeschakeld?'] 
+  /* BoostEnabled              */ { "\x20\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x22\x0C\x10\x1B\x15\x19\x11\x0E\x19", "\x11\x0E\x19\x0C\x14\x1F\x1B\x12\x1E\x0C\x13\x17\x3C" },//['Temperatuurverhoging', 'ingeschakeld?'] 
   /* BoostTemperature          */ { "\x25\x0C\x10\x1B\x15\x19\x11\x0E\x19\x14", "\x0F\x0C\x1A\x18" },//['Verhogings', 'temp'] 
   /* AutoStart                 */ { "\x2C\x16\x0F\x15", "\x14\x0F\x12\x10\x0F" },//['Auto', 'start'] 
-  /* CooldownBlink             */ { "\x2C\x2B\x1D\x15\x0C\x13", "\x1D\x0E\x11\x18\x18\x0C\x10" },//['Afkoel', 'knipper'] 
-  /* TemperatureCalibration    */ { "\x21\x12\x13\x11\x23\x10\x0C\x0C\x10", "\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x3B" },//['Calibreer', 'temperatuur?'] 
-  /* SettingsReset             */ { "\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E", "\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x3B" },//['Instellingen', 'resetten?'] 
-  /* VoltageCalibration        */ { "\x21\x12\x13\x11\x23\x10\x0C\x0C\x10", "\x22\x15\x0C\x17\x11\x0E\x19\x14\x14\x18\x12\x0E\x0E\x11\x0E\x19\x3B" },//['Calibreer', 'voedingsspanning?'] 
+  /* CooldownBlink             */ { "\x2C\x2B\x1E\x15\x0C\x13", "\x1E\x0E\x11\x18\x18\x0C\x10" },//['Afkoel', 'knipper'] 
+  /* TemperatureCalibration    */ { "\x21\x12\x13\x11\x23\x10\x0C\x0C\x10", "\x0F\x0C\x1A\x18\x0C\x10\x12\x0F\x16\x16\x10\x3C" },//['Calibreer', 'temperatuur?'] 
+  /* SettingsReset             */ { "\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E", "\x10\x0C\x14\x0C\x0F\x0F\x0C\x0E\x3C" },//['Instellingen', 'resetten?'] 
+  /* VoltageCalibration        */ { "\x21\x12\x13\x11\x23\x10\x0C\x0C\x10", "\x22\x15\x0C\x17\x11\x0E\x19\x14\x14\x18\x12\x0E\x0E\x11\x0E\x19\x3C" },//['Calibreer', 'voedingsspanning?'] 
   /* AdvancedSoldering         */ { "\x24\x0C\x17\x0C\x0F\x12\x11\x13\x13\x0C\x0C\x10\x17", "\x14\x15\x13\x17\x0C\x0C\x10\x14\x1F\x1B\x0C\x10\x1A" },//['Gedetailleerd', 'soldeerscherm'] 
   /* ScrollingSpeed            */ { "\x1C\x1F\x10\x15\x13", "\x14\x0E\x0C\x13\x1B\x0C\x11\x17" },//['Scrol', 'snelheid'] 
   /* TipModel                  */ { "\x26\x16\x0E\x0F", "\x30\x15\x17\x0C\x13" },//['Punt', 'Model'] 
@@ -4394,14 +4408,14 @@ const char* SettingsShortNames[][2] = {
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x1C\x15\x13\x17\x0C\x0C\x10\x01\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//['Soldeer', 'Instellingen'] 
   /* PowerSavingMenu           */ "\x1C\x13\x12\x12\x18\x01\x14\x0F\x12\x0E\x17\x0C\x0E",//['Slaap', 'standen'] 
-  /* UIMenu                    */ "\x24\x0C\x23\x10\x16\x11\x1D\x0C\x10\x14\x27\x01\x32\x0E\x0F\x0C\x10\x2B\x12\x1F\x0C",//['Gebruikers-', 'Interface'] 
+  /* UIMenu                    */ "\x24\x0C\x23\x10\x16\x11\x1E\x0C\x10\x14\x27\x01\x32\x0E\x0F\x0C\x10\x2B\x12\x1F\x0C",//['Gebruikers-', 'Interface'] 
   /* AdvancedMenu              */ "\x24\x0C\x22\x15\x10\x17\x0C\x10\x17\x0C\x01\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//['Gevorderde', 'Instellingen'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x1C\x15\x13\x17\x0C\x0C\x10\x11\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//Soldeerinstellingen 
   /* PowerSavingMenu           */ "\x28\x12\x0F\x0F\x0C\x10\x11\x39\x14\x18\x12\x12\x10\x14\x0F\x12\x0E\x17\x0C\x0E",//Batterijspaarstanden 
-  /* UIMenu                    */ "\x24\x0C\x23\x10\x16\x11\x1D\x0C\x10\x14\x11\x0E\x0F\x0C\x10\x2B\x12\x1F\x0C\x0D\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//Gebruikersinterface Instellingen 
+  /* UIMenu                    */ "\x24\x0C\x23\x10\x16\x11\x1E\x0C\x10\x14\x11\x0E\x0F\x0C\x10\x2B\x12\x1F\x0C\x0D\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//Gebruikersinterface Instellingen 
   /* AdvancedMenu              */ "\x24\x0C\x22\x15\x10\x17\x0C\x10\x17\x0C\x0D\x32\x0E\x14\x0F\x0C\x13\x13\x11\x0E\x19\x0C\x0E",//Gevorderde Instellingen 
 };
 
@@ -4445,9 +4459,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x23 -> D
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x24 -> M
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x25 -> L
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x26 -> V
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x27 -> B
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x28 -> h
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x26 -> B
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x27 -> h
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x28 -> V
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x29 -> I
 0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x2A -> H
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x2B -> P
@@ -4466,12 +4480,12 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x38 -> :
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x39 -> F
 0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x3A -> =
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3B -> ?
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3C -> !
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3D -> z
-0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x3E -> y
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x3F -> U
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x40 -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x3B -> O
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x3C -> ?
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3D -> !
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x3E -> z
+0x00,0x00,0x60,0xE0,0x80,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x81,0xE7,0x7E,0x1E,0x07,0x01,0x00,0x00,0x00,//\x3F -> y
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x40 -> U
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x41 -> ,
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x42 -> G
 0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x43 -> "
@@ -4520,9 +4534,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x23 -> D
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x24 -> M
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x25 -> L
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x26 -> V
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x27 -> B
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x28 -> h
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x26 -> B
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x27 -> h
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x28 -> V
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x29 -> I
 0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x2A -> H
 0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x2B -> P
@@ -4541,12 +4555,12 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x38 -> :
 0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x39 -> F
 0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x3A -> =
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3B -> ?
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3C -> !
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3D -> z
-0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x3E -> y
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x3F -> U
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x40 -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x3B -> O
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x3C -> ?
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3D -> !
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x3E -> z
+0x44, 0x48, 0x30, 0x10, 0x0c, 0x00,//\x3F -> y
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x40 -> U
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x41 -> ,
 0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x42 -> G
 0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x43 -> "
@@ -4561,60 +4575,61 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Norsk ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1C\x0E\x10\x2D\x18\x1F\x15\x10\x12\x3E\x0F\x11\x0F\x1B\x1E\x0C\x1C\x0D\x0E\x0E\x0C\x0F\x0D\x16\x10\x0D\x0C\x12\x17\x0D\x0F\x0F\x11\x0F\x1B\x0C\x1F\x15\x10\x0C\x13\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x0F\x0D\x16\x12\x0E\x0D\x0F\x1B\x11\x0F\x1B\x1E\x0C\x30\x23\x21\x0C\x03\x02\x26\x0C\x30\x1C\x0C\x05\x1E\x05\x26\x0C\x17\x0D\x10\x0C\x36\x0D\x14\x14\x0D",//Strømforsyning. Sett nedre spenning for automatisk nedstenging. <DC 10V <S 3.3V per celle 
+  /* PowerSource               */ "\x1C\x0E\x10\x2D\x18\x1F\x15\x10\x12\x3F\x0F\x11\x0F\x1B\x1E\x0C\x1C\x0D\x0E\x0E\x0C\x0F\x0D\x16\x10\x0D\x0C\x12\x17\x0D\x0F\x0F\x11\x0F\x1B\x0C\x1F\x15\x10\x0C\x13\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x0F\x0D\x16\x12\x0E\x0D\x0F\x1B\x11\x0F\x1B\x1E\x0C\x30\x23\x21\x0C\x03\x02\x28\x0C\x30\x1C\x0C\x05\x1E\x05\x28\x0C\x17\x0D\x10\x0C\x36\x0D\x14\x14\x0D",//Strømforsyning. Sett nedre spenning for automatisk nedstenging. <DC 10V <S 3.3V per celle 
   /* SleepTemperature          */ "\x23\x1D\x13\x14\x0D\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0C\x30\x21",//Dvaletemperatur <C 
   /* SleepTimeout              */ "\x20\x11\x16\x0C\x1F\x2D\x10\x0C\x16\x1D\x13\x14\x0D\x0C\x30\x24\x11\x0F\x1A\x0E\x0E\x0D\x10\x49\x1C\x0D\x19\x1A\x0F\x16\x0D\x10",//Tid før dvale <Minutter/Sekunder 
   /* ShutdownTimeout           */ "\x20\x11\x16\x0C\x1F\x2D\x10\x0C\x13\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x0F\x0D\x16\x12\x0E\x0D\x0F\x1B\x11\x0F\x1B\x0C\x30\x24\x11\x0F\x1A\x0E\x0E\x0D\x10",//Tid før automatisk nedstenging <Minutter 
-  /* MotionSensitivity         */ "\x27\x0D\x1D\x0D\x1B\x0D\x14\x12\x0D\x12\x1F\x2D\x14\x12\x15\x18\x28\x0D\x0E\x0C\x30\x02\x1E\x29\x0F\x13\x19\x0E\x11\x1D\x0C\x03\x1E\x24\x11\x0F\x12\x0E\x0C\x1F\x2D\x14\x12\x15\x18\x0C\x0B\x1E\x24\x0D\x12\x0E\x0C\x1F\x2D\x14\x12\x15\x18",//Bevegelsesfølsomhet <0.Inaktiv 1.Minst følsom 9.Mest følsom 
-  /* TemperatureUnit           */ "\x20\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x12\x19\x13\x14\x13\x0C\x30\x21\x3A\x21\x0D\x14\x12\x11\x1A\x12\x0C\x39\x3A\x39\x13\x28\x10\x0D\x0F\x28\x0D\x11\x0E",//Temperaturskala <C=Celsius F=Fahrenheit 
-  /* AdvancedIdle              */ "\x26\x11\x12\x0C\x16\x0D\x0E\x13\x14\x2E\x0D\x10\x0E\x0C\x11\x0F\x1F\x15\x10\x18\x13\x12\x2E\x15\x0F\x0C\x18\x0D\x16\x0C\x14\x11\x0E\x0D\x0F\x0C\x12\x19\x10\x11\x1F\x0E\x0C\x17\x33\x0C\x16\x1D\x13\x14\x0D\x12\x19\x2E\x0D\x10\x18\x0D\x0F\x1E",//Vis detaljert informasjon med liten skrift på dvaleskjermen. 
-  /* DisplayRotation           */ "\x1C\x19\x2E\x0D\x10\x18\x10\x0D\x0E\x0F\x11\x0F\x1B\x0C\x30\x22\x1E\x0C\x22\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x26\x1E\x0C\x26\x0D\x0F\x12\x0E\x10\x0D\x28\x0D\x0F\x16\x0E\x0C\x2A\x1E\x0C\x2A\x2D\x3E\x10\x0D\x28\x0D\x0F\x16\x0E",//Skjermretning <A. Automatisk V. Venstrehendt H. Høyrehendt 
+  /* MotionSensitivity         */ "\x26\x0D\x1D\x0D\x1B\x0D\x14\x12\x0D\x12\x1F\x2D\x14\x12\x15\x18\x27\x0D\x0E\x0C\x30\x02\x1E\x29\x0F\x13\x19\x0E\x11\x1D\x0C\x03\x1E\x24\x11\x0F\x12\x0E\x0C\x1F\x2D\x14\x12\x15\x18\x0C\x0B\x1E\x24\x0D\x12\x0E\x0C\x1F\x2D\x14\x12\x15\x18",//Bevegelsesfølsomhet <0.Inaktiv 1.Minst følsom 9.Mest følsom 
+  /* TemperatureUnit           */ "\x20\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x12\x19\x13\x14\x13\x0C\x30\x21\x3A\x21\x0D\x14\x12\x11\x1A\x12\x0C\x39\x3A\x39\x13\x27\x10\x0D\x0F\x27\x0D\x11\x0E",//Temperaturskala <C=Celsius F=Fahrenheit 
+  /* AdvancedIdle              */ "\x28\x11\x12\x0C\x16\x0D\x0E\x13\x14\x2E\x0D\x10\x0E\x0C\x11\x0F\x1F\x15\x10\x18\x13\x12\x2E\x15\x0F\x0C\x18\x0D\x16\x0C\x14\x11\x0E\x0D\x0F\x0C\x12\x19\x10\x11\x1F\x0E\x0C\x17\x33\x0C\x16\x1D\x13\x14\x0D\x12\x19\x2E\x0D\x10\x18\x0D\x0F\x1E",//Vis detaljert informasjon med liten skrift på dvaleskjermen. 
+  /* DisplayRotation           */ "\x1C\x19\x2E\x0D\x10\x18\x10\x0D\x0E\x0F\x11\x0F\x1B\x0C\x30\x22\x1E\x0C\x22\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x28\x1E\x0C\x28\x0D\x0F\x12\x0E\x10\x0D\x27\x0D\x0F\x16\x0E\x0C\x2A\x1E\x0C\x2A\x2D\x3F\x10\x0D\x27\x0D\x0F\x16\x0E",//Skjermretning <A. Automatisk V. Venstrehendt H. Høyrehendt 
   /* BoostEnabled              */ "\x39\x10\x15\x0F\x0E\x19\x0F\x13\x17\x17\x0D\x0F\x0C\x13\x19\x0E\x11\x1D\x0D\x10\x0D\x10\x0C\x19\x10\x13\x1F\x0E\x1F\x1A\x0F\x19\x12\x2E\x15\x0F\x0D\x0F\x41\x0C\x06\x07\x02\x21\x0C\x1D\x0D\x16\x0C\x14\x15\x16\x16\x11\x0F\x1B",//Frontknappen aktiverer kraftfunksjonen, 450C ved lodding 
   /* BoostTemperature          */ "\x20\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0C\x11\x0C\x43\x19\x10\x13\x1F\x0E\x43\x31\x18\x15\x16\x1A\x12",//Temperatur i "kraft"-modus 
   /* AutoStart                 */ "\x1C\x0E\x13\x10\x0E\x0C\x13\x1A\x0E\x15\x18\x13\x0E\x11\x12\x19\x0C\x18\x0D\x16\x0C\x14\x15\x16\x16\x11\x0F\x1B\x0C\x0F\x33\x10\x0C\x12\x0E\x10\x2D\x18\x0C\x19\x15\x2F\x14\x0D\x12\x0C\x0E\x11\x14\x1E\x0C\x25\x3A\x25\x15\x16\x16\x11\x0F\x1B\x41\x0C\x23\x3A\x23\x1D\x13\x14\x0D\x41\x0C\x29\x3A\x29\x0F\x13\x19\x0E\x11\x1D",//Start automatisk med lodding når strøm kobles til. L=Lodding, D=Dvale, I=Inaktiv 
-  /* CooldownBlink             */ "\x27\x14\x11\x0F\x19\x0C\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0D\x0F\x0C\x17\x33\x0C\x12\x19\x2E\x0D\x10\x18\x0D\x0F\x0C\x18\x0D\x0F\x12\x0C\x12\x17\x11\x12\x12\x0D\x0F\x0C\x1F\x15\x10\x0E\x12\x13\x0E\x0E\x0C\x0D\x10\x0C\x1D\x13\x10\x18\x1E",//Blink temperaturen på skjermen mens spissen fortsatt er varm. 
+  /* CooldownBlink             */ "\x26\x14\x11\x0F\x19\x0C\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0D\x0F\x0C\x17\x33\x0C\x12\x19\x2E\x0D\x10\x18\x0D\x0F\x0C\x18\x0D\x0F\x12\x0C\x12\x17\x11\x12\x12\x0D\x0F\x0C\x1F\x15\x10\x0E\x12\x13\x0E\x0E\x0C\x0D\x10\x0C\x1D\x13\x10\x18\x1E",//Blink temperaturen på skjermen mens spissen fortsatt er varm. 
   /* TemperatureCalibration    */ "\x2C\x13\x14\x11\x2F\x10\x0D\x10\x0C\x12\x17\x11\x12\x12\x31\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x1E",//Kalibrer spiss-temperatur. 
   /* SettingsReset             */ "\x20\x11\x14\x2F\x13\x19\x0D\x12\x0E\x11\x14\x14\x0C\x13\x14\x14\x0D\x0C\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10",//Tilbakestill alle innstillinger 
-  /* VoltageCalibration        */ "\x2C\x13\x14\x11\x2F\x10\x0D\x10\x0C\x12\x17\x0D\x0F\x0F\x11\x0F\x1B\x1E\x0C\x2C\x0F\x13\x17\x17\x0D\x0F\x0D\x0C\x2E\x1A\x12\x0E\x0D\x10\x0D\x10\x1E\x0C\x25\x13\x0F\x1B\x0E\x0C\x0E\x10\x3E\x19\x19\x0C\x1F\x15\x10\x0C\x33\x0C\x1B\x33\x0C\x1A\x0E",//Kalibrer spenning. Knappene justerer. Langt trykk for å gå ut 
-  /* AdvancedSoldering         */ "\x26\x11\x12\x0C\x16\x0D\x0E\x13\x14\x2E\x0D\x10\x0E\x0C\x11\x0F\x1F\x15\x10\x18\x13\x12\x2E\x15\x0F\x0C\x1D\x0D\x16\x0C\x14\x15\x16\x16\x11\x0F\x1B",//Vis detaljert informasjon ved lodding 
-  /* ScrollingSpeed            */ "\x2A\x13\x12\x0E\x11\x1B\x28\x0D\x0E\x0D\x0F\x0C\x17\x33\x0C\x10\x1A\x14\x14\x0D\x0E\x0D\x19\x12\x0E",//Hastigheten på rulletekst 
+  /* VoltageCalibration        */ "\x2C\x13\x14\x11\x2F\x10\x0D\x10\x0C\x12\x17\x0D\x0F\x0F\x11\x0F\x1B\x1E\x0C\x2C\x0F\x13\x17\x17\x0D\x0F\x0D\x0C\x2E\x1A\x12\x0E\x0D\x10\x0D\x10\x1E\x0C\x25\x13\x0F\x1B\x0E\x0C\x0E\x10\x3F\x19\x19\x0C\x1F\x15\x10\x0C\x33\x0C\x1B\x33\x0C\x1A\x0E",//Kalibrer spenning. Knappene justerer. Langt trykk for å gå ut 
+  /* AdvancedSoldering         */ "\x28\x11\x12\x0C\x16\x0D\x0E\x13\x14\x2E\x0D\x10\x0E\x0C\x11\x0F\x1F\x15\x10\x18\x13\x12\x2E\x15\x0F\x0C\x1D\x0D\x16\x0C\x14\x15\x16\x16\x11\x0F\x1B",//Vis detaljert informasjon ved lodding 
+  /* ScrollingSpeed            */ "\x2A\x13\x12\x0E\x11\x1B\x27\x0D\x0E\x0D\x0F\x0C\x17\x33\x0C\x10\x1A\x14\x14\x0D\x0E\x0D\x19\x12\x0E",//Hastigheten på rulletekst 
   /* TipModel                  */ "\x20\x11\x17\x0C\x24\x15\x16\x0D\x14\x0C\x12\x0D\x14\x0D\x36\x0E\x11\x15\x0F",//Tip Model selection 
   /* SimpleCalibrationMode     */ "\x1C\x11\x18\x17\x14\x0D\x0C\x21\x13\x14\x11\x2F\x10\x13\x0E\x11\x15\x0F\x0C\x1A\x12\x11\x0F\x1B\x0C\x2A\x15\x0E\x0C\x35\x13\x0E\x0D\x10",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x22\x16\x1D\x13\x0F\x36\x0D\x16\x0C\x36\x13\x14\x11\x2F\x10\x13\x0E\x11\x15\x0F\x0C\x1A\x12\x11\x0F\x1B\x0C\x0E\x28\x0D\x10\x18\x15\x36\x15\x1A\x17\x14\x0D\x0C\x15\x0F\x0C\x0E\x28\x0D\x0C\x0E\x11\x17",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x2B\x15\x35\x0D\x10\x0C\x32\x13\x0E\x0E\x13\x1B\x0D\x0C\x15\x1F\x0C\x0E\x28\x0D\x0C\x17\x15\x35\x0D\x10\x0C\x13\x16\x13\x17\x0E\x0D\x10\x0C\x1A\x12\x0D\x16",//Power Wattage of the power adapter used 
+  /* AdvancedCalibrationMode   */ "\x22\x16\x1D\x13\x0F\x36\x0D\x16\x0C\x36\x13\x14\x11\x2F\x10\x13\x0E\x11\x15\x0F\x0C\x1A\x12\x11\x0F\x1B\x0C\x0E\x27\x0D\x10\x18\x15\x36\x15\x1A\x17\x14\x0D\x0C\x15\x0F\x0C\x0E\x27\x0D\x0C\x0E\x11\x17",//Advanced calibration using thermocouple on the tip 
+  /* PowerInput                */ "\x2B\x15\x35\x0D\x10\x0C\x32\x13\x0E\x0E\x13\x1B\x0D\x0C\x15\x1F\x0C\x0E\x27\x0D\x0C\x17\x15\x35\x0D\x10\x0C\x13\x16\x13\x17\x0E\x0D\x10\x0C\x1A\x12\x0D\x16",//Power Wattage of the power adapter used 
   /* PowerLimitEnable          */ "\x37\x0F\x13\x2F\x14\x0D\x0C\x17\x15\x35\x0D\x10\x0C\x14\x11\x18\x11\x0E",//Enable power limit 
-  /* PowerLimit                */ "\x24\x13\x44\x11\x18\x1A\x18\x0C\x17\x15\x35\x0D\x10\x0C\x0E\x28\x0D\x0C\x11\x10\x15\x0F\x0C\x36\x13\x0F\x0C\x1A\x12\x0D\x0C\x30\x32\x13\x0E\x0E\x12\x48",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x24\x13\x44\x11\x18\x1A\x18\x0C\x17\x15\x35\x0D\x10\x0C\x0E\x27\x0D\x0C\x11\x10\x15\x0F\x0C\x36\x13\x0F\x0C\x1A\x12\x0D\x0C\x30\x32\x13\x0E\x0E\x12\x48",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x21\x13\x14\x11\x2F\x10\x13\x0E\x11\x15\x0F\x0C\x16\x15\x0F\x0D\x3C";//Calibration done! 
-const char* SettingsCalibrationWarning = "\x1C\x2D\x10\x1B\x0C\x1F\x15\x10\x0C\x13\x0E\x0C\x14\x15\x16\x16\x0D\x12\x17\x11\x12\x12\x0D\x0F\x0C\x28\x13\x10\x0C\x10\x15\x18\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0C\x1F\x2D\x10\x0C\x16\x1A\x0C\x1F\x15\x10\x0E\x12\x0D\x0E\x0E\x0D\x10\x3C";//Sørg for at loddespissen har romtemperatur før du fortsetter! 
-const char* SettingsResetWarning = "\x37\x10\x0C\x16\x1A\x0C\x12\x11\x19\x19\x0D\x10\x0C\x17\x33\x0C\x13\x0E\x0C\x16\x1A\x0C\x1D\x11\x14\x0C\x0E\x11\x14\x2F\x13\x19\x0D\x12\x0E\x11\x14\x14\x0D\x0C\x0E\x11\x14\x0C\x12\x0E\x13\x0F\x16\x13\x10\x16\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10\x3B";//Er du sikker på at du vil tilbakestille til standardinnstillinger? 
+const char* SettingsCalibrationDone = "\x21\x13\x14\x11\x2F\x10\x13\x0E\x11\x15\x0F\x0C\x16\x15\x0F\x0D\x3D";//Calibration done! 
+const char* SettingsCalibrationWarning = "\x1C\x2D\x10\x1B\x0C\x1F\x15\x10\x0C\x13\x0E\x0C\x14\x15\x16\x16\x0D\x12\x17\x11\x12\x12\x0D\x0F\x0C\x27\x13\x10\x0C\x10\x15\x18\x0E\x0D\x18\x17\x0D\x10\x13\x0E\x1A\x10\x0C\x1F\x2D\x10\x0C\x16\x1A\x0C\x1F\x15\x10\x0E\x12\x0D\x0E\x0E\x0D\x10\x3D";//Sørg for at loddespissen har romtemperatur før du fortsetter! 
+const char* SettingsResetWarning = "\x37\x10\x0C\x16\x1A\x0C\x12\x11\x19\x19\x0D\x10\x0C\x17\x33\x0C\x13\x0E\x0C\x16\x1A\x0C\x1D\x11\x14\x0C\x0E\x11\x14\x2F\x13\x19\x0D\x12\x0E\x11\x14\x14\x0D\x0C\x0E\x11\x14\x0C\x12\x0E\x13\x0F\x16\x13\x10\x16\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10\x3C";//Er du sikker på at du vil tilbakestille til standardinnstillinger? 
 const char* UVLOWarningString = "\x25\x13\x1D\x12\x17\x0D\x0F\x0F";//Lavspenn 
-const char* UndervoltageString = "\x3F\x0F\x16\x0D\x10\x12\x17\x0D\x0F\x0F\x11\x0F\x1B";//Underspenning 
+const char* UndervoltageString = "\x40\x0F\x16\x0D\x10\x12\x17\x0D\x0F\x0F\x11\x0F\x1B";//Underspenning 
 const char* InputVoltageString = "\x29\x0F\x0F\x12\x17\x0D\x0F\x0F\x1E\x38\x0C";//Innspenn.:  
 const char* WarningTipTempString = "\x1C\x17\x11\x12\x12\x0E\x0D\x18\x17\x38\x0C";//Spisstemp:  
-const char* BadTipString = "\x27\x22\x23\x0C\x20\x29\x2B";//BAD TIP 
-const char* SleepingSimpleString = "\x45\x3D\x3D\x3D";//Zzzz 
+const char* BadTipString = "\x26\x22\x23\x0C\x20\x29\x2B";//BAD TIP 
+const char* SleepingSimpleString = "\x45\x3E\x3E\x3E";//Zzzz 
 const char* SleepingAdvancedString = "\x23\x1D\x13\x14\x0D\x1E\x1E\x1E";//Dvale... 
-const char* WarningSimpleString = "\x26\x13\x10\x18";//Varm 
-const char* WarningAdvancedString = "\x26\x22\x34\x24\x0C\x1C\x2B\x29\x1C\x1C\x3C";//VARM SPISS! 
+const char* WarningSimpleString = "\x28\x13\x10\x18";//Varm 
+const char* WarningAdvancedString = "\x28\x22\x34\x24\x0C\x1C\x2B\x29\x1C\x1C\x3D";//VARM SPISS! 
 const char* SleepingTipAdvancedString = "\x1C\x17\x11\x12\x12\x38";//Spiss: 
 const char* IdleTipString = "\x1C\x17\x11\x12\x12\x38";//Spiss: 
 const char* IdleSetString = "\x1C\x0D\x0E\x38";//Set: 
-const char* TipDisconnectedString = "\x1C\x2B\x29\x1C\x1C\x0C\x39\x34\x22\x2C\x40\x27\x25\x37\x20";//SPISS FRAKOBLET 
+const char* TipDisconnectedString = "\x1C\x2B\x29\x1C\x1C\x0C\x39\x34\x22\x2C\x3B\x26\x25\x37\x20";//SPISS FRAKOBLET 
 const char* SolderingAdvancedPowerPrompt = "\x37\x1F\x1F\x0D\x19\x0E\x38\x0C";//Effekt:  
 const char* OffString = "\x22\x1D";//Av 
-const char* ResetOKMessage = "\x34\x0D\x12\x0D\x0E\x0C\x40\x2C";//Reset OK 
+const char* ResetOKMessage = "\x34\x0D\x12\x0D\x0E\x0C\x3B\x2C";//Reset OK 
 const char* YourGainMessage = "\x46\x15\x1A\x10\x0C\x42\x13\x11\x0F";//Your Gain 
-const char* SettingsResetMessage = "\x1C\x0D\x0E\x0E\x11\x0F\x1B\x12\x0C\x35\x0D\x10\x0D\x01\x10\x0D\x12\x0D\x0E\x3C";//Settings were_reset! 
+const char* SettingsResetMessage = "\x1C\x0D\x0E\x0E\x11\x0F\x1B\x12\x0C\x35\x0D\x10\x0D\x01\x10\x0D\x12\x0D\x0E\x3D";//Settings were_reset! 
 
 const char* SettingRightChar = "\x2A";//H 
-const char* SettingLeftChar = "\x26";//V 
+const char* SettingLeftChar = "\x28";//V 
 const char* SettingAutoChar = "\x22";//A 
 const char* SettingFastChar = "\x2A";//H 
 const char* SettingSlowChar = "\x25";//L 
 const char* SettingStartSolderingChar = "\x25";//L 
 const char* SettingStartSleepChar = "\x23";//D 
+const char* SettingStartSleepOffChar = "\x3B";//O 
 const char* SettingStartNoneChar = "\x29";//I 
 
 const char* SymbolPlus = "\x4A";//+ 
@@ -4626,31 +4641,31 @@ const char* SymbolDegF = "\x39";//F
 const char* SymbolMinutes = "\x24";//M 
 const char* SymbolSeconds = "\x1C";//S 
 const char* SymbolWatts = "\x32";//W 
-const char* SymbolVolts = "\x26";//V 
+const char* SymbolVolts = "\x28";//V 
 const char* SymbolDC = "\x23\x21";//DC 
 const char* SymbolCellCount = "\x1C";//S 
-const char* SymbolVersionNumber = "\x26\x04\x1E\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1D\x04\x1E\x02\x0A\x1E\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x27\x02\x04",//B02 
+	 "\x26\x02\x04",//B02 
 	 "\x23\x04\x06",//D24 
-	 "\x27\x21\x04",//BC2 
+	 "\x26\x21\x04",//BC2 
 	 "\x0C\x21\x03",// C1 
 	 "\x20\x1C\x03\x02\x02",//TS100 
-	 "\x27\x21\x04",//BC2 
+	 "\x26\x21\x04",//BC2 
 	 "\x2A\x13\x19\x19\x15",//Hakko 
-	 "\x3F\x12\x0D\x10",//User 
+	 "\x40\x12\x0D\x10",//User 
 #else
-	 "\x27\x02\x04",//B02 
+	 "\x26\x02\x04",//B02 
 	 "\x23\x04\x07",//D25 
 	 "\x20\x1C\x0A\x02",//TS80 
-	 "\x3F\x12\x0D\x10",//User 
+	 "\x40\x12\x0D\x10",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x31\x02\x03\x31\x04\x02",//18-01-20 
+	 "\x03\x06\x31\x02\x05\x31\x04\x02",//14-03-20 
 	 "\x2A\x32\x0C\x42\x0C",//HW G  
 	 "\x2A\x32\x0C\x24\x0C",//HW M  
 	 "\x2A\x32\x0C\x2B\x0C",//HW P  
@@ -4659,8 +4674,8 @@ const char* DebugMenu[] = {
 	 "\x34\x20\x11\x17\x0C",//RTip  
 	 "\x21\x20\x11\x17\x0C",//CTip  
 	 "\x21\x2A\x13\x0F\x0C",//CHan  
-	 "\x26\x11\x0F\x0C\x0C",//Vin   
-	 "\x2B\x21\x27\x0C\x0C",//PCB   
+	 "\x28\x11\x0F\x0C\x0C",//Vin   
+	 "\x2B\x21\x26\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
@@ -4669,22 +4684,22 @@ const char* SettingsShortNames[][2] = {
   /* SleepTemperature          */ { "\x23\x20\x18\x17" },//DTmp 
   /* SleepTimeout              */ { "\x23\x20\x11\x16" },//DTid 
   /* ShutdownTimeout           */ { "\x22\x1D\x20\x11\x16" },//AvTid 
-  /* MotionSensitivity         */ { "\x27\x1C\x0D\x0F\x12\x10" },//BSensr 
-  /* TemperatureUnit           */ { "\x20\x18\x17\x37\x0F\x28" },//TmpEnh 
+  /* MotionSensitivity         */ { "\x26\x1C\x0D\x0F\x12\x10" },//BSensr 
+  /* TemperatureUnit           */ { "\x20\x18\x17\x37\x0F\x27" },//TmpEnh 
   /* AdvancedIdle              */ { "\x22\x1D\x23\x1D\x1C\x19" },//AvDvSk 
   /* DisplayRotation           */ { "\x1C\x19\x34\x0D\x0E\x0F" },//SkRetn 
   /* BoostEnabled              */ { "\x2C\x10\x13\x1F\x0E" },//Kraft 
   /* BoostTemperature          */ { "\x2C\x20\x18\x17" },//KTmp 
   /* AutoStart                 */ { "\x22\x1C\x0E\x13\x10\x0E" },//AStart 
-  /* CooldownBlink             */ { "\x2C\x2E\x27\x14\x0F\x19" },//KjBlnk 
-  /* TemperatureCalibration    */ { "\x20\x0D\x18\x17\x2C\x13\x14\x3B" },//TempKal? 
-  /* SettingsReset             */ { "\x20\x11\x14\x2F\x1C\x0E\x14\x3B" },//TilbStl? 
-  /* VoltageCalibration        */ { "\x2C\x13\x14\x1C\x17\x29\x0F\x3B" },//KalSpIn? 
+  /* CooldownBlink             */ { "\x2C\x2E\x26\x14\x0F\x19" },//KjBlnk 
+  /* TemperatureCalibration    */ { "\x20\x0D\x18\x17\x2C\x13\x14\x3C" },//TempKal? 
+  /* SettingsReset             */ { "\x20\x11\x14\x2F\x1C\x0E\x14\x3C" },//TilbStl? 
+  /* VoltageCalibration        */ { "\x2C\x13\x14\x1C\x17\x29\x0F\x3C" },//KalSpIn? 
   /* AdvancedSoldering         */ { "\x22\x1D\x25\x16\x1C\x19" },//AvLdSk 
   /* ScrollingSpeed            */ { "\x34\x1A\x14\x14\x2A\x13" },//RullHa 
-  /* TipModel                  */ { "\x20\x29\x2B\x24\x40" },//TIPMO 
+  /* TipModel                  */ { "\x20\x29\x2B\x24\x3B" },//TIPMO 
   /* SimpleCalibrationMode     */ { "\x1C\x24\x2B\x21\x22\x25" },//SMPCAL 
-  /* AdvancedCalibrationMode   */ { "\x22\x23\x26\x21\x22\x25" },//ADVCAL 
+  /* AdvancedCalibrationMode   */ { "\x22\x23\x28\x21\x22\x25" },//ADVCAL 
   /* PowerInput                */ { "\x2B\x32\x34\x32" },//PWRW 
   /* PowerLimitEnable          */ { "\x2B\x25\x29\x24\x37\x47" },//PLIMEN 
   /* PowerLimit                */ { "\x2B\x25\x29\x24" },//PLIM 
@@ -4693,14 +4708,14 @@ const char* SettingsShortNames[][2] = {
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x25\x15\x16\x16\x0D\x31\x01\x11\x0F\x0F\x12\x0E\x1E",//['Lodde-', 'innst.'] 
   /* PowerSavingMenu           */ "\x23\x1D\x13\x14\x0D\x31\x01\x11\x0F\x0F\x12\x0E\x1E",//['Dvale-', 'innst.'] 
-  /* UIMenu                    */ "\x27\x10\x1A\x19\x0D\x10\x31\x01\x1B\x10\x0D\x0F\x12\x0D\x12\x0F\x1E",//['Bruker-', 'grensesn.'] 
+  /* UIMenu                    */ "\x26\x10\x1A\x19\x0D\x10\x31\x01\x1B\x10\x0D\x0F\x12\x0D\x12\x0F\x1E",//['Bruker-', 'grensesn.'] 
   /* AdvancedMenu              */ "\x22\x1D\x13\x0F\x12\x0D\x10\x0E\x0D\x01\x1D\x13\x14\x1B",//['Avanserte', 'valg'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x25\x15\x16\x16\x0D\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10",//Loddeinnstillinger 
   /* PowerSavingMenu           */ "\x23\x1D\x13\x14\x0D\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10",//Dvaleinnstillinger 
-  /* UIMenu                    */ "\x27\x10\x1A\x19\x0D\x10\x1B\x10\x0D\x0F\x12\x0D\x12\x0F\x11\x0E\x0E\x31\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10",//Brukergrensesnitt-innstillinger 
+  /* UIMenu                    */ "\x26\x10\x1A\x19\x0D\x10\x1B\x10\x0D\x0F\x12\x0D\x12\x0F\x11\x0E\x0E\x31\x11\x0F\x0F\x12\x0E\x11\x14\x14\x11\x0F\x1B\x0D\x10",//Brukergrensesnitt-innstillinger 
   /* AdvancedMenu              */ "\x22\x1D\x13\x0F\x12\x0D\x10\x0E\x0D\x0C\x1D\x13\x14\x1B",//Avanserte valg 
 };
 
@@ -4736,9 +4751,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1B -> T
 0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x1C -> m
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x1D -> C
-0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x1E -> j
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1F -> S
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x20 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1E -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x60,0xE0,0xC0,0xC0,0xFF,0x7F,0x00,0x00,0x00,//\x1F -> j
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x20 -> S
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x21 -> k
 0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x22 -> l
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x23 -> P
@@ -4747,8 +4762,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x26 -> M
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x27 -> b
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x28 -> W
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x29 -> L
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2A -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x29 -> O
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x2A -> L
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x2B -> A
 0x00,0xC0,0xE0,0x60,0x68,0x6C,0x64,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x2C -> ś
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x2D -> d
@@ -4761,9 +4776,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x73,0xB3,0xB3,0x13,0x01,0x00,//\x34 -> ę
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x35 -> ,
 0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x73,0xBF,0xBF,0x00,//\x36 -> ą
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x37 -> V
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x38 -> R
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x39 -> E
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x37 -> R
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x38 -> E
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x39 -> V
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x3A -> K
 0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x3B -> I
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x3C -> B
@@ -4783,14 +4798,14 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x4A -> -
 0x80,0xFF,0xFF,0x20,0x10,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x4B -> Ł
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x67,0xBF,0xB8,0x00,//\x4C -> Ą
-0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x4D -> "
-0x00,0x18,0x18,0x18,0x18,0x1A,0x9B,0xD9,0xF8,0x78,0x38,0x00,0x00,0x30,0x38,0x3C,0x3E,0x37,0x33,0x31,0x30,0x30,0x30,0x00,//\x4E -> Ź
-0x00,0x00,0xE0,0xE0,0x60,0x68,0x6C,0x64,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4F -> ń
-0x00,0xFF,0xFF,0x0E,0x38,0xF2,0xC3,0x01,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x50 -> Ń
-0x00,0xE0,0xF0,0x38,0x18,0x1C,0x1E,0x1B,0x39,0xF0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x51 -> Ó
-0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x52 -> °
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x53 -> x
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x54 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x4D -> v
+0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x4E -> "
+0x00,0x18,0x18,0x18,0x18,0x1A,0x9B,0xD9,0xF8,0x78,0x38,0x00,0x00,0x30,0x38,0x3C,0x3E,0x37,0x33,0x31,0x30,0x30,0x30,0x00,//\x4F -> Ź
+0x00,0x00,0xE0,0xE0,0x60,0x68,0x6C,0x64,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x50 -> ń
+0x00,0xFF,0xFF,0x0E,0x38,0xF2,0xC3,0x01,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x51 -> Ń
+0x00,0xE0,0xF0,0x38,0x18,0x1C,0x1E,0x1B,0x39,0xF0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x52 -> Ó
+0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x53 -> °
+0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x54 -> x
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x0E,0x1E,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x55 -> J
 0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x56 -> /
 0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x57 -> +
@@ -4824,9 +4839,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1B -> T
 0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x1C -> m
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x1D -> C
-0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x1E -> j
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1F -> S
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x20 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1E -> .
+0x20, 0x40, 0x44, 0x3d, 0x00, 0x00,//\x1F -> j
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x20 -> S
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x21 -> k
 0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x22 -> l
 0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x23 -> P
@@ -4835,8 +4850,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x26 -> M
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x27 -> b
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x28 -> W
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x29 -> L
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2A -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x29 -> O
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x2A -> L
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x2B -> A
 0x48, 0x54, 0x56, 0x55, 0x24, 0x00,//\x2C -> ś
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x2D -> d
@@ -4849,9 +4864,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x38, 0x54, 0x54, 0xd4, 0x18, 0x00,//\x34 -> ę
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x35 -> ,
 0x20, 0x54, 0x54, 0xd4, 0x78, 0x00,//\x36 -> ą
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x37 -> V
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x38 -> R
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x39 -> E
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x37 -> R
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x38 -> E
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x39 -> V
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x3A -> K
 0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x3B -> I
 0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x3C -> B
@@ -4871,14 +4886,14 @@ const uint8_t USER_FONT_6x8[] = {
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x4A -> -
 0x00, 0x00, 0x00, 0x00, 0x00, 0x00,//\x4B -> Ł
 0x7e, 0x09, 0x09, 0x49, 0xbe, 0x00,//\x4C -> Ą
-0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x4D -> "
-0x44, 0x64, 0x56, 0x4d, 0x44, 0x00,//\x4E -> Ź
-0x7c, 0x08, 0x06, 0x05, 0x78, 0x00,//\x4F -> ń
-0x7c, 0x08, 0x12, 0x21, 0x7c, 0x00,//\x50 -> Ń
-0x38, 0x44, 0x46, 0x45, 0x38, 0x00,//\x51 -> Ó
-0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x52 -> °
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x53 -> x
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x54 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x4D -> v
+0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x4E -> "
+0x44, 0x64, 0x56, 0x4d, 0x44, 0x00,//\x4F -> Ź
+0x7c, 0x08, 0x06, 0x05, 0x78, 0x00,//\x50 -> ń
+0x7c, 0x08, 0x12, 0x21, 0x7c, 0x00,//\x51 -> Ń
+0x38, 0x44, 0x46, 0x45, 0x38, 0x00,//\x52 -> Ó
+0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x53 -> °
+0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x54 -> x
 0x20, 0x40, 0x41, 0x3f, 0x01, 0x00,//\x55 -> J
 0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x56 -> /
 0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x57 -> +
@@ -4886,75 +4901,76 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Polski ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x4E\x12\x3D\x2D\x25\x11\x0C\x18\x0D\x16\x0F\x22\x0D\x10\x0F\x0D\x20\x0C\x2E\x16\x13\x0D\x14\x0C\x10\x0D\x1A\x0F\x34\x15\x0F\x0E\x0C\x11\x2D\x15\x0F\x34\x15\x0F\x0D\x20\x0C\x33\x30\x1D\x0C\x03\x02\x37\x31\x0C\x33\x1F\x0C\x05\x20\x05\x37\x0C\x2D\x22\x0D\x0C\x11\x24\x10\x0F\x14\x0C\x29\x0F\x31",//Źródło zasilania. Ustaw napięcie odcięcia. <DC 10V> <S 3.3V dla ogniw Li> 
-  /* SleepTemperature          */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x19\x2C\x1A\x0F\x0E\x10\x0F\x0D\x0C\x33\x52\x1D\x31",//Temperatura uśpienia <°C> 
-  /* SleepTimeout              */ "\x1D\x18\x0D\x16\x0C\x19\x2C\x1A\x0F\x0E\x10\x0F\x0D\x0C\x33\x26\x0F\x10\x19\x13\x17\x56\x1F\x0E\x21\x19\x10\x2D\x17\x31",//Czas uśpienia <Minuty/Sekundy> 
+  /* PowerSource               */ "\x4F\x12\x3D\x2D\x25\x11\x0C\x18\x0D\x16\x0F\x22\x0D\x10\x0F\x0D\x1E\x0C\x2E\x16\x13\x0D\x14\x0C\x10\x0D\x1A\x0F\x34\x15\x0F\x0E\x0C\x11\x2D\x15\x0F\x34\x15\x0F\x0D\x1E\x0C\x33\x30\x1D\x0C\x03\x02\x39\x31\x0C\x33\x20\x0C\x05\x1E\x05\x39\x0C\x2D\x22\x0D\x0C\x11\x24\x10\x0F\x14\x0C\x2A\x0F\x31",//Źródło zasilania. Ustaw napięcie odcięcia. <DC 10V> <S 3.3V dla ogniw Li> 
+  /* SleepTemperature          */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x19\x2C\x1A\x0F\x0E\x10\x0F\x0D\x0C\x33\x53\x1D\x31",//Temperatura uśpienia <°C> 
+  /* SleepTimeout              */ "\x1D\x18\x0D\x16\x0C\x19\x2C\x1A\x0F\x0E\x10\x0F\x0D\x0C\x33\x26\x0F\x10\x19\x13\x17\x56\x20\x0E\x21\x19\x10\x2D\x17\x31",//Czas uśpienia <Minuty/Sekundy> 
   /* ShutdownTimeout           */ "\x1D\x18\x0D\x16\x0C\x14\x17\x25\x36\x15\x18\x0E\x10\x0F\x0D\x0C\x33\x26\x0F\x10\x19\x13\x17\x31",//Czas wyłączenia <Minuty> 
-  /* MotionSensitivity         */ "\x1D\x18\x19\x25\x11\x2C\x42\x0C\x12\x19\x15\x3E\x19\x0C\x33\x02\x20\x28\x17\x25\x36\x15\x18\x11\x10\x0D\x0C\x03\x20\x1C\x0F\x10\x0F\x1C\x0D\x22\x10\x0D\x0C\x0B\x20\x1C\x0D\x21\x16\x17\x1C\x0D\x22\x10\x0D\x31",//Czułość ruchu <0.Wyłączona 1.minimalna 9.maksymalna> 
+  /* MotionSensitivity         */ "\x1D\x18\x19\x25\x11\x2C\x42\x0C\x12\x19\x15\x3E\x19\x0C\x33\x02\x1E\x28\x17\x25\x36\x15\x18\x11\x10\x0D\x0C\x03\x1E\x1C\x0F\x10\x0F\x1C\x0D\x22\x10\x0D\x0C\x0B\x1E\x1C\x0D\x21\x16\x17\x1C\x0D\x22\x10\x0D\x31",//Czułość ruchu <0.Wyłączona 1.minimalna 9.maksymalna> 
   /* TemperatureUnit           */ "\x55\x0E\x2D\x10\x11\x16\x13\x21\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x17\x0C\x33\x1D\x32\x1D\x0E\x22\x16\x0F\x19\x16\x0C\x47\x32\x47\x0D\x3E\x12\x0E\x10\x3E\x0E\x0F\x13\x31",//Jednostka temperatury <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x28\x17\x2C\x14\x0F\x0E\x13\x22\x0D\x0C\x16\x18\x15\x18\x0E\x24\x3D\x25\x11\x14\x0E\x0C\x0F\x10\x46\x11\x12\x1C\x0D\x15\x1E\x0E\x0C\x18\x0D\x0C\x1A\x11\x1C\x11\x15\x36\x0C\x1C\x10\x0F\x0E\x1E\x16\x18\x0E\x1E\x0C\x15\x18\x15\x0F\x11\x10\x21\x0F\x0C\x10\x0D\x0C\x0E\x21\x12\x0D\x10\x0F\x0E\x0C\x27\x0E\x18\x15\x18\x17\x10\x10\x11\x2C\x42\x0F\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x20\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x20\x31",//Wyświetla szczegółowe informacje za pomocą mniejszej czcionki na ekranie bezczynnośći <T = wł., N = wył.> 
-  /* DisplayRotation           */ "\x2A\x12\x0F\x0E\x10\x13\x0D\x15\x1E\x0D\x0C\x14\x17\x2C\x14\x0F\x0E\x13\x22\x0D\x15\x18\x0D\x0C\x33\x2B\x20\x0C\x2B\x19\x13\x11\x1C\x0D\x13\x17\x15\x18\x10\x0D\x0C\x29\x20\x0C\x29\x0E\x14\x11\x12\x34\x15\x18\x10\x0D\x0C\x23\x20\x0C\x23\x12\x0D\x14\x11\x12\x34\x15\x18\x10\x0D\x31",//Orientacja wyświetlacza <A. Automatyczna L. Leworęczna P. Praworęczna> 
-  /* BoostEnabled              */ "\x2E\x41\x17\x1E\x0C\x1A\x12\x18\x17\x15\x0F\x16\x21\x19\x0C\x1A\x12\x18\x0E\x2D\x10\x0F\x0E\x24\x11\x0C\x14\x0C\x15\x0E\x22\x19\x0C\x18\x14\x0F\x34\x21\x16\x18\x0E\x10\x0F\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x17\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x20\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x20\x31",//Użyj przycisku przedniego w celu zwiększenia temperatury <T = wł., N = wył.> 
-  /* BoostTemperature          */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x14\x0C\x13\x12\x17\x27\x0F\x0E\x0C\x4D\x27\x11\x11\x16\x13\x4D\x0C",//Temperatura w trybie "boost"  
-  /* AutoStart                 */ "\x2B\x19\x13\x11\x1C\x0D\x13\x17\x15\x18\x10\x0E\x0C\x19\x12\x19\x15\x3E\x0D\x1C\x0F\x0D\x10\x0F\x0E\x0C\x13\x12\x17\x27\x19\x0C\x22\x19\x13\x11\x14\x0D\x10\x0F\x0D\x0C\x1A\x11\x0C\x14\x25\x36\x15\x18\x0E\x10\x0F\x19\x0C\x18\x0D\x16\x0F\x22\x0D\x10\x0F\x0D\x20\x0C\x1B\x32\x29\x19\x13\x11\x14\x0D\x10\x0F\x0E\x35\x0C\x1F\x32\x0C\x1B\x12\x17\x27\x0C\x2E\x16\x1A\x0F\x0E\x10\x0F\x0D\x0C\x35\x2F\x32\x28\x17\x25\x36\x15\x18",//Automatyczne uruchamianie trybu lutowania po włączeniu zasilania. T=Lutowanie, S= Tryb Uspienia ,N=Wyłącz 
-  /* CooldownBlink             */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x10\x0D\x0C\x0E\x21\x12\x0D\x10\x0F\x0E\x0C\x1C\x0F\x24\x0D\x35\x0C\x24\x2D\x17\x0C\x24\x12\x11\x13\x0C\x1E\x0E\x16\x13\x0C\x1E\x0E\x16\x18\x15\x18\x0E\x0C\x24\x11\x12\x36\x15\x17\x20\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x20\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x20\x31",//Temperatura na ekranie miga, gdy grot jest jeszcze gorący. <T = wł., N = wył.> 
-  /* TemperatureCalibration    */ "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1E\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x17\x0C\x24\x12\x11\x13\x0D\x0C\x22\x19\x13\x11\x14\x10\x0F\x15\x17",//Kalibracja temperatury grota lutownicy 
-  /* SettingsReset             */ "\x43\x12\x0E\x16\x0E\x13\x19\x1E\x0C\x14\x16\x18\x17\x16\x13\x21\x0F\x0E\x0C\x19\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D",//Zresetuj wszystkie ustawienia 
-  /* VoltageCalibration        */ "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1E\x0D\x0C\x10\x0D\x1A\x0F\x34\x15\x0F\x0D\x0C\x14\x0E\x1E\x2C\x15\x0F\x11\x14\x0E\x24\x11\x20\x0C\x3A\x12\x3D\x13\x21\x0F\x0E\x0C\x10\x0D\x15\x0F\x2C\x10\x0F\x34\x15\x0F\x0E\x35\x0C\x0D\x27\x17\x0C\x19\x16\x13\x0D\x14\x0F\x42\x35\x0C\x2D\x25\x19\x24\x0F\x0E\x0C\x10\x0D\x15\x0F\x2C\x10\x0F\x34\x15\x0F\x0E\x35\x0C\x0D\x27\x17\x0C\x14\x17\x1E\x2C\x42\x20",//Kalibracja napięcia wejściowego. Krótkie naciśnięcie, aby ustawić, długie naciśnięcie, aby wyjść. 
-  /* AdvancedSoldering         */ "\x28\x17\x2C\x14\x0F\x0E\x13\x22\x0C\x16\x18\x15\x18\x0E\x24\x3D\x25\x11\x14\x0E\x0C\x0F\x10\x46\x11\x12\x1C\x0D\x15\x1E\x0E\x0C\x1A\x11\x2D\x15\x18\x0D\x16\x0C\x22\x19\x13\x11\x14\x0D\x10\x0F\x0D\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x20\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x20\x31",//Wyświetl szczegółowe informacje podczas lutowania <T = wł., N = wył.> 
-  /* ScrollingSpeed            */ "\x1F\x18\x17\x27\x21\x11\x2C\x42\x0C\x1A\x12\x18\x0E\x14\x0F\x1E\x0D\x10\x0F\x0D\x0C\x13\x0E\x21\x16\x13\x19",//Szybkość przewijania tekstu 
+  /* AdvancedIdle              */ "\x28\x17\x2C\x14\x0F\x0E\x13\x22\x0D\x0C\x16\x18\x15\x18\x0E\x24\x3D\x25\x11\x14\x0E\x0C\x0F\x10\x46\x11\x12\x1C\x0D\x15\x1F\x0E\x0C\x18\x0D\x0C\x1A\x11\x1C\x11\x15\x36\x0C\x1C\x10\x0F\x0E\x1F\x16\x18\x0E\x1F\x0C\x15\x18\x15\x0F\x11\x10\x21\x0F\x0C\x10\x0D\x0C\x0E\x21\x12\x0D\x10\x0F\x0E\x0C\x27\x0E\x18\x15\x18\x17\x10\x10\x11\x2C\x42\x0F\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x1E\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x1E\x31",//Wyświetla szczegółowe informacje za pomocą mniejszej czcionki na ekranie bezczynnośći <T = wł., N = wył.> 
+  /* DisplayRotation           */ "\x29\x12\x0F\x0E\x10\x13\x0D\x15\x1F\x0D\x0C\x14\x17\x2C\x14\x0F\x0E\x13\x22\x0D\x15\x18\x0D\x0C\x33\x2B\x1E\x0C\x2B\x19\x13\x11\x1C\x0D\x13\x17\x15\x18\x10\x0D\x0C\x2A\x1E\x0C\x2A\x0E\x14\x11\x12\x34\x15\x18\x10\x0D\x0C\x23\x1E\x0C\x23\x12\x0D\x14\x11\x12\x34\x15\x18\x10\x0D\x31",//Orientacja wyświetlacza <A. Automatyczna L. Leworęczna P. Praworęczna> 
+  /* BoostEnabled              */ "\x2E\x41\x17\x1F\x0C\x1A\x12\x18\x17\x15\x0F\x16\x21\x19\x0C\x1A\x12\x18\x0E\x2D\x10\x0F\x0E\x24\x11\x0C\x14\x0C\x15\x0E\x22\x19\x0C\x18\x14\x0F\x34\x21\x16\x18\x0E\x10\x0F\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x17\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x1E\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x1E\x31",//Użyj przycisku przedniego w celu zwiększenia temperatury <T = wł., N = wył.> 
+  /* BoostTemperature          */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x14\x0C\x13\x12\x17\x27\x0F\x0E\x0C\x4E\x27\x11\x11\x16\x13\x4E\x0C",//Temperatura w trybie "boost"  
+  /* AutoStart                 */ "\x2B\x19\x13\x11\x1C\x0D\x13\x17\x15\x18\x10\x0E\x0C\x19\x12\x19\x15\x3E\x0D\x1C\x0F\x0D\x10\x0F\x0E\x0C\x13\x12\x17\x27\x19\x0C\x22\x19\x13\x11\x14\x0D\x10\x0F\x0D\x0C\x1A\x11\x0C\x14\x25\x36\x15\x18\x0E\x10\x0F\x19\x0C\x18\x0D\x16\x0F\x22\x0D\x10\x0F\x0D\x1E\x0C\x1B\x32\x2A\x19\x13\x11\x14\x0D\x10\x0F\x0E\x35\x0C\x20\x32\x0C\x1B\x12\x17\x27\x0C\x2E\x16\x1A\x0F\x0E\x10\x0F\x0D\x0C\x35\x2F\x32\x28\x17\x25\x36\x15\x18",//Automatyczne uruchamianie trybu lutowania po włączeniu zasilania. T=Lutowanie, S= Tryb Uspienia ,N=Wyłącz 
+  /* CooldownBlink             */ "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x10\x0D\x0C\x0E\x21\x12\x0D\x10\x0F\x0E\x0C\x1C\x0F\x24\x0D\x35\x0C\x24\x2D\x17\x0C\x24\x12\x11\x13\x0C\x1F\x0E\x16\x13\x0C\x1F\x0E\x16\x18\x15\x18\x0E\x0C\x24\x11\x12\x36\x15\x17\x1E\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x1E\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x1E\x31",//Temperatura na ekranie miga, gdy grot jest jeszcze gorący. <T = wł., N = wył.> 
+  /* TemperatureCalibration    */ "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1F\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x17\x0C\x24\x12\x11\x13\x0D\x0C\x22\x19\x13\x11\x14\x10\x0F\x15\x17",//Kalibracja temperatury grota lutownicy 
+  /* SettingsReset             */ "\x43\x12\x0E\x16\x0E\x13\x19\x1F\x0C\x14\x16\x18\x17\x16\x13\x21\x0F\x0E\x0C\x19\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D",//Zresetuj wszystkie ustawienia 
+  /* VoltageCalibration        */ "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1F\x0D\x0C\x10\x0D\x1A\x0F\x34\x15\x0F\x0D\x0C\x14\x0E\x1F\x2C\x15\x0F\x11\x14\x0E\x24\x11\x1E\x0C\x3A\x12\x3D\x13\x21\x0F\x0E\x0C\x10\x0D\x15\x0F\x2C\x10\x0F\x34\x15\x0F\x0E\x35\x0C\x0D\x27\x17\x0C\x19\x16\x13\x0D\x14\x0F\x42\x35\x0C\x2D\x25\x19\x24\x0F\x0E\x0C\x10\x0D\x15\x0F\x2C\x10\x0F\x34\x15\x0F\x0E\x35\x0C\x0D\x27\x17\x0C\x14\x17\x1F\x2C\x42\x1E",//Kalibracja napięcia wejściowego. Krótkie naciśnięcie, aby ustawić, długie naciśnięcie, aby wyjść. 
+  /* AdvancedSoldering         */ "\x28\x17\x2C\x14\x0F\x0E\x13\x22\x0C\x16\x18\x15\x18\x0E\x24\x3D\x25\x11\x14\x0E\x0C\x0F\x10\x46\x11\x12\x1C\x0D\x15\x1F\x0E\x0C\x1A\x11\x2D\x15\x18\x0D\x16\x0C\x22\x19\x13\x11\x14\x0D\x10\x0F\x0D\x0C\x33\x1B\x0C\x32\x0C\x14\x25\x1E\x35\x0C\x2F\x0C\x32\x0C\x14\x17\x25\x1E\x31",//Wyświetl szczegółowe informacje podczas lutowania <T = wł., N = wył.> 
+  /* ScrollingSpeed            */ "\x20\x18\x17\x27\x21\x11\x2C\x42\x0C\x1A\x12\x18\x0E\x14\x0F\x1F\x0D\x10\x0F\x0D\x0C\x13\x0E\x21\x16\x13\x19",//Szybkość przewijania tekstu 
   /* TipModel                  */ "\x28\x17\x27\x3D\x12\x0C\x24\x12\x11\x13\x19",//Wybór grotu 
-  /* SimpleCalibrationMode     */ "\x23\x12\x11\x16\x13\x0D\x0C\x21\x0D\x22\x0F\x27\x12\x0D\x15\x1E\x0D\x0C\x19\x41\x17\x14\x0D\x1E\x36\x15\x0C\x24\x11\x12\x36\x15\x0E\x1E\x0C\x14\x11\x2D\x17",//Prosta kalibracja używając gorącej wody 
-  /* AdvancedCalibrationMode   */ "\x43\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0D\x0C\x21\x0D\x22\x0F\x27\x12\x0D\x15\x1E\x0D\x0C\x18\x0D\x0C\x1A\x11\x1C\x11\x15\x17\x0C\x13\x0E\x12\x1C\x11\x1A\x11\x0D\x12\x17\x0C\x10\x0D\x0C\x24\x12\x11\x15\x0F\x0E",//Zaawansowana kalibracja za pomocy termopoary na grocie 
+  /* SimpleCalibrationMode     */ "\x23\x12\x11\x16\x13\x0D\x0C\x21\x0D\x22\x0F\x27\x12\x0D\x15\x1F\x0D\x0C\x19\x41\x17\x14\x0D\x1F\x36\x15\x0C\x24\x11\x12\x36\x15\x0E\x1F\x0C\x14\x11\x2D\x17",//Prosta kalibracja używając gorącej wody 
+  /* AdvancedCalibrationMode   */ "\x43\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0D\x0C\x21\x0D\x22\x0F\x27\x12\x0D\x15\x1F\x0D\x0C\x18\x0D\x0C\x1A\x11\x1C\x11\x15\x17\x0C\x13\x0E\x12\x1C\x11\x1A\x11\x0D\x12\x17\x0C\x10\x0D\x0C\x24\x12\x11\x15\x0F\x0E",//Zaawansowana kalibracja za pomocy termopoary na grocie 
   /* PowerInput                */ "\x26\x11\x15\x0C\x19\x41\x17\x14\x0D\x10\x0E\x24\x11\x0C\x18\x0D\x16\x0F\x22\x0D\x15\x18\x0D\x0C\x14\x0C\x28\x0D\x13\x0D\x15\x3E",//Moc używanego zasilacza w Watach 
-  /* PowerLimitEnable          */ "\x39\x10\x0D\x27\x22\x0E\x0C\x1A\x11\x14\x0E\x12\x0C\x22\x0F\x1C\x0F\x13",//Enable power limit 
-  /* PowerLimit                */ "\x26\x0D\x53\x0F\x1C\x19\x1C\x0C\x1A\x11\x14\x0E\x12\x0C\x13\x3E\x0E\x0C\x0F\x12\x11\x10\x0C\x15\x0D\x10\x0C\x19\x16\x0E\x0C\x33\x28\x0D\x13\x13\x16\x31",//Maximum power the iron can use <Watts> 
+  /* PowerLimitEnable          */ "\x38\x10\x0D\x27\x22\x0E\x0C\x1A\x11\x14\x0E\x12\x0C\x22\x0F\x1C\x0F\x13",//Enable power limit 
+  /* PowerLimit                */ "\x26\x0D\x54\x0F\x1C\x19\x1C\x0C\x1A\x11\x14\x0E\x12\x0C\x13\x3E\x0E\x0C\x0F\x12\x11\x10\x0C\x15\x0D\x10\x0C\x19\x16\x0E\x0C\x33\x28\x0D\x13\x13\x16\x31",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1E\x0D\x0C\x19\x2D\x0D\x10\x0D\x45";//Kalibracja udana! 
-const char* SettingsCalibrationWarning = "\x23\x12\x18\x0E\x2D\x0C\x21\x11\x10\x13\x17\x10\x19\x11\x14\x0D\x10\x0F\x0E\x1C\x0C\x19\x1A\x0E\x14\x10\x0F\x1E\x0C\x16\x0F\x34\x35\x0C\x41\x0E\x0C\x21\x11\x4F\x15\x3D\x14\x21\x0D\x0C\x11\x16\x0F\x36\x24\x10\x0E\x22\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0E\x0C\x1A\x11\x21\x11\x1E\x11\x14\x0D\x45";//Przed kontynuowaniem upewnij się, że końcówka osiągnela temperature pokojowa! 
+const char* SettingsCalibrationDone = "\x3A\x0D\x22\x0F\x27\x12\x0D\x15\x1F\x0D\x0C\x19\x2D\x0D\x10\x0D\x45";//Kalibracja udana! 
+const char* SettingsCalibrationWarning = "\x23\x12\x18\x0E\x2D\x0C\x21\x11\x10\x13\x17\x10\x19\x11\x14\x0D\x10\x0F\x0E\x1C\x0C\x19\x1A\x0E\x14\x10\x0F\x1F\x0C\x16\x0F\x34\x35\x0C\x41\x0E\x0C\x21\x11\x50\x15\x3D\x14\x21\x0D\x0C\x11\x16\x0F\x36\x24\x10\x0E\x22\x0D\x0C\x13\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0E\x0C\x1A\x11\x21\x11\x1F\x11\x14\x0D\x45";//Przed kontynuowaniem upewnij się, że końcówka osiągnela temperature pokojowa! 
 const char* SettingsResetWarning = "\x1D\x18\x17\x0C\x10\x0D\x0C\x1A\x0E\x14\x10\x11\x0C\x15\x3E\x15\x0E\x16\x18\x0C\x1A\x12\x18\x17\x14\x12\x3D\x15\x0F\x42\x0C\x19\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D\x0C\x46\x0D\x27\x12\x17\x15\x18\x10\x0E\x48";//Czy na pewno chcesz przywrócić ustawienia fabryczne? 
-const char* UVLOWarningString = "\x2F\x3B\x1F\x3A\x3B\x39\x0C\x30\x1D";//NISKIE DC 
+const char* UVLOWarningString = "\x2F\x3B\x20\x3A\x3B\x38\x0C\x30\x1D";//NISKIE DC 
 const char* UndervoltageString = "\x23\x11\x2D\x0C\x10\x0D\x1A\x0F\x34\x15\x0F\x0E\x1C";//Pod napięciem 
-const char* InputVoltageString = "\x28\x0E\x1E\x2C\x15\x0F\x11\x14\x0E\x0C\x37\x44\x0C";//Wejściowe V:  
+const char* InputVoltageString = "\x28\x0E\x1F\x2C\x15\x0F\x11\x14\x0E\x0C\x39\x44\x0C";//Wejściowe V:  
 const char* WarningTipTempString = "\x1B\x0E\x1C\x1A\x0E\x12\x0D\x13\x19\x12\x0D\x0C\x24\x12\x11\x13\x0D\x44\x0C";//Temperatura grota:  
-const char* BadTipString = "\x43\x4B\x49\x0C\x40\x38\x2A\x1B";//ZŁY GROT 
+const char* BadTipString = "\x43\x4B\x49\x0C\x40\x37\x29\x1B";//ZŁY GROT 
 const char* SleepingSimpleString = "\x43\x18\x18\x45";//Zzz! 
-const char* SleepingAdvancedString = "\x2E\x16\x1A\x0F\x0E\x10\x0F\x0E\x20\x20\x20";//Uspienie... 
-const char* WarningSimpleString = "\x3F\x2A\x1B\x45";//HOT! 
-const char* WarningAdvancedString = "\x40\x2A\x38\x4C\x1D\x2B\x0C\x3A\x2A\x50\x1D\x51\x28\x3A\x2B\x45";//GORĄCA KOŃCÓWKA! 
+const char* SleepingAdvancedString = "\x2E\x16\x1A\x0F\x0E\x10\x0F\x0E\x1E\x1E\x1E";//Uspienie... 
+const char* WarningSimpleString = "\x3F\x29\x1B\x45";//HOT! 
+const char* WarningAdvancedString = "\x40\x29\x37\x4C\x1D\x2B\x0C\x3A\x29\x51\x1D\x52\x28\x3A\x2B\x45";//GORĄCA KOŃCÓWKA! 
 const char* SleepingTipAdvancedString = "\x40\x12\x11\x13\x44";//Grot: 
 const char* IdleTipString = "\x40\x12\x11\x13\x44";//Grot: 
 const char* IdleSetString = "\x0C\x2E\x16\x13\x0D\x14\x44";// Ustaw: 
-const char* TipDisconnectedString = "\x40\x38\x2A\x1B\x0C\x2A\x30\x4B\x4C\x1D\x43\x2A\x2F\x49";//GROT ODŁĄCZONY 
+const char* TipDisconnectedString = "\x40\x37\x29\x1B\x0C\x29\x30\x4B\x4C\x1D\x43\x29\x2F\x49";//GROT ODŁĄCZONY 
 const char* SolderingAdvancedPowerPrompt = "\x23\x11\x14\x0E\x12\x44\x0C";//Power:  
 const char* OffString = "\x28\x17\x25\x36\x15\x18";//Wyłącz 
-const char* ResetOKMessage = "\x38\x0E\x16\x0E\x13\x0C\x2A\x3A";//Reset OK 
+const char* ResetOKMessage = "\x37\x0E\x16\x0E\x13\x0C\x29\x3A";//Reset OK 
 const char* YourGainMessage = "\x49\x11\x19\x12\x0C\x40\x0D\x0F\x10";//Your Gain 
-const char* SettingsResetMessage = "\x1F\x0E\x13\x13\x0F\x10\x24\x16\x0C\x14\x0E\x12\x0E\x01\x12\x0E\x16\x0E\x13\x45";//Settings were_reset! 
+const char* SettingsResetMessage = "\x20\x0E\x13\x13\x0F\x10\x24\x16\x0C\x14\x0E\x12\x0E\x01\x12\x0E\x16\x0E\x13\x45";//Settings were_reset! 
 
 const char* SettingRightChar = "\x23";//P 
-const char* SettingLeftChar = "\x29";//L 
+const char* SettingLeftChar = "\x2A";//L 
 const char* SettingAutoChar = "\x2B";//A 
 const char* SettingFastChar = "\x47";//F 
-const char* SettingSlowChar = "\x1F";//S 
+const char* SettingSlowChar = "\x20";//S 
 const char* SettingStartSolderingChar = "\x1B";//T 
-const char* SettingStartSleepChar = "\x1F";//S 
+const char* SettingStartSleepChar = "\x20";//S 
+const char* SettingStartSleepOffChar = "\x29";//O 
 const char* SettingStartNoneChar = "\x2F";//N 
 
 const char* SymbolPlus = "\x57";//+ 
 const char* SymbolMinus = "\x4A";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x20";//. 
+const char* SymbolDot = "\x1E";//. 
 const char* SymbolDegC = "\x1D";//C 
 const char* SymbolDegF = "\x47";//F 
 const char* SymbolMinutes = "\x26";//M 
-const char* SymbolSeconds = "\x1F";//S 
+const char* SymbolSeconds = "\x20";//S 
 const char* SymbolWatts = "\x28";//W 
-const char* SymbolVolts = "\x37";//V 
+const char* SymbolVolts = "\x39";//V 
 const char* SymbolDC = "\x30\x1D";//DC 
-const char* SymbolCellCount = "\x1F";//S 
-const char* SymbolVersionNumber = "\x37\x04\x20\x02\x0A";//V2.08 
+const char* SymbolCellCount = "\x20";//S 
+const char* SymbolVersionNumber = "\x4D\x04\x1E\x02\x0A\x1E\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -4962,71 +4978,71 @@ const char* TipModelStrings[] = {
 	 "\x30\x04\x06",//D24 
 	 "\x3C\x1D\x04",//BC2 
 	 "\x0C\x1D\x03",// C1 
-	 "\x1B\x1F\x03\x02\x02",//TS100 
+	 "\x1B\x20\x03\x02\x02",//TS100 
 	 "\x3C\x1D\x04",//BC2 
 	 "\x3F\x0D\x21\x21\x11",//Hakko 
 	 "\x2E\x16\x0E\x12",//User 
 #else
 	 "\x3C\x02\x04",//B02 
 	 "\x30\x04\x07",//D25 
-	 "\x1B\x1F\x0A\x02",//TS80 
+	 "\x1B\x20\x0A\x02",//TS80 
 	 "\x2E\x16\x0E\x12",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x4A\x02\x03\x4A\x04\x02",//18-01-20 
+	 "\x03\x06\x4A\x02\x05\x4A\x04\x02",//14-03-20 
 	 "\x3F\x28\x0C\x40\x0C",//HW G  
 	 "\x3F\x28\x0C\x26\x0C",//HW M  
 	 "\x3F\x28\x0C\x23\x0C",//HW P  
 	 "\x1B\x0F\x1C\x0E\x0C",//Time  
-	 "\x26\x11\x54\x0E\x0C",//Move  
-	 "\x38\x1B\x0F\x1A\x0C",//RTip  
+	 "\x26\x11\x4D\x0E\x0C",//Move  
+	 "\x37\x1B\x0F\x1A\x0C",//RTip  
 	 "\x1D\x1B\x0F\x1A\x0C",//CTip  
 	 "\x1D\x3F\x0D\x10\x0C",//CHan  
-	 "\x37\x0F\x10\x0C\x0C",//Vin   
+	 "\x39\x0F\x10\x0C\x0C",//Vin   
 	 "\x23\x1D\x3C\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x23\x28\x38\x1F\x1D" },//PWRSC 
-  /* SleepTemperature          */ { "\x1F\x1B\x26\x23" },//STMP 
-  /* SleepTimeout              */ { "\x1F\x1B\x26\x39" },//STME 
-  /* ShutdownTimeout           */ { "\x1F\x3F\x1B\x26\x39" },//SHTME 
-  /* MotionSensitivity         */ { "\x26\x1F\x39\x2F\x1F\x39" },//MSENSE 
+  /* PowerSource               */ { "\x23\x28\x37\x20\x1D" },//PWRSC 
+  /* SleepTemperature          */ { "\x20\x1B\x26\x23" },//STMP 
+  /* SleepTimeout              */ { "\x20\x1B\x26\x38" },//STME 
+  /* ShutdownTimeout           */ { "\x20\x3F\x1B\x26\x38" },//SHTME 
+  /* MotionSensitivity         */ { "\x26\x20\x38\x2F\x20\x38" },//MSENSE 
   /* TemperatureUnit           */ { "\x1B\x26\x23\x2E\x2F\x1B" },//TMPUNT 
-  /* AdvancedIdle              */ { "\x2B\x30\x37\x3B\x30\x29" },//ADVIDL 
-  /* DisplayRotation           */ { "\x30\x1F\x23\x38\x2A\x1B" },//DSPROT 
-  /* BoostEnabled              */ { "\x3C\x2A\x2A\x1F\x1B" },//BOOST 
+  /* AdvancedIdle              */ { "\x2B\x30\x39\x3B\x30\x2A" },//ADVIDL 
+  /* DisplayRotation           */ { "\x30\x20\x23\x37\x29\x1B" },//DSPROT 
+  /* BoostEnabled              */ { "\x3C\x29\x29\x20\x1B" },//BOOST 
   /* BoostTemperature          */ { "\x3C\x1B\x26\x23" },//BTMP 
-  /* AutoStart                 */ { "\x2B\x1F\x1B\x2B\x38\x1B" },//ASTART 
-  /* CooldownBlink             */ { "\x1D\x29\x3C\x29\x2F\x3A" },//CLBLNK 
-  /* TemperatureCalibration    */ { "\x1B\x26\x23\x0C\x1D\x2B\x29\x48" },//TMP CAL? 
-  /* SettingsReset             */ { "\x38\x39\x1F\x39\x1B\x48" },//RESET? 
-  /* VoltageCalibration        */ { "\x1D\x2B\x29\x0C\x37\x3B\x2F\x48" },//CAL VIN? 
-  /* AdvancedSoldering         */ { "\x2B\x30\x37\x1F\x29\x30" },//ADVSLD 
-  /* ScrollingSpeed            */ { "\x30\x39\x1F\x1D\x1F\x23" },//DESCSP 
-  /* TipModel                  */ { "\x1B\x3B\x23\x26\x2A" },//TIPMO 
-  /* SimpleCalibrationMode     */ { "\x1F\x26\x23\x1D\x2B\x29" },//SMPCAL 
-  /* AdvancedCalibrationMode   */ { "\x2B\x30\x37\x1D\x2B\x29" },//ADVCAL 
-  /* PowerInput                */ { "\x23\x28\x38\x28" },//PWRW 
-  /* PowerLimitEnable          */ { "\x23\x29\x3B\x26\x39\x2F" },//PLIMEN 
-  /* PowerLimit                */ { "\x23\x29\x3B\x26" },//PLIM 
+  /* AutoStart                 */ { "\x2B\x20\x1B\x2B\x37\x1B" },//ASTART 
+  /* CooldownBlink             */ { "\x1D\x2A\x3C\x2A\x2F\x3A" },//CLBLNK 
+  /* TemperatureCalibration    */ { "\x1B\x26\x23\x0C\x1D\x2B\x2A\x48" },//TMP CAL? 
+  /* SettingsReset             */ { "\x37\x38\x20\x38\x1B\x48" },//RESET? 
+  /* VoltageCalibration        */ { "\x1D\x2B\x2A\x0C\x39\x3B\x2F\x48" },//CAL VIN? 
+  /* AdvancedSoldering         */ { "\x2B\x30\x39\x20\x2A\x30" },//ADVSLD 
+  /* ScrollingSpeed            */ { "\x30\x38\x20\x1D\x20\x23" },//DESCSP 
+  /* TipModel                  */ { "\x1B\x3B\x23\x26\x29" },//TIPMO 
+  /* SimpleCalibrationMode     */ { "\x20\x26\x23\x1D\x2B\x2A" },//SMPCAL 
+  /* AdvancedCalibrationMode   */ { "\x2B\x30\x39\x1D\x2B\x2A" },//ADVCAL 
+  /* PowerInput                */ { "\x23\x28\x37\x28" },//PWRW 
+  /* PowerLimitEnable          */ { "\x23\x2A\x3B\x26\x38\x2F" },//PLIMEN 
+  /* PowerLimit                */ { "\x23\x2A\x3B\x26" },//PLIM 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x29\x19\x13\x11\x14\x0D\x10\x0F\x0E\x01\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D",//['Lutowanie', 'Ustawienia'] 
+  /* SolderingMenu             */ "\x2A\x19\x13\x11\x14\x0D\x10\x0F\x0E\x01\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D",//['Lutowanie', 'Ustawienia'] 
   /* PowerSavingMenu           */ "\x2E\x2C\x1A\x0F\x0E\x10\x0F\x0E\x01\x1B\x12\x17\x27\x17",//['Uśpienie', 'Tryby'] 
-  /* UIMenu                    */ "\x2E\x41\x17\x13\x21\x11\x14\x10\x0F\x21\x01\x3B\x10\x13\x0E\x12\x46\x0E\x1E\x16",//['Użytkownik', 'Interfejs'] 
-  /* AdvancedMenu              */ "\x43\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0E\x01\x2A\x1A\x15\x1E\x0E",//['Zaawansowane', 'Opcje'] 
+  /* UIMenu                    */ "\x2E\x41\x17\x13\x21\x11\x14\x10\x0F\x21\x01\x3B\x10\x13\x0E\x12\x46\x0E\x1F\x16",//['Użytkownik', 'Interfejs'] 
+  /* AdvancedMenu              */ "\x43\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0E\x01\x29\x1A\x15\x1F\x0E",//['Zaawansowane', 'Opcje'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D\x0C\x22\x19\x13\x11\x14\x10\x0F\x15\x17",//Ustawienia lutownicy 
   /* PowerSavingMenu           */ "\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D\x0C\x11\x16\x18\x15\x18\x34\x2D\x18\x0D\x10\x0F\x0D\x0C\x0E\x10\x0E\x12\x24\x0F\x0F",//Ustawienia oszczędzania energii 
-  /* UIMenu                    */ "\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D\x0C\x0F\x10\x13\x0E\x12\x46\x0E\x1E\x16\x19\x0C\x19\x41\x17\x13\x21\x11\x14\x10\x0F\x21\x0D",//Ustawienia interfejsu użytkownika 
-  /* AdvancedMenu              */ "\x2A\x1A\x15\x1E\x0E\x0C\x18\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0E",//Opcje zaawansowane 
+  /* UIMenu                    */ "\x2E\x16\x13\x0D\x14\x0F\x0E\x10\x0F\x0D\x0C\x0F\x10\x13\x0E\x12\x46\x0E\x1F\x16\x19\x0C\x19\x41\x17\x13\x21\x11\x14\x10\x0F\x21\x0D",//Ustawienia interfejsu użytkownika 
+  /* AdvancedMenu              */ "\x29\x1A\x15\x1F\x0E\x0C\x18\x0D\x0D\x14\x0D\x10\x16\x11\x14\x0D\x10\x0E",//Opcje zaawansowane 
 };
 
 #endif
@@ -5062,24 +5078,24 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x1C -> c
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1D -> b
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1E -> T
-0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x1F -> f
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x20 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1F -> v
+0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x20 -> f
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x21 -> M
-0x00,0x00,0x40,0x68,0x6C,0x64,0x6C,0x68,0x6C,0xE4,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x22 -> ã
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x23 -> P
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x24 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x22 -> .
+0x00,0x00,0x40,0x68,0x6C,0x64,0x6C,0x68,0x6C,0xE4,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x23 -> ã
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x24 -> P
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x25 -> S
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x26 -> g
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x27 -> A
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x28 -> D
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x29 -> E
 0x00,0x80,0xC8,0xEC,0x64,0x6C,0x68,0x6C,0xE4,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x2A -> õ
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2B -> >
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2C -> <
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x2D -> V
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> O
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2C -> >
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2D -> <
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x2E -> R
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2F -> O
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x30 -> F
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2F -> F
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x30 -> V
 0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x31 -> =
 0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x32 -> z
 0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x33 -> x
@@ -5144,24 +5160,24 @@ const uint8_t USER_FONT_6x8[] = {
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1C -> c
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x1D -> b
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1E -> T
-0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x1F -> f
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x20 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1F -> v
+0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x20 -> f
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x21 -> M
-0x22, 0x55, 0x56, 0x55, 0x78, 0x00,//\x22 -> ã
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x23 -> P
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x24 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x22 -> .
+0x22, 0x55, 0x56, 0x55, 0x78, 0x00,//\x23 -> ã
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x24 -> P
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x25 -> S
 0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x26 -> g
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x27 -> A
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x28 -> D
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x29 -> E
 0x32, 0x49, 0x4a, 0x31, 0x00, 0x00,//\x2A -> õ
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2B -> >
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2C -> <
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x2D -> V
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2B -> O
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2C -> >
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2D -> <
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x2E -> R
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2F -> O
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x30 -> F
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x2F -> F
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x30 -> V
 0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x31 -> =
 0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x32 -> z
 0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x33 -> x
@@ -5199,50 +5215,50 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Português ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x30\x0F\x13\x10\x0D\x0E\x14\x0D\x0E\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x22\x0F\x24\x0E\x28\x0D\x1F\x12\x13\x0D\x0E\x0C\x0E\x10\x0D\x13\x15\x22\x0F\x0E\x14\x0D\x0E\x1C\x0F\x11\x10\x0D\x24\x0E\x2C\x28\x1A\x31\x03\x02\x2D\x2B\x0E\x2C\x25\x31\x05\x24\x05\x2D\x49\x1C\x43\x18\x16\x18\x0C\x2B",//Fonte de alimentação. Define a tensão de corte. <DC=10V> <S=3.3V/célula> 
-  /* SleepTemperature          */ "\x1E\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x14\x0D\x0E\x11\x0D\x19\x0F\x16\x15\x0F\x0E\x2C\x1A\x2B",//Temperatura de repouso <C> 
-  /* SleepTimeout              */ "\x1E\x0D\x17\x19\x0F\x0E\x19\x0C\x11\x0C\x0E\x11\x0D\x19\x0F\x16\x15\x0F\x0E\x2C\x21\x12\x13\x16\x10\x0F\x15\x49\x25\x0D\x26\x16\x13\x14\x0F\x15\x2B",//Tempo para repouso <Minutos/Segundos> 
-  /* ShutdownTimeout           */ "\x1E\x0D\x17\x19\x0F\x0E\x19\x0C\x11\x0C\x0E\x14\x0D\x15\x18\x12\x26\x0C\x17\x0D\x13\x10\x0F\x0E\x2C\x21\x12\x13\x16\x10\x0F\x15\x2B",//Tempo para desligamento <Minutos> 
-  /* MotionSensitivity         */ "\x25\x0D\x13\x15\x12\x1D\x12\x18\x12\x14\x0C\x14\x0D\x0E\x0C\x0F\x0E\x17\x0F\x20\x12\x17\x0D\x13\x10\x0F\x0E\x2C\x02\x31\x28\x0D\x15\x18\x12\x26\x0C\x14\x0F\x0E\x03\x31\x21\x0D\x13\x0F\x11\x0E\x0B\x31\x21\x0C\x12\x0F\x11\x2B",//Sensibilidade ao movimento <0=Desligado 1=Menor 9=Maior> 
-  /* TemperatureUnit           */ "\x36\x13\x12\x14\x0C\x14\x0D\x0E\x14\x0D\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x2C\x1A\x31\x1A\x0D\x18\x15\x12\x16\x15\x0E\x30\x31\x30\x0C\x34\x11\x0D\x13\x34\x0D\x12\x10\x2B",//Unidade de temperatura <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x29\x33\x12\x1D\x0D\x0E\x12\x13\x1F\x0F\x11\x17\x0C\x1B\x2A\x0D\x15\x0E\x0C\x20\x0C\x13\x1B\x0C\x14\x0C\x15\x0E\x3C\x16\x0C\x13\x14\x0F\x0E\x0D\x17\x0E\x0D\x15\x19\x0D\x11\x0C",//Exibe informações avançadas quando em espera 
-  /* DisplayRotation           */ "\x2F\x11\x12\x0D\x13\x10\x0C\x1B\x22\x0F\x0E\x14\x0C\x0E\x10\x0D\x18\x0C\x0E\x2C\x27\x24\x16\x10\x0F\x17\x38\x10\x12\x1C\x0C\x0E\x1A\x24\x0C\x13\x34\x0F\x10\x0F\x0E\x28\x24\x0D\x15\x10\x11\x0F\x2B",//Orientação da tela <A.utomática C.anhoto D.estro> 
-  /* BoostEnabled              */ "\x1E\x0D\x1C\x18\x0C\x0E\x1F\x11\x0F\x13\x10\x0C\x18\x0E\x0C\x1C\x10\x12\x20\x0C\x0E\x17\x0F\x14\x0F\x0E\x3F\x10\x16\x11\x1D\x0F\x3F",//Tecla frontal activa modo "turbo" 
+  /* PowerSource               */ "\x2F\x0F\x13\x10\x0D\x0E\x14\x0D\x0E\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x23\x0F\x22\x0E\x28\x0D\x20\x12\x13\x0D\x0E\x0C\x0E\x10\x0D\x13\x15\x23\x0F\x0E\x14\x0D\x0E\x1C\x0F\x11\x10\x0D\x22\x0E\x2D\x28\x1A\x31\x03\x02\x30\x2C\x0E\x2D\x25\x31\x05\x22\x05\x30\x49\x1C\x43\x18\x16\x18\x0C\x2C",//Fonte de alimentação. Define a tensão de corte. <DC=10V> <S=3.3V/célula> 
+  /* SleepTemperature          */ "\x1E\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x14\x0D\x0E\x11\x0D\x19\x0F\x16\x15\x0F\x0E\x2D\x1A\x2C",//Temperatura de repouso <C> 
+  /* SleepTimeout              */ "\x1E\x0D\x17\x19\x0F\x0E\x19\x0C\x11\x0C\x0E\x11\x0D\x19\x0F\x16\x15\x0F\x0E\x2D\x21\x12\x13\x16\x10\x0F\x15\x49\x25\x0D\x26\x16\x13\x14\x0F\x15\x2C",//Tempo para repouso <Minutos/Segundos> 
+  /* ShutdownTimeout           */ "\x1E\x0D\x17\x19\x0F\x0E\x19\x0C\x11\x0C\x0E\x14\x0D\x15\x18\x12\x26\x0C\x17\x0D\x13\x10\x0F\x0E\x2D\x21\x12\x13\x16\x10\x0F\x15\x2C",//Tempo para desligamento <Minutos> 
+  /* MotionSensitivity         */ "\x25\x0D\x13\x15\x12\x1D\x12\x18\x12\x14\x0C\x14\x0D\x0E\x0C\x0F\x0E\x17\x0F\x1F\x12\x17\x0D\x13\x10\x0F\x0E\x2D\x02\x31\x28\x0D\x15\x18\x12\x26\x0C\x14\x0F\x0E\x03\x31\x21\x0D\x13\x0F\x11\x0E\x0B\x31\x21\x0C\x12\x0F\x11\x2C",//Sensibilidade ao movimento <0=Desligado 1=Menor 9=Maior> 
+  /* TemperatureUnit           */ "\x36\x13\x12\x14\x0C\x14\x0D\x0E\x14\x0D\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x2D\x1A\x31\x1A\x0D\x18\x15\x12\x16\x15\x0E\x2F\x31\x2F\x0C\x34\x11\x0D\x13\x34\x0D\x12\x10\x2C",//Unidade de temperatura <C=Celsius F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x29\x33\x12\x1D\x0D\x0E\x12\x13\x20\x0F\x11\x17\x0C\x1B\x2A\x0D\x15\x0E\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C\x15\x0E\x3C\x16\x0C\x13\x14\x0F\x0E\x0D\x17\x0E\x0D\x15\x19\x0D\x11\x0C",//Exibe informações avançadas quando em espera 
+  /* DisplayRotation           */ "\x2B\x11\x12\x0D\x13\x10\x0C\x1B\x23\x0F\x0E\x14\x0C\x0E\x10\x0D\x18\x0C\x0E\x2D\x27\x22\x16\x10\x0F\x17\x38\x10\x12\x1C\x0C\x0E\x1A\x22\x0C\x13\x34\x0F\x10\x0F\x0E\x28\x22\x0D\x15\x10\x11\x0F\x2C",//Orientação da tela <A.utomática C.anhoto D.estro> 
+  /* BoostEnabled              */ "\x1E\x0D\x1C\x18\x0C\x0E\x20\x11\x0F\x13\x10\x0C\x18\x0E\x0C\x1C\x10\x12\x1F\x0C\x0E\x17\x0F\x14\x0F\x0E\x3F\x10\x16\x11\x1D\x0F\x3F",//Tecla frontal activa modo "turbo" 
   /* BoostTemperature          */ "\x27\x3A\x16\x15\x10\x0D\x0E\x14\x0D\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x14\x0F\x0E\x17\x0F\x14\x0F\x0E\x3F\x10\x16\x11\x1D\x0F\x3F",//Ajuste de temperatura do modo "turbo" 
   /* AutoStart                 */ "\x27\x3C\x16\x0D\x1C\x0D\x0E\x0C\x0E\x19\x0F\x13\x10\x0C\x0E\x0C\x16\x10\x0F\x17\x0C\x10\x12\x1C\x0C\x17\x0D\x13\x10\x0D\x0E\x0C\x0F\x0E\x18\x12\x26\x0C\x11",//Aquece a ponta automaticamente ao ligar 
-  /* CooldownBlink             */ "\x30\x0C\x32\x0E\x0F\x0E\x20\x0C\x18\x0F\x11\x0E\x14\x0C\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x19\x12\x15\x1C\x0C\x11\x0E\x14\x16\x11\x0C\x13\x10\x0D\x0E\x0F\x0E\x0C\x11\x11\x0D\x1F\x0D\x1C\x12\x17\x0D\x13\x10\x0F",//Faz o valor da temperatura piscar durante o arrefecimento 
+  /* CooldownBlink             */ "\x2F\x0C\x32\x0E\x0F\x0E\x1F\x0C\x18\x0F\x11\x0E\x14\x0C\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x19\x12\x15\x1C\x0C\x11\x0E\x14\x16\x11\x0C\x13\x10\x0D\x0E\x0F\x0E\x0C\x11\x11\x0D\x20\x0D\x1C\x12\x17\x0D\x13\x10\x0F",//Faz o valor da temperatura piscar durante o arrefecimento 
   /* TemperatureCalibration    */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x0E\x0C\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C",//Calibra a temperatura 
-  /* SettingsReset             */ "\x2E\x0D\x20\x0D\x11\x10\x0D\x0E\x10\x0F\x14\x0F\x15\x0E\x0C\x3A\x16\x15\x10\x0D\x15",//Reverte todos ajustes 
-  /* VoltageCalibration        */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x0E\x0C\x0E\x10\x0D\x13\x15\x22\x0F\x0E\x14\x0D\x0E\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x22\x0F\x24\x0E\x36\x15\x0D\x0E\x0F\x15\x0E\x1D\x0F\x10\x2A\x0D\x15\x0E\x19\x0C\x11\x0C\x0E\x0C\x3A\x16\x15\x10\x0C\x11\x0E\x0F\x0E\x20\x0C\x18\x0F\x11\x24\x0E\x21\x0C\x13\x10\x0D\x13\x34\x0C\x0E\x19\x11\x0D\x15\x15\x12\x0F\x13\x0C\x14\x0F\x0E\x19\x0C\x11\x0C\x0E\x15\x0C\x12\x11",//Calibra a tensão de alimentação. Use os botões para ajustar o valor. Mantenha pressionado para sair 
-  /* AdvancedSoldering         */ "\x29\x33\x12\x1D\x0D\x0E\x12\x13\x1F\x0F\x11\x17\x0C\x1B\x2A\x0D\x15\x0E\x0C\x20\x0C\x13\x1B\x0C\x14\x0C\x15\x0E\x14\x16\x11\x0C\x13\x10\x0D\x0E\x0F\x0E\x16\x15\x0F",//Exibe informações avançadas durante o uso 
-  /* ScrollingSpeed            */ "\x2D\x0D\x18\x0F\x1C\x12\x14\x0C\x14\x0D\x0E\x0C\x0E\x3C\x16\x0D\x0E\x0F\x0E\x10\x0D\x33\x10\x0F\x0E\x43\x0E\x0D\x33\x12\x1D\x12\x14\x0F",//Velocidade a que o texto é exibido 
-  /* TipModel                  */ "\x25\x0D\x18\x0D\x1C\x1B\x22\x0F\x0E\x14\x0D\x0E\x17\x0F\x14\x0D\x18\x0F\x0E\x14\x0D\x0E\x19\x0F\x13\x10\x0C",//Selecção de modelo de ponta 
-  /* SimpleCalibrationMode     */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x22\x0F\x0E\x15\x12\x17\x19\x18\x0D\x15\x0E\x1C\x0F\x17\x0E\x38\x26\x16\x0C\x0E\x3C\x16\x0D\x13\x10\x0D",//Calibração simples com água quente 
-  /* AdvancedCalibrationMode   */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x22\x0F\x0E\x0C\x20\x0C\x13\x1B\x0C\x14\x0C\x0E\x1C\x0F\x17\x0E\x16\x17\x0E\x10\x0D\x11\x17\x0F\x19\x0C\x11\x0E\x13\x0C\x0E\x19\x0F\x13\x10\x0C",//Calibração avançada com um termopar na ponta 
-  /* PowerInput                */ "\x23\x0F\x10\x42\x13\x1C\x12\x0C\x0E\x14\x0C\x0E\x1F\x0F\x13\x10\x0D\x0E\x16\x15\x0C\x14\x0C\x0E\x51\x35\x0C\x10\x10\x50",//Potência da fonte usada (Watt) 
+  /* SettingsReset             */ "\x2E\x0D\x1F\x0D\x11\x10\x0D\x0E\x10\x0F\x14\x0F\x15\x0E\x0C\x3A\x16\x15\x10\x0D\x15",//Reverte todos ajustes 
+  /* VoltageCalibration        */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x0E\x0C\x0E\x10\x0D\x13\x15\x23\x0F\x0E\x14\x0D\x0E\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x23\x0F\x22\x0E\x36\x15\x0D\x0E\x0F\x15\x0E\x1D\x0F\x10\x2A\x0D\x15\x0E\x19\x0C\x11\x0C\x0E\x0C\x3A\x16\x15\x10\x0C\x11\x0E\x0F\x0E\x1F\x0C\x18\x0F\x11\x22\x0E\x21\x0C\x13\x10\x0D\x13\x34\x0C\x0E\x19\x11\x0D\x15\x15\x12\x0F\x13\x0C\x14\x0F\x0E\x19\x0C\x11\x0C\x0E\x15\x0C\x12\x11",//Calibra a tensão de alimentação. Use os botões para ajustar o valor. Mantenha pressionado para sair 
+  /* AdvancedSoldering         */ "\x29\x33\x12\x1D\x0D\x0E\x12\x13\x20\x0F\x11\x17\x0C\x1B\x2A\x0D\x15\x0E\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C\x15\x0E\x14\x16\x11\x0C\x13\x10\x0D\x0E\x0F\x0E\x16\x15\x0F",//Exibe informações avançadas durante o uso 
+  /* ScrollingSpeed            */ "\x30\x0D\x18\x0F\x1C\x12\x14\x0C\x14\x0D\x0E\x0C\x0E\x3C\x16\x0D\x0E\x0F\x0E\x10\x0D\x33\x10\x0F\x0E\x43\x0E\x0D\x33\x12\x1D\x12\x14\x0F",//Velocidade a que o texto é exibido 
+  /* TipModel                  */ "\x25\x0D\x18\x0D\x1C\x1B\x23\x0F\x0E\x14\x0D\x0E\x17\x0F\x14\x0D\x18\x0F\x0E\x14\x0D\x0E\x19\x0F\x13\x10\x0C",//Selecção de modelo de ponta 
+  /* SimpleCalibrationMode     */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x23\x0F\x0E\x15\x12\x17\x19\x18\x0D\x15\x0E\x1C\x0F\x17\x0E\x38\x26\x16\x0C\x0E\x3C\x16\x0D\x13\x10\x0D",//Calibração simples com água quente 
+  /* AdvancedCalibrationMode   */ "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x23\x0F\x0E\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C\x0E\x1C\x0F\x17\x0E\x16\x17\x0E\x10\x0D\x11\x17\x0F\x19\x0C\x11\x0E\x13\x0C\x0E\x19\x0F\x13\x10\x0C",//Calibração avançada com um termopar na ponta 
+  /* PowerInput                */ "\x24\x0F\x10\x42\x13\x1C\x12\x0C\x0E\x14\x0C\x0E\x20\x0F\x13\x10\x0D\x0E\x16\x15\x0C\x14\x0C\x0E\x51\x35\x0C\x10\x10\x50",//Potência da fonte usada (Watt) 
   /* PowerLimitEnable          */ "\x29\x13\x0C\x1D\x18\x0D\x0E\x19\x0F\x39\x0D\x11\x0E\x18\x12\x17\x12\x10",//Enable power limit 
-  /* PowerLimit                */ "\x21\x0C\x33\x12\x17\x16\x17\x0E\x19\x0F\x39\x0D\x11\x0E\x10\x34\x0D\x0E\x12\x11\x0F\x13\x0E\x1C\x0C\x13\x0E\x16\x15\x0D\x0E\x2C\x35\x0C\x10\x10\x15\x2B",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x21\x0C\x33\x12\x17\x16\x17\x0E\x19\x0F\x39\x0D\x11\x0E\x10\x34\x0D\x0E\x12\x11\x0F\x13\x0E\x1C\x0C\x13\x0E\x16\x15\x0D\x0E\x2D\x35\x0C\x10\x10\x15\x2C",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x22\x0F\x0E\x10\x0D\x11\x17\x12\x13\x0C\x14\x0C\x40";//Calibração terminada! 
-const char* SettingsCalibrationWarning = "\x27\x0E\x19\x0F\x13\x10\x0C\x0E\x14\x0D\x20\x0D\x0E\x0D\x15\x10\x0C\x11\x0E\x4A\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x0C\x17\x1D\x12\x0D\x13\x10\x0D\x0E\x0C\x13\x10\x0D\x15\x0E\x14\x0D\x0E\x1C\x0F\x13\x10\x12\x13\x16\x0C\x11\x40";//A ponta deve estar à temperatura ambiente antes de continuar! 
-const char* SettingsResetWarning = "\x28\x0D\x1F\x12\x13\x12\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x1F\x38\x1D\x11\x12\x1C\x0C\x48";//Definições de fábrica? 
-const char* UVLOWarningString = "\x28\x1A\x0E\x37\x27\x46\x4D\x2F";//DC BAIXO 
-const char* UndervoltageString = "\x25\x16\x1D\x10\x0D\x13\x15\x22\x0F";//Subtensão 
-const char* InputVoltageString = "\x1E\x0D\x13\x15\x22\x0F\x0E";//Tensão  
+const char* SettingsCalibrationDone = "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x23\x0F\x0E\x10\x0D\x11\x17\x12\x13\x0C\x14\x0C\x40";//Calibração terminada! 
+const char* SettingsCalibrationWarning = "\x27\x0E\x19\x0F\x13\x10\x0C\x0E\x14\x0D\x1F\x0D\x0E\x0D\x15\x10\x0C\x11\x0E\x4A\x0E\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E\x0C\x17\x1D\x12\x0D\x13\x10\x0D\x0E\x0C\x13\x10\x0D\x15\x0E\x14\x0D\x0E\x1C\x0F\x13\x10\x12\x13\x16\x0C\x11\x40";//A ponta deve estar à temperatura ambiente antes de continuar! 
+const char* SettingsResetWarning = "\x28\x0D\x20\x12\x13\x12\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x20\x38\x1D\x11\x12\x1C\x0C\x48";//Definições de fábrica? 
+const char* UVLOWarningString = "\x28\x1A\x0E\x37\x27\x46\x4D\x2B";//DC BAIXO 
+const char* UndervoltageString = "\x25\x16\x1D\x10\x0D\x13\x15\x23\x0F";//Subtensão 
+const char* InputVoltageString = "\x1E\x0D\x13\x15\x23\x0F\x0E";//Tensão  
 const char* WarningTipTempString = "\x1E\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C\x0E";//Temperatura  
-const char* BadTipString = "\x29\x2E\x0E\x23\x2F\x45\x1E\x27";//ER PONTA 
+const char* BadTipString = "\x29\x2E\x0E\x24\x2B\x45\x1E\x27";//ER PONTA 
 const char* SleepingSimpleString = "\x4B\x32\x32\x32";//Zzzz 
-const char* SleepingAdvancedString = "\x2E\x0D\x19\x0F\x16\x15\x0F\x24\x24\x24";//Repouso... 
-const char* WarningSimpleString = "\x1E\x29\x21\x23";//TEMP 
-const char* WarningAdvancedString = "\x1E\x29\x21\x23\x0E\x29\x3D\x29\x2D\x27\x28\x27\x40";//TEMP ELEVADA! 
-const char* SleepingTipAdvancedString = "\x23\x0F\x13\x10\x0C\x3E";//Ponta: 
-const char* IdleTipString = "\x23\x0F\x13\x10\x0C\x3E";//Ponta: 
+const char* SleepingAdvancedString = "\x2E\x0D\x19\x0F\x16\x15\x0F\x22\x22\x22";//Repouso... 
+const char* WarningSimpleString = "\x1E\x29\x21\x24";//TEMP 
+const char* WarningAdvancedString = "\x1E\x29\x21\x24\x0E\x29\x3D\x29\x30\x27\x28\x27\x40";//TEMP ELEVADA! 
+const char* SleepingTipAdvancedString = "\x24\x0F\x13\x10\x0C\x3E";//Ponta: 
+const char* IdleTipString = "\x24\x0F\x13\x10\x0C\x3E";//Ponta: 
 const char* IdleSetString = "\x0E\x27\x3A\x3E";// Aj: 
-const char* TipDisconnectedString = "\x25\x29\x21\x0E\x23\x2F\x45\x1E\x27";//SEM PONTA 
-const char* SolderingAdvancedPowerPrompt = "\x23\x0F\x39\x0D\x11\x3E\x0E";//Power:  
-const char* OffString = "\x2F\x1F\x1F";//Off 
-const char* ResetOKMessage = "\x2E\x0D\x15\x0D\x10\x0E\x2F\x4E";//Reset OK 
+const char* TipDisconnectedString = "\x25\x29\x21\x0E\x24\x2B\x45\x1E\x27";//SEM PONTA 
+const char* SolderingAdvancedPowerPrompt = "\x24\x0F\x39\x0D\x11\x3E\x0E";//Power:  
+const char* OffString = "\x2B\x20\x20";//Off 
+const char* ResetOKMessage = "\x2E\x0D\x15\x0D\x10\x0E\x2B\x4E";//Reset OK 
 const char* YourGainMessage = "\x4C\x0F\x16\x11\x0E\x47\x0C\x12\x13";//Your Gain 
 const char* SettingsResetMessage = "\x25\x0D\x10\x10\x12\x13\x26\x15\x0E\x39\x0D\x11\x0D\x01\x11\x0D\x15\x0D\x10\x40";//Settings were_reset! 
 
@@ -5253,21 +5269,22 @@ const char* SettingFastChar = "\x2E";//R
 const char* SettingSlowChar = "\x3D";//L 
 const char* SettingStartSolderingChar = "\x1E";//T 
 const char* SettingStartSleepChar = "\x25";//S 
-const char* SettingStartNoneChar = "\x30";//F 
+const char* SettingStartSleepOffChar = "\x2B";//O 
+const char* SettingStartNoneChar = "\x2F";//F 
 
 const char* SymbolPlus = "\x4F";//+ 
 const char* SymbolMinus = "\x41";//- 
 const char* SymbolSpace = "\x0E";//  
-const char* SymbolDot = "\x24";//. 
+const char* SymbolDot = "\x22";//. 
 const char* SymbolDegC = "\x1A";//C 
-const char* SymbolDegF = "\x30";//F 
+const char* SymbolDegF = "\x2F";//F 
 const char* SymbolMinutes = "\x21";//M 
 const char* SymbolSeconds = "\x25";//S 
 const char* SymbolWatts = "\x35";//W 
-const char* SymbolVolts = "\x2D";//V 
+const char* SymbolVolts = "\x30";//V 
 const char* SymbolDC = "\x28\x1A";//DC 
 const char* SymbolCellCount = "\x25";//S 
-const char* SymbolVersionNumber = "\x2D\x04\x24\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1F\x04\x22\x02\x0A\x22\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -5288,58 +5305,58 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x41\x02\x03\x41\x04\x02",//18-01-20 
+	 "\x03\x06\x41\x02\x05\x41\x04\x02",//14-03-20 
 	 "\x3B\x35\x0E\x47\x0E",//HW G  
 	 "\x3B\x35\x0E\x21\x0E",//HW M  
-	 "\x3B\x35\x0E\x23\x0E",//HW P  
+	 "\x3B\x35\x0E\x24\x0E",//HW P  
 	 "\x1E\x12\x17\x0D\x0E",//Time  
-	 "\x21\x0F\x20\x0D\x0E",//Move  
+	 "\x21\x0F\x1F\x0D\x0E",//Move  
 	 "\x2E\x1E\x12\x19\x0E",//RTip  
 	 "\x1A\x1E\x12\x19\x0E",//CTip  
 	 "\x1A\x3B\x0C\x13\x0E",//CHan  
-	 "\x2D\x12\x13\x0E\x0E",//Vin   
-	 "\x23\x1A\x37\x0E\x0E",//PCB   
+	 "\x30\x12\x13\x0E\x0E",//Vin   
+	 "\x24\x1A\x37\x0E\x0E",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x30\x0F\x13\x10\x0D", "\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x22\x0F" },//['Fonte', 'alimentação'] 
-  /* SleepTemperature          */ { "\x1E\x0D\x17\x19\x0D\x11\x0C\x10\x24", "\x11\x0D\x19\x0F\x16\x15\x0F" },//['Temperat.', 'repouso'] 
+  /* PowerSource               */ { "\x2F\x0F\x13\x10\x0D", "\x0C\x18\x12\x17\x0D\x13\x10\x0C\x1B\x23\x0F" },//['Fonte', 'alimentação'] 
+  /* SleepTemperature          */ { "\x1E\x0D\x17\x19\x0D\x11\x0C\x10\x22", "\x11\x0D\x19\x0F\x16\x15\x0F" },//['Temperat.', 'repouso'] 
   /* SleepTimeout              */ { "\x1E\x0D\x17\x19\x0F", "\x11\x0D\x19\x0F\x16\x15\x0F" },//['Tempo', 'repouso'] 
-  /* ShutdownTimeout           */ { "\x1E\x0D\x17\x19\x0F", "\x14\x0D\x15\x18\x12\x26\x0C\x17\x24" },//['Tempo', 'desligam.'] 
-  /* MotionSensitivity         */ { "\x25\x0D\x13\x15\x12\x1D\x12\x18\x12\x14\x0C\x14\x0D", "\x17\x0F\x20\x12\x17\x0D\x13\x10\x0F" },//['Sensibilidade', 'movimento'] 
+  /* ShutdownTimeout           */ { "\x1E\x0D\x17\x19\x0F", "\x14\x0D\x15\x18\x12\x26\x0C\x17\x22" },//['Tempo', 'desligam.'] 
+  /* MotionSensitivity         */ { "\x25\x0D\x13\x15\x12\x1D\x12\x18\x12\x14\x0C\x14\x0D", "\x17\x0F\x1F\x12\x17\x0D\x13\x10\x0F" },//['Sensibilidade', 'movimento'] 
   /* TemperatureUnit           */ { "\x36\x13\x12\x14\x0C\x14\x0D", "\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C" },//['Unidade', 'temperatura'] 
-  /* AdvancedIdle              */ { "\x1E\x0D\x18\x0C\x0E\x11\x0D\x19\x0F\x16\x15\x0F", "\x0C\x20\x0C\x13\x1B\x0C\x14\x0C" },//['Tela repouso', 'avançada'] 
-  /* DisplayRotation           */ { "\x2F\x11\x12\x0D\x13\x10\x0C\x1B\x22\x0F", "\x10\x0D\x18\x0C" },//['Orientação', 'tela'] 
-  /* BoostEnabled              */ { "\x21\x0F\x14\x0F\x0E\x10\x16\x11\x1D\x0F", "\x0C\x1C\x10\x12\x20\x0C\x14\x0F" },//['Modo turbo', 'activado'] 
-  /* BoostTemperature          */ { "\x21\x0F\x14\x0F\x0E\x10\x16\x11\x1D\x0F", "\x10\x0D\x17\x19\x0D\x11\x0C\x10\x24" },//['Modo turbo', 'temperat.'] 
-  /* AutoStart                 */ { "\x23\x0C\x11\x10\x12\x14\x0C", "\x0C\x16\x10\x0F\x17\x38\x10\x12\x1C\x0C" },//['Partida', 'automática'] 
-  /* CooldownBlink             */ { "\x23\x12\x15\x1C\x0C\x11\x0E\x0C\x0F", "\x0C\x11\x11\x0D\x1F\x0D\x1C\x0D\x11" },//['Piscar ao', 'arrefecer'] 
+  /* AdvancedIdle              */ { "\x1E\x0D\x18\x0C\x0E\x11\x0D\x19\x0F\x16\x15\x0F", "\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C" },//['Tela repouso', 'avançada'] 
+  /* DisplayRotation           */ { "\x2B\x11\x12\x0D\x13\x10\x0C\x1B\x23\x0F", "\x10\x0D\x18\x0C" },//['Orientação', 'tela'] 
+  /* BoostEnabled              */ { "\x21\x0F\x14\x0F\x0E\x10\x16\x11\x1D\x0F", "\x0C\x1C\x10\x12\x1F\x0C\x14\x0F" },//['Modo turbo', 'activado'] 
+  /* BoostTemperature          */ { "\x21\x0F\x14\x0F\x0E\x10\x16\x11\x1D\x0F", "\x10\x0D\x17\x19\x0D\x11\x0C\x10\x22" },//['Modo turbo', 'temperat.'] 
+  /* AutoStart                 */ { "\x24\x0C\x11\x10\x12\x14\x0C", "\x0C\x16\x10\x0F\x17\x38\x10\x12\x1C\x0C" },//['Partida', 'automática'] 
+  /* CooldownBlink             */ { "\x24\x12\x15\x1C\x0C\x11\x0E\x0C\x0F", "\x0C\x11\x11\x0D\x20\x0D\x1C\x0D\x11" },//['Piscar ao', 'arrefecer'] 
   /* TemperatureCalibration    */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x11", "\x10\x0D\x17\x19\x0D\x11\x0C\x10\x16\x11\x0C" },//['Calibrar', 'temperatura'] 
-  /* SettingsReset             */ { "\x2E\x0D\x15\x0D\x10\x0E\x14\x0D", "\x1F\x38\x1D\x11\x12\x1C\x0C\x48" },//['Reset de', 'fábrica?'] 
-  /* VoltageCalibration        */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x11", "\x10\x0D\x13\x15\x22\x0F" },//['Calibrar', 'tensão'] 
-  /* AdvancedSoldering         */ { "\x1E\x0D\x18\x0C\x0E\x10\x11\x0C\x1D\x0C\x18\x34\x0F", "\x0C\x20\x0C\x13\x1B\x0C\x14\x0C" },//['Tela trabalho', 'avançada'] 
-  /* ScrollingSpeed            */ { "\x2D\x0D\x18\x0F\x1C\x12\x14\x0C\x14\x0D", "\x10\x0D\x33\x10\x0F\x0E\x0C\x3A\x16\x14\x0C" },//['Velocidade', 'texto ajuda'] 
-  /* TipModel                  */ { "\x23\x0F\x13\x10\x0C", "\x21\x0F\x14\x0D\x18\x0F" },//['Ponta', 'Modelo'] 
-  /* SimpleCalibrationMode     */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x22\x0F", "\x25\x12\x17\x19\x18\x0D\x15" },//['Calibração', 'Simples'] 
-  /* AdvancedCalibrationMode   */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x22\x0F", "\x27\x20\x0C\x13\x1B\x0C\x14\x0C" },//['Calibração', 'Avançada'] 
-  /* PowerInput                */ { "\x23\x0F\x10\x42\x13\x1C\x12\x0C", "\x30\x0F\x13\x10\x0D" },//['Potência', 'Fonte'] 
-  /* PowerLimitEnable          */ { "\x23\x0E\x3D\x12\x17\x12\x10", "\x29\x13\x0C\x1D\x18\x0D" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x23\x0F\x39\x0D\x11", "\x3D\x12\x17\x12\x10" },//['Power', 'Limit'] 
+  /* SettingsReset             */ { "\x2E\x0D\x15\x0D\x10\x0E\x14\x0D", "\x20\x38\x1D\x11\x12\x1C\x0C\x48" },//['Reset de', 'fábrica?'] 
+  /* VoltageCalibration        */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x11", "\x10\x0D\x13\x15\x23\x0F" },//['Calibrar', 'tensão'] 
+  /* AdvancedSoldering         */ { "\x1E\x0D\x18\x0C\x0E\x10\x11\x0C\x1D\x0C\x18\x34\x0F", "\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C" },//['Tela trabalho', 'avançada'] 
+  /* ScrollingSpeed            */ { "\x30\x0D\x18\x0F\x1C\x12\x14\x0C\x14\x0D", "\x10\x0D\x33\x10\x0F\x0E\x0C\x3A\x16\x14\x0C" },//['Velocidade', 'texto ajuda'] 
+  /* TipModel                  */ { "\x24\x0F\x13\x10\x0C", "\x21\x0F\x14\x0D\x18\x0F" },//['Ponta', 'Modelo'] 
+  /* SimpleCalibrationMode     */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x23\x0F", "\x25\x12\x17\x19\x18\x0D\x15" },//['Calibração', 'Simples'] 
+  /* AdvancedCalibrationMode   */ { "\x1A\x0C\x18\x12\x1D\x11\x0C\x1B\x23\x0F", "\x27\x1F\x0C\x13\x1B\x0C\x14\x0C" },//['Calibração', 'Avançada'] 
+  /* PowerInput                */ { "\x24\x0F\x10\x42\x13\x1C\x12\x0C", "\x2F\x0F\x13\x10\x0D" },//['Potência', 'Fonte'] 
+  /* PowerLimitEnable          */ { "\x24\x0E\x3D\x12\x17\x12\x10", "\x29\x13\x0C\x1D\x18\x0D" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x24\x0F\x39\x0D\x11", "\x3D\x12\x17\x12\x10" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x1A\x0F\x13\x1F\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x01\x25\x0F\x18\x14\x0C",//['Configurações', 'Solda'] 
+  /* SolderingMenu             */ "\x1A\x0F\x13\x20\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x01\x25\x0F\x18\x14\x0C",//['Configurações', 'Solda'] 
   /* PowerSavingMenu           */ "\x21\x0F\x14\x0F\x15\x01\x2E\x0D\x19\x0F\x16\x15\x0F",//['Modos', 'Repouso'] 
-  /* UIMenu                    */ "\x46\x13\x10\x0D\x11\x1F\x0C\x1C\x0D\x01\x36\x10\x12\x18\x12\x32\x0C\x14\x0F\x11",//['Interface', 'Utilizador'] 
-  /* AdvancedMenu              */ "\x21\x0D\x13\x16\x01\x27\x20\x0C\x13\x1B\x0C\x14\x0F",//['Menu', 'Avançado'] 
+  /* UIMenu                    */ "\x46\x13\x10\x0D\x11\x20\x0C\x1C\x0D\x01\x36\x10\x12\x18\x12\x32\x0C\x14\x0F\x11",//['Interface', 'Utilizador'] 
+  /* AdvancedMenu              */ "\x21\x0D\x13\x16\x01\x27\x1F\x0C\x13\x1B\x0C\x14\x0F",//['Menu', 'Avançado'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x1A\x0F\x13\x1F\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x15\x0F\x18\x14\x0C\x26\x0D\x17",//Configurações de soldagem 
-  /* PowerSavingMenu           */ "\x1A\x0F\x13\x1F\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x0D\x1C\x0F\x13\x0F\x17\x12\x0C\x0E\x14\x0D\x0E\x0D\x13\x0D\x11\x26\x12\x0C",//Configurações de economia de energia 
-  /* UIMenu                    */ "\x1A\x0F\x13\x1F\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0F\x0E\x12\x13\x10\x0D\x11\x1F\x0C\x1C\x0D\x0E\x14\x0F\x0E\x16\x10\x12\x18\x12\x32\x0C\x14\x0F\x11",//Configurações do interface do utilizador 
-  /* AdvancedMenu              */ "\x2F\x19\x1B\x2A\x0D\x15\x0E\x0C\x20\x0C\x13\x1B\x0C\x14\x0C\x15",//Opções avançadas 
+  /* SolderingMenu             */ "\x1A\x0F\x13\x20\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x15\x0F\x18\x14\x0C\x26\x0D\x17",//Configurações de soldagem 
+  /* PowerSavingMenu           */ "\x1A\x0F\x13\x20\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0D\x0E\x0D\x1C\x0F\x13\x0F\x17\x12\x0C\x0E\x14\x0D\x0E\x0D\x13\x0D\x11\x26\x12\x0C",//Configurações de economia de energia 
+  /* UIMenu                    */ "\x1A\x0F\x13\x20\x12\x26\x16\x11\x0C\x1B\x2A\x0D\x15\x0E\x14\x0F\x0E\x12\x13\x10\x0D\x11\x20\x0C\x1C\x0D\x0E\x14\x0F\x0E\x16\x10\x12\x18\x12\x32\x0C\x14\x0F\x11",//Configurações do interface do utilizador 
+  /* AdvancedMenu              */ "\x2B\x19\x1B\x2A\x0D\x15\x0E\x0C\x1F\x0C\x13\x1B\x0C\x14\x0C\x15",//Opções avançadas 
 };
 
 #endif
@@ -5365,106 +5382,94 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x30,0x30,0x30,0x30,0xF0,0xF0,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x12 -> т
 0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x03,0x03,0x03,0x03,0x03,0x03,0x3F,0x3F,0x00,//\x13 -> н
 0x00,0xF0,0xF0,0x80,0x80,0xC0,0xE0,0x70,0x30,0x10,0x00,0x00,0x00,0x3F,0x3F,0x03,0x03,0x07,0x0E,0x1C,0x38,0x30,0x20,0x00,//\x14 -> к
-0x00,0xF0,0xF0,0xE0,0xC0,0x80,0x80,0xC0,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x15 -> м
-0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x16 -> л
-0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x17 -> п
-0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x18,0x08,0x00,//\x18 -> с
+0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x18,0x08,0x00,//\x15 -> с
+0x00,0xF0,0xF0,0xE0,0xC0,0x80,0x80,0xC0,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x16 -> м
+0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x17 -> л
+0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x18 -> п
 0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x00,0x3F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,//\x19 -> в
 0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x21,0x33,0x3B,0x1E,0x0E,0x06,0x06,0x06,0x3F,0x3F,0x00,//\x1A -> я
-0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x00,0x60,0x7F,0x3F,0x30,0x30,0x30,0x30,0x3F,0x7F,0x60,0x00,//\x1B -> д
-0x00,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x31,0x31,0x3B,0x1F,0x0E,0x00,0x3F,0x3F,0x00,//\x1C -> ы
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1D -> .
+0x00,0xF0,0xF0,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x1B -> ь
+0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x00,0x60,0x7F,0x3F,0x30,0x30,0x30,0x30,0x3F,0x7F,0x60,0x00,//\x1C -> д
+0x00,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x31,0x31,0x3B,0x1F,0x0E,0x00,0x3F,0x3F,0x00,//\x1D -> ы
 0x00,0x30,0xF0,0xC0,0x00,0x00,0x00,0x00,0xC0,0xF0,0x30,0x00,0x00,0x60,0xE0,0xC3,0xE7,0x7C,0x3C,0x0F,0x03,0x00,0x00,0x00,//\x1E -> у
 0x00,0x30,0xF0,0xC0,0x00,0xF0,0xF0,0x00,0xC0,0xF0,0x30,0x00,0x00,0x30,0x3C,0x0F,0x03,0x3F,0x3F,0x03,0x0F,0x3C,0x30,0x00,//\x1F -> ж
-0x00,0xF0,0xF0,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x20 -> ь
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x21 -> e
-0x00,0xE0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x1F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,//\x22 -> б
-0x00,0xF0,0xF0,0x00,0x04,0x08,0x88,0xC4,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x23 -> й
-0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x01,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x3F,0x3F,0x00,//\x24 -> ч
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x25 -> П
-0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x26 -> t
-0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x27 -> -
-0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x28 -> i
-0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x29 -> a
-0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2A -> r
-0x00,0xF0,0xF0,0x00,0xE0,0xF0,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x3F,0x3F,0x03,0x1F,0x3F,0x30,0x30,0x30,0x3F,0x1F,0x00,//\x2B -> ю
-0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x2C -> з
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x2D -> o
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2E -> C
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2F -> В
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x30 -> >
-0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x31 -> Т
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x32 -> К
+0x00,0xE0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x1F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,//\x20 -> б
+0x00,0xF0,0xF0,0x00,0x04,0x08,0x88,0xC4,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x21 -> й
+0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x01,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x3F,0x3F,0x00,//\x22 -> ч
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x23 -> П
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x24 -> .
+0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x25 -> -
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x26 -> ,
+0x00,0xF0,0xF0,0x00,0xE0,0xF0,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x3F,0x3F,0x03,0x1F,0x3F,0x30,0x30,0x30,0x3F,0x1F,0x00,//\x27 -> ю
+0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x28 -> з
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x29 -> =
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2A -> В
+0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2B -> г
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2C -> О
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2D -> C
+0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x2E -> Т
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2F -> >
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x30 -> !
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x31 -> С
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x32 -> М
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x33 -> А
-0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x34 -> s
-0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x35 -> n
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x36 -> S
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x37 -> <
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x38 -> ,
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x39 -> w
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x3A -> W
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3B -> T
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x3C -> С
-0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x3D -> p
-0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x3E -> m
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x3F -> P
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x40 -> B
-0x00,0x40,0x60,0x70,0x30,0x30,0x30,0x30,0x70,0xE0,0xC0,0x00,0x00,0x08,0x18,0x38,0x30,0x33,0x33,0x33,0x3B,0x1F,0x0F,0x00,//\x41 -> э
-0x00,0x30,0x70,0xC0,0x80,0x00,0x00,0x80,0xC0,0x70,0x30,0x00,0x00,0x30,0x38,0x0C,0x07,0x03,0x03,0x07,0x0C,0x38,0x30,0x00,//\x42 -> х
-0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x43 -> ф
-0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> г
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x45 -> М
-0x00,0x03,0x0F,0xFC,0xE0,0xFF,0xFF,0xE0,0xFC,0x0F,0x03,0x00,0x00,0x38,0x3F,0x07,0x00,0x3F,0x3F,0x00,0x07,0x3F,0x38,0x00,//\x46 -> Ж
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x47 -> V
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x48 -> H
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x49 -> :
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x4A -> Р
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4B -> О
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4C -> Н
-0x00,0xFF,0xFF,0x00,0x00,0xC0,0xF0,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4D -> И
-0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x4E -> °
-0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x4F -> u
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x50 -> M
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x51 -> F
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x52 -> D
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x53 -> !
-0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x54 -> ш
-0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x3F,0xFF,0xF0,0x00,//\x55 -> ц
-0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x56 -> У
-0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x57 -> Л
-0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x58 -> l
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x59 -> g
-0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x5A -> f
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x5B -> =
-0x00,0x7F,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x5C -> Ч
-0x00,0x00,0xF8,0xFE,0x0F,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x00,0x70,0x7F,0x1F,0x18,0x18,0x18,0x18,0x1F,0x7F,0x70,0x00,//\x5D -> Д
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x5E -> Г
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x5F -> k
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x60 -> h
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x61 -> d
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x62 -> b
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x63 -> U
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x64 -> R
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x65 -> O
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x66 -> L
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x67 -> G
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x68 -> E
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x69 -> A
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x6A -> ?
-0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x6B -> +
-0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0xFF,0xE0,//\x6C -> щ
-0x00,0x7C,0xFE,0xC7,0x83,0x83,0x83,0x83,0x83,0xFF,0xFF,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x03,0x01,0x01,0x3F,0x3F,0x00,//\x6D -> Я
-0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x6E -> Ф
-0x00,0xFF,0xFF,0x00,0x02,0xC3,0xF1,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x6F -> Й
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x70 -> Е
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x71 -> x
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x72 -> v
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x73 -> c
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x74 -> Y
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x75 -> K
-0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x76 -> /
-0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x77 -> )
-0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x78 -> (
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x34 -> <
+0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0xFF,0xE0,//\x35 -> щ
+0x00,0x03,0x0F,0xFC,0xE0,0xFF,0xFF,0xE0,0xFC,0x0F,0x03,0x00,0x00,0x38,0x3F,0x07,0x00,0x3F,0x3F,0x00,0x07,0x3F,0x38,0x00,//\x36 -> Ж
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x37 -> T
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x38 -> S
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x39 -> Р
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x3A -> Н
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x3B -> К
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x3C -> B
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x3D -> :
+0x00,0x40,0x60,0x70,0x30,0x30,0x30,0x30,0x70,0xE0,0xC0,0x00,0x00,0x08,0x18,0x38,0x30,0x33,0x33,0x33,0x3B,0x1F,0x0F,0x00,//\x3E -> э
+0x00,0x30,0x70,0xC0,0x80,0x00,0x00,0x80,0xC0,0x70,0x30,0x00,0x00,0x30,0x38,0x0C,0x07,0x03,0x03,0x07,0x0C,0x38,0x30,0x00,//\x3F -> х
+0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x40 -> ф
+0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x41 -> Л
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x42 -> Е
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x43 -> H
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> F
+0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x45 -> ш
+0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x3F,0xFF,0xF0,0x00,//\x46 -> ц
+0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x47 -> °
+0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x48 -> i
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x49 -> e
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x4A -> W
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4B -> D
+0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x4C -> "
+0x00,0x7C,0xFE,0xC7,0x83,0x83,0x83,0x83,0x83,0xFF,0xFF,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x03,0x01,0x01,0x3F,0x3F,0x00,//\x4D -> Я
+0x00,0x7F,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4E -> Ч
+0x00,0xFF,0xFF,0x00,0x00,0xC0,0xF0,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4F -> И
+0x00,0x00,0xF8,0xFE,0x0F,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x00,0x70,0x7F,0x1F,0x18,0x18,0x18,0x18,0x1F,0x7F,0x70,0x00,//\x50 -> Д
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x51 -> Г
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x52 -> M
+0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x53 -> Ф
+0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x54 -> У
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x55 -> v
+0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x56 -> t
+0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x57 -> s
+0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x58 -> r
+0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x59 -> p
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x5A -> o
+0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x5B -> n
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x5C -> k
+0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x5D -> a
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x5E -> V
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x5F -> U
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x60 -> P
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x61 -> O
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x62 -> A
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x63 -> ?
+0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x64 -> /
+0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x65 -> +
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x00,0x1F,0x1F,0x18,0x18,0x18,0x18,0x18,0x1F,0x7F,0x78,0x00,//\x66 -> Ц
+0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x67 -> m
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x68 -> R
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x69 -> K
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x6A -> G
+0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x6B -> )
+0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x6C -> (
 };
 const uint8_t USER_FONT_6x8[] = {
 0x3e, 0x51, 0x49, 0x45, 0x3e, 0x00,//\x02 -> 0
@@ -5486,251 +5491,240 @@ const uint8_t USER_FONT_6x8[] = {
 0x04, 0x04, 0x7c, 0x04, 0x04, 0x00,//\x12 -> т
 0x7c, 0x10, 0x10, 0x10, 0x7c, 0x00,//\x13 -> н
 0x7c, 0x10, 0x28, 0x44, 0x00, 0x00,//\x14 -> к
-0x7c, 0x08, 0x10, 0x08, 0x7c, 0x00,//\x15 -> м
-0x40, 0x3c, 0x04, 0x04, 0x7c, 0x00,//\x16 -> л
-0x7c, 0x04, 0x04, 0x04, 0x7c, 0x00,//\x17 -> п
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x18 -> с
+0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x15 -> с
+0x7c, 0x08, 0x10, 0x08, 0x7c, 0x00,//\x16 -> м
+0x40, 0x3c, 0x04, 0x04, 0x7c, 0x00,//\x17 -> л
+0x7c, 0x04, 0x04, 0x04, 0x7c, 0x00,//\x18 -> п
 0x7c, 0x54, 0x54, 0x54, 0x28, 0x00,//\x19 -> в
 0x48, 0x34, 0x14, 0x14, 0x7c, 0x00,//\x1A -> я
-0x40, 0x3c, 0x24, 0x3c, 0x60, 0x00,//\x1B -> д
-0x7c, 0x50, 0x20, 0x00, 0x7c, 0x00,//\x1C -> ы
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1D -> .
+0x00, 0x7c, 0x50, 0x20, 0x00, 0x00,//\x1B -> ь
+0x40, 0x3c, 0x24, 0x3c, 0x60, 0x00,//\x1C -> д
+0x7c, 0x50, 0x20, 0x00, 0x7c, 0x00,//\x1D -> ы
 0x4c, 0x50, 0x20, 0x10, 0x0c, 0x00,//\x1E -> у
 0x6c, 0x10, 0x7c, 0x10, 0x6c, 0x00,//\x1F -> ж
-0x00, 0x7c, 0x50, 0x20, 0x00, 0x00,//\x20 -> ь
-0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x21 -> e
-0x3c, 0x4a, 0x4a, 0x4a, 0x30, 0x00,//\x22 -> б
-0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x23 -> й
-0x0c, 0x10, 0x10, 0x10, 0x7c, 0x00,//\x24 -> ч
-0x7f, 0x01, 0x01, 0x01, 0x7f, 0x00,//\x25 -> П
-0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x26 -> t
-0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x27 -> -
-0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x28 -> i
-0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x29 -> a
-0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x2A -> r
-0x7c, 0x10, 0x38, 0x44, 0x38, 0x00,//\x2B -> ю
-0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x2C -> з
-0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x2D -> o
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2E -> C
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2F -> В
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x30 -> >
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x31 -> Т
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x32 -> К
+0x3c, 0x4a, 0x4a, 0x4a, 0x30, 0x00,//\x20 -> б
+0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x21 -> й
+0x0c, 0x10, 0x10, 0x10, 0x7c, 0x00,//\x22 -> ч
+0x7f, 0x01, 0x01, 0x01, 0x7f, 0x00,//\x23 -> П
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x24 -> .
+0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x25 -> -
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x26 -> ,
+0x7c, 0x10, 0x38, 0x44, 0x38, 0x00,//\x27 -> ю
+0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x28 -> з
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x29 -> =
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2A -> В
+0x7c, 0x04, 0x04, 0x04, 0x04, 0x00,//\x2B -> г
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2C -> О
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2D -> C
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x2E -> Т
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2F -> >
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x30 -> !
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x31 -> С
+0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x32 -> М
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x33 -> А
-0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x34 -> s
-0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x35 -> n
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x36 -> S
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x37 -> <
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x38 -> ,
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x39 -> w
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x3A -> W
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x3B -> T
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x3C -> С
-0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x3D -> p
-0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x3E -> m
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x3F -> P
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x40 -> B
-0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x41 -> э
-0x44, 0x28, 0x10, 0x28, 0x44, 0x00,//\x42 -> х
-0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x43 -> ф
-0x7c, 0x04, 0x04, 0x04, 0x04, 0x00,//\x44 -> г
-0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x45 -> М
-0x77, 0x08, 0x7f, 0x08, 0x77, 0x00,//\x46 -> Ж
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x47 -> V
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x48 -> H
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x49 -> :
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x4A -> Р
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x4B -> О
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x4C -> Н
-0x7f, 0x10, 0x08, 0x04, 0x7f, 0x00,//\x4D -> И
-0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x4E -> °
-0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x4F -> u
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x50 -> M
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x51 -> F
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x52 -> D
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x53 -> !
-0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x54 -> ш
-0x3c, 0x20, 0x20, 0x3c, 0x60, 0x00,//\x55 -> ц
-0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x56 -> У
-0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x57 -> Л
-0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x58 -> l
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x59 -> g
-0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x5A -> f
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x5B -> =
-0x07, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x5C -> Ч
-0x60, 0x3f, 0x21, 0x3f, 0x60, 0x00,//\x5D -> Д
-0x7f, 0x01, 0x01, 0x01, 0x01, 0x00,//\x5E -> Г
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x5F -> k
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x60 -> h
-0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x61 -> d
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x62 -> b
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x63 -> U
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x64 -> R
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x65 -> O
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x66 -> L
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x67 -> G
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x68 -> E
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x69 -> A
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x6A -> ?
-0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x6B -> +
-0x3c, 0x20, 0x3c, 0x20, 0x7c, 0x00,//\x6C -> щ
-0x46, 0x29, 0x19, 0x09, 0x7f, 0x00,//\x6D -> Я
-0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x6E -> Ф
-0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x6F -> Й
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x70 -> Е
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x71 -> x
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x72 -> v
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x73 -> c
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x74 -> Y
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x75 -> K
-0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x76 -> /
-0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x77 -> )
-0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x78 -> (
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x34 -> <
+0x3c, 0x20, 0x3c, 0x20, 0x7c, 0x00,//\x35 -> щ
+0x77, 0x08, 0x7f, 0x08, 0x77, 0x00,//\x36 -> Ж
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x37 -> T
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x38 -> S
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x39 -> Р
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x3A -> Н
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x3B -> К
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x3C -> B
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x3D -> :
+0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x3E -> э
+0x44, 0x28, 0x10, 0x28, 0x44, 0x00,//\x3F -> х
+0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x40 -> ф
+0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x41 -> Л
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x42 -> Е
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x43 -> H
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x44 -> F
+0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x45 -> ш
+0x3c, 0x20, 0x20, 0x3c, 0x60, 0x00,//\x46 -> ц
+0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x47 -> °
+0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x48 -> i
+0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x49 -> e
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x4A -> W
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x4B -> D
+0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x4C -> "
+0x46, 0x29, 0x19, 0x09, 0x7f, 0x00,//\x4D -> Я
+0x07, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x4E -> Ч
+0x7f, 0x10, 0x08, 0x04, 0x7f, 0x00,//\x4F -> И
+0x60, 0x3f, 0x21, 0x3f, 0x60, 0x00,//\x50 -> Д
+0x7f, 0x01, 0x01, 0x01, 0x01, 0x00,//\x51 -> Г
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x52 -> M
+0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x53 -> Ф
+0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x54 -> У
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x55 -> v
+0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x56 -> t
+0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x57 -> s
+0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x58 -> r
+0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x59 -> p
+0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x5A -> o
+0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x5B -> n
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x5C -> k
+0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x5D -> a
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x5E -> V
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x5F -> U
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x60 -> P
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x61 -> O
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x62 -> A
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x63 -> ?
+0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x64 -> /
+0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x65 -> +
+0x3f, 0x20, 0x20, 0x3f, 0x60, 0x00,//\x66 -> Ц
+0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x67 -> m
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x68 -> R
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x69 -> K
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x6A -> G
+0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x6B -> )
+0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x6C -> (
 };
 // ---- Русский ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x4D\x18\x12\x0E\x24\x13\x0F\x14\x0C\x17\x0F\x12\x0D\x13\x0F\x1A\x1D\x0C\x56\x18\x12\x0D\x13\x0E\x19\x14\x0D\x0C\x13\x0D\x17\x11\x1A\x1F\x10\x13\x0F\x1A\x0C\x0E\x12\x14\x16\x2B\x24\x10\x13\x0F\x1A\x1D\x0C\x37\x52\x2E\x0C\x03\x02\x47\x30\x0C\x37\x36\x0C\x05\x1D\x05\x0C\x47\x0C\x13\x0D\x0C\x22\x0D\x12\x0D\x11\x10\x2B\x30",//Источник питания. Установка напряжения отключения. <DC 10V> <S 3.3 V на батарею> 
-  /* SleepTemperature          */ "\x31\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x0D\x0C\x11\x10\x1F\x0F\x15\x0D\x0C\x0E\x1F\x0F\x1B\x0D\x13\x0F\x1A\x0C\x37\x3C\x30",//Температура режима ожидания <С> 
-  /* SleepTimeout              */ "\x2F\x11\x10\x15\x1A\x0C\x1B\x0E\x0C\x17\x10\x11\x10\x42\x0E\x1B\x0D\x0C\x19\x0C\x11\x10\x1F\x0F\x15\x0C\x0E\x1F\x0F\x1B\x0D\x13\x0F\x1A\x0C\x37\x45\x0F\x13\x1E\x12\x1C\x30",//Время до перехода в режим ожидания <Минуты> 
-  /* ShutdownTimeout           */ "\x2F\x11\x10\x15\x1A\x0C\x1B\x0E\x0C\x0E\x12\x14\x16\x2B\x24\x10\x13\x0F\x1A\x0C\x37\x45\x0F\x13\x1E\x12\x1C\x30",//Время до отключения <Минуты> 
-  /* MotionSensitivity         */ "\x33\x14\x18\x10\x16\x10\x11\x0E\x15\x10\x12\x11\x0C\x37\x02\x1D\x0C\x2F\x1C\x14\x16\x1D\x0C\x03\x1D\x0C\x15\x0F\x13\x1D\x0C\x24\x1E\x19\x18\x12\x19\x0F\x12\x10\x16\x20\x13\x1C\x23\x0C\x0B\x1D\x0C\x15\x0D\x14\x18\x1D\x0C\x24\x1E\x19\x18\x12\x19\x0F\x12\x10\x16\x20\x13\x1C\x23\x30",//Акселерометр <0. Выкл. 1. мин. чувствительный 9. макс. чувствительный> 
-  /* TemperatureUnit           */ "\x2F\x0C\x24\x10\x15\x0C\x0F\x2C\x15\x10\x11\x1A\x12\x20\x0C\x12\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x1E",//В чем измерять температуру 
-  /* AdvancedIdle              */ "\x25\x0E\x14\x0D\x2C\x1C\x19\x0D\x12\x20\x0C\x1B\x10\x12\x0D\x16\x20\x13\x1E\x2B\x0C\x0F\x13\x43\x0E\x11\x15\x0D\x55\x0F\x2B\x0C\x15\x0D\x16\x10\x13\x20\x14\x0F\x15\x0C\x54\x11\x0F\x43\x12\x0E\x15\x0C\x13\x0D\x0C\x1B\x0E\x15\x0D\x54\x13\x10\x15\x0C\x41\x14\x11\x0D\x13\x10",//Показывать детальную информацию маленьким шрифтом на домашнем экране 
-  /* DisplayRotation           */ "\x4B\x11\x0F\x10\x13\x12\x0D\x55\x0F\x1A\x0C\x1B\x0F\x18\x17\x16\x10\x1A\x0C\x37\x69\x1D\x0C\x33\x19\x12\x0E\x15\x0D\x12\x0F\x24\x10\x18\x14\x0F\x23\x38\x0C\x57\x1D\x0C\x57\x10\x19\x0D\x1A\x0C\x11\x1E\x14\x0D\x38\x0C\x25\x1D\x0C\x25\x11\x0D\x19\x0D\x1A\x0C\x11\x1E\x14\x0D\x30",//Ориентация дисплея <A. Автоматический, Л. Левая рука, П. Правая рука> 
-  /* BoostEnabled              */ "\x31\x1E\x11\x22\x0E\x27\x11\x10\x1F\x0F\x15\x0C\x17\x11\x0F\x0C\x1E\x1B\x10\x11\x1F\x0D\x13\x0F\x0F\x0C\x14\x13\x0E\x17\x14\x0F\x0C\x33\x0C\x17\x11\x0F\x0C\x17\x0D\x23\x14\x10\x0C",//Турбо-режим при удержании кнопки А при пайке  
-  /* BoostTemperature          */ "\x31\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x0D\x0C\x19\x0C\x12\x1E\x11\x22\x0E\x27\x11\x10\x1F\x0F\x15\x10",//Температура в турбо-режиме 
-  /* AutoStart                 */ "\x33\x19\x12\x0E\x15\x0D\x12\x0F\x24\x10\x18\x14\x0F\x23\x0C\x2C\x0D\x17\x1E\x18\x14\x0C\x17\x0D\x1A\x16\x20\x13\x0F\x14\x0D\x0C\x17\x11\x0F\x0C\x19\x14\x16\x2B\x24\x10\x13\x0F\x0F\x0C\x17\x0F\x12\x0D\x13\x0F\x1A\x1D\x0C\x3B\x5B\x4C\x0D\x44\x11\x10\x19\x38\x0C\x36\x5B\x4A\x10\x1F\x0F\x15\x0C\x0E\x1F\x0F\x1B\x0D\x13\x0F\x1A\x38\x51\x5B\x2F\x1C\x14\x16\x1D",//Автоматический запуск паяльника при включении питания. T=Нагрев, S=Режим ожидания,F=Выкл. 
-  /* CooldownBlink             */ "\x25\x0E\x14\x0D\x2C\x1C\x19\x0D\x12\x20\x0C\x12\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x1E\x0C\x13\x0D\x0C\x41\x14\x11\x0D\x13\x10\x0C\x0E\x42\x16\x0D\x1F\x1B\x10\x13\x0F\x1A\x38\x0C\x17\x0E\x14\x0D\x0C\x1F\x0D\x16\x0E\x0C\x0E\x18\x12\x0D\x10\x12\x18\x1A\x0C\x44\x0E\x11\x1A\x24\x0F\x15\x1D",//Показывать температуру на экране охлаждения, пока жало остается горячим. 
-  /* TemperatureCalibration    */ "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D\x0C\x12\x10\x11\x15\x0E\x1B\x0D\x12\x24\x0F\x14\x0D\x1D",//Калибровка термодатчика. 
-  /* SettingsReset             */ "\x3C\x22\x11\x0E\x18\x0C\x19\x18\x10\x42\x0C\x13\x0D\x18\x12\x11\x0E\x10\x14\x1D",//Сброс всех настроек. 
-  /* VoltageCalibration        */ "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D\x0C\x13\x0D\x17\x11\x1A\x1F\x10\x13\x0F\x1A\x0C\x19\x42\x0E\x1B\x0D\x1D\x0C\x4C\x0D\x18\x12\x11\x0E\x23\x14\x0D\x0C\x14\x13\x0E\x17\x14\x0D\x15\x0F\x38\x0C\x13\x0D\x1F\x0D\x12\x20\x0C\x0F\x0C\x1E\x1B\x10\x11\x1F\x0D\x12\x20\x0C\x24\x12\x0E\x22\x1C\x0C\x2C\x0D\x19\x10\x11\x54\x0F\x12\x20\x1D",//Калибровка напряжения входа. Настройка кнопками, нажать и удержать чтобы завершить. 
-  /* AdvancedSoldering         */ "\x25\x0E\x14\x0D\x2C\x1C\x19\x0D\x12\x20\x0C\x1B\x10\x12\x0D\x16\x20\x13\x1E\x2B\x0C\x0F\x13\x43\x0E\x11\x15\x0D\x55\x0F\x2B\x0C\x17\x11\x0F\x0C\x17\x0D\x23\x14\x10\x1D",//Показывать детальную информацию при пайке. 
-  /* ScrollingSpeed            */ "\x3C\x14\x0E\x11\x0E\x18\x12\x20\x0C\x17\x11\x0E\x14\x11\x1E\x12\x14\x0F\x0C\x12\x10\x14\x18\x12\x0D",//Скорость прокрутки текста 
-  /* TipModel                  */ "\x2F\x1C\x22\x0E\x11\x0C\x15\x0E\x1B\x10\x16\x0F\x0C\x1F\x0D\x16\x0E",//Выбор модели жало 
-  /* SimpleCalibrationMode     */ "\x25\x11\x0E\x18\x12\x0D\x1A\x0C\x14\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D\x0C\x18\x0C\x0F\x18\x17\x0E\x16\x20\x2C\x0E\x19\x0D\x13\x0F\x10\x15\x0C\x44\x0E\x11\x1A\x24\x10\x23\x0C\x19\x0E\x1B\x1C",//Простая калибровка с использованием горячей воды 
-  /* AdvancedCalibrationMode   */ "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D\x0C\x18\x0C\x17\x0E\x15\x0E\x6C\x20\x2B\x0C\x12\x10\x11\x15\x0E\x17\x0D\x11\x1C",//Калибровка с помощью термопары 
-  /* PowerInput                */ "\x3F\x2D\x39\x21\x2A\x0C\x3A\x29\x26\x26\x29\x59\x21\x0C\x2D\x5A\x0C\x26\x60\x21\x0C\x3D\x2D\x39\x21\x2A\x0C\x29\x61\x29\x3D\x26\x21\x2A\x0C\x4F\x34\x21\x61",//Power Wattage of the power adapter used 
-  /* PowerLimitEnable          */ "\x68\x35\x29\x62\x58\x21\x0C\x3D\x2D\x39\x21\x2A\x0C\x58\x28\x3E\x28\x26",//Enable power limit 
-  /* PowerLimit                */ "\x50\x29\x71\x28\x3E\x4F\x3E\x0C\x3D\x2D\x39\x21\x2A\x0C\x26\x60\x21\x0C\x28\x2A\x2D\x35\x0C\x73\x29\x35\x0C\x4F\x34\x21\x0C\x37\x3A\x29\x26\x26\x34\x30",//Maximum power the iron can use <Watts> 
+  /* PowerSource               */ "\x4F\x15\x12\x0E\x22\x13\x0F\x14\x0C\x18\x0F\x12\x0D\x13\x0F\x1A\x24\x0C\x54\x15\x12\x0D\x13\x0E\x19\x14\x0D\x0C\x13\x0D\x18\x11\x1A\x1F\x10\x13\x0F\x1A\x0C\x0E\x12\x14\x17\x27\x22\x10\x13\x0F\x1A\x24\x0C\x34\x4B\x2D\x0C\x29\x0C\x03\x02\x0C\x2A\x26\x0C\x38\x0C\x29\x0C\x05\x24\x05\x0C\x2A\x0C\x13\x0D\x0C\x20\x0D\x12\x0D\x11\x10\x27\x26\x0C\x0E\x2B\x11\x0D\x13\x0F\x22\x10\x13\x0F\x10\x0C\x16\x0E\x35\x13\x0E\x15\x12\x0F\x0C\x19\x1D\x14\x17\x24\x2F",//Источник питания. Установка напряжения отключения. <DC = 10 В, S = 3.3 В на батарею, ограничение мощности выкл.> 
+  /* SleepTemperature          */ "\x2E\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x0D\x0C\x11\x10\x1F\x0F\x16\x0D\x0C\x0E\x1F\x0F\x1C\x0D\x13\x0F\x1A\x0C\x34\x31\x2F",//Температура режима ожидания <С> 
+  /* SleepTimeout              */ "\x2A\x11\x10\x16\x1A\x0C\x1C\x0E\x0C\x18\x10\x11\x10\x3F\x0E\x1C\x0D\x0C\x19\x0C\x11\x10\x1F\x0F\x16\x0C\x0E\x1F\x0F\x1C\x0D\x13\x0F\x1A\x0C\x34\x32\x0F\x13\x1E\x12\x1D\x64\x31\x10\x14\x1E\x13\x1C\x1D\x2F",//Время до перехода в режим ожидания <Минуты/Секунды> 
+  /* ShutdownTimeout           */ "\x2A\x11\x10\x16\x1A\x0C\x1C\x0E\x0C\x0E\x12\x14\x17\x27\x22\x10\x13\x0F\x1A\x0C\x34\x32\x0F\x13\x1E\x12\x1D\x2F",//Время до отключения <Минуты> 
+  /* MotionSensitivity         */ "\x33\x14\x15\x10\x17\x10\x11\x0E\x16\x10\x12\x11\x0C\x34\x02\x0C\x29\x0C\x2A\x1D\x14\x17\x26\x0C\x03\x0C\x29\x0C\x32\x0F\x13\x24\x0C\x22\x1E\x19\x15\x12\x19\x0F\x12\x10\x17\x1B\x13\x1D\x21\x26\x0C\x0B\x0C\x29\x0C\x32\x0D\x14\x15\x24\x0C\x22\x1E\x19\x15\x12\x19\x0F\x12\x10\x17\x1B\x13\x1D\x21\x2F",//Акселерометр <0 = Выкл, 1 = Мин. чувствительный, 9 = Макс. чувствительный> 
+  /* TemperatureUnit           */ "\x42\x1C\x0F\x13\x0F\x46\x0D\x0C\x0F\x28\x16\x10\x11\x10\x13\x0F\x1A\x0C\x12\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x1D\x0C\x34\x2D\x0C\x29\x0C\x66\x10\x17\x1B\x15\x0F\x1A\x26\x0C\x44\x0C\x29\x0C\x53\x0D\x11\x10\x13\x2B\x10\x21\x12\x2F",//Единица измерения температуры <C = Цельсия, F = Фаренгейт> 
+  /* AdvancedIdle              */ "\x23\x0E\x14\x0D\x28\x1D\x19\x0D\x12\x1B\x0C\x1C\x10\x12\x0D\x17\x1B\x13\x1E\x27\x0C\x0F\x13\x40\x0E\x11\x16\x0D\x46\x0F\x27\x0C\x16\x0D\x17\x10\x13\x1B\x14\x0F\x16\x0C\x45\x11\x0F\x40\x12\x0E\x16\x0C\x13\x0D\x0C\x1C\x0E\x16\x0D\x45\x13\x10\x16\x0C\x3E\x14\x11\x0D\x13\x10",//Показывать детальную информацию маленьким шрифтом на домашнем экране 
+  /* DisplayRotation           */ "\x2C\x11\x0F\x10\x13\x12\x0D\x46\x0F\x1A\x0C\x1C\x0F\x15\x18\x17\x10\x1A\x0C\x34\x62\x0C\x29\x0C\x33\x19\x12\x0E\x26\x0C\x41\x0C\x29\x0C\x41\x10\x19\x0D\x1A\x0C\x11\x1E\x14\x0D\x26\x0C\x23\x0C\x29\x0C\x23\x11\x0D\x19\x0D\x1A\x0C\x11\x1E\x14\x0D\x2F",//Ориентация дисплея <A = Авто, Л = Левая рука, П = Правая рука> 
+  /* BoostEnabled              */ "\x33\x14\x12\x0F\x19\x0F\x11\x1E\x10\x12\x0C\x4C\x2E\x1E\x11\x20\x0E\x25\x11\x10\x1F\x0F\x16\x4C\x0C\x18\x11\x0F\x0C\x1E\x1C\x10\x11\x1F\x0D\x13\x0F\x0F\x0C\x14\x13\x0E\x18\x14\x0F\x0C\x33\x0C\x19\x0E\x0C\x19\x11\x10\x16\x1A\x0C\x18\x0D\x21\x14\x0F",//Активирует "Турбо-режим" при удержании кнопки А во время пайки 
+  /* BoostTemperature          */ "\x2E\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x0D\x0C\x19\x0C\x4C\x2E\x1E\x11\x20\x0E\x25\x11\x10\x1F\x0F\x16\x10\x4C",//Температура в "Турбо-режиме" 
+  /* AutoStart                 */ "\x33\x19\x12\x0E\x16\x0D\x12\x0F\x22\x10\x15\x14\x0F\x21\x0C\x28\x0D\x18\x1E\x15\x14\x0C\x18\x0D\x1A\x17\x1B\x13\x0F\x14\x0D\x0C\x18\x11\x0F\x0C\x19\x14\x17\x27\x22\x10\x13\x0F\x0F\x0C\x18\x0F\x12\x0D\x13\x0F\x1A\x0C\x34\x37\x0C\x29\x0C\x3A\x0D\x2B\x11\x10\x19\x26\x0C\x38\x0C\x29\x0C\x39\x10\x1F\x0F\x16\x0C\x0E\x1F\x0F\x1C\x0D\x13\x0F\x1A\x26\x0C\x44\x0C\x29\x0C\x2A\x1D\x14\x17\x24\x2F",//Автоматический запуск паяльника при включении питания <T = Нагрев, S = Режим ожидания, F = Выкл.> 
+  /* CooldownBlink             */ "\x23\x0E\x14\x0D\x28\x1D\x19\x0D\x12\x1B\x0C\x12\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x1E\x0C\x13\x0D\x0C\x3E\x14\x11\x0D\x13\x10\x0C\x0E\x3F\x17\x0D\x1F\x1C\x10\x13\x0F\x1A\x26\x0C\x18\x0E\x14\x0D\x0C\x1F\x0D\x17\x0E\x0C\x0E\x15\x12\x0D\x10\x12\x15\x1A\x0C\x2B\x0E\x11\x1A\x22\x0F\x16",//Показывать температуру на экране охлаждения, пока жало остается горячим 
+  /* TemperatureCalibration    */ "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D\x0C\x12\x10\x11\x16\x0E\x1C\x0D\x12\x22\x0F\x14\x0D",//Калибровка термодатчика 
+  /* SettingsReset             */ "\x31\x20\x11\x0E\x15\x0C\x19\x15\x10\x3F\x0C\x13\x0D\x15\x12\x11\x0E\x10\x14",//Сброс всех настроек 
+  /* VoltageCalibration        */ "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D\x0C\x19\x3F\x0E\x1C\x13\x0E\x2B\x0E\x0C\x13\x0D\x18\x11\x1A\x1F\x10\x13\x0F\x1A\x24\x0C\x3A\x0D\x15\x12\x11\x0E\x21\x14\x0D\x0C\x14\x13\x0E\x18\x14\x0D\x16\x0F\x26\x0C\x13\x0D\x1F\x0D\x12\x1B\x0C\x0F\x0C\x1E\x1C\x10\x11\x1F\x0D\x12\x1B\x0C\x22\x12\x0E\x20\x1D\x0C\x28\x0D\x19\x10\x11\x45\x0F\x12\x1B",//Калибровка входного напряжения. Настройка кнопками, нажать и удержать чтобы завершить 
+  /* AdvancedSoldering         */ "\x23\x0E\x14\x0D\x28\x1D\x19\x0D\x12\x1B\x0C\x1C\x10\x12\x0D\x17\x1B\x13\x1E\x27\x0C\x0F\x13\x40\x0E\x11\x16\x0D\x46\x0F\x27\x0C\x18\x11\x0F\x0C\x18\x0D\x21\x14\x10",//Показывать детальную информацию при пайке 
+  /* ScrollingSpeed            */ "\x31\x14\x0E\x11\x0E\x15\x12\x1B\x0C\x18\x11\x0E\x14\x11\x1E\x12\x14\x0F\x0C\x12\x10\x14\x15\x12\x0D",//Скорость прокрутки текста 
+  /* TipModel                  */ "\x2A\x1D\x20\x0E\x11\x0C\x16\x0E\x1C\x10\x17\x0F\x0C\x1F\x0D\x17\x0E",//Выбор модели жало 
+  /* SimpleCalibrationMode     */ "\x23\x11\x0E\x15\x12\x0D\x1A\x0C\x14\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D\x0C\x15\x0C\x0F\x15\x18\x0E\x17\x1B\x28\x0E\x19\x0D\x13\x0F\x10\x16\x0C\x2B\x0E\x11\x1A\x22\x10\x21\x0C\x19\x0E\x1C\x1D",//Простая калибровка с использованием горячей воды 
+  /* AdvancedCalibrationMode   */ "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D\x0C\x15\x0C\x18\x0E\x16\x0E\x35\x1B\x27\x0C\x12\x10\x11\x16\x0E\x18\x0D\x11\x1D",//Калибровка с помощью термопары 
+  /* PowerInput                */ "\x32\x0E\x35\x13\x0E\x15\x12\x1B\x0C\x0F\x15\x18\x0E\x17\x1B\x28\x1E\x10\x16\x0E\x2B\x0E\x0C\x0D\x1C\x0D\x18\x12\x10\x11\x0D\x0C\x18\x0F\x12\x0D\x13\x0F\x1A",//Мощность используемого адаптера питания 
+  /* PowerLimitEnable          */ "\x2A\x14\x17\x27\x22\x0D\x10\x12\x0C\x0E\x2B\x11\x0D\x13\x0F\x22\x10\x13\x0F\x10\x0C\x16\x0E\x35\x13\x0E\x15\x12\x0F\x0C\x18\x0E\x12\x11\x10\x20\x17\x10\x13\x0F\x1A",//Включает ограничение мощности потребления 
+  /* PowerLimit                */ "\x32\x0D\x14\x15\x24\x0C\x16\x0E\x35\x13\x0E\x15\x12\x1B\x26\x0C\x14\x0E\x12\x0E\x11\x1E\x27\x0C\x16\x0E\x1F\x10\x12\x0C\x0F\x15\x18\x0E\x17\x1B\x28\x0E\x19\x0D\x12\x1B\x0C\x18\x0D\x1A\x17\x1B\x13\x0F\x14\x0C\x34\x2A\x0D\x12\x12\x2F",//Макс. мощность, которую может использовать паяльник <Ватт> 
 };
 
-const char* SettingsCalibrationDone = "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D\x0C\x19\x1C\x17\x0E\x16\x13\x10\x13\x0D\x53";//Калибровка выполнена! 
-const char* SettingsCalibrationWarning = "\x56\x22\x10\x1B\x0F\x12\x10\x18\x20\x38\x0C\x24\x12\x0E\x0C\x1F\x0D\x16\x0E\x0C\x0E\x18\x12\x1C\x16\x0E\x0C\x1B\x0E\x0C\x14\x0E\x15\x13\x0D\x12\x13\x0E\x23\x0C\x12\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x1C\x38\x0C\x17\x11\x10\x1F\x1B\x10\x0C\x24\x10\x15\x0C\x17\x11\x0E\x1B\x0E\x16\x1F\x0D\x12\x20\x53";//Убедитесь, что жало остыло до комнатной температуры, прежде чем продолжать! 
-const char* SettingsResetWarning = "\x2F\x1C\x0C\x1B\x10\x23\x18\x12\x19\x0F\x12\x10\x16\x20\x13\x0E\x0C\x42\x0E\x12\x0F\x12\x10\x0C\x18\x22\x11\x0E\x18\x0F\x12\x20\x0C\x13\x0D\x18\x12\x11\x0E\x23\x14\x0F\x0C\x1B\x0E\x0C\x2C\x13\x0D\x24\x10\x13\x0F\x23\x0C\x17\x0E\x0C\x1E\x15\x0E\x16\x24\x0D\x13\x0F\x2B\x6A";//Вы действительно хотите сбросить настройки до значений по умолчанию? 
-const char* UVLOWarningString = "\x33\x32\x32\x56\x45\x27\x27";//АККУМ-- 
-const char* UndervoltageString = "\x25\x0E\x1B\x0C\x17\x0F\x12\x0D\x13\x0F\x10\x15";//Под питанием 
-const char* InputVoltageString = "\x25\x0F\x12\x0D\x13\x0F\x10\x0C\x40\x49\x0C";//Питание B:  
-const char* WarningTipTempString = "\x46\x0D\x16\x0E\x0C\x26\x4E\x49\x0C";//Жало t°:  
-const char* BadTipString = "\x46\x0D\x16\x0E\x27\x27";//Жало-- 
-const char* SleepingSimpleString = "\x3C\x0E\x13\x0C";//Сон  
-const char* SleepingAdvancedString = "\x4B\x1F\x0F\x1B\x0D\x13\x0F\x10\x1D\x1D\x1D";//Ожидание... 
-const char* WarningSimpleString = "\x0C\x33\x6F\x53";// АЙ! 
-const char* WarningAdvancedString = "\x2F\x4C\x4D\x45\x33\x4C\x4D\x70\x0C\x5E\x4B\x4A\x6D\x5C\x4B";//ВНИМАНИЕ ГОРЯЧО 
-const char* SleepingTipAdvancedString = "\x46\x0D\x16\x0E\x49";//Жало: 
-const char* IdleTipString = "\x46\x0D\x16\x0E\x49";//Жало: 
-const char* IdleSetString = "\x0C\x27\x30";// -> 
-const char* TipDisconnectedString = "\x46\x0D\x16\x0E\x0C\x0E\x12\x14\x16\x2B\x24\x10\x13\x0E";//Жало отключено 
-const char* SolderingAdvancedPowerPrompt = "\x25\x0F\x12\x0D\x13\x0F\x10\x49\x0C";//Питание:  
-const char* OffString = "\x65\x5A\x5A";//Off 
-const char* ResetOKMessage = "\x64\x21\x34\x21\x26\x0C\x65\x75";//Reset OK 
-const char* YourGainMessage = "\x74\x2D\x4F\x2A\x0C\x67\x29\x28\x35";//Your Gain 
-const char* SettingsResetMessage = "\x36\x21\x26\x26\x28\x35\x59\x34\x0C\x39\x21\x2A\x21\x01\x2A\x21\x34\x21\x26\x53";//Settings were_reset! 
+const char* SettingsCalibrationDone = "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D\x0C\x19\x1D\x18\x0E\x17\x13\x10\x13\x0D\x30";//Калибровка выполнена! 
+const char* SettingsCalibrationWarning = "\x54\x20\x10\x1C\x0F\x12\x10\x15\x1B\x26\x0C\x22\x12\x0E\x0C\x1F\x0D\x17\x0E\x0C\x0E\x15\x12\x1D\x17\x0E\x0C\x1C\x0E\x0C\x14\x0E\x16\x13\x0D\x12\x13\x0E\x21\x0C\x12\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x1D\x26\x0C\x18\x11\x10\x1F\x1C\x10\x0C\x22\x10\x16\x0C\x18\x11\x0E\x1C\x0E\x17\x1F\x0D\x12\x1B\x30";//Убедитесь, что жало остыло до комнатной температуры, прежде чем продолжать! 
+const char* SettingsResetWarning = "\x2A\x1D\x0C\x1C\x10\x21\x15\x12\x19\x0F\x12\x10\x17\x1B\x13\x0E\x0C\x3F\x0E\x12\x0F\x12\x10\x0C\x15\x20\x11\x0E\x15\x0F\x12\x1B\x0C\x13\x0D\x15\x12\x11\x0E\x21\x14\x0F\x0C\x1C\x0E\x0C\x28\x13\x0D\x22\x10\x13\x0F\x21\x0C\x18\x0E\x0C\x1E\x16\x0E\x17\x22\x0D\x13\x0F\x27\x63";//Вы действительно хотите сбросить настройки до значений по умолчанию? 
+const char* UVLOWarningString = "\x3A\x33\x23\x39\x4D\x36\x25\x25";//НАПРЯЖ-- 
+const char* UndervoltageString = "\x23\x0E\x1C\x0C\x18\x0F\x12\x0D\x13\x0F\x10\x16";//Под питанием 
+const char* InputVoltageString = "\x23\x0F\x12\x0D\x13\x0F\x10\x0C\x3C\x3D\x0C";//Питание B:  
+const char* WarningTipTempString = "\x36\x0D\x17\x0E\x0C\x56\x47\x3D\x0C";//Жало t°:  
+const char* BadTipString = "\x36\x0D\x17\x0E\x25\x25";//Жало-- 
+const char* SleepingSimpleString = "\x31\x0E\x13\x0C";//Сон  
+const char* SleepingAdvancedString = "\x2C\x1F\x0F\x1C\x0D\x13\x0F\x10\x24\x24\x24";//Ожидание... 
+const char* WarningSimpleString = "\x0C\x51\x2C\x39\x4D\x4E\x2C\x30";// ГОРЯЧО! 
+const char* WarningAdvancedString = "\x30\x30\x30\x0C\x51\x2C\x39\x4D\x4E\x42\x42\x0C\x36\x33\x41\x2C\x0C\x30\x30\x30";//!!! ГОРЯЧЕЕ ЖАЛО !!! 
+const char* SleepingTipAdvancedString = "\x36\x0D\x17\x0E\x3D";//Жало: 
+const char* IdleTipString = "\x36\x0D\x17\x0E\x3D";//Жало: 
+const char* IdleSetString = "\x0C\x25\x2F";// -> 
+const char* TipDisconnectedString = "\x36\x33\x41\x2C\x0C\x2C\x2E\x31\x2C\x42\x50\x4F\x3A\x42\x3A\x2C";//ЖАЛО ОТСОЕДИНЕНО 
+const char* SolderingAdvancedPowerPrompt = "\x23\x0F\x12\x0D\x13\x0F\x10\x3D\x0C";//Питание:  
+const char* OffString = "\x2A\x1D\x14\x17\x24";//Выкл. 
+const char* ResetOKMessage = "\x31\x20\x11\x0E\x15\x0C\x61\x69";//Сброс OK 
+const char* YourGainMessage = "\x23\x11\x0F\x11\x0E\x15\x12\x3D";//Прирост: 
+const char* SettingsResetMessage = "\x3A\x0D\x15\x12\x11\x0E\x21\x14\x0F\x0C\x01\x15\x20\x11\x0E\x45\x10\x13\x1D\x30";//Настройки _сброшены! 
 
-const char* SettingRightChar = "\x25";//П 
-const char* SettingLeftChar = "\x57";//Л 
-const char* SettingAutoChar = "\x69";//A 
-const char* SettingFastChar = "\x6B";//+ 
-const char* SettingSlowChar = "\x27";//- 
-const char* SettingStartSolderingChar = "\x3B";//T 
-const char* SettingStartSleepChar = "\x36";//S 
-const char* SettingStartNoneChar = "\x51";//F 
+const char* SettingRightChar = "\x23";//П 
+const char* SettingLeftChar = "\x41";//Л 
+const char* SettingAutoChar = "\x62";//A 
+const char* SettingFastChar = "\x65";//+ 
+const char* SettingSlowChar = "\x25";//- 
+const char* SettingStartSolderingChar = "\x37";//T 
+const char* SettingStartSleepChar = "\x38";//S 
+const char* SettingStartSleepOffChar = "\x61";//O 
+const char* SettingStartNoneChar = "\x44";//F 
 
-const char* SymbolPlus = "\x6B";//+ 
-const char* SymbolMinus = "\x27";//- 
+const char* SymbolPlus = "\x65";//+ 
+const char* SymbolMinus = "\x25";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x1D";//. 
-const char* SymbolDegC = "\x2E";//C 
-const char* SymbolDegF = "\x51";//F 
-const char* SymbolMinutes = "\x50";//M 
-const char* SymbolSeconds = "\x36";//S 
-const char* SymbolWatts = "\x3A";//W 
-const char* SymbolVolts = "\x47";//V 
-const char* SymbolDC = "\x52\x2E";//DC 
-const char* SymbolCellCount = "\x36";//S 
-const char* SymbolVersionNumber = "\x47\x04\x1D\x02\x0A";//V2.08 
+const char* SymbolDot = "\x24";//. 
+const char* SymbolDegC = "\x2D";//C 
+const char* SymbolDegF = "\x44";//F 
+const char* SymbolMinutes = "\x52";//M 
+const char* SymbolSeconds = "\x38";//S 
+const char* SymbolWatts = "\x4A";//W 
+const char* SymbolVolts = "\x5E";//V 
+const char* SymbolDC = "\x4B\x2D";//DC 
+const char* SymbolCellCount = "\x38";//S 
+const char* SymbolVersionNumber = "\x55\x04\x24\x02\x0A\x24\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x40\x02\x04",//B02 
-	 "\x52\x04\x06",//D24 
-	 "\x40\x2E\x04",//BC2 
-	 "\x0C\x2E\x03",// C1 
-	 "\x3B\x36\x03\x02\x02",//TS100 
-	 "\x40\x2E\x04",//BC2 
-	 "\x48\x29\x5F\x5F\x2D",//Hakko 
-	 "\x63\x34\x21\x2A",//User 
+	 "\x3C\x02\x04",//B02 
+	 "\x4B\x04\x06",//D24 
+	 "\x3C\x2D\x04",//BC2 
+	 "\x0C\x2D\x03",// C1 
+	 "\x37\x38\x03\x02\x02",//TS100 
+	 "\x3C\x2D\x04",//BC2 
+	 "\x43\x5D\x5C\x5C\x5A",//Hakko 
+	 "\x5F\x57\x49\x58",//User 
 #else
-	 "\x40\x02\x04",//B02 
-	 "\x52\x04\x07",//D25 
-	 "\x3B\x36\x0A\x02",//TS80 
-	 "\x63\x34\x21\x2A",//User 
+	 "\x3C\x02\x04",//B02 
+	 "\x4B\x04\x07",//D25 
+	 "\x37\x38\x0A\x02",//TS80 
+	 "\x5F\x57\x49\x58",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x27\x02\x03\x27\x04\x02",//18-01-20 
-	 "\x48\x3A\x0C\x67\x0C",//HW G  
-	 "\x48\x3A\x0C\x50\x0C",//HW M  
-	 "\x48\x3A\x0C\x3F\x0C",//HW P  
-	 "\x3B\x28\x3E\x21\x0C",//Time  
-	 "\x50\x2D\x72\x21\x0C",//Move  
-	 "\x64\x3B\x28\x3D\x0C",//RTip  
-	 "\x2E\x3B\x28\x3D\x0C",//CTip  
-	 "\x2E\x48\x29\x35\x0C",//CHan  
-	 "\x47\x28\x35\x0C\x0C",//Vin   
-	 "\x3F\x2E\x40\x0C\x0C",//PCB   
+	 "\x03\x06\x25\x02\x05\x25\x04\x02",//14-03-20 
+	 "\x43\x4A\x0C\x6A\x0C",//HW G  
+	 "\x43\x4A\x0C\x52\x0C",//HW M  
+	 "\x43\x4A\x0C\x60\x0C",//HW P  
+	 "\x37\x48\x67\x49\x0C",//Time  
+	 "\x52\x5A\x55\x49\x0C",//Move  
+	 "\x68\x37\x48\x59\x0C",//RTip  
+	 "\x2D\x37\x48\x59\x0C",//CTip  
+	 "\x2D\x43\x5D\x5B\x0C",//CHan  
+	 "\x5E\x48\x5B\x0C\x0C",//Vin   
+	 "\x60\x2D\x3C\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x4D\x18\x12\x0E\x24\x13\x0F\x14", "\x17\x0F\x12\x0D\x13\x0F\x1A" },//['Источник', 'питания'] 
-  /* SleepTemperature          */ { "\x31\x10\x15\x17\x10\x11\x1D", "\x18\x13\x0D" },//['Темпер.', 'сна'] 
-  /* SleepTimeout              */ { "\x31\x0D\x23\x15\x0D\x1E\x12", "\x18\x13\x0D" },//['Таймаут', 'сна'] 
-  /* ShutdownTimeout           */ { "\x2F\x11\x10\x15\x1A\x0C\x1B\x0E", "\x0E\x12\x14\x16\x2B\x24\x10\x13\x0F\x1A" },//['Время до', 'отключения'] 
-  /* MotionSensitivity         */ { "\x5C\x1E\x19\x18\x12\x1D\x0C\x18\x10\x13\x18\x0E\x27", "\x11\x0D\x0C\x1B\x19\x0F\x1F\x10\x13\x0F\x1A" },//['Чувст. сенсо-', 'ра движения'] 
-  /* TemperatureUnit           */ { "\x6E\x0E\x11\x15\x0D\x12\x0C\x12\x10\x15\x17\x10\x27", "\x11\x0D\x12\x1E\x11\x1C\x78\x2E\x4E\x76\x51\x4E\x77" },//['Формат темпе-', 'ратуры(C°/F°)'] 
-  /* AdvancedIdle              */ { "\x25\x0E\x1B\x11\x0E\x22\x13\x1C\x23\x0C\x11\x10\x27", "\x1F\x0F\x15\x0C\x0E\x1F\x0F\x1B\x0D\x13\x0F\x1A" },//['Подробный ре-', 'жим ожидания'] 
-  /* DisplayRotation           */ { "\x33\x19\x12\x0E\x17\x0E\x19\x0E\x11\x0E\x12", "\x41\x14\x11\x0D\x13\x0D" },//['Автоповорот', 'экрана'] 
-  /* BoostEnabled              */ { "\x4A\x10\x1F\x0F\x15", "\x31\x1E\x11\x22\x0E" },//['Режим', 'Турбо'] 
-  /* BoostTemperature          */ { "\x31\x10\x15\x17\x10\x11\x1D", "\x31\x1E\x11\x22\x0E" },//['Темпер.', 'Турбо'] 
-  /* AutoStart                 */ { "\x5E\x0E\x11\x1A\x24\x0F\x23", "\x18\x12\x0D\x11\x12" },//['Горячий', 'старт'] 
-  /* CooldownBlink             */ { "\x25\x0E\x14\x0D\x2C\x0C\x26\x4E\x0C\x17\x11\x0F", "\x0E\x18\x12\x1C\x19\x0D\x13\x0F\x0F" },//['Показ t° при', 'остывании'] 
-  /* TemperatureCalibration    */ { "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D", "\x12\x10\x15\x17\x10\x11\x0D\x12\x1E\x11\x1C" },//['Калибровка', 'температуры'] 
-  /* SettingsReset             */ { "\x3C\x22\x11\x0E\x18\x0F\x12\x20\x0C\x19\x18\x10", "\x13\x0D\x18\x12\x11\x0E\x23\x14\x0F\x6A" },//['Сбросить все', 'настройки?'] 
-  /* VoltageCalibration        */ { "\x32\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D", "\x13\x0D\x17\x11\x1A\x1F\x10\x13\x0F\x1A" },//['Калибровка', 'напряжения'] 
-  /* AdvancedSoldering         */ { "\x25\x0E\x1B\x11\x0E\x22\x13\x1C\x23\x0C\x11\x10\x27", "\x1F\x0F\x15\x0C\x17\x0D\x23\x14\x0F" },//['Подробный ре-', 'жим пайки'] 
-  /* ScrollingSpeed            */ { "\x3C\x14\x0E\x11\x0E\x18\x12\x20", "\x12\x10\x14\x18\x12\x0D" },//['Скорость', 'текста'] 
-  /* TipModel                  */ { "\x45\x0E\x1B\x10\x16\x20", "\x1F\x0D\x16\x0E" },//['Модель', 'жало'] 
-  /* SimpleCalibrationMode     */ { "\x25\x11\x0E\x18\x12\x0D\x1A", "\x14\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D" },//['Простая', 'калибровка'] 
-  /* AdvancedCalibrationMode   */ { "\x25\x0E\x1B\x11\x0E\x22\x13\x0D\x1A", "\x14\x0D\x16\x0F\x22\x11\x0E\x19\x14\x0D" },//['Подробная', 'калибровка'] 
-  /* PowerInput                */ { "\x3F\x2D\x39\x21\x2A", "\x3A\x29\x26\x26\x29\x59\x21" },//['Power', 'Wattage'] 
-  /* PowerLimitEnable          */ { "\x3F\x0C\x66\x28\x3E\x28\x26", "\x68\x35\x29\x62\x58\x21" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x3F\x2D\x39\x21\x2A", "\x66\x28\x3E\x28\x26" },//['Power', 'Limit'] 
+  /* PowerSource               */ { "\x4F\x15\x12\x0E\x22\x13\x0F\x14", "\x18\x0F\x12\x0D\x13\x0F\x1A" },//['Источник', 'питания'] 
+  /* SleepTemperature          */ { "\x2E\x10\x16\x18\x10\x11\x24", "\x15\x13\x0D" },//['Темпер.', 'сна'] 
+  /* SleepTimeout              */ { "\x2E\x0D\x21\x16\x0D\x1E\x12", "\x15\x13\x0D" },//['Таймаут', 'сна'] 
+  /* ShutdownTimeout           */ { "\x2A\x11\x10\x16\x1A\x0C\x1C\x0E", "\x0E\x12\x14\x17\x27\x22\x10\x13\x0F\x1A" },//['Время до', 'отключения'] 
+  /* MotionSensitivity         */ { "\x4E\x1E\x19\x15\x12\x24\x0C\x15\x10\x13\x15\x0E\x25", "\x11\x0D\x0C\x1C\x19\x0F\x1F\x10\x13\x0F\x1A" },//['Чувст. сенсо-', 'ра движения'] 
+  /* TemperatureUnit           */ { "\x53\x0E\x11\x16\x0D\x12\x0C\x12\x10\x16\x18\x10\x25", "\x11\x0D\x12\x1E\x11\x1D\x6C\x2D\x47\x64\x44\x47\x6B" },//['Формат темпе-', 'ратуры(C°/F°)'] 
+  /* AdvancedIdle              */ { "\x23\x0E\x1C\x11\x0E\x20\x13\x1D\x21\x0C\x11\x10\x25", "\x1F\x0F\x16\x0C\x0E\x1F\x0F\x1C\x0D\x13\x0F\x1A" },//['Подробный ре-', 'жим ожидания'] 
+  /* DisplayRotation           */ { "\x33\x19\x12\x0E\x18\x0E\x19\x0E\x11\x0E\x12", "\x3E\x14\x11\x0D\x13\x0D" },//['Автоповорот', 'экрана'] 
+  /* BoostEnabled              */ { "\x39\x10\x1F\x0F\x16", "\x2E\x1E\x11\x20\x0E" },//['Режим', 'Турбо'] 
+  /* BoostTemperature          */ { "\x2E\x10\x16\x18\x10\x11\x24", "\x2E\x1E\x11\x20\x0E" },//['Темпер.', 'Турбо'] 
+  /* AutoStart                 */ { "\x51\x0E\x11\x1A\x22\x0F\x21", "\x15\x12\x0D\x11\x12" },//['Горячий', 'старт'] 
+  /* CooldownBlink             */ { "\x23\x0E\x14\x0D\x28\x0C\x56\x47\x0C\x18\x11\x0F", "\x0E\x15\x12\x1D\x19\x0D\x13\x0F\x0F" },//['Показ t° при', 'остывании'] 
+  /* TemperatureCalibration    */ { "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D", "\x12\x10\x16\x18\x10\x11\x0D\x12\x1E\x11\x1D" },//['Калибровка', 'температуры'] 
+  /* SettingsReset             */ { "\x31\x20\x11\x0E\x15\x0F\x12\x1B\x0C\x19\x15\x10", "\x13\x0D\x15\x12\x11\x0E\x21\x14\x0F\x63" },//['Сбросить все', 'настройки?'] 
+  /* VoltageCalibration        */ { "\x3B\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D", "\x13\x0D\x18\x11\x1A\x1F\x10\x13\x0F\x1A" },//['Калибровка', 'напряжения'] 
+  /* AdvancedSoldering         */ { "\x23\x0E\x1C\x11\x0E\x20\x13\x1D\x21\x0C\x11\x10\x25", "\x1F\x0F\x16\x0C\x18\x0D\x21\x14\x0F" },//['Подробный ре-', 'жим пайки'] 
+  /* ScrollingSpeed            */ { "\x31\x14\x0E\x11\x0E\x15\x12\x1B", "\x12\x10\x14\x15\x12\x0D" },//['Скорость', 'текста'] 
+  /* TipModel                  */ { "\x32\x0E\x1C\x10\x17\x1B", "\x1F\x0D\x17\x0E" },//['Модель', 'жало'] 
+  /* SimpleCalibrationMode     */ { "\x23\x11\x0E\x15\x12\x0D\x1A", "\x14\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D" },//['Простая', 'калибровка'] 
+  /* AdvancedCalibrationMode   */ { "\x23\x0E\x1C\x11\x0E\x20\x13\x0D\x1A", "\x14\x0D\x17\x0F\x20\x11\x0E\x19\x14\x0D" },//['Подробная', 'калибровка'] 
+  /* PowerInput                */ { "\x32\x0E\x35\x13\x0E\x15\x12\x1B", "\x0D\x1C\x0D\x18\x12\x10\x11\x0D" },//['Мощность', 'адаптера'] 
+  /* PowerLimitEnable          */ { "\x2C\x2B\x11\x0D\x13\x0F\x22\x10\x13\x0F\x10", "\x16\x0E\x35\x13\x0E\x15\x12\x0F" },//['Ограничение', 'мощности'] 
+  /* PowerLimit                */ { "\x32\x0D\x14\x15\x0F\x16\x0D\x17\x1B\x13\x0D\x1A", "\x16\x0E\x35\x13\x0E\x15\x12\x1B" },//['Максимальная', 'мощность'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x25\x0D\x11\x0D\x15\x10\x12\x11\x1C\x01\x17\x0D\x23\x14\x0F",//['Параметры', 'пайки'] 
-  /* PowerSavingMenu           */ "\x4A\x10\x1F\x0F\x15\x01\x18\x13\x0D",//['Режим', 'сна'] 
-  /* UIMenu                    */ "\x25\x0E\x16\x20\x2C\x0E\x19\x0D\x12\x10\x16\x01\x0F\x13\x12\x10\x11\x43\x10\x23\x18",//['Пользовател', 'интерфейс'] 
-  /* AdvancedMenu              */ "\x5D\x0E\x17\x0E\x16\x13\x0F\x12\x10\x16\x1D\x01\x17\x0D\x11\x0D\x15\x10\x12\x11\x1C",//['Дополнител.', 'параметры'] 
+  /* SolderingMenu             */ "\x23\x0D\x11\x0D\x16\x10\x12\x11\x1D\x01\x18\x0D\x21\x14\x0F",//['Параметры', 'пайки'] 
+  /* PowerSavingMenu           */ "\x39\x10\x1F\x0F\x16\x01\x15\x13\x0D",//['Режим', 'сна'] 
+  /* UIMenu                    */ "\x23\x0E\x17\x1B\x28\x0E\x19\x0D\x12\x10\x17\x01\x0F\x13\x12\x10\x11\x40\x10\x21\x15",//['Пользовател', 'интерфейс'] 
+  /* AdvancedMenu              */ "\x50\x0E\x18\x0E\x17\x13\x0F\x12\x10\x17\x24\x01\x18\x0D\x11\x0D\x16\x10\x12\x11\x1D",//['Дополнител.', 'параметры'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x25\x0D\x11\x0D\x15\x10\x12\x11\x1C\x0C\x17\x0D\x23\x14\x0F",//Параметры пайки 
-  /* PowerSavingMenu           */ "\x25\x0D\x11\x0D\x15\x10\x12\x11\x1C\x0C\x41\x14\x0E\x13\x0E\x15\x0F\x0F\x0C\x41\x13\x10\x11\x44\x0F\x0F",//Параметры экономии энергии 
-  /* UIMenu                    */ "\x25\x0D\x11\x0D\x15\x10\x12\x11\x1C\x0C\x17\x0E\x16\x20\x2C\x0E\x19\x0D\x12\x10\x16\x20\x18\x14\x0E\x44\x0E\x0C\x0F\x13\x12\x10\x11\x43\x10\x23\x18\x0D",//Параметры пользовательского интерфейса 
-  /* AdvancedMenu              */ "\x5D\x0E\x17\x0E\x16\x13\x0F\x12\x10\x16\x20\x13\x1C\x10\x0C\x17\x0D\x11\x0D\x15\x10\x12\x11\x1C",//Дополнительные параметры 
+  /* SolderingMenu             */ "\x23\x0D\x11\x0D\x16\x10\x12\x11\x1D\x0C\x18\x0D\x21\x14\x0F",//Параметры пайки 
+  /* PowerSavingMenu           */ "\x23\x0D\x11\x0D\x16\x10\x12\x11\x1D\x0C\x3E\x14\x0E\x13\x0E\x16\x0F\x0F\x0C\x3E\x13\x10\x11\x2B\x0F\x0F",//Параметры экономии энергии 
+  /* UIMenu                    */ "\x23\x0D\x11\x0D\x16\x10\x12\x11\x1D\x0C\x18\x0E\x17\x1B\x28\x0E\x19\x0D\x12\x10\x17\x1B\x15\x14\x0E\x2B\x0E\x0C\x0F\x13\x12\x10\x11\x40\x10\x21\x15\x0D",//Параметры пользовательского интерфейса 
+  /* AdvancedMenu              */ "\x50\x0E\x18\x0E\x17\x13\x0F\x12\x10\x17\x1B\x13\x1D\x10\x0C\x18\x0D\x11\x0D\x16\x10\x12\x11\x1D",//Дополнительные параметры 
 };
 
 #endif
@@ -5772,19 +5766,19 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x22 -> k
 0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x23 -> m
 0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x24 -> M
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x25 -> V
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x26 -> A
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x25 -> A
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x26 -> V
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x27 -> L
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x28 -> D
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x29 -> I
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x2A -> g
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x29 -> O
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x2A -> I
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x2B -> g
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2C -> ,
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x2D -> E
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x2E -> >
 0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x2F -> <
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x30 -> R
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x31 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x30 -> .
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x31 -> R
 0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x32 -> z
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x33 -> b
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x34 -> W
@@ -5848,19 +5842,19 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x22 -> k
 0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x23 -> m
 0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x24 -> M
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x25 -> V
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x26 -> A
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x25 -> A
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x26 -> V
 0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x27 -> L
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x28 -> D
-0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x29 -> I
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x2A -> g
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2B -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x29 -> O
+0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x2A -> I
+0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x2B -> g
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2C -> ,
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x2D -> E
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x2E -> >
 0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x2F -> <
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x30 -> R
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x31 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x30 -> .
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x31 -> R
 0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x32 -> z
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x33 -> b
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x34 -> W
@@ -5891,75 +5885,76 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Slovenský ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3B\x1A\x13\x12\x3D\x0C\x11\x0E\x14\x0E\x0F\x10\x0E\x31\x0C\x35\x0E\x15\x0F\x0E\x18\x10\x0F\x0C\x11\x0E\x14\x0E\x0F\x10\x0D\x0C\x14\x13\x0D\x0C\x18\x20\x14\x11\x17\x0F\x10\x0D\x0C\x45\x1C\x17\x0F\x12\x39\x39\x44\x0C\x0C\x2F\x28\x1D\x21\x03\x02\x25\x2C\x0C\x11\x1B\x21\x11\x4B\x05\x31\x05\x25\x0C\x14\x13\x0D\x0C\x27\x10\x29\x12\x11\x0C\x1C\x16\x0E\x11\x22\x20\x2E",//Zdroj napatia. Nastavit napatie pre vypnutie (cutoff)  <DC=10V, nS=n*3.3V pre LiIon clanky> 
+  /* PowerSource               */ "\x3B\x1A\x13\x12\x3D\x0C\x11\x0E\x14\x0E\x0F\x10\x0E\x30\x0C\x35\x0E\x15\x0F\x0E\x18\x10\x0F\x0C\x11\x0E\x14\x0E\x0F\x10\x0D\x0C\x14\x13\x0D\x0C\x18\x20\x14\x11\x17\x0F\x10\x0D\x0C\x45\x1C\x17\x0F\x12\x39\x39\x44\x0C\x0C\x2F\x28\x1D\x21\x03\x02\x26\x2C\x0C\x11\x1B\x21\x11\x4B\x05\x30\x05\x26\x0C\x14\x13\x0D\x0C\x27\x10\x2A\x12\x11\x0C\x1C\x16\x0E\x11\x22\x20\x2E",//Zdroj napatia. Nastavit napatie pre vypnutie (cutoff)  <DC=10V, nS=n*3.3V pre LiIon clanky> 
   /* SleepTemperature          */ "\x3C\x16\x17\x1A\x12\x18\x0E\x0C\x0F\x0D\x14\x16\x12\x0F\x0E\x0C\x45\x18\x0C\x11\x0E\x15\x0F\x0E\x18\x0D\x11\x20\x1C\x1E\x0C\x3D\x0D\x1A\x11\x12\x0F\x22\x0E\x1C\x1E\x44",//Kludova teplota (v nastavenych jednotkach) 
   /* SleepTimeout              */ "\x3C\x16\x17\x1A\x12\x18\x20\x0C\x13\x0D\x32\x10\x23\x0C\x14\x12\x0C\x2F\x15\x0D\x22\x17\x11\x1A\x0E\x1C\x1E\x49\x23\x10\x11\x17\x0F\x0E\x1C\x1E\x2E",//Kludovy rezim po <sekundach/minutach> 
   /* ShutdownTimeout           */ "\x1D\x0E\x15\x0C\x11\x0E\x0C\x18\x20\x14\x11\x17\x0F\x10\x0D\x0C\x2F\x23\x10\x11\x17\x0F\x20\x2E",//Cas na vypnutie <minuty> 
-  /* MotionSensitivity         */ "\x1D\x10\x0F\x16\x10\x18\x12\x15\x0F\x0C\x1A\x0D\x0F\x0D\x22\x1C\x10\x0D\x0C\x14\x12\x1E\x20\x33\x17\x0C\x2F\x02\x21\x25\x20\x14\x2C\x0C\x03\x21\x24\x10\x11\x0C\x31\x31\x31\x0C\x0B\x21\x24\x0E\x42\x2E",//Citlivost detekcie pohybu <0=Vyp, 1=Min ... 9=Max> 
+  /* MotionSensitivity         */ "\x1D\x10\x0F\x16\x10\x18\x12\x15\x0F\x0C\x1A\x0D\x0F\x0D\x22\x1C\x10\x0D\x0C\x14\x12\x1E\x20\x33\x17\x0C\x2F\x02\x21\x26\x20\x14\x2C\x0C\x03\x21\x24\x10\x11\x0C\x30\x30\x30\x0C\x0B\x21\x24\x0E\x42\x2E",//Citlivost detekcie pohybu <0=Vyp, 1=Min ... 9=Max> 
   /* TemperatureUnit           */ "\x46\x0D\x1A\x11\x12\x0F\x22\x20\x0C\x23\x0D\x13\x0E\x11\x10\x0E\x0C\x0F\x0D\x14\x16\x12\x0F\x20\x0C\x2F\x1D\x21\x15\x0F\x17\x14\x11\x0D\x0C\x1D\x0D\x16\x32\x10\x0E\x2C\x0C\x37\x21\x15\x0F\x17\x14\x11\x0D\x0C\x37\x0E\x1E\x13\x0D\x11\x1E\x0D\x10\x0F\x0E\x2E",//Jednotky merania teploty <C=stupne Celzia, F=stupne Fahrenheita> 
-  /* AdvancedIdle              */ "\x3B\x12\x33\x13\x0E\x32\x10\x0F\x0C\x1A\x0D\x0F\x0E\x10\x16\x11\x0D\x0C\x10\x11\x39\x12\x13\x23\x0E\x1C\x10\x0D\x0C\x18\x0C\x22\x16\x17\x1A\x12\x18\x12\x23\x0C\x13\x0D\x32\x10\x23\x0D\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x25\x20\x14\x2E",//Zobrazit detailne informacie v kludovom rezime <T=Zap, F=Vyp> 
-  /* DisplayRotation           */ "\x2B\x13\x10\x0D\x11\x0F\x0E\x1C\x10\x0E\x0C\x1A\x10\x15\x14\x16\x0D\x3D\x0E\x0C\x2F\x26\x21\x26\x17\x0F\x12\x2C\x0C\x27\x21\x27\x0E\x18\x0E\x22\x2C\x0C\x30\x21\x1F\x13\x0E\x18\x0E\x22\x2E",//Orientacia displeja <A=Auto, L=Lavak, R=Pravak> 
-  /* BoostEnabled              */ "\x1F\x12\x18\x12\x16\x10\x0F\x0C\x0F\x16\x0E\x1C\x10\x1A\x16\x12\x0C\x14\x13\x0D\x0C\x14\x13\x17\x1A\x22\x20\x0C\x11\x0E\x1E\x13\x0D\x18\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x25\x20\x14\x2E",//Povolit tlacidlo pre prudky nahrev <T=Zap, F=Vyp> 
+  /* AdvancedIdle              */ "\x3B\x12\x33\x13\x0E\x32\x10\x0F\x0C\x1A\x0D\x0F\x0E\x10\x16\x11\x0D\x0C\x10\x11\x39\x12\x13\x23\x0E\x1C\x10\x0D\x0C\x18\x0C\x22\x16\x17\x1A\x12\x18\x12\x23\x0C\x13\x0D\x32\x10\x23\x0D\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x26\x20\x14\x2E",//Zobrazit detailne informacie v kludovom rezime <T=Zap, F=Vyp> 
+  /* DisplayRotation           */ "\x29\x13\x10\x0D\x11\x0F\x0E\x1C\x10\x0E\x0C\x1A\x10\x15\x14\x16\x0D\x3D\x0E\x0C\x2F\x25\x21\x25\x17\x0F\x12\x2C\x0C\x27\x21\x27\x0E\x18\x0E\x22\x2C\x0C\x31\x21\x1F\x13\x0E\x18\x0E\x22\x2E",//Orientacia displeja <A=Auto, L=Lavak, R=Pravak> 
+  /* BoostEnabled              */ "\x1F\x12\x18\x12\x16\x10\x0F\x0C\x0F\x16\x0E\x1C\x10\x1A\x16\x12\x0C\x14\x13\x0D\x0C\x14\x13\x17\x1A\x22\x20\x0C\x11\x0E\x1E\x13\x0D\x18\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x26\x20\x14\x2E",//Povolit tlacidlo pre prudky nahrev <T=Zap, F=Vyp> 
   /* BoostTemperature          */ "\x1D\x10\x0D\x16\x12\x18\x0E\x0C\x0F\x0D\x14\x16\x12\x0F\x0E\x0C\x14\x13\x0D\x0C\x14\x13\x17\x1A\x22\x20\x0C\x11\x0E\x1E\x13\x0D\x18\x0C\x45\x18\x0C\x11\x0E\x15\x0F\x0E\x18\x0D\x11\x20\x1C\x1E\x0C\x3D\x0D\x1A\x11\x12\x0F\x22\x0E\x1C\x1E\x44",//Cielova teplota pre prudky nahrev (v nastavenych jednotkach) 
-  /* AutoStart                 */ "\x1F\x13\x10\x0C\x15\x0F\x0E\x13\x0F\x0D\x0C\x15\x14\x17\x15\x0F\x10\x0F\x0C\x13\x0D\x32\x10\x23\x0C\x15\x14\x0E\x3D\x22\x12\x18\x0E\x11\x10\x0E\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x25\x20\x14\x2C\x0C\x1B\x21\x1B\x14\x0E\x11\x12\x22\x2E",//Pri starte spustit rezim spajkovania <T=Zap, F=Vyp, S=Spanok> 
-  /* CooldownBlink             */ "\x38\x16\x10\x22\x0E\x11\x10\x0D\x0C\x17\x22\x0E\x32\x12\x18\x0E\x0F\x0D\x16\x0E\x0C\x0F\x0D\x14\x16\x12\x0F\x20\x0C\x14\x12\x1C\x0E\x15\x0C\x1C\x1E\x16\x0E\x1A\x11\x17\x0F\x10\x0E\x0C\x1E\x13\x12\x0F\x17\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x25\x20\x14\x2E",//Blikanie ukazovatela teploty pocas chladnutia hrotu <T=Zap, F=Vyp> 
+  /* AutoStart                 */ "\x1F\x13\x10\x0C\x15\x0F\x0E\x13\x0F\x0D\x0C\x15\x14\x17\x15\x0F\x10\x0F\x0C\x13\x0D\x32\x10\x23\x0C\x15\x14\x0E\x3D\x22\x12\x18\x0E\x11\x10\x0E\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x26\x20\x14\x2C\x0C\x1B\x21\x1B\x14\x0E\x11\x12\x22\x2E",//Pri starte spustit rezim spajkovania <T=Zap, F=Vyp, S=Spanok> 
+  /* CooldownBlink             */ "\x38\x16\x10\x22\x0E\x11\x10\x0D\x0C\x17\x22\x0E\x32\x12\x18\x0E\x0F\x0D\x16\x0E\x0C\x0F\x0D\x14\x16\x12\x0F\x20\x0C\x14\x12\x1C\x0E\x15\x0C\x1C\x1E\x16\x0E\x1A\x11\x17\x0F\x10\x0E\x0C\x1E\x13\x12\x0F\x17\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x26\x20\x14\x2E",//Blikanie ukazovatela teploty pocas chladnutia hrotu <T=Zap, F=Vyp> 
   /* TemperatureCalibration    */ "\x3C\x0E\x16\x10\x33\x13\x0E\x1C\x10\x0E\x0C\x14\x12\x15\x17\x11\x17\x0C\x1E\x13\x12\x0F\x17",//Kalibracia posunu hrotu 
   /* SettingsReset             */ "\x19\x12\x18\x0E\x13\x0D\x11\x15\x22\x0D\x0C\x11\x0E\x15\x0F\x0E\x18\x0D\x11\x10\x0E",//Tovarenske nastavenia 
-  /* VoltageCalibration        */ "\x3C\x0E\x16\x10\x33\x13\x0E\x1C\x10\x0E\x0C\x25\x29\x35\x31\x0C\x3C\x13\x0E\x0F\x22\x0D\x0C\x15\x0F\x16\x0E\x1C\x0D\x11\x10\x0D\x0C\x23\x0D\x11\x10\x0C\x11\x0E\x15\x0F\x0E\x18\x0D\x11\x10\x0D\x2C\x0C\x1A\x16\x1E\x0D\x0C\x15\x0F\x16\x0E\x1C\x0D\x11\x10\x0D\x0C\x14\x13\x0D\x0C\x11\x0E\x18\x13\x0E\x0F",//Kalibracia VIN. Kratke stlacenie meni nastavenie, dlhe stlacenie pre navrat 
-  /* AdvancedSoldering         */ "\x3B\x12\x33\x13\x0E\x32\x0D\x11\x10\x0D\x0C\x1A\x0D\x0F\x0E\x10\x16\x12\x18\x0C\x14\x12\x1C\x0E\x15\x0C\x15\x14\x0E\x3D\x22\x12\x18\x0E\x11\x10\x0E\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x25\x20\x14\x2E",//Zobrazenie detailov pocas spajkovania <T=Zap, F=Vyp> 
+  /* VoltageCalibration        */ "\x3C\x0E\x16\x10\x33\x13\x0E\x1C\x10\x0E\x0C\x26\x2A\x35\x30\x0C\x3C\x13\x0E\x0F\x22\x0D\x0C\x15\x0F\x16\x0E\x1C\x0D\x11\x10\x0D\x0C\x23\x0D\x11\x10\x0C\x11\x0E\x15\x0F\x0E\x18\x0D\x11\x10\x0D\x2C\x0C\x1A\x16\x1E\x0D\x0C\x15\x0F\x16\x0E\x1C\x0D\x11\x10\x0D\x0C\x14\x13\x0D\x0C\x11\x0E\x18\x13\x0E\x0F",//Kalibracia VIN. Kratke stlacenie meni nastavenie, dlhe stlacenie pre navrat 
+  /* AdvancedSoldering         */ "\x3B\x12\x33\x13\x0E\x32\x0D\x11\x10\x0D\x0C\x1A\x0D\x0F\x0E\x10\x16\x12\x18\x0C\x14\x12\x1C\x0E\x15\x0C\x15\x14\x0E\x3D\x22\x12\x18\x0E\x11\x10\x0E\x0C\x2F\x19\x21\x3B\x0E\x14\x2C\x0C\x37\x21\x26\x20\x14\x2E",//Zobrazenie detailov pocas spajkovania <T=Zap, F=Vyp> 
   /* ScrollingSpeed            */ "\x1B\x14\x0D\x0D\x1A\x0C\x0F\x1E\x10\x15\x0C\x0F\x0D\x42\x0F\x0C\x15\x1C\x13\x12\x16\x16\x15\x0C\x14\x0E\x15\x0F\x0C\x0E\x0F",//Speed this text scrolls past at 
   /* TipModel                  */ "\x19\x10\x14\x0C\x24\x12\x1A\x0D\x16\x0C\x15\x0D\x16\x0D\x1C\x0F\x10\x12\x11",//Tip Model selection 
-  /* SimpleCalibrationMode     */ "\x1B\x10\x23\x14\x16\x0D\x0C\x1D\x0E\x16\x10\x33\x13\x0E\x0F\x10\x12\x11\x0C\x17\x15\x10\x11\x2A\x0C\x36\x12\x0F\x0C\x3A\x0E\x0F\x0D\x13",//Simple Calibration using Hot water 
-  /* AdvancedCalibrationMode   */ "\x26\x1A\x18\x0E\x11\x1C\x0D\x1A\x0C\x1C\x0E\x16\x10\x33\x13\x0E\x0F\x10\x12\x11\x0C\x17\x15\x10\x11\x2A\x0C\x0F\x1E\x0D\x13\x23\x12\x1C\x12\x17\x14\x16\x0D\x0C\x12\x11\x0C\x0F\x1E\x0D\x0C\x0F\x10\x14",//Advanced calibration using thermocouple on the tip 
-  /* PowerInput                */ "\x1F\x12\x3A\x0D\x13\x0C\x34\x0E\x0F\x0F\x0E\x2A\x0D\x0C\x12\x39\x0C\x0F\x1E\x0D\x0C\x14\x12\x3A\x0D\x13\x0C\x0E\x1A\x0E\x14\x0F\x0D\x13\x0C\x17\x15\x0D\x1A",//Power Wattage of the power adapter used 
+  /* SimpleCalibrationMode     */ "\x1B\x10\x23\x14\x16\x0D\x0C\x1D\x0E\x16\x10\x33\x13\x0E\x0F\x10\x12\x11\x0C\x17\x15\x10\x11\x2B\x0C\x36\x12\x0F\x0C\x3A\x0E\x0F\x0D\x13",//Simple Calibration using Hot water 
+  /* AdvancedCalibrationMode   */ "\x25\x1A\x18\x0E\x11\x1C\x0D\x1A\x0C\x1C\x0E\x16\x10\x33\x13\x0E\x0F\x10\x12\x11\x0C\x17\x15\x10\x11\x2B\x0C\x0F\x1E\x0D\x13\x23\x12\x1C\x12\x17\x14\x16\x0D\x0C\x12\x11\x0C\x0F\x1E\x0D\x0C\x0F\x10\x14",//Advanced calibration using thermocouple on the tip 
+  /* PowerInput                */ "\x1F\x12\x3A\x0D\x13\x0C\x34\x0E\x0F\x0F\x0E\x2B\x0D\x0C\x12\x39\x0C\x0F\x1E\x0D\x0C\x14\x12\x3A\x0D\x13\x0C\x0E\x1A\x0E\x14\x0F\x0D\x13\x0C\x17\x15\x0D\x1A",//Power Wattage of the power adapter used 
   /* PowerLimitEnable          */ "\x2D\x11\x0E\x33\x16\x0D\x0C\x14\x12\x3A\x0D\x13\x0C\x16\x10\x23\x10\x0F",//Enable power limit 
   /* PowerLimit                */ "\x24\x0E\x42\x10\x23\x17\x23\x0C\x14\x12\x3A\x0D\x13\x0C\x0F\x1E\x0D\x0C\x10\x13\x12\x11\x0C\x1C\x0E\x11\x0C\x17\x15\x0D\x0C\x2F\x34\x0E\x0F\x0F\x15\x2E",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x1D\x0E\x16\x10\x33\x13\x0E\x0F\x10\x12\x11\x0C\x1A\x12\x11\x0D\x40";//Calibration done! 
 const char* SettingsCalibrationWarning = "\x35\x0E\x3D\x14\x13\x18\x0C\x15\x0E\x0C\x14\x13\x12\x15\x10\x23\x0C\x17\x10\x15\x0F\x10\x0F\x0D\x2C\x0C\x32\x0D\x0C\x1E\x13\x12\x0F\x0C\x23\x0E\x0C\x10\x32\x33\x12\x18\x17\x0C\x0F\x0D\x14\x16\x12\x0F\x17\x40";//Najprv sa prosim uistite, ze hrot ma izbovu teplotu! 
-const char* SettingsResetWarning = "\x26\x13\x0D\x0C\x20\x12\x17\x0C\x15\x17\x13\x0D\x0C\x0F\x12\x0C\x13\x0D\x15\x0D\x0F\x0C\x15\x0D\x0F\x0F\x10\x11\x2A\x15\x0C\x0F\x12\x0C\x1A\x0D\x39\x0E\x17\x16\x0F\x0C\x18\x0E\x16\x17\x0D\x15\x41";//Are you sure to reset settings to default values? 
-const char* UVLOWarningString = "\x28\x1D\x0C\x27\x2B\x34";//DC LOW 
-const char* UndervoltageString = "\x3E\x11\x1A\x0D\x13\x18\x12\x16\x0F\x0E\x2A\x0D";//Undervoltage 
-const char* InputVoltageString = "\x29\x11\x14\x17\x0F\x0C\x25\x3F\x0C";//Input V:  
+const char* SettingsResetWarning = "\x25\x13\x0D\x0C\x20\x12\x17\x0C\x15\x17\x13\x0D\x0C\x0F\x12\x0C\x13\x0D\x15\x0D\x0F\x0C\x15\x0D\x0F\x0F\x10\x11\x2B\x15\x0C\x0F\x12\x0C\x1A\x0D\x39\x0E\x17\x16\x0F\x0C\x18\x0E\x16\x17\x0D\x15\x41";//Are you sure to reset settings to default values? 
+const char* UVLOWarningString = "\x28\x1D\x0C\x27\x29\x34";//DC LOW 
+const char* UndervoltageString = "\x3E\x11\x1A\x0D\x13\x18\x12\x16\x0F\x0E\x2B\x0D";//Undervoltage 
+const char* InputVoltageString = "\x2A\x11\x14\x17\x0F\x0C\x26\x3F\x0C";//Input V:  
 const char* WarningTipTempString = "\x19\x10\x14\x0C\x19\x0D\x23\x14\x3F\x0C";//Tip Temp:  
-const char* BadTipString = "\x38\x26\x28\x0C\x19\x29\x1F";//BAD TIP 
+const char* BadTipString = "\x38\x25\x28\x0C\x19\x2A\x1F";//BAD TIP 
 const char* SleepingSimpleString = "\x1D\x1E\x13\x13";//Chrr 
-const char* SleepingAdvancedString = "\x3C\x16\x17\x1A\x12\x18\x20\x0C\x13\x0D\x32\x10\x23\x31\x31\x31";//Kludovy rezim... 
-const char* WarningSimpleString = "\x36\x2B\x19\x40";//HOT! 
-const char* WarningAdvancedString = "\x36\x30\x2B\x19\x0C\x46\x2D\x0C\x36\x2B\x30\x3E\x1D\x29\x0C\x40";//HROT JE HORUCI ! 
+const char* SleepingAdvancedString = "\x3C\x16\x17\x1A\x12\x18\x20\x0C\x13\x0D\x32\x10\x23\x30\x30\x30";//Kludovy rezim... 
+const char* WarningSimpleString = "\x36\x29\x19\x40";//HOT! 
+const char* WarningAdvancedString = "\x36\x31\x29\x19\x0C\x46\x2D\x0C\x36\x29\x31\x3E\x1D\x2A\x0C\x40";//HROT JE HORUCI ! 
 const char* SleepingTipAdvancedString = "\x19\x10\x14\x3F";//Tip: 
 const char* IdleTipString = "\x19\x10\x14\x3F";//Tip: 
 const char* IdleSetString = "\x0C\x1B\x0D\x0F\x3F";// Set: 
-const char* TipDisconnectedString = "\x19\x29\x1F\x0C\x28\x29\x1B\x1D\x2B\x35\x35\x2D\x1D\x19\x2D\x28";//TIP DISCONNECTED 
+const char* TipDisconnectedString = "\x19\x2A\x1F\x0C\x28\x2A\x1B\x1D\x29\x35\x35\x2D\x1D\x19\x2D\x28";//TIP DISCONNECTED 
 const char* SolderingAdvancedPowerPrompt = "\x1F\x12\x3A\x0D\x13\x3F\x0C";//Power:  
-const char* OffString = "\x2B\x39\x39";//Off 
-const char* ResetOKMessage = "\x30\x0D\x15\x0D\x0F\x0C\x2B\x3C";//Reset OK 
+const char* OffString = "\x29\x39\x39";//Off 
+const char* ResetOKMessage = "\x31\x0D\x15\x0D\x0F\x0C\x29\x3C";//Reset OK 
 const char* YourGainMessage = "\x48\x12\x17\x13\x0C\x47\x0E\x10\x11";//Your Gain 
-const char* SettingsResetMessage = "\x1B\x0D\x0F\x0F\x10\x11\x2A\x15\x0C\x3A\x0D\x13\x0D\x01\x13\x0D\x15\x0D\x0F\x40";//Settings were_reset! 
+const char* SettingsResetMessage = "\x1B\x0D\x0F\x0F\x10\x11\x2B\x15\x0C\x3A\x0D\x13\x0D\x01\x13\x0D\x15\x0D\x0F\x40";//Settings were_reset! 
 
-const char* SettingRightChar = "\x30";//R 
+const char* SettingRightChar = "\x31";//R 
 const char* SettingLeftChar = "\x27";//L 
-const char* SettingAutoChar = "\x26";//A 
+const char* SettingAutoChar = "\x25";//A 
 const char* SettingFastChar = "\x37";//F 
 const char* SettingSlowChar = "\x1B";//S 
 const char* SettingStartSolderingChar = "\x19";//T 
 const char* SettingStartSleepChar = "\x1B";//S 
+const char* SettingStartSleepOffChar = "\x29";//O 
 const char* SettingStartNoneChar = "\x37";//F 
 
 const char* SymbolPlus = "\x4A";//+ 
 const char* SymbolMinus = "\x43";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x31";//. 
+const char* SymbolDot = "\x30";//. 
 const char* SymbolDegC = "\x1D";//C 
 const char* SymbolDegF = "\x37";//F 
 const char* SymbolMinutes = "\x24";//M 
 const char* SymbolSeconds = "\x1B";//S 
 const char* SymbolWatts = "\x34";//W 
-const char* SymbolVolts = "\x25";//V 
+const char* SymbolVolts = "\x26";//V 
 const char* SymbolDC = "\x28\x1D";//DC 
 const char* SymbolCellCount = "\x1B";//S 
-const char* SymbolVersionNumber = "\x25\x04\x31\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x18\x04\x30\x02\x0A\x30\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -5980,58 +5975,58 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x43\x02\x03\x43\x04\x02",//18-01-20 
+	 "\x03\x06\x43\x02\x05\x43\x04\x02",//14-03-20 
 	 "\x36\x34\x0C\x47\x0C",//HW G  
 	 "\x36\x34\x0C\x24\x0C",//HW M  
 	 "\x36\x34\x0C\x1F\x0C",//HW P  
 	 "\x19\x10\x23\x0D\x0C",//Time  
 	 "\x24\x12\x18\x0D\x0C",//Move  
-	 "\x30\x19\x10\x14\x0C",//RTip  
+	 "\x31\x19\x10\x14\x0C",//RTip  
 	 "\x1D\x19\x10\x14\x0C",//CTip  
 	 "\x1D\x36\x0E\x11\x0C",//CHan  
-	 "\x25\x10\x11\x0C\x0C",//Vin   
+	 "\x26\x10\x11\x0C\x0C",//Vin   
 	 "\x1F\x1D\x38\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x1F\x34\x30\x1B\x1D" },//PWRSC 
+  /* PowerSource               */ { "\x1F\x34\x31\x1B\x1D" },//PWRSC 
   /* SleepTemperature          */ { "\x1B\x19\x24\x1F" },//STMP 
   /* SleepTimeout              */ { "\x1B\x19\x24\x2D" },//STME 
   /* ShutdownTimeout           */ { "\x1B\x36\x19\x24\x2D" },//SHTME 
   /* MotionSensitivity         */ { "\x24\x1B\x2D\x35\x1B\x2D" },//MSENSE 
   /* TemperatureUnit           */ { "\x19\x24\x1F\x3E\x35\x19" },//TMPUNT 
-  /* AdvancedIdle              */ { "\x26\x28\x25\x29\x28\x27" },//ADVIDL 
-  /* DisplayRotation           */ { "\x28\x1B\x1F\x30\x2B\x19" },//DSPROT 
-  /* BoostEnabled              */ { "\x38\x2B\x2B\x1B\x19" },//BOOST 
+  /* AdvancedIdle              */ { "\x25\x28\x26\x2A\x28\x27" },//ADVIDL 
+  /* DisplayRotation           */ { "\x28\x1B\x1F\x31\x29\x19" },//DSPROT 
+  /* BoostEnabled              */ { "\x38\x29\x29\x1B\x19" },//BOOST 
   /* BoostTemperature          */ { "\x38\x19\x24\x1F" },//BTMP 
-  /* AutoStart                 */ { "\x26\x1B\x19\x26\x30\x19" },//ASTART 
+  /* AutoStart                 */ { "\x25\x1B\x19\x25\x31\x19" },//ASTART 
   /* CooldownBlink             */ { "\x1D\x27\x38\x27\x35\x3C" },//CLBLNK 
-  /* TemperatureCalibration    */ { "\x19\x24\x1F\x0C\x1D\x26\x27\x41" },//TMP CAL? 
-  /* SettingsReset             */ { "\x30\x2D\x1B\x2D\x19\x41" },//RESET? 
-  /* VoltageCalibration        */ { "\x1D\x26\x27\x0C\x25\x29\x35\x41" },//CAL VIN? 
-  /* AdvancedSoldering         */ { "\x26\x28\x25\x1B\x27\x28" },//ADVSLD 
+  /* TemperatureCalibration    */ { "\x19\x24\x1F\x0C\x1D\x25\x27\x41" },//TMP CAL? 
+  /* SettingsReset             */ { "\x31\x2D\x1B\x2D\x19\x41" },//RESET? 
+  /* VoltageCalibration        */ { "\x1D\x25\x27\x0C\x26\x2A\x35\x41" },//CAL VIN? 
+  /* AdvancedSoldering         */ { "\x25\x28\x26\x1B\x27\x28" },//ADVSLD 
   /* ScrollingSpeed            */ { "\x28\x2D\x1B\x1D\x1B\x1F" },//DESCSP 
-  /* TipModel                  */ { "\x19\x29\x1F\x24\x2B" },//TIPMO 
-  /* SimpleCalibrationMode     */ { "\x1B\x24\x1F\x1D\x26\x27" },//SMPCAL 
-  /* AdvancedCalibrationMode   */ { "\x26\x28\x25\x1D\x26\x27" },//ADVCAL 
-  /* PowerInput                */ { "\x1F\x34\x30\x34" },//PWRW 
-  /* PowerLimitEnable          */ { "\x1F\x27\x29\x24\x2D\x35" },//PLIMEN 
-  /* PowerLimit                */ { "\x1F\x27\x29\x24" },//PLIM 
+  /* TipModel                  */ { "\x19\x2A\x1F\x24\x29" },//TIPMO 
+  /* SimpleCalibrationMode     */ { "\x1B\x24\x1F\x1D\x25\x27" },//SMPCAL 
+  /* AdvancedCalibrationMode   */ { "\x25\x28\x26\x1D\x25\x27" },//ADVCAL 
+  /* PowerInput                */ { "\x1F\x34\x31\x34" },//PWRW 
+  /* PowerLimitEnable          */ { "\x1F\x27\x2A\x24\x2D\x35" },//PLIMEN 
+  /* PowerLimit                */ { "\x1F\x27\x2A\x24" },//PLIM 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x1B\x12\x16\x1A\x0D\x13\x10\x11\x2A\x01\x1B\x0D\x0F\x0F\x10\x11\x2A\x15",//['Soldering', 'Settings'] 
+  /* SolderingMenu             */ "\x1B\x12\x16\x1A\x0D\x13\x10\x11\x2B\x01\x1B\x0D\x0F\x0F\x10\x11\x2B\x15",//['Soldering', 'Settings'] 
   /* PowerSavingMenu           */ "\x1B\x16\x0D\x0D\x14\x01\x24\x12\x1A\x0D\x15",//['Sleep', 'Modes'] 
-  /* UIMenu                    */ "\x3E\x15\x0D\x13\x01\x29\x11\x0F\x0D\x13\x39\x0E\x1C\x0D",//['User', 'Interface'] 
-  /* AdvancedMenu              */ "\x26\x1A\x18\x0E\x11\x1C\x0D\x1A\x01\x2B\x14\x0F\x10\x12\x11\x15",//['Advanced', 'Options'] 
+  /* UIMenu                    */ "\x3E\x15\x0D\x13\x01\x2A\x11\x0F\x0D\x13\x39\x0E\x1C\x0D",//['User', 'Interface'] 
+  /* AdvancedMenu              */ "\x25\x1A\x18\x0E\x11\x1C\x0D\x1A\x01\x29\x14\x0F\x10\x12\x11\x15",//['Advanced', 'Options'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x1B\x12\x16\x1A\x0D\x13\x10\x11\x2A\x0C\x15\x0D\x0F\x0F\x10\x11\x2A\x15",//Soldering settings 
-  /* PowerSavingMenu           */ "\x1F\x12\x3A\x0D\x13\x0C\x1B\x0E\x18\x10\x11\x2A\x0C\x1B\x0D\x0F\x0F\x10\x11\x2A\x15",//Power Saving Settings 
-  /* UIMenu                    */ "\x3E\x15\x0D\x13\x0C\x29\x11\x0F\x0D\x13\x39\x0E\x1C\x0D\x0C\x15\x0D\x0F\x0F\x10\x11\x2A\x15",//User Interface settings 
-  /* AdvancedMenu              */ "\x26\x1A\x18\x0E\x11\x1C\x0D\x1A\x0C\x12\x14\x0F\x10\x12\x11\x15",//Advanced options 
+  /* SolderingMenu             */ "\x1B\x12\x16\x1A\x0D\x13\x10\x11\x2B\x0C\x15\x0D\x0F\x0F\x10\x11\x2B\x15",//Soldering settings 
+  /* PowerSavingMenu           */ "\x1F\x12\x3A\x0D\x13\x0C\x1B\x0E\x18\x10\x11\x2B\x0C\x1B\x0D\x0F\x0F\x10\x11\x2B\x15",//Power Saving Settings 
+  /* UIMenu                    */ "\x3E\x15\x0D\x13\x0C\x2A\x11\x0F\x0D\x13\x39\x0E\x1C\x0D\x0C\x15\x0D\x0F\x0F\x10\x11\x2B\x15",//User Interface settings 
+  /* AdvancedMenu              */ "\x25\x1A\x18\x0E\x11\x1C\x0D\x1A\x0C\x12\x14\x0F\x10\x12\x11\x15",//Advanced options 
 };
 
 #endif
@@ -6064,8 +6059,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x19 -> l
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1A -> k
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0xE0,0xC0,0xFF,0xFF,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x1B -> d
-0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x1C -> z
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1D -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1C -> .
+0x00,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x60,0x20,0x00,0x00,0x00,0x30,0x38,0x3C,0x36,0x33,0x31,0x30,0x30,0x30,0x00,0x00,//\x1D -> z
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x1E -> b
 0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x1F -> u
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x20 -> c
@@ -6075,9 +6070,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x24 -> S
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x25 -> O
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x26 -> g
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x27 -> V
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x28 -> K
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x29 -> C
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x27 -> K
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x28 -> C
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x29 -> V
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x2A -> P
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x2B -> !
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x2C -> h
@@ -6140,8 +6135,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x19 -> l
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1A -> k
 0x38, 0x44, 0x44, 0x48, 0x7f, 0x00,//\x1B -> d
-0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x1C -> z
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1D -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1C -> .
+0x44, 0x64, 0x54, 0x4c, 0x44, 0x00,//\x1D -> z
 0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x1E -> b
 0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x1F -> u
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x20 -> c
@@ -6151,9 +6146,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x24 -> S
 0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x25 -> O
 0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x26 -> g
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x27 -> V
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x28 -> K
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x29 -> C
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x27 -> K
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x28 -> C
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x29 -> V
 0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x2A -> P
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x2B -> !
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x2C -> h
@@ -6192,51 +6187,51 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Slovensko ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x27\x0F\x13\x0D\x10\x0C\x15\x0C\x16\x0C\x10\x16\x0C\x1D\x0D\x22\x0C\x14\x12\x0C\x18\x0F\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12\x0D\x0F\x1C\x1A\x19\x11\x15\x0C\x1D\x0D\x2F\x33\x29\x0D\x03\x02\x27\x2E\x0D\x2F\x24\x0D\x05\x1D\x05\x27\x0D\x10\x0C\x0D\x20\x0E\x19\x0F\x20\x11\x2E",//Vir napajanja. Nastavi napetost izklopa. <DC 10V> <S 3.3V na celico> 
-  /* SleepTemperature          */ "\x23\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0C\x0D\x17\x0E\x1B\x0D\x14\x15\x0C\x10\x16\x0E\x17\x0D\x2F\x29\x2E",//Temperatura med spanjem <C> 
+  /* PowerSource               */ "\x29\x0F\x13\x0D\x10\x0C\x15\x0C\x16\x0C\x10\x16\x0C\x1C\x0D\x22\x0C\x14\x12\x0C\x18\x0F\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12\x0D\x0F\x1D\x1A\x19\x11\x15\x0C\x1C\x0D\x2F\x33\x28\x0D\x03\x02\x29\x2E\x0D\x2F\x24\x0D\x05\x1C\x05\x29\x0D\x10\x0C\x0D\x20\x0E\x19\x0F\x20\x11\x2E",//Vir napajanja. Nastavi napetost izklopa. <DC 10V> <S 3.3V na celico> 
+  /* SleepTemperature          */ "\x23\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0C\x0D\x17\x0E\x1B\x0D\x14\x15\x0C\x10\x16\x0E\x17\x0D\x2F\x28\x2E",//Temperatura med spanjem <C> 
   /* SleepTimeout              */ "\x39\x0C\x14\x0D\x15\x13\x0E\x1B\x0D\x14\x15\x0C\x10\x16\x0E\x17\x0D\x2F\x17\x0F\x10\x1F\x12\x0E\x4A\x14\x0E\x1A\x1F\x10\x1B\x0E\x2E",//Čas pred spanjem <minute/sekunde> 
-  /* ShutdownTimeout           */ "\x39\x0C\x14\x0D\x15\x13\x0E\x1B\x0D\x0F\x1C\x1A\x19\x11\x15\x11\x17\x0D\x2F\x17\x0F\x10\x1F\x12\x0E\x2E",//Čas pred izklopom <minute> 
-  /* MotionSensitivity         */ "\x25\x1E\x21\x1F\x12\x19\x16\x0F\x18\x11\x14\x12\x0D\x15\x13\x0E\x17\x0F\x1A\x0C\x10\x16\x0C\x0D\x2F\x02\x1D\x0F\x1C\x1A\x19\x11\x15\x19\x16\x0E\x10\x11\x0D\x03\x1D\x10\x0C\x16\x17\x0C\x10\x16\x0D\x0B\x1D\x10\x0C\x16\x1E\x11\x19\x16\x0D\x11\x1E\x21\x1F\x12\x19\x16\x0F\x18\x11\x2E",//Občutljivost premikanja <0.izklopljeno 1.najmanj 9.najbolj občutljivo> 
-  /* TemperatureUnit           */ "\x42\x10\x11\x12\x0C\x0D\x1C\x0C\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x0D\x2F\x29\x3E\x20\x0E\x19\x1C\x0F\x16\x0C\x0D\x41\x3E\x3A\x0C\x2C\x13\x0E\x10\x2C\x0E\x0F\x12\x0C\x2E",//Enota za temperaturo <C=celzija F=fahrenheita> 
-  /* AdvancedIdle              */ "\x2A\x13\x0F\x1A\x0C\x38\x0E\x0D\x18\x0E\x21\x0D\x0F\x10\x3A\x11\x13\x17\x0C\x20\x0F\x16\x0D\x1C\x0D\x17\x0C\x10\x16\x35\x11\x0D\x15\x0F\x14\x0C\x18\x11\x0D\x10\x0C\x0D\x1C\x0C\x14\x19\x11\x10\x1F\x0D\x17\x0E\x1B\x0D\x17\x0F\x13\x11\x18\x0C\x10\x16\x0E\x17\x1D",//Prikaže več informacij z manjšo pisavo na zaslonu med mirovanjem. 
-  /* DisplayRotation           */ "\x25\x13\x0F\x0E\x10\x12\x0C\x20\x0F\x16\x0C\x0D\x1C\x0C\x14\x19\x11\x10\x0C\x0D\x2F\x24\x1D\x0D\x14\x0C\x17\x11\x1B\x0E\x16\x10\x11\x0D\x40\x1D\x0D\x19\x0E\x18\x11\x0D\x33\x1D\x0D\x1B\x0E\x14\x10\x11\x2E",//Orientacija zaslona <S. samodejno L. levo D. desno> 
-  /* BoostEnabled              */ "\x25\x17\x11\x26\x11\x21\x0F\x31\x0D\x1B\x0C\x0D\x12\x0F\x15\x1A\x0C\x0D\x1C\x0C\x0D\x10\x0C\x15\x13\x0E\x16\x0D\x1C\x0C\x26\x13\x0E\x16\x0E\x0D\x1A\x11\x10\x0F\x20\x11\x0D\x10\x0C\x0D\x06\x07\x02\x29\x1D",//Omogoči, da tipka za naprej zagreje konico na 450C. 
+  /* ShutdownTimeout           */ "\x39\x0C\x14\x0D\x15\x13\x0E\x1B\x0D\x0F\x1D\x1A\x19\x11\x15\x11\x17\x0D\x2F\x17\x0F\x10\x1F\x12\x0E\x2E",//Čas pred izklopom <minute> 
+  /* MotionSensitivity         */ "\x25\x1E\x21\x1F\x12\x19\x16\x0F\x18\x11\x14\x12\x0D\x15\x13\x0E\x17\x0F\x1A\x0C\x10\x16\x0C\x0D\x2F\x02\x1C\x0F\x1D\x1A\x19\x11\x15\x19\x16\x0E\x10\x11\x0D\x03\x1C\x10\x0C\x16\x17\x0C\x10\x16\x0D\x0B\x1C\x10\x0C\x16\x1E\x11\x19\x16\x0D\x11\x1E\x21\x1F\x12\x19\x16\x0F\x18\x11\x2E",//Občutljivost premikanja <0.izklopljeno 1.najmanj 9.najbolj občutljivo> 
+  /* TemperatureUnit           */ "\x42\x10\x11\x12\x0C\x0D\x1D\x0C\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x0D\x2F\x28\x3E\x20\x0E\x19\x1D\x0F\x16\x0C\x0D\x41\x3E\x3A\x0C\x2C\x13\x0E\x10\x2C\x0E\x0F\x12\x0C\x2E",//Enota za temperaturo <C=celzija F=fahrenheita> 
+  /* AdvancedIdle              */ "\x2A\x13\x0F\x1A\x0C\x38\x0E\x0D\x18\x0E\x21\x0D\x0F\x10\x3A\x11\x13\x17\x0C\x20\x0F\x16\x0D\x1D\x0D\x17\x0C\x10\x16\x35\x11\x0D\x15\x0F\x14\x0C\x18\x11\x0D\x10\x0C\x0D\x1D\x0C\x14\x19\x11\x10\x1F\x0D\x17\x0E\x1B\x0D\x17\x0F\x13\x11\x18\x0C\x10\x16\x0E\x17\x1C",//Prikaže več informacij z manjšo pisavo na zaslonu med mirovanjem. 
+  /* DisplayRotation           */ "\x25\x13\x0F\x0E\x10\x12\x0C\x20\x0F\x16\x0C\x0D\x1D\x0C\x14\x19\x11\x10\x0C\x0D\x2F\x24\x1C\x0D\x14\x0C\x17\x11\x1B\x0E\x16\x10\x11\x0D\x40\x1C\x0D\x19\x0E\x18\x11\x0D\x33\x1C\x0D\x1B\x0E\x14\x10\x11\x2E",//Orientacija zaslona <S. samodejno L. levo D. desno> 
+  /* BoostEnabled              */ "\x25\x17\x11\x26\x11\x21\x0F\x31\x0D\x1B\x0C\x0D\x12\x0F\x15\x1A\x0C\x0D\x1D\x0C\x0D\x10\x0C\x15\x13\x0E\x16\x0D\x1D\x0C\x26\x13\x0E\x16\x0E\x0D\x1A\x11\x10\x0F\x20\x11\x0D\x10\x0C\x0D\x06\x07\x02\x28\x1C",//Omogoči, da tipka za naprej zagreje konico na 450C. 
   /* BoostTemperature          */ "\x23\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0C\x0D\x18\x0D\x46\x1E\x11\x11\x14\x12\x46\x0D\x10\x0C\x21\x0F\x10\x1F",//Temperatura v "boost" načinu 
-  /* AutoStart                 */ "\x24\x0C\x17\x11\x1B\x0E\x16\x10\x11\x0D\x14\x0E\x26\x13\x0E\x16\x0D\x1A\x11\x10\x0F\x20\x11\x0D\x11\x1E\x0D\x18\x1A\x19\x11\x15\x1F\x1D\x0D\x23\x3E\x14\x0E\x26\x13\x0E\x16\x31\x0D\x24\x3E\x14\x15\x0C\x10\x16\x0E\x31\x0D\x41\x3E\x0F\x1C\x1A\x19\x11\x15",//Samodejno segrej konico ob vklopu. T=segrej, S=spanje, F=izklop 
-  /* CooldownBlink             */ "\x32\x12\x13\x0F\x15\x0C\x16\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x0D\x17\x0E\x1B\x0D\x2C\x19\x0C\x16\x0E\x10\x16\x0E\x17\x31\x0D\x1A\x11\x0D\x16\x0E\x0D\x1A\x11\x10\x0F\x20\x0C\x0D\x35\x0E\x0D\x18\x13\x11\x21\x0C\x1D",//Utripaj temperaturo med hlajenjem, ko je konica še vroča. 
-  /* TemperatureCalibration    */ "\x28\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0E\x0D\x10\x0C\x0D\x1A\x11\x10\x0F\x20\x0F\x1D",//Kalibracija temperature na konici. 
+  /* AutoStart                 */ "\x24\x0C\x17\x11\x1B\x0E\x16\x10\x11\x0D\x14\x0E\x26\x13\x0E\x16\x0D\x1A\x11\x10\x0F\x20\x11\x0D\x11\x1E\x0D\x18\x1A\x19\x11\x15\x1F\x1C\x0D\x23\x3E\x14\x0E\x26\x13\x0E\x16\x31\x0D\x24\x3E\x14\x15\x0C\x10\x16\x0E\x31\x0D\x41\x3E\x0F\x1D\x1A\x19\x11\x15",//Samodejno segrej konico ob vklopu. T=segrej, S=spanje, F=izklop 
+  /* CooldownBlink             */ "\x32\x12\x13\x0F\x15\x0C\x16\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x0D\x17\x0E\x1B\x0D\x2C\x19\x0C\x16\x0E\x10\x16\x0E\x17\x31\x0D\x1A\x11\x0D\x16\x0E\x0D\x1A\x11\x10\x0F\x20\x0C\x0D\x35\x0E\x0D\x18\x13\x11\x21\x0C\x1C",//Utripaj temperaturo med hlajenjem, ko je konica še vroča. 
+  /* TemperatureCalibration    */ "\x27\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0E\x0D\x10\x0C\x0D\x1A\x11\x10\x0F\x20\x0F\x1C",//Kalibracija temperature na konici. 
   /* SettingsReset             */ "\x2A\x11\x10\x0C\x14\x12\x0C\x18\x0F\x12\x0E\x18\x0D\x18\x14\x0E\x2C\x0D\x10\x0C\x14\x12\x0C\x18\x0F\x12\x0E\x18",//Ponastavitev vseh nastavitev 
-  /* VoltageCalibration        */ "\x28\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x27\x3C\x22\x1D\x0D\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x1C\x0D\x26\x1F\x17\x1E\x0F\x31\x0D\x1B\x11\x19\x26\x0F\x0D\x15\x13\x0F\x12\x0F\x14\x1A\x0D\x1C\x0C\x0D\x0F\x1C\x2C\x11\x1B\x1D",//Kalibracija VIN. Nastavitve z gumbi, dolgi pritisk za izhod. 
-  /* AdvancedSoldering         */ "\x2A\x13\x0F\x1A\x0C\x38\x0E\x0D\x18\x0E\x21\x0D\x0F\x10\x3A\x11\x13\x17\x0C\x20\x0F\x16\x0D\x1C\x0D\x17\x0C\x10\x16\x35\x11\x0D\x15\x0F\x14\x0C\x18\x11\x0D\x10\x0C\x0D\x1C\x0C\x14\x19\x11\x10\x1F\x0D\x17\x0E\x1B\x0D\x14\x15\x0C\x16\x1A\x0C\x10\x16\x0E\x17\x1D",//Prikaže več informacij z manjšo pisavo na zaslonu med spajkanjem. 
-  /* ScrollingSpeed            */ "\x2D\x0F\x12\x13\x11\x14\x12\x31\x0D\x14\x0D\x1A\x0C\x12\x0E\x13\x11\x0D\x14\x0E\x0D\x15\x13\x0F\x1A\x0C\x1C\x1F\x16\x0E\x0D\x1E\x0E\x14\x0E\x1B\x0F\x19\x11",//Hitrost, s katero se prikazuje besedilo 
-  /* TipModel                  */ "\x3C\x1C\x1E\x0F\x13\x0C\x0D\x12\x0F\x15\x0C\x0D\x1A\x11\x10\x0F\x20\x0E",//Izbira tipa konice 
-  /* SimpleCalibrationMode     */ "\x2A\x13\x0E\x15\x13\x11\x14\x12\x0C\x0D\x1A\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x1C\x0D\x18\x13\x11\x21\x11\x0D\x18\x11\x1B\x11\x1D",//Preprosta kalibracija z vročo vodo. 
+  /* VoltageCalibration        */ "\x27\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x29\x3C\x22\x1C\x0D\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x1D\x0D\x26\x1F\x17\x1E\x0F\x31\x0D\x1B\x11\x19\x26\x0F\x0D\x15\x13\x0F\x12\x0F\x14\x1A\x0D\x1D\x0C\x0D\x0F\x1D\x2C\x11\x1B\x1C",//Kalibracija VIN. Nastavitve z gumbi, dolgi pritisk za izhod. 
+  /* AdvancedSoldering         */ "\x2A\x13\x0F\x1A\x0C\x38\x0E\x0D\x18\x0E\x21\x0D\x0F\x10\x3A\x11\x13\x17\x0C\x20\x0F\x16\x0D\x1D\x0D\x17\x0C\x10\x16\x35\x11\x0D\x15\x0F\x14\x0C\x18\x11\x0D\x10\x0C\x0D\x1D\x0C\x14\x19\x11\x10\x1F\x0D\x17\x0E\x1B\x0D\x14\x15\x0C\x16\x1A\x0C\x10\x16\x0E\x17\x1C",//Prikaže več informacij z manjšo pisavo na zaslonu med spajkanjem. 
+  /* ScrollingSpeed            */ "\x2D\x0F\x12\x13\x11\x14\x12\x31\x0D\x14\x0D\x1A\x0C\x12\x0E\x13\x11\x0D\x14\x0E\x0D\x15\x13\x0F\x1A\x0C\x1D\x1F\x16\x0E\x0D\x1E\x0E\x14\x0E\x1B\x0F\x19\x11",//Hitrost, s katero se prikazuje besedilo 
+  /* TipModel                  */ "\x3C\x1D\x1E\x0F\x13\x0C\x0D\x12\x0F\x15\x0C\x0D\x1A\x11\x10\x0F\x20\x0E",//Izbira tipa konice 
+  /* SimpleCalibrationMode     */ "\x2A\x13\x0E\x15\x13\x11\x14\x12\x0C\x0D\x1A\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x1D\x0D\x18\x13\x11\x21\x11\x0D\x18\x11\x1B\x11\x1C",//Preprosta kalibracija z vročo vodo. 
   /* AdvancedCalibrationMode   */ "\x22\x0C\x15\x13\x0E\x1B\x10\x0C\x0D\x1A\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x14\x0D\x12\x0E\x13\x17\x11\x21\x19\x0E\x10\x11\x17\x0D\x10\x0C\x0D\x1A\x11\x10\x0F\x20\x0F",//Napredna kalibracija s termočlenom na konici 
   /* PowerInput                */ "\x30\x11\x21\x0D\x18\x0D\x36\x0D\x10\x0C\x15\x0C\x16\x0C\x19\x10\x0E\x26\x0C\x0D\x18\x0F\x13\x0C",//Moč v W napajalnega vira 
   /* PowerLimitEnable          */ "\x42\x10\x0C\x1E\x19\x0E\x0D\x15\x11\x3F\x0E\x13\x0D\x19\x0F\x17\x0F\x12",//Enable power limit 
   /* PowerLimit                */ "\x30\x0C\x47\x0F\x17\x1F\x17\x0D\x15\x11\x3F\x0E\x13\x0D\x12\x2C\x0E\x0D\x0F\x13\x11\x10\x0D\x20\x0C\x10\x0D\x1F\x14\x0E\x0D\x2F\x36\x0C\x12\x12\x14\x2E",//Maximum power the iron can use <Watts> 
 };
 
-const char* SettingsCalibrationDone = "\x28\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x11\x15\x13\x0C\x18\x19\x16\x0E\x10\x0C\x2B";//Kalibracija opravljena! 
+const char* SettingsCalibrationDone = "\x27\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C\x0D\x11\x15\x13\x0C\x18\x19\x16\x0E\x10\x0C\x2B";//Kalibracija opravljena! 
 const char* SettingsCalibrationWarning = "\x2A\x13\x0E\x1B\x0E\x10\x0D\x10\x0C\x1B\x0C\x19\x16\x1F\x16\x0E\x12\x0E\x31\x0D\x17\x11\x13\x0C\x0D\x1E\x0F\x12\x0F\x0D\x1A\x11\x10\x0F\x20\x0C\x0D\x10\x0C\x0D\x14\x11\x1E\x10\x0F\x0D\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x0F\x2B";//Preden nadaljujete, mora biti konica na sobni temperaturi! 
-const char* SettingsResetWarning = "\x24\x12\x0E\x0D\x15\x13\x0E\x15\x13\x0F\x21\x0C\x10\x0F\x31\x0D\x1B\x0C\x0D\x38\x0E\x19\x0F\x12\x0E\x0D\x15\x11\x10\x0C\x14\x12\x0C\x18\x0F\x12\x0F\x0D\x10\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x10\x0C\x0D\x15\x13\x0F\x18\x1C\x0E\x12\x0E\x0D\x18\x13\x0E\x1B\x10\x11\x14\x12\x0F\x43";//Ste prepričani, da želite ponastaviti nastavitve na privzete vrednosti? 
-const char* UVLOWarningString = "\x22\x3C\x45\x28\x37\x0D\x32";//NIZKA U 
-const char* UndervoltageString = "\x22\x0F\x1C\x1A\x0C\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12";//Nizka napetost 
-const char* InputVoltageString = "\x27\x2C\x11\x1B\x10\x0C\x0D\x32\x34\x0D";//Vhodna U:  
-const char* WarningTipTempString = "\x23\x0E\x17\x15\x1D\x0D\x1A\x11\x10\x1D\x34\x0D";//Temp. kon.:  
-const char* BadTipString = "\x25\x28\x27\x37\x3B\x37\x0D\x28";//OKVARA K 
-const char* SleepingSimpleString = "\x45\x1C\x1C\x1C";//Zzzz 
-const char* SleepingAdvancedString = "\x24\x15\x0F\x17\x1D\x1D\x1D";//Spim... 
+const char* SettingsResetWarning = "\x24\x12\x0E\x0D\x15\x13\x0E\x15\x13\x0F\x21\x0C\x10\x0F\x31\x0D\x1B\x0C\x0D\x38\x0E\x19\x0F\x12\x0E\x0D\x15\x11\x10\x0C\x14\x12\x0C\x18\x0F\x12\x0F\x0D\x10\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x10\x0C\x0D\x15\x13\x0F\x18\x1D\x0E\x12\x0E\x0D\x18\x13\x0E\x1B\x10\x11\x14\x12\x0F\x43";//Ste prepričani, da želite ponastaviti nastavitve na privzete vrednosti? 
+const char* UVLOWarningString = "\x22\x3C\x45\x27\x37\x0D\x32";//NIZKA U 
+const char* UndervoltageString = "\x22\x0F\x1D\x1A\x0C\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12";//Nizka napetost 
+const char* InputVoltageString = "\x29\x2C\x11\x1B\x10\x0C\x0D\x32\x34\x0D";//Vhodna U:  
+const char* WarningTipTempString = "\x23\x0E\x17\x15\x1C\x0D\x1A\x11\x10\x1C\x34\x0D";//Temp. kon.:  
+const char* BadTipString = "\x25\x27\x29\x37\x3B\x37\x0D\x27";//OKVARA K 
+const char* SleepingSimpleString = "\x45\x1D\x1D\x1D";//Zzzz 
+const char* SleepingAdvancedString = "\x24\x15\x0F\x17\x1C\x1C\x1C";//Spim... 
 const char* WarningSimpleString = "\x2D\x25\x23\x2B";//HOT! 
-const char* WarningAdvancedString = "\x2B\x2B\x2B\x27\x3B\x25\x39\x37\x0D\x28\x25\x22\x1D\x2B\x2B\x2B";//!!!VROČA KON.!!! 
-const char* SleepingTipAdvancedString = "\x28\x10\x0F\x20\x0C\x34";//Knica: 
-const char* IdleTipString = "\x28\x11\x10\x34";//Kon: 
-const char* IdleSetString = "\x0D\x10\x14\x12\x1D\x34";// nst.: 
-const char* TipDisconnectedString = "\x28\x25\x22\x3C\x29\x37\x0D\x25\x33\x24\x23\x3B\x37\x22\x48\x1D";//KONICA ODSTRANJ. 
+const char* WarningAdvancedString = "\x2B\x2B\x2B\x29\x3B\x25\x39\x37\x0D\x27\x25\x22\x1C\x2B\x2B\x2B";//!!!VROČA KON.!!! 
+const char* SleepingTipAdvancedString = "\x27\x10\x0F\x20\x0C\x34";//Knica: 
+const char* IdleTipString = "\x27\x11\x10\x34";//Kon: 
+const char* IdleSetString = "\x0D\x10\x14\x12\x1C\x34";// nst.: 
+const char* TipDisconnectedString = "\x27\x25\x22\x3C\x28\x37\x0D\x25\x33\x24\x23\x3B\x37\x22\x48\x1C";//KONICA ODSTRANJ. 
 const char* SolderingAdvancedPowerPrompt = "\x30\x11\x21\x34\x0D";//Moč:  
-const char* OffString = "\x3C\x1C\x1A";//Izk 
-const char* ResetOKMessage = "\x3B\x0E\x14\x0E\x12\x0D\x25\x28";//Reset OK 
-const char* YourGainMessage = "\x25\x16\x0C\x21\x0C\x10\x1D\x34";//Ojačan.: 
+const char* OffString = "\x3C\x1D\x1A";//Izk 
+const char* ResetOKMessage = "\x3B\x0E\x14\x0E\x12\x0D\x25\x27";//Reset OK 
+const char* YourGainMessage = "\x25\x16\x0C\x21\x0C\x10\x1C\x34";//Ojačan.: 
 const char* SettingsResetMessage = "\x24\x0E\x12\x12\x0F\x10\x26\x14\x0D\x3F\x0E\x13\x0E\x01\x13\x0E\x14\x0E\x12\x2B";//Settings were_reset! 
 
 const char* SettingRightChar = "\x33";//D 
@@ -6246,30 +6241,31 @@ const char* SettingFastChar = "\x2D";//H
 const char* SettingSlowChar = "\x2A";//P 
 const char* SettingStartSolderingChar = "\x23";//T 
 const char* SettingStartSleepChar = "\x24";//S 
+const char* SettingStartSleepOffChar = "\x25";//O 
 const char* SettingStartNoneChar = "\x41";//F 
 
 const char* SymbolPlus = "\x4B";//+ 
 const char* SymbolMinus = "\x44";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x1D";//. 
-const char* SymbolDegC = "\x29";//C 
+const char* SymbolDot = "\x1C";//. 
+const char* SymbolDegC = "\x28";//C 
 const char* SymbolDegF = "\x41";//F 
 const char* SymbolMinutes = "\x30";//M 
 const char* SymbolSeconds = "\x24";//S 
 const char* SymbolWatts = "\x36";//W 
-const char* SymbolVolts = "\x27";//V 
-const char* SymbolDC = "\x33\x29";//DC 
+const char* SymbolVolts = "\x29";//V 
+const char* SymbolDC = "\x33\x28";//DC 
 const char* SymbolCellCount = "\x24";//S 
-const char* SymbolVersionNumber = "\x27\x04\x1D\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x18\x04\x1C\x02\x0A\x1C\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x3D\x02\x04",//B02 
 	 "\x33\x04\x06",//D24 
-	 "\x3D\x29\x04",//BC2 
-	 "\x0D\x29\x03",// C1 
+	 "\x3D\x28\x04",//BC2 
+	 "\x0D\x28\x03",// C1 
 	 "\x23\x24\x03\x02\x02",//TS100 
-	 "\x3D\x29\x04",//BC2 
+	 "\x3D\x28\x04",//BC2 
 	 "\x2D\x0C\x1A\x1A\x11",//Hakko 
 	 "\x32\x14\x0E\x13",//User 
 #else
@@ -6281,37 +6277,37 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x44\x02\x03\x44\x04\x02",//18-01-20 
+	 "\x03\x06\x44\x02\x05\x44\x04\x02",//14-03-20 
 	 "\x2D\x36\x0D\x49\x0D",//HW G  
 	 "\x2D\x36\x0D\x30\x0D",//HW M  
 	 "\x2D\x36\x0D\x2A\x0D",//HW P  
 	 "\x23\x0F\x17\x0E\x0D",//Time  
 	 "\x30\x11\x18\x0E\x0D",//Move  
 	 "\x3B\x23\x0F\x15\x0D",//RTip  
-	 "\x29\x23\x0F\x15\x0D",//CTip  
-	 "\x29\x2D\x0C\x10\x0D",//CHan  
-	 "\x27\x0F\x10\x0D\x0D",//Vin   
-	 "\x2A\x29\x3D\x0D\x0D",//PCB   
+	 "\x28\x23\x0F\x15\x0D",//CTip  
+	 "\x28\x2D\x0C\x10\x0D",//CHan  
+	 "\x29\x0F\x10\x0D\x0D",//Vin   
+	 "\x2A\x28\x3D\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x27\x0F\x13", "\x10\x0C\x15\x0C\x16\x0C\x10\x16\x0C" },//['Vir', 'napajanja'] 
-  /* SleepTemperature          */ { "\x23\x0E\x17\x15\x1D\x0D\x17\x0E\x1B", "\x14\x15\x0C\x10\x16\x0E\x17" },//['Temp. med', 'spanjem'] 
+  /* PowerSource               */ { "\x29\x0F\x13", "\x10\x0C\x15\x0C\x16\x0C\x10\x16\x0C" },//['Vir', 'napajanja'] 
+  /* SleepTemperature          */ { "\x23\x0E\x17\x15\x1C\x0D\x17\x0E\x1B", "\x14\x15\x0C\x10\x16\x0E\x17" },//['Temp. med', 'spanjem'] 
   /* SleepTimeout              */ { "\x39\x0C\x14\x0D\x1B\x11", "\x14\x15\x0C\x10\x16\x0C" },//['Čas do', 'spanja'] 
-  /* ShutdownTimeout           */ { "\x39\x0C\x14\x0D\x1B\x11", "\x0F\x1C\x1A\x19\x11\x15\x0C" },//['Čas do', 'izklopa'] 
+  /* ShutdownTimeout           */ { "\x39\x0C\x14\x0D\x1B\x11", "\x0F\x1D\x1A\x19\x11\x15\x0C" },//['Čas do', 'izklopa'] 
   /* MotionSensitivity         */ { "\x25\x1E\x21\x1F\x12\x19\x16\x0F\x18\x11\x14\x12", "\x15\x13\x0E\x17\x0F\x1A\x0C\x10\x16\x0C" },//['Občutljivost', 'premikanja'] 
-  /* TemperatureUnit           */ { "\x42\x10\x11\x12\x0C\x0D\x1C\x0C", "\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11" },//['Enota za', 'temperaturo'] 
-  /* AdvancedIdle              */ { "\x27\x0E\x21\x0D\x0F\x10\x3A\x11\x0D\x10\x0C", "\x1C\x0C\x14\x19\x11\x10\x1F\x0D\x18\x0D\x17\x0F\x13" },//['Več info na', 'zaslonu v mir'] 
-  /* DisplayRotation           */ { "\x25\x13\x0F\x0E\x10\x12\x0C\x20\x0F\x16\x0C", "\x1C\x0C\x14\x19\x11\x10\x0C" },//['Orientacija', 'zaslona'] 
+  /* TemperatureUnit           */ { "\x42\x10\x11\x12\x0C\x0D\x1D\x0C", "\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11" },//['Enota za', 'temperaturo'] 
+  /* AdvancedIdle              */ { "\x29\x0E\x21\x0D\x0F\x10\x3A\x11\x0D\x10\x0C", "\x1D\x0C\x14\x19\x11\x10\x1F\x0D\x18\x0D\x17\x0F\x13" },//['Več info na', 'zaslonu v mir'] 
+  /* DisplayRotation           */ { "\x25\x13\x0F\x0E\x10\x12\x0C\x20\x0F\x16\x0C", "\x1D\x0C\x14\x19\x11\x10\x0C" },//['Orientacija', 'zaslona'] 
   /* BoostEnabled              */ { "\x25\x17\x11\x26\x11\x21\x0F", "\x1E\x11\x11\x14\x12\x0D\x17\x11\x1B\x0E" },//['Omogoči', 'boost mode'] 
-  /* BoostTemperature          */ { "\x23\x0E\x17\x15\x0E\x13\x0C\x12\x1D", "\x18\x0D\x1E\x11\x11\x14\x12" },//['Temperat.', 'v boost'] 
-  /* AutoStart                 */ { "\x24\x0C\x17\x11\x1B\x0E\x16\x10\x0F", "\x1C\x0C\x26\x11\x10" },//['Samodejni', 'zagon'] 
+  /* BoostTemperature          */ { "\x23\x0E\x17\x15\x0E\x13\x0C\x12\x1C", "\x18\x0D\x1E\x11\x11\x14\x12" },//['Temperat.', 'v boost'] 
+  /* AutoStart                 */ { "\x24\x0C\x17\x11\x1B\x0E\x16\x10\x0F", "\x1D\x0C\x26\x11\x10" },//['Samodejni', 'zagon'] 
   /* CooldownBlink             */ { "\x32\x12\x13\x0F\x15\x0C\x10\x16\x0E\x0D\x17\x0E\x1B", "\x2C\x19\x0C\x16\x0E\x10\x16\x0E\x17" },//['Utripanje med', 'hlajenjem'] 
-  /* TemperatureCalibration    */ { "\x28\x0C\x19\x0F\x1E\x13\x0F\x13\x0C\x17", "\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x43" },//['Kalibriram', 'temperaturo?'] 
+  /* TemperatureCalibration    */ { "\x27\x0C\x19\x0F\x1E\x13\x0F\x13\x0C\x17", "\x12\x0E\x17\x15\x0E\x13\x0C\x12\x1F\x13\x11\x43" },//['Kalibriram', 'temperaturo?'] 
   /* SettingsReset             */ { "\x23\x11\x18\x0C\x13\x10\x0F\x35\x1A\x0E", "\x10\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x43" },//['Tovarniške', 'nastavitve?'] 
-  /* VoltageCalibration        */ { "\x28\x0C\x19\x0F\x1E\x13\x0F\x13\x0C\x17", "\x18\x2C\x11\x1B\x10\x11\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12\x43" },//['Kalibriram', 'vhodno napetost?'] 
-  /* AdvancedSoldering         */ { "\x27\x0E\x21\x0D\x0F\x10\x3A\x11\x0D\x10\x0C", "\x1C\x0C\x14\x19\x11\x10\x1F\x0D\x14\x15\x0C\x16\x1D" },//['Več info na', 'zaslonu spaj.'] 
+  /* VoltageCalibration        */ { "\x27\x0C\x19\x0F\x1E\x13\x0F\x13\x0C\x17", "\x18\x2C\x11\x1B\x10\x11\x0D\x10\x0C\x15\x0E\x12\x11\x14\x12\x43" },//['Kalibriram', 'vhodno napetost?'] 
+  /* AdvancedSoldering         */ { "\x29\x0E\x21\x0D\x0F\x10\x3A\x11\x0D\x10\x0C", "\x1D\x0C\x14\x19\x11\x10\x1F\x0D\x14\x15\x0C\x16\x1C" },//['Več info na', 'zaslonu spaj.'] 
   /* ScrollingSpeed            */ { "\x2D\x0F\x12\x13\x11\x14\x12", "\x1E\x0E\x14\x0E\x1B\x0F\x19\x0C" },//['Hitrost', 'besedila'] 
   /* TipModel                  */ { "\x30\x11\x1B\x0E\x19", "\x1A\x11\x10\x0F\x20\x0E" },//['Model', 'konice'] 
   /* SimpleCalibrationMode     */ { "\x2A\x13\x0E\x15\x13\x11\x14\x12\x0C", "\x1A\x0C\x19\x0F\x1E\x13\x0C\x20\x0F\x16\x0C" },//['Preprosta', 'kalibracija'] 
@@ -6330,7 +6326,7 @@ const char* SettingsMenuEntries[4] = {
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x14\x15\x0C\x16\x1A\x0C\x10\x16\x0C",//Nastavitve spajkanja 
-  /* PowerSavingMenu           */ "\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x18\x0C\x13\x21\x0E\x18\x0C\x10\x16\x0C\x0D\x1C\x0D\x0E\x10\x0E\x13\x26\x0F\x16\x11",//Nastavitve varčevanja z energijo 
+  /* PowerSavingMenu           */ "\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x18\x0C\x13\x21\x0E\x18\x0C\x10\x16\x0C\x0D\x1D\x0D\x0E\x10\x0E\x13\x26\x0F\x16\x11",//Nastavitve varčevanja z energijo 
   /* UIMenu                    */ "\x22\x0C\x14\x12\x0C\x18\x0F\x12\x18\x0E\x0D\x1F\x15\x11\x13\x0C\x1E\x10\x0F\x35\x1A\x0E\x26\x0C\x0D\x18\x17\x0E\x14\x10\x0F\x1A\x0C",//Nastavitve uporabniškega vmesnika 
   /* AdvancedMenu              */ "\x22\x0C\x15\x13\x0E\x1B\x10\x0E\x0D\x17\x11\x38\x10\x11\x14\x12\x0F",//Napredne možnosti 
 };
@@ -6411,15 +6407,15 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x47 -> Е
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x48 -> А
 0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x49 -> W
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x4A -> V
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4B -> H
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x4C -> B
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x4D -> :
-0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4E -> Л
-0x00,0xFF,0xFF,0x00,0x00,0xC0,0xF0,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4F -> И
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x83,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x50 -> Б
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x51 -> w
-0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x52 -> p
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4A -> H
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x4B -> B
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x4C -> :
+0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4D -> Л
+0x00,0xFF,0xFF,0x00,0x00,0xC0,0xF0,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4E -> И
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x83,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x4F -> Б
+0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x50 -> w
+0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x51 -> p
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x52 -> V
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x53 -> P
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x54 -> F
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x55 -> D
@@ -6430,27 +6426,27 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x5A -> !
 0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x30,0x3C,0x0F,0x03,0x00,0x00,0x03,0x0F,0x3C,0x30,0x00,//\x5B -> Х
 0x00,0x03,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC0,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x01,0x00,0x00,0x00,0x01,0x3F,0x3F,0x00,//\x5C -> Ћ
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x5D -> k
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x5E -> b
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x5F -> U
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x60 -> R
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x61 -> L
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x62 -> G
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x63 -> E
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x9C,0xFC,0x7C,0x00,0x00,0x00,0x00,0x00,//\x64 -> ;
-0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x65 -> /
-0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x66 -> )
-0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x67 -> (
-0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x68 -> Ш
-0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x69 -> Ф
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x6A -> М
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x6B -> x
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x6C -> v
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x6D -> h
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x6E -> g
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x6F -> c
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x70 -> Y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x71 -> O
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x5D -> v
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x5E -> k
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x5F -> b
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x60 -> U
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x61 -> R
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x62 -> O
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x63 -> L
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x64 -> G
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x65 -> E
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x9C,0xFC,0x7C,0x00,0x00,0x00,0x00,0x00,//\x66 -> ;
+0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x67 -> /
+0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x68 -> )
+0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x69 -> (
+0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x6A -> Ш
+0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x6B -> Ф
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x6C -> М
+0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x6D -> x
+0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x6E -> h
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x6F -> g
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x70 -> c
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x71 -> Y
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x72 -> K
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x73 -> ?
 0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x74 -> +
@@ -6528,15 +6524,15 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x47 -> Е
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x48 -> А
 0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x49 -> W
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x4A -> V
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x4B -> H
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x4C -> B
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x4D -> :
-0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x4E -> Л
-0x7f, 0x10, 0x08, 0x04, 0x7f, 0x00,//\x4F -> И
-0x7f, 0x49, 0x49, 0x49, 0x31, 0x00,//\x50 -> Б
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x51 -> w
-0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x52 -> p
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x4A -> H
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x4B -> B
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x4C -> :
+0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x4D -> Л
+0x7f, 0x10, 0x08, 0x04, 0x7f, 0x00,//\x4E -> И
+0x7f, 0x49, 0x49, 0x49, 0x31, 0x00,//\x4F -> Б
+0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x50 -> w
+0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x51 -> p
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x52 -> V
 0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x53 -> P
 0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x54 -> F
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x55 -> D
@@ -6547,27 +6543,27 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x5A -> !
 0x63, 0x14, 0x08, 0x14, 0x63, 0x00,//\x5B -> Х
 0x01, 0x01, 0x7f, 0x09, 0x71, 0x00,//\x5C -> Ћ
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x5D -> k
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x5E -> b
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x5F -> U
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x60 -> R
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x61 -> L
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x62 -> G
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x63 -> E
-0x00, 0x56, 0x36, 0x00, 0x00, 0x00,//\x64 -> ;
-0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x65 -> /
-0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x66 -> )
-0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x67 -> (
-0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x68 -> Ш
-0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x69 -> Ф
-0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x6A -> М
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x6B -> x
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x6C -> v
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x6D -> h
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x6E -> g
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x6F -> c
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x70 -> Y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x71 -> O
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x5D -> v
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x5E -> k
+0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x5F -> b
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x60 -> U
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x61 -> R
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x62 -> O
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x63 -> L
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x64 -> G
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x65 -> E
+0x00, 0x56, 0x36, 0x00, 0x00, 0x00,//\x66 -> ;
+0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x67 -> /
+0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x68 -> )
+0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x69 -> (
+0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x6A -> Ш
+0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x6B -> Ф
+0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x6C -> М
+0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x6D -> x
+0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x6E -> h
+0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x6F -> g
+0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x70 -> c
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x71 -> Y
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x72 -> K
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x73 -> ?
 0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x74 -> +
@@ -6575,60 +6571,61 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Српски ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3E\x11\x14\x0D\x13\x0C\x14\x0C\x1E\x0C\x1D\x0C\x64\x0D\x10\x1B\x0F\x0E\x45\x18\x1E\x0E\x0D\x13\x0C\x1E\x13\x11\x3C\x11\x0D\x0F\x0C\x1B\x13\x11\x0D\x13\x0C\x14\x10\x13\x1C\x0D\x31\x55\x2C\x27\x0C\x1B\x0C\x14\x12\x0E\x0F\x0D\x67\x03\x02\x4A\x66\x2E\x0D\x37\x27\x25\x0C\x12\x0E\x0F\x11\x1E\x0C\x0D\x67\x05\x2E\x05\x4A\x0D\x14\x10\x0D\x32\x0E\x1A\x11\x1E\x11\x66\x30",//Тип напајања; одређује најнижи радни напон. <DC=адаптер (10V), S=батерија (3,3V по ћелији)> 
-  /* SleepTemperature          */ "\x3E\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0C\x0D\x13\x0C\x0D\x16\x10\x1E\x18\x0D\x17\x0E\x0D\x17\x14\x18\x38\x12\x0C\x0D\x1A\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x13\x0C\x16\x10\x13\x0D\x10\x1B\x0F\x0E\x45\x0E\x13\x10\x1F\x0D\x19\x0F\x0E\x15\x0E\x13\x0C\x0D\x15\x11\x0F\x10\x19\x0C\x1D\x0C\x1C\x0D\x31\x2C\x65\x54\x30",//Температура на коју се спушта лемилица након одређеног времена мировања. <C/F> 
+  /* PowerSource               */ "\x3E\x11\x14\x0D\x13\x0C\x14\x0C\x1E\x0C\x1D\x0C\x66\x0D\x10\x1B\x0F\x0E\x45\x18\x1E\x0E\x0D\x13\x0C\x1E\x13\x11\x3C\x11\x0D\x0F\x0C\x1B\x13\x11\x0D\x13\x0C\x14\x10\x13\x1C\x0D\x31\x55\x2C\x27\x0C\x1B\x0C\x14\x12\x0E\x0F\x0D\x69\x03\x02\x52\x68\x2E\x0D\x37\x27\x25\x0C\x12\x0E\x0F\x11\x1E\x0C\x0D\x69\x05\x2E\x05\x52\x0D\x14\x10\x0D\x32\x0E\x1A\x11\x1E\x11\x68\x30",//Тип напајања; одређује најнижи радни напон. <DC=адаптер (10V), S=батерија (3,3V по ћелији)> 
+  /* SleepTemperature          */ "\x3E\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0C\x0D\x13\x0C\x0D\x16\x10\x1E\x18\x0D\x17\x0E\x0D\x17\x14\x18\x38\x12\x0C\x0D\x1A\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x13\x0C\x16\x10\x13\x0D\x10\x1B\x0F\x0E\x45\x0E\x13\x10\x1F\x0D\x19\x0F\x0E\x15\x0E\x13\x0C\x0D\x15\x11\x0F\x10\x19\x0C\x1D\x0C\x1C\x0D\x31\x2C\x67\x54\x30",//Температура на коју се спушта лемилица након одређеног времена мировања. <C/F> 
   /* SleepTimeout              */ "\x29\x0F\x0E\x15\x0E\x0D\x15\x11\x0F\x10\x19\x0C\x1D\x0C\x0D\x13\x0C\x16\x10\x13\x0D\x16\x10\x1F\x0C\x0D\x1A\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x17\x14\x18\x38\x12\x0C\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x18\x1C\x0D\x31\x44\x27\x15\x11\x13\x18\x12\x11\x2E\x0D\x37\x27\x17\x0E\x16\x18\x13\x1B\x0E\x30",//Време мировања након кога лемилица спушта температуру. <M=минути, S=секунде> 
   /* ShutdownTimeout           */ "\x29\x0F\x0E\x15\x0E\x0D\x15\x11\x0F\x10\x19\x0C\x1D\x0C\x0D\x13\x0C\x16\x10\x13\x0D\x16\x10\x1F\x0C\x0D\x17\x0E\x0D\x1A\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x1F\x0C\x17\x11\x1C\x0D\x31\x44\x27\x15\x11\x13\x18\x12\x11\x30",//Време мировања након кога се лемилица гаси. <M=минути> 
   /* MotionSensitivity         */ "\x33\x17\x0E\x12\x21\x11\x19\x10\x17\x12\x0D\x17\x0E\x13\x23\x10\x0F\x0C\x0D\x14\x10\x16\x0F\x0E\x12\x0C\x1C\x0D\x31\x02\x27\x11\x17\x16\x21\x18\x2A\x0E\x13\x10\x2E\x0D\x03\x27\x13\x0C\x1E\x15\x0C\x1D\x0E\x0D\x10\x17\x0E\x12\x21\x11\x19\x10\x2E\x0D\x0B\x27\x13\x0C\x1E\x10\x17\x0E\x12\x21\x11\x19\x11\x1E\x0E\x30",//Осетљивост сензора покрета. <0=искључено, 1=најмање осетљиво, 9=најосетљивије> 
   /* TemperatureUnit           */ "\x41\x0E\x1B\x11\x13\x11\x22\x0E\x0D\x18\x0D\x16\x10\x1E\x11\x15\x0C\x0D\x17\x0E\x0D\x14\x0F\x11\x16\x0C\x23\x18\x1E\x0E\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0C\x1C\x0D\x31\x2C\x27\x22\x0E\x1A\x23\x11\x1E\x18\x17\x2E\x0D\x54\x27\x46\x0C\x0F\x0E\x13\x20\x0C\x1E\x12\x30",//Јединице у којима се приказује температура. <C=целзијус, F=фаренхајт> 
   /* AdvancedIdle              */ "\x26\x0F\x11\x16\x0C\x23\x11\x19\x0C\x1D\x0E\x0D\x1B\x0E\x12\x0C\x21\x13\x11\x20\x0D\x11\x13\x46\x10\x0F\x15\x0C\x22\x11\x1E\x0C\x0D\x13\x0C\x0D\x0E\x16\x0F\x0C\x13\x18\x0D\x12\x10\x16\x10\x15\x0D\x15\x11\x0F\x10\x19\x0C\x1D\x0C\x1C",//Приказивање детаљних информација на екрану током мировања. 
-  /* DisplayRotation           */ "\x34\x0C\x16\x10\x0D\x1E\x0E\x0D\x10\x16\x0F\x0E\x13\x18\x12\x0D\x0E\x16\x0F\x0C\x13\x1C\x0D\x31\x48\x27\x0C\x18\x12\x10\x15\x0C\x12\x17\x16\x11\x2E\x0D\x4E\x27\x23\x0C\x0D\x1A\x0E\x19\x10\x0F\x18\x16\x0E\x2E\x0D\x40\x27\x23\x0C\x0D\x1B\x0E\x17\x13\x10\x0F\x18\x16\x0E\x30",//Како је окренут екран. <А=аутоматски, Л=за леворуке, Д=за десноруке> 
+  /* DisplayRotation           */ "\x34\x0C\x16\x10\x0D\x1E\x0E\x0D\x10\x16\x0F\x0E\x13\x18\x12\x0D\x0E\x16\x0F\x0C\x13\x1C\x0D\x31\x48\x27\x0C\x18\x12\x10\x15\x0C\x12\x17\x16\x11\x2E\x0D\x4D\x27\x23\x0C\x0D\x1A\x0E\x19\x10\x0F\x18\x16\x0E\x2E\x0D\x40\x27\x23\x0C\x0D\x1B\x0E\x17\x13\x10\x0F\x18\x16\x0E\x30",//Како је окренут екран. <А=аутоматски, Л=за леворуке, Д=за десноруке> 
   /* BoostEnabled              */ "\x40\x0F\x3C\x0C\x1D\x0E\x0D\x14\x0F\x0E\x1B\x1D\x0E\x1F\x0D\x12\x0C\x17\x12\x0E\x0F\x0C\x0D\x12\x10\x16\x10\x15\x0D\x1A\x0E\x15\x21\x0E\x1D\x0C\x0D\x1B\x10\x1B\x0C\x12\x13\x10\x0D\x14\x10\x1E\x0C\x2A\x0C\x19\x0C\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x18\x0D\x19\x0F\x20\x0C\x1C",//Држање предњег тастера током лемљења додатно појачава температуру врха. 
   /* BoostTemperature          */ "\x3E\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0C\x0D\x19\x0F\x20\x0C\x0D\x1A\x0E\x15\x11\x1A\x11\x22\x0E\x0D\x18\x0D\x12\x10\x16\x18\x0D\x14\x10\x1E\x0C\x2A\x0C\x1D\x0C\x1C",//Температура врха лемилице у току појачања. 
-  /* AutoStart                 */ "\x4E\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x10\x1B\x15\x0C\x20\x0D\x14\x10\x0D\x14\x10\x16\x0F\x0E\x12\x0C\x1D\x18\x0D\x14\x0F\x0E\x1A\x0C\x23\x11\x0D\x18\x0D\x0F\x0E\x3C\x11\x15\x0D\x1A\x0E\x15\x21\x0E\x1D\x0C\x0D\x11\x0D\x1F\x0F\x0E\x1E\x0E\x0D\x17\x0E\x1C",//Лемилица одмах по покретању прелази у режим лемљења и греје се. 
+  /* AutoStart                 */ "\x4D\x0E\x15\x11\x1A\x11\x22\x0C\x0D\x10\x1B\x15\x0C\x20\x0D\x14\x10\x0D\x14\x10\x16\x0F\x0E\x12\x0C\x1D\x18\x0D\x14\x0F\x0E\x1A\x0C\x23\x11\x0D\x18\x0D\x0F\x0E\x3C\x11\x15\x0D\x1A\x0E\x15\x21\x0E\x1D\x0C\x0D\x11\x0D\x1F\x0F\x0E\x1E\x0E\x0D\x17\x0E\x1C",//Лемилица одмах по покретању прелази у режим лемљења и греје се. 
   /* CooldownBlink             */ "\x26\x0F\x11\x16\x0C\x23\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0E\x0D\x12\x0F\x0E\x14\x32\x0E\x0D\x14\x0F\x11\x1A\x11\x16\x10\x15\x0D\x20\x1A\x0C\x45\x0E\x1D\x0C\x0D\x1B\x10\x16\x1A\x0E\x0D\x1F\x10\x1B\x0D\x1E\x0E\x0D\x19\x0F\x20\x0D\x11\x0D\x1B\x0C\x21\x0E\x0D\x19\x0F\x18\x32\x1C",//Приказ температуре трепће приликом хлађења докле год је врх и даље врућ. 
   /* TemperatureCalibration    */ "\x34\x0C\x1A\x11\x25\x0F\x11\x17\x0C\x1D\x0E\x0D\x10\x1B\x17\x12\x18\x14\x0C\x1D\x0C\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0E\x0D\x19\x0F\x20\x0C\x0D\x18\x0D\x10\x1B\x13\x10\x17\x18\x0D\x13\x0C\x0D\x1B\x0F\x38\x16\x18\x1C",//Калибрисање одступања температуре врха у односу на дршку. 
   /* SettingsReset             */ "\x29\x0F\x0C\x32\x0C\x1D\x0E\x0D\x17\x19\x11\x20\x0D\x14\x10\x17\x12\x0C\x19\x16\x11\x0D\x13\x0C\x0D\x46\x0C\x25\x0F\x11\x2A\x16\x0E\x0D\x19\x0F\x0E\x1B\x13\x10\x17\x12\x11\x1C",//Враћање свих поставки на фабричке вредности. 
-  /* VoltageCalibration        */ "\x34\x0C\x1A\x11\x25\x0F\x11\x17\x0C\x1D\x0E\x0D\x18\x1A\x0C\x23\x13\x10\x1F\x0D\x13\x0C\x14\x10\x13\x0C\x1C\x0D\x26\x10\x1B\x0E\x38\x0C\x19\x0C\x0D\x17\x0E\x0D\x13\x0C\x0D\x12\x0C\x17\x12\x0E\x0F\x0E\x64\x0D\x1B\x18\x1F\x11\x0D\x14\x0F\x11\x12\x11\x17\x0C\x16\x0D\x23\x0C\x0D\x16\x0F\x0C\x1E\x1C",//Калибрисање улазног напона. Подешава се на тастере; дуги притисак за крај. 
+  /* VoltageCalibration        */ "\x34\x0C\x1A\x11\x25\x0F\x11\x17\x0C\x1D\x0E\x0D\x18\x1A\x0C\x23\x13\x10\x1F\x0D\x13\x0C\x14\x10\x13\x0C\x1C\x0D\x26\x10\x1B\x0E\x38\x0C\x19\x0C\x0D\x17\x0E\x0D\x13\x0C\x0D\x12\x0C\x17\x12\x0E\x0F\x0E\x66\x0D\x1B\x18\x1F\x11\x0D\x14\x0F\x11\x12\x11\x17\x0C\x16\x0D\x23\x0C\x0D\x16\x0F\x0C\x1E\x1C",//Калибрисање улазног напона. Подешава се на тастере; дуги притисак за крај. 
   /* AdvancedSoldering         */ "\x26\x0F\x11\x16\x0C\x23\x11\x19\x0C\x1D\x0E\x0D\x1B\x0E\x12\x0C\x21\x13\x11\x20\x0D\x11\x13\x46\x10\x0F\x15\x0C\x22\x11\x1E\x0C\x0D\x13\x0C\x0D\x0E\x16\x0F\x0C\x13\x18\x0D\x12\x10\x16\x10\x15\x0D\x1A\x0E\x15\x21\x0E\x1D\x0C\x1C",//Приказивање детаљних информација на екрану током лемљења. 
-  /* ScrollingSpeed            */ "\x50\x0F\x23\x11\x13\x0C\x0D\x16\x0F\x0E\x12\x0C\x1D\x0C\x0D\x10\x14\x11\x17\x13\x11\x20\x0D\x14\x10\x0F\x18\x16\x0C\x0D\x14\x10\x14\x18\x12\x0D\x10\x19\x0E\x1C\x0D\x31\x39\x27\x17\x14\x10\x0F\x10\x2E\x0D\x50\x27\x25\x0F\x23\x10\x30",//Брзина кретања описних порука попут ове. <С=споро, Б=брзо> 
+  /* ScrollingSpeed            */ "\x4F\x0F\x23\x11\x13\x0C\x0D\x16\x0F\x0E\x12\x0C\x1D\x0C\x0D\x10\x14\x11\x17\x13\x11\x20\x0D\x14\x10\x0F\x18\x16\x0C\x0D\x14\x10\x14\x18\x12\x0D\x10\x19\x0E\x1C\x0D\x31\x39\x27\x17\x14\x10\x0F\x10\x2E\x0D\x4F\x27\x25\x0F\x23\x10\x30",//Брзина кретања описних порука попут ове. <С=споро, Б=брзо> 
   /* TipModel                  */ "\x33\x1B\x0C\x25\x11\x0F\x0D\x15\x10\x1B\x0E\x1A\x0C\x0D\x1A\x0E\x15\x13\x10\x1F\x0D\x19\x0F\x20\x0C\x1C",//Одабир модела лемног врха. 
   /* SimpleCalibrationMode     */ "\x41\x0E\x1B\x13\x10\x17\x12\x0C\x19\x13\x0C\x0D\x16\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C\x0D\x16\x11\x14\x18\x32\x10\x15\x0D\x19\x10\x1B\x10\x15\x1C",//Једноставна калибрација кипућом водом. 
   /* AdvancedCalibrationMode   */ "\x2B\x0C\x14\x0F\x0E\x1B\x13\x0C\x0D\x16\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C\x0D\x14\x10\x15\x10\x32\x18\x0D\x12\x0E\x0F\x15\x10\x14\x0C\x0F\x0C\x1C",//Напредна калибрација помоћу термопара. 
   /* PowerInput                */ "\x39\x13\x0C\x1F\x0C\x0D\x13\x0C\x14\x0C\x1E\x0C\x1D\x0C\x0D\x18\x0D\x19\x0C\x12\x11\x15\x0C\x1C",//Снага напајања у ватима. 
-  /* PowerLimitEnable          */ "\x63\x35\x36\x5E\x58\x24\x0D\x52\x3B\x51\x24\x2F\x0D\x58\x28\x42\x28\x2D",//Enable power limit 
-  /* PowerLimit                */ "\x44\x36\x6B\x28\x42\x57\x42\x0D\x52\x3B\x51\x24\x2F\x0D\x2D\x6D\x24\x0D\x28\x2F\x3B\x35\x0D\x6F\x36\x35\x0D\x57\x3A\x24\x0D\x31\x49\x36\x2D\x2D\x3A\x30",//Maximum power the iron can use <Watts> 
+  /* PowerLimitEnable          */ "\x65\x35\x36\x5F\x58\x24\x0D\x51\x3B\x50\x24\x2F\x0D\x58\x28\x42\x28\x2D",//Enable power limit 
+  /* PowerLimit                */ "\x44\x36\x6D\x28\x42\x57\x42\x0D\x51\x3B\x50\x24\x2F\x0D\x2D\x6E\x24\x0D\x28\x2F\x3B\x35\x0D\x70\x36\x35\x0D\x57\x3A\x24\x0D\x31\x49\x36\x2D\x2D\x3A\x30",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x34\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C\x0D\x1F\x10\x12\x10\x19\x0C";//Калибрација готова 
 const char* SettingsCalibrationWarning = "\x26\x0F\x10\x19\x0E\x0F\x11\x12\x0E\x0D\x1B\x0C\x0D\x1A\x11\x0D\x1E\x0E\x0D\x19\x0F\x20\x0D\x10\x20\x1A\x0C\x45\x0E\x13\x0D\x13\x0C\x0D\x17\x10\x25\x13\x18\x0D\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x18\x0D\x14\x0F\x0E\x0D\x13\x0E\x1F\x10\x0D\x38\x12\x10\x0D\x13\x0C\x17\x12\x0C\x19\x11\x12\x0E";//Проверите да ли је врх охлађен на собну температуру пре него што наставите 
 const char* SettingsResetWarning = "\x40\x0C\x0D\x1A\x11\x0D\x23\x0C\x11\x17\x12\x0C\x0D\x3C\x0E\x1A\x11\x12\x0E\x0D\x1B\x0C\x0D\x19\x0F\x0C\x12\x11\x12\x0E\x0D\x14\x10\x17\x12\x0C\x19\x16\x0E\x0D\x13\x0C\x0D\x46\x0C\x25\x0F\x11\x2A\x16\x0E\x0D\x19\x0F\x0E\x1B\x13\x10\x17\x12\x11\x73";//Да ли заиста желите да вратите поставке на фабричке вредности? 
-const char* UVLOWarningString = "\x2B\x4F\x56\x1C\x2B\x48\x26\x1C";//НИЗ.НАП. 
-const char* UndervoltageString = "\x26\x3F\x47\x2B\x4F\x56\x48\x34\x0D\x2B\x48\x26\x33\x2B";//ПРЕНИЗАК НАПОН 
-const char* InputVoltageString = "\x3D\x1A\x1C\x0D\x13\x0C\x14\x10\x13\x4D\x0D";//Ул. напон:  
-const char* WarningTipTempString = "\x3E\x0E\x15\x14\x1C\x0D\x19\x0F\x20\x0C\x4D\x0D";//Темп. врха:  
-const char* BadTipString = "\x4E\x33\x68\x0D\x29\x3F\x5B";//ЛОШ ВРХ 
+const char* UVLOWarningString = "\x2B\x4E\x56\x1C\x2B\x48\x26\x1C";//НИЗ.НАП. 
+const char* UndervoltageString = "\x26\x3F\x47\x2B\x4E\x56\x48\x34\x0D\x2B\x48\x26\x33\x2B";//ПРЕНИЗАК НАПОН 
+const char* InputVoltageString = "\x3D\x1A\x1C\x0D\x13\x0C\x14\x10\x13\x4C\x0D";//Ул. напон:  
+const char* WarningTipTempString = "\x3E\x0E\x15\x14\x1C\x0D\x19\x0F\x20\x0C\x4C\x0D";//Темп. врха:  
+const char* BadTipString = "\x4D\x33\x6A\x0D\x29\x3F\x5B";//ЛОШ ВРХ 
 const char* SleepingSimpleString = "\x39\x0C\x13";//Сан 
 const char* SleepingAdvancedString = "\x39\x14\x0C\x19\x0C\x1D\x0E\x1C\x1C\x1C";//Спавање... 
 const char* WarningSimpleString = "\x29\x3F\x3D\x5C";//ВРУЋ 
 const char* WarningAdvancedString = "\x5A\x0D\x33\x26\x3F\x47\x56\x2E\x0D\x29\x3F\x3D\x5C\x47\x0D\x5A";//! ОПРЕЗ, ВРУЋЕ ! 
-const char* SleepingTipAdvancedString = "\x29\x0F\x20\x4D";//Врх: 
-const char* IdleTipString = "\x29\x0F\x20\x4D";//Врх: 
-const char* IdleSetString = "\x0D\x65\x0D";// /  
-const char* TipDisconnectedString = "\x29\x3F\x5B\x0D\x2B\x4F\x41\x47\x0D\x39\x26\x33\x41\x47\x2B";//ВРХ НИЈЕ СПОЈЕН 
-const char* SolderingAdvancedPowerPrompt = "\x39\x13\x0C\x1F\x0C\x4D\x0D";//Снага:  
-const char* OffString = "\x4F\x17\x16";//Иск 
-const char* ResetOKMessage = "\x60\x24\x3A\x24\x2D\x0D\x71\x72";//Reset OK 
-const char* YourGainMessage = "\x70\x3B\x57\x2F\x0D\x62\x36\x28\x35";//Your Gain 
-const char* SettingsResetMessage = "\x37\x24\x2D\x2D\x28\x35\x6E\x3A\x0D\x51\x24\x2F\x24\x01\x2F\x24\x3A\x24\x2D\x5A";//Settings were_reset! 
+const char* SleepingTipAdvancedString = "\x29\x0F\x20\x4C";//Врх: 
+const char* IdleTipString = "\x29\x0F\x20\x4C";//Врх: 
+const char* IdleSetString = "\x0D\x67\x0D";// /  
+const char* TipDisconnectedString = "\x29\x3F\x5B\x0D\x2B\x4E\x41\x47\x0D\x39\x26\x33\x41\x47\x2B";//ВРХ НИЈЕ СПОЈЕН 
+const char* SolderingAdvancedPowerPrompt = "\x39\x13\x0C\x1F\x0C\x4C\x0D";//Снага:  
+const char* OffString = "\x4E\x17\x16";//Иск 
+const char* ResetOKMessage = "\x61\x24\x3A\x24\x2D\x0D\x62\x72";//Reset OK 
+const char* YourGainMessage = "\x71\x3B\x57\x2F\x0D\x64\x36\x28\x35";//Your Gain 
+const char* SettingsResetMessage = "\x37\x24\x2D\x2D\x28\x35\x6F\x3A\x0D\x50\x24\x2F\x24\x01\x2F\x24\x3A\x24\x2D\x5A";//Settings were_reset! 
 
 const char* SettingRightChar = "\x40";//Д 
-const char* SettingLeftChar = "\x4E";//Л 
+const char* SettingLeftChar = "\x4D";//Л 
 const char* SettingAutoChar = "\x48";//А 
-const char* SettingFastChar = "\x50";//Б 
+const char* SettingFastChar = "\x4F";//Б 
 const char* SettingSlowChar = "\x39";//С 
 const char* SettingStartSolderingChar = "\x43";//T 
 const char* SettingStartSleepChar = "\x37";//S 
+const char* SettingStartSleepOffChar = "\x62";//O 
 const char* SettingStartNoneChar = "\x54";//F 
 
 const char* SymbolPlus = "\x74";//+ 
@@ -6640,41 +6637,41 @@ const char* SymbolDegF = "\x54";//F
 const char* SymbolMinutes = "\x44";//M 
 const char* SymbolSeconds = "\x37";//S 
 const char* SymbolWatts = "\x49";//W 
-const char* SymbolVolts = "\x4A";//V 
+const char* SymbolVolts = "\x52";//V 
 const char* SymbolDC = "\x55\x2C";//DC 
 const char* SymbolCellCount = "\x37";//S 
-const char* SymbolVersionNumber = "\x4A\x04\x1C\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x5D\x04\x1C\x02\x0A\x1C\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x4C\x02\x04",//B02 
+	 "\x4B\x02\x04",//B02 
 	 "\x55\x04\x06",//D24 
-	 "\x4C\x2C\x04",//BC2 
+	 "\x4B\x2C\x04",//BC2 
 	 "\x0D\x2C\x03",// C1 
 	 "\x43\x37\x03\x02\x02",//TS100 
-	 "\x4C\x2C\x04",//BC2 
-	 "\x4B\x36\x5D\x5D\x3B",//Hakko 
-	 "\x5F\x3A\x24\x2F",//User 
+	 "\x4B\x2C\x04",//BC2 
+	 "\x4A\x36\x5E\x5E\x3B",//Hakko 
+	 "\x60\x3A\x24\x2F",//User 
 #else
-	 "\x4C\x02\x04",//B02 
+	 "\x4B\x02\x04",//B02 
 	 "\x55\x04\x07",//D25 
 	 "\x43\x37\x0A\x02",//TS80 
-	 "\x5F\x3A\x24\x2F",//User 
+	 "\x60\x3A\x24\x2F",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x59\x02\x03\x59\x04\x02",//18-01-20 
-	 "\x4B\x49\x0D\x62\x0D",//HW G  
-	 "\x4B\x49\x0D\x44\x0D",//HW M  
-	 "\x4B\x49\x0D\x53\x0D",//HW P  
+	 "\x03\x06\x59\x02\x05\x59\x04\x02",//14-03-20 
+	 "\x4A\x49\x0D\x64\x0D",//HW G  
+	 "\x4A\x49\x0D\x44\x0D",//HW M  
+	 "\x4A\x49\x0D\x53\x0D",//HW P  
 	 "\x43\x28\x42\x24\x0D",//Time  
-	 "\x44\x3B\x6C\x24\x0D",//Move  
-	 "\x60\x43\x28\x52\x0D",//RTip  
-	 "\x2C\x43\x28\x52\x0D",//CTip  
-	 "\x2C\x4B\x36\x35\x0D",//CHan  
-	 "\x4A\x28\x35\x0D\x0D",//Vin   
-	 "\x53\x2C\x4C\x0D\x0D",//PCB   
+	 "\x44\x3B\x5D\x24\x0D",//Move  
+	 "\x61\x43\x28\x51\x0D",//RTip  
+	 "\x2C\x43\x28\x51\x0D",//CTip  
+	 "\x2C\x4A\x36\x35\x0D",//CHan  
+	 "\x52\x28\x35\x0D\x0D",//Vin   
+	 "\x53\x2C\x4B\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
@@ -6692,16 +6689,16 @@ const char* SettingsShortNames[][2] = {
   /* AutoStart                 */ { "\x29\x0F\x18\x32\x11", "\x17\x12\x0C\x0F\x12" },//['Врући', 'старт'] 
   /* CooldownBlink             */ { "\x3D\x14\x10\x23\x10\x0F\x0E\x1D\x0E", "\x14\x0F\x11\x0D\x20\x1A\x0C\x45\x0E\x1D\x18" },//['Упозорење', 'при хлађењу'] 
   /* TemperatureCalibration    */ { "\x34\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C", "\x12\x0E\x15\x14\x0E\x0F\x0C\x12\x18\x0F\x0E" },//['Калибрација', 'температуре'] 
-  /* SettingsReset             */ { "\x69\x0C\x25\x0F\x11\x2A\x16\x0E", "\x14\x10\x17\x12\x0C\x19\x16\x0E" },//['Фабричке', 'поставке'] 
+  /* SettingsReset             */ { "\x6B\x0C\x25\x0F\x11\x2A\x16\x0E", "\x14\x10\x17\x12\x0C\x19\x16\x0E" },//['Фабричке', 'поставке'] 
   /* VoltageCalibration        */ { "\x34\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C", "\x18\x1A\x0C\x23\x13\x10\x1F\x0D\x13\x0C\x14\x10\x13\x0C" },//['Калибрација', 'улазног напона'] 
   /* AdvancedSoldering         */ { "\x40\x0E\x12\x0C\x21\x11\x0D\x12\x10\x16\x10\x15", "\x1A\x0E\x15\x21\x0E\x1D\x0C" },//['Детаљи током', 'лемљења'] 
-  /* ScrollingSpeed            */ { "\x50\x0F\x23\x11\x13\x0C", "\x14\x10\x0F\x18\x16\x0C" },//['Брзина', 'порука'] 
-  /* TipModel                  */ { "\x6A\x10\x1B\x0E\x1A", "\x19\x0F\x20\x0C" },//['Модел', 'врха'] 
+  /* ScrollingSpeed            */ { "\x4F\x0F\x23\x11\x13\x0C", "\x14\x10\x0F\x18\x16\x0C" },//['Брзина', 'порука'] 
+  /* TipModel                  */ { "\x6C\x10\x1B\x0E\x1A", "\x19\x0F\x20\x0C" },//['Модел', 'врха'] 
   /* SimpleCalibrationMode     */ { "\x41\x0E\x1B\x13\x10\x17\x12\x0C\x19\x13\x0C", "\x16\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C" },//['Једноставна', 'калибрација'] 
   /* AdvancedCalibrationMode   */ { "\x2B\x0C\x14\x0F\x0E\x1B\x13\x0C", "\x16\x0C\x1A\x11\x25\x0F\x0C\x22\x11\x1E\x0C" },//['Напредна', 'калибрација'] 
   /* PowerInput                */ { "\x3D\x1A\x0C\x23\x13\x0C", "\x17\x13\x0C\x1F\x0C" },//['Улазна', 'снага'] 
-  /* PowerLimitEnable          */ { "\x53\x0D\x61\x28\x42\x28\x2D", "\x63\x35\x36\x5E\x58\x24" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x53\x3B\x51\x24\x2F", "\x61\x28\x42\x28\x2D" },//['Power', 'Limit'] 
+  /* PowerLimitEnable          */ { "\x53\x0D\x63\x28\x42\x28\x2D", "\x65\x35\x36\x5F\x58\x24" },//['P Limit', 'Enable'] 
+  /* PowerLimit                */ { "\x53\x3B\x50\x24\x2F", "\x63\x28\x42\x28\x2D" },//['Power', 'Limit'] 
 };
 
 const char* SettingsMenuEntries[4] = {
@@ -6763,9 +6760,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x28 -> T
 0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x29 -> N
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2A -> C
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> D
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2C -> ,
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2D -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2B -> O
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x2C -> D
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2D -> ,
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x2E -> K
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2F -> B
 0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x30 -> >
@@ -6845,9 +6842,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x28 -> T
 0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x29 -> N
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2A -> C
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x2B -> D
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2C -> ,
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2D -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x2B -> O
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x2C -> D
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2D -> ,
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x2E -> K
 0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x2F -> B
 0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x30 -> >
@@ -6888,15 +6885,15 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Srpski ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x28\x10\x15\x0D\x11\x0C\x15\x0C\x14\x0C\x11\x14\x0C\x49\x0D\x12\x1C\x0F\x0E\x3C\x1A\x14\x0E\x0D\x11\x0C\x14\x11\x10\x39\x10\x0D\x0F\x0C\x1C\x11\x10\x0D\x11\x0C\x15\x12\x11\x1D\x0D\x31\x2B\x2A\x25\x0C\x1C\x0C\x15\x13\x0E\x0F\x0D\x4C\x03\x02\x24\x4B\x2C\x0D\x26\x25\x23\x0C\x13\x0E\x0F\x10\x14\x0C\x0D\x4C\x05\x2C\x05\x24\x0D\x15\x12\x0D\x32\x0E\x17\x10\x14\x10\x4B\x30",//Tip napajanja; određuje najniži radni napon. <DC=adapter (10V), S=baterija (3,3V po ćeliji)> 
+  /* PowerSource               */ "\x28\x10\x15\x0D\x11\x0C\x15\x0C\x14\x0C\x11\x14\x0C\x49\x0D\x12\x1C\x0F\x0E\x3C\x1A\x14\x0E\x0D\x11\x0C\x14\x11\x10\x39\x10\x0D\x0F\x0C\x1C\x11\x10\x0D\x11\x0C\x15\x12\x11\x1D\x0D\x31\x2C\x2A\x25\x0C\x1C\x0C\x15\x13\x0E\x0F\x0D\x4C\x03\x02\x24\x4B\x2D\x0D\x26\x25\x23\x0C\x13\x0E\x0F\x10\x14\x0C\x0D\x4C\x05\x2D\x05\x24\x0D\x15\x12\x0D\x32\x0E\x17\x10\x14\x10\x4B\x30",//Tip napajanja; određuje najniži radni napon. <DC=adapter (10V), S=baterija (3,3V po ćeliji)> 
   /* SleepTemperature          */ "\x28\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0C\x0D\x11\x0C\x0D\x19\x12\x14\x1A\x0D\x18\x0E\x0D\x18\x15\x1A\x35\x13\x0C\x0D\x17\x0E\x16\x10\x17\x10\x21\x0C\x0D\x11\x0C\x19\x12\x11\x0D\x12\x1C\x0F\x0E\x3C\x0E\x11\x12\x1E\x0D\x1B\x0F\x0E\x16\x0E\x11\x0C\x0D\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C\x1D\x0D\x31\x2A\x4A\x3F\x30",//Temperatura na koju se spušta lemilica nakon određenog vremena mirovanja. <C/F> 
-  /* SleepTimeout              */ "\x24\x0F\x0E\x16\x0E\x0D\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C\x0D\x11\x0C\x19\x12\x11\x0D\x19\x12\x1E\x0C\x0D\x17\x0E\x16\x10\x17\x10\x21\x0C\x0D\x18\x15\x1A\x35\x13\x0C\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x1A\x1D\x0D\x31\x36\x25\x16\x10\x11\x1A\x13\x10\x2C\x0D\x26\x25\x18\x0E\x19\x1A\x11\x1C\x0E\x30",//Vreme mirovanja nakon koga lemilica spušta temperaturu. <M=minuti, S=sekunde> 
+  /* SleepTimeout              */ "\x24\x0F\x0E\x16\x0E\x0D\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C\x0D\x11\x0C\x19\x12\x11\x0D\x19\x12\x1E\x0C\x0D\x17\x0E\x16\x10\x17\x10\x21\x0C\x0D\x18\x15\x1A\x35\x13\x0C\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x1A\x1D\x0D\x31\x36\x25\x16\x10\x11\x1A\x13\x10\x2D\x0D\x26\x25\x18\x0E\x19\x1A\x11\x1C\x0E\x30",//Vreme mirovanja nakon koga lemilica spušta temperaturu. <M=minuti, S=sekunde> 
   /* ShutdownTimeout           */ "\x24\x0F\x0E\x16\x0E\x0D\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C\x0D\x11\x0C\x19\x12\x11\x0D\x19\x12\x1E\x0C\x0D\x18\x0E\x0D\x17\x0E\x16\x10\x17\x10\x21\x0C\x0D\x1E\x0C\x18\x10\x1D\x0D\x31\x36\x25\x16\x10\x11\x1A\x13\x10\x30",//Vreme mirovanja nakon koga se lemilica gasi. <M=minuti> 
-  /* MotionSensitivity         */ "\x2D\x18\x0E\x13\x17\x14\x10\x1B\x12\x18\x13\x0D\x18\x0E\x11\x1F\x12\x0F\x0C\x0D\x15\x12\x19\x0F\x0E\x13\x0C\x1D\x0D\x31\x02\x25\x10\x18\x19\x17\x14\x1A\x27\x0E\x11\x12\x2C\x0D\x03\x25\x11\x0C\x14\x16\x0C\x11\x14\x0E\x0D\x12\x18\x0E\x13\x17\x14\x10\x1B\x12\x2C\x0D\x0B\x25\x11\x0C\x14\x12\x18\x0E\x13\x17\x14\x10\x1B\x10\x14\x0E\x30",//Osetljivost senzora pokreta. <0=isključeno, 1=najmanje osetljivo, 9=najosetljivije> 
-  /* TemperatureUnit           */ "\x3B\x0E\x1C\x10\x11\x10\x21\x0E\x0D\x1A\x0D\x19\x12\x14\x10\x16\x0C\x0D\x18\x0E\x0D\x15\x0F\x10\x19\x0C\x1F\x1A\x14\x0E\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0C\x1D\x0D\x31\x2A\x25\x21\x0E\x17\x1F\x10\x14\x1A\x18\x2C\x0D\x3F\x25\x3D\x0C\x0F\x0E\x11\x20\x0C\x14\x13\x30",//Jedinice u kojima se prikazuje temperatura. <C=celzijus, F=farenhajt> 
+  /* MotionSensitivity         */ "\x2B\x18\x0E\x13\x17\x14\x10\x1B\x12\x18\x13\x0D\x18\x0E\x11\x1F\x12\x0F\x0C\x0D\x15\x12\x19\x0F\x0E\x13\x0C\x1D\x0D\x31\x02\x25\x10\x18\x19\x17\x14\x1A\x27\x0E\x11\x12\x2D\x0D\x03\x25\x11\x0C\x14\x16\x0C\x11\x14\x0E\x0D\x12\x18\x0E\x13\x17\x14\x10\x1B\x12\x2D\x0D\x0B\x25\x11\x0C\x14\x12\x18\x0E\x13\x17\x14\x10\x1B\x10\x14\x0E\x30",//Osetljivost senzora pokreta. <0=isključeno, 1=najmanje osetljivo, 9=najosetljivije> 
+  /* TemperatureUnit           */ "\x3B\x0E\x1C\x10\x11\x10\x21\x0E\x0D\x1A\x0D\x19\x12\x14\x10\x16\x0C\x0D\x18\x0E\x0D\x15\x0F\x10\x19\x0C\x1F\x1A\x14\x0E\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0C\x1D\x0D\x31\x2A\x25\x21\x0E\x17\x1F\x10\x14\x1A\x18\x2D\x0D\x3F\x25\x3D\x0C\x0F\x0E\x11\x20\x0C\x14\x13\x30",//Jedinice u kojima se prikazuje temperatura. <C=celzijus, F=farenhajt> 
   /* AdvancedIdle              */ "\x22\x0F\x10\x19\x0C\x1F\x10\x1B\x0C\x11\x14\x0E\x0D\x1C\x0E\x13\x0C\x17\x14\x11\x10\x20\x0D\x10\x11\x3D\x12\x0F\x16\x0C\x21\x10\x14\x0C\x0D\x11\x0C\x0D\x0E\x19\x0F\x0C\x11\x1A\x0D\x13\x12\x19\x12\x16\x0D\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C\x1D",//Prikazivanje detaljnih informacija na ekranu tokom mirovanja. 
-  /* DisplayRotation           */ "\x2E\x0C\x19\x12\x0D\x14\x0E\x0D\x12\x19\x0F\x0E\x11\x1A\x13\x0D\x0E\x19\x0F\x0C\x11\x1D\x0D\x31\x40\x25\x0C\x1A\x13\x12\x16\x0C\x13\x18\x19\x10\x2C\x0D\x3A\x25\x1F\x0C\x0D\x17\x0E\x1B\x12\x0F\x1A\x19\x0E\x2C\x0D\x2B\x25\x1F\x0C\x0D\x1C\x0E\x18\x11\x12\x0F\x1A\x19\x0E\x30",//Kako je okrenut ekran. <A=automatski, L=za levoruke, D=za desnoruke> 
-  /* BoostEnabled              */ "\x2B\x0F\x39\x0C\x11\x14\x0E\x0D\x15\x0F\x0E\x1C\x11\x14\x0E\x1E\x0D\x13\x0C\x18\x13\x0E\x0F\x0C\x0D\x13\x12\x19\x12\x16\x0D\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C\x0D\x1C\x12\x1C\x0C\x13\x11\x12\x0D\x15\x12\x14\x0C\x27\x0C\x1B\x0C\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x1A\x0D\x1B\x0F\x20\x0C\x1D",//Držanje prednjeg tastera tokom lemljenja dodatno pojačava temperaturu vrha. 
+  /* DisplayRotation           */ "\x2E\x0C\x19\x12\x0D\x14\x0E\x0D\x12\x19\x0F\x0E\x11\x1A\x13\x0D\x0E\x19\x0F\x0C\x11\x1D\x0D\x31\x40\x25\x0C\x1A\x13\x12\x16\x0C\x13\x18\x19\x10\x2D\x0D\x3A\x25\x1F\x0C\x0D\x17\x0E\x1B\x12\x0F\x1A\x19\x0E\x2D\x0D\x2C\x25\x1F\x0C\x0D\x1C\x0E\x18\x11\x12\x0F\x1A\x19\x0E\x30",//Kako je okrenut ekran. <A=automatski, L=za levoruke, D=za desnoruke> 
+  /* BoostEnabled              */ "\x2C\x0F\x39\x0C\x11\x14\x0E\x0D\x15\x0F\x0E\x1C\x11\x14\x0E\x1E\x0D\x13\x0C\x18\x13\x0E\x0F\x0C\x0D\x13\x12\x19\x12\x16\x0D\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C\x0D\x1C\x12\x1C\x0C\x13\x11\x12\x0D\x15\x12\x14\x0C\x27\x0C\x1B\x0C\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x1A\x0D\x1B\x0F\x20\x0C\x1D",//Držanje prednjeg tastera tokom lemljenja dodatno pojačava temperaturu vrha. 
   /* BoostTemperature          */ "\x28\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0C\x0D\x1B\x0F\x20\x0C\x0D\x17\x0E\x16\x10\x17\x10\x21\x0E\x0D\x1A\x0D\x13\x12\x19\x1A\x0D\x15\x12\x14\x0C\x27\x0C\x11\x14\x0C\x1D",//Temperatura vrha lemilice u toku pojačanja. 
   /* AutoStart                 */ "\x3A\x0E\x16\x10\x17\x10\x21\x0C\x0D\x12\x1C\x16\x0C\x20\x0D\x15\x12\x0D\x15\x12\x19\x0F\x0E\x13\x0C\x11\x14\x1A\x0D\x15\x0F\x0E\x17\x0C\x1F\x10\x0D\x1A\x0D\x0F\x0E\x39\x10\x16\x0D\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C\x0D\x10\x0D\x1E\x0F\x0E\x14\x0E\x0D\x18\x0E\x1D",//Lemilica odmah po pokretanju prelazi u režim lemljenja i greje se. 
   /* CooldownBlink             */ "\x22\x0F\x10\x19\x0C\x1F\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0E\x0D\x13\x0F\x0E\x15\x32\x0E\x0D\x15\x0F\x10\x17\x10\x19\x12\x16\x0D\x20\x17\x0C\x3C\x0E\x11\x14\x0C\x0D\x1C\x12\x19\x17\x0E\x0D\x1E\x12\x1C\x0D\x14\x0E\x0D\x1B\x0F\x20\x0D\x10\x0D\x1C\x0C\x17\x14\x0E\x0D\x1B\x0F\x1A\x32\x1D",//Prikaz temperature trepće prilikom hlađenja dokle god je vrh i dalje vruć. 
@@ -6904,8 +6901,8 @@ const char* SettingsDescriptions[] = {
   /* SettingsReset             */ "\x24\x0F\x0C\x32\x0C\x11\x14\x0E\x0D\x18\x1B\x10\x20\x0D\x15\x12\x18\x13\x0C\x1B\x19\x10\x0D\x11\x0C\x0D\x3D\x0C\x23\x0F\x10\x27\x19\x0E\x0D\x1B\x0F\x0E\x1C\x11\x12\x18\x13\x10\x1D",//Vraćanje svih postavki na fabričke vrednosti. 
   /* VoltageCalibration        */ "\x2E\x0C\x17\x10\x23\x0F\x10\x18\x0C\x11\x14\x0E\x0D\x1A\x17\x0C\x1F\x11\x12\x1E\x0D\x11\x0C\x15\x12\x11\x0C\x1D\x0D\x22\x12\x1C\x0E\x35\x0C\x1B\x0C\x0D\x18\x0E\x0D\x11\x0C\x0D\x13\x0C\x18\x13\x0E\x0F\x0E\x49\x0D\x1C\x1A\x1E\x10\x0D\x15\x0F\x10\x13\x10\x18\x0C\x19\x0D\x1F\x0C\x0D\x19\x0F\x0C\x14\x1D",//Kalibrisanje ulaznog napona. Podešava se na tastere; dugi pritisak za kraj. 
   /* AdvancedSoldering         */ "\x22\x0F\x10\x19\x0C\x1F\x10\x1B\x0C\x11\x14\x0E\x0D\x1C\x0E\x13\x0C\x17\x14\x11\x10\x20\x0D\x10\x11\x3D\x12\x0F\x16\x0C\x21\x10\x14\x0C\x0D\x11\x0C\x0D\x0E\x19\x0F\x0C\x11\x1A\x0D\x13\x12\x19\x12\x16\x0D\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C\x1D",//Prikazivanje detaljnih informacija na ekranu tokom lemljenja. 
-  /* ScrollingSpeed            */ "\x2F\x0F\x1F\x10\x11\x0C\x0D\x19\x0F\x0E\x13\x0C\x11\x14\x0C\x0D\x12\x15\x10\x18\x11\x10\x20\x0D\x15\x12\x0F\x1A\x19\x0C\x0D\x15\x12\x15\x1A\x13\x0D\x12\x1B\x0E\x1D\x0D\x31\x26\x25\x18\x15\x12\x0F\x12\x2C\x0D\x2F\x25\x23\x0F\x1F\x12\x30",//Brzina kretanja opisnih poruka poput ove. <S=sporo, B=brzo> 
-  /* TipModel                  */ "\x2D\x1C\x0C\x23\x10\x0F\x0D\x16\x12\x1C\x0E\x17\x0C\x0D\x17\x0E\x16\x11\x12\x1E\x0D\x1B\x0F\x20\x0C\x1D",//Odabir modela lemnog vrha. 
+  /* ScrollingSpeed            */ "\x2F\x0F\x1F\x10\x11\x0C\x0D\x19\x0F\x0E\x13\x0C\x11\x14\x0C\x0D\x12\x15\x10\x18\x11\x10\x20\x0D\x15\x12\x0F\x1A\x19\x0C\x0D\x15\x12\x15\x1A\x13\x0D\x12\x1B\x0E\x1D\x0D\x31\x26\x25\x18\x15\x12\x0F\x12\x2D\x0D\x2F\x25\x23\x0F\x1F\x12\x30",//Brzina kretanja opisnih poruka poput ove. <S=sporo, B=brzo> 
+  /* TipModel                  */ "\x2B\x1C\x0C\x23\x10\x0F\x0D\x16\x12\x1C\x0E\x17\x0C\x0D\x17\x0E\x16\x11\x12\x1E\x0D\x1B\x0F\x20\x0C\x1D",//Odabir modela lemnog vrha. 
   /* SimpleCalibrationMode     */ "\x3B\x0E\x1C\x11\x12\x18\x13\x0C\x1B\x11\x0C\x0D\x19\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C\x0D\x19\x10\x15\x1A\x32\x12\x16\x0D\x1B\x12\x1C\x12\x16\x1D",//Jednostavna kalibracija kipućom vodom. 
   /* AdvancedCalibrationMode   */ "\x29\x0C\x15\x0F\x0E\x1C\x11\x0C\x0D\x19\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C\x0D\x15\x12\x16\x12\x32\x1A\x0D\x13\x0E\x0F\x16\x12\x15\x0C\x0F\x0C\x1D",//Napredna kalibracija pomoću termopara. 
   /* PowerInput                */ "\x26\x11\x0C\x1E\x0C\x0D\x11\x0C\x15\x0C\x14\x0C\x11\x14\x0C\x0D\x1A\x0D\x1B\x0C\x13\x10\x16\x0C\x1D",//Snaga napajanja u vatima. 
@@ -6915,33 +6912,34 @@ const char* SettingsDescriptions[] = {
 
 const char* SettingsCalibrationDone = "\x2E\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C\x0D\x1E\x12\x13\x12\x1B\x0C";//Kalibracija gotova 
 const char* SettingsCalibrationWarning = "\x22\x0F\x12\x1B\x0E\x0F\x10\x13\x0E\x0D\x1C\x0C\x0D\x17\x10\x0D\x14\x0E\x0D\x1B\x0F\x20\x0D\x12\x20\x17\x0C\x3C\x0E\x11\x0D\x11\x0C\x0D\x18\x12\x23\x11\x1A\x0D\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x1A\x0D\x15\x0F\x0E\x0D\x11\x0E\x1E\x12\x0D\x35\x13\x12\x0D\x11\x0C\x18\x13\x0C\x1B\x10\x13\x0E";//Proverite da li je vrh ohlađen na sobnu temperaturu pre nego što nastavite 
-const char* SettingsResetWarning = "\x2B\x0C\x0D\x17\x10\x0D\x1F\x0C\x10\x18\x13\x0C\x0D\x39\x0E\x17\x10\x13\x0E\x0D\x1C\x0C\x0D\x1B\x0F\x0C\x13\x10\x13\x0E\x0D\x15\x12\x18\x13\x0C\x1B\x19\x0E\x0D\x11\x0C\x0D\x3D\x0C\x23\x0F\x10\x27\x19\x0E\x0D\x1B\x0F\x0E\x1C\x11\x12\x18\x13\x10\x50";//Da li zaista želite da vratite postavke na fabričke vrednosti? 
+const char* SettingsResetWarning = "\x2C\x0C\x0D\x17\x10\x0D\x1F\x0C\x10\x18\x13\x0C\x0D\x39\x0E\x17\x10\x13\x0E\x0D\x1C\x0C\x0D\x1B\x0F\x0C\x13\x10\x13\x0E\x0D\x15\x12\x18\x13\x0C\x1B\x19\x0E\x0D\x11\x0C\x0D\x3D\x0C\x23\x0F\x10\x27\x19\x0E\x0D\x1B\x0F\x0E\x1C\x11\x12\x18\x13\x10\x50";//Da li zaista želite da vratite postavke na fabričke vrednosti? 
 const char* UVLOWarningString = "\x29\x44\x43\x1D\x29\x40\x22\x1D";//NIZ.NAP. 
-const char* UndervoltageString = "\x22\x34\x38\x29\x44\x43\x40\x2E\x0D\x29\x40\x22\x2D\x29";//PRENIZAK NAPON 
+const char* UndervoltageString = "\x22\x34\x38\x29\x44\x43\x40\x2E\x0D\x29\x40\x22\x2B\x29";//PRENIZAK NAPON 
 const char* InputVoltageString = "\x33\x17\x1D\x0D\x11\x0C\x15\x12\x11\x41\x0D";//Ul. napon:  
 const char* WarningTipTempString = "\x28\x0E\x16\x15\x1D\x0D\x1B\x0F\x20\x0C\x41\x0D";//Temp. vrha:  
-const char* BadTipString = "\x3A\x2D\x4D\x0D\x24\x34\x37";//LOŠ VRH 
+const char* BadTipString = "\x3A\x2B\x4D\x0D\x24\x34\x37";//LOŠ VRH 
 const char* SleepingSimpleString = "\x43\x1F\x1F";//Zzz 
 const char* SleepingAdvancedString = "\x26\x15\x0C\x1B\x0C\x11\x14\x0E\x1D\x1D\x1D";//Spavanje... 
 const char* WarningSimpleString = "\x24\x34\x33\x47";//VRUĆ 
-const char* WarningAdvancedString = "\x46\x0D\x2D\x22\x34\x38\x43\x2C\x0D\x24\x34\x33\x47\x38\x0D\x46";//! OPREZ, VRUĆE ! 
+const char* WarningAdvancedString = "\x46\x0D\x2B\x22\x34\x38\x43\x2D\x0D\x24\x34\x33\x47\x38\x0D\x46";//! OPREZ, VRUĆE ! 
 const char* SleepingTipAdvancedString = "\x24\x0F\x20\x41";//Vrh: 
 const char* IdleTipString = "\x24\x0F\x20\x41";//Vrh: 
 const char* IdleSetString = "\x0D\x4A\x0D";// /  
-const char* TipDisconnectedString = "\x24\x34\x37\x0D\x29\x44\x3B\x38\x0D\x26\x22\x2D\x3B\x38\x29";//VRH NIJE SPOJEN 
+const char* TipDisconnectedString = "\x24\x34\x37\x0D\x29\x44\x3B\x38\x0D\x26\x22\x2B\x3B\x38\x29";//VRH NIJE SPOJEN 
 const char* SolderingAdvancedPowerPrompt = "\x26\x11\x0C\x1E\x0C\x41\x0D";//Snaga:  
 const char* OffString = "\x44\x18\x19";//Isk 
-const char* ResetOKMessage = "\x34\x0E\x18\x0E\x13\x0D\x2D\x2E";//Reset OK 
+const char* ResetOKMessage = "\x34\x0E\x18\x0E\x13\x0D\x2B\x2E";//Reset OK 
 const char* YourGainMessage = "\x4F\x12\x1A\x0F\x0D\x48\x0C\x10\x11";//Your Gain 
 const char* SettingsResetMessage = "\x26\x0E\x13\x13\x10\x11\x1E\x18\x0D\x42\x0E\x0F\x0E\x01\x0F\x0E\x18\x0E\x13\x46";//Settings were_reset! 
 
-const char* SettingRightChar = "\x2B";//D 
+const char* SettingRightChar = "\x2C";//D 
 const char* SettingLeftChar = "\x3A";//L 
 const char* SettingAutoChar = "\x40";//A 
 const char* SettingFastChar = "\x2F";//B 
 const char* SettingSlowChar = "\x26";//S 
 const char* SettingStartSolderingChar = "\x28";//T 
 const char* SettingStartSleepChar = "\x26";//S 
+const char* SettingStartSleepOffChar = "\x2B";//O 
 const char* SettingStartNoneChar = "\x3F";//F 
 
 const char* SymbolPlus = "\x51";//+ 
@@ -6954,14 +6952,14 @@ const char* SymbolMinutes = "\x36";//M
 const char* SymbolSeconds = "\x26";//S 
 const char* SymbolWatts = "\x3E";//W 
 const char* SymbolVolts = "\x24";//V 
-const char* SymbolDC = "\x2B\x2A";//DC 
+const char* SymbolDC = "\x2C\x2A";//DC 
 const char* SymbolCellCount = "\x26";//S 
-const char* SymbolVersionNumber = "\x24\x04\x1D\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1B\x04\x1D\x02\x0A\x1D\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
 	 "\x2F\x02\x04",//B02 
-	 "\x2B\x04\x06",//D24 
+	 "\x2C\x04\x06",//D24 
 	 "\x2F\x2A\x04",//BC2 
 	 "\x0D\x2A\x03",// C1 
 	 "\x28\x26\x03\x02\x02",//TS100 
@@ -6970,14 +6968,14 @@ const char* TipModelStrings[] = {
 	 "\x33\x18\x0E\x0F",//User 
 #else
 	 "\x2F\x02\x04",//B02 
-	 "\x2B\x04\x07",//D25 
+	 "\x2C\x04\x07",//D25 
 	 "\x28\x26\x0A\x02",//TS80 
 	 "\x33\x18\x0E\x0F",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x45\x02\x03\x45\x04\x02",//18-01-20 
+	 "\x03\x06\x45\x02\x05\x45\x04\x02",//14-03-20 
 	 "\x37\x3E\x0D\x48\x0D",//HW G  
 	 "\x37\x3E\x0D\x36\x0D",//HW M  
 	 "\x37\x3E\x0D\x22\x0D",//HW P  
@@ -6996,10 +6994,10 @@ const char* SettingsShortNames[][2] = {
   /* SleepTemperature          */ { "\x28\x0E\x16\x15\x1D", "\x18\x15\x0C\x1B\x0C\x11\x14\x0C" },//['Temp.', 'spavanja'] 
   /* SleepTimeout              */ { "\x24\x0F\x0E\x16\x0E\x0D\x1C\x12", "\x18\x15\x0C\x1B\x0C\x11\x14\x0C" },//['Vreme do', 'spavanja'] 
   /* ShutdownTimeout           */ { "\x24\x0F\x0E\x16\x0E\x0D\x1C\x12", "\x1E\x0C\x35\x0E\x11\x14\x0C" },//['Vreme do', 'gašenja'] 
-  /* MotionSensitivity         */ { "\x2D\x18\x0E\x13\x17\x14\x10\x1B\x12\x18\x13", "\x11\x0C\x0D\x15\x12\x19\x0F\x0E\x13" },//['Osetljivost', 'na pokret'] 
+  /* MotionSensitivity         */ { "\x2B\x18\x0E\x13\x17\x14\x10\x1B\x12\x18\x13", "\x11\x0C\x0D\x15\x12\x19\x0F\x0E\x13" },//['Osetljivost', 'na pokret'] 
   /* TemperatureUnit           */ { "\x3B\x0E\x1C\x10\x11\x10\x21\x0C", "\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0E" },//['Jedinica', 'temperature'] 
-  /* AdvancedIdle              */ { "\x2B\x0E\x13\x0C\x17\x14\x10\x0D\x13\x12\x19\x12\x16", "\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C" },//['Detalji tokom', 'mirovanja'] 
-  /* DisplayRotation           */ { "\x2D\x0F\x10\x14\x0E\x11\x13\x0C\x21\x10\x14\x0C", "\x0E\x19\x0F\x0C\x11\x0C" },//['Orijentacija', 'ekrana'] 
+  /* AdvancedIdle              */ { "\x2C\x0E\x13\x0C\x17\x14\x10\x0D\x13\x12\x19\x12\x16", "\x16\x10\x0F\x12\x1B\x0C\x11\x14\x0C" },//['Detalji tokom', 'mirovanja'] 
+  /* DisplayRotation           */ { "\x2B\x0F\x10\x14\x0E\x11\x13\x0C\x21\x10\x14\x0C", "\x0E\x19\x0F\x0C\x11\x0C" },//['Orijentacija', 'ekrana'] 
   /* BoostEnabled              */ { "\x22\x12\x14\x0C\x27\x0C\x11\x14\x0E", "\x12\x16\x12\x1E\x1A\x32\x0E\x11\x12" },//['Pojačanje', 'omogućeno'] 
   /* BoostTemperature          */ { "\x28\x0E\x16\x15\x1D", "\x15\x12\x14\x0C\x27\x0C\x11\x14\x0C" },//['Temp.', 'pojačanja'] 
   /* AutoStart                 */ { "\x24\x0F\x1A\x32\x10", "\x18\x13\x0C\x0F\x13" },//['Vrući', 'start'] 
@@ -7007,7 +7005,7 @@ const char* SettingsShortNames[][2] = {
   /* TemperatureCalibration    */ { "\x2E\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C", "\x13\x0E\x16\x15\x0E\x0F\x0C\x13\x1A\x0F\x0E" },//['Kalibracija', 'temperature'] 
   /* SettingsReset             */ { "\x3F\x0C\x23\x0F\x10\x27\x19\x0E", "\x15\x12\x18\x13\x0C\x1B\x19\x0E" },//['Fabričke', 'postavke'] 
   /* VoltageCalibration        */ { "\x2E\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C", "\x1A\x17\x0C\x1F\x11\x12\x1E\x0D\x11\x0C\x15\x12\x11\x0C" },//['Kalibracija', 'ulaznog napona'] 
-  /* AdvancedSoldering         */ { "\x2B\x0E\x13\x0C\x17\x14\x10\x0D\x13\x12\x19\x12\x16", "\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C" },//['Detalji tokom', 'lemljenja'] 
+  /* AdvancedSoldering         */ { "\x2C\x0E\x13\x0C\x17\x14\x10\x0D\x13\x12\x19\x12\x16", "\x17\x0E\x16\x17\x14\x0E\x11\x14\x0C" },//['Detalji tokom', 'lemljenja'] 
   /* ScrollingSpeed            */ { "\x2F\x0F\x1F\x10\x11\x0C", "\x15\x12\x0F\x1A\x19\x0C" },//['Brzina', 'poruka'] 
   /* TipModel                  */ { "\x36\x12\x1C\x0E\x17", "\x1B\x0F\x20\x0C" },//['Model', 'vrha'] 
   /* SimpleCalibrationMode     */ { "\x3B\x0E\x1C\x11\x12\x18\x13\x0C\x1B\x11\x0C", "\x19\x0C\x17\x10\x23\x0F\x0C\x21\x10\x14\x0C" },//['Jednostavna', 'kalibracija'] 
@@ -7064,8 +7062,8 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x1C -> v
 0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x1D -> S
 0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x1E -> k
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x1F -> V
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x20 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1F -> .
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x20 -> V
 0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x21 -> A
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x22 -> -
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x23 -> h
@@ -7101,13 +7099,13 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x41 -> ,
 0x00,0x00,0x00,0x80,0xE2,0x75,0x75,0xE2,0x80,0x00,0x00,0x00,0x00,0x38,0x3E,0x0F,0x0D,0x0C,0x0C,0x0D,0x0F,0x3E,0x38,0x00,//\x42 -> Å
 0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x43 -> x
-0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x44 -> N
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x45 -> I
-0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x46 -> "
-0x00,0x00,0x40,0x60,0x64,0x6A,0x6A,0x64,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x47 -> å
-0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x48 -> Z
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x49 -> Y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4A -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x44 -> O
+0x00,0xFF,0xFF,0x0E,0x38,0xF0,0xC0,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x03,0x07,0x1C,0x3F,0x3F,0x00,//\x45 -> N
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x46 -> I
+0x00,0x00,0x00,0x3C,0x3C,0x00,0x00,0x3C,0x3C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x47 -> "
+0x00,0x00,0x40,0x60,0x64,0x6A,0x6A,0x64,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x48 -> å
+0x00,0x03,0x03,0x03,0x03,0xC3,0xE3,0x33,0x1F,0x0F,0x03,0x00,0x00,0x30,0x3C,0x3E,0x33,0x31,0x30,0x30,0x30,0x30,0x30,0x00,//\x49 -> Z
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x4A -> Y
 0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x4B -> /
 0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x4C -> +
 0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x4D -> )
@@ -7143,8 +7141,8 @@ const uint8_t USER_FONT_6x8[] = {
 0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x1C -> v
 0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x1D -> S
 0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x1E -> k
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x1F -> V
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x20 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1F -> .
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x20 -> V
 0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x21 -> A
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x22 -> -
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x23 -> h
@@ -7180,13 +7178,13 @@ const uint8_t USER_FONT_6x8[] = {
 0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x41 -> ,
 0x78, 0x14, 0x15, 0x14, 0x78, 0x00,//\x42 -> Å
 0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x43 -> x
-0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x44 -> N
-0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x45 -> I
-0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x46 -> "
-0x20, 0x54, 0x55, 0x54, 0x78, 0x00,//\x47 -> å
-0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x48 -> Z
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x49 -> Y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x4A -> O
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x44 -> O
+0x7f, 0x04, 0x08, 0x10, 0x7f, 0x00,//\x45 -> N
+0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x46 -> I
+0x00, 0x07, 0x00, 0x07, 0x00, 0x00,//\x47 -> "
+0x20, 0x54, 0x55, 0x54, 0x78, 0x00,//\x48 -> å
+0x61, 0x51, 0x49, 0x45, 0x43, 0x00,//\x49 -> Z
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x4A -> Y
 0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x4B -> /
 0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x4C -> +
 0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x4D -> )
@@ -7195,22 +7193,22 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Svenska ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x1D\x0F\x11\x27\x1A\x1E\x18\x13\x13\x12\x20\x0D\x21\x0E\x16\x0C\x11\x0D\x13\x18\x16\x14\x0F\x12\x0D\x14\x17\x18\x0E\x0E\x10\x0E\x16\x20\x0D\x2F\x35\x26\x0D\x03\x02\x1F\x2E\x0D\x2F\x1D\x0D\x05\x20\x05\x1F\x0D\x17\x0C\x11\x0D\x28\x0C\x13\x13\x2E",//Strömkälla. Anger lägsta spänning. <DC 10V> <S 3.3V per cell> 
-  /* SleepTemperature          */ "\x1F\x10\x13\x15\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0D\x2F\x26\x2E",//Vilotemperatur <C> 
-  /* SleepTimeout              */ "\x1F\x10\x13\x15\x22\x0F\x10\x1A\x0C\x15\x19\x0F\x0D\x2F\x2B\x10\x0E\x19\x0F\x0C\x11\x4B\x1D\x0C\x28\x15\x0E\x1B\x0C\x11\x2E",//Vilo-timeout <Minuter/Seconder> 
+  /* PowerSource               */ "\x1D\x0F\x11\x27\x1A\x1E\x18\x13\x13\x12\x1F\x0D\x21\x0E\x16\x0C\x11\x0D\x13\x18\x16\x14\x0F\x12\x0D\x14\x17\x18\x0E\x0E\x10\x0E\x16\x1F\x0D\x2F\x35\x26\x0D\x03\x02\x20\x2E\x0D\x2F\x1D\x0D\x05\x1F\x05\x20\x0D\x17\x0C\x11\x0D\x28\x0C\x13\x13\x2E",//Strömkälla. Anger lägsta spänning. <DC 10V> <S 3.3V per cell> 
+  /* SleepTemperature          */ "\x20\x10\x13\x15\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0D\x2F\x26\x2E",//Vilotemperatur <C> 
+  /* SleepTimeout              */ "\x20\x10\x13\x15\x22\x0F\x10\x1A\x0C\x15\x19\x0F\x0D\x2F\x2B\x10\x0E\x19\x0F\x0C\x11\x4B\x1D\x0C\x28\x15\x0E\x1B\x0C\x11\x2E",//Vilo-timeout <Minuter/Seconder> 
   /* ShutdownTimeout           */ "\x21\x1C\x14\x0F\x18\x0E\x16\x0E\x10\x0E\x16\x14\x22\x0F\x10\x1A\x0C\x15\x19\x0F\x0D\x2F\x2B\x10\x0E\x19\x0F\x0C\x11\x2E",//Avstängnings-timeout <Minuter> 
-  /* MotionSensitivity         */ "\x32\x27\x11\x0C\x13\x14\x0C\x1E\x18\x0E\x14\x13\x10\x16\x23\x0C\x0F\x0D\x2F\x02\x20\x21\x1C\x0D\x03\x20\x1A\x10\x0E\x14\x0F\x0D\x1E\x18\x0E\x14\x13\x10\x16\x0D\x0B\x20\x1A\x0C\x14\x0F\x0D\x1E\x18\x0E\x14\x13\x10\x16\x2E",//Rörelsekänslighet <0.Av 1.minst känslig 9.mest känslig> 
+  /* MotionSensitivity         */ "\x32\x27\x11\x0C\x13\x14\x0C\x1E\x18\x0E\x14\x13\x10\x16\x23\x0C\x0F\x0D\x2F\x02\x1F\x21\x1C\x0D\x03\x1F\x1A\x10\x0E\x14\x0F\x0D\x1E\x18\x0E\x14\x13\x10\x16\x0D\x0B\x1F\x1A\x0C\x14\x0F\x0D\x1E\x18\x0E\x14\x13\x10\x16\x2E",//Rörelsekänslighet <0.Av 1.minst känslig 9.mest känslig> 
   /* TemperatureUnit           */ "\x25\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0C\x0E\x23\x0C\x0F\x0D\x2F\x26\x3C\x26\x0C\x13\x14\x10\x19\x14\x0D\x33\x3C\x33\x12\x23\x11\x0C\x0E\x23\x0C\x10\x0F\x2E",//Temperaturenhet <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x1F\x10\x14\x12\x0D\x1B\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B\x0D\x10\x0E\x29\x15\x11\x1A\x12\x0F\x10\x15\x0E\x0D\x10\x0D\x1A\x10\x0E\x1B\x11\x0C\x0D\x0F\x3A\x17\x14\x0E\x10\x0F\x0F\x0D\x0E\x18\x11\x0D\x10\x0E\x12\x1E\x0F\x10\x1C\x20",//Visa detaljerad information i mindre typsnitt när inaktiv. 
-  /* DisplayRotation           */ "\x1F\x10\x14\x0E\x10\x0E\x16\x14\x13\x18\x16\x0C\x0D\x2F\x21\x20\x0D\x21\x19\x0F\x15\x1A\x12\x0F\x10\x14\x1E\x0D\x1F\x20\x0D\x1F\x18\x0E\x14\x0F\x0C\x11\x23\x18\x0E\x0F\x0D\x2C\x20\x0D\x2C\x27\x16\x0C\x11\x23\x18\x0E\x0F\x2E",//Visningsläge <A. Automatisk V. Vänsterhänt H. Högerhänt> 
+  /* AdvancedIdle              */ "\x20\x10\x14\x12\x0D\x1B\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B\x0D\x10\x0E\x29\x15\x11\x1A\x12\x0F\x10\x15\x0E\x0D\x10\x0D\x1A\x10\x0E\x1B\x11\x0C\x0D\x0F\x3A\x17\x14\x0E\x10\x0F\x0F\x0D\x0E\x18\x11\x0D\x10\x0E\x12\x1E\x0F\x10\x1C\x1F",//Visa detaljerad information i mindre typsnitt när inaktiv. 
+  /* DisplayRotation           */ "\x20\x10\x14\x0E\x10\x0E\x16\x14\x13\x18\x16\x0C\x0D\x2F\x21\x1F\x0D\x21\x19\x0F\x15\x1A\x12\x0F\x10\x14\x1E\x0D\x20\x1F\x0D\x20\x18\x0E\x14\x0F\x0C\x11\x23\x18\x0E\x0F\x0D\x2C\x1F\x0D\x2C\x27\x16\x0C\x11\x23\x18\x0E\x0F\x2E",//Visningsläge <A. Automatisk V. Vänsterhänt H. Högerhänt> 
   /* BoostEnabled              */ "\x21\x1E\x0F\x10\x1C\x0C\x11\x12\x0D\x29\x11\x18\x1A\x11\x0C\x0D\x1E\x0E\x12\x17\x17\x0C\x0E\x0D\x29\x27\x11\x0D\x0F\x19\x11\x24\x15\x13\x18\x16\x0C\x0D\x4E\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x23\x27\x38\x0E\x10\x0E\x16\x4D\x0D\x1C\x10\x1B\x0D\x13\x27\x1B\x0E\x10\x0E\x16",//Aktivera främre knappen för turboläge (temperaturhöjning) vid lödning 
-  /* BoostTemperature          */ "\x25\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0D\x10\x0D\x46\x0F\x19\x11\x24\x15\x46\x22\x13\x18\x16\x0C",//Temperatur i "turbo"-läge 
-  /* AutoStart                 */ "\x1D\x0F\x12\x11\x0F\x12\x11\x0D\x12\x19\x0F\x15\x1A\x12\x0F\x10\x14\x1E\x0F\x0D\x13\x27\x1B\x17\x0C\x0E\x0E\x12\x0E\x0D\x1C\x10\x1B\x0D\x19\x17\x17\x14\x0F\x12\x11\x0F\x20\x0D\x25\x3C\x30\x27\x1B\x0E\x10\x0E\x16\x41\x0D\x1D\x3C\x1F\x10\x13\x15\x13\x18\x16\x0C\x41\x0D\x33\x3C\x21\x1C",//Startar automatiskt lödpennan vid uppstart. T=Lödning, S=Viloläge, F=Av 
-  /* CooldownBlink             */ "\x36\x13\x10\x0E\x1E\x12\x0D\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0C\x0E\x0D\x1A\x0C\x1B\x12\x0E\x0D\x14\x17\x0C\x0F\x14\x0C\x0E\x0D\x1E\x3A\x13\x14\x0D\x12\x1C\x0D\x15\x28\x23\x0D\x29\x15\x11\x0F\x29\x12\x11\x12\x0E\x1B\x0C\x0D\x18\x11\x0D\x1C\x12\x11\x1A\x20",//Blinka temperaturen medan spetsen kyls av och fortfarande är varm. 
-  /* TemperatureCalibration    */ "\x3B\x12\x13\x10\x24\x11\x0C\x11\x12\x0D\x14\x17\x0C\x0F\x14\x22\x1E\x15\x1A\x17\x0C\x0E\x14\x12\x0F\x10\x15\x0E\x20",//Kalibrera spets-kompensation. 
+  /* BoostTemperature          */ "\x25\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0D\x10\x0D\x47\x0F\x19\x11\x24\x15\x47\x22\x13\x18\x16\x0C",//Temperatur i "turbo"-läge 
+  /* AutoStart                 */ "\x1D\x0F\x12\x11\x0F\x12\x11\x0D\x12\x19\x0F\x15\x1A\x12\x0F\x10\x14\x1E\x0F\x0D\x13\x27\x1B\x17\x0C\x0E\x0E\x12\x0E\x0D\x1C\x10\x1B\x0D\x19\x17\x17\x14\x0F\x12\x11\x0F\x1F\x0D\x25\x3C\x30\x27\x1B\x0E\x10\x0E\x16\x41\x0D\x1D\x3C\x20\x10\x13\x15\x13\x18\x16\x0C\x41\x0D\x33\x3C\x21\x1C",//Startar automatiskt lödpennan vid uppstart. T=Lödning, S=Viloläge, F=Av 
+  /* CooldownBlink             */ "\x36\x13\x10\x0E\x1E\x12\x0D\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x0C\x0E\x0D\x1A\x0C\x1B\x12\x0E\x0D\x14\x17\x0C\x0F\x14\x0C\x0E\x0D\x1E\x3A\x13\x14\x0D\x12\x1C\x0D\x15\x28\x23\x0D\x29\x15\x11\x0F\x29\x12\x11\x12\x0E\x1B\x0C\x0D\x18\x11\x0D\x1C\x12\x11\x1A\x1F",//Blinka temperaturen medan spetsen kyls av och fortfarande är varm. 
+  /* TemperatureCalibration    */ "\x3B\x12\x13\x10\x24\x11\x0C\x11\x12\x0D\x14\x17\x0C\x0F\x14\x22\x1E\x15\x1A\x17\x0C\x0E\x14\x12\x0F\x10\x15\x0E\x1F",//Kalibrera spets-kompensation. 
   /* SettingsReset             */ "\x42\x0F\x0C\x11\x14\x0F\x18\x13\x13\x0D\x12\x13\x13\x12\x0D\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//Återställ alla inställningar 
-  /* VoltageCalibration        */ "\x45\x0E\x14\x17\x18\x0E\x0E\x10\x0E\x16\x14\x1E\x12\x13\x10\x24\x11\x0C\x11\x10\x0E\x16\x20\x0D\x3B\x0E\x12\x17\x17\x12\x11\x0E\x12\x0D\x38\x19\x14\x0F\x0C\x11\x12\x11\x41\x0D\x23\x47\x13\x13\x0D\x10\x0E\x0E\x0C\x0D\x29\x27\x11\x0D\x12\x1C\x14\x13\x19\x0F",//Inspänningskalibrering. Knapparna justerar, håll inne för avslut 
-  /* AdvancedSoldering         */ "\x1F\x10\x14\x12\x0D\x1B\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B\x0D\x10\x0E\x29\x15\x11\x1A\x12\x0F\x10\x15\x0E\x0D\x1C\x10\x1B\x0D\x13\x27\x1B\x0E\x10\x0E\x16",//Visa detaljerad information vid lödning 
+  /* VoltageCalibration        */ "\x46\x0E\x14\x17\x18\x0E\x0E\x10\x0E\x16\x14\x1E\x12\x13\x10\x24\x11\x0C\x11\x10\x0E\x16\x1F\x0D\x3B\x0E\x12\x17\x17\x12\x11\x0E\x12\x0D\x38\x19\x14\x0F\x0C\x11\x12\x11\x41\x0D\x23\x48\x13\x13\x0D\x10\x0E\x0E\x0C\x0D\x29\x27\x11\x0D\x12\x1C\x14\x13\x19\x0F",//Inspänningskalibrering. Knapparna justerar, håll inne för avslut 
+  /* AdvancedSoldering         */ "\x20\x10\x14\x12\x0D\x1B\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B\x0D\x10\x0E\x29\x15\x11\x1A\x12\x0F\x10\x15\x0E\x0D\x1C\x10\x1B\x0D\x13\x27\x1B\x0E\x10\x0E\x16",//Visa detaljerad information vid lödning 
   /* ScrollingSpeed            */ "\x2C\x12\x14\x0F\x10\x16\x23\x0C\x0F\x0D\x14\x15\x1A\x0D\x1B\x0C\x0E\x0D\x23\x18\x11\x0D\x0F\x0C\x43\x0F\x0C\x0E\x0D\x11\x19\x13\x13\x12\x11\x0D\x10",//Hastighet som den här texten rullar i 
   /* TipModel                  */ "\x25\x10\x17\x0D\x2B\x15\x1B\x0C\x13\x0D\x14\x0C\x13\x0C\x28\x0F\x10\x15\x0E",//Tip Model selection 
   /* SimpleCalibrationMode     */ "\x1D\x10\x1A\x17\x13\x0C\x0D\x26\x12\x13\x10\x24\x11\x12\x0F\x10\x15\x0E\x0D\x19\x14\x10\x0E\x16\x0D\x2C\x15\x0F\x0D\x2D\x12\x0F\x0C\x11",//Simple Calibration using Hot water 
@@ -7225,45 +7223,46 @@ const char* SettingsCalibrationWarning = "\x2A\x13\x0C\x12\x14\x0C\x0D\x0C\x0E\x
 const char* SettingsResetWarning = "\x21\x11\x0C\x0D\x3A\x15\x19\x0D\x14\x19\x11\x0C\x0D\x3A\x15\x19\x0D\x2D\x12\x0E\x0F\x0D\x0F\x15\x0D\x11\x0C\x14\x0C\x0F\x0D\x14\x0C\x0F\x0F\x10\x0E\x16\x14\x0D\x0F\x15\x0D\x1B\x0C\x29\x12\x19\x13\x0F\x0D\x1C\x12\x13\x19\x0C\x14\x3F";//Are you sure you want to reset settings to default values? 
 const char* UVLOWarningString = "\x35\x26\x0D\x30\x42\x3E";//DC LÅG 
 const char* UndervoltageString = "\x3D\x0E\x1B\x0C\x11\x14\x17\x18\x0E\x0E\x10\x0E\x16";//Underspänning 
-const char* InputVoltageString = "\x45\x0E\x14\x17\x18\x0E\x20\x0D\x1F\x39\x0D";//Inspän. V:  
+const char* InputVoltageString = "\x46\x0E\x14\x17\x18\x0E\x1F\x0D\x20\x39\x0D";//Inspän. V:  
 const char* WarningTipTempString = "\x1D\x17\x0C\x0F\x14\x0F\x0C\x1A\x17\x39\x0D";//Spetstemp:  
 const char* BadTipString = "\x1D\x2A\x34\x25\x1D\x33\x34\x30";//SPETSFEL 
-const char* SleepingSimpleString = "\x48\x40\x40\x40";//Zzzz 
-const char* SleepingAdvancedString = "\x1F\x10\x13\x15\x13\x18\x16\x0C\x20\x20\x20";//Viloläge... 
-const char* WarningSimpleString = "\x1F\x21\x32\x2B";//VARM 
-const char* WarningAdvancedString = "\x37\x37\x0D\x1D\x2A\x34\x25\x1D\x0D\x1F\x21\x32\x2B\x0D\x37\x37";//!! SPETS VARM !! 
+const char* SleepingSimpleString = "\x49\x40\x40\x40";//Zzzz 
+const char* SleepingAdvancedString = "\x20\x10\x13\x15\x13\x18\x16\x0C\x1F\x1F\x1F";//Viloläge... 
+const char* WarningSimpleString = "\x20\x21\x32\x2B";//VARM 
+const char* WarningAdvancedString = "\x37\x37\x0D\x1D\x2A\x34\x25\x1D\x0D\x20\x21\x32\x2B\x0D\x37\x37";//!! SPETS VARM !! 
 const char* SleepingTipAdvancedString = "\x1D\x17\x0C\x0F\x14\x39";//Spets: 
 const char* IdleTipString = "\x1D\x17\x0C\x0F\x14\x39";//Spets: 
 const char* IdleSetString = "\x0D\x21\x0E\x16\x0C\x39";// Ange: 
-const char* TipDisconnectedString = "\x1D\x2A\x34\x25\x1D\x0D\x3D\x32\x25\x21\x3E\x34\x44";//SPETS URTAGEN 
+const char* TipDisconnectedString = "\x1D\x2A\x34\x25\x1D\x0D\x3D\x32\x25\x21\x3E\x34\x45";//SPETS URTAGEN 
 const char* SolderingAdvancedPowerPrompt = "\x1D\x0F\x11\x27\x1A\x39\x0D";//Ström:  
 const char* OffString = "\x21\x1C";//Av 
-const char* ResetOKMessage = "\x32\x0C\x14\x0C\x0F\x0D\x4A\x3B";//Reset OK 
-const char* YourGainMessage = "\x49\x15\x19\x11\x0D\x3E\x12\x10\x0E";//Your Gain 
+const char* ResetOKMessage = "\x32\x0C\x14\x0C\x0F\x0D\x44\x3B";//Reset OK 
+const char* YourGainMessage = "\x4A\x15\x19\x11\x0D\x3E\x12\x10\x0E";//Your Gain 
 const char* SettingsResetMessage = "\x1D\x0C\x0F\x0F\x10\x0E\x16\x14\x0D\x2D\x0C\x11\x0C\x01\x11\x0C\x14\x0C\x0F\x37";//Settings were_reset! 
 
 const char* SettingRightChar = "\x2C";//H 
-const char* SettingLeftChar = "\x1F";//V 
+const char* SettingLeftChar = "\x20";//V 
 const char* SettingAutoChar = "\x21";//A 
 const char* SettingFastChar = "\x1D";//S 
 const char* SettingSlowChar = "\x30";//L 
 const char* SettingStartSolderingChar = "\x25";//T 
 const char* SettingStartSleepChar = "\x1D";//S 
+const char* SettingStartSleepOffChar = "\x44";//O 
 const char* SettingStartNoneChar = "\x33";//F 
 
 const char* SymbolPlus = "\x4C";//+ 
 const char* SymbolMinus = "\x22";//- 
 const char* SymbolSpace = "\x0D";//  
-const char* SymbolDot = "\x20";//. 
+const char* SymbolDot = "\x1F";//. 
 const char* SymbolDegC = "\x26";//C 
 const char* SymbolDegF = "\x33";//F 
 const char* SymbolMinutes = "\x2B";//M 
 const char* SymbolSeconds = "\x1D";//S 
 const char* SymbolWatts = "\x31";//W 
-const char* SymbolVolts = "\x1F";//V 
+const char* SymbolVolts = "\x20";//V 
 const char* SymbolDC = "\x35\x26";//DC 
 const char* SymbolCellCount = "\x1D";//S 
-const char* SymbolVersionNumber = "\x1F\x04\x20\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x1C\x04\x1F\x02\x0A\x1F\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -7284,7 +7283,7 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x22\x02\x03\x22\x04\x02",//18-01-20 
+	 "\x03\x06\x22\x02\x05\x22\x04\x02",//14-03-20 
 	 "\x2C\x31\x0D\x3E\x0D",//HW G  
 	 "\x2C\x31\x0D\x2B\x0D",//HW M  
 	 "\x2C\x31\x0D\x2A\x0D",//HW P  
@@ -7293,29 +7292,29 @@ const char* DebugMenu[] = {
 	 "\x32\x25\x10\x17\x0D",//RTip  
 	 "\x26\x25\x10\x17\x0D",//CTip  
 	 "\x26\x2C\x12\x0E\x0D",//CHan  
-	 "\x1F\x10\x0E\x0D\x0D",//Vin   
+	 "\x20\x10\x0E\x0D\x0D",//Vin   
 	 "\x2A\x26\x36\x0D\x0D",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x1D\x0F\x11\x27\x1A\x22", "\x1E\x18\x13\x13\x12" },//['Ström-', 'källa'] 
-  /* SleepTemperature          */ { "\x1F\x10\x13\x15\x22", "\x0F\x0C\x1A\x17" },//['Vilo-', 'temp'] 
-  /* SleepTimeout              */ { "\x1F\x10\x13\x15\x22", "\x0F\x10\x1A\x0C\x15\x19\x0F" },//['Vilo-', 'timeout'] 
-  /* ShutdownTimeout           */ { "\x21\x1C\x14\x0F\x18\x0E\x16\x0E\x20", "\x0F\x10\x1A\x0C\x15\x19\x0F" },//['Avstängn.', 'timeout'] 
+  /* SleepTemperature          */ { "\x20\x10\x13\x15\x22", "\x0F\x0C\x1A\x17" },//['Vilo-', 'temp'] 
+  /* SleepTimeout              */ { "\x20\x10\x13\x15\x22", "\x0F\x10\x1A\x0C\x15\x19\x0F" },//['Vilo-', 'timeout'] 
+  /* ShutdownTimeout           */ { "\x21\x1C\x14\x0F\x18\x0E\x16\x0E\x1F", "\x0F\x10\x1A\x0C\x15\x19\x0F" },//['Avstängn.', 'timeout'] 
   /* MotionSensitivity         */ { "\x32\x27\x11\x0C\x13\x14\x0C\x22", "\x1E\x18\x0E\x14\x13\x10\x16\x23\x0C\x0F" },//['Rörelse-', 'känslighet'] 
   /* TemperatureUnit           */ { "\x25\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x22", "\x0C\x0E\x23\x0C\x0F\x0C\x11" },//['Temperatur-', 'enheter'] 
   /* AdvancedIdle              */ { "\x35\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B", "\x1C\x10\x1B\x0D\x10\x0E\x12\x1E\x0F\x10\x1C" },//['Detaljerad', 'vid inaktiv'] 
-  /* DisplayRotation           */ { "\x1F\x10\x14\x0E\x10\x0E\x16\x14", "\x13\x18\x16\x0C" },//['Visnings', 'läge'] 
+  /* DisplayRotation           */ { "\x20\x10\x14\x0E\x10\x0E\x16\x14", "\x13\x18\x16\x0C" },//['Visnings', 'läge'] 
   /* BoostEnabled              */ { "\x25\x19\x11\x24\x15\x13\x18\x16\x0C", "\x12\x1E\x0F\x10\x1C\x0C\x11\x12\x0F" },//['Turboläge', 'aktiverat'] 
   /* BoostTemperature          */ { "\x25\x19\x11\x24\x15\x22", "\x0F\x0C\x1A\x17" },//['Turbo-', 'temp'] 
   /* AutoStart                 */ { "\x21\x19\x0F\x15", "\x14\x0F\x12\x11\x0F" },//['Auto', 'start'] 
-  /* CooldownBlink             */ { "\x44\x0C\x1B\x1E\x3A\x13\x0E\x10\x0E\x16\x14\x22", "\x24\x13\x10\x0E\x1E" },//['Nedkylnings-', 'blink'] 
+  /* CooldownBlink             */ { "\x45\x0C\x1B\x1E\x3A\x13\x0E\x10\x0E\x16\x14\x22", "\x24\x13\x10\x0E\x1E" },//['Nedkylnings-', 'blink'] 
   /* TemperatureCalibration    */ { "\x3B\x12\x13\x10\x24\x11\x0C\x11\x12", "\x0F\x0C\x1A\x17\x0C\x11\x12\x0F\x19\x11\x3F" },//['Kalibrera', 'temperatur?'] 
   /* SettingsReset             */ { "\x33\x12\x24\x11\x10\x1E\x14\x22", "\x10\x0E\x14\x0F\x18\x13\x13\x3F" },//['Fabriks-', 'inställ?'] 
   /* VoltageCalibration        */ { "\x3B\x12\x13\x10\x24\x11\x0C\x11\x12", "\x10\x0E\x14\x17\x18\x0E\x0E\x10\x0E\x16\x3F" },//['Kalibrera', 'inspänning?'] 
-  /* AdvancedSoldering         */ { "\x35\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B", "\x13\x27\x1B\x0E\x16\x20\x14\x1E\x18\x11\x1A" },//['Detaljerad', 'lödng.skärm'] 
-  /* ScrollingSpeed            */ { "\x36\x0C\x14\x1E\x11\x10\x1C\x0E\x10\x0E\x16", "\x11\x19\x13\x13\x23\x12\x14\x0F\x20" },//['Beskrivning', 'rullhast.'] 
+  /* AdvancedSoldering         */ { "\x35\x0C\x0F\x12\x13\x38\x0C\x11\x12\x1B", "\x13\x27\x1B\x0E\x16\x1F\x14\x1E\x18\x11\x1A" },//['Detaljerad', 'lödng.skärm'] 
+  /* ScrollingSpeed            */ { "\x36\x0C\x14\x1E\x11\x10\x1C\x0E\x10\x0E\x16", "\x11\x19\x13\x13\x23\x12\x14\x0F\x1F" },//['Beskrivning', 'rullhast.'] 
   /* TipModel                  */ { "\x25\x10\x17", "\x2B\x15\x1B\x0C\x13" },//['Tip', 'Model'] 
   /* SimpleCalibrationMode     */ { "\x1D\x10\x1A\x17\x13\x0C", "\x26\x12\x13\x10\x24\x11\x12\x0F\x10\x15\x0E" },//['Simple', 'Calibration'] 
   /* AdvancedCalibrationMode   */ { "\x21\x1B\x1C\x12\x0E\x28\x0C\x1B", "\x26\x12\x13\x10\x24\x11\x12\x0F\x10\x15\x0E" },//['Advanced', 'Calibration'] 
@@ -7326,14 +7325,14 @@ const char* SettingsShortNames[][2] = {
 
 const char* SettingsMenuEntries[4] = {
   /* SolderingMenu             */ "\x30\x27\x1B\x0E\x10\x0E\x16\x14\x22\x01\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//['Lödnings-', 'inställningar'] 
-  /* PowerSavingMenu           */ "\x1F\x10\x13\x15\x22\x01\x13\x18\x16\x0C\x0E",//['Vilo-', 'lägen'] 
+  /* PowerSavingMenu           */ "\x20\x10\x13\x15\x22\x01\x13\x18\x16\x0C\x0E",//['Vilo-', 'lägen'] 
   /* UIMenu                    */ "\x21\x0E\x1C\x18\x0E\x1B\x12\x11\x22\x01\x16\x11\x18\x0E\x14\x14\x0E\x10\x0F\x0F",//['Användar-', 'gränssnitt'] 
   /* AdvancedMenu              */ "\x21\x1C\x12\x0E\x28\x0C\x11\x12\x1B\x0C\x01\x12\x13\x0F\x0C\x11\x0E\x12\x0F\x10\x1C",//['Avancerade', 'alternativ'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
   /* SolderingMenu             */ "\x30\x27\x1B\x0E\x10\x0E\x16\x14\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//Lödningsinställningar 
-  /* PowerSavingMenu           */ "\x1F\x10\x13\x15\x13\x18\x16\x0C\x14\x22\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//Viloläges-inställningar 
+  /* PowerSavingMenu           */ "\x20\x10\x13\x15\x13\x18\x16\x0C\x14\x22\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//Viloläges-inställningar 
   /* UIMenu                    */ "\x21\x0E\x1C\x18\x0E\x1B\x12\x11\x16\x11\x18\x0E\x14\x14\x0E\x10\x0F\x0F\x14\x22\x10\x0E\x14\x0F\x18\x13\x13\x0E\x10\x0E\x16\x12\x11",//Användargränssnitts-inställningar 
   /* AdvancedMenu              */ "\x21\x1C\x12\x0E\x28\x0C\x11\x12\x1B\x0C\x0D\x12\x13\x0F\x0C\x11\x0E\x12\x0F\x10\x1C",//Avancerade alternativ 
 };
@@ -7373,9 +7372,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xE0,0xE0,0x0C,0x0C,0x00,0x00,0x0C,0x0C,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x1E -> ü
 0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x1F -> T
 0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x20 -> C
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x21 -> M
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x22 -> L
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x23 -> .
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x21 -> .
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x22 -> M
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x23 -> L
 0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x24 -> U
 0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x25 -> D
 0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x26 -> c
@@ -7386,9 +7385,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x2B -> K
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x2C -> P
 0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x2D -> h
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x2E -> V
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x2F -> I
-0x00,0x80,0xC0,0xE0,0x68,0x64,0x64,0x64,0x68,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x30 -> ğ
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x2E -> I
+0x00,0x80,0xC0,0xE0,0x68,0x64,0x64,0x64,0x68,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x2F -> ğ
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x30 -> V
 0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x31 -> R
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x32 -> E
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x33 -> B
@@ -7405,9 +7404,9 @@ const uint8_t USER_FONT_12[] = {
 0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x3E -> F
 0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x3F -> :
 0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x40 -> !
-0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x41 -> =
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x1E,0x1C,0x00,0x00,0x01,0x07,0xCE,0xDC,0xF8,0xF8,0x18,0x1C,0x0E,0x06,0x00,//\x42 -> Ç
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x43 -> v
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x41 -> v
+0x00,0x00,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x60,0x00,0x00,0x00,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x06,0x00,//\x42 -> =
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x1E,0x1C,0x00,0x00,0x01,0x07,0xCE,0xDC,0xF8,0xF8,0x18,0x1C,0x0E,0x06,0x00,//\x43 -> Ç
 0x00,0xC0,0xC0,0xFC,0xFE,0xC7,0xC3,0xC3,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> f
 0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x45 -> ?
 0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x46 -> w
@@ -7457,9 +7456,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x3c, 0x41, 0x40, 0x21, 0x5c, 0x00,//\x1E -> ü
 0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x1F -> T
 0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x20 -> C
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x21 -> M
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x22 -> L
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x23 -> .
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x21 -> .
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x22 -> M
+0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x23 -> L
 0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x24 -> U
 0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x25 -> D
 0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x26 -> c
@@ -7470,9 +7469,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x2B -> K
 0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x2C -> P
 0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x2D -> h
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x2E -> V
-0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x2F -> I
-0x08, 0x55, 0x56, 0x55, 0x3c, 0x00,//\x30 -> ğ
+0x00, 0x41, 0x7f, 0x41, 0x00, 0x00,//\x2E -> I
+0x08, 0x55, 0x56, 0x55, 0x3c, 0x00,//\x2F -> ğ
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x30 -> V
 0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x31 -> R
 0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x32 -> E
 0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x33 -> B
@@ -7489,9 +7488,9 @@ const uint8_t USER_FONT_6x8[] = {
 0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x3E -> F
 0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x3F -> :
 0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x40 -> !
-0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x41 -> =
-0x0e, 0x51, 0x71, 0x11, 0x08, 0x00,//\x42 -> Ç
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x43 -> v
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x41 -> v
+0x14, 0x14, 0x14, 0x14, 0x14, 0x00,//\x42 -> =
+0x0e, 0x51, 0x71, 0x11, 0x08, 0x00,//\x43 -> Ç
 0x00, 0x04, 0x7e, 0x05, 0x01, 0x00,//\x44 -> f
 0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x45 -> ?
 0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x46 -> w
@@ -7512,47 +7511,47 @@ const uint8_t USER_FONT_6x8[] = {
 // ---- Türkçe ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x35\x1E\x28\x0C\x2B\x0D\x18\x12\x0D\x30\x13\x23\x0C\x17\x0E\x14\x11\x15\x0C\x37\x0E\x0F\x11\x10\x11\x15\x11\x12\x13\x0C\x0D\x18\x0D\x0F\x10\x0D\x0F\x23\x0C\x3A\x25\x20\x0C\x03\x02\x2E\x39\x0C\x3A\x1B\x0C\x05\x23\x05\x2E\x0C\x2D\x1E\x26\x0F\x0E\x0C\x2A\x0D\x27\x13\x12\x0D\x39",//Güç Kaynağı. kesim geriliminı ayarlar. <DC 10V> <S 3.3V hücre başına> 
-  /* SleepTemperature          */ "\x24\x18\x17\x19\x0C\x1B\x13\x26\x0D\x17\x10\x13\x30\x13\x0C\x3A\x20\x39",//Uyku Sıcaklığı <C> 
+  /* PowerSource               */ "\x35\x1E\x28\x0C\x2B\x0D\x18\x12\x0D\x2F\x13\x21\x0C\x17\x0E\x14\x11\x15\x0C\x37\x0E\x0F\x11\x10\x11\x15\x11\x12\x13\x0C\x0D\x18\x0D\x0F\x10\x0D\x0F\x21\x0C\x3A\x25\x20\x0C\x03\x02\x30\x39\x0C\x3A\x1B\x0C\x05\x21\x05\x30\x0C\x2D\x1E\x26\x0F\x0E\x0C\x2A\x0D\x27\x13\x12\x0D\x39",//Güç Kaynağı. kesim geriliminı ayarlar. <DC 10V> <S 3.3V hücre başına> 
+  /* SleepTemperature          */ "\x24\x18\x17\x19\x0C\x1B\x13\x26\x0D\x17\x10\x13\x2F\x13\x0C\x3A\x20\x39",//Uyku Sıcaklığı <C> 
   /* SleepTimeout              */ "\x24\x18\x17\x19\x0C\x47\x0D\x15\x0D\x12\x0C\x1D\x27\x13\x15\x13\x0C\x3A\x25\x0D\x17\x11\x17\x0D\x50\x1B\x0D\x12\x11\x18\x0E\x39",//Uyku Zaman Aşımı <Dakika/Saniye> 
   /* ShutdownTimeout           */ "\x2B\x0D\x29\x0D\x16\x15\x0D\x0C\x47\x0D\x15\x0D\x12\x0C\x1D\x27\x13\x15\x13\x0C\x3A\x25\x0D\x17\x11\x17\x0D\x39",//Kapatma Zaman Aşımı <Dakika> 
-  /* MotionSensitivity         */ "\x3B\x0D\x0F\x0E\x17\x0E\x16\x0C\x3B\x0D\x14\x14\x0D\x14\x11\x18\x0E\x16\x11\x0C\x3A\x02\x23\x2B\x0D\x29\x0D\x10\x13\x0C\x03\x23\x32\x12\x0C\x0D\x34\x0C\x1C\x19\x18\x0D\x0F\x10\x13\x0C\x0B\x23\x32\x12\x0C\x1C\x19\x18\x0D\x0F\x10\x13\x39",//Hareket Hassasiyeti <0.Kapalı 1.En az duyarlı 9.En duyarlı> 
-  /* TemperatureUnit           */ "\x1B\x13\x26\x0D\x17\x10\x13\x17\x0C\x4B\x12\x11\x16\x0E\x14\x11\x0C\x3A\x20\x41\x20\x0E\x10\x14\x11\x19\x14\x0C\x3E\x41\x3E\x0D\x2D\x0F\x0E\x12\x2D\x0E\x11\x16\x39",//Sıcaklık Ünitesi <C=Celsius F=Fahrenheit> 
-  /* AdvancedIdle              */ "\x33\x1A\x27\x0C\x0E\x17\x0F\x0D\x12\x1C\x0D\x0C\x0D\x18\x0F\x13\x12\x16\x13\x10\x13\x0C\x2A\x11\x10\x37\x11\x10\x0E\x0F\x11\x0C\x1C\x0D\x2D\x0D\x0C\x17\x1E\x28\x1E\x17\x0C\x2A\x11\x0F\x0C\x18\x0D\x34\x13\x0C\x16\x11\x29\x11\x0C\x11\x10\x0E\x0C\x37\x36\x14\x16\x0E\x0F\x23",//Boş ekranda ayrıntılı bilgileri daha küçük bir yazı tipi ile göster. 
-  /* DisplayRotation           */ "\x35\x36\x0F\x1E\x12\x16\x1E\x0C\x48\x36\x12\x10\x0E\x12\x1C\x11\x0F\x15\x0E\x0C\x3A\x1D\x23\x0C\x3C\x16\x1A\x15\x0D\x16\x11\x17\x0C\x22\x23\x0C\x1B\x1A\x10\x0D\x17\x0C\x31\x23\x0C\x1B\x0D\x30\x10\x0D\x17\x39",//Görüntü Yönlendirme <A. Otomatik L. Solak R. Sağlak> 
-  /* BoostEnabled              */ "\x22\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x18\x0D\x29\x0D\x0F\x17\x0E\x12\x0C\x36\x12\x0C\x16\x19\x27\x0D\x0C\x2A\x0D\x14\x15\x0D\x17\x0C\x33\x1A\x1A\x14\x16\x0C\x15\x1A\x1C\x19\x12\x0D\x0C\x14\x1A\x17\x0D\x0F\x53\x06\x07\x02\x20\x52",//Lehimleme yaparken ön tuşa basmak Boost moduna sokar(450C) 
-  /* BoostTemperature          */ "\x4D\x2A\x1A\x1A\x14\x16\x4D\x0C\x21\x1A\x1C\x19\x0C\x25\x0E\x0F\x0E\x26\x0E\x14\x11",//"boost" Modu Derecesi 
-  /* AutoStart                 */ "\x35\x1E\x28\x0C\x43\x0E\x0F\x11\x10\x1C\x11\x30\x11\x12\x1C\x0E\x0C\x1A\x16\x1A\x15\x0D\x16\x11\x17\x0C\x1A\x10\x0D\x0F\x0D\x17\x0C\x10\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x15\x1A\x1C\x19\x12\x1C\x0D\x0C\x2A\x0D\x27\x10\x0D\x16\x23\x0C\x1F\x41\x22\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x21\x1A\x1C\x19\x4A\x0C\x1B\x41\x0C\x24\x18\x17\x19\x0C\x21\x1A\x1C\x19\x4A\x3E\x41\x2B\x0D\x29\x0D\x10\x13",//Güç verildiğinde otomatik olarak lehimleme modunda başlat. T=Lehimleme Modu, S= Uyku Modu,F=Kapalı 
-  /* CooldownBlink             */ "\x1B\x1A\x30\x19\x16\x15\x0D\x0C\x0E\x17\x0F\x0D\x12\x13\x12\x1C\x0D\x0C\x19\x28\x0C\x2D\x0D\x10\x0D\x0C\x14\x13\x26\x0D\x17\x17\x0E\x12\x0C\x1C\x0E\x0F\x0E\x26\x0E\x0C\x18\x0D\x12\x13\x29\x0C\x14\x36\x12\x14\x1E\x12\x23",//Soğutma ekranında uç hala sıcakken derece yanıp sönsün. 
-  /* TemperatureCalibration    */ "\x24\x26\x19\x0C\x17\x0D\x10\x11\x2A\x0F\x0E\x0C\x0E\x16\x23",//Ucu kalibre et. 
+  /* MotionSensitivity         */ "\x3B\x0D\x0F\x0E\x17\x0E\x16\x0C\x3B\x0D\x14\x14\x0D\x14\x11\x18\x0E\x16\x11\x0C\x3A\x02\x21\x2B\x0D\x29\x0D\x10\x13\x0C\x03\x21\x32\x12\x0C\x0D\x34\x0C\x1C\x19\x18\x0D\x0F\x10\x13\x0C\x0B\x21\x32\x12\x0C\x1C\x19\x18\x0D\x0F\x10\x13\x39",//Hareket Hassasiyeti <0.Kapalı 1.En az duyarlı 9.En duyarlı> 
+  /* TemperatureUnit           */ "\x1B\x13\x26\x0D\x17\x10\x13\x17\x0C\x4B\x12\x11\x16\x0E\x14\x11\x0C\x3A\x20\x42\x20\x0E\x10\x14\x11\x19\x14\x0C\x3E\x42\x3E\x0D\x2D\x0F\x0E\x12\x2D\x0E\x11\x16\x39",//Sıcaklık Ünitesi <C=Celsius F=Fahrenheit> 
+  /* AdvancedIdle              */ "\x33\x1A\x27\x0C\x0E\x17\x0F\x0D\x12\x1C\x0D\x0C\x0D\x18\x0F\x13\x12\x16\x13\x10\x13\x0C\x2A\x11\x10\x37\x11\x10\x0E\x0F\x11\x0C\x1C\x0D\x2D\x0D\x0C\x17\x1E\x28\x1E\x17\x0C\x2A\x11\x0F\x0C\x18\x0D\x34\x13\x0C\x16\x11\x29\x11\x0C\x11\x10\x0E\x0C\x37\x36\x14\x16\x0E\x0F\x21",//Boş ekranda ayrıntılı bilgileri daha küçük bir yazı tipi ile göster. 
+  /* DisplayRotation           */ "\x35\x36\x0F\x1E\x12\x16\x1E\x0C\x48\x36\x12\x10\x0E\x12\x1C\x11\x0F\x15\x0E\x0C\x3A\x1D\x21\x0C\x3C\x16\x1A\x15\x0D\x16\x11\x17\x0C\x23\x21\x0C\x1B\x1A\x10\x0D\x17\x0C\x31\x21\x0C\x1B\x0D\x2F\x10\x0D\x17\x39",//Görüntü Yönlendirme <A. Otomatik L. Solak R. Sağlak> 
+  /* BoostEnabled              */ "\x23\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x18\x0D\x29\x0D\x0F\x17\x0E\x12\x0C\x36\x12\x0C\x16\x19\x27\x0D\x0C\x2A\x0D\x14\x15\x0D\x17\x0C\x33\x1A\x1A\x14\x16\x0C\x15\x1A\x1C\x19\x12\x0D\x0C\x14\x1A\x17\x0D\x0F\x53\x06\x07\x02\x20\x52",//Lehimleme yaparken ön tuşa basmak Boost moduna sokar(450C) 
+  /* BoostTemperature          */ "\x4D\x2A\x1A\x1A\x14\x16\x4D\x0C\x22\x1A\x1C\x19\x0C\x25\x0E\x0F\x0E\x26\x0E\x14\x11",//"boost" Modu Derecesi 
+  /* AutoStart                 */ "\x35\x1E\x28\x0C\x41\x0E\x0F\x11\x10\x1C\x11\x2F\x11\x12\x1C\x0E\x0C\x1A\x16\x1A\x15\x0D\x16\x11\x17\x0C\x1A\x10\x0D\x0F\x0D\x17\x0C\x10\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x15\x1A\x1C\x19\x12\x1C\x0D\x0C\x2A\x0D\x27\x10\x0D\x16\x21\x0C\x1F\x42\x23\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x22\x1A\x1C\x19\x4A\x0C\x1B\x42\x0C\x24\x18\x17\x19\x0C\x22\x1A\x1C\x19\x4A\x3E\x42\x2B\x0D\x29\x0D\x10\x13",//Güç verildiğinde otomatik olarak lehimleme modunda başlat. T=Lehimleme Modu, S= Uyku Modu,F=Kapalı 
+  /* CooldownBlink             */ "\x1B\x1A\x2F\x19\x16\x15\x0D\x0C\x0E\x17\x0F\x0D\x12\x13\x12\x1C\x0D\x0C\x19\x28\x0C\x2D\x0D\x10\x0D\x0C\x14\x13\x26\x0D\x17\x17\x0E\x12\x0C\x1C\x0E\x0F\x0E\x26\x0E\x0C\x18\x0D\x12\x13\x29\x0C\x14\x36\x12\x14\x1E\x12\x21",//Soğutma ekranında uç hala sıcakken derece yanıp sönsün. 
+  /* TemperatureCalibration    */ "\x24\x26\x19\x0C\x17\x0D\x10\x11\x2A\x0F\x0E\x0C\x0E\x16\x21",//Ucu kalibre et. 
   /* SettingsReset             */ "\x33\x1E\x16\x1E\x12\x0C\x0D\x18\x0D\x0F\x10\x0D\x0F\x13\x0C\x14\x13\x44\x13\x0F\x10\x0D",//Bütün ayarları sıfırla 
-  /* VoltageCalibration        */ "\x2E\x2F\x3D\x0C\x2B\x0D\x10\x11\x2A\x0F\x0D\x14\x18\x1A\x12\x19\x23\x0C\x25\x1E\x30\x15\x0E\x10\x0E\x0F\x0C\x0D\x18\x0D\x0F\x10\x0D\x0F\x4A\x0C\x28\x13\x17\x15\x0D\x17\x0C\x11\x28\x11\x12\x0C\x19\x34\x19\x12\x0C\x2A\x0D\x14\x23",//VIN Kalibrasyonu. Düğmeler ayarlar, çıkmak için uzun bas. 
-  /* AdvancedSoldering         */ "\x22\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x18\x0D\x29\x0D\x0F\x17\x0E\x12\x0C\x1C\x0E\x16\x0D\x18\x10\x13\x0C\x2A\x11\x10\x37\x11\x0C\x37\x36\x14\x16\x0E\x0F",//Lehimleme yaparken detaylı bilgi göster 
+  /* VoltageCalibration        */ "\x30\x2E\x3D\x0C\x2B\x0D\x10\x11\x2A\x0F\x0D\x14\x18\x1A\x12\x19\x21\x0C\x25\x1E\x2F\x15\x0E\x10\x0E\x0F\x0C\x0D\x18\x0D\x0F\x10\x0D\x0F\x4A\x0C\x28\x13\x17\x15\x0D\x17\x0C\x11\x28\x11\x12\x0C\x19\x34\x19\x12\x0C\x2A\x0D\x14\x21",//VIN Kalibrasyonu. Düğmeler ayarlar, çıkmak için uzun bas. 
+  /* AdvancedSoldering         */ "\x23\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x18\x0D\x29\x0D\x0F\x17\x0E\x12\x0C\x1C\x0E\x16\x0D\x18\x10\x13\x0C\x2A\x11\x10\x37\x11\x0C\x37\x36\x14\x16\x0E\x0F",//Lehimleme yaparken detaylı bilgi göster 
   /* ScrollingSpeed            */ "\x1B\x29\x0E\x0E\x1C\x0C\x16\x2D\x11\x14\x0C\x16\x0E\x4C\x16\x0C\x14\x26\x0F\x1A\x10\x10\x14\x0C\x29\x0D\x14\x16\x0C\x0D\x16",//Speed this text scrolls past at 
-  /* TipModel                  */ "\x24\x28\x0C\x21\x1A\x1C\x0E\x10\x11\x0C\x14\x0E\x28\x11\x15\x11",//Uç Modeli seçimi 
+  /* TipModel                  */ "\x24\x28\x0C\x22\x1A\x1C\x0E\x10\x11\x0C\x14\x0E\x28\x11\x15\x11",//Uç Modeli seçimi 
   /* SimpleCalibrationMode     */ "\x1B\x13\x26\x0D\x17\x0C\x14\x19\x0C\x17\x19\x10\x10\x0D\x12\x0D\x0F\x0D\x17\x0C\x2A\x0D\x14\x11\x16\x0C\x17\x0D\x10\x11\x2A\x0F\x0D\x14\x18\x1A\x12",//Sıcak su kullanarak basit kalibrasyon 
   /* AdvancedCalibrationMode   */ "\x24\x28\x16\x0D\x17\x11\x0C\x13\x14\x13\x0C\x14\x0E\x12\x14\x36\x0F\x1E\x12\x1E\x0C\x17\x19\x10\x10\x0D\x12\x0D\x0F\x0D\x17\x0C\x37\x0E\x10\x11\x27\x15\x11\x27\x0C\x17\x0D\x10\x11\x2A\x0F\x0D\x14\x18\x1A\x12",//Uçtaki ısı sensörünü kullanarak gelişmiş kalibrasyon 
   /* PowerInput                */ "\x2B\x19\x10\x10\x0D\x12\x13\x10\x0D\x12\x0C\x0D\x1C\x0D\x29\x16\x36\x0F\x1E\x12\x0C\x37\x1E\x28\x0C\x15\x11\x17\x16\x0D\x0F\x13",//Kullanılan adaptörün güç miktarı 
   /* PowerLimitEnable          */ "\x32\x12\x0D\x2A\x10\x0E\x0C\x29\x1A\x46\x0E\x0F\x0C\x10\x11\x15\x11\x16",//Enable power limit 
-  /* PowerLimit                */ "\x21\x0D\x4C\x11\x15\x19\x15\x0C\x29\x1A\x46\x0E\x0F\x0C\x16\x2D\x0E\x0C\x11\x0F\x1A\x12\x0C\x26\x0D\x12\x0C\x19\x14\x0E\x0C\x3A\x38\x0D\x16\x16\x14\x39",//Maximum power the iron can use <Watts> 
+  /* PowerLimit                */ "\x22\x0D\x4C\x11\x15\x19\x15\x0C\x29\x1A\x46\x0E\x0F\x0C\x16\x2D\x0E\x0C\x11\x0F\x1A\x12\x0C\x26\x0D\x12\x0C\x19\x14\x0E\x0C\x3A\x38\x0D\x16\x16\x14\x39",//Maximum power the iron can use <Watts> 
 };
 
 const char* SettingsCalibrationDone = "\x2B\x0D\x10\x11\x2A\x0F\x0D\x14\x18\x1A\x12\x0C\x16\x0D\x15\x0D\x15\x10\x0D\x12\x1C\x13\x40";//Kalibrasyon tamamlandı! 
-const char* SettingsCalibrationWarning = "\x22\x1E\x16\x44\x0E\x12\x0C\x1C\x0E\x43\x0D\x15\x0C\x0E\x16\x15\x0E\x1C\x0E\x12\x0C\x36\x12\x26\x0E\x0C\x19\x26\x19\x12\x0C\x1A\x1C\x0D\x0C\x14\x13\x26\x0D\x17\x10\x13\x30\x13\x12\x1C\x0D\x0C\x1A\x10\x1C\x19\x30\x19\x12\x19\x0C\x37\x0D\x0F\x0D\x12\x16\x11\x18\x0E\x0C\x0D\x10\x13\x12\x40";//Lütfen devam etmeden önce ucun oda sıcaklığında olduğunu garantiye alın! 
-const char* SettingsResetWarning = "\x1D\x18\x0D\x0F\x10\x0D\x0F\x13\x0C\x43\x0D\x0F\x14\x0D\x18\x13\x10\x0D\x12\x0C\x1C\x0E\x30\x0E\x0F\x10\x0E\x0F\x0E\x0C\x14\x13\x44\x13\x0F\x10\x0D\x15\x0D\x17\x0C\x11\x14\x16\x0E\x1C\x11\x30\x11\x12\x11\x34\x1C\x0E\x12\x0C\x0E\x15\x11\x12\x0C\x15\x11\x14\x11\x12\x11\x34\x45";//Ayarları varsayılan değerlere sıfırlamak istediğinizden emin misiniz? 
-const char* UVLOWarningString = "\x25\x20\x0C\x22\x3C\x38";//DC LOW 
-const char* UndervoltageString = "\x25\x1E\x27\x1E\x27\x0C\x2E\x1A\x10\x16\x0D\x4F";//Düşüş Voltaj 
-const char* InputVoltageString = "\x35\x11\x0F\x11\x27\x0C\x2E\x3F\x0C";//Giriş V:  
-const char* WarningTipTempString = "\x24\x28\x0C\x1B\x13\x26\x0D\x17\x10\x13\x30\x13\x3F\x0C";//Uç Sıcaklığı:  
-const char* BadTipString = "\x2B\x4E\x1F\x4B\x0C\x24\x42";//KÖTÜ UÇ 
+const char* SettingsCalibrationWarning = "\x23\x1E\x16\x44\x0E\x12\x0C\x1C\x0E\x41\x0D\x15\x0C\x0E\x16\x15\x0E\x1C\x0E\x12\x0C\x36\x12\x26\x0E\x0C\x19\x26\x19\x12\x0C\x1A\x1C\x0D\x0C\x14\x13\x26\x0D\x17\x10\x13\x2F\x13\x12\x1C\x0D\x0C\x1A\x10\x1C\x19\x2F\x19\x12\x19\x0C\x37\x0D\x0F\x0D\x12\x16\x11\x18\x0E\x0C\x0D\x10\x13\x12\x40";//Lütfen devam etmeden önce ucun oda sıcaklığında olduğunu garantiye alın! 
+const char* SettingsResetWarning = "\x1D\x18\x0D\x0F\x10\x0D\x0F\x13\x0C\x41\x0D\x0F\x14\x0D\x18\x13\x10\x0D\x12\x0C\x1C\x0E\x2F\x0E\x0F\x10\x0E\x0F\x0E\x0C\x14\x13\x44\x13\x0F\x10\x0D\x15\x0D\x17\x0C\x11\x14\x16\x0E\x1C\x11\x2F\x11\x12\x11\x34\x1C\x0E\x12\x0C\x0E\x15\x11\x12\x0C\x15\x11\x14\x11\x12\x11\x34\x45";//Ayarları varsayılan değerlere sıfırlamak istediğinizden emin misiniz? 
+const char* UVLOWarningString = "\x25\x20\x0C\x23\x3C\x38";//DC LOW 
+const char* UndervoltageString = "\x25\x1E\x27\x1E\x27\x0C\x30\x1A\x10\x16\x0D\x4F";//Düşüş Voltaj 
+const char* InputVoltageString = "\x35\x11\x0F\x11\x27\x0C\x30\x3F\x0C";//Giriş V:  
+const char* WarningTipTempString = "\x24\x28\x0C\x1B\x13\x26\x0D\x17\x10\x13\x2F\x13\x3F\x0C";//Uç Sıcaklığı:  
+const char* BadTipString = "\x2B\x4E\x1F\x4B\x0C\x24\x43";//KÖTÜ UÇ 
 const char* SleepingSimpleString = "\x47\x34\x34\x34";//Zzzz 
-const char* SleepingAdvancedString = "\x24\x18\x19\x18\x1A\x0F\x23\x23\x23";//Uyuyor... 
-const char* WarningSimpleString = "\x1B\x2F\x20\x1D\x2B\x40";//SICAK! 
-const char* WarningAdvancedString = "\x24\x48\x1D\x31\x2F\x40\x0C\x24\x42\x0C\x1B\x2F\x20\x1D\x2B\x40";//UYARI! UÇ SICAK! 
+const char* SleepingAdvancedString = "\x24\x18\x19\x18\x1A\x0F\x21\x21\x21";//Uyuyor... 
+const char* WarningSimpleString = "\x1B\x2E\x20\x1D\x2B\x40";//SICAK! 
+const char* WarningAdvancedString = "\x24\x48\x1D\x31\x2E\x40\x0C\x24\x43\x0C\x1B\x2E\x20\x1D\x2B\x40";//UYARI! UÇ SICAK! 
 const char* SleepingTipAdvancedString = "\x24\x28\x3F";//Uç: 
 const char* IdleTipString = "\x24\x28\x3F";//Uç: 
 const char* IdleSetString = "\x0C\x1D\x18\x0D\x0F\x10\x0D\x3F";// Ayarla: 
-const char* TipDisconnectedString = "\x24\x42\x0C\x42\x2F\x2B\x1D\x31\x2F\x22\x25\x2F";//UÇ ÇIKARILDI 
+const char* TipDisconnectedString = "\x24\x43\x0C\x43\x2E\x2B\x1D\x31\x2E\x23\x25\x2E";//UÇ ÇIKARILDI 
 const char* SolderingAdvancedPowerPrompt = "\x35\x1E\x28\x3F\x0C";//Güç:  
 const char* OffString = "\x2B\x0D\x29\x0D\x10\x13";//Kapalı 
 const char* ResetOKMessage = "\x31\x0E\x14\x0E\x16\x0C\x1F\x0D\x15\x0D\x15";//Reset Tamam 
@@ -7560,27 +7559,28 @@ const char* YourGainMessage = "\x48\x1A\x19\x0F\x0C\x35\x0D\x11\x12";//Your Gain
 const char* SettingsResetMessage = "\x1B\x0E\x16\x16\x11\x12\x37\x14\x0C\x46\x0E\x0F\x0E\x01\x0F\x0E\x14\x0E\x16\x40";//Settings were_reset! 
 
 const char* SettingRightChar = "\x31";//R 
-const char* SettingLeftChar = "\x22";//L 
+const char* SettingLeftChar = "\x23";//L 
 const char* SettingAutoChar = "\x1D";//A 
 const char* SettingFastChar = "\x3E";//F 
 const char* SettingSlowChar = "\x1B";//S 
 const char* SettingStartSolderingChar = "\x1F";//T 
 const char* SettingStartSleepChar = "\x1B";//S 
+const char* SettingStartSleepOffChar = "\x3C";//O 
 const char* SettingStartNoneChar = "\x3E";//F 
 
 const char* SymbolPlus = "\x51";//+ 
 const char* SymbolMinus = "\x49";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x23";//. 
+const char* SymbolDot = "\x21";//. 
 const char* SymbolDegC = "\x20";//C 
 const char* SymbolDegF = "\x3E";//F 
-const char* SymbolMinutes = "\x21";//M 
+const char* SymbolMinutes = "\x22";//M 
 const char* SymbolSeconds = "\x1B";//S 
 const char* SymbolWatts = "\x38";//W 
-const char* SymbolVolts = "\x2E";//V 
+const char* SymbolVolts = "\x30";//V 
 const char* SymbolDC = "\x25\x20";//DC 
 const char* SymbolCellCount = "\x1B";//S 
-const char* SymbolVersionNumber = "\x2E\x04\x23\x02\x0A";//V2.08 
+const char* SymbolVersionNumber = "\x41\x04\x21\x02\x0A\x21\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
@@ -7601,55 +7601,55 @@ const char* TipModelStrings[] = {
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x49\x02\x03\x49\x04\x02",//18-01-20 
+	 "\x03\x06\x49\x02\x05\x49\x04\x02",//14-03-20 
 	 "\x3B\x38\x0C\x35\x0C",//HW G  
-	 "\x3B\x38\x0C\x21\x0C",//HW M  
+	 "\x3B\x38\x0C\x22\x0C",//HW M  
 	 "\x3B\x38\x0C\x2C\x0C",//HW P  
 	 "\x1F\x11\x15\x0E\x0C",//Time  
-	 "\x21\x1A\x43\x0E\x0C",//Move  
+	 "\x22\x1A\x41\x0E\x0C",//Move  
 	 "\x31\x1F\x11\x29\x0C",//RTip  
 	 "\x20\x1F\x11\x29\x0C",//CTip  
 	 "\x20\x3B\x0D\x12\x0C",//CHan  
-	 "\x2E\x11\x12\x0C\x0C",//Vin   
+	 "\x30\x11\x12\x0C\x0C",//Vin   
 	 "\x2C\x20\x33\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_SINGLE_LINE;
 const char* SettingsShortNames[][2] = {
   /* PowerSource               */ { "\x2C\x38\x31\x1B\x20" },//PWRSC 
-  /* SleepTemperature          */ { "\x1B\x1F\x21\x2C" },//STMP 
-  /* SleepTimeout              */ { "\x1B\x1F\x21\x32" },//STME 
-  /* ShutdownTimeout           */ { "\x1B\x3B\x1F\x21\x32" },//SHTME 
-  /* MotionSensitivity         */ { "\x21\x1B\x32\x3D\x1B\x32" },//MSENSE 
-  /* TemperatureUnit           */ { "\x1F\x21\x2C\x24\x3D\x1F" },//TMPUNT 
-  /* AdvancedIdle              */ { "\x1D\x25\x2E\x2F\x25\x22" },//ADVIDL 
+  /* SleepTemperature          */ { "\x1B\x1F\x22\x2C" },//STMP 
+  /* SleepTimeout              */ { "\x1B\x1F\x22\x32" },//STME 
+  /* ShutdownTimeout           */ { "\x1B\x3B\x1F\x22\x32" },//SHTME 
+  /* MotionSensitivity         */ { "\x22\x1B\x32\x3D\x1B\x32" },//MSENSE 
+  /* TemperatureUnit           */ { "\x1F\x22\x2C\x24\x3D\x1F" },//TMPUNT 
+  /* AdvancedIdle              */ { "\x1D\x25\x30\x2E\x25\x23" },//ADVIDL 
   /* DisplayRotation           */ { "\x25\x1B\x2C\x31\x3C\x1F" },//DSPROT 
   /* BoostEnabled              */ { "\x33\x3C\x3C\x1B\x1F" },//BOOST 
-  /* BoostTemperature          */ { "\x33\x1F\x21\x2C" },//BTMP 
+  /* BoostTemperature          */ { "\x33\x1F\x22\x2C" },//BTMP 
   /* AutoStart                 */ { "\x1D\x1B\x1F\x1D\x31\x1F" },//ASTART 
-  /* CooldownBlink             */ { "\x20\x22\x33\x22\x3D\x2B" },//CLBLNK 
-  /* TemperatureCalibration    */ { "\x1F\x21\x2C\x0C\x20\x1D\x22\x45" },//TMP CAL? 
+  /* CooldownBlink             */ { "\x20\x23\x33\x23\x3D\x2B" },//CLBLNK 
+  /* TemperatureCalibration    */ { "\x1F\x22\x2C\x0C\x20\x1D\x23\x45" },//TMP CAL? 
   /* SettingsReset             */ { "\x31\x32\x1B\x32\x1F\x45" },//RESET? 
-  /* VoltageCalibration        */ { "\x20\x1D\x22\x0C\x2E\x2F\x3D\x45" },//CAL VIN? 
-  /* AdvancedSoldering         */ { "\x1D\x25\x2E\x1B\x22\x25" },//ADVSLD 
+  /* VoltageCalibration        */ { "\x20\x1D\x23\x0C\x30\x2E\x3D\x45" },//CAL VIN? 
+  /* AdvancedSoldering         */ { "\x1D\x25\x30\x1B\x23\x25" },//ADVSLD 
   /* ScrollingSpeed            */ { "\x25\x32\x1B\x20\x1B\x2C" },//DESCSP 
-  /* TipModel                  */ { "\x1F\x2F\x2C\x21\x3C" },//TIPMO 
-  /* SimpleCalibrationMode     */ { "\x1B\x21\x2C\x20\x1D\x22" },//SMPCAL 
-  /* AdvancedCalibrationMode   */ { "\x1D\x25\x2E\x20\x1D\x22" },//ADVCAL 
+  /* TipModel                  */ { "\x1F\x2E\x2C\x22\x3C" },//TIPMO 
+  /* SimpleCalibrationMode     */ { "\x1B\x22\x2C\x20\x1D\x23" },//SMPCAL 
+  /* AdvancedCalibrationMode   */ { "\x1D\x25\x30\x20\x1D\x23" },//ADVCAL 
   /* PowerInput                */ { "\x2C\x38\x31\x38" },//PWRW 
-  /* PowerLimitEnable          */ { "\x2C\x22\x2F\x21\x32\x3D" },//PLIMEN 
-  /* PowerLimit                */ { "\x2C\x22\x2F\x21" },//PLIM 
+  /* PowerLimitEnable          */ { "\x2C\x23\x2E\x22\x32\x3D" },//PLIMEN 
+  /* PowerLimit                */ { "\x2C\x23\x2E\x22" },//PLIM 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x22\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x01\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//['Lehimleme', 'Ayarları'] 
-  /* PowerSavingMenu           */ "\x24\x18\x17\x19\x01\x21\x1A\x1C\x10\x0D\x0F\x13",//['Uyku', 'Modları'] 
+  /* SolderingMenu             */ "\x23\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x01\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//['Lehimleme', 'Ayarları'] 
+  /* PowerSavingMenu           */ "\x24\x18\x17\x19\x01\x22\x1A\x1C\x10\x0D\x0F\x13",//['Uyku', 'Modları'] 
   /* UIMenu                    */ "\x2B\x19\x10\x10\x0D\x12\x13\x26\x13\x01\x1D\x0F\x0D\x18\x1E\x34\x1E",//['Kullanıcı', 'Arayüzü'] 
   /* AdvancedMenu              */ "\x35\x0E\x10\x11\x27\x15\x11\x27\x01\x1D\x18\x0D\x0F\x10\x0D\x0F",//['Gelişmiş', 'Ayarlar'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x22\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//Lehimleme Ayarları 
+  /* SolderingMenu             */ "\x23\x0E\x2D\x11\x15\x10\x0E\x15\x0E\x0C\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//Lehimleme Ayarları 
   /* PowerSavingMenu           */ "\x35\x1E\x28\x0C\x1F\x0D\x14\x0D\x0F\x0F\x19\x44\x19\x0C\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//Güç Tasarrufu Ayarları 
   /* UIMenu                    */ "\x2B\x19\x10\x10\x0D\x12\x13\x26\x13\x0C\x1D\x0F\x0D\x18\x1E\x34\x1E\x0C\x1D\x18\x0D\x0F\x10\x0D\x0F\x13",//Kullanıcı Arayüzü Ayarları 
   /* AdvancedMenu              */ "\x35\x0E\x10\x11\x27\x15\x11\x27\x0C\x1D\x18\x0D\x0F\x10\x0D\x0F",//Gelişmiş Ayarlar 
@@ -7673,112 +7673,105 @@ const uint8_t USER_FONT_12[] = {
 0x00,0x00,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x1E,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x0D -> а
 0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x03,0x03,0x03,0x03,0x03,0x03,0x3F,0x3F,0x00,//\x0E -> н
 0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0xE0,0xC0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x0F -> о
-0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x70,0xE0,0xC0,0x00,0x00,0xFF,0xFF,0x0C,0x0C,0x0C,0x0C,0x0C,0x0E,0x07,0x03,0x00,//\x10 -> р
-0x00,0xF0,0xF0,0x00,0x00,0x00,0x80,0xC0,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x11 -> и
-0x00,0xE0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x1F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x33,0x33,0x00,//\x12 -> е
-0x00,0x30,0x30,0x30,0x30,0xF0,0xF0,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x13 -> т
+0x00,0xF0,0xF0,0x00,0x00,0x00,0x80,0xC0,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x10 -> и
+0x00,0x30,0x30,0x30,0x30,0xF0,0xF0,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x11 -> т
+0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x70,0xE0,0xC0,0x00,0x00,0xFF,0xFF,0x0C,0x0C,0x0C,0x0C,0x0C,0x0E,0x07,0x03,0x00,//\x12 -> р
+0x00,0xE0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x1F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x33,0x33,0x00,//\x13 -> е
 0x00,0x30,0xF0,0xC0,0x00,0x00,0x00,0x00,0xC0,0xF0,0x30,0x00,0x00,0x60,0xE0,0xC3,0xE7,0x7C,0x3C,0x0F,0x03,0x00,0x00,0x00,//\x14 -> у
 0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x00,0x3F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,//\x15 -> в
-0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x16 -> л
-0x00,0x00,0x00,0x00,0x30,0xF6,0xF6,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x17 -> і
+0x00,0x00,0x00,0x00,0x30,0xF6,0xF6,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x16 -> і
+0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x17 -> л
 0x00,0xF0,0xF0,0xE0,0xC0,0x80,0x80,0xC0,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x18 -> м
 0x00,0xF0,0xF0,0x80,0x80,0xC0,0xE0,0x70,0x30,0x10,0x00,0x00,0x00,0x3F,0x3F,0x03,0x03,0x07,0x0E,0x1C,0x38,0x30,0x20,0x00,//\x19 -> к
-0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x1A -> п
-0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x18,0x08,0x00,//\x1B -> с
+0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x18,0x08,0x00,//\x1A -> с
+0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x1B -> п
 0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x21,0x33,0x3B,0x1E,0x0E,0x06,0x06,0x06,0x3F,0x3F,0x00,//\x1C -> я
-0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x00,0x60,0x7F,0x3F,0x30,0x30,0x30,0x30,0x3F,0x7F,0x60,0x00,//\x1D -> д
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1E -> .
-0x00,0x30,0xF0,0xC0,0x00,0xF0,0xF0,0x00,0xC0,0xF0,0x30,0x00,0x00,0x30,0x3C,0x0F,0x03,0x3F,0x3F,0x03,0x0F,0x3C,0x30,0x00,//\x1F -> ж
+0x00,0x30,0xF0,0xC0,0x00,0xF0,0xF0,0x00,0xC0,0xF0,0x30,0x00,0x00,0x30,0x3C,0x0F,0x03,0x3F,0x3F,0x03,0x0F,0x3C,0x30,0x00,//\x1D -> ж
+0x00,0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0xF0,0xF0,0x00,0x00,0x00,0x60,0x7F,0x3F,0x30,0x30,0x30,0x30,0x3F,0x7F,0x60,0x00,//\x1E -> д
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x38,0x38,0x38,0x00,0x00,0x00,0x00,0x00,//\x1F -> .
 0x00,0x00,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,//\x20 -> -
 0x00,0xF0,0xF0,0x80,0x80,0x80,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x3F,0x3F,0x31,0x31,0x31,0x31,0x31,0x3B,0x1F,0x0E,0x00,//\x21 -> ь
 0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x01,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x3F,0x3F,0x00,//\x22 -> ч
 0x00,0xE0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x00,0x1F,0x3F,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,//\x23 -> б
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x24 -> e
-0x00,0xF0,0xF0,0x00,0x04,0x08,0x88,0xC4,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x25 -> й
-0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x26 -> з
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x27 -> П
-0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x28 -> ш
-0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x29 -> i
-0x00,0x30,0x70,0xC0,0x80,0x00,0x00,0x80,0xC0,0x70,0x30,0x00,0x00,0x30,0x38,0x0C,0x07,0x03,0x03,0x07,0x0C,0x38,0x30,0x00,//\x2A -> х
-0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x2B -> t
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2C -> C
-0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x2D -> ,
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x2E -> К
-0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2F -> г
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x30 -> А
-0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x31 -> S
-0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x32 -> Т
-0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x33 -> r
-0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x34 -> >
-0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x3F,0xFF,0xF0,0x00,//\x35 -> ц
-0x00,0x03,0x0F,0xFC,0xE0,0xFF,0xFF,0xE0,0xFC,0x0F,0x03,0x00,0x00,0x38,0x3F,0x07,0x00,0x3F,0x3F,0x00,0x07,0x3F,0x38,0x00,//\x36 -> Ж
-0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x37 -> n
-0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x38 -> a
-0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x39 -> V
-0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x3A -> <
-0x00,0xF0,0xF0,0x00,0xE0,0xF0,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x3F,0x3F,0x03,0x1F,0x3F,0x30,0x30,0x30,0x3F,0x1F,0x00,//\x3B -> ю
-0x00,0x00,0xF8,0xFE,0x0F,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x00,0x70,0x7F,0x1F,0x18,0x18,0x18,0x18,0x1F,0x7F,0x70,0x00,//\x3C -> Д
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x3D -> В
-0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x3E -> s
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x3F -> o
-0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x40 -> °
-0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x41 -> m
-0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x42 -> T
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x43 -> B
-0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x44 -> !
-0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x45 -> ф
-0x00,0x7F,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x46 -> Ч
-0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x47 -> W
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x48 -> H
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x49 -> F
-0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x4A -> :
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x4B -> Р
-0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x4C -> w
-0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x4D -> p
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x4E -> P
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x4F -> M
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x50 -> D
-0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x30,0x38,0x18,0x08,0x00,//\x51 -> є
-0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0xFF,0xE0,//\x52 -> щ
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x53 -> С
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x54 -> О
-0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x55 -> Н
-0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x56 -> Л
-0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x57 -> Г
-0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x58 -> u
-0x00,0x00,0x00,0x00,0x03,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x59 -> l
-0x00,0x00,0x00,0x04,0x34,0xF0,0xF4,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x5A -> ї
-0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x5B -> Ш
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x30,0x3C,0x0F,0x03,0x00,0x00,0x03,0x0F,0x3C,0x30,0x00,//\x5C -> Х
-0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x5D -> Ф
-0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x5E -> У
-0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x5F -> М
-0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x60 -> k
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x61 -> b
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x62 -> U
-0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x63 -> R
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x64 -> L
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x65 -> G
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x66 -> E
-0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x67 -> A
-0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x68 -> ?
-0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x69 -> /
-0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x6A -> +
-0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x6B -> )
-0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x6C -> (
-0x00,0x7C,0xFE,0xC7,0x83,0x83,0x83,0x83,0x83,0xFF,0xFF,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x03,0x01,0x01,0x3F,0x3F,0x00,//\x6D -> Я
-0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x00,0x1F,0x1F,0x18,0x18,0x18,0x18,0x18,0x1F,0x7F,0x78,0x00,//\x6E -> Ц
-0x00,0xFF,0xFF,0x00,0x02,0xC3,0xF1,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x6F -> Й
-0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x70 -> Е
-0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x71 -> І
-0x00,0x60,0xE0,0xC0,0x80,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x0F,0x1D,0x38,0x30,0x00,0x00,//\x72 -> x
-0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x73 -> v
-0x00,0xFF,0xFF,0xC0,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,//\x74 -> h
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x75 -> g
-0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x30,0x18,0x08,0x00,//\x76 -> c
-0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x77 -> Y
-0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x78 -> O
-0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x79 -> K
+0x00,0xF0,0xF0,0x00,0x04,0x08,0x88,0xC4,0xE0,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x1C,0x0E,0x07,0x03,0x01,0x00,0x3F,0x3F,0x00,//\x24 -> й
+0x00,0x60,0x70,0x30,0x30,0x30,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x18,0x38,0x30,0x33,0x33,0x33,0x33,0x33,0x3F,0x1D,0x00,//\x25 -> з
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x26 -> П
+0x00,0xF0,0xF0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x27 -> ш
+0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0xB8,0xF8,0x78,0x00,0x00,0x00,0x00,0x00,//\x28 -> ,
+0x00,0x30,0x70,0xC0,0x80,0x00,0x00,0x80,0xC0,0x70,0x30,0x00,0x00,0x30,0x38,0x0C,0x07,0x03,0x03,0x07,0x0C,0x38,0x30,0x00,//\x29 -> х
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x2A -> C
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x2B -> К
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x33,0x33,0x13,0x01,0x00,//\x2C -> e
+0x00,0xF0,0xF0,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x2D -> г
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x2E -> А
+0x00,0x3C,0x7E,0xE7,0xC3,0xC3,0xC3,0xC3,0xC7,0x8E,0x0C,0x00,0x00,0x0C,0x1C,0x38,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x2F -> S
+0x00,0x03,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x30 -> Т
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x31 -> В
+0x00,0x00,0x03,0x07,0x0E,0x1C,0x38,0xF0,0xE0,0xC0,0x00,0x00,0x00,0x00,0x30,0x38,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,//\x32 -> >
+0x00,0xF0,0xF0,0x00,0x00,0x00,0x00,0x00,0xF0,0xF0,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x3F,0xFF,0xF0,0x00,//\x33 -> ц
+0x00,0x03,0x0F,0xFC,0xE0,0xFF,0xFF,0xE0,0xFC,0x0F,0x03,0x00,0x00,0x38,0x3F,0x07,0x00,0x3F,0x3F,0x00,0x07,0x3F,0x38,0x00,//\x34 -> Ж
+0x00,0x00,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x00,0x00,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,0x00,//\x35 -> <
+0x00,0xF0,0xF0,0x00,0xE0,0xF0,0x30,0x30,0x30,0xF0,0xE0,0x00,0x00,0x3F,0x3F,0x03,0x1F,0x3F,0x30,0x30,0x30,0x3F,0x1F,0x00,//\x36 -> ю
+0x00,0x00,0xF8,0xFE,0x0F,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x00,0x70,0x7F,0x1F,0x18,0x18,0x18,0x18,0x1F,0x7F,0x70,0x00,//\x37 -> Д
+0x00,0x07,0x3F,0xF8,0xC0,0x00,0x00,0xC0,0xF8,0x3F,0x07,0x00,0x00,0x00,0x00,0x01,0x0F,0x3E,0x3E,0x0F,0x01,0x00,0x00,0x00,//\x38 -> V
+0x00,0x00,0x00,0x1E,0x3F,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x39 -> °
+0x00,0x60,0x60,0xFE,0xFE,0x60,0x60,0x60,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1F,0x3F,0x30,0x30,0x30,0x30,0x00,0x00,0x00,//\x3A -> t
+0x00,0x00,0x00,0x00,0x60,0xEC,0xEC,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x3B -> i
+0x00,0x00,0x03,0x03,0x03,0xFF,0xFF,0x03,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x3C -> T
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xE7,0xFE,0xBC,0x00,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x39,0x1F,0x0F,0x00,//\x3D -> B
+0x00,0x00,0x00,0x00,0x7C,0xFF,0xFF,0x7C,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x33,0x33,0x00,0x00,0x00,0x00,0x00,//\x3E -> !
+0x00,0x80,0xC0,0x60,0x60,0xF0,0xF0,0x60,0x60,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x30,0x30,0xFF,0xFF,0x30,0x30,0x1F,0x0F,0x00,//\x3F -> ф
+0x00,0x7F,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x40 -> Ч
+0x00,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0x40,0x00,0x00,0x00,0x00,0x11,0x33,0x33,0x33,0x33,0x33,0x3F,0x1E,0x00,0x00,0x00,//\x41 -> s
+0x00,0x00,0xE0,0xE0,0xC0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x42 -> r
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x43 -> H
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x44 -> F
+0x00,0x00,0x00,0x00,0x70,0x70,0x70,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x1C,0x1C,0x1C,0x00,0x00,0x00,0x00,0x00,//\x45 -> :
+0x00,0xC0,0xE0,0x70,0x30,0x30,0x30,0x30,0x70,0x60,0x40,0x00,0x00,0x0F,0x1F,0x3B,0x33,0x33,0x33,0x30,0x38,0x18,0x08,0x00,//\x46 -> є
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x47 -> Р
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x48 -> М
+0x00,0x00,0xF0,0xFC,0x1E,0x07,0x03,0x03,0x03,0xFF,0xFF,0x00,0x00,0x30,0x3F,0x1F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x49 -> Л
+0x00,0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x4A -> n
+0x00,0xFF,0xFF,0x00,0x00,0x80,0x80,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x06,0x03,0x03,0x06,0x1C,0x3F,0x3F,0x00,//\x4B -> W
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4C -> D
+0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0xF0,0xF0,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0xFF,0xE0,//\x4D -> щ
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x03,0x07,0x0E,0x0C,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x38,0x1C,0x0C,0x00,//\x4E -> С
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x4F -> О
+0x00,0xFF,0xFF,0xC0,0xC0,0xC0,0xC0,0xC0,0xC0,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x50 -> Н
+0x00,0xFF,0xFF,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x03,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x00,//\x51 -> Г
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x0F,0x00,//\x52 -> o
+0x00,0x00,0x40,0x60,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x00,0x00,0x1C,0x3E,0x33,0x33,0x33,0x33,0x33,0x33,0x3F,0x3F,0x00,//\x53 -> a
+0x00,0xFF,0xFF,0x1E,0x78,0xE0,0xE0,0x78,0x1E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x00,0x00,0x01,0x01,0x00,0x00,0x3F,0x3F,0x00,//\x54 -> M
+0x00,0x00,0x00,0x04,0x34,0xF0,0xF4,0x04,0x00,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x55 -> ї
+0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x30,0x30,0x3F,0x3F,0x00,//\x56 -> Ш
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x30,0x3C,0x0F,0x03,0x00,0x00,0x03,0x0F,0x3C,0x30,0x00,//\x57 -> Х
+0x00,0xF8,0xFC,0x0E,0x06,0xFF,0xFF,0x06,0x0E,0xFC,0xF8,0x00,0x00,0x03,0x07,0x0E,0x0C,0x3F,0x3F,0x0C,0x0E,0x07,0x03,0x00,//\x58 -> Ф
+0x00,0x07,0x1F,0x7C,0xF0,0xC0,0xC0,0xF0,0x7C,0x1F,0x07,0x00,0x00,0x00,0x30,0x30,0x3C,0x0F,0x07,0x01,0x00,0x00,0x00,0x00,//\x59 -> У
+0x00,0x60,0xE0,0x80,0x00,0x00,0x00,0x00,0x80,0xE0,0x60,0x00,0x00,0x00,0x01,0x07,0x1E,0x38,0x38,0x1E,0x07,0x01,0x00,0x00,//\x5A -> v
+0x00,0xE0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xC0,0x80,0x00,0x00,0xFF,0xFF,0x0C,0x18,0x18,0x18,0x18,0x1C,0x0F,0x07,0x00,//\x5B -> p
+0x00,0x00,0xFF,0xFF,0x00,0x80,0xC0,0xE0,0x60,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x03,0x07,0x0F,0x1C,0x38,0x30,0x00,0x00,//\x5C -> k
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x07,0x1F,0x38,0x30,0x30,0x30,0x30,0x38,0x1F,0x07,0x00,//\x5D -> U
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x03,0x07,0x0F,0x1D,0x38,0x30,0x00,//\x5E -> R
+0x00,0xFF,0xFF,0x83,0x83,0x83,0x83,0x83,0xC7,0xFE,0x7C,0x00,0x00,0x3F,0x3F,0x01,0x01,0x01,0x01,0x01,0x01,0x00,0x00,0x00,//\x5F -> P
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0x03,0x07,0x0E,0xFC,0xF0,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x38,0x1C,0x0F,0x03,0x00,//\x60 -> O
+0x00,0xF0,0xFC,0x0E,0x07,0x03,0xC3,0xC3,0xC3,0xC7,0xC6,0x00,0x00,0x03,0x0F,0x1C,0x38,0x30,0x30,0x30,0x30,0x3F,0x3F,0x00,//\x61 -> G
+0x00,0x00,0x00,0xE0,0xFC,0x1F,0x1F,0xFC,0xE0,0x00,0x00,0x00,0x00,0x38,0x3F,0x07,0x06,0x06,0x06,0x06,0x07,0x3F,0x38,0x00,//\x62 -> A
+0x00,0x1C,0x1E,0x07,0x03,0x83,0xC3,0xE3,0x77,0x3E,0x1C,0x00,0x00,0x00,0x00,0x00,0x00,0x37,0x37,0x00,0x00,0x00,0x00,0x00,//\x63 -> ?
+0x00,0x00,0x00,0x00,0x00,0x80,0xC0,0xE0,0x70,0x38,0x1C,0x0E,0x00,0x18,0x1C,0x0E,0x07,0x03,0x01,0x00,0x00,0x00,0x00,0x00,//\x64 -> /
+0x00,0x00,0x80,0x80,0x80,0xF0,0xF0,0x80,0x80,0x80,0x00,0x00,0x00,0x00,0x01,0x01,0x01,0x0F,0x0F,0x01,0x01,0x01,0x00,0x00,//\x65 -> +
+0x00,0x00,0x00,0x01,0x01,0x07,0xFE,0xFC,0xF0,0x00,0x00,0x00,0x00,0x00,0x00,0x20,0x20,0x38,0x1F,0x0F,0x03,0x00,0x00,0x00,//\x66 -> )
+0x00,0x00,0x00,0xF0,0xFC,0xFE,0x07,0x01,0x01,0x00,0x00,0x00,0x00,0x00,0x00,0x03,0x0F,0x1F,0x38,0x20,0x20,0x00,0x00,0x00,//\x67 -> (
+0x00,0x7C,0xFE,0xC7,0x83,0x83,0x83,0x83,0x83,0xFF,0xFF,0x00,0x00,0x30,0x38,0x1D,0x0F,0x07,0x03,0x01,0x01,0x3F,0x3F,0x00,//\x68 -> Я
+0x00,0xFF,0xFF,0x00,0x00,0x00,0x00,0x00,0xFF,0xFF,0x00,0x00,0x00,0x1F,0x1F,0x18,0x18,0x18,0x18,0x18,0x1F,0x7F,0x78,0x00,//\x69 -> Ц
+0x00,0xFF,0xFF,0x00,0x02,0xC3,0xF1,0x38,0x0E,0xFF,0xFF,0x00,0x00,0x3F,0x3F,0x1C,0x07,0x03,0x00,0x00,0x00,0x3F,0x3F,0x00,//\x6A -> Й
+0x00,0xFF,0xFF,0xC3,0xC3,0xC3,0xC3,0xC3,0xC3,0x03,0x03,0x00,0x00,0x3F,0x3F,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x30,0x00,//\x6B -> Е
+0x00,0x00,0x00,0x03,0x03,0xFF,0xFF,0x03,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x30,0x30,0x3F,0x3F,0x30,0x30,0x00,0x00,0x00,//\x6C -> І
+0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0xE0,0xE0,0x00,0x00,0x07,0x1F,0x38,0x1C,0x0F,0x0F,0x1C,0x38,0x1F,0x07,0x00,//\x6D -> w
+0x00,0xE0,0xE0,0x00,0x00,0x00,0x00,0x00,0x00,0xE0,0xE0,0x00,0x00,0x0F,0x1F,0x38,0x30,0x30,0x30,0x30,0x18,0x3F,0x3F,0x00,//\x6E -> u
+0x00,0xE0,0xC0,0xE0,0xE0,0xC0,0xC0,0xE0,0xE0,0xC0,0x80,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,0x00,0x3F,0x3F,0x00,//\x6F -> m
+0x00,0x80,0xC0,0xE0,0x60,0x60,0x60,0x60,0x60,0xE0,0xE0,0x00,0x00,0x03,0xC7,0xCE,0xCC,0xCC,0xCC,0xCC,0xE6,0x7F,0x3F,0x00,//\x70 -> g
+0x00,0x03,0x0F,0x3C,0xF0,0xC0,0xC0,0xF0,0x3C,0x0F,0x03,0x00,0x00,0x00,0x00,0x00,0x00,0x3F,0x3F,0x00,0x00,0x00,0x00,0x00,//\x71 -> Y
+0x00,0xFF,0xFF,0xC0,0xE0,0xF0,0x38,0x1C,0x0E,0x07,0x03,0x00,0x00,0x3F,0x3F,0x00,0x01,0x03,0x07,0x0E,0x1C,0x38,0x30,0x00,//\x72 -> K
 };
 const uint8_t USER_FONT_6x8[] = {
 0x3e, 0x51, 0x49, 0x45, 0x3e, 0x00,//\x02 -> 0
@@ -7795,257 +7788,251 @@ const uint8_t USER_FONT_6x8[] = {
 0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x0D -> а
 0x7c, 0x10, 0x10, 0x10, 0x7c, 0x00,//\x0E -> н
 0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x0F -> о
-0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x10 -> р
-0x7c, 0x20, 0x10, 0x08, 0x7c, 0x00,//\x11 -> и
-0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x12 -> е
-0x04, 0x04, 0x7c, 0x04, 0x04, 0x00,//\x13 -> т
+0x7c, 0x20, 0x10, 0x08, 0x7c, 0x00,//\x10 -> и
+0x04, 0x04, 0x7c, 0x04, 0x04, 0x00,//\x11 -> т
+0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x12 -> р
+0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x13 -> е
 0x4c, 0x50, 0x20, 0x10, 0x0c, 0x00,//\x14 -> у
 0x7c, 0x54, 0x54, 0x54, 0x28, 0x00,//\x15 -> в
-0x40, 0x3c, 0x04, 0x04, 0x7c, 0x00,//\x16 -> л
-0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x17 -> і
+0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x16 -> і
+0x40, 0x3c, 0x04, 0x04, 0x7c, 0x00,//\x17 -> л
 0x7c, 0x08, 0x10, 0x08, 0x7c, 0x00,//\x18 -> м
 0x7c, 0x10, 0x28, 0x44, 0x00, 0x00,//\x19 -> к
-0x7c, 0x04, 0x04, 0x04, 0x7c, 0x00,//\x1A -> п
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1B -> с
+0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x1A -> с
+0x7c, 0x04, 0x04, 0x04, 0x7c, 0x00,//\x1B -> п
 0x48, 0x34, 0x14, 0x14, 0x7c, 0x00,//\x1C -> я
-0x40, 0x3c, 0x24, 0x3c, 0x60, 0x00,//\x1D -> д
-0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1E -> .
-0x6c, 0x10, 0x7c, 0x10, 0x6c, 0x00,//\x1F -> ж
+0x6c, 0x10, 0x7c, 0x10, 0x6c, 0x00,//\x1D -> ж
+0x40, 0x3c, 0x24, 0x3c, 0x60, 0x00,//\x1E -> д
+0x00, 0x60, 0x60, 0x00, 0x00, 0x00,//\x1F -> .
 0x08, 0x08, 0x08, 0x08, 0x08, 0x00,//\x20 -> -
 0x00, 0x7c, 0x50, 0x20, 0x00, 0x00,//\x21 -> ь
 0x0c, 0x10, 0x10, 0x10, 0x7c, 0x00,//\x22 -> ч
 0x3c, 0x4a, 0x4a, 0x4a, 0x30, 0x00,//\x23 -> б
-0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x24 -> e
-0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x25 -> й
-0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x26 -> з
-0x7f, 0x01, 0x01, 0x01, 0x7f, 0x00,//\x27 -> П
-0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x28 -> ш
-0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x29 -> i
-0x44, 0x28, 0x10, 0x28, 0x44, 0x00,//\x2A -> х
-0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x2B -> t
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2C -> C
-0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x2D -> ,
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x2E -> К
-0x7c, 0x04, 0x04, 0x04, 0x04, 0x00,//\x2F -> г
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x30 -> А
-0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x31 -> S
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x32 -> Т
-0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x33 -> r
-0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x34 -> >
-0x3c, 0x20, 0x20, 0x3c, 0x60, 0x00,//\x35 -> ц
-0x77, 0x08, 0x7f, 0x08, 0x77, 0x00,//\x36 -> Ж
-0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x37 -> n
-0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x38 -> a
-0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x39 -> V
-0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x3A -> <
-0x7c, 0x10, 0x38, 0x44, 0x38, 0x00,//\x3B -> ю
-0x60, 0x3f, 0x21, 0x3f, 0x60, 0x00,//\x3C -> Д
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x3D -> В
-0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x3E -> s
-0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x3F -> o
-0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x40 -> °
-0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x41 -> m
-0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x42 -> T
-0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x43 -> B
-0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x44 -> !
-0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x45 -> ф
-0x07, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x46 -> Ч
-0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x47 -> W
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x48 -> H
-0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x49 -> F
-0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x4A -> :
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x4B -> Р
-0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x4C -> w
-0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x4D -> p
-0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x4E -> P
-0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x4F -> M
-0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x50 -> D
-0x38, 0x54, 0x54, 0x44, 0x28, 0x00,//\x51 -> є
-0x3c, 0x20, 0x3c, 0x20, 0x7c, 0x00,//\x52 -> щ
-0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x53 -> С
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x54 -> О
-0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x55 -> Н
-0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x56 -> Л
-0x7f, 0x01, 0x01, 0x01, 0x01, 0x00,//\x57 -> Г
-0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x58 -> u
-0x00, 0x41, 0x7f, 0x40, 0x00, 0x00,//\x59 -> l
-0x00, 0x45, 0x7c, 0x41, 0x00, 0x00,//\x5A -> ї
-0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x5B -> Ш
-0x63, 0x14, 0x08, 0x14, 0x63, 0x00,//\x5C -> Х
-0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x5D -> Ф
-0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x5E -> У
-0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x5F -> М
-0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x60 -> k
-0x7f, 0x48, 0x44, 0x44, 0x38, 0x00,//\x61 -> b
-0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x62 -> U
-0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x63 -> R
-0x7f, 0x40, 0x40, 0x40, 0x40, 0x00,//\x64 -> L
-0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x65 -> G
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x66 -> E
-0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x67 -> A
-0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x68 -> ?
-0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x69 -> /
-0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x6A -> +
-0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x6B -> )
-0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x6C -> (
-0x46, 0x29, 0x19, 0x09, 0x7f, 0x00,//\x6D -> Я
-0x3f, 0x20, 0x20, 0x3f, 0x60, 0x00,//\x6E -> Ц
-0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x6F -> Й
-0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x70 -> Е
-0x41, 0x41, 0x7f, 0x41, 0x41, 0x00,//\x71 -> І
-0x44, 0x24, 0x38, 0x48, 0x44, 0x00,//\x72 -> x
-0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x73 -> v
-0x7f, 0x08, 0x04, 0x04, 0x78, 0x00,//\x74 -> h
-0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x75 -> g
-0x38, 0x44, 0x44, 0x44, 0x20, 0x00,//\x76 -> c
-0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x77 -> Y
-0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x78 -> O
-0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x79 -> K
+0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x24 -> й
+0x28, 0x44, 0x54, 0x54, 0x28, 0x00,//\x25 -> з
+0x7f, 0x01, 0x01, 0x01, 0x7f, 0x00,//\x26 -> П
+0x3c, 0x20, 0x3c, 0x20, 0x3c, 0x00,//\x27 -> ш
+0x00, 0x50, 0x30, 0x00, 0x00, 0x00,//\x28 -> ,
+0x44, 0x28, 0x10, 0x28, 0x44, 0x00,//\x29 -> х
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x2A -> C
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x2B -> К
+0x38, 0x54, 0x54, 0x54, 0x18, 0x00,//\x2C -> e
+0x7c, 0x04, 0x04, 0x04, 0x04, 0x00,//\x2D -> г
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x2E -> А
+0x26, 0x49, 0x49, 0x49, 0x32, 0x00,//\x2F -> S
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x30 -> Т
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x31 -> В
+0x00, 0x41, 0x22, 0x14, 0x08, 0x00,//\x32 -> >
+0x3c, 0x20, 0x20, 0x3c, 0x60, 0x00,//\x33 -> ц
+0x77, 0x08, 0x7f, 0x08, 0x77, 0x00,//\x34 -> Ж
+0x08, 0x14, 0x22, 0x41, 0x00, 0x00,//\x35 -> <
+0x7c, 0x10, 0x38, 0x44, 0x38, 0x00,//\x36 -> ю
+0x60, 0x3f, 0x21, 0x3f, 0x60, 0x00,//\x37 -> Д
+0x1f, 0x20, 0x40, 0x20, 0x1f, 0x00,//\x38 -> V
+0x00, 0x00, 0x07, 0x05, 0x07, 0x00,//\x39 -> °
+0x04, 0x3e, 0x44, 0x40, 0x20, 0x00,//\x3A -> t
+0x00, 0x44, 0x7d, 0x40, 0x00, 0x00,//\x3B -> i
+0x01, 0x01, 0x7f, 0x01, 0x01, 0x00,//\x3C -> T
+0x7f, 0x49, 0x49, 0x49, 0x36, 0x00,//\x3D -> B
+0x00, 0x00, 0x4f, 0x00, 0x00, 0x00,//\x3E -> !
+0x18, 0x24, 0x7e, 0x24, 0x18, 0x00,//\x3F -> ф
+0x07, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x40 -> Ч
+0x48, 0x54, 0x54, 0x54, 0x24, 0x00,//\x41 -> s
+0x7c, 0x08, 0x04, 0x04, 0x08, 0x00,//\x42 -> r
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x43 -> H
+0x7f, 0x09, 0x09, 0x09, 0x01, 0x00,//\x44 -> F
+0x00, 0x36, 0x36, 0x00, 0x00, 0x00,//\x45 -> :
+0x38, 0x54, 0x54, 0x44, 0x28, 0x00,//\x46 -> є
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x47 -> Р
+0x7f, 0x02, 0x04, 0x02, 0x7f, 0x00,//\x48 -> М
+0x40, 0x3f, 0x01, 0x01, 0x7f, 0x00,//\x49 -> Л
+0x7c, 0x08, 0x04, 0x04, 0x78, 0x00,//\x4A -> n
+0x3f, 0x40, 0x38, 0x40, 0x3f, 0x00,//\x4B -> W
+0x7f, 0x41, 0x41, 0x22, 0x1c, 0x00,//\x4C -> D
+0x3c, 0x20, 0x3c, 0x20, 0x7c, 0x00,//\x4D -> щ
+0x3e, 0x41, 0x41, 0x41, 0x22, 0x00,//\x4E -> С
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x4F -> О
+0x7f, 0x08, 0x08, 0x08, 0x7f, 0x00,//\x50 -> Н
+0x7f, 0x01, 0x01, 0x01, 0x01, 0x00,//\x51 -> Г
+0x38, 0x44, 0x44, 0x44, 0x38, 0x00,//\x52 -> o
+0x20, 0x54, 0x54, 0x54, 0x78, 0x00,//\x53 -> a
+0x7f, 0x02, 0x0c, 0x02, 0x7f, 0x00,//\x54 -> M
+0x00, 0x45, 0x7c, 0x41, 0x00, 0x00,//\x55 -> ї
+0x3f, 0x20, 0x3f, 0x20, 0x3f, 0x00,//\x56 -> Ш
+0x63, 0x14, 0x08, 0x14, 0x63, 0x00,//\x57 -> Х
+0x0c, 0x12, 0x7f, 0x12, 0x0c, 0x00,//\x58 -> Ф
+0x47, 0x48, 0x30, 0x08, 0x07, 0x00,//\x59 -> У
+0x0c, 0x30, 0x40, 0x30, 0x0c, 0x00,//\x5A -> v
+0x7c, 0x14, 0x14, 0x14, 0x08, 0x00,//\x5B -> p
+0x00, 0x7f, 0x10, 0x28, 0x44, 0x00,//\x5C -> k
+0x3f, 0x40, 0x40, 0x40, 0x3f, 0x00,//\x5D -> U
+0x7f, 0x09, 0x19, 0x29, 0x46, 0x00,//\x5E -> R
+0x7f, 0x09, 0x09, 0x09, 0x06, 0x00,//\x5F -> P
+0x3e, 0x41, 0x41, 0x41, 0x3e, 0x00,//\x60 -> O
+0x3e, 0x41, 0x41, 0x49, 0x7a, 0x00,//\x61 -> G
+0x7e, 0x09, 0x09, 0x09, 0x7e, 0x00,//\x62 -> A
+0x02, 0x01, 0x51, 0x09, 0x06, 0x00,//\x63 -> ?
+0x20, 0x10, 0x08, 0x04, 0x02, 0x00,//\x64 -> /
+0x08, 0x08, 0x3e, 0x08, 0x08, 0x00,//\x65 -> +
+0x00, 0x41, 0x22, 0x1c, 0x00, 0x00,//\x66 -> )
+0x00, 0x1c, 0x22, 0x41, 0x00, 0x00,//\x67 -> (
+0x46, 0x29, 0x19, 0x09, 0x7f, 0x00,//\x68 -> Я
+0x3f, 0x20, 0x20, 0x3f, 0x60, 0x00,//\x69 -> Ц
+0x7c, 0x21, 0x12, 0x09, 0x7c, 0x00,//\x6A -> Й
+0x7f, 0x49, 0x49, 0x49, 0x41, 0x00,//\x6B -> Е
+0x41, 0x41, 0x7f, 0x41, 0x41, 0x00,//\x6C -> І
+0x3c, 0x40, 0x30, 0x40, 0x3c, 0x00,//\x6D -> w
+0x3c, 0x40, 0x40, 0x20, 0x7c, 0x00,//\x6E -> u
+0x7c, 0x04, 0x78, 0x04, 0x78, 0x00,//\x6F -> m
+0x08, 0x54, 0x54, 0x54, 0x3c, 0x00,//\x70 -> g
+0x07, 0x08, 0x70, 0x08, 0x07, 0x00,//\x71 -> Y
+0x7f, 0x08, 0x14, 0x22, 0x41, 0x00,//\x72 -> K
 };
 // ---- Українська ----
 
 const char* SettingsDescriptions[] = {
-  /* PowerSource               */ "\x3D\x1B\x13\x0D\x0E\x0F\x15\x16\x12\x0E\x0E\x1C\x0C\x0E\x0D\x1A\x10\x14\x2F\x11\x0C\x15\x17\x1D\x19\x16\x3B\x22\x12\x0E\x0E\x1C\x1E\x0C\x3A\x50\x2C\x0C\x20\x0C\x03\x02\x39\x2D\x0C\x05\x31\x0C\x20\x0C\x0B\x1E\x0B\x39\x2D\x0C\x06\x31\x0C\x20\x0C\x03\x05\x1E\x04\x39\x2D\x0C\x07\x31\x0C\x20\x0C\x03\x08\x1E\x07\x39\x2D\x0C\x08\x31\x0C\x20\x0C\x03\x0B\x1E\x0A\x39\x34",//Встановлення напруги відключення. <DC - 10V, 3S - 9.9V, 4S - 13.2V, 5S - 16.5V, 6S - 19.8V> 
-  /* SleepTemperature          */ "\x32\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x0D\x0C\x10\x12\x1F\x11\x18\x14\x0C\x0F\x22\x17\x19\x14\x15\x0D\x0E\x0E\x1C\x0C\x3A\x2C\x40\x69\x49\x40\x34",//Температура режиму очікування <C°/F°> 
-  /* SleepTimeout              */ "\x46\x0D\x1B\x0C\x1D\x0F\x0C\x1A\x12\x10\x12\x2A\x0F\x1D\x14\x0C\x15\x0C\x10\x12\x1F\x11\x18\x0C\x0F\x22\x17\x19\x14\x15\x0D\x0E\x0E\x1C\x0C\x3A\x5C\x15\x11\x16\x11\x0E\x11\x34",//Час до переходу в режим очікування <Хвилини> 
-  /* ShutdownTimeout           */ "\x46\x0D\x1B\x0C\x1D\x0F\x0C\x15\x17\x1D\x19\x16\x3B\x22\x12\x0E\x0E\x1C\x0C\x3A\x5C\x15\x11\x16\x11\x0E\x11\x34",//Час до відключення <Хвилини> 
-  /* MotionSensitivity         */ "\x30\x19\x1B\x12\x16\x12\x10\x0F\x18\x12\x13\x10\x0C\x3A\x02\x0C\x20\x0C\x3D\x11\x18\x19\x1E\x0C\x03\x0C\x2A\x15\x1E\x0C\x22\x14\x13\x16\x11\x15\x0F\x1B\x13\x17\x0C\x0B\x0C\x20\x0C\x18\x0D\x19\x1B\x1E\x0C\x22\x14\x13\x16\x11\x15\x0F\x1B\x13\x17\x34",//Акселерометр <0 - Вимк. 1 хв. чутливості 9 - макс. чутливості> 
-  /* TemperatureUnit           */ "\x54\x1D\x11\x0E\x11\x35\x1C\x0C\x15\x11\x18\x17\x10\x14\x0C\x13\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x11\x0C\x3A\x2C\x0C\x20\x0C\x6E\x12\x16\x21\x1B\x17\x25\x2D\x0C\x49\x0C\x20\x0C\x5D\x0D\x10\x12\x0E\x2F\x12\x25\x13\x34",//Одиниця виміру температури <C - Цельсій, F - Фаренгейт> 
-  /* AdvancedIdle              */ "\x27\x0F\x19\x0D\x26\x14\x15\x0D\x13\x11\x0C\x1D\x12\x13\x0D\x16\x21\x0E\x14\x0C\x17\x0E\x45\x0F\x10\x18\x0D\x35\x17\x3B\x0C\x18\x0D\x16\x12\x0E\x21\x19\x11\x18\x0C\x28\x10\x11\x45\x13\x0F\x18\x0C\x0E\x0D\x0C\x1D\x0F\x18\x0D\x28\x0E\x21\x0F\x18\x14\x0C\x12\x19\x10\x0D\x0E\x17",//Показувати детальну інформацію маленьким шрифтом на домашньому екрані 
-  /* DisplayRotation           */ "\x54\x10\x17\x51\x0E\x13\x0D\x35\x17\x1C\x0C\x1D\x11\x1B\x1A\x16\x12\x1C\x0C\x3A\x67\x0C\x20\x0C\x30\x15\x13\x0F\x1A\x0F\x15\x0F\x10\x0F\x13\x2D\x0C\x56\x0C\x20\x0C\x56\x17\x15\x28\x0D\x2D\x0C\x27\x0C\x20\x0C\x27\x10\x0D\x15\x28\x0D\x34",//Орієнтація дисплея <A - Автоповорот, Л - Лівша, П - Правша> 
-  /* BoostEnabled              */ "\x32\x14\x10\x23\x0F\x20\x10\x12\x1F\x11\x18\x0C\x1A\x10\x11\x0C\x14\x13\x10\x11\x18\x0D\x0E\x0E\x17\x0C\x19\x0E\x0F\x1A\x19\x11\x0C\x30\x0C\x1A\x10\x11\x0C\x1A\x0D\x25\x35\x17",//Турбо-режим при утриманні кнопки А при пайці 
-  /* BoostTemperature          */ "\x32\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x0D\x0C\x15\x0C\x32\x14\x10\x23\x0F\x20\x10\x12\x1F\x11\x18\x17",//Температура в Турбо-режимі 
-  /* AutoStart                 */ "\x30\x15\x13\x0F\x18\x0D\x13\x11\x22\x0E\x11\x25\x0C\x1A\x12\x10\x12\x2A\x17\x1D\x0C\x15\x0C\x10\x12\x1F\x11\x18\x0C\x1A\x0D\x25\x19\x11\x0C\x1A\x10\x11\x0C\x15\x15\x17\x18\x19\x0E\x12\x0E\x17\x0C\x1F\x11\x15\x16\x12\x0E\x0E\x1C\x1E",//Автоматичний перехід в режим пайки при ввімкнені живлення. 
-  /* CooldownBlink             */ "\x27\x0F\x19\x0D\x26\x14\x15\x0D\x13\x11\x0C\x13\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x14\x0C\x0E\x0D\x0C\x12\x19\x10\x0D\x0E\x17\x0C\x0F\x2A\x0F\x16\x0F\x1D\x1F\x12\x0E\x0E\x1C\x2D\x0C\x1A\x0F\x19\x11\x0C\x1F\x0D\x16\x0F\x0C\x26\x0D\x16\x11\x28\x0D\x51\x13\x21\x1B\x1C\x0C\x2F\x0D\x10\x1C\x22\x11\x18\x2D\x0C\x1A\x10\x11\x0C\x35\x21\x0F\x18\x14\x0C\x12\x19\x10\x0D\x0E\x0C\x18\x0F\x10\x2F\x0D\x51",//Показувати температуру на екрані охолодження, поки жало залишається гарячим, при цьому екран моргає 
-  /* TemperatureCalibration    */ "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C\x0C\x13\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x0E\x0F\x2F\x0F\x0C\x1D\x0D\x13\x22\x11\x19\x0D\x1E",//Калібрування температурного датчика. 
-  /* SettingsReset             */ "\x53\x19\x11\x1D\x0D\x0E\x0E\x1C\x0C\x15\x1B\x17\x2A\x0C\x1A\x0D\x10\x0D\x18\x12\x13\x10\x17\x15\x0C\x1D\x0F\x0C\x1B\x13\x0D\x0E\x1D\x0D\x10\x13\x0E\x11\x2A\x0C\x26\x0E\x0D\x22\x12\x0E\x21\x1E",//Скидання всіх параметрів до стандартних значень. 
-  /* VoltageCalibration        */ "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C\x0C\x0E\x0D\x1A\x10\x14\x2F\x11\x0C\x15\x2A\x0F\x1D\x14\x1E\x0C\x55\x0D\x16\x0D\x28\x13\x14\x15\x0D\x13\x11\x0C\x19\x0E\x0F\x1A\x19\x0D\x18\x11\x2D\x0C\x0E\x0D\x13\x11\x1B\x0E\x14\x13\x11\x0C\x17\x0C\x14\x13\x10\x11\x18\x0D\x13\x11\x0C\x52\x0F\x23\x0C\x26\x0D\x15\x12\x10\x28\x11\x13\x11\x1E",//Калібрування напруги входу. Налаштувати кнопками, натиснути і утримати щоб завершити. 
-  /* AdvancedSoldering         */ "\x27\x0F\x19\x0D\x26\x14\x15\x0D\x13\x11\x0C\x1D\x12\x13\x0D\x16\x21\x0E\x14\x0C\x17\x0E\x45\x0F\x10\x18\x0D\x35\x17\x3B\x0C\x1A\x10\x11\x0C\x1A\x0D\x25\x35\x17\x1E",//Показувати детальну інформацію при пайці. 
-  /* ScrollingSpeed            */ "\x5B\x15\x11\x1D\x19\x17\x1B\x13\x21\x0C\x1A\x10\x0F\x19\x10\x14\x13\x19\x11\x0C\x13\x12\x19\x1B\x13\x14",//Швидкість прокрутки тексту 
-  /* TipModel                  */ "\x3D\x11\x23\x17\x10\x0C\x18\x0F\x1D\x12\x16\x17\x0C\x1F\x0D\x16\x0D",//Вибір моделі жала 
-  /* SimpleCalibrationMode     */ "\x27\x10\x0F\x1B\x13\x12\x0C\x19\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C\x0C\x26\x0C\x15\x11\x19\x0F\x10\x11\x1B\x13\x0D\x0E\x0E\x1C\x18\x0C\x2F\x0D\x10\x1C\x22\x0F\x5A\x0C\x15\x0F\x1D\x11",//Просте калібрування з використанням гарячої води 
-  /* AdvancedCalibrationMode   */ "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C\x0C\x26\x0D\x0C\x1D\x0F\x1A\x0F\x18\x0F\x2F\x0F\x3B\x0C\x13\x12\x10\x18\x0F\x1A\x0D\x10\x11",//Калібрування за допомогою термопари 
-  /* PowerInput                */ "\x27\x0F\x13\x14\x1F\x0E\x17\x1B\x13\x21\x0C\x1D\x1F\x12\x10\x12\x16\x0D\x0C\x1F\x11\x15\x16\x12\x0E\x0E\x1C\x0C\x15\x0C\x3D\x0D\x13\x0D\x2A",//Потужність джерела живлення в Ватах 
-  /* PowerLimitEnable          */ "\x66\x37\x38\x61\x59\x24\x0C\x4D\x3F\x4C\x24\x33\x0C\x59\x29\x41\x29\x2B",//Enable power limit 
-  /* PowerLimit                */ "\x4F\x38\x72\x29\x41\x58\x41\x0C\x4D\x3F\x4C\x24\x33\x0C\x2B\x74\x24\x0C\x29\x33\x3F\x37\x0C\x76\x38\x37\x0C\x58\x3E\x24\x0C\x3A\x47\x38\x2B\x2B\x3E\x34",//Maximum power the iron can use <Watts> 
+  /* PowerSource               */ "\x31\x1A\x11\x0D\x0E\x0F\x15\x17\x13\x0E\x0E\x1C\x0C\x0E\x0D\x1B\x12\x14\x2D\x10\x0C\x15\x16\x1E\x19\x17\x36\x22\x13\x0E\x0E\x1C\x1F\x0C\x35\x4C\x2A\x0C\x20\x0C\x03\x02\x38\x28\x0C\x05\x2F\x0C\x20\x0C\x0B\x1F\x0B\x38\x28\x0C\x06\x2F\x0C\x20\x0C\x03\x05\x1F\x04\x38\x28\x0C\x07\x2F\x0C\x20\x0C\x03\x08\x1F\x07\x38\x28\x0C\x08\x2F\x0C\x20\x0C\x03\x0B\x1F\x0A\x38\x32",//Встановлення напруги відключення. <DC - 10V, 3S - 9.9V, 4S - 13.2V, 5S - 16.5V, 6S - 19.8V> 
+  /* SleepTemperature          */ "\x30\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x0D\x0C\x12\x13\x1D\x10\x18\x14\x0C\x0F\x22\x16\x19\x14\x15\x0D\x0E\x0E\x1C\x0C\x35\x2A\x39\x64\x44\x39\x32",//Температура режиму очікування <C°/F°> 
+  /* SleepTimeout              */ "\x40\x0D\x1A\x0C\x1E\x0F\x0C\x1B\x13\x12\x13\x29\x0F\x1E\x14\x0C\x15\x0C\x12\x13\x1D\x10\x18\x0C\x0F\x22\x16\x19\x14\x15\x0D\x0E\x0E\x1C\x0C\x35\x57\x15\x10\x17\x10\x0E\x10\x32",//Час до переходу в режим очікування <Хвилини> 
+  /* ShutdownTimeout           */ "\x40\x0D\x1A\x0C\x1E\x0F\x0C\x15\x16\x1E\x19\x17\x36\x22\x13\x0E\x0E\x1C\x0C\x35\x57\x15\x10\x17\x10\x0E\x10\x32",//Час до відключення <Хвилини> 
+  /* MotionSensitivity         */ "\x2E\x19\x1A\x13\x17\x13\x12\x0F\x18\x13\x11\x12\x0C\x35\x02\x0C\x20\x0C\x31\x10\x18\x19\x1F\x0C\x03\x0C\x29\x15\x1F\x0C\x22\x14\x11\x17\x10\x15\x0F\x1A\x11\x16\x0C\x0B\x0C\x20\x0C\x18\x0D\x19\x1A\x1F\x0C\x22\x14\x11\x17\x10\x15\x0F\x1A\x11\x16\x32",//Акселерометр <0 - Вимк. 1 хв. чутливості 9 - макс. чутливості> 
+  /* TemperatureUnit           */ "\x4F\x1E\x10\x0E\x10\x33\x1C\x0C\x15\x10\x18\x16\x12\x14\x0C\x11\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x10\x0C\x35\x2A\x0C\x20\x0C\x69\x13\x17\x21\x1A\x16\x24\x28\x0C\x44\x0C\x20\x0C\x58\x0D\x12\x13\x0E\x2D\x13\x24\x11\x32",//Одиниця виміру температури <C - Цельсій, F - Фаренгейт> 
+  /* AdvancedIdle              */ "\x26\x0F\x19\x0D\x25\x14\x15\x0D\x11\x10\x0C\x1E\x13\x11\x0D\x17\x21\x0E\x14\x0C\x16\x0E\x3F\x0F\x12\x18\x0D\x33\x16\x36\x0C\x18\x0D\x17\x13\x0E\x21\x19\x10\x18\x0C\x27\x12\x10\x3F\x11\x0F\x18\x0C\x0E\x0D\x0C\x1E\x0F\x18\x0D\x27\x0E\x21\x0F\x18\x14\x0C\x13\x19\x12\x0D\x0E\x16",//Показувати детальну інформацію маленьким шрифтом на домашньому екрані 
+  /* DisplayRotation           */ "\x4F\x12\x16\x46\x0E\x11\x0D\x33\x16\x1C\x0C\x1E\x10\x1A\x1B\x17\x13\x1C\x0C\x35\x62\x0C\x20\x0C\x2E\x15\x11\x0F\x1B\x0F\x15\x0F\x12\x0F\x11\x28\x0C\x49\x0C\x20\x0C\x49\x16\x15\x27\x0D\x28\x0C\x26\x0C\x20\x0C\x26\x12\x0D\x15\x27\x0D\x32",//Орієнтація дисплея <A - Автоповорот, Л - Лівша, П - Правша> 
+  /* BoostEnabled              */ "\x30\x14\x12\x23\x0F\x20\x12\x13\x1D\x10\x18\x0C\x1B\x12\x10\x0C\x14\x11\x12\x10\x18\x0D\x0E\x0E\x16\x0C\x19\x0E\x0F\x1B\x19\x10\x0C\x2E\x0C\x1B\x12\x10\x0C\x1B\x0D\x24\x33\x16",//Турбо-режим при утриманні кнопки А при пайці 
+  /* BoostTemperature          */ "\x30\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x0D\x0C\x15\x0C\x30\x14\x12\x23\x0F\x20\x12\x13\x1D\x10\x18\x16",//Температура в Турбо-режимі 
+  /* AutoStart                 */ "\x2E\x15\x11\x0F\x18\x0D\x11\x10\x22\x0E\x10\x24\x0C\x1B\x13\x12\x13\x29\x16\x1E\x0C\x15\x0C\x12\x13\x1D\x10\x18\x0C\x1B\x0D\x24\x19\x10\x0C\x1B\x12\x10\x0C\x15\x15\x16\x18\x19\x0E\x13\x0E\x16\x0C\x1D\x10\x15\x17\x13\x0E\x0E\x1C\x1F",//Автоматичний перехід в режим пайки при ввімкнені живлення. 
+  /* CooldownBlink             */ "\x26\x0F\x19\x0D\x25\x14\x15\x0D\x11\x10\x0C\x11\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x14\x0C\x0E\x0D\x0C\x13\x19\x12\x0D\x0E\x16\x0C\x0F\x29\x0F\x17\x0F\x1E\x1D\x13\x0E\x0E\x1C\x28\x0C\x1B\x0F\x19\x10\x0C\x1D\x0D\x17\x0F\x0C\x25\x0D\x17\x10\x27\x0D\x46\x11\x21\x1A\x1C\x0C\x2D\x0D\x12\x1C\x22\x10\x18\x28\x0C\x1B\x12\x10\x0C\x33\x21\x0F\x18\x14\x0C\x13\x19\x12\x0D\x0E\x0C\x18\x0F\x12\x2D\x0D\x46",//Показувати температуру на екрані охолодження, поки жало залишається гарячим, при цьому екран моргає 
+  /* TemperatureCalibration    */ "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C\x0C\x11\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x0E\x0F\x2D\x0F\x0C\x1E\x0D\x11\x22\x10\x19\x0D\x1F",//Калібрування температурного датчика. 
+  /* SettingsReset             */ "\x4E\x19\x10\x1E\x0D\x0E\x0E\x1C\x0C\x15\x1A\x16\x29\x0C\x1B\x0D\x12\x0D\x18\x13\x11\x12\x16\x15\x0C\x1E\x0F\x0C\x1A\x11\x0D\x0E\x1E\x0D\x12\x11\x0E\x10\x29\x0C\x25\x0E\x0D\x22\x13\x0E\x21\x1F",//Скидання всіх параметрів до стандартних значень. 
+  /* VoltageCalibration        */ "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C\x0C\x0E\x0D\x1B\x12\x14\x2D\x10\x0C\x15\x29\x0F\x1E\x14\x1F\x0C\x50\x0D\x17\x0D\x27\x11\x14\x15\x0D\x11\x10\x0C\x19\x0E\x0F\x1B\x19\x0D\x18\x10\x28\x0C\x0E\x0D\x11\x10\x1A\x0E\x14\x11\x10\x0C\x16\x0C\x14\x11\x12\x10\x18\x0D\x11\x10\x0C\x4D\x0F\x23\x0C\x25\x0D\x15\x13\x12\x27\x10\x11\x10\x1F",//Калібрування напруги входу. Налаштувати кнопками, натиснути і утримати щоб завершити. 
+  /* AdvancedSoldering         */ "\x26\x0F\x19\x0D\x25\x14\x15\x0D\x11\x10\x0C\x1E\x13\x11\x0D\x17\x21\x0E\x14\x0C\x16\x0E\x3F\x0F\x12\x18\x0D\x33\x16\x36\x0C\x1B\x12\x10\x0C\x1B\x0D\x24\x33\x16\x1F",//Показувати детальну інформацію при пайці. 
+  /* ScrollingSpeed            */ "\x56\x15\x10\x1E\x19\x16\x1A\x11\x21\x0C\x1B\x12\x0F\x19\x12\x14\x11\x19\x10\x0C\x11\x13\x19\x1A\x11\x14",//Швидкість прокрутки тексту 
+  /* TipModel                  */ "\x31\x10\x23\x16\x12\x0C\x18\x0F\x1E\x13\x17\x16\x0C\x1D\x0D\x17\x0D",//Вибір моделі жала 
+  /* SimpleCalibrationMode     */ "\x26\x12\x0F\x1A\x11\x13\x0C\x19\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C\x0C\x25\x0C\x15\x10\x19\x0F\x12\x10\x1A\x11\x0D\x0E\x0E\x1C\x18\x0C\x2D\x0D\x12\x1C\x22\x0F\x55\x0C\x15\x0F\x1E\x10",//Просте калібрування з використанням гарячої води 
+  /* AdvancedCalibrationMode   */ "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C\x0C\x25\x0D\x0C\x1E\x0F\x1B\x0F\x18\x0F\x2D\x0F\x36\x0C\x11\x13\x12\x18\x0F\x1B\x0D\x12\x10",//Калібрування за допомогою термопари 
+  /* PowerInput                */ "\x26\x0F\x11\x14\x1D\x0E\x16\x1A\x11\x21\x0C\x1E\x1D\x13\x12\x13\x17\x0D\x0C\x1D\x10\x15\x17\x13\x0E\x0E\x1C\x0C\x15\x0C\x31\x0D\x11\x0D\x29",//Потужність джерела живлення в Ватах 
+  /* PowerLimitEnable          */ "\x31\x18\x10\x19\x0D\x46\x0C\x0F\x23\x18\x13\x1D\x13\x0E\x0E\x1C\x0C\x1B\x0F\x11\x14\x1D\x0E\x0F\x1A\x11\x16\x0C\x1A\x1B\x0F\x1D\x10\x15\x0D\x0E\x0E\x1C",//Вмикає обмеження потужності споживання 
+  /* PowerLimit                */ "\x48\x0D\x19\x1A\x1F\x0C\x1B\x0F\x11\x14\x1D\x0E\x16\x1A\x11\x21\x28\x0C\x1C\x19\x14\x0C\x18\x0F\x1D\x13\x0C\x15\x10\x19\x0F\x12\x10\x1A\x11\x0F\x15\x14\x15\x0D\x11\x10\x0C\x1B\x0D\x1C\x17\x21\x0E\x10\x19\x0C\x35\x31\x0D\x11\x32",//Макс. потужність, яку може використовувати паяльник <Ват> 
 };
 
-const char* SettingsCalibrationDone = "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C\x0C\x15\x11\x19\x0F\x0E\x0D\x0E\x12\x44";//Калібрування виконане! 
-const char* SettingsCalibrationWarning = "\x27\x12\x10\x12\x19\x0F\x0E\x0D\x25\x13\x12\x1B\x1C\x2D\x0C\x52\x0F\x0C\x1F\x0D\x16\x0F\x0C\x0F\x2A\x0F\x16\x0F\x16\x0F\x0C\x1D\x0F\x0C\x19\x17\x18\x0E\x0D\x13\x0E\x0F\x5A\x0C\x13\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x11\x2D\x0C\x1A\x12\x10\x28\x0C\x0E\x17\x1F\x0C\x1A\x10\x0F\x1D\x0F\x15\x1F\x14\x15\x0D\x13\x11\x44";//Переконайтеся, що жало охололо до кімнатної температури, перш ніж продовжувати! 
-const char* SettingsResetWarning = "\x3D\x11\x0C\x1D\x17\x25\x1B\x0E\x0F\x0C\x2A\x0F\x22\x12\x13\x12\x0C\x1B\x19\x11\x0E\x14\x13\x11\x0C\x0E\x0D\x16\x0D\x28\x13\x14\x15\x0D\x0E\x0E\x1C\x0C\x1D\x0F\x0C\x26\x0E\x0D\x22\x12\x0E\x21\x0C\x26\x0D\x0C\x26\x0D\x18\x0F\x15\x22\x14\x15\x0D\x0E\x0E\x1C\x18\x68";//Ви дійсно хочете скинути налаштування до значень за замовчуванням? 
-const char* UVLOWarningString = "\x30\x2E\x2E\x5E\x5F\x20\x20";//АККУМ-- 
-const char* UndervoltageString = "\x27\x17\x1D\x0C\x1F\x11\x15\x16\x12\x0E\x0E\x1C\x18";//Під живленням 
-const char* InputVoltageString = "\x36\x11\x15\x1E\x6C\x43\x6B\x4A\x0C";//Жив.(B):  
-const char* WarningTipTempString = "\x36\x0D\x16\x0F\x0C\x2B\x40\x4A\x0C";//Жало t°:  
-const char* BadTipString = "\x36\x0D\x16\x0F\x20\x20";//Жало-- 
-const char* SleepingSimpleString = "\x53\x0F\x0E\x0C";//Сон  
-const char* SleepingAdvancedString = "\x54\x22\x17\x19\x14\x15\x0D\x0E\x0E\x1C\x1E\x1E\x1E";//Очікування... 
-const char* WarningSimpleString = "\x30\x6F\x44";//АЙ! 
-const char* WarningAdvancedString = "\x5E\x3D\x30\x57\x30\x0C\x57\x30\x4B\x6D\x46\x70\x44";//УВАГА ГАРЯЧЕ! 
-const char* SleepingTipAdvancedString = "\x36\x0D\x16\x0F\x4A";//Жало: 
-const char* IdleTipString = "\x36\x0D\x16\x0F\x4A";//Жало: 
-const char* IdleSetString = "\x0C\x20\x34";// -> 
-const char* TipDisconnectedString = "\x36\x0D\x16\x0F\x0C\x15\x11\x18\x19\x0E\x12\x0E\x0F\x44";//Жало вимкнено! 
-const char* SolderingAdvancedPowerPrompt = "\x36\x11\x15\x16\x12\x0E\x0E\x1C\x4A\x0C";//Живлення:  
-const char* OffString = "\x3D\x11\x18\x19";//Вимк 
-const char* ResetOKMessage = "\x63\x24\x3E\x24\x2B\x0C\x78\x79";//Reset OK 
-const char* YourGainMessage = "\x77\x3F\x58\x33\x0C\x65\x38\x29\x37";//Your Gain 
-const char* SettingsResetMessage = "\x31\x24\x2B\x2B\x29\x37\x75\x3E\x0C\x4C\x24\x33\x24\x01\x33\x24\x3E\x24\x2B\x44";//Settings were_reset! 
+const char* SettingsCalibrationDone = "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C\x0C\x15\x10\x19\x0F\x0E\x0D\x0E\x13\x3E";//Калібрування виконане! 
+const char* SettingsCalibrationWarning = "\x26\x13\x12\x13\x19\x0F\x0E\x0D\x24\x11\x13\x1A\x1C\x28\x0C\x4D\x0F\x0C\x1D\x0D\x17\x0F\x0C\x0F\x29\x0F\x17\x0F\x17\x0F\x0C\x1E\x0F\x0C\x19\x16\x18\x0E\x0D\x11\x0E\x0F\x55\x0C\x11\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x10\x28\x0C\x1B\x13\x12\x27\x0C\x0E\x16\x1D\x0C\x1B\x12\x0F\x1E\x0F\x15\x1D\x14\x15\x0D\x11\x10\x3E";//Переконайтеся, що жало охололо до кімнатної температури, перш ніж продовжувати! 
+const char* SettingsResetWarning = "\x31\x10\x0C\x1E\x16\x24\x1A\x0E\x0F\x0C\x29\x0F\x22\x13\x11\x13\x0C\x1A\x19\x10\x0E\x14\x11\x10\x0C\x0E\x0D\x17\x0D\x27\x11\x14\x15\x0D\x0E\x0E\x1C\x0C\x1E\x0F\x0C\x25\x0E\x0D\x22\x13\x0E\x21\x0C\x25\x0D\x0C\x25\x0D\x18\x0F\x15\x22\x14\x15\x0D\x0E\x0E\x1C\x18\x63";//Ви дійсно хочете скинути налаштування до значень за замовчуванням? 
+const char* UVLOWarningString = "\x2E\x2B\x2B\x59\x48\x20\x20";//АККУМ-- 
+const char* UndervoltageString = "\x26\x16\x1E\x0C\x1D\x10\x15\x17\x13\x0E\x0E\x1C\x18";//Під живленням 
+const char* InputVoltageString = "\x34\x10\x15\x1F\x67\x3D\x66\x45\x0C";//Жив.(B):  
+const char* WarningTipTempString = "\x34\x0D\x17\x0F\x0C\x3A\x39\x45\x0C";//Жало t°:  
+const char* BadTipString = "\x34\x0D\x17\x0F\x20\x20";//Жало-- 
+const char* SleepingSimpleString = "\x4E\x0F\x0E\x0C";//Сон  
+const char* SleepingAdvancedString = "\x4F\x22\x16\x19\x14\x15\x0D\x0E\x0E\x1C\x1F\x1F\x1F";//Очікування... 
+const char* WarningSimpleString = "\x2E\x6A\x3E";//АЙ! 
+const char* WarningAdvancedString = "\x59\x31\x2E\x51\x2E\x0C\x51\x2E\x47\x68\x40\x6B\x3E";//УВАГА ГАРЯЧЕ! 
+const char* SleepingTipAdvancedString = "\x34\x0D\x17\x0F\x45";//Жало: 
+const char* IdleTipString = "\x34\x0D\x17\x0F\x45";//Жало: 
+const char* IdleSetString = "\x0C\x20\x32";// -> 
+const char* TipDisconnectedString = "\x34\x0D\x17\x0F\x0C\x15\x10\x18\x19\x0E\x13\x0E\x0F\x3E";//Жало вимкнено! 
+const char* SolderingAdvancedPowerPrompt = "\x34\x10\x15\x17\x13\x0E\x0E\x1C\x45\x0C";//Живлення:  
+const char* OffString = "\x31\x10\x18\x19";//Вимк 
+const char* ResetOKMessage = "\x5E\x2C\x41\x2C\x3A\x0C\x60\x72";//Reset OK 
+const char* YourGainMessage = "\x71\x52\x6E\x42\x0C\x61\x53\x3B\x4A";//Your Gain 
+const char* SettingsResetMessage = "\x2F\x2C\x3A\x3A\x3B\x4A\x70\x41\x0C\x6D\x2C\x42\x2C\x01\x42\x2C\x41\x2C\x3A\x3E";//Settings were_reset! 
 
-const char* SettingRightChar = "\x27";//П 
-const char* SettingLeftChar = "\x56";//Л 
-const char* SettingAutoChar = "\x67";//A 
-const char* SettingFastChar = "\x6A";//+ 
+const char* SettingRightChar = "\x26";//П 
+const char* SettingLeftChar = "\x49";//Л 
+const char* SettingAutoChar = "\x62";//A 
+const char* SettingFastChar = "\x65";//+ 
 const char* SettingSlowChar = "\x20";//- 
-const char* SettingStartSolderingChar = "\x42";//T 
-const char* SettingStartSleepChar = "\x31";//S 
-const char* SettingStartNoneChar = "\x49";//F 
+const char* SettingStartSolderingChar = "\x3C";//T 
+const char* SettingStartSleepChar = "\x2F";//S 
+const char* SettingStartSleepOffChar = "\x60";//O 
+const char* SettingStartNoneChar = "\x44";//F 
 
-const char* SymbolPlus = "\x6A";//+ 
+const char* SymbolPlus = "\x65";//+ 
 const char* SymbolMinus = "\x20";//- 
 const char* SymbolSpace = "\x0C";//  
-const char* SymbolDot = "\x1E";//. 
-const char* SymbolDegC = "\x2C";//C 
-const char* SymbolDegF = "\x49";//F 
-const char* SymbolMinutes = "\x4F";//M 
-const char* SymbolSeconds = "\x31";//S 
-const char* SymbolWatts = "\x47";//W 
-const char* SymbolVolts = "\x39";//V 
-const char* SymbolDC = "\x50\x2C";//DC 
-const char* SymbolCellCount = "\x31";//S 
-const char* SymbolVersionNumber = "\x39\x04\x1E\x02\x0A";//V2.08 
+const char* SymbolDot = "\x1F";//. 
+const char* SymbolDegC = "\x2A";//C 
+const char* SymbolDegF = "\x44";//F 
+const char* SymbolMinutes = "\x54";//M 
+const char* SymbolSeconds = "\x2F";//S 
+const char* SymbolWatts = "\x4B";//W 
+const char* SymbolVolts = "\x38";//V 
+const char* SymbolDC = "\x4C\x2A";//DC 
+const char* SymbolCellCount = "\x2F";//S 
+const char* SymbolVersionNumber = "\x5A\x04\x1F\x02\x0A\x1F\x02\x02\x02\x04";//v2.08.0002 
 
 const char* TipModelStrings[] = {
 #ifdef MODEL_TS100
-	 "\x43\x02\x04",//B02 
-	 "\x50\x04\x06",//D24 
-	 "\x43\x2C\x04",//BC2 
-	 "\x0C\x2C\x03",// C1 
-	 "\x42\x31\x03\x02\x02",//TS100 
-	 "\x43\x2C\x04",//BC2 
-	 "\x48\x38\x60\x60\x3F",//Hakko 
-	 "\x62\x3E\x24\x33",//User 
+	 "\x3D\x02\x04",//B02 
+	 "\x4C\x04\x06",//D24 
+	 "\x3D\x2A\x04",//BC2 
+	 "\x0C\x2A\x03",// C1 
+	 "\x3C\x2F\x03\x02\x02",//TS100 
+	 "\x3D\x2A\x04",//BC2 
+	 "\x43\x53\x5C\x5C\x52",//Hakko 
+	 "\x5D\x41\x2C\x42",//User 
 #else
-	 "\x43\x02\x04",//B02 
-	 "\x50\x04\x07",//D25 
-	 "\x42\x31\x0A\x02",//TS80 
-	 "\x62\x3E\x24\x33",//User 
+	 "\x3D\x02\x04",//B02 
+	 "\x4C\x04\x07",//D25 
+	 "\x3C\x2F\x0A\x02",//TS80 
+	 "\x5D\x41\x2C\x42",//User 
 #endif
 };
 
 const char* DebugMenu[] = {
-	 "\x03\x0A\x20\x02\x03\x20\x04\x02",//18-01-20 
-	 "\x48\x47\x0C\x65\x0C",//HW G  
-	 "\x48\x47\x0C\x4F\x0C",//HW M  
-	 "\x48\x47\x0C\x4E\x0C",//HW P  
-	 "\x42\x29\x41\x24\x0C",//Time  
-	 "\x4F\x3F\x73\x24\x0C",//Move  
-	 "\x63\x42\x29\x4D\x0C",//RTip  
-	 "\x2C\x42\x29\x4D\x0C",//CTip  
-	 "\x2C\x48\x38\x37\x0C",//CHan  
-	 "\x39\x29\x37\x0C\x0C",//Vin   
-	 "\x4E\x2C\x43\x0C\x0C",//PCB   
+	 "\x03\x06\x20\x02\x05\x20\x04\x02",//14-03-20 
+	 "\x43\x4B\x0C\x61\x0C",//HW G  
+	 "\x43\x4B\x0C\x54\x0C",//HW M  
+	 "\x43\x4B\x0C\x5F\x0C",//HW P  
+	 "\x3C\x3B\x6F\x2C\x0C",//Time  
+	 "\x54\x52\x5A\x2C\x0C",//Move  
+	 "\x5E\x3C\x3B\x5B\x0C",//RTip  
+	 "\x2A\x3C\x3B\x5B\x0C",//CTip  
+	 "\x2A\x43\x53\x4A\x0C",//CHan  
+	 "\x38\x3B\x4A\x0C\x0C",//Vin   
+	 "\x5F\x2A\x3D\x0C\x0C",//PCB   
 };
 
 const enum ShortNameType SettingsShortNameType = SHORT_NAME_DOUBLE_LINE;
 const char* SettingsShortNames[][2] = {
-  /* PowerSource               */ { "\x3C\x1F\x12\x10\x12\x16\x0F", "\x1F\x11\x15\x16\x12\x0E\x0E\x1C" },//['Джерело', 'живлення'] 
-  /* SleepTemperature          */ { "\x32\x12\x18\x1A\x12\x10\x1E", "\x1B\x0E\x14" },//['Темпер.', 'сну'] 
-  /* SleepTimeout              */ { "\x32\x0D\x25\x18\x20\x0D\x14\x13", "\x1B\x0E\x14" },//['Тайм-аут', 'сну'] 
-  /* ShutdownTimeout           */ { "\x46\x0D\x1B\x14\x0C\x1D\x0F", "\x15\x11\x18\x19\x0E\x12\x0E\x0E\x1C" },//['Часу до', 'вимкнення'] 
-  /* MotionSensitivity         */ { "\x46\x14\x13\x16\x1E\x0C\x1B\x12\x0E\x1B\x0F\x20", "\x10\x14\x0C\x10\x14\x2A\x14" },//['Чутл. сенсо-', 'ру руху'] 
-  /* TemperatureUnit           */ { "\x5D\x0F\x10\x18\x0D\x13\x0C\x13\x12\x18\x1A\x12\x20", "\x10\x0D\x13\x14\x10\x11\x6C\x2C\x40\x69\x49\x40\x6B" },//['Формат темпе-', 'ратури(C°/F°)'] 
-  /* AdvancedIdle              */ { "\x3C\x12\x13\x0D\x16\x21\x0E\x11\x25\x0C\x10\x12\x20", "\x1F\x11\x18\x0C\x0F\x22\x17\x19\x14\x15\x0D\x0E\x1E" },//['Детальний ре-', 'жим очікуван.'] 
-  /* DisplayRotation           */ { "\x30\x15\x13\x0F\x1A\x0F\x15\x0F\x10\x0F\x13", "\x12\x19\x10\x0D\x0E\x14" },//['Автоповорот', 'екрану'] 
-  /* BoostEnabled              */ { "\x4B\x12\x1F\x11\x18", "\x32\x14\x10\x23\x0F" },//['Режим', 'Турбо'] 
-  /* BoostTemperature          */ { "\x32\x12\x18\x1A\x12\x10\x1E", "\x32\x14\x10\x23\x0F" },//['Темпер.', 'Турбо'] 
-  /* AutoStart                 */ { "\x57\x0D\x10\x1C\x22\x11\x25", "\x1B\x13\x0D\x10\x13" },//['Гарячий', 'старт'] 
-  /* CooldownBlink             */ { "\x27\x0F\x19\x0D\x26\x0C\x2B\x40\x0C\x1A\x10\x11", "\x0F\x2A\x0F\x16\x0F\x1D\x1F\x1E" },//['Показ t° при', 'охолодж.'] 
-  /* TemperatureCalibration    */ { "\x2E\x0D\x16\x17\x23\x10\x0F\x15\x19\x0D", "\x13\x12\x18\x1A\x12\x10\x0D\x13\x14\x10\x11" },//['Калібровка', 'температури'] 
-  /* SettingsReset             */ { "\x53\x19\x11\x0E\x14\x13\x11\x0C\x15\x1B\x17", "\x0E\x0D\x16\x0D\x28\x13\x14\x15\x0D\x0E\x0E\x1C\x68" },//['Скинути всі', 'налаштування?'] 
-  /* VoltageCalibration        */ { "\x2E\x0D\x16\x17\x23\x10\x0F\x15\x19\x0D", "\x0E\x0D\x1A\x10\x14\x2F\x11" },//['Калібровка', 'напруги'] 
-  /* AdvancedSoldering         */ { "\x3C\x12\x13\x0D\x16\x21\x0E\x11\x25\x0C\x10\x12\x20", "\x1F\x11\x18\x0C\x1A\x0D\x25\x19\x11" },//['Детальний ре-', 'жим пайки'] 
-  /* ScrollingSpeed            */ { "\x5B\x15\x11\x1D\x19\x17\x1B\x13\x21", "\x13\x12\x19\x1B\x13\x14" },//['Швидкість', 'тексту'] 
-  /* TipModel                  */ { "\x5F\x0F\x1D\x12\x16\x21", "\x36\x0D\x16\x0F" },//['Модель', 'Жало'] 
-  /* SimpleCalibrationMode     */ { "\x27\x10\x0F\x1B\x13\x12", "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C" },//['Просте', 'Калібрування'] 
-  /* AdvancedCalibrationMode   */ { "\x3C\x12\x13\x0D\x16\x21\x0E\x12", "\x2E\x0D\x16\x17\x23\x10\x14\x15\x0D\x0E\x0E\x1C" },//['Детальне', 'Калібрування'] 
-  /* PowerInput                */ { "\x27\x0F\x13\x14\x1F\x0E\x17\x1B\x13\x21", "\x1D\x1F\x1E\x0C\x1F\x11\x15\x16\x1E" },//['Потужність', 'дж. живл.'] 
-  /* PowerLimitEnable          */ { "\x4E\x0C\x64\x29\x41\x29\x2B", "\x66\x37\x38\x61\x59\x24" },//['P Limit', 'Enable'] 
-  /* PowerLimit                */ { "\x4E\x3F\x4C\x24\x33", "\x64\x29\x41\x29\x2B" },//['Power', 'Limit'] 
+  /* PowerSource               */ { "\x37\x1D\x13\x12\x13\x17\x0F", "\x1D\x10\x15\x17\x13\x0E\x0E\x1C" },//['Джерело', 'живлення'] 
+  /* SleepTemperature          */ { "\x30\x13\x18\x1B\x13\x12\x1F", "\x1A\x0E\x14" },//['Темпер.', 'сну'] 
+  /* SleepTimeout              */ { "\x30\x0D\x24\x18\x20\x0D\x14\x11", "\x1A\x0E\x14" },//['Тайм-аут', 'сну'] 
+  /* ShutdownTimeout           */ { "\x40\x0D\x1A\x14\x0C\x1E\x0F", "\x15\x10\x18\x19\x0E\x13\x0E\x0E\x1C" },//['Часу до', 'вимкнення'] 
+  /* MotionSensitivity         */ { "\x40\x14\x11\x17\x1F\x0C\x1A\x13\x0E\x1A\x0F\x20", "\x12\x14\x0C\x12\x14\x29\x14" },//['Чутл. сенсо-', 'ру руху'] 
+  /* TemperatureUnit           */ { "\x58\x0F\x12\x18\x0D\x11\x0C\x11\x13\x18\x1B\x13\x20", "\x12\x0D\x11\x14\x12\x10\x67\x2A\x39\x64\x44\x39\x66" },//['Формат темпе-', 'ратури(C°/F°)'] 
+  /* AdvancedIdle              */ { "\x37\x13\x11\x0D\x17\x21\x0E\x10\x24\x0C\x12\x13\x20", "\x1D\x10\x18\x0C\x0F\x22\x16\x19\x14\x15\x0D\x0E\x1F" },//['Детальний ре-', 'жим очікуван.'] 
+  /* DisplayRotation           */ { "\x2E\x15\x11\x0F\x1B\x0F\x15\x0F\x12\x0F\x11", "\x13\x19\x12\x0D\x0E\x14" },//['Автоповорот', 'екрану'] 
+  /* BoostEnabled              */ { "\x47\x13\x1D\x10\x18", "\x30\x14\x12\x23\x0F" },//['Режим', 'Турбо'] 
+  /* BoostTemperature          */ { "\x30\x13\x18\x1B\x13\x12\x1F", "\x30\x14\x12\x23\x0F" },//['Темпер.', 'Турбо'] 
+  /* AutoStart                 */ { "\x51\x0D\x12\x1C\x22\x10\x24", "\x1A\x11\x0D\x12\x11" },//['Гарячий', 'старт'] 
+  /* CooldownBlink             */ { "\x26\x0F\x19\x0D\x25\x0C\x3A\x39\x0C\x1B\x12\x10", "\x0F\x29\x0F\x17\x0F\x1E\x1D\x1F" },//['Показ t° при', 'охолодж.'] 
+  /* TemperatureCalibration    */ { "\x2B\x0D\x17\x16\x23\x12\x0F\x15\x19\x0D", "\x11\x13\x18\x1B\x13\x12\x0D\x11\x14\x12\x10" },//['Калібровка', 'температури'] 
+  /* SettingsReset             */ { "\x4E\x19\x10\x0E\x14\x11\x10\x0C\x15\x1A\x16", "\x0E\x0D\x17\x0D\x27\x11\x14\x15\x0D\x0E\x0E\x1C\x63" },//['Скинути всі', 'налаштування?'] 
+  /* VoltageCalibration        */ { "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C", "\x0E\x0D\x1B\x12\x14\x2D\x10" },//['Калібрування', 'напруги'] 
+  /* AdvancedSoldering         */ { "\x37\x13\x11\x0D\x17\x21\x0E\x10\x24\x0C\x12\x13\x20", "\x1D\x10\x18\x0C\x1B\x0D\x24\x19\x10" },//['Детальний ре-', 'жим пайки'] 
+  /* ScrollingSpeed            */ { "\x56\x15\x10\x1E\x19\x16\x1A\x11\x21", "\x11\x13\x19\x1A\x11\x14" },//['Швидкість', 'тексту'] 
+  /* TipModel                  */ { "\x48\x0F\x1E\x13\x17\x21", "\x34\x0D\x17\x0F" },//['Модель', 'Жало'] 
+  /* SimpleCalibrationMode     */ { "\x26\x12\x0F\x1A\x11\x13", "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C" },//['Просте', 'Калібрування'] 
+  /* AdvancedCalibrationMode   */ { "\x37\x13\x11\x0D\x17\x21\x0E\x13", "\x2B\x0D\x17\x16\x23\x12\x14\x15\x0D\x0E\x0E\x1C" },//['Детальне', 'Калібрування'] 
+  /* PowerInput                */ { "\x26\x0F\x11\x14\x1D\x0E\x16\x1A\x11\x21", "\x1E\x1D\x1F\x0C\x1D\x10\x15\x17\x1F" },//['Потужність', 'дж. живл.'] 
+  /* PowerLimitEnable          */ { "\x49\x16\x18\x16\x11", "\x1B\x0F\x11\x14\x1D\x0E\x0F\x1A\x11\x16" },//['Ліміт', 'потужності'] 
+  /* PowerLimit                */ { "\x48\x0D\x19\x1A\x10\x18\x0D\x17\x21\x0E\x0D", "\x1B\x0F\x11\x14\x1D\x0E\x16\x1A\x11\x21" },//['Максимальна', 'потужність'] 
 };
 
 const char* SettingsMenuEntries[4] = {
-  /* SolderingMenu             */ "\x27\x0D\x10\x0D\x18\x12\x13\x10\x11\x01\x1A\x0D\x25\x19\x11",//['Параметри', 'пайки'] 
-  /* PowerSavingMenu           */ "\x4B\x12\x1F\x11\x18\x01\x1B\x0E\x14",//['Режим', 'сну'] 
-  /* UIMenu                    */ "\x71\x0E\x13\x12\x10\x45\x12\x25\x1B\x01",//['Інтерфейс', ''] 
-  /* AdvancedMenu              */ "\x3C\x0F\x1D\x0D\x13\x19\x0F\x15\x17\x01\x1A\x0D\x10\x0D\x18\x12\x13\x10\x11",//['Додаткові', 'параметри'] 
+  /* SolderingMenu             */ "\x26\x0D\x12\x0D\x18\x13\x11\x12\x10\x01\x1B\x0D\x24\x19\x10",//['Параметри', 'пайки'] 
+  /* PowerSavingMenu           */ "\x47\x13\x1D\x10\x18\x01\x1A\x0E\x14",//['Режим', 'сну'] 
+  /* UIMenu                    */ "\x6C\x0E\x11\x13\x12\x3F\x13\x24\x1A\x01",//['Інтерфейс', ''] 
+  /* AdvancedMenu              */ "\x37\x0F\x1E\x0D\x11\x19\x0F\x15\x16\x01\x1B\x0D\x12\x0D\x18\x13\x11\x12\x10",//['Додаткові', 'параметри'] 
 };
 
 const char* SettingsMenuEntriesDescriptions[4] = {
-  /* SolderingMenu             */ "\x55\x0D\x16\x0D\x28\x13\x14\x15\x0D\x0E\x0E\x1C\x0C\x1D\x16\x1C\x0C\x10\x12\x1F\x11\x18\x14\x0C\x1A\x0D\x25\x19\x11\x1E\x0C\x3C\x17\x3B\x13\x21\x0C\x1A\x10\x11\x0C\x15\x19\x16\x3B\x22\x12\x0E\x0F\x18\x14\x0C\x1F\x0D\x16\x17\x1E",//Налаштування для режиму пайки. Діють при включеному жалі. 
-  /* PowerSavingMenu           */ "\x55\x0D\x16\x0D\x28\x13\x14\x15\x0D\x0E\x0E\x1C\x0C\x1A\x10\x11\x0C\x23\x12\x26\x1D\x17\x1C\x16\x21\x0E\x0F\x1B\x13\x17\x1E\x0C\x2E\x0F\x10\x11\x1B\x0E\x0F\x0C\x52\x0F\x0C\x23\x0C\x0E\x12\x0C\x0F\x23\x1A\x12\x19\x13\x11\x1B\x1C\x0C\x17\x0C\x26\x0C\x22\x0D\x1B\x0F\x18\x0C\x0E\x12\x0C\x1B\x1A\x0D\x16\x11\x13\x11\x0C\x1F\x11\x13\x16\x0F\x1E",//Налаштування при бездіяльності. Корисно що б не обпектися і з часом не спалити житло. 
-  /* UIMenu                    */ "\x27\x0D\x10\x0D\x18\x12\x13\x10\x11\x0C\x19\x0F\x10\x11\x1B\x13\x14\x15\x0D\x16\x21\x0E\x11\x35\x21\x19\x0F\x2F\x0F\x0C\x17\x0E\x13\x12\x10\x45\x12\x25\x1B\x14\x1E",//Параметри користувальницького інтерфейсу. 
-  /* AdvancedMenu              */ "\x4B\x0F\x26\x28\x11\x10\x12\x0E\x17\x0C\x0E\x0D\x16\x0D\x28\x13\x14\x15\x0D\x0E\x0E\x1C\x1E\x0C\x3C\x0F\x1D\x0D\x13\x19\x0F\x15\x17\x0C\x26\x10\x14\x22\x0E\x0F\x1B\x13\x17\x1E",//Розширені налаштування. Додаткові зручності. 
+  /* SolderingMenu             */ "\x50\x0D\x17\x0D\x27\x11\x14\x15\x0D\x0E\x0E\x1C\x0C\x1E\x17\x1C\x0C\x12\x13\x1D\x10\x18\x14\x0C\x1B\x0D\x24\x19\x10\x1F\x0C\x37\x16\x36\x11\x21\x0C\x1B\x12\x10\x0C\x15\x19\x17\x36\x22\x13\x0E\x0F\x18\x14\x0C\x1D\x0D\x17\x16\x1F",//Налаштування для режиму пайки. Діють при включеному жалі. 
+  /* PowerSavingMenu           */ "\x50\x0D\x17\x0D\x27\x11\x14\x15\x0D\x0E\x0E\x1C\x0C\x1B\x12\x10\x0C\x23\x13\x25\x1E\x16\x1C\x17\x21\x0E\x0F\x1A\x11\x16\x1F\x0C\x2B\x0F\x12\x10\x1A\x0E\x0F\x0C\x4D\x0F\x0C\x23\x0C\x0E\x13\x0C\x0F\x23\x1B\x13\x19\x11\x10\x1A\x1C\x0C\x16\x0C\x25\x0C\x22\x0D\x1A\x0F\x18\x0C\x0E\x13\x0C\x1A\x1B\x0D\x17\x10\x11\x10\x0C\x1D\x10\x11\x17\x0F\x1F",//Налаштування при бездіяльності. Корисно що б не обпектися і з часом не спалити житло. 
+  /* UIMenu                    */ "\x26\x0D\x12\x0D\x18\x13\x11\x12\x10\x0C\x19\x0F\x12\x10\x1A\x11\x14\x15\x0D\x17\x21\x0E\x10\x33\x21\x19\x0F\x2D\x0F\x0C\x16\x0E\x11\x13\x12\x3F\x13\x24\x1A\x14\x1F",//Параметри користувальницького інтерфейсу. 
+  /* AdvancedMenu              */ "\x47\x0F\x25\x27\x10\x12\x13\x0E\x16\x0C\x0E\x0D\x17\x0D\x27\x11\x14\x15\x0D\x0E\x0E\x1C\x1F\x0C\x37\x0F\x1E\x0D\x11\x19\x0F\x15\x16\x0C\x25\x12\x14\x22\x0E\x0F\x1A\x11\x16\x1F",//Розширені налаштування. Додаткові зручності. 
 };
 
 #endif

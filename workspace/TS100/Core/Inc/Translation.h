@@ -9,7 +9,7 @@
 #define TRANSLATION_H_
 #include "stm32f1xx_hal.h"
 enum ShortNameType {
-	SHORT_NAME_SINGLE_LINE = 1, SHORT_NAME_DOUBLE_LINE = 2,
+  SHORT_NAME_SINGLE_LINE = 1, SHORT_NAME_DOUBLE_LINE = 2,
 };
 extern const uint8_t USER_FONT_12[];
 extern const uint8_t USER_FONT_6x8[];
