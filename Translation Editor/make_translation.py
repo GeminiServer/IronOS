@@ -7,7 +7,10 @@ import io
 from datetime import datetime
 import sys
 import fontTables
+import sys
+BUILD_VERSION = 'v2.08.0002'
 TRANSLATION_CPP = "Translation.cpp"
+
 
 try:
     to_unicode = unicode
@@ -94,7 +97,7 @@ def getConstants():
     consants.append(('SymbolVolts', 'V'))
     consants.append(('SymbolDC', 'DC'))
     consants.append(('SymbolCellCount', 'S'))
-    consants.append(('SymbolVersionNumber', 'V2.08'))
+    consants.append(('SymbolVersionNumber', BUILD_VERSION))
     return consants
 
 
