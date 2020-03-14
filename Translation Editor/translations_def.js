@@ -267,6 +267,11 @@ var def =
       "id": "PowerLimit",
       "maxLen": 5,
       "maxLen2": 11
+    },
+    {
+      "id": "ReverseButtonTempChange",
+      "maxLen": 6,
+      "maxLen2": 16
     }
   ]
 }

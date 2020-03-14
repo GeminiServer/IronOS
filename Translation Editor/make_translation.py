@@ -8,7 +8,7 @@ from datetime import datetime
 import sys
 import fontTables
 import sys
-BUILD_VERSION = 'v2.08.0002'
+BUILD_VERSION = 'v2.08.0003'
 TRANSLATION_CPP = "Translation.cpp"
 
 

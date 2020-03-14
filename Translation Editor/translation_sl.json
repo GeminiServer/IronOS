@@ -250,6 +250,14 @@
 				"Limit"
 			],
 			"desc": "Maximum power the iron can use <Watts>"
-		}
+		},
+    "ReverseButtonTempChange": {
+      "text": "RVTCHG",
+      "text2": [
+        "Key +-",
+        "reverse?"
+      ],
+      "desc": "Reverse the tip temperatur plus minus assingment button."
+    }
 	}
 }

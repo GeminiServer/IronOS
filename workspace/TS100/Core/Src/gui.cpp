@@ -58,6 +58,8 @@ static void settings_setCalibrate(void);
 static void settings_displayCalibrate(void);
 static void settings_setCalibrateVIN(void);
 static void settings_displayCalibrateVIN(void);
+static void settings_displayReverseButtonTempChangeEnabled(void);
+static void settings_setReverseButtonTempChangeEnabled(void);
 
 // Menu functions
 static void settings_displaySolderingMenu(void);
@@ -89,6 +91,7 @@ static void settings_enterAdvancedMenu(void);
  *  Temperature Unit
  *  Display orientation
  *  Cooldown blink
+ *  Reverse Temp change buttons + - 
  *
  * Advanced
  *  Enable Power Limit
@@ -148,6 +151,7 @@ const menuitem UIMenu[] = {
  *  Scrolling Speed
  *  Temperature Unit
  *  Display orientation
+ *  Reverse Temp change buttons + - 
  *  Cooldown blink
  */
 { (const char*) SettingsDescriptions[5], { settings_setTempF }, {
@@ -158,6 +162,8 @@ const menuitem UIMenu[] = {
     settings_displayCoolingBlinkEnabled } }, /*Cooling blink warning*/
 { (const char*) SettingsDescriptions[16], { settings_setScrollSpeed }, {
     settings_displayScrollSpeed } }, /*Scroll Speed for descriptions*/
+{ (const char*) SettingsDescriptions[23], { settings_setReverseButtonTempChangeEnabled }, {
+    settings_displayReverseButtonTempChangeEnabled } }, /* Reverse Temp change buttons + - */
 { NULL, { NULL }, { NULL } }           // end of menu marker. DO NOT REMOVE
 };
 const menuitem PowerMenu[] = {
@@ -716,6 +722,15 @@ static void settings_setCalibrateVIN(void) {
     }
 #endif
   }
+}
+
+static void settings_setReverseButtonTempChangeEnabled(void) {
+  systemSettings.ReverseButtonTempChangeEnabled = !systemSettings.ReverseButtonTempChangeEnabled;
+}
+
+static void settings_displayReverseButtonTempChangeEnabled(void){
+  printShortDescription(23, 7);
+  OLED::drawCheckbox(systemSettings.ReverseButtonTempChangeEnabled);
 }
 
 static void displayMenu(size_t index) {

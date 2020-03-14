@@ -251,6 +251,14 @@
         "potenc. máx."
       ],
       "desc": "Elige el límite de potencia máxima del soldador <en vatios>"
+    },
+    "ReverseButtonTempChange": {
+      "text": "RVTCHG",
+      "text2": [
+        "Key +-",
+        "reverse?"
+      ],
+      "desc": "Reverse the tip temperatur plus minus assingment button."
     }
   }
 }

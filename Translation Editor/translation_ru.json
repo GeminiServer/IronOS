@@ -251,6 +251,14 @@
 				"мощность"
 			],
 			"desc": "Макс. мощность, которую может использовать паяльник <Ватт>"
-		}
+		},
+    "ReverseButtonTempChange": {
+      "text": "RVTCHG",
+      "text2": [
+        "Key +-",
+        "reverse?"
+      ],
+      "desc": "Reverse the tip temperatur plus minus assingment button."
+    }
 	}
 }

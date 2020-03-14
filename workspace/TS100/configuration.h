@@ -43,8 +43,12 @@
  * OLED Orientation
  * 0: Right 1:Left 2:Automatic
  */
-#define ORIENTATION_MODE          1         // Default Right
-#define IN_LEFT_HANDED_MODE       0         // Default false -  0:FALSE 1:TRUE
+#define ORIENTATION_MODE            1         // Default Right
+#define IN_LEFT_HANDED_MODE         0         // Default false -  0:FALSE 1:TRUE
+
+#define REVERSE_BUTTON_TEMP_CHANGE  1         // Change/reverse the plus and minus button assigment
+#define TEMP_CHANGE_SHORT_STEP      1         // Temp change short step +1
+#define TEMP_CHANGE_LONG_STEP       10        // Temp change long step +10
 
 /**
  * OLED Orientation Sensitivity on Automatic mode!
@@ -65,13 +69,20 @@
 #define DESCRIPTION_SCROLL_SPEED  0         // default to slow
 #define POWER_LIMIT_ENABLE        0         // Default to no power limit
 
-// 
 #ifdef MODEL_TS100
-  #define VOLTAGE_DIV             467       // Default divider from schematic
-  #define CALIBRATION_OFFSET      900       // the adc offset in uV
+  #define VOLTAGE_DIV             461       // 467 - Default divider from schematic
+  #define CALIBRATION_OFFSET      800       // 900 - Default adc offset in uV
   #define PID_POWER_LIMIT         70        // Sets the max pwm power limit
   #define POWER_LIMIT             65        // 30 watts default limit
-  #define MAX_POWER_LIMIT         65        // 
+  #define MAX_POWER_LIMIT         80        //
+  
+  /**
+   *  TIP_GAIN =  TIP_GAIN/1000 == uV per deg C constant of the tip
+   */
+  #define OP_AMP_Rf               750*1000  // 750  Kilo-ohms -> From schematic, R1
+  #define OP_AMP_Rin              2370      // 2.37 Kilo-ohms -> From schematic, R2
+  #define TIP_GAIN                405
+
 #endif
 
 #ifdef MODEL_TS80
@@ -80,4 +91,11 @@
   #define CALIBRATION_OFFSET      900       // the adc offset in uV
   #define POWER_LIMIT             24        // 24 watts default power limit
   #define MAX_POWER_LIMIT         30        // 
+
+  /**
+   *  TIP_GAIN =  TIP_GAIN/1000 == uV per deg C constant of the tip
+   */
+  #define OP_AMP_Rf               180*1000  //  180  Kilo-ohms -> From schematic, R6
+  #define OP_AMP_Rin              2000      //  2.0  Kilo-ohms -> From schematic, R3
+  #define TIP_GAIN                115
 #endif
