@@ -283,8 +283,8 @@ static void gui_solderingTempAdjust() {
       if (xTaskGetTickCount() - autoRepeatTimer
           + autoRepeatAcceleration> PRESS_ACCEL_INTERVAL_MAX) {
         if(systemSettings.ReverseButtonTempChangeEnabled) {
-          systemSettings.SolderingTemp +=TEMP_CHANGE_LONG_STEP;  // sub 10
-        } else systemSettings.SolderingTemp -=TEMP_CHANGE_LONG_STEP;  // sub 10
+          systemSettings.SolderingTemp += systemSettings.TempChangeLongStep;  // sub 10
+        } else systemSettings.SolderingTemp -= systemSettings.TempChangeLongStep;  // sub 10
         
         autoRepeatTimer = xTaskGetTickCount();
         autoRepeatAcceleration += PRESS_ACCEL_STEP;
@@ -292,23 +292,23 @@ static void gui_solderingTempAdjust() {
       break;
     case BUTTON_B_SHORT:
        if(systemSettings.ReverseButtonTempChangeEnabled) {
-        systemSettings.SolderingTemp += TEMP_CHANGE_SHORT_STEP;  // sub 10
-       } else systemSettings.SolderingTemp -= TEMP_CHANGE_SHORT_STEP;  // sub 10
+        systemSettings.SolderingTemp += systemSettings.TempChangeShortStep;  // sub 10
+       } else systemSettings.SolderingTemp -= systemSettings.TempChangeShortStep;  // sub 10
       break;
     case BUTTON_F_LONG:
       if (xTaskGetTickCount() - autoRepeatTimer
           + autoRepeatAcceleration> PRESS_ACCEL_INTERVAL_MAX) {
         if(systemSettings.ReverseButtonTempChangeEnabled) {
-          systemSettings.SolderingTemp -=TEMP_CHANGE_LONG_STEP;  // sub 10
-        } else systemSettings.SolderingTemp +=TEMP_CHANGE_LONG_STEP;  // sub 10
+          systemSettings.SolderingTemp -= systemSettings.TempChangeLongStep;  // sub 10
+        } else systemSettings.SolderingTemp += systemSettings.TempChangeLongStep;  // sub 10
         autoRepeatTimer = xTaskGetTickCount();
         autoRepeatAcceleration += PRESS_ACCEL_STEP;
       }
       break;
     case BUTTON_F_SHORT:
       if(systemSettings.ReverseButtonTempChangeEnabled) {
-        systemSettings.SolderingTemp -= TEMP_CHANGE_SHORT_STEP;  // add 10
-      } else systemSettings.SolderingTemp += TEMP_CHANGE_SHORT_STEP;  // add 10
+        systemSettings.SolderingTemp -= systemSettings.TempChangeShortStep;  // add 10
+      } else systemSettings.SolderingTemp += systemSettings.TempChangeShortStep;  // add 10
       break;
 
     default:

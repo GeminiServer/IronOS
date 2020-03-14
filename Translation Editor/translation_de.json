@@ -259,6 +259,23 @@
         "Umkehren?"
       ],
       "desc": "Temperatur-Änderungs-Tasten-Belegung Plus-Minus umkehren?"
+    },
+    "TempChangeShortStep": {
+      "text": "TCHGST",
+      "text2": [
+        "Temp-Schritt",
+        "Taste kurz?"
+      ],
+      "desc": "Temperaturwechselschritte bei kurzem Tastendruck!"
+    }
+    ,
+    "TempChangeLongStep": {
+      "text": "TCHGLT",
+      "text2": [
+        "Temp-Schritt",
+        "taste Lang?"
+      ],
+      "desc": "Temperaturwechselschritte bei langem Tastendruck!"
     }
   }
 }

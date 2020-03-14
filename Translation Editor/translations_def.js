@@ -272,6 +272,16 @@ var def =
       "id": "ReverseButtonTempChange",
       "maxLen": 6,
       "maxLen2": 16
+    },
+    {
+      "id": "TempChangeShortStep",
+      "maxLen": 8,
+      "maxLen2": 16
+    },
+    {
+      "id": "TempChangeLongStep",
+      "maxLen": 6,
+      "maxLen2": 16
     }
   ]
 }

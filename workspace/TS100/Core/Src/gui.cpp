@@ -61,6 +61,12 @@ static void settings_displayCalibrateVIN(void);
 static void settings_displayReverseButtonTempChangeEnabled(void);
 static void settings_setReverseButtonTempChangeEnabled(void);
 
+static void settings_displayTempChangeShortStep(void);
+static void     settings_setTempChangeShortStep(void);
+static void settings_displayTempChangeLongStep(void);
+static void     settings_setTempChangeLongStep(void);
+
+
 // Menu functions
 static void settings_displaySolderingMenu(void);
 static void settings_enterSolderingMenu(void);
@@ -78,6 +84,8 @@ static void settings_enterAdvancedMenu(void);
  *   Boost Mode Enabled
  *   Boost Mode Temp
  *   Auto Start
+ *   Temp change short step
+ *   Temp change long step
  *
  * Power Saving
  *   Sleep Temp
@@ -133,9 +141,11 @@ const menuitem rootSettingsMenu[] {
 
 const menuitem solderingMenu[] = {
 /*
- * Boost Mode Enabled
- *   Boost Mode Temp
- *   Auto Start
+ *  Boost Mode Enabled
+ *  Boost Mode Temp
+ *  Auto Start
+ *  Temp change short step
+ *  Temp change long step
  */
 { (const char*) SettingsDescriptions[8], { settings_setBoostModeEnabled }, {
     settings_displayBoostModeEnabled } }, /*Enable Boost*/
@@ -143,6 +153,11 @@ const menuitem solderingMenu[] = {
     settings_displayBoostTemp } }, /*Boost Temp*/
 { (const char*) SettingsDescriptions[10], { settings_setAutomaticStartMode }, {
     settings_displayAutomaticStartMode } }, /*Auto start*/
+{ (const char*) SettingsDescriptions[24], { settings_setTempChangeShortStep }, {
+    settings_displayTempChangeShortStep } }, /*Auto start*/
+{ (const char*) SettingsDescriptions[25], { settings_setTempChangeLongStep }, {
+    settings_displayTempChangeLongStep } }, /*Auto start*/
+
 { NULL, { NULL }, { NULL } }                // end of menu marker. DO NOT REMOVE
 };
 const menuitem UIMenu[] = {
@@ -151,8 +166,8 @@ const menuitem UIMenu[] = {
  *  Scrolling Speed
  *  Temperature Unit
  *  Display orientation
- *  Reverse Temp change buttons + - 
  *  Cooldown blink
+ *  Reverse Temp change buttons + - 
  */
 { (const char*) SettingsDescriptions[5], { settings_setTempF }, {
     settings_displayTempF } }, /* Temperature units*/
@@ -731,6 +746,28 @@ static void settings_setReverseButtonTempChangeEnabled(void) {
 static void settings_displayReverseButtonTempChangeEnabled(void){
   printShortDescription(23, 7);
   OLED::drawCheckbox(systemSettings.ReverseButtonTempChangeEnabled);
+}
+
+static void settings_setTempChangeShortStep(void) {
+  systemSettings.TempChangeShortStep += 1;
+  if (systemSettings.TempChangeShortStep > TEMP_CHANGE_SHORT_STEP_MAX) {
+    systemSettings.TempChangeShortStep = 1;  // loop back at TEMP_CHANGE_SHORT_STEP_MAX
+  }
+}
+static void settings_displayTempChangeShortStep(void) {
+  printShortDescription(24, 5);
+  OLED::printNumber(systemSettings.TempChangeShortStep, 3);
+}
+
+static void settings_setTempChangeLongStep(void) {
+  systemSettings.TempChangeLongStep += 10;
+  if (systemSettings.TempChangeLongStep > TEMP_CHANGE_LONG_STEP_MAX) {
+    systemSettings.TempChangeLongStep = 10;  // loop back at TEMP_CHANGE_SHORT_STEP_MAX
+  }
+}
+static void settings_displayTempChangeLongStep(void) {
+  printShortDescription(25, 5);
+  OLED::printNumber(systemSettings.TempChangeLongStep, 3);
 }
 
 static void displayMenu(size_t index) {

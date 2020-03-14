@@ -38,6 +38,9 @@ typedef struct {
   uint16_t BoostTemp;                       // Boost mode set point for the iron
   uint16_t CalibrationOffset;               // This stores the temperature offset for this tip  in the iron.
   uint8_t ReverseButtonTempChangeEnabled;   // Change the plus and minus button assigment
+  uint16_t TempChangeLongStep;              // Change the plus and minus button assigment
+  uint16_t TempChangeShortStep;             // Change the plus and minus button assigment
+  
   uint8_t pidPowerLimit;
 
   uint8_t powerLimitEnable;                 // Allow toggling of power limit without changing value

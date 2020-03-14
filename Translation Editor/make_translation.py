@@ -304,7 +304,7 @@ def writeLanguage(languageCode, defs, f):
     obj = lang['menuOptions']
     f.write(to_unicode("const char* SettingsDescriptions[] = {\n"))
 
-    maxLen = 25
+    maxLen = 27
     for mod in defs['menuOptions']:
         eid = mod['id']
         if 'feature' in mod:
@@ -392,7 +392,7 @@ def writeLanguage(languageCode, defs, f):
     obj = lang['menuOptions']
     f.write(to_unicode("const char* SettingsShortNames[][2] = {\n"))
 
-    maxLen = 25
+    maxLen = 27
     for mod in defs['menuOptions']:
         eid = mod['id']
         if 'feature' in mod:
@@ -422,7 +422,7 @@ def writeLanguage(languageCode, defs, f):
         to_unicode("const char* SettingsMenuEntries[" + str(len(obj)) +
                    "] = {\n"))
 
-    maxLen = 25
+    maxLen = 27
     for mod in defs['menuGroups']:
         eid = mod['id']
         f.write(to_unicode("  /* " + eid.ljust(maxLen)[:maxLen] + " */ "))
@@ -439,7 +439,7 @@ def writeLanguage(languageCode, defs, f):
         to_unicode("const char* SettingsMenuEntriesDescriptions[" +
                    str(len(obj)) + "] = {\n"))
 
-    maxLen = 25
+    maxLen = 27
     for mod in defs['menuGroups']:
         eid = mod['id']
         f.write(to_unicode("  /* " + eid.ljust(maxLen)[:maxLen] + " */ "))

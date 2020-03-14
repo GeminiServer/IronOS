@@ -49,6 +49,9 @@
 #define REVERSE_BUTTON_TEMP_CHANGE  1         // Change/reverse the plus and minus button assigment
 #define TEMP_CHANGE_SHORT_STEP      1         // Temp change short step +1
 #define TEMP_CHANGE_LONG_STEP       10        // Temp change long step +10
+#define TEMP_CHANGE_SHORT_STEP_MAX  50         // Temp change short step +1
+#define TEMP_CHANGE_LONG_STEP_MAX   100        // Temp change long step +10
+
 
 /**
  * OLED Orientation Sensitivity on Automatic mode!
@@ -61,12 +64,12 @@
  * Detailed idle screen (off for first time users)
  */
 #define DETAILED_SOLDERING        1         // 0: Disable 1: Enable - Default 0
-#define DETAILED_IDLE             1         // 0: Disable 1: Enable - Default 0
+#define DETAILED_IDLE             0         // 0: Disable 1: Enable - Default 0
 
 
 #define CUT_OUT_SETTING           0         // default to no cut-off voltage (or 18W for TS80)
 #define TEMPERATURE_INF           0         // default to 0
-#define DESCRIPTION_SCROLL_SPEED  0         // default to slow
+#define DESCRIPTION_SCROLL_SPEED  1         // 0: Slow 1: Fast - default to slow
 #define POWER_LIMIT_ENABLE        0         // Default to no power limit
 
 #ifdef MODEL_TS100
