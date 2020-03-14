@@ -8,7 +8,13 @@ from datetime import datetime
 import sys
 import fontTables
 import sys
-BUILD_VERSION = 'v2.08.0003'
+
+# To cause no confusion with the Original firmware version of TS100,
+# which actually has the latest firmware version 2.18
+# Lets go ahead start with version 2.20.0001 BETA
+# Version String: xx.yy.zzzz TAG --> x:Major y:Minor z:Build TAG: REL | BETA | ALPHA
+BUILD_VERSION = 'v2.20.0001 BETA'
+
 TRANSLATION_CPP = "Translation.cpp"
 
 

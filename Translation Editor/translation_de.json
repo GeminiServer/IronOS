@@ -263,7 +263,7 @@
     "TempChangeShortStep": {
       "text": "TCHGST",
       "text2": [
-        "Temp-Schritt",
+        "T. Schritt",
         "Taste kurz?"
       ],
       "desc": "Temperaturwechselschritte bei kurzem Tastendruck!"
@@ -272,8 +272,8 @@
     "TempChangeLongStep": {
       "text": "TCHGLT",
       "text2": [
-        "Temp-Schritt",
-        "taste Lang?"
+        "T. Schritt",
+        "Taste Lang?"
       ],
       "desc": "Temperaturwechselschritte bei langem Tastendruck!"
     }
