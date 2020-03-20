@@ -2,6 +2,7 @@
 	"languageCode": "EN",
 	"languageLocalName": "English",
 	"cyrillicGlyphs": false,
+	"tempUnitFahrenheit": true,
 	"messages": {
 		"SettingsCalibrationDone": "Calibration done!",
 		"SettingsCalibrationWarning": "Please ensure the tip is at room temperature before continuing!",
@@ -252,29 +253,29 @@
 			],
 			"desc": "Maximum power the iron can use <Watts>"
 		},
-    "ReverseButtonTempChange": {
-      "text": "RVTCHG",
-      "text2": [
-        "Key +-",
-        "reverse?"
-      ],
-      "desc": "Reverse the tip temperatur plus minus assingment button."
-    },
-    "TempChangeShortStep": {
-      "text": "TCHGST",
-      "text2": [
-        "Temp change",
-        "short?"
-      ],
-      "desc": "Temp change steps on short button press!"
-    },
-    "TempChangeLongStep": {
-      "text": "TCHGLT",
-      "text2": [
-        "Temp change",
-        "long?"
-      ],
-      "desc": "Temp change steps on long button press!"
-    }
+		"ReverseButtonTempChange": {
+			"text": "RVTCHG",
+			"text2": [
+				"Key +-",
+				"reverse?"
+			],
+			"desc": "Reverse the tip temperature change buttons plus minus assignment."
+		},
+		"TempChangeShortStep": {
+			"text": "TCHGST",
+			"text2": [
+				"Temp change",
+				"short?"
+			],
+			"desc": "Temperature change steps on short button press!"
+		},
+		"TempChangeLongStep": {
+			"text": "TCHGLT",
+			"text2": [
+				"Temp change",
+				"long?"
+			],
+			"desc": "Temperature change steps on long button press!"
+		}
 	}
 }
