@@ -12,7 +12,7 @@
  * Default soldering temp is 320.0 C
  * Temperature the iron sleeps at - default 150.0 C
  */
-#define SOLDERING_TEMP           320        // Default soldering temp is 320.0 °C
+#define SOLDERING_TEMP           300        // Default soldering temp is 320.0 °C
 #define SLEEP_TEMP               150        // Default sleep temperature
 #define BOOST_TEMP               420        // Default boost temp. 
 #define BOOST_MODE_ENABLED       1          // 0: Disable 1: Enable
@@ -20,13 +20,13 @@
 /**
  * Blink the temperature on the cooling screen when its > 50C 
  */
-#define COOLING_TEMP_BLINK       0          // 0: Disable 1: Enable
+#define COOLING_TEMP_BLINK       1          // 0: Disable 1: Enable
 
 /**
  * How many seconds/minutes we wait until going to sleep/shutdown.
  * Values -> SLEEP_TIME * 10; i.e. 5*10 = 50 Seconds! 
  */
-#define SLEEP_TIME                5         // x10 Seconds
+#define SLEEP_TIME               60         // x10 Seconds
 #define SHUTDOWN_TIME            10         // Minutes
 
 /**
@@ -43,13 +43,13 @@
  * OLED Orientation
  * 
  */
-#define ORIENTATION_MODE            0         // 0: Right 1:Left 2:Automatic - Default right
-#define REVERSE_BUTTON_TEMP_CHANGE  0         // 0:Default 1:Reverse - Reverse the plus and minus button assigment for temperatur change
+#define ORIENTATION_MODE            1         // 0: Right 1:Left 2:Automatic - Default right
+#define REVERSE_BUTTON_TEMP_CHANGE  1         // 0:Default 1:Reverse - Reverse the plus and minus button assigment for temperatur change
 
 /**
  * Temp change settings
  */
-#define TEMP_CHANGE_SHORT_STEP      1         // Default temp change short step +1
+#define TEMP_CHANGE_SHORT_STEP      5         // Default temp change short step +1
 #define TEMP_CHANGE_LONG_STEP       10        // Default temp change long step +10
 #define TEMP_CHANGE_SHORT_STEP_MAX  50        // Temp change short step MAX value
 #define TEMP_CHANGE_LONG_STEP_MAX   100       // Temp change long step MAX value
@@ -71,7 +71,7 @@
 
 #define CUT_OUT_SETTING           0         // default to no cut-off voltage (or 18W for TS80)
 #define TEMPERATURE_INF           0         // default to 0
-#define DESCRIPTION_SCROLL_SPEED  0         // 0: Slow 1: Fast - default to slow
+#define DESCRIPTION_SCROLL_SPEED  1         // 0: Slow 1: Fast - default to slow
 #define POWER_LIMIT_ENABLE        0         // 0: Disable 1: Enable - Default disabled power limit
 
 #ifdef MODEL_TS100
